@@ -267,7 +267,7 @@ Desde el punto de vista teórico y sectorial, el modelo de Allpatek se fundament
 
 ## 1.2. Solution Profile
 
-Esta sección describe la base estratégica de Allpatek. A partir de un análisis riguroso de la literatura académica sobre acceso a mercado, agricultura por contrato y riesgo climático en el Perú, se aplica el marco de trabajo Lean UX para definir las hipótesis, suposiciones y el Canvas del producto, alineando el desarrollo de la plataforma con las necesidades reales de agricultores y compradores.
+En esta sección se fundamenta el diseño estratégico de Allpatek a partir del diagnóstico de las fricciones comerciales y los riesgos estructurales que afectan al agro peruano. Para ello, la arquitectura de la solución parte del marco conceptual de la literatura académica sobre acceso a mercados, modelos de agricultura por contrato y mitigación del riesgo climático en unidades de producción familiar. Sobre esta base analítica se implementa la metodología Lean UX, la cual permite articular las suposiciones del negocio, formular hipótesis de valor contrastables y estructurar el Canvas del producto. Este enfoque garantiza que las funcionalidades de la plataforma respondan directamente a los puntos de dolor detectados tanto en las familias agricultoras como en los compradores urbanos y corporativos.
 
 ### 1.2.1. Antecedentes y problemática
 
