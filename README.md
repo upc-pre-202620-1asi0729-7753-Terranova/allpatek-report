@@ -371,6 +371,23 @@ Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y r
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+Entre las principales estrategias y tácticas que ejecutaremos como startup son las siguientes:
+
+Por un lado, estas son las estrategias preliminares:
+
+* Incursión en zonas agrícolas a través de alianzas con asociaciones de agricultores, gremios agrarios y organizaciones no gubernamentales del sector rural.
+* Capacitación tecnológica gradual mediante material multimedia diseñado para agricultores con conocimientos digitales limitados.
+* Optimización de la asistencia al agricultor utilizando medios de contacto directos como llamadas telefónicas, WhatsApp y soporte dentro de la plataforma.
+* Generación de utilidad inmediata, brindando notificaciones automáticas de avance de cultivo, formalización legal instantánea del contrato (vía n8n) y funciones sin costo inicial.
+
+Por otro lado, estas son nuestras tácticas específicas:
+
+* Campañas de referidos para incentivar la difusión entre los mismos agricultores y compradores urbanos.
+* Material educativo y guías de uso para motivar la adopción frecuente de la aplicación, tanto en el catálogo de parcelas como en el panel de agricultor.
+* Adaptación regional del sistema, empleando modismos locales y asistencia personalizada según la zona (sierra, costa).
+* Presencia en eventos del sector, tales como ferias agropecuarias y convenciones agrícolas.
+* Acercamiento a técnicos agropecuarios, cooperativas y asociaciones de productores para posicionar a Allpatek frente a alternativas como Agromercado (gratuita pero sin automatización) o Procesadora Perú (sin canal digital de autoservicio).
+
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
 ### 2.2.2. Registro de entrevistas
