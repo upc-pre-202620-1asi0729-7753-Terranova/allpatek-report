@@ -410,8 +410,25 @@ Para reforzar la comprensión rápida sin saturar de texto la pantalla, cada eti
 * **Color Ámbar + "Observado":** Indicador visual de atención o revisión necesaria.
 
 
-
 ### 4.2.3. SEO Tags and Meta Tags
+
+Para optimizar la visibilidad en motores de búsqueda (SEO) y asegurar una presentación clara y uniforme al compartir enlaces externos, se estructuran los metadatos principales de la plataforma ALLPATEK. Esta configuración diferencia las secciones públicas de la Landing Page frente a los módulos privados de la Web Application, aplicando directivas específicas para resguardar la privacidad de la información.
+
+| Tipo de Experiencia | Sección / Módulo | Title | Meta Description | Meta Keywords | Meta Author / Robots |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Landing Page** | Inicio (*Hero Section*) | Producción Agrícola Garantizada | Conectamos compradores B2B con agricultores mediante parcelas gestionadas, pagos protegidos y trazabilidad en tiempo real. | agro as a service, trazabilidad, parcelas, custodia escrow | **Author:** Equipo ALLPATEK |
+| **Landing Page** | Garantía de Pagos por Hitos | Custodia Escrow | Liberación gradual de fondos respaldada por la verificación en campo mediante evidencias GPS e inspección de cosechas. | garantia de pagos, pago por hitos, verificacion en campo | **Author:** Equipo ALLPATEK |
+| **Landing Page** | Planes de Producción | Planes de Producción | Escoja la escala de cultivo y las herramientas de trazabilidad ideales para su abastecimiento: Básico, Pro y Empresarial. | planes de produccion, suscripcion agricola, contratos PDF | **Author:** Equipo ALLPATEK |
+| **Landing Page** | Contacto y Propuesta Técnica | Propuesta Técnica | Recibe el desglose de costos y el modelo de custodia financiera en tu correo. Cotiza parcelas e inicia tu proyecto. | cotizar parcela, propuesta tecnica, contacto B2B | **Author:** Equipo ALLPATEK |
+| **Web Application** | Gestión de Parcelas | Catálogo de Parcelas | Explora y administra las opciones disponibles, filtrando por tipo de suelo, zona geográfica y capacidad de cultivo. | gestion de parcelas, catálogo de terrenos, hectáreas | **Robots:** noindex, nofollow<br>**Author:** Equipo ALLPATEK |
+| **Web Application** | Detalle de Contratación | Detalle y Plan de Pagos | Consulta la información técnica del terreno, el plan de desembolsos por hitos en custodia y datos del productor. | detalle de parcela, plan de pagos, contratación | **Robots:** noindex, nofollow<br>**Author:** Equipo ALLPATEK |
+| **Web Application** | Registrar Nueva Parcela | Registro de Parcela | Formula y da de alta un nuevo terreno ingresando datos técnicos, geolocalización BPO y evidencias fotográficas. | registrar parcela, geolocalizacion, alta de terreno | **Robots:** noindex, nofollow<br>**Author:** Equipo ALLPATEK |
+| **Web Application** | Mis Contratos | Contratos y Alquileres | Gestión integral de tus acuerdos de arrendamiento, montos custodiados y fechas de vigencia de servicios. | acuerdos de alquiler, valor custodiado, contratos activos | **Robots:** noindex, nofollow<br>**Author:** Equipo ALLPATEK |
+| **Web Application** | Firma de Contrato | Firma Digital Escrow | Revisa las cláusulas del acuerdo, valida el plan de pagos e ingresa tu firma digital para activar la custodia. | firma de contrato, autenticacion digital, cláusulas | **Robots:** noindex, nofollow<br>**Author:** Equipo ALLPATEK |
+| **Web Application** | Monitoreo Climático | Alertas en Tiempo Real | Panel de seguimiento ambiental con datos de temperatura, humedad, viento y recomendaciones asistidas por inteligencia artificial. | monitoreo climatico, alertas agronómicas, riesgo de heladas | **Robots:** noindex, nofollow<br>**Author:** Equipo ALLPATEK |
+| **Web Application** | Perfil de Usuario | Perfil y Datos | Revisa, valida y actualiza tus datos personales, documento de identidad, teléfono y rol activo en la plataforma. | perfil de usuario, datos personales, cuenta | **Robots:** noindex, nofollow<br>**Author:** Equipo ALLPATEK |
+
+
 ### 4.2.4. Searching Systems
 ### 4.2.5. Navigation Systems
 
