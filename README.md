@@ -348,7 +348,29 @@ Esta arquitectura visual asegura la compatibilidad directa con los *breakpoints*
 * **Comportamiento Adaptativo en Figma:** Uso de reglas de restricción (*constraints*) y reescalado de contenedores para que componentes críticos como las tarjetas de parcelas, tablas de hitos y paneles financieros mantengan una proporción adecuada en cualquier monitor.
 
 ## 4.2. Information Architecture
+
+En esta sección se detallan las decisiones y el sustento que estructuran la organización del contenido en la landing page y en las aplicaciones web y móviles de ALLPATEK. La arquitectura de información propuesta busca minimizar la carga cognitiva y facilitar la navegabilidad, asegurando que los usuarios exploren la plataforma con intuición y encuentren rápidamente los módulos de contratación, seguimiento de parcelas y Bóveda Escrow. Para lograr una experiencia fluida y accesible
+
 ### 4.2.1. Organization Systems
+
+En esta sección se determinan las estructuras y criterios para agrupar y presentar la información en la plataforma **ALLPATEK**, facilitando que tanto los agricultores como los compradores B2B reconozcan el flujo visual y operen con claridad.
+
+#### 1. Formas de Organización Visual del Contenido
+
+**Organización Jerárquica:** Se aplica en la página principal pública y en los paneles de control de cada usuario. Se utilizan tamaños de letra, colores destacados y tarjetas visuales para darle prioridad a los datos más importantes, como la descripción del servicio, los montos retenidos en garantía y el estado actual de los contratos.
+* **Organización Secuencial (Paso a Paso):** Se utiliza en los procesos que requieren cumplir ordenadamente con varios pasos. Esto incluye el registro de parcelas, la creación y firma de contratos agrícolas, y la liberación por etapas de los pagos conforme se aprueban las evidencias del trabajo en el campo.
+* **Organización Matricial:** Se aplica en las tablas comparativas de terrenos y ofertas. Permite visualizar y comparar varios datos a la vez en una misma pantalla, como el nivel de riesgo del clima, el rendimiento proyectado, el costo por hectárea y el tipo de riego disponible.
+
+#### 2. Esquemas de Categorización del Contenido
+
+* **Por Tipo de Usuario (Audiencia):** Es la forma principal de organizar la aplicación. Al iniciar sesión, el sistema adapta el menú según el perfil de la persona:
+  * *Vista del Agricultor:* Muestra herramientas para publicar hectáreas, subir fotos del avance del cultivo y revisar los pagos recibidos por cada hito cumplido.
+  * *Vista del Comprador B2B:* Muestra herramientas para explorar el catálogo de terrenos, simular contratos de producción y hacer seguimiento a los pagos en custodia.
+* **Por Secciones o Módulos Funcionales:** La información se agrupa en menús conceptuales sencillos: *Mis Contratos*, *Fondos en Garantía*, *Seguimiento y Evidencias*, *Alertas del Clima* y *Fichas Técnicas*.
+* **Por Orden Cronológico:** Se aplica para ordenar el historial de pagos, el registro de evidencias con fecha y hora, y el historial de avisos meteorológicos.
+* **Por Orden Alfabético:** Se utiliza como criterio secundario para ordenar listas extensas, como catálogos de insumos, tipos de cultivos y regiones del país.
+
+  
 ### 4.2.2. Labeling Systems
 ### 4.2.3. SEO Tags and Meta Tags
 ### 4.2.4. Searching Systems
