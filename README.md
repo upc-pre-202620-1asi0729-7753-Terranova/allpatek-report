@@ -337,6 +337,16 @@ Optimizada para reducir la fatiga visual (*Dark Mode*), mantener una jerarquía 
 
 ### 4.1.2. Web Style Guidelines
 
+Esta sección detalla los estándares visuales y de interacción aplicados al diseño de la plataforma web. Para garantizar una experiencia fluida y consistente en cualquier resolución, la interfaz de la landing page y el dashboard fueron diseñados en Figma aplicando principios de maquetación *responsive* estructurados mediante sistemas de rejilla adaptativa (*grid layouts*) y contenedores flexibles (*auto-layout*).
+
+Esta arquitectura visual asegura la compatibilidad directa con los *breakpoints* estándar del mercado (pantallas de escritorio, laptops y tabletas), permitiendo que los elementos se reorganicen de forma intuitiva sin perder jerarquía ni legibilidad.
+
+* **Estructura y Grid Responsive:** Maquetación basada en una rejilla adaptativa de 12 columnas (Tailwind CSS) con márgenes y canaletas (*gutters*) proporcionales que se ajustan según el ancho de pantalla.
+* **Layout Shell del Dashboard:**
+  * **Sidebar Fijo / Colapsable:** Navegación lateral de 260px que se adapta o repliega según el espacio disponible para priorizar el área de trabajo.
+  * **Header Superior:** Barra de contexto que mantiene fijos el perfil del usuario, el rol activo y el centro de notificaciones.
+* **Comportamiento Adaptativo en Figma:** Uso de reglas de restricción (*constraints*) y reescalado de contenedores para que componentes críticos como las tarjetas de parcelas, tablas de hitos y paneles financieros mantengan una proporción adecuada en cualquier monitor.
+
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems
 ### 4.2.2. Labeling Systems
