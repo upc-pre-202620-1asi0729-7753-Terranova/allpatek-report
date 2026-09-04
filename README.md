@@ -259,7 +259,116 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
+
+Comprender el entorno competitivo resulta clave para el posicionamiento de cualquier modelo de negocio digital. En esta sección se realiza un análisis de los competidores de Allpatek, tanto directos como indirectos, evaluando las estrategias que aplican, así como sus principales fortalezas y debilidades frente a la propuesta de agricultura por contrato automatizada del negocio.
+
 ### 2.1.1. Análisis competitivo
+
+Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y riesgos en el mercado, así como para posicionar a Allpatek de manera estratégica. Este análisis permite comprender cómo los competidores atienden las necesidades de los clientes, identificar vacíos en el mercado y destacar nuestra solución a través de ventajas diferenciadoras. También facilita la elaboración de estrategias más efectivas de marketing, precios y distribución, garantizando una propuesta de valor sólida y sostenible.
+
+<table>
+  <tr>
+    <td colspan="6"><h3>Competitive Analysis Landscape</h3></td>
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="2"><b>¿Por qué llevar a cabo este análisis?</b></td>
+    <td colspan="4">Conocer cómo otras iniciativas peruanas y regionales abordan la conexión entre productores agrícolas y compradores/mercados, para identificar en qué se diferencia Allpatek de la oferta actual y qué riesgos de sustitución enfrenta frente a alternativas gratuitas, tradicionales o extranjeras.</td>
+  </tr>
+  <tr>
+    <td colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2"><i></i></td>
+    <td><b>Allpatek</b></td>
+    <td><b>Agromercado (MIDAGRI)</b></td>
+    <td><b>VeryAgro</b></td>
+    <td><b>Procesadora Perú — Siembra por Contrato</b></td>
+  </tr>
+  <tr>
+    <td rowspan="2" class="sub"><b>Perfil</b></td>
+    <td>Overview</td>
+    <td>Plataforma que permite a compradores contratar por adelantado una parcela y el trabajo de un agricultor por una temporada, con contrato y pagos automatizados.</td>
+    <td>Sistema del Ministerio de Desarrollo Agrario y Riego que busca facilitar negocios directos y reducir brechas de información entre productores y compradores.</td>
+    <td>Marketplace español (fundado en 2021) que conecta agricultores con proveedores de insumos agrícolas (fertilizantes, riego, maquinaria); anunció su ingreso a Perú como primer mercado de expansión en Latinoamérica.</td>
+    <td>Empresa agroexportadora que aplica "siembra por contrato": compra anticipada de toda la cosecha a un precio mínimo garantizado, a más de 1,000 agricultores de Lambayeque, La Libertad y Piura.</td>
+  </tr>
+  <tr>
+    <td>Ventaja competitiva<br>¿Qué valor ofrece a los clientes?</td>
+    <td>Automatización end-to-end del contrato (vía n8n) e ingreso garantizado por labor, no por resultado de cosecha.</td>
+    <td>Respaldo institucional/estatal y alcance nacional gratuito.</td>
+    <td>Catálogo amplio de proveedores (+60) y alta recurrencia de clientes reportada.</td>
+    <td>Mercado asegurado y precio mínimo garantizado, con trayectoria comprobada a gran escala.</td>
+  </tr>
+  <tr>
+    <td rowspan="2" class="sub"><b>Perfil de Marketing</b></td>
+    <td>Mercado objetivo</td>
+    <td>Agricultores familiares de pequeña escala + compradores urbanos (familias, restaurantes, negocios de alimentos).</td>
+    <td>Productores y compradores agrarios a nivel nacional.</td>
+    <td>Agricultores que compran insumos (no vinculado a venta de cosecha).</td>
+    <td>Agricultores de cultivos específicos (frijol de palo, entre otros) en el norte del país, a escala agroexportadora.</td>
+  </tr>
+  <tr>
+    <td>Estrategias de marketing</td>
+    <td><i>[Completar]</i></td>
+    <td>Difusión institucional y gubernamental a través de canales del sector agrario.</td>
+    <td>Estrategia de expansión regional hacia Latinoamérica, reforzando su equipo comercial y mejorando continuamente la plataforma digital.</td>
+    <td>Relación directa y de largo plazo con asociaciones de productores agrícolas.</td>
+  </tr>
+  <tr>
+    <td rowspan="3" class="sub"><b>Perfil de Producto</b></td>
+    <td>Productos & Servicios</td>
+    <td>Catálogo de parcelas, contratación y pago digital de temporada, generación automática de contrato, notificaciones de avance, panel de agricultor, calificación bidireccional.</td>
+    <td>Sistema de intermediación de información comercial entre productores y compradores.</td>
+    <td>Marketplace de insumos agrícolas.</td>
+    <td>Compra anticipada de cosecha bajo contrato de precio fijo.</td>
+  </tr>
+  <tr>
+    <td>Precios & Costos</td>
+    <td><i>[Completar: modelo de comisión — a definir en Cap. III/IV]</i></td>
+    <td>Gratuito (servicio público).</td>
+    <td>No reportado públicamente.</td>
+    <td>Precio "refugio" fijado por contrato, no público.</td>
+  </tr>
+  <tr>
+    <td>Canales de distribución<br>(Web y/o Móvil)</td>
+    <td>Web responsive (Landing Page + Web Application).</td>
+    <td>Plataforma web del Estado.</td>
+    <td>Plataforma web.</td>
+    <td>Gestión directa/comercial, sin canal digital de autoservicio.</td>
+  </tr>
+  <tr>
+    <td rowspan="5" class="sub"><b>Análisis SWOT</b></td>
+  </tr>
+  <tr>
+    <td>Fortalezas</td>
+    <td>Automatización completa del ciclo contractual; modelo que traslada el riesgo climático y de mercado fuera del agricultor; dos segmentos con necesidades complementarias y sustento académico (Fan & Salas Garcia, 2018; Otsuka et al., 2016).</td>
+    <td>Respaldo institucional, alcance nacional, gratuito para el usuario.</td>
+    <td>Modelo ya validado en España y Portugal; alta recurrencia de clientes reportada.</td>
+    <td>Modelo de contrato probado a gran escala (+1,000 agricultores); relación de confianza consolidada con productores.</td>
+  </tr>
+  <tr>
+    <td>Debilidades</td>
+    <td>Startup nueva, sin base de usuarios ni reputación instalada; depende de la adopción digital de un segmento con acceso a internet limitado.</td>
+    <td>No ofrece automatización contractual ni de pagos; solo facilita el contacto informativo entre partes.</td>
+    <td>Enfocado en insumos agrícolas, no en la venta o contratación de cosecha; aún no opera en Perú.</td>
+    <td>Sin canal digital de autoservicio; gestión manual/comercial no accesible para compradores urbanos pequeños.</td>
+  </tr>
+  <tr>
+    <td>Oportunidades</td>
+    <td>Ausencia de una plataforma digital peruana que aplique agricultura por contrato de forma automatizada; el interés de actores internacionales valida la categoría.</td>
+    <td>Ampliar funcionalidades digitales dado el interés estatal creciente en trazabilidad agrícola.</td>
+    <td>Expansión hacia Latinoamérica con Perú como primer destino desde 2027.</td>
+    <td>Digitalizar su proceso de contratación podría ampliar su alcance a nuevos productores y compradores.</td>
+  </tr>
+  <tr>
+    <td>Amenazas</td>
+    <td>Iniciativas estatales gratuitas como sustituto de bajo costo; empresas agroexportadoras con escala ya consolidada podrían replicar un modelo digital similar.</td>
+    <td>Bajo incentivo para innovar al ser un servicio público sin fines de lucro.</td>
+    <td>Entrada tardía al mercado peruano frente a soluciones ya establecidas.</td>
+    <td>Nuevos entrantes digitales (como Allpatek) podrían ofrecer una experiencia más accesible y transparente para compradores pequeños.</td>
+  </tr>
+</table>
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
 ## 2.2. Entrevistas
