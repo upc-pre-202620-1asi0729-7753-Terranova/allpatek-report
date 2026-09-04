@@ -289,6 +289,52 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 ## 4.1. Style Guidelines
 ### 4.1.1. General Style Guidelines
+
+
+
+
+#### Branding e Identidad Visual
+* **Concepto:** Conectar la tecnología financiera moderna con la solidez de la tierra. La marca refleja seguridad en la custodia de pagos (*escrow*), profesionalismo en acuerdos B2B y trazabilidad agrícola directa.
+* **Logotipo:** Tipografía sans-serif geométrica acompañada de un isotipo de hoja y acentos dorados, simbolizando la unión entre el crecimiento orgánico del campo y el valor económico protegido.
+
+#### Paleta de Colores (Colors)
+El sistema cromático se divide estratégicamente en dos entornos para responder a los objetivos de cada interfaz: la atracción/conversión en la web pública y la eficiencia operativa en el dashboard privado.
+
+#### A. Paleta de la Landing Page (Sitio Web Público)
+Diseñada para captar la atención, comunicar modernidad y guiar al usuario hacia la conversión.
+
+* **Verde Menta (`#34D399`):** Utilizado para acentos visuales, iconos destacados e insignias de valor.
+* **Amarillo Vivo (`#FACC15`):** Reservado para botones de llamada a la acción principal (CTA) y destacados de alta prioridad.
+* **Verde Profundo (`#0F2A1D`):** Funciona como tono base para tarjetas de servicios, contenedores y contraste con el fondo.
+* **Verde Oliva / Neutro (`#626751`):** Aplicado en bloques secundarios y delimitaciones de sección.
+* **Gris Claro (`#E4E4E4`):** Color neutro para fondos de contraste y lectura limpia de bloques extensos.
+
+#### B. Paleta de la Aplicación Web (Dashboard / App Interna)
+Optimizada para reducir la fatiga visual (*Dark Mode*), mantener una jerarquía financiera clara y facilitar el uso prolongado.
+
+* **Verde Bosque Oscuro (`#0F1E13`):** Fondo principal de la aplicación que proporciona una estética moderna y profesional.
+* **Verde Esmeralda (`#2D6A4F`):** Identifica el estado activo en la barra de navegación lateral (Sidebar), bordes de validación y botones secundarios.
+* **Dorado Maíz (`#E9C46A`):** Color de acento de alta jerarquía usado en montos retenidos en *Escrow*, botones de acción principal y aprobaciones.
+* **Gris Neutral (`#E4E4E4`):** Utilizado para la tipografía principal, etiquetas de formularios e íconos operativos.
+
+#### Tipografía (Typography)
+* **Títulos y Encabezados:** Se adopta **Fjalla One**, una tipografía *display* sans-serif condensada que otorga personalidad, fuerza y un carácter industrial/agrícola a los titulares principales de la plataforma.
+* **Cuerpo de Texto y Datos:** Se utiliza **Inter** (o **Roboto** como alternativa secundaria) por su excelente legibilidad en pantallas de alta densidad, facilitando la lectura de coordenadas GPS, tablas de hitos financieros y formularios técnicos.
+
+#### Espaciado y Rejilla (Spacing & Layout)
+* **Sistema de 8px:** Todos los márgenes internos (*padding*) y externos (*margin*) siguen múltiplos de 8px (8, 16, 24, 32, 48px) para mantener un ritmo visual armónico.
+* **Efecto Glassmorphism:** Implementación de tarjetas semi-transparentes (`rgba(255, 255, 255, 0.05)`) con bordes sutiles y desenfoque de fondo (`backdrop-blur-md`) para estructurar la información sin recargar la pantalla.
+
+#### Tono de Comunicación y Lenguaje (Voice & Tone)
+
+| Dimensión | Posición | Justificación |
+| :--- | :--- | :--- |
+| **Divertido / Serio** | **Serio (80%)** | Maneja contratos de arrendamiento y fondos monetarios en custodia, por lo que las instrucciones y estados deben ser precisos y libres de ambigüedades. |
+| **Formal / Casual** | **Profesional equilibrado (60% Formal)** | Se comunica de forma accesible con el agricultor en el campo, pero manteniendo la estructura técnica que exige un comprador o empresa B2B. |
+| **Respetuoso / Irreverente** | **Respetuoso (100%)** | Muestra empatía ante los riesgos climáticos del agricultor y la inversión del comprador, ofreciendo siempre soporte claro y guiado. |
+| **Entusiasta / Sereno** | **Sereno (75%)** | Transmite calma frente a situaciones de alerta (ej: heladas o demoras) presentando soluciones claras mediante la automatización de avisos. |
+
+
 ### 4.1.2. Web Style Guidelines
 
 ## 4.2. Information Architecture
