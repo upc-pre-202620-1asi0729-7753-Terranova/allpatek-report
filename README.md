@@ -288,10 +288,10 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
+
+Esta sección establece los lineamientos visuales y de comunicación que garantizan la coherencia de ALLPATEK en todos sus puntos de contacto. Con el fin de construir una plataforma intuitiva y confiable para el sector agrícola, se define un sistema de diseño centralizado que abarca desde la identidad de marca, tipografía y paleta de colores dual, hasta las pautas específicas para las interfaces web.
+
 ### 4.1.1. General Style Guidelines
-
-
-
 
 #### Branding e Identidad Visual
 * **Concepto:** Conectar la tecnología financiera moderna con la solidez de la tierra. La marca refleja seguridad en la custodia de pagos (*escrow*), profesionalismo en acuerdos B2B y trazabilidad agrícola directa.
