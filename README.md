@@ -372,6 +372,45 @@ En esta sección se determinan las estructuras y criterios para agrupar y presen
 
   
 ### 4.2.2. Labeling Systems
+
+En esta sección se definen las convenciones de etiquetado de la plataforma **ALLPATEK**. Para evitar la confusión de los usuarios, se emplean términos breves, claros y de uso común, reduciendo la cantidad de palabras por etiqueta y manteniendo una asociación directa entre la palabra elegida y la acción o contenido representado.
+
+#### 1. Etiquetas de Navegación Principal
+Consisten en nombres breves para las secciones globales del menú, orientando al usuario de forma inmediata sobre el módulo en el que se encuentra:
+
+* **Parcelas:** Gestión, registro y catálogo de terrenos agrícolas.
+* **Contratos:** Creación, revisión y firma de acuerdos de producción.
+* **Garantía:** Módulo de custodia de fondos (*Escrow*) y estado de pagos.
+* **Evidencias:** Registro de fotos, videos y datos de campo reportados.
+* **Alertas:** Avisos meteorológicos y notificaciones de riesgo.
+
+#### 2. Etiquetas de Estado de Procesos
+Representan el progreso de un contrato o pago mediante palabras clave asociadas a colores estandarizados para reflejar su condición:
+
+* **En Custodia:** Fondos depositados en la garantía a la espera de validación.
+* **Aprobado:** Hito o evidencia validada con éxito.
+* **Liberado:** Pago transferido al agricultor tras cumplir el hito.
+* **Observado:** Evidencia que requiere corrección o sustento adicional.
+
+#### 3. Etiquetas de Acción (Llamados a la Acción / Botones)
+Utilizan verbos precisos en infinitivo para que el usuario entienda exactamente la consecuencia de su interacción:
+
+* **Registrar Parcela:** Inicia el formulario de alta de terreno.
+* **Firmar Contrato:** Confirma el acuerdo formal entre las partes.
+* **Subir Evidencia:** Abre la cámara o la carga de archivos de campo.
+* **Aprobar Hito:** Autoriza la conformidad de una etapa cumplida.
+* **Descargar Ficha:** Genera el documento técnico en PDF.
+
+#### 4. Asociaciones y Simbología de Apoyo
+Para reforzar la comprensión rápida sin saturar de texto la pantalla, cada etiqueta clave se asocia a un icono reconocible y a un color representativo:
+
+* **Icono de Hoja / Terreno + "Parcelas":** Asociado al módulo de tierras.
+* **Icono de Candado / Escudo + "Garantía":** Asociado a la seguridad financiera de los fondos.
+* **Color Verde + "Aprobado":** Confirmación visual de éxito.
+* **Color Ámbar + "Observado":** Indicador visual de atención o revisión necesaria.
+
+
+
 ### 4.2.3. SEO Tags and Meta Tags
 ### 4.2.4. Searching Systems
 ### 4.2.5. Navigation Systems
