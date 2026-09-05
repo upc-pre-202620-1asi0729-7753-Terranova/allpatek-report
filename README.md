@@ -594,6 +594,10 @@ En esta sección se presentan y explican los diseños de alta fidelidad (*mock-u
 
 
 ## 4.4. Web Applications UX/UI Design
+
+Esta sección presenta la propuesta de diseño visual y de interacción desarrollada para la aplicación web de **ALLPATEK**. Se detallan los principios de diseño de interfaz (UI) y la experiencia de usuario (UX) integrados en los módulos privados de la plataforma. La propuesta abarca la diagramación de flujos de trabajo, pantallas clave, dashboard de monitoreo climático, gestión de parcelas y ejecución de contratos bajo el sistema de custodia *Escrow*, garantizando una navegación intuitiva, coherencia visual y una operativa eficiente para compradores  y productores agrícolas.
+
+
 ### 4.4.1. Web Applications Wireframes
 ### 4.4.2. Web Applications Wireflow Diagrams
 ### 4.4.3. Web Applications Mock-ups
