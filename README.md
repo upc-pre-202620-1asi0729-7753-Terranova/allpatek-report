@@ -464,6 +464,29 @@ Optimiza el análisis de riesgos ambientales en zonas de producción activas:
 
 ### 4.2.5. Navigation Systems
 
+
+Para garantizar una experiencia intuitiva y evitar que los usuarios pierdan el contexto de su ubicación dentro del producto digital, la plataforma **ALLPATEK** implementa un sistema de navegación consistente, jerárquico y adaptado al rol del usuario. Se definen mecánicas diferenciadas tanto para la navegación pública en el *Landing Page* como para la experiencia privada en la *Web Application*.
+
+#### 1. Sistemas de Navegación en el Sitio Web Estático (Landing Page)
+
+La navegación pública está orientada a la conversión y al descubrimiento progresivo del modelo de negocio *Agro-as-a-Service*:
+
+* **Navegación Global (Barra Superior / Header):** Menú horizontal fijo (*Sticky Header*) presente en todo el recorrido. Incluye enlaces directos a las secciones clave (*Servicios*, *¿Cómo funciona?*, *Testimonios*, *Planes*, *Contacto*) y un botón de llamado a la acción destacado (*Empieza Ahora* / *Iniciar Sesión*).
+* **Navegación Jerárquica y Desplazamiento Suave (*Smooth Scroll*):** Al hacer clic en las opciones del menú superior, la pantalla realiza un desplazamiento fluido directamente hacia la sección correspondiente de la misma página sin recargas innecesarias.
+* **Llamados a la Acción Contextuales (CTA Internos):** Botones estratégicos ubicados en las secciones *Hero* y de *Servicios* (*Cotizar Parcela*, *Solicitar Demo*) que redirigen al usuario directamente al formulario de propuesta técnica o al flujo de registro.
+* **Navegación de Pie de Página (*Footer*):** Ubicada al final de la página con enlaces secundarios, políticas de privacidad, datos de contacto, horarios de atención y redes sociales.
+
+#### 2. Sistemas de Navegación en la Aplicación Web (Web Application)
+
+Dentro del entorno autenticado, la navegación se estructura para facilitar el flujo operativo rápido entre la gestión de parcelas, la revisión de contratos y el seguimiento agronómico:
+
+* **Navegación Lateral (Sidebar Principal):** Panel vertical ubicado a la izquierda con los módulos centrales de la plataforma (*Mis Parcelas*, *Contratos y Alquileres*, *Bóveda de Pagos / Escrow*, *Trazabilidad y Evidencias*, *Perfil de Usuario*, *Alertas Climáticas*). El módulo activo se resalta visualmente para indicar la ubicación actual.
+* **Mapeo de Ruta (*Breadcrumbs* / Migas de Pan):** Cadena de enlaces ubicada en la parte superior del contenido principal (ej. *Inicio / Contratos y Alquileres / Firma de Contrato*). Permite al usuario regresar a niveles superiores de la jerarquía con un solo clic.
+* **Navegación contextual por Filas y Tarjetas:** En vistas como *Gestión de Parcelas* o *Mis Contratos*, las tarjetas y filas de tablas actúan como elementos navegables interactivos, permitiendo profundizar hacia el nivel de detalle (*Detalle-contratacion-parcela*) mediante botones de acción explícitos (*Ver Detalle*, *Firmar Contrato*).
+* **Flujos de Pasos Secuenciales (Navegación de Proceso / Wizar):** Para tareas complejas como la *Firma de Contrato* o el *Registro de Nueva Parcela*, se utiliza una barra de progreso paso a paso (*Datos Generales*, *Geolocalización BPO*, *Carga de Evidencias*) que evita que el usuario avance sin validar los datos previos.
+* **Barra de Acción Superior (Top Bar de Aplicación):** Incluye la barra de búsqueda rápida global, el acceso al perfil de usuario y el botón de notificaciones del sistema.
+
+
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 ### 4.3.2. Landing Page Mock-up
