@@ -544,6 +544,55 @@ Para lograr una experiencia visual limpia y profesional, se aplicaron principios
 
 ### 4.3.2. Landing Page Mock-up
 
+
+En esta sección se presentan y explican los diseños de alta fidelidad (*mock-ups*) desarrollados para la *Landing Page* de **ALLPATEK**, abarcan tanto la versión para navegadores de escritorio (*Desktop Web Browser*) como para dispositivos móviles (*Mobile Web Browser*). La propuesta gráfica materializa la arquitectura de información y la estructura de los *wireframes* previamente definidos, aplicando rigurosamente los principios de diseño visual, accesibilidad e inclusión, e integrando la identidad del *Design System* oficial de la plataforma.
+
+
+#### 1. Aplicación del Design System y Lenguaje Visual
+
+* **Paleta de Colores Agrónoma:** Se utiliza una combinación de verdes profundos (tonos corporativos de **ALLPATEK**) para proyectar solidez y naturaleza, combinados con acentos en tonos ámbar/amarillo para los botones de acción principal (CTA) y estados de alerta, garantizando un punto focal inmediato de interacción.
+* **Tipografía Escalable:** Implementación de una familia tipográfica sans-serif moderna, con una escala de pesos claramente diferenciada (*Bold* para títulos H1/H2, *Medium* para etiquetas de interfaz y *Regular* para párrafos de lectura), asegurando legibilidad en cualquier densidad de pantalla.
+* **Componentes Reutilizables:** Integración del kit de UI institucional, incluyendo botones con estados de interacción (*default, hover, active, disabled*), tarjetas (*cards*) con bordes suaves y sombras leves para dar profundidad, e iconografía vectorial cohesiva para representar métricas y servicios.
+
+
+
+#### 2. Principios de Diseño, Accesibilidad y Diseño Inclusivo (WCAG)
+
+* **Relación de Contraste:** Todos los elementos de texto y componentes interactivos cumplen con el estándar WCAG AAA, asegurando un contraste mínimo de $4.5:1$ para texto regular y $3:1$ para títulos y elementos gráficos sobre fondos claros u oscuros.
+* **Adaptabilidad Responsive:**
+  * **Desktop:** Layout de 12 columnas con márgenes laterales amplios que aprovechan la pantalla panorámica sin dispersar la lectura.
+  * **Mobile:** Layout de 4 columnas con apilamiento vertical fluido. Los menús horizontales se contraen en un cajón desplegable (*Drawer*) de fácil alcance táctil.
+* **Zona Táctil Óptima (*Thumb Zone*):** En la versión *Mobile*, los botones principales y enlaces de conversión están ubicados en la franja central e inferior de la pantalla con una superficie interactiva mínima de $48 \times 48\text{px}$, facilitando el uso con una sola mano.
+
+
+
+#### 3. Presentación de los Mock-ups de Alta Fidelidad
+
+> **[Figura 4.2: Mock-up de la Landing Page de ALLPATEK - Vista Desktop]**
+
+> **[Figura 4.3: Mock-up de la Landing Page de ALLPATEK - Vista Mobile]**
+
+
+
+#### 4. Explicación Detallada de las Secciones del Mock-up
+
+##### A. Encabezado y Navegación Principal (*Header*)
+* **Desktop:** Barra fija con fondo semi-transparente (*backdrop blur*) que mantiene visible el logotipo en alta resolución, las opciones del menú con micro-interacciones al pasar el cursor (*hover*) y el botón *Empieza Ahora*.
+* **Mobile:** Menú compacto con icono hamburguesa que despliega una lista de opciones accesible a pantalla completa.
+
+##### B. Sección de Impacto (*Hero Section*)
+* **Composición:** Título de alto contraste acompañado de imágenes reales de campos de cultivo gestionados. Incluye las tarjetas de métricas cuantitativas (*100% Pagos protegidos*, *0% Riesgo de estafa*) resaltadas con bordes verdes e iconos ilustrativos.
+
+##### C. Módulo de Servicios y Custodia Escrow
+* **Visualización de Tarjetas:** Las características de selección de parcelas, custodia financiera y monitoreo se representan mediante tarjetas con iconos a color, sombras de elevación y jerarquía de texto clara.
+* **Flujo del Modelo por Hitos:** Diagrama interactivo paso a paso con conectores visuales que muestran el ciclo de vida del contrato desde el depósito inicial hasta la entrega de la cosecha.
+
+##### D. Planes de Producción y Cotización
+* **Cuadro Comparativo de Planes:** Tarjetas de suscripción (*Básico*, *Pro*, *Empresarial*) donde la opción recomendada (*Pro*) se resalta mediante un borde distintivo y un indicador visual de *"Más Popular"*.
+* **Formulario de Propuesta Técnica:** Bloque final con campos de entrada definidos (*inputs* con etiquetas claras y validación visual) para solicitar cotizaciones personalizadas.
+
+
+
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 ### 4.4.2. Web Applications Wireflow Diagrams
