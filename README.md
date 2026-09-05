@@ -488,7 +488,60 @@ Dentro del entorno autenticado, la navegación se estructura para facilitar el f
 
 
 ## 4.3. Landing Page UI Design
+
+
+En esta sección se presenta la propuesta de diseño de interfaz de usuario (UI) para la *Landing Page* de **ALLPATEK**. La interfaz ha sido desarrollada traduciendo de manera directa las decisiones previamente establecidas en la Arquitectura de Información (IA) y en los sistemas de navegación, organización y etiquetado. El objetivo principal del diseño es proyectar confianza, transparencia y eficiencia operativa, facilitando que los potenciales clientes B2B y agricultores comprendan de forma inmediata la propuesta de valor del modelo *Agro-as-a-Service* y la seguridad del sistema de custodia financiera *Escrow*.
+
+Para lograr una experiencia visual limpia y profesional, se aplicaron principios de jerarquía visual clara, tipografía legible y una paleta de colores inspirada en el sector agrícola con acentos dinámicos para los llamados a la acción (CTA). Cada sección de la página sigue una secuencia lógica orientada a la conversión y al descubrimiento progresivo, transformando conceptos técnicos complejos como la verificación de hitos en campo y la liberación gradual de fondos en componentes visuales comprensibles y estructurados.
+
+
 ### 4.3.1. Landing Page Wireframe
+
+#### Descripción Detallada de las Secciones del Wireframe
+
+##### 1. Encabezado Global (Header / Navbar)
+* **Descripción:** Ubicado en la parte superior fija (*Sticky Header*). Contiene el logotipo institucional de **ALLPATEK** alineado a la izquierda, el menú de navegación horizontal (*Servicios*, *¿Cómo funciona?*, *Testimonios*, *Planes*, *Contacto*) y el botón de acción principal (*Empieza Ahora* / *Iniciar Sesión*) destacado a la derecha. En la versión móvil, los enlaces se recogen dentro de un menú hamburguesa desplegable.
+
+
+##### 2. Sección Principal (Hero Section)
+* **Descripción:** Primera vista que recibe al usuario. Presenta la propuesta de valor con un titular de alto impacto (*"Producción agrícola garantizada, de la tierra a tu negocio"*), seguido de una bajada descriptiva que explica la conexión entre compradores B2B y agricultores. Incluye un llamado a la acción primario (*Cotizar Parcela*) y un bloque destacado con cuatro métricas cuantitativas clave (100% Pagos protegidos, 0% Riesgo de estafa, 15+ Hectáreas gestionadas, 25% Ahorro promedio).
+
+##### 3. Sección de Servicios y Propuestas de Valor (Grid de Tarjetas)
+* **Descripción:** Disposición en cuadrícula de tarjetas interactivas que resumen los pilares operativos de la plataforma:
+  * **Selección de Parcelas y Terrenos:** Explicación del filtrado por suelo, zona geográfica y capacidad de cultivo.
+  * **Fondos Protegidos en Custodia:** Detalle de la bóveda financiera y liberación progresiva por hitos.
+  * **Trazabilidad e Inspección en Tiempo Real:** Acceso a reportes fotográficos, notas de insumos y avances validados.
+  * **Asistencia Inteligente y Monitoreo Climático:** Explicación del sistema de alertas tempranas (heladas, sequías, plagas) respaldado por datos.
+
+##### 4. Sección Garantía de Pagos por Hitos (Diagrama de Proceso)
+* **Descripción:** Muestra de forma secuencial la línea de tiempo del modelo *Escrow*, conectando visualmente el texto explicativo con imágenes del trabajo en campo:
+  * **Hito 1:** Firma de contrato y bloqueo del capital inicial en custodia segura.
+  * **Hito 2:** Verificación de siembra y liberación de fondos para insumos.
+  * **Hito 3:** Inspección de desarrollo y monitoreo climático en tiempo real.
+  * **Hito 4:** Validación de cosecha y aprobación de calidad de producción.
+  * **Hito 5:** Entrega final del lote y liberación del saldo restante.
+
+##### 5. Sección de Testimonios (Confianza Respaldada por Resultados)
+* **Descripción:** Bloque de prueba social organizado en tres tarjetas verticales. Presenta testimonios reales de compradores B2B y productores (Carlos Mendoza Ríos, Miguel Huamán, Valeria Benavides), acompañados de su fotografía, rol, calificación en estrellas y métricas de éxito obtenidas al usar la plataforma.
+
+##### 6. Sección de Planes de Producción (Cuadro Comparativo)
+* **Descripción:** Muestra tres tarjetas de suscripción alineadas horizontalmente (*Básico*, *Pro* y *Empresarial*):
+  * **Básico ($50/mes):** Enfocado en 1 parcela activa, custodia de 4 hitos, soporte por correo y fotos georreferenciadas.
+  * **Pro ($123/mes - Destacado):** Diseñado para hasta 10 parcelas, evidencias GPS con validación Java, contratos PDF y alertas climáticas en vivo.
+  * **Empresarial ($250/mes):** Para parcelas ilimitadas, integración API, gestor de cuenta dedicado y reportes personalizados.
+  * Cada tarjeta incluye su respectivo botón de acción (*Empezar Ahora*, *Solicitar Demo*, *Contactar Ventas*).
+
+##### 7. Sección de Equipo (El Equipo Detrás de la Plataforma)
+* **Descripción:** Presenta al equipo técnico responsable de la arquitectura del producto. Incluye las tarjetas de los ingenieros de software del proyecto con su fotografía, nombre y rol profesional.
+
+##### 8. Sección de Contacto y Solicitud de Propuesta Técnica
+* **Descripción:** Formulario directo integrado sobre una imagen de fondo de campo agrícola. Permite al usuario solicitar el desglose de costos e información del modelo de custodia ingresando Nombre, Apellidos, Correo Electrónico y Teléfono, finalizando con el botón *Recibir Información*.
+
+##### 9. Pie de Página (Footer)
+* **Descripción:** Ubicado en el cierre de la página. Estructurado en cuatro columnas de navegación secundaria (*Navegación general*, *Servicios*, *Contacto & Horarios* de atención) junto con el logotipo de la marca y los derechos reservados de autor.
+
+
+
 ### 4.3.2. Landing Page Mock-up
 
 ## 4.4. Web Applications UX/UI Design
