@@ -430,6 +430,38 @@ Para optimizar la visibilidad en motores de búsqueda (SEO) y asegurar una prese
 
 
 ### 4.2.4. Searching Systems
+
+Para evitar la desorientación del usuario frente al volumen de información agronómica y contractual, la plataforma **ALLPATEK** implementa sistemas de búsqueda contextuales con filtros avanzados e interfaces de resultados estructuradas tanto en la aplicación web como en la móvil.
+
+#### 1. Opciones de Búsqueda y Filtros por Módulo
+
+##### A. Búsqueda en Gestión de Parcelas (*Explorador  y Agricultor*)
+Permite la localización rápida de terrenos agrícolas mediante una barra de búsqueda global y controles de filtrado combinados:
+* **Entrada de Búsqueda:** Entrada de texto libre para buscar por nombre de parcela, región, valle o tipo de cultivo (ej. *El Vergel*, *Quinoa Órgánica*, *Junín*).
+* **Filtros Disponibles:**
+  * **Estado de Parcela:** En preparación, Disponible, En Producción.
+  * **Tipo de Suelo:** Franco-Arcilloso, Arenoso, Limo-Arcilloso.
+  * **Extensión (Hectáreas):** Rango deslizable (de 1 a +50 Ha).
+  * **Rango de Precio / Costo por Hito:** Desplegable por presupuesto estimado en Soles (S/).
+* **Visualización de Resultados:** Presentación en vista de cuadrícula de tarjetas (*cards*) dinámicas que muestran la foto del terreno, ubicación, hectáreas, tipo de suelo, costo estimado y la etiqueta de estado correspondiente.
+
+##### B. Búsqueda en Mis Contratos de Alquiler
+Facilita el rastreo de acuerdos contractuales y el seguimiento de fondos custodiados:
+* **Entrada de Búsqueda:** Búsqueda por código único de contrato (ej. *CTR-2025-0041*) o nombre de la parte involucrada (*Comerciante / Agricultor*).
+* **Filtros Disponibles:**
+  * **Pestañas de Estado:** Contratos Activos, Pendientes de Firma, Finalizados.
+  * **Rango de Fechas / Vigencia:** Selección por periodo de inicio o término del acuerdo.
+* **Visualización de Resultados:** Tabla analítica de resumen que organiza las coincidencias en filas con columnas clave: Código ID, Parcela/Cultivo, Nombre de la Parte, Monto Acordado en Escrow (S/), Fechas de Vigencia y botón de acción directa (*Ver Detalle*).
+
+##### C. Búsqueda y Filtros en Monitoreo Climático y Alertas
+Optimiza el análisis de riesgos ambientales en zonas de producción activas:
+* **Entrada de Búsqueda / Selector:** Desplegable de selección rápida para filtrar las métricas agronómicas según la parcela específica registrada.
+* **Filtros Disponibles:**
+  * **Nivel de Severidad de Alerta:** Crítica (rojo), Advertencia (ámbar), Informativa / Normal (verde).
+  * **Tipo de Evento:** Riesgo de Helada, Precipitación / Inundación, Viento Fuerte, Variación de Humedad.
+* **Visualización de Resultados:** Panel de tarjetas de alerta priorizadas por nivel de riesgo en la columna central, acompañado de tarjetas de métricas en tiempo real (Temperatura, Humedad Relativa, Precipitación y Velocidad del Viento).
+
+
 ### 4.2.5. Navigation Systems
 
 ## 4.3. Landing Page UI Design
