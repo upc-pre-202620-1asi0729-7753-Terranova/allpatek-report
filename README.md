@@ -380,27 +380,21 @@ We believe we will achieve a season-to-season contract renewal rate exceeding 60
 
 Allpatek dirige su propuesta de valor a dos segmentos objetivo que se ubican en extremos opuestos, pero complementarios, del modelo de Agro-as-a-Service: quienes ofrecen la tierra y el trabajo agrícola, y quienes contratan ese trabajo por temporada.
 
-### Segmento 1: Agricultores familiares de pequeña escala con acceso limitado a información de mercado y exposición a riesgo climático
-
-Descripción general: Este segmento está conformado por productores agrícolas familiares de pequeña escala, con acceso limitado, pero creciente, a internet y telefonía móvil, y que enfrentan de forma directa la variabilidad climática andina en su actividad productiva (Fan & Salas Garcia, 2018; Heikkinen, 2021; Tambet & Stopnitzky, 2021).
+Descripción general: Este segmento está integrado por pequeños productores agrarios y comunidades agrícolas familiares que cultivan parcelas de escala reducida en valles y zonas rurales andinas. Se caracterizan por operar dentro de un entorno con conectividad móvil limitada pero en gradual expansión, mientras asumen directamente el impacto de la variabilidad climática sobre sus ciclos productivos (Fan & Salas Garcia, 2018; Heikkinen, 2021; Tambet & Stopnitzky, 2021).
 
 Características conductuales y tecnológicas:
 
-Utilizan principalmente *smartphones* Android de gama baja o media, con acceso a internet limitado o intermitente en zonas rurales.
-
-Su actividad digital se concentra en WhatsApp como canal de comunicación con compradores, intermediarios y familiares.
-
-Tienen baja experiencia previa con plataformas digitales de gestión, pero una alta disposición a adoptar herramientas que les ofrezcan un ingreso predecible.
+* Emplean principalmente teléfonos inteligentes Android de gama baja o de entrada, operando bajo conexiones a datos móviles intermitentes o de baja cobertura en zonas de campo.
+* Su uso digital cotidiano se concentra casi exclusivamente en WhatsApp, aplicación que funciona como su vía principal para coordinar ventas con intermediarios locales, comunicarse con sus redes familiares y mantener contacto con compradores.
+* Cuentan con poca trayectoria en el manejo de plataformas o software de gestión agrícola, pero muestran una alta disposición a adoptar herramientas sencillas que les garanticen estabilidad económica e ingresos predecibles.
 
 Necesidades y dolores principales:
 
-Necesitan un ingreso asegurado que no dependa exclusivamente del precio de mercado al momento de la cosecha.
+* Requieren un esquema de retribución garantizado por la temporada de cultivo que desvincule sus ingresos de las caídas drásticas de precios en los mercados mayoristas al momento de cosechar.
+* Necesitan mecanismos de protección frente a eventos meteorológicos adversos. La evidencia científica muestra que los productores peruanos aplican adaptaciones reactivas y económicamente costosas ante contingencias como las sequías, incrementando por ejemplo hasta en ocho puntos porcentuales el uso de plaguicidas sintéticos para salvar sus cultivos (Tambet & Stopnitzky, 2021), al no contar con coberturas previas.
+* Buscan superar la brecha histórica de información comercial que hoy condiciona su capacidad de negociación, limita su acceso a canales de venta directa con mejores márgenes y reduce los volúmenes totales que logran comercializar (Fan & Salas Garcia, 2018).
 
-Requieren protección frente al riesgo climático: la evidencia académica muestra que los agricultores peruanos ajustan de forma reactiva y costosa sus prácticas ante choques climáticos, por ejemplo, incrementando el uso de pesticidas en ocho puntos porcentuales tras un año de sequía (Tambet & Stopnitzky, 2021), sin contar con mecanismos previos de cobertura.
-
-Buscan superar la barrera de información que hoy limita su participación en mercados más rentables y el volumen que logran comercializar (Fan & Salas Garcia, 2018).
-
-Datos de sustento académico: Fan y Salas Garcia (2018), a partir de datos del IV Censo Nacional Agropecuario del Perú (2012), encuentran que el acceso a internet y telefonía incrementa de forma significativa la probabilidad de que un pequeño productor participe en el mercado nacional, e incluso de exportación, y el volumen que logra vender, con un efecto especialmente marcado del acceso a internet. Complementariamente, Heikkinen (2021) documenta, en su estudio de caso sobre el valle del río Mantaro, un incremento en la frecuencia de sequías, heladas y lluvias intensas en las últimas décadas, mientras que Tambet y Stopnitzky (2021), a partir de datos de la Encuesta Nacional Agropecuaria del INEI combinados con registros climáticos de largo plazo, confirman que los choques climáticos modifican de forma medible y costosa las decisiones productivas de los pequeños agricultores de papa y maíz.
+Datos de sustento académico: Fan y Salas Garcia (2018), utilizando datos del IV Censo Nacional Agropecuario (CENAGRO 2012), demuestran que disponer de telefonía e internet eleva de forma estadísticamente significativa la probabilidad de que un pequeño agricultor logre insertarse en mercados regionales, nacionales o de exportación, potenciando directamente el volumen vendido. Por su parte, Heikkinen (2021) documenta en el valle del río Mantaro una presencia cada vez más recurrente de heladas no estacionales, lluvias intensas y sequías prolongadas. Asimismo, Tambet y Stopnitzky (2021), a partir de los datos de la Encuesta Nacional Agropecuaria (ENA) del INEI cruzados con registros climáticos históricos, confirman que las alteraciones del clima imponen ajustes operativos directos y sobrecostos sobre las decisiones de producción de las familias dedicadas al cultivo de papa y maíz.
 
 ### Segmento 2: Compradores urbanos — familias, restaurantes y pequeños negocios de alimentos
 
