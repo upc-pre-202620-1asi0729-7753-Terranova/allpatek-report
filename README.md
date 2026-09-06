@@ -343,31 +343,25 @@ We will know we are successful when we see at least 150 seasonal contracts forma
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-Based on the feature assumptions defined for Allpatek, the following hypothesis statements are formulated using the standard Lean UX template: "We believe we will achieve [business outcome] if [personas] attain [benefit/user outcome] with [feature or solution]".
+#### Hypothesis Statements
 
-Hypothesis 1 — Parcel & Season Catalog
+**Hypothesis 1 — Parcel & Season Catalog**  
+We believe we will achieve a 25% increase in the conversion rate from initial platform visit to reserved parcel if urban buyers attain transparent, structured, and easily comparable data regarding available land holdings, active crop varieties, seasonal duration, and total direct production costs through a searchable parcel catalog featuring location mapping, crop scheduling, and transparent pricing models.
 
-We believe we will achieve a 25% increase in the conversion rate from platform visit to reserved parcel if urban buyers attain clear, comparable information about available parcels, crops, season duration and total cost before committing to a reservation with a searchable parcel catalog featuring location, crop type, season dates and transparent pricing.
+**Hypothesis 2 — Digital Season Contracting & Payment**  
+We believe we will achieve at least 150 seasonal contracts formalized within the first 8 months of operation if buyers and farmers attain a fully digital, friction-free mechanism to agree upon and execute payments for seasonal land leases and agricultural labor without physical negotiation—thereby addressing the structural market-access barriers highlighted by Fan and Salas Garcia (2018)—through an integrated contracting and digital payment module that locks parcel reservations upon payment confirmation.
 
-Hypothesis 2 — Digital Season Contracting & Payment
+**Hypothesis 3 — Automated Legal Contract Generation (n8n)**  
+We believe we will achieve a reduction in administrative overhead to under 5 minutes per transaction for both contracting parties if farmers and buyers attain an instantly generated, legally compliant contract delivered via email upon payment processing without manual document drafting through an automated workflow orchestrated by n8n that triggers PDF contract generation and dispatch upon payment verification.
 
-We believe we will achieve at least 150 seasonal contracts formalized within the first 8 months of operation if buyers and farmers attain a fully digital way to agree on and pay for a season's parcel and labor without in-person negotiation, closing the information gap documented by Fan and Salas Garcia (2018) with a contracting and payment module that reserves the parcel and confirms the season agreement upon successful payment.
+**Hypothesis 4 — Crop Progress Notification System**  
+We believe we will achieve a reduction of at least 50% in direct buyer-to-farmer inquiries regarding crop development throughout the active season if buyers attain automated, real-time tracking updates detailing planting schedules, irrigation milestones, and estimated harvest dates without requiring direct producer intervention through an automated notification system delivering personalized status alerts via email and messaging channels.
 
-Hypothesis 3 — Automated Legal Contract Generation (n8n)
+**Hypothesis 5 — Farmer Progress Panel**  
+We believe we will achieve an active weekly logging rate above 70% among participating producers if farmers operating under limited digital literacy and constrained connectivity conditions (Fan & Salas Garcia, 2018) attain an intuitive, low-bandwidth interface to record seasonal progress from entry-level Android mobile devices without extensive technical onboarding through a lightweight, offline-resilient farmer panel optimized for logging key agricultural milestones.
 
-We believe we will achieve a reduction of administrative time to formalize a season agreement to under 5 minutes for both parties if farmers and buyers attain an automatically generated, legally structured contract delivered by email immediately after payment, with no manual drafting required with an n8n-powered workflow that triggers PDF contract generation and delivery upon payment confirmation.
-
-Hypothesis 4 — Crop Progress Notification System
-
-We believe we will achieve a reduction of at least 50% in direct buyer-to-farmer inquiries about crop status during an active season if buyers attain automatic, timely updates on planting, care milestones and estimated harvest date without needing to contact the farmer directly with an automated notification system delivering personalized season-progress updates by email and WhatsApp.
-
-Hypothesis 5 — Farmer Progress Panel
-
-We believe we will achieve an active weekly update rate above 70% among contracted farmers if farmers with limited digital experience and historically limited connectivity (Fan & Salas Garcia, 2018) attain a simple way to log season progress from a low- or mid-range Android smartphone without technical training with a lightweight, guided farmer panel for registering planting, care and harvest milestones.
-
-Hypothesis 6 — Rating & Reputation Module
-
-We believe we will achieve a season-to-season contract renewal rate above 60% among participating farmers if buyers and farmers attain visibility into each other's track record before committing to a new season, helping counteract the risk of excluding less-connected producers from the platform's benefits (Otsuka et al., 2016) with a two-sided rating and reputation module that records completed seasons and mutual feedback.
+**Hypothesis 6 — Rating & Reputation Module**  
+We believe we will achieve a season-to-season contract renewal rate exceeding 60% among registered users if buyers and producers attain mutual visibility into verifiable transaction histories and performance metrics prior to finalizing seasonal commitments—mitigating the risk of marginalizing less-connected agricultural producers within formal value chains (Otsuka et al., 2016)—through a two-sided rating and reputation framework that logs completed seasonal agreements and peer feedback.
 
 #### 1.2.2.4. Lean UX Canvas
 
