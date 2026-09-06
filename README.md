@@ -398,23 +398,21 @@ Datos de sustento académico: Fan y Salas Garcia (2018), utilizando datos del IV
 
 ### Segmento 2: Compradores urbanos — familias, restaurantes y pequeños negocios de alimentos
 
-Descripción general: Este segmento está compuesto por personas y pequeños negocios ubicados principalmente en zonas urbanas que buscan acceder a productos agrícolas frescos a un costo predecible y con trazabilidad de origen.
+Descripción general: Este segmento comprende a consumidores individuales, hogares urbanos, establecimientos gastronómicos y pymes del sector alimentario ubicados en centros urbanos. Se caracterizan por su interés en adquirir productos agrícolas frescos directamente desde el origen, buscando tarifas previsibles, transparencia en la cadena de insumos y trazabilidad garantizada.
 
 Características conductuales y tecnológicas:
 
-Utilizan aplicaciones móviles de comercio electrónico y reserva de servicios con frecuencia, lo que facilita la adopción de un flujo de reserva y pago similar dentro de la plataforma.
-
-Valoran la transparencia del origen de los alimentos y están dispuestos a pagar por trazabilidad y relación directa con el productor.
+* Interactúan de manera continua con plataformas móviles de comercio electrónico, billeteras digitales y aplicaciones de reserva de servicios, lo que simplifica su curva de aprendizaje para interactuar con el módulo de contratación de Allpatek.
+* Muestran un interés creciente por la procedencia de los alimentos que consumen o comercializan, valorando la posibilidad de construir un vínculo comercial directo y transparente con los productores agrícolas.
+* Priorizan la optimización de tiempos en sus procesos operacionales y administrativos, prefiriendo entornos digitales unificados a la gestión presencial o informal.
 
 Necesidades y dolores principales:
 
-Necesitan predictibilidad de costo, en un contexto en el que la asimetría de información entre productor y comprador dificulta una relación comercial directa y transparente (Fan & Salas Garcia, 2018).
+* Exigen previsibilidad presupuestaria y estabilización de costos ante la volatilidad recurrente de los precios mayoristas, en un contexto donde las brechas de información entre el campo y la ciudad dificultan la comercialización directa (Fan & Salas Garcia, 2018).
+* Buscan recortar los márgenes de intermediación en la cadena de distribución tradicional, reduciendo el sobreprecio acumulado y asegurando mayor frescura en los insumos.
+* Requieren un canal digital estructurado que les permita asegurar y formalizar la producción de una temporada agrícola mediante acuerdos legales automáticos, evitando la gestión manual de documentos o transferencias desordenadas.
 
-Buscan reducir el número de intermediarios entre ellos y el origen del alimento que consumen.
-
-Requieren una forma simple, digital y formalizada de comprometer una temporada de producción sin gestionar contratos ni pagos de forma manual.
-
-Datos de sustento académico: La revisión de Otsuka et al. (2016) sobre agricultura por contrato en países en desarrollo confirma que los acuerdos previos entre comprador y productor sobre volumen, calidad y precio son un mecanismo consolidado en la literatura económica para reducir la incertidumbre en ambos extremos de la cadena, beneficio que Allpatek traslada al comprador urbano peruano bajo un formato digital y automatizado que, además, cierra la brecha de información documentada por Fan y Salas Garcia (2018).
+Datos de sustento académico: El análisis de Otsuka et al. (2016) sobre modelos de agricultura por contrato en economías emergentes confirma que los acuerdos formales previos sobre precios, volúmenes y estándares de calidad constituyen un mecanismo eficaz para reducir la incertidumbre transaccional en ambos extremos de la cadena de suministro. Allpatek adapta esta dinámica al contexto urbano peruano mediante una plataforma digital que automatiza la formalización contractual y mitiga de forma directa las asimetrías informativas señaladas por Fan y Salas Garcia (2018).
 
 # Capítulo II: Requirements Elicitation & Analysis
 
