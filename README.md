@@ -246,7 +246,7 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 ### 1.1.1. Descripción de la Startup
 
-Allpatek se posiciona como una propuesta de innovación tecnológica aplicada al sector agrotech en el Perú, orientada a reestructurar la cadena tradicional de intermediación agrícola. La iniciativa introduce el modelo de *Agro-as-a-Service* (AaaS), una modalidad mediante la cual los compradores —que abarcan desde familias y restaurantes hasta empresas del sector agroindustrial— no compran cosechas listas para la venta ni interactúan con intermediarios comerciales. En su lugar, suscriben un acuerdo comercial para alquilar parcelas específicas y contratar de forma directa la labor del agricultor familiar durante todo el ciclo productivo de una temporada. Bajo este esquema, el comprador obtiene alimentos trazables a costo directo de producción, mientras que la familia agricultora asegura una retribución económica predecible vinculada al trabajo realizado durante la campaña, mitigando su vulnerabilidad frente a las fluctuaciones de precios del mercado y las contingencias climáticas.
+Allpatek se posiciona como una propuesta de innovación tecnológica aplicada al sector agrotech en el Perú, orientada a reestructurar la cadena tradicional de intermediación agrícola. La iniciativa introduce el modelo de *Agro-as-a-Service* (AaaS), una modalidad mediante la cual los compradores que abarcan desde familias y restaurantes hasta empresas del sector agroindustrial— no compran cosechas listas para la venta ni interactúan con intermediarios comerciales. En su lugar, suscriben un acuerdo comercial para alquilar parcelas específicas y contratar de forma directa la labor del agricultor familiar durante todo el ciclo productivo de una temporada. Bajo este esquema, el comprador obtiene alimentos trazables a costo directo de producción, mientras que la familia agricultora asegura una retribución económica predecible vinculada al trabajo realizado durante la campaña, mitigando su vulnerabilidad frente a las fluctuaciones de precios del mercado y las contingencias climáticas.
 
 La identidad de la startup sintetiza esta visión desde su denominación: el término proviene de la conjunción de la voz quechua *allpa* ("tierra") y la raíz *tek* (tecnología), formalizando el compromiso de digitalizar la gestión técnica y operativa del campo. La plataforma integra la oferta de terrenos cultivables, perfiles de agricultores, formalización contractual y canales de seguimiento en un solo entorno digital. Para garantizar la eficiencia operativa sin encarecer los costos de desarrollo, el sistema implementa **n8n**, una herramienta de automatización de flujos de trabajo de código abierto. Esta infraestructura gestiona tareas críticas del negocio: ante la confirmación del pago por parte del cliente, n8n compila y distribuye automáticamente el contrato legal en formato PDF vía correo electrónico, coordinando además la emisión programada de notificaciones sobre el estado del cultivo y estimaciones de cosecha.
 
@@ -345,22 +345,22 @@ We will know we are successful when we see at least 150 seasonal contracts forma
 
 #### Hypothesis Statements
 
-**Hypothesis 1 — Parcel & Season Catalog**  
+**Hypothesis 1: Parcel & Season Catalog**  
 We believe we will achieve a 25% increase in the conversion rate from initial platform visit to reserved parcel if urban buyers attain transparent, structured, and easily comparable data regarding available land holdings, active crop varieties, seasonal duration, and total direct production costs through a searchable parcel catalog featuring location mapping, crop scheduling, and transparent pricing models.
 
-**Hypothesis 2 — Digital Season Contracting & Payment**  
+**Hypothesis 2: Digital Season Contracting & Payment**  
 We believe we will achieve at least 150 seasonal contracts formalized within the first 8 months of operation if buyers and farmers attain a fully digital, friction-free mechanism to agree upon and execute payments for seasonal land leases and agricultural labor without physical negotiation—thereby addressing the structural market-access barriers highlighted by Fan and Salas Garcia (2018) through an integrated contracting and digital payment module that locks parcel reservations upon payment confirmation.
 
-**Hypothesis 3 — Automated Legal Contract Generation (n8n)**  
+**Hypothesis 3: Automated Legal Contract Generation (n8n)**  
 We believe we will achieve a reduction in administrative overhead to under 5 minutes per transaction for both contracting parties if farmers and buyers attain an instantly generated, legally compliant contract delivered via email upon payment processing without manual document drafting through an automated workflow orchestrated by n8n that triggers PDF contract generation and dispatch upon payment verification.
 
-**Hypothesis 4 — Crop Progress Notification System**  
+**Hypothesis 4: Crop Progress Notification System**  
 We believe we will achieve a reduction of at least 50% in direct buyer-to-farmer inquiries regarding crop development throughout the active season if buyers attain automated, real-time tracking updates detailing planting schedules, irrigation milestones, and estimated harvest dates without requiring direct producer intervention through an automated notification system delivering personalized status alerts via email and messaging channels.
 
-**Hypothesis 5 — Farmer Progress Panel**  
+**Hypothesis 5: Farmer Progress Panel**  
 We believe we will achieve an active weekly logging rate above 70% among participating producers if farmers operating under limited digital literacy and constrained connectivity conditions (Fan & Salas Garcia, 2018) attain an intuitive, low-bandwidth interface to record seasonal progress from entry-level Android mobile devices without extensive technical onboarding through a lightweight, offline-resilient farmer panel optimized for logging key agricultural milestones.
 
-**Hypothesis 6 — Rating & Reputation Module**  
+**Hypothesis 6: Rating & Reputation Module**  
 We believe we will achieve a season-to-season contract renewal rate exceeding 60% among registered users if buyers and producers attain mutual visibility into verifiable transaction histories and performance metrics prior to finalizing seasonal commitments—mitigating the risk of marginalizing less-connected agricultural producers within formal value chains (Otsuka et al., 2016)—through a two-sided rating and reputation framework that logs completed seasonal agreements and peer feedback.
 
 #### 1.2.2.4. Lean UX Canvas
@@ -380,7 +380,7 @@ We believe we will achieve a season-to-season contract renewal rate exceeding 60
 
 Allpatek dirige su propuesta de valor a dos segmentos objetivo que se ubican en extremos opuestos, pero complementarios, del modelo de Agro-as-a-Service: quienes ofrecen la tierra y el trabajo agrícola, y quienes contratan ese trabajo por temporada.
 
-#### 1.3.1. Segmento 1: Agricultura Familiar y Pequeños Productores
+### Segmento 1: Agricultura Familiar y Pequeños Productores
 
 Descripción general: Este segmento está integrado por pequeños productores agrarios y comunidades agrícolas familiares que cultivan parcelas de escala reducida en valles y zonas rurales andinas. Se caracterizan por operar dentro de un entorno con conectividad móvil limitada pero en gradual expansión, mientras asumen directamente el impacto de la variabilidad climática sobre sus ciclos productivos (Fan & Salas Garcia, 2018; Heikkinen, 2021; Tambet & Stopnitzky, 2021).
 
