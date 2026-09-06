@@ -329,17 +329,17 @@ We will know we are successful when we see at least 150 seasonal contracts forma
 
 #### 1.2.2.2. Lean UX Assumptions
 
-1. Creemos que un catálogo de parcelas disponibles con información de ubicación, cultivo, temporada y costo permitirá a los compradores tomar decisiones de reserva de forma autónoma y rápida.
+1. Creemos que la implementación de un catálogo estructurado de parcelas agrícolas —que detalle variables clave como ubicación geográfica, tipo de cultivo, duración de la temporada y desglose de costos directos— permitirá a los compradores urbanos y corporativos evaluar opciones y tomar decisiones de reserva de forma totalmente autónoma y eficiente.
 
-2. Creemos que un módulo de contratación y pago digital de temporada incrementará la tasa de conversión de reservas al eliminar la necesidad de negociación presencial o informal.
+2. Creemos que la integración de un módulo de contratación y pasarela de pagos digitales por temporada incrementará sustancialmente la tasa de conversión de reservas, al sustituir la negociación presencial e informal por un flujo comercial estandarizado, ágil y transparente.
 
-3. Creemos que la generación automática de contratos legales en PDF vía n8n, disparada al confirmarse el pago, reducirá a cero el tiempo administrativo requerido tanto por el agricultor como por el comprador para formalizar el acuerdo.
+3. Creemos que la automatización del proceso de formalización mediante n8n, configurado para compilar y emitir contratos legales en formato PDF de manera inmediata tras la confirmación del pago, reducirá a cero la carga administrativa manual que tradicionalmente enfrentan tanto los agricultores como los compradores.
 
-4. Creemos que un sistema de notificaciones automatizadas de seguimiento del cultivo, avance de siembra, riego, fecha estimada de cosecha, mantendrá al comprador informado y reducirá las consultas manuales al agricultor.
+4. Creemos que un canal de notificaciones automatizadas enfocado en las hitos del ciclo productivo (preparación del terreno, siembra, etapas de riego y fecha estimada de cosecha) mantendrá un nivel óptimo de visibilidad para el comprador, disminuyendo la necesidad de consultas individuales directas hacia el productor.
 
-5. Creemos que un panel de agricultor para registrar avances de la temporada de forma simple, incluso desde un smartphone de gama baja, facilitará la adopción en el Segmento 1 sin requerir capacitación técnica extensa, dado que el acceso móvil ya demuestra tener un efecto positivo sobre los resultados comerciales de estos productores (Fan & Salas Garcia, 2018).
+5. Creemos que el diseño de una interfaz simplificada para el agricultor, optimizada para su ejecución en dispositivos móviles de gama baja, garantizará una adopción fluida en el Segmento 1 sin exigir programas extensos de capacitación técnica, considerando que el uso de tecnologías móviles ya muestra un impacto favorable en los resultados comerciales de la agricultura familiar (Fan & Salas Garcia, 2018).
 
-6. Creemos que un módulo de calificación y reputación tanto para agricultores como para compradores incrementará la confianza mutua y la tasa de renovación de contratos en temporadas sucesivas.
+6. Creemos que un sistema recíproco de reputación y calificaciones para agricultores y compradores fortalecerá la confianza dentro de la comunidad de la plataforma, impulsando la tasa de fidelización y la renovación de acuerdos comerciales en temporadas consecutivas.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
