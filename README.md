@@ -329,7 +329,7 @@ We will know we are successful when we see at least 150 seasonal contracts forma
 
 #### 1.2.2.2. Lean UX Assumptions
 
-1. Creemos que la implementación de un catálogo estructurado de parcelas agrícolas —que detalle variables clave como ubicación geográfica, tipo de cultivo, duración de la temporada y desglose de costos directos— permitirá a los compradores urbanos y corporativos evaluar opciones y tomar decisiones de reserva de forma totalmente autónoma y eficiente.
+1. Creemos que la implementación de un catálogo estructurado de parcelas agrícolas que detalle variables clave como ubicación geográfica, tipo de cultivo, duración de la temporada y desglose de costos directos permitirá a los compradores urbanos y corporativos evaluar opciones y tomar decisiones de reserva de forma totalmente autónoma y eficiente.
 
 2. Creemos que la integración de un módulo de contratación y pasarela de pagos digitales por temporada incrementará sustancialmente la tasa de conversión de reservas, al sustituir la negociación presencial e informal por un flujo comercial estandarizado, ágil y transparente.
 
@@ -349,7 +349,7 @@ We will know we are successful when we see at least 150 seasonal contracts forma
 We believe we will achieve a 25% increase in the conversion rate from initial platform visit to reserved parcel if urban buyers attain transparent, structured, and easily comparable data regarding available land holdings, active crop varieties, seasonal duration, and total direct production costs through a searchable parcel catalog featuring location mapping, crop scheduling, and transparent pricing models.
 
 **Hypothesis 2 — Digital Season Contracting & Payment**  
-We believe we will achieve at least 150 seasonal contracts formalized within the first 8 months of operation if buyers and farmers attain a fully digital, friction-free mechanism to agree upon and execute payments for seasonal land leases and agricultural labor without physical negotiation—thereby addressing the structural market-access barriers highlighted by Fan and Salas Garcia (2018)—through an integrated contracting and digital payment module that locks parcel reservations upon payment confirmation.
+We believe we will achieve at least 150 seasonal contracts formalized within the first 8 months of operation if buyers and farmers attain a fully digital, friction-free mechanism to agree upon and execute payments for seasonal land leases and agricultural labor without physical negotiation—thereby addressing the structural market-access barriers highlighted by Fan and Salas Garcia (2018) through an integrated contracting and digital payment module that locks parcel reservations upon payment confirmation.
 
 **Hypothesis 3 — Automated Legal Contract Generation (n8n)**  
 We believe we will achieve a reduction in administrative overhead to under 5 minutes per transaction for both contracting parties if farmers and buyers attain an instantly generated, legally compliant contract delivered via email upon payment processing without manual document drafting through an automated workflow orchestrated by n8n that triggers PDF contract generation and dispatch upon payment verification.
@@ -380,6 +380,8 @@ We believe we will achieve a season-to-season contract renewal rate exceeding 60
 
 Allpatek dirige su propuesta de valor a dos segmentos objetivo que se ubican en extremos opuestos, pero complementarios, del modelo de Agro-as-a-Service: quienes ofrecen la tierra y el trabajo agrícola, y quienes contratan ese trabajo por temporada.
 
+#### 1.3.1. Segmento 1: Agricultura Familiar y Pequeños Productores
+
 Descripción general: Este segmento está integrado por pequeños productores agrarios y comunidades agrícolas familiares que cultivan parcelas de escala reducida en valles y zonas rurales andinas. Se caracterizan por operar dentro de un entorno con conectividad móvil limitada pero en gradual expansión, mientras asumen directamente el impacto de la variabilidad climática sobre sus ciclos productivos (Fan & Salas Garcia, 2018; Heikkinen, 2021; Tambet & Stopnitzky, 2021).
 
 Características conductuales y tecnológicas:
@@ -396,7 +398,7 @@ Necesidades y dolores principales:
 
 Datos de sustento académico: Fan y Salas Garcia (2018), utilizando datos del IV Censo Nacional Agropecuario (CENAGRO 2012), demuestran que disponer de telefonía e internet eleva de forma estadísticamente significativa la probabilidad de que un pequeño agricultor logre insertarse en mercados regionales, nacionales o de exportación, potenciando directamente el volumen vendido. Por su parte, Heikkinen (2021) documenta en el valle del río Mantaro una presencia cada vez más recurrente de heladas no estacionales, lluvias intensas y sequías prolongadas. Asimismo, Tambet y Stopnitzky (2021), a partir de los datos de la Encuesta Nacional Agropecuaria (ENA) del INEI cruzados con registros climáticos históricos, confirman que las alteraciones del clima imponen ajustes operativos directos y sobrecostos sobre las decisiones de producción de las familias dedicadas al cultivo de papa y maíz.
 
-### Segmento 2: Compradores urbanos — familias, restaurantes y pequeños negocios de alimentos
+### Segmento 2: Compradores urbanos / familias, restaurantes y pequeños negocios de alimentos
 
 Descripción general: Este segmento comprende a consumidores individuales, hogares urbanos, establecimientos gastronómicos y pymes del sector alimentario ubicados en centros urbanos. Se caracterizan por su interés en adquirir productos agrícolas frescos directamente desde el origen, buscando tarifas previsibles, transparencia en la cadena de insumos y trazabilidad garantizada.
 
