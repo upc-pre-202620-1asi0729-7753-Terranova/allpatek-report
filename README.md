@@ -784,7 +784,92 @@ El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de 
 
 
 #### 5.2.1.3. Sprint Backlog 1
+
+| Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+|--------|--------------|------------------|---------|------------|-------------|--------------------|-------------|--------|
+| Sprint 1 | | | | | | | | |
+| Sprint 1 | | | | | | | | |
+| Sprint 1 | | | | | | | | |
+| Sprint 1 | | | | | | | | |
+| Sprint 1 | | | | | | | | |
+| Sprint 1 | | | | | | | | |
+| Sprint 1 | | | | | | | | |
+| Sprint 1 | | | | | | | | |
+| Sprint 1 | | | | | | | | |
+
+###  Estados de las tareas
+- **To-do**: Pendiente
+- **InProcess**: En desarrollo
+- **ToReview**: En revisión
+- **Done**: Finalizado
+
 #### 5.2.1.4. Development Evidence for Sprint Review
+
+<table>
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th>Branch</th>
+      <th>Commit Id</th>
+      <th>Commit Message</th>
+      <th>Commit Message Body</th>
+      <th>Committed on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
