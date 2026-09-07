@@ -501,9 +501,166 @@ Se adoptan la **Google Java Style Guide** y los estándares recomendados en **Sp
 
 
 
-
-
 ### 5.1.4. Software Deployment Configuration
+
+En esta sección el equipo especifica la configuración del despliegue de la solución, incluyendo los procedimientos necesarios para que, a partir de los repositorios de código fuente, se pueda realizar la publicación exitosa de los productos digitales que componen el sistema: Landing Page, Frontend Web Application y Web Services (Backend) junto con su Base de Datos.
+
+La solución se encuentra estructurada bajo una arquitectura desacoplada, donde cada componente es desplegado de manera independiente utilizando plataformas especializadas en la nube, lo que permite mejorar la escalabilidad, disponibilidad y mantenimiento del sistema.
+
+#### Componentes de Despliegue
+
+* **Landing Page:** desplegada en **GitHub Pages**.
+* **Frontend Web Application (Angular):** desplegada en **Netlify**.
+* **Backend Web Services (Java / Spring Boot) + Base de Datos (PostgreSQL/MySQL):** desplegados en **Railway**.
+
+
+
+#### 1. Control de Versiones
+
+El proyecto utiliza **Git** como sistema de control de versiones y **GitHub** como plataforma para la gestión de repositorios independientes por cada producto digital.
+
+**Estrategia de ramas (GitFlow):**
+* `main`: contiene la versión estable lista para producción.
+* `develop`: integra las funcionalidades en desarrollo.
+* `feature/*`: ramas destinadas al desarrollo de nuevas funcionalidades por contexto delimitado.
+* `hotfix/*`: ramas destinadas a correcciones críticas en producción.
+
+
+#### 2. Despliegue de Landing Page (GitHub Pages)
+
+La Landing Page es una solución web estática desarrollada con HTML, CSS y JavaScript.
+
+**Pasos de despliegue:**
+
+1. **Inicializar y preparar el repositorio**
+    ```bash
+    git init
+    git add .
+    git commit -m "feat(landing): initial release for deployment"
+    ```
+2. **Conectar el repositorio con GitHub**
+    ```bash
+    git branch -M main
+    git remote add origin [https://github.com/TuOrganizacion/landing-page.git](https://github.com/TuOrganizacion/landing-page.git)
+    git push -u origin main
+    ```
+3. **Configurar GitHub Pages**
+    * Ir a **Settings** del repositorio en GitHub.
+    * Acceder a la sección **Pages**.
+    * Seleccionar:
+        * **Source:** Deploy from a branch
+        * **Branch:** `main`
+        * **Folder:** `/ (root)`
+    * **Resultado público:** `https://TuOrganizacion.github.io/landing-page/`
+
+
+
+#### 3. Despliegue del Frontend Web Application (Angular en Netlify)
+
+El frontend está desarrollado con Angular y se despliega en Netlify mediante integración continua con GitHub.
+
+**Pasos de despliegue:**
+
+1. **Subir el código al repositorio de GitHub**
+    ```bash
+    git add .
+    git commit -m "feat(frontend): prepare angular production build"
+    git push origin main
+    ```
+2. **Configurar en Netlify**
+    * Acceder a: [https://www.netlify.com/](https://www.netlify.com/)
+    * Seleccionar **Add new site** → **Import an existing project**.
+    * Conectar con la cuenta de GitHub.
+    * Seleccionar el repositorio correspondiente al frontend en Angular.
+3. **Configurar el build**
+    * **Branch to deploy:** `main`
+    * **Build command:** `npm run build` *(o `ng build --configuration production`)*
+    * **Publish directory:** `dist/<nombre-proyecto>/browser`
+4. **Configurar la regla de redirección (SPA Rewrites)**
+    * Incluir un archivo `_redirects` en la carpeta de activos de Angular con la regla:
+        ```text
+        /*    /index.html   200
+        ```
+5. **Configurar variables de entorno**
+    * En el panel de Netlify (*Site configuration* → *Environment variables*):
+        * `NG_APP_API_URL` = `https://tu-backend.up.railway.app/api/v1`
+6. **Despliegue**
+    * Netlify ejecuta el proceso de build automáticamente tras cada push a `main`.
+    * Se genera una URL pública accesible para los usuarios finales.
+
+
+
+#### 4. Configuración de Base de Datos (PostgreSQL / MySQL en Railway)
+
+Antes de iniciar el backend, se aprovisiona la base de datos relacional dentro de Railway.
+
+**Pasos de configuración:**
+
+1. **Crear servicio de base de datos**
+    * En el dashboard de Railway, seleccionar **New Project** (o dentro del proyecto existente).
+    * Elegir **Provision PostgreSQL** (o **Provision MySQL**).
+2. **Obtener las credenciales generadas**
+    * En la pestaña **Variables** o **Connect** del servicio de la base de datos, Railway genera automáticamente:
+        * `PGHOST` / `MYSQLHOST`
+        * `PGDATABASE` / `MYSQLDATABASE`
+        * `PGUSER` / `MYSQLUSER`
+        * `PGPASSWORD` / `MYSQLPASSWORD`
+        * `PGPORT` / `MYSQLPORT`
+        * `DATABASE_URL` / `MYSQL_URL`
+
+
+
+#### 5. Despliegue de Web Services (Backend Java / Spring Boot en Railway)
+
+El backend está desarrollado en Java utilizando Spring Boot y se despliega en Railway conectado a la base de datos provisionada.
+
+**Pasos de despliegue:**
+
+1. **Subir el backend a GitHub**
+    ```bash
+    git add .
+    git commit -m "feat(backend): setup spring boot for deployment"
+    git push origin main
+    ```
+2. **Crear servicio de backend en Railway**
+    * Acceder al proyecto existente en Railway donde se encuentra la base de datos.
+    * Seleccionar **New** → **GitHub Repo**.
+    * Elegir el repositorio del backend en Java.
+3. **Configurar variables de entorno**
+    * En la pestaña **Variables** del servicio Java en Railway, configurar:
+        * `SPRING_PROFILES_ACTIVE` = `prod`
+        * `SPRING_DATASOURCE_URL` = `jdbc:postgresql://${{Postgres.PGHOST}}:${{Postgres.PGPORT}}/${{Postgres.PGDATABASE}}`
+        * `SPRING_DATASOURCE_USERNAME` = `${{Postgres.PGUSER}}`
+        * `SPRING_DATASOURCE_PASSWORD` = `${{Postgres.PGPASSWORD}}`
+        * `PORT` = `${{PORT}}`
+4. **Despliegue automático**
+    * Railway detecta el proyecto Maven/Java a través del archivo `pom.xml` y ejecuta automáticamente:
+        * **Compilation & Build:** `./mvnw clean package -DskipTests`
+        * **Execution:** `java -jar target/*.jar`
+    * **Resultado público:** `https://tu-backend.up.railway.app`
+
+
+
+#### 6. Integración de Componentes
+
+El sistema funciona de la siguiente manera:
+1. La **Landing Page** actúa como punto de entrada inicial, promocionando la solución y redirigiendo al usuario al Frontend Web.
+2. El **Frontend Web Application (Angular)** consume las APIs del backend mediante peticiones HTTP RESTful.
+3. El **Backend Web Services (Java / Spring Boot)** procesa la lógica de negocio estructurada en capas bajo DDD y gestiona las transacciones.
+4. La **Base de Datos (Railway)** almacena la información de forma persistente y segura.
+
+
+
+#### 7. Consideraciones de Despliegue
+
+* Uso obligatorio de variables de entorno para la configuración sensible (credenciales, llaves secretas, URLs de conexión).
+* Configuración de **CORS (Cross-Origin Resource Sharing)** en Spring Boot para permitir únicamente la comunicación desde el dominio del frontend en Netlify.
+* Separación clara entre entornos de desarrollo (`application-dev.yml`) y producción (`application-prod.yml`).
+* Prohibición estricta de incluir credenciales o tokens dentro del código fuente subido a GitHub.
+* Verificación periódica de la disponibilidad de endpoints mediante la documentación interactiva con Swagger/OpenAPI.
+* Preservación del versionado semántico en las entregas para asegurar la compatibilidad entre el frontend y backend.
+
+
 
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
