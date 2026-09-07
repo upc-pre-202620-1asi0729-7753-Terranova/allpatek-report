@@ -437,6 +437,72 @@ Escribimos los mensajes de commit de forma clara y uniforme para que cualquier m
 
 
 ### 5.1.3. Source Code Style Guide & Conventions
+
+Para garantizar la mantenibilidad, legibilidad y consistencia del código a lo largo del proyecto, el equipo adopta estándares de desarrollo y guías de estilo reconocidas por la industria para cada uno de los lenguajes utilizados. Toda la nomenclatura en el código fuente (nombres de variables, clases, métodos, funciones, interfaces, componentes, archivos y comentarios) se escribe exclusivamente en **inglés**.
+
+
+
+#### 1. General Naming Conventions
+
+Independientemente del lenguaje de programación, se aplican las siguientes reglas generales para la nomenclatura de elementos:
+
+* **CamelCase (`camelCase`):** Utilizado para variables, atributos, parámetros de métodos y nombres de funciones en JavaScript, TypeScript y Java.
+* **PascalCase (`PascalCase`):** Utilizado para nombres de clases, interfaces, enums, componentes de Angular, anotaciones y tipos personalizados.
+* **Kebab-Case (`kebab-case`):** Utilizado para nombres de archivos, carpetas, selectores de componentes de Angular, clases CSS y atributos personalizados de HTML.
+* **Screaming Snake Case (`UPPER_SNAKE_CASE`):** Utilizado para constantes y valores inmutables en Java y TypeScript.
+
+
+#### 2. HTML & CSS Style Guide
+
+Se adoptan los principios de la **Google HTML/CSS Style Guide** y la **W3C HTML Style Guide**:
+
+* **Sintaxis y Estructura HTML:**
+  * Uso obligatorio de HTML5 semántico (`<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`).
+  * Nombres de etiquetas, atributos y valores en minúsculas.
+  * Uso de comillas dobles (`"..."`) en todos los valores de los atributos.
+  * Indentación de 2 espacios sin tabulaciones.
+
+* **Estilos CSS:**
+  * Adoptar la metodología **BEM (Block Element Modifier)** para la nomenclatura de clases (`block__element--modifier`).
+  * Evitar la regla `!important` y limitar el anidamiento excesivo en preprocesadores.
+  * Agrupar propiedades CSS en orden lógico (Posicionamiento, Box Model, Tipografía, Visuales).
+
+
+
+#### 3. JavaScript & TypeScript Style Guide (Angular)
+
+Se aplican la **Google TypeScript Style Guide** y la guía oficial **Angular Coding Style Guide**:
+
+* **Naming Conventions:**
+  * **Interfaces:** Denominadas en `PascalCase` sin prefijo `I` (ejemplo: `User`, no `IUser`).
+  * **Componentes y Servicios:** Sufijos explícitos en el nombre de la clase y archivo (ejemplo: `user-profile.component.ts` -> `UserProfileComponent`).
+  * **Observables:** Sufijo `$` al final de la variable (ejemplo: `userData$`).
+
+* **Buenas Prácticas:**
+  * Declarar tipos explícitos para variables, parámetros de funciones y retornos, evitando el uso de `any`.
+  * Mantener inmutabilidad mediante el uso preferente de `const` sobre `let` (evitando `var`).
+  * Estructura de archivos modular basada en componentes y lógica orientada a *Bounded Contexts*.
+
+
+
+#### 4. Java & Spring Boot Style Guide
+
+Se adoptan la **Google Java Style Guide** y los estándares recomendados en **Spring Boot Features**:
+
+* **Naming Conventions:**
+  * **Clases:** `PascalCase` representando sustantivos en inglés (ejemplo: `UserRepository`, `AuthenticationService`).
+  * **Métodos:** `camelCase` representando verbos u acciones (ejemplo: `findUserById`, `calculateTotalAmount`).
+  * **Paquetes:** Nombres en minúsculas en singular (ejemplo: `com.company.project.domain.model`).
+
+* **Estructura Arquitectónica con DDD:**
+  * **Layered Packages:** Organización por capas respetando DDD (`domain`, `application`, `infrastructure`, `interfaces`).
+  * **Entidades y Agregados:** Modelado de objetos de dominio encapsulados sin exponer la lógica interna directamente mediante setters indiscriminados.
+  * **Spring Annotations:** Uso explícito de estereotipos de Spring (`@RestController`, `@Service`, `@Repository`) y constructor injection mediante `final` fields o Lombok (`@RequiredArgsConstructor`).
+
+
+
+
+
 ### 5.1.4. Software Deployment Configuration
 
 ## 5.2. Landing Page, Services & Applications Implementation
