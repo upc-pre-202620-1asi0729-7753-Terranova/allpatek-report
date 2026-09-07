@@ -367,9 +367,75 @@ Las herramientas se organizan según las principales actividades del ciclo de vi
 
 
 
-
-
 ### 5.1.2. Source Code Management
+
+
+
+Para llevar un control claro de los cambios y trabajar en equipo de forma ordenada, utilizamos **Git** para el control de versiones y **GitHub** como plataforma centralizada donde alojamos el código. 
+
+Organizamos el proyecto en repositorios independientes según cada producto digital:
+
+* **Landing Page (HTML, CSS y JS):** [Link del Repositorio](https://github.com/TuOrganizacion/tu-proyecto-landing-page)
+* **Web Services (Java / Spring Boot):** [Link del Repositorio](https://github.com/TuOrganizacion/tu-proyecto-landing-page)
+* **Frontend Web Application (Angular):** [Link del Repositorio](https://github.com/TuOrganizacion/tu-proyecto-landing-page)
+
+
+#### Estrategia de Trabajo: GitFlow
+
+Adoptamos el flujo de trabajo **GitFlow** para organizar el desarrollo en diferentes ramas según el propósito de cada cambio:
+
+1. **Ramas Principales**
+   * `main`: Mantiene únicamente el código estable y probado que está listo para producción.
+   * `develop`: Funciona como la rama de integración continua donde se consolidan las funcionalidades listas para la próxima entrega.
+
+2. **Ramas Temporales**
+   * **Feature Branches (`feature/*`):** Las creamos a partir de `develop` para construir nuevas funcionalidades o historias de usuario asociadas a un contexto delimitado (*Bounded Context*).
+     * **Convención:** `feature/<bounded-context>-<descripcion-corta>`
+     * *Ejemplo:* `feature/iam-user-authentication`
+   * **Release Branches (`release/*`):** Se generan desde `develop` cuando tenemos un grupo de funcionalidades listas para publicar. Las usamos para realizar pruebas finales y ajustes menores antes de pasar a producción.
+     * **Convención:** `release/vX.Y.Z`
+     * *Ejemplo:* `release/v1.0.0`
+   * **Hotfix Branches (`hotfix/*`):** Nacen directamente de `main` para corregir errores urgentes detectados en producción. Una vez resuelto el problema, la rama se integra tanto en `main` como en `develop`.
+     * **Convención:** `hotfix/vX.Y.Z-<descripcion-corta>`
+     * *Ejemplo:* `hotfix/v1.0.1-fix-login-error`
+
+
+#### Versionado Semántico (Semantic Versioning 2.0.0)
+
+Para etiquetar los lanzamientos (*Releases*) en la rama `main`, seguimos la regla `vX.Y.Z` (`vMAJOR.MINOR.PATCH`):
+
+* **MAJOR (X):** Se incrementa cuando introducimos cambios grandes que rompen la compatibilidad con versiones anteriores.
+* **MINOR (Y):** Se incrementa al añadir nuevas funcionalidades de manera retrocompatible.
+* **PATCH (Z):** Se incrementa cuando aplicamos correcciones puntuales de errores (*bug fixes*).
+
+
+
+#### Estándar de Commits (Conventional Commits)
+
+Escribimos los mensajes de commit de forma clara y uniforme para que cualquier miembro del equipo entienda qué se cambió de un vistazo:
+
+`<tipo>(<alcance>): <descripción corta>`
+
+* **Tipos comunes:**
+  * `feat`: Nueva funcionalidad.
+  * `fix`: Corrección de un error.
+  * `docs`: Cambios en la documentación.
+  * `style`: Ajustes estéticos o de formato sin cambios en la lógica (CSS, espacios, comas).
+  * `refactor`: Mejoras al código que no cambian su comportamiento ni arreglan errores.
+  * `test`: Creación o modificación de pruebas.
+  * `chore`: Mantenimiento de configuraciones, dependencias o herramientas.
+
+* **Ejemplos prácticos:**
+  * `feat(iam): add user registration service in Java backend`
+  * `fix(landing): resolve responsive navigation bar overflow`
+  * `refactor(shared): optimize Angular HTTP interceptor handling`
+  * `test(iam): add unit tests for authentication aggregate`
+  * `docs(scm): update GitFlow branching strategy documentation`
+
+
+
+
+
 ### 5.1.3. Source Code Style Guide & Conventions
 ### 5.1.4. Software Deployment Configuration
 
