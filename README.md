@@ -664,8 +664,125 @@ El sistema funciona de la siguiente manera:
 
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
+
+El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de Allpatek, la cual constituye el primer punto de contacto con los usuarios potenciales. Su objetivo fue comunicar de manera clara la propuesta de valor del sistema centrada en la gestión de seguridad ciudadana. Durante este sprint, se integraron las secciones principales (presentación, funcionalidades, beneficios y llamadas a la acción) siguiendo los wireframes del Capítulo IV y priorizando estándares de usabilidad, diseño responsivo y consistencia visual.
+
 #### 5.2.1.1. Sprint Planning 1
+
+<table>
+  <tr>
+    <th colspan="5">Sprint #</th>
+    <th colspan="9">Sprint 1</th>
+  </tr>
+  <tr>
+    <td colspan="13">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8">07-09-2026</td>
+  </tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8">4:00 PM</td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8">Reunion por Meet</td>
+  </tr>
+  <tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Attendees (to planning meeting)</td>
+    <td colspan="8"> Alexander Sebastián,  Miguel Angel,  Mel Andree, Nayely Macarena, Abigail Nadhim</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint n-1 Review Summary</td>
+    <td colspan="8">No aplica - Este es el primer Sprint del proyecto</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint n-1 Retrospective Summary</td>
+    <td colspan="8">No aplica - Este es el primer Sprint del proyecto</td>
+  </tr>
+  <tr>
+    <td colspan="13">Sprint Goal & User Stories</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 1 Goal</td>
+    <td colspan="8"><strong>""</strong></td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 1 Velocity</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="8"> story points</td>
+  </tr>
+</table>
+
 #### 5.2.1.2. Aspect Leaders and Collaborators
+
+
+<div align="center">
+  <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 13px; text-align: center;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th style="border: 1px solid #dddddd; padding: 10px;">Team Member (Last Name, First Name)</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
+        <th style="border: 1px solid #dddddd; padding: 10px;"></th>
+        <th style="border: 1px solid #dddddd; padding: 10px;"></th>
+        <th style="border: 1px solid #dddddd; padding: 10px;"></th>
+        <th style="border: 1px solid #dddddd; padding: 10px;"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+        <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
 #### 5.2.1.3. Sprint Backlog 1
 #### 5.2.1.4. Development Evidence for Sprint Review
 #### 5.2.1.5. Execution Evidence for Sprint Review
