@@ -325,7 +325,50 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 # Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management
+
+
+La gestión de la configuración del software en el proyecto garantiza el control de cambios, asegurando la integridad, trazabilidad y consistencia del código fuente. Asimismo, facilita la coordinación del trabajo en equipo entre las capas de frontend y backend mediante el uso de buenas prácticas de ingeniería de software y el control de versiones alineado a los principios de Domain-Driven Design (DDD). Este enfoque permite estructurar el desarrollo separando responsabilidades según el Lenguaje Ubicuo, los Contextos Delimitados y los modelos de dominio.
+
 ### 5.1.1. Software Development Environment Configuration
+
+Para respaldar el ciclo de vida de la aplicación, el equipo seleccionó herramientas y entornos que optimizan la comunicación, diseño, desarrollo, despliegue y documentación. Estas soluciones garantizan un flujo de trabajo ágil y escalable sobre una arquitectura desacoplada basada en Angular y Java (Spring Boot) bajo la metodología DDD.
+Las herramientas se organizan según las principales actividades del ciclo de vida del software:
+
+### Project Management y Requirements Management
+
+* **Trello:** Es la herramienta principal utilizada para la gestión visual del proyecto mediante tableros Kanban. Permite organizar tareas en listas y tarjetas (Backlog, En Proceso, Revisión, Finalizado), ordenando las historias de usuario y tareas de desarrollo por *Bounded Contexts* (Contextos Delimitados) del dominio, facilitando el seguimiento del avance del desarrollo entre el frontend y backend.
+* **Microsoft OneDrive:** Actúa como el almacenamiento centralizado en la nube para alojar y resguardar archivos pesados, evidencias visuales del desarrollo y los videos demostrativos o explicativos del proyecto. Permite generar enlaces de acceso directo que se vinculan en la documentación técnica para su revisión.
+
+### Product UX/UI Design
+
+* **Figma:** Es la herramienta principal para el diseño de la interfaz de usuario (UI) y la experiencia de usuario (UX). Se emplea para construir wireframes, prototipos interactivos y el sistema de diseño (*Design System*) alineado a los flujos y casos de uso definidos por el dominio en Angular.
+* **Miro:** Se utiliza como pizarra virtual colaborativa para facilitar dinámicas de *Event Storming*, mapeo de contextos delimitados (*Context Mapping*), modelado de flujos de navegación y diagramación conceptual del dominio previa a la implementación.
+
+### Software Development
+
+* **Visual Studio Code:** Es el editor de código utilizado para el desarrollo de la Landing Page del proyecto mediante HTML, CSS y JavaScript. Asimismo, se utiliza como entorno para la redacción estructurada de la documentación técnica en formato **Markdown**, ofreciendo soporte para extensiones de previsualización sintáctica.
+* **IntelliJ IDEA:** Es el entorno de desarrollo integrado (IDE) utilizado de manera exclusiva para el desarrollo del Backend en Java (Spring Boot) siguiendo los patrones tácticos de DDD (Entidades, Agregados, Objetos de Valor, Repositorios, Servicios de Dominio y Casos de Uso). Proporciona herramientas avanzadas para la gestión de dependencias con Maven/Gradle, refactorización de código, depuración de servicios RESTful y ejecución de pruebas unitarias y de integración.
+* **Git:** Es el sistema de control de versiones distribuido utilizado para gestionar el código fuente del proyecto. Permite registrar el historial de cambios, administrar ramas de desarrollo (*branching*) y garantizar la consistencia del código.
+* **GitHub:** Es la plataforma en la nube utilizada para alojar los repositorios del proyecto (separando frontend y backend o por contextos delimitados). Facilita la revisión de código (*Pull Requests*), el control de versiones de la documentación redactada en Markdown y la integración del trabajo colaborativo.
+* **Node.js & npm / Angular CLI:** Entorno de ejecución y gestor de paquetes utilizados para administrar las dependencias del frontend de la aplicación web en Angular, compilar los componentes del sistema y ejecutar el servidor de desarrollo local.
+* **JDK (Java Development Kit):** Entorno de desarrollo para la compilación y ejecución de la lógica de negocio orientada al dominio y APIs del backend basadas en Java.
+
+### Software Deployment
+
+* **GitHub Pages / Vercel / Netlify:** Servicios utilizados para el despliegue y alojamiento de la Landing Page y la aplicación frontend construida en Angular, garantizando un acceso rápido y disponibilidad pública.
+* **Railway / Render:** Plataformas PaaS en la nube utilizadas para el despliegue del entorno backend en Java y la base de datos relacional, permitiendo la exposición de las APIs REST a través de endpoints seguros en producción.
+
+### Software Documentation
+
+* **Markdown:** Es el lenguaje de marcado ligero utilizado como estándar para la redacción colaborativa y estructurada de toda la documentación técnica del proyecto, incluyendo la especificación del Lenguaje Ubicuo (*Ubiquitous Language*), informes técnicos, guías del sistema y entregables académicos en el repositorio.
+* **Swagger / Open API:** Herramienta integrada en el backend en Java para la documentación y prueba interactiva de las APIs RESTful expuestas por cada *Bounded Context*. Permite visualizar los endpoints, esquemas de DTOs y probar los servicios directamente desde una interfaz web.
+* **Postman:** Utilizado para la realización de pruebas de integración y validación manual de los servicios REST antes de ser consumidos por la aplicación en Angular.
+
+
+
+
+
+
 ### 5.1.2. Source Code Management
 ### 5.1.3. Source Code Style Guide & Conventions
 ### 5.1.4. Software Deployment Configuration
