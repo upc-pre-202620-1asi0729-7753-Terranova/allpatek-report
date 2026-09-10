@@ -363,7 +363,36 @@ Las reglas principales son:
 **Validación colaborativa pendiente:** este diagrama es la propuesta para la sesión del equipo. En ella se revisará el recorrido, se ajustarán los límites de cada área y se resolverán las preguntas abiertas. Después se incorporarán fecha, participantes, enlace y capturas reales del tablero. No se afirma que esa reunión ya haya ocurrido. Los identificadores definitivos de historias y la relación con el Big Picture EventStorming se añadirán cuando esos artefactos estén disponibles.
 
 ### 4.6.2. Software Architecture Context Diagram
+
+El diagrama de contexto muestra Allpatek como un sistema completo: quién lo utiliza y con qué servicios externos se comunica. El agricultor publica parcelas y reporta labores. El comprador consulta ofertas, contrata una temporada y revisa los avances. Los servicios externos permiten verificar pagos, obtener información meteorológica y enviar mensajes.
+
+![Figura 4.6.2. Diagrama de contexto de Allpatek](assets/chapter-04/architecture/02-context.png)
+
+*Figura 4.6.2. Diagrama de contexto de Allpatek.* [Diagrama editable](assets/chapter-04/architecture/02-context.puml).
+
+Esta vista ayuda a reconocer el alcance del producto. Los proveedores concretos todavía deben seleccionarse. La custodia real de fondos descrita en los prototipos depende de las capacidades del proveedor; una demostración con pagos simulados deberá identificarse como tal.
+
 ### 4.6.3. Software Architecture Container Diagrams
+
+El diagrama de contenedores muestra las aplicaciones y almacenes que forman la solución. En C4, la palabra *container* se refiere a una aplicación o almacén de datos; no exige utilizar Docker.
+
+![Figura 4.6.3. Aplicaciones y almacenamiento de Allpatek](assets/chapter-04/architecture/03-containers.png)
+
+*Figura 4.6.3. Aplicaciones y almacenamiento de Allpatek.* [Diagrama editable](assets/chapter-04/architecture/03-containers.puml).
+
+| Elemento | Función | Tecnología propuesta |
+|---|---|---|
+| Landing page | Presentar el negocio y dirigir al registro o catálogo. | HTML5, CSS3 y JavaScript. |
+| Web application | Mostrar las pantallas que utilizan agricultores y compradores. | Angular, TypeScript y Angular Material. |
+| REST API | Procesar solicitudes, validar reglas y administrar información. | Java, Spring Boot y Spring Data JPA; documentación OpenAPI/Swagger. |
+| Base de datos | Guardar usuarios, parcelas, contratos, pagos y avances. | PostgreSQL, como propuesta a confirmar con el equipo. |
+| Almacenamiento de archivos | Conservar fotos, evidencias y documentos PDF. | Servicio privado de almacenamiento por seleccionar. |
+| n8n | Coordinar la generación del documento y el envío de mensajes. | Flujos de automatización n8n, con su almacenamiento de configuración. |
+
+La aplicación Angular se comunica con la API; la API consulta y guarda los datos. Los archivos se entregan únicamente a usuarios autorizados. n8n recibe una solicitud de la API, obtiene el documento y coordina su envío. Para generar el PDF, se propone que n8n invoque un servicio Java de la API que utilice los datos del contrato.
+
+La interfaz tendrá inglés como idioma predeterminado y español latinoamericano como alternativa, conforme al enunciado. Las pantallas contemplarán uso con teclado, etiquetas claras, contraste y adaptación a móviles. Para la conectividad limitada se propone conservar borradores de avances y enviarlos al recuperar conexión; pagos y aceptación de contratos requieren conexión.
+
 ### 4.6.4. Software Architecture Components Diagrams
 
 ## 4.7. Software Object-Oriented Design

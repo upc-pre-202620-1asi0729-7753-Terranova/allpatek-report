@@ -1,0 +1,42 @@
+@startuml
+!pragma layout smetana
+!include <C4/C4_Container>
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 15
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam ArrowColor #476050
+skinparam dpi 140
+title Allpatek | C4 - Containers
+
+LAYOUT_TOP_DOWN()
+Person(user,"Farmer / Buyer","Uses the platform")
+System_Boundary(allpatek,"Allpatek") {
+ Container(landing,"Landing page","HTML, CSS, JavaScript","Presents the service and routes visitors to the application")
+ Container(web,"Web application","Angular / Angular Material","Plot catalog, contracts, payments and progress screens")
+ Container(api,"REST API","Java / Spring Boot / Spring Data JPA","Business rules, permissions and OpenAPI documentation")
+ ContainerDb(db,"Application database","PostgreSQL - proposed","Users, plots, contracts, payments and progress")
+ Container(auto,"Automation","n8n","Coordinates PDF generation and messages")
+ ContainerDb(files,"Private file storage","Storage service - to select","Plot photos, evidence and contract PDFs")
+ ContainerDb(runtime,"n8n persistence","Database managed for n8n","Workflow settings and execution history")
+}
+System_Ext(pay,"Payment service","Provider to select")
+System_Ext(weather,"Weather service","Provider to select")
+System_Ext(mail,"Messaging services","Email / optional WhatsApp")
+Rel(user,landing,"Reads", "HTTPS")
+Rel(user,web,"Uses", "HTTPS")
+Rel(landing,web,"Opens registration or catalog", "HTTPS link")
+Rel(web,api,"Requests and submits information", "HTTPS / JSON")
+Rel(api,db,"Reads and stores data", "JPA / SQL")
+Rel(api,files,"Stores and retrieves authorized files", "HTTPS")
+Rel(api,pay,"Requests / verifies payments", "HTTPS")
+Rel(pay,api,"Reports payment result", "HTTPS webhook")
+Rel(api,weather,"Requests weather data", "HTTPS")
+Rel(api,auto,"Requests document or notification", "Authenticated HTTPS")
+Rel(auto,api,"Obtains PDF and reports result", "Authenticated HTTPS")
+Rel(auto,mail,"Sends message", "HTTPS / SMTP")
+Rel(auto,runtime,"Stores workflow configuration", "SQL")
+SHOW_LEGEND()
+
+@enduml

@@ -1,0 +1,27 @@
+@startuml
+!pragma layout smetana
+!include <C4/C4_Context>
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 15
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam ArrowColor #476050
+skinparam dpi 140
+title Allpatek | C4 - System context
+
+LAYOUT_TOP_DOWN()
+Person(farmer,"Farmer","Publishes plots and records agricultural work")
+Person(buyer,"Buyer","Contracts a season and reviews progress")
+System(app,"Allpatek","Connects farmers and buyers through seasonal agricultural contracts")
+System_Ext(pay,"Payment service","Confirms payments; release capabilities to validate")
+System_Ext(weather,"Weather service","Provides location-based weather data")
+System_Ext(message,"Messaging services","Email and optional WhatsApp delivery")
+Rel(farmer,app,"Publishes plots and reports progress")
+Rel(buyer,app,"Contracts, pays and reviews milestones")
+Rel(app,pay,"Requests and checks payments")
+Rel(app,weather,"Consults weather information")
+Rel(app,message,"Sends contracts and updates")
+SHOW_LEGEND()
+
+@enduml
