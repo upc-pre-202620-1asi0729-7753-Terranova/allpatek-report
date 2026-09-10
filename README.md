@@ -424,7 +424,56 @@ Un flujo solicita el PDF del contrato; otro envía avisos de avance o clima. Amb
 Los almacenes se detallan en el diseño de datos de 4.8. La base propia de n8n guarda su configuración y ejecuciones; no reemplaza la base de contratos y pagos de Allpatek.
 
 ## 4.7. Software Object-Oriented Design
+
+El diseño orientado a objetos representa los elementos del negocio mediante clases. Cada clase reúne información y operaciones relacionadas. Por ejemplo, Contract conserva las fechas de la temporada y permite registrar su aceptación o cierre.
+
+Se proponen clases agrupadas en los mismos cinco módulos de la arquitectura. Los atributos se muestran con **-** para indicar acceso privado y los métodos con **+** para indicar acceso público. Las relaciones señalan cómo se conectan las clases y cuántos elementos pueden participar. Las enumeraciones agrupan valores permitidos, como los roles de usuario o estados de contrato.
+
 ### 4.7.1. Class Diagrams
+
+Los diagramas siguientes corresponden al modelo de negocio de la API Java. Se incluye una interfaz Repository representativa por módulo para mostrar cómo se separa la consulta de datos de las clases del negocio. Las referencias entre módulos utilizan identificadores, como buyerId o contractId.
+
+#### Users and Profiles
+
+User representa a una persona registrada y su rol. Review guarda la calificación que una parte deja a la otra al terminar un contrato. Esto recoge la reputación bidireccional propuesta en el capítulo I.
+
+![Figura 4.7.1. Clases de Users and Profiles](assets/chapter-04/architecture/08-classes-users.png)
+
+*Figura 4.7.1. Clases de Users and Profiles.* [Diagrama editable](assets/chapter-04/architecture/08-classes-users.puml).
+
+#### Land Management
+
+Plot reúne los datos de la parcela, cultivo, costo orientativo y disponibilidad. PlotPhoto permite conservar varias fotografías y distinguir la principal, como solicita el formulario del capítulo IV.
+
+![Figura 4.7.2. Clases de Land Management](assets/chapter-04/architecture/09-classes-plots.png)
+
+*Figura 4.7.2. Clases de Land Management.* [Diagrama editable](assets/chapter-04/architecture/09-classes-plots.puml).
+
+#### Season Contracting
+
+Contract guarda las partes, fechas, importe y condiciones de la temporada. Milestone representa una etapa con sus criterios de aprobación e importe. Los hitos pertenecen al contrato y no existen de manera independiente.
+
+![Figura 4.7.3. Clases de Season Contracting](assets/chapter-04/architecture/10-classes-contracts.png)
+
+*Figura 4.7.3. Clases de Season Contracting.* [Diagrama editable](assets/chapter-04/architecture/10-classes-contracts.puml).
+
+#### Payments and Plans
+
+Payment registra una operación y su resultado. SubscriptionPlan y Subscription representan los planes mensuales de los prototipos. Su inclusión permite conectar el diseño con esas pantallas; los precios y la decisión de cobrar planes o comisiones siguen pendientes.
+
+![Figura 4.7.4. Clases de Payments and Plans](assets/chapter-04/architecture/11-classes-payments.png)
+
+*Figura 4.7.4. Clases de Payments and Plans.* [Diagrama editable](assets/chapter-04/architecture/11-classes-payments.puml).
+
+#### Crop Monitoring
+
+ProgressUpdate registra el trabajo y sus evidencias. WeatherAlert conserva una alerta con fuente y fecha. Se agrupan aquí para que el usuario consulte tanto el avance del cultivo como la información climática de su parcela.
+
+![Figura 4.7.5. Clases de Crop Monitoring](assets/chapter-04/architecture/12-classes-monitoring.png)
+
+*Figura 4.7.5. Clases de Crop Monitoring.* [Diagrama editable](assets/chapter-04/architecture/12-classes-monitoring.puml).
+
+La UI de Angular utilizará componentes y servicios para presentar estos datos; su organización aparece en 4.6.4-B. La landing y los flujos n8n no incorporan clases de negocio propias. Por eso los diagramas de dominio se concentran en la API y no repiten las mismas reglas en cada producto.
 
 ## 4.8. Database Design
 ### 4.8.1. Database Diagrams

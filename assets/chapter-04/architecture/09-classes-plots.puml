@@ -1,0 +1,55 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 15
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam ArrowColor #476050
+skinparam dpi 140
+title Allpatek | Classes - Land Management
+top to bottom direction
+class Plot {
+ -id: Long
+ -farmerId: Long
+ -name: String
+ -location: String
+ -latitude: BigDecimal
+ -longitude: BigDecimal
+ -areaHectares: BigDecimal
+ -soilType: String
+ -crop: String
+ -seasonCost: BigDecimal
+ -availableFrom: LocalDate
+ -availableUntil: LocalDate
+ -status: PlotStatus
+ --
++publish(): void
++updateAvailability(start: LocalDate, end: LocalDate): void
+}
+class PlotPhoto {
+ -id: Long
+ -plotId: Long
+ -fileKey: String
+ -isMain: Boolean
+ --
++setAsMain(): void
+}
+enum PlotStatus {
+DRAFT
+AVAILABLE
+IN_PRODUCTION
+INACTIVE
+}
+Plot ..> PlotStatus : uses
+interface PlotRepository {
+ +findById(id: Long): Optional<Plot>
+ +save(entity: Plot): Plot
+}
+PlotRepository ..> Plot : stores and retrieves
+Plot "1" *-- "0..*" PlotPhoto : plotId
+legend bottom
+- Private attribute | + Public operation | Diamond: owned entity
+References to other modules use identifiers.
+endlegend
+@enduml

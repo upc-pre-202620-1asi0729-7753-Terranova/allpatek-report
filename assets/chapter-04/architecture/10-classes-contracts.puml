@@ -1,0 +1,65 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 15
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam ArrowColor #476050
+skinparam dpi 140
+title Allpatek | Classes - Season Contracting
+top to bottom direction
+class Contract {
+ -id: Long
+ -plotId: Long
+ -buyerId: Long
+ -farmerId: Long
+ -startDate: LocalDate
+ -endDate: LocalDate
+ -totalAmount: BigDecimal
+ -currency: String
+ -terms: String
+ -buyerAcceptedAt: Instant
+ -farmerAcceptedAt: Instant
+ -status: ContractStatus
+ -documentKey: String
+ -documentSentAt: Instant
+ --
++accept(partyId: Long): void
++activate(): void
++complete(): void
+}
+class Milestone {
+ -id: Long
+ -contractId: Long
+ -sequence: Integer
+ -name: String
+ -criteria: String
+ -amount: BigDecimal
+ -status: String
+ -reviewedAt: Instant
+ -reviewNote: String
+ --
++submit(): void
++approve(): void
++reject(reason: String): void
+}
+enum ContractStatus {
+PENDING_ACCEPTANCE
+PENDING_PAYMENT
+ACTIVE
+COMPLETED
+CANCELLED
+}
+Contract ..> ContractStatus : uses
+interface ContractRepository {
+ +findById(id: Long): Optional<Contract>
+ +save(entity: Contract): Contract
+}
+ContractRepository ..> Contract : stores and retrieves
+Contract "1" *-- "0..*" Milestone : contractId
+legend bottom
+- Private attribute | + Public operation | Diamond: owned entity
+References to other modules use identifiers.
+endlegend
+@enduml

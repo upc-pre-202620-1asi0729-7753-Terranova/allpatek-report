@@ -1,0 +1,64 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 15
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam ArrowColor #476050
+skinparam dpi 140
+title Allpatek | Classes - Payments and Plans
+top to bottom direction
+class Payment {
+ -id: Long
+ -contractId: Long
+ -milestoneId: Long
+ -subscriptionId: Long
+ -kind: PaymentKind
+ -amount: BigDecimal
+ -currency: String
+ -providerReference: String
+ -status: String
+ -createdAt: Instant
+ --
++confirm(reference: String): void
++markFailed(): void
+}
+class SubscriptionPlan {
+ -id: Long
+ -name: String
+ -monthlyPrice: BigDecimal
+ -currency: String
+ -plotLimit: Integer
+ --
++updatePrice(amount: BigDecimal): void
+}
+class Subscription {
+ -id: Long
+ -userId: Long
+ -planId: Long
+ -startDate: LocalDate
+ -endDate: LocalDate
+ -status: String
+ --
++activate(): void
++cancel(): void
+}
+enum PaymentKind {
+SEASON_FUNDING
+MILESTONE_RELEASE
+SUBSCRIPTION
+}
+Payment ..> PaymentKind : uses
+interface PaymentRepository {
+ +findById(id: Long): Optional<Payment>
+ +save(entity: Payment): Payment
+}
+PaymentRepository ..> Payment : stores and retrieves
+Subscription "0..1" <-- "0..*" Payment : subscriptionId
+SubscriptionPlan "1" <-- "0..*" Subscription : planId
+legend bottom
+- Private attribute | + Public operation | Diamond: owned entity
+References to other modules use identifiers.
+endlegend
+@enduml
