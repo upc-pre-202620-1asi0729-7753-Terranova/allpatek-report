@@ -1,0 +1,60 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 15
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam ArrowColor #476050
+skinparam dpi 140
+title Allpatek | Design-Level EventStorming
+
+top to bottom direction
+rectangle "Farmer\n[Actor]" as farmer #FFF2CC
+rectangle "PublishPlot\n[Command]" as publish #D9EAF7
+rectangle "Plot\n[Aggregate]" as plot #FFF2CC
+rectangle "PlotPublished\n[Event]" as published #F8CBAD
+rectangle "Available plots\n[Read model]" as catalog #E2F0D9
+rectangle "Buyer: RequestContract\n[Command]" as request #D9EAF7
+rectangle "Contract\n[Aggregate]\nDates, terms and milestones" as contract #FFF2CC
+rectangle "ContractAccepted\n[Event]\nAfter acceptance by both parties" as accepted #F8CBAD
+rectangle "ConfirmPayment\n[Command]\nVerified provider response" as pay #D9EAF7
+rectangle "Payment\n[Aggregate]" as payment #FFF2CC
+rectangle "PaymentConfirmed\n[Event]" as confirmed #F8CBAD
+rectangle "Activate funded contract;\ngenerate PDF and notify\n[Policy]" as notify #E4DFEC
+rectangle "Farmer: RecordProgress\n[Command]" as record #D9EAF7
+rectangle "ProgressUpdate\n[Aggregate]" as update #FFF2CC
+rectangle "ProgressRecorded\n[Event]" as recorded #F8CBAD
+rectangle "Buyer reviews evidence\n[Policy]" as review #E4DFEC
+rectangle "ApproveMilestone\n[Command]" as approve #D9EAF7
+rectangle "Contract / Milestone\n[Aggregate / Entity]" as milestone #FFF2CC
+rectangle "MilestoneApproved\n[Event]" as approved #F8CBAD
+rectangle "Request agreed payment release\n[Policy]" as release #E4DFEC
+rectangle "Yield risk? Four or five milestones?\nWho resolves disagreements?\n[Open decisions]" as open #FFC7CE
+farmer -right-> publish
+publish -right-> plot
+plot -right-> published
+published --> catalog
+catalog -left-> request
+request -left-> contract
+contract -left-> accepted
+accepted --> pay
+pay -right-> payment
+payment -right-> confirmed
+confirmed -right-> notify
+notify --> record
+record -left-> update
+update -left-> recorded
+recorded -left-> review
+review --> approve
+approve -right-> milestone
+milestone -right-> approved
+approved -right-> release
+open .. milestone
+legend bottom
+Blue: command | Yellow: actor / aggregate | Orange: event
+Green: information to consult | Purple: policy | Red: open question
+Proposal to validate in the team workshop.
+endlegend
+
+@enduml
