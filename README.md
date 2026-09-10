@@ -750,51 +750,60 @@ Esta sección presenta los esquemas de baja y media fidelidad (wireframes) dise�
 
 En esta sección se presentan los diagramas de **Wireflow**, los cuales combinan la estructura de los *wireframes* con la secuencia de un *user flow* para representar la interacción y el cambio de estado de la pantalla en cada paso de la navegación. 
 
-Para garantizar consistencia en la arquitectura de información, se definieron previamente los *Task Flows* correspondientes a las rutas críticas de nuestros User Personas (**Agricultor** y **Comerciante B2B**), modelando explícitamente cada cambio de estado visual (efecto de selección, apertura de modales o actualización de badges) como un paso independiente con su respectivo wireframe.
+Para garantizar consistencia en la arquitectura de información, se definieron previamente los *Task Flows* correspondientes a las rutas críticas de nuestros User Personas (**Agricultor** y **Comerciante**), modelando explícitamente cada cambio de estado visual (efecto de selección, apertura de modales o actualización de badges) como un paso independiente con su respectivo wireframe.
+
+ **Link Wireflow:** [Link del Wireflow Diagramsl](https://www.figma.com/board/KAFi24QzlDrbm4DzuM1DgV/Untitled?node-id=0-1&t=xxM3mTqylB25csWf-1)
+
+
+#### Wireflow 1: Registro de Usuario, Selección de Rol y Consulta de Perfil
+* **User Persona:** Alejandro Mendoza / María Chen
+* **User Goal:** Crear una cuenta en la plataforma seleccionando el rol operativo correspondiente, iniciar sesión para autenticarse y acceder a la sección de perfil para verificar los datos de la cuenta y su estado.
+
+<p align="center">
+  <img src="./assets/chapter-04/Wireflow01.png" alt="Descripción de la imagen" width="700">
+</p>
+
+**Explicación del Flujo Paso a Paso:**
+1. **Paso 1 (Modal de Selección de Rol - Estado Inicial):** El usuario accede al flujo de alta. La interfaz despliega un contenedor modal centrado en modo oscuro con dos tarjetas interactivas: **Agricultor** y **Comerciante B2B**. El usuario hace clic sobre la tarjeta de su perfil, la cual cambia visualmente de estado activando un borde destacado en tono dorado maiz (`#E9C46A`). Luego, presiona `Siguiente`.
+2. **Paso 2 (Formulario Progresivo de Registro):** La pantalla cambia al formulario de alta de datos. El usuario ingresa sus nombres completos, documento de identidad (DNI/RUC), correo electrónico y contraseña Al hacer clic en `Crear Cuenta`, el sistema valida las entradas y registra la cuenta.
+3. **Paso 3 (Pantalla de Inicio de Sesión - Login):** La interfaz muestra el formulario de ingreso de credenciales en un contenedor de columna única. El usuario introduce su correo y contraseña registrados y presiona el botón principal `Iniciar Sesión`. Tras validar el token JWT, el sistema otorga acceso al Dashboard, desde cuyo menú lateral el usuario selecciona `Mi Perfil`.
+4. **Paso 4 (Vista de Perfil de Usuario y Datos de Cuenta):** El Wireframe se actualiza mostrando la sección de Perfil de Usuario. Presenta el avatar del usuario, badge de rol activo (`Agricultor` o `Comerciante B2B`), datos fiscales/personales en modo lectura y el botón de acción `Editar Perfil`.
+
+
+#### Wireflow 2: Registro de Parcela y Publicación en la Plataforma Web
+* **User Persona:** Alejandro Mendoza (Productor Agrícola)
+* **User Goal:** Registrar un nuevo terreno agrícola ingresando sus especificaciones técnicas, ubicación geográfica en mapa y evidencia fotográfica para ponerlo a disposición de comerciantes B2B en el catálogo de ALLPATEK.
+
+<p align="center">
+  <img src="./assets/chapter-04/Wireflow02.png" alt="Descripción de la imagen" width="700">
+</p>
+
+**Explicación del Flujo Paso a Paso:**
+1. **Paso 1 (Dashboard de Parcelas - Estado Inicial):** El agricultor navega al módulo *Gestión de Parcelas* en la barra lateral (Sidebar) y hace clic en el botón principal de acción (CTA) `Publicar Nueva Parcela`.
+2. **Paso 2 (Formulario Multipaso - Paso 1: Datos Generales):** Se despliega el Wireframe del formulario. El usuario completa los campos de entrada: nombre de la parcela, extensión en hectáreas (Ha), tipo de suelo y costo por campaña. Al completar, presiona `Siguiente`.
+3. **Paso 3 (Formulario Multipaso - Paso 2: Geolocalización):** La pantalla cambia a la vista de ubicación. El usuario selecciona departamento, provincia, distrito y presiona `Obtener Ubicación`, lo que actualiza la interfaz mostrando el pin de coordenadas GPS sobre el visor del mapa interactivo. Hace clic en `Siguiente`.
+4. **Paso 4 (Formulario Multipaso - Paso 3: Carga de Evidencia Visual):** La pantalla muestra la zona de arrastre (*Drag & Drop*). El usuario adjunta las imágenes del terreno; el Wireframe se actualiza mostrando las miniaturas de las fotos y permitiendo designar la Foto Principal.
+5. **Paso 5 (Confirmación y Actualización del Dashboard):** El agricultor hace clic en `Guardar y Publicar Parcela`. El sistema procesa la solicitud, cierra el asistente y retorna al Dashboard principal, mostrando la nueva tarjeta agregada con el badge en estado `Disponible`.
 
 
 
-#### Wireflow 1: Registro de Parcela y Publicación en la Plataforma
-* **User Persona:** Alejandro Mendoza (Agricultor)
-* **User Goal:** Publicar una nueva parcela agrícola registrando sus datos técnicos, ubicación GPS y fotos para ponerla a disposición de comerciantes B2B.
+#### Wireflow 3: Contratación y Firma Digital del Acuerdo Escrow
+* **User Persona:** María Chen (Comprador)
+* **User Goal:** Revisar los términos legales de una propuesta de arrendamiento agrícola y formalizar el acuerdo mediante firma digital para activar la custodia financiera de fondos en la Bóveda Escrow.
 
-##### Explanación del Flujo:
-1. **Paso 1 (Dashboard de Parcelas - Estado Inicial):** El usuario accede a la vista de *Gestión de Parcelas* y hace clic en el botón principal (*CTA*) "Publicar Nueva Parcela".
-2. **Paso 2 (Formulario Multipaso - Paso 1: Datos Generales):** Se despliega el wireframe del formulario. El usuario ingresa nombre, área (Ha), tipo de suelo y costo. Al completar, acciona "Siguiente".
-3. **Paso 3 (Formulario Multipaso - Paso 2: Geolocalización):** La pantalla cambia al estado de ubicación. El usuario selecciona departamento, provincia, distrito y presiona "Obtener Ubicación", lo que actualiza el mapa con la marca de coordenadas GPS.
-4. **Paso 4 (Formulario Multipaso - Paso 3: Carga de Evidencia):** Muestra la zona *Drag & Drop*. El usuario sube los fotogramas; la pantalla se actualiza mostrando las miniaturas de las fotos y permitiendo designar la *Foto Principal*.
-5. **Paso 5 (Confirmación y Actualización de Dashboard):** El usuario hace clic en "Guardar y Publicar Parcela". El flujo retorna al Dashboard, mostrando la nueva tarjeta agregada con el badge en estado *Disponible*.
+<p align="center">
+  <img src="./assets/chapter-04/Wireflow03.png" alt="Descripción de la imagen" width="700">
+</p>
 
-
-
-#### Wireflow 2: Contratación y Firma Digital del Acuerdo Escrow
-* **User Persona:** María Chen (Comerciante B2B)
-* **User Goal:** Revisar los términos legales de un contrato de arrendamiento agrícola y formalizar el acuerdo mediante firma digital para activar la custodia de fondos.
-
-##### Explicación del Flujo:
-1. **Paso 1 (Detalle del Contrato - Estado Pendiente):** El usuario navega al módulo *Contratación* y selecciona un contrato en estado *Pendiente de Firma*.
-2. **Paso 2 (Lectura y Verificación de Cláusulas):** Revisa el visor de contrato (partes involucradas, área de terreno y plan de desembolsos por hitos Escrow).
-3. **Paso 3 (Captura de Firma Digital):** El usuario interactúa con el recuadro de firma (*Canvas*). Al dibujar su rúbrica táctil/mouse, el componente cambia de estado mostrando la firma renderizada y habilitando la casilla de verificación.
-4. **Paso 4 (Aceptación de Términos):** Se marca la casilla "Acepto los términos y condiciones de custodia Escrow", activando visualmente el botón "Firmar y Activar Contrato".
-5. **Paso 5 (Estado Final - Contrato Activo):** Tras procesar la firma, la pantalla cambia al estado de *Contrato Activo*, deshabilitando la edición y redirigiendo al usuario al panel de seguimiento de la Bóveda de Pagos.
-
-
-
-#### Wireflow 3: Monitoreo Climático y Gestión de Alerta Crítica
-* **User Persona:** Alejandro Mendoza (Agricultor)
-* **User Goal:** Consultar el estado agronómico del cultivo y revisar una alerta ambiental para tomar medidas preventivas en campo.
-
-##### Explicación del Flujo:
-1. **Paso 1 (Navegación al Módulo Climático):** El usuario hace clic en "Alertas Climáticas" desde la barra de navegación lateral.
-2. **Paso 2 (Lectura de KPIs de Sensores):** Visualiza las tarjetas de *Temperatura*, *Humedad*, *Precipitación* y *Viento* con sus indicadores de rango óptimo.
-3. **Paso 3 (Identificación de Alerta Crítica):** El usuario detecta la primera tarjeta del feed de alertas resaltada en rojo (*Alerta de Helada - Riesgo Crítico*).
-4. **Paso 4 (Interacción de Expansión/Detalle):** Al hacer clic sobre el contenedor de la alerta, la tarjeta cambia de estado colapsado a expandido, desplegando recomendaciones agronómicas directas y la fuente del reporte.
-
+**Explicación del Flujo Paso a Paso:**
+1. **Paso 1 (Módulo de Contratos y Alquileres - Estado Pendiente):** La compradora ingresa a la sección *Contratos* desde la navegación lateral y selecciona una propuesta en estado `Pendiente de Firma`.
+2. **Paso 2 (Lectura y Verificación de Cláusulas):** La pantalla muestra la vista dividida (*Split Screen*) con el visor del contrato legal, desglosando las partes involucradas, el área del terreno y el plan de desembolsos por hitos en la Bóveda Escrow.
+3. **Paso 3 (Captura de Firma Digital):** La compradora interactúa con el recuadro de firma (*Canvas*). Al dibujar su rúbrica táctil/mouse, el componente cambia de estado mostrando la firma renderizada y habilitando la casilla de verificación.
+4. **Paso 4 (Aceptación de Términos Escrow):** La usuaria marca el checkbox *"Acepto los términos y condiciones de custodia Escrow"*, activando visualmente el botón principal `Firmar y Activar Contrato`.
+5. **Paso 5 (Estado Final - Contrato Activo):** Tras procesar la firma, la pantalla cambia al estado de `Contrato Activo`, deshabilitando la edición y redirigiendo a la compradora al panel de la Bóveda de Pagos para realizar el depósito inicial.
 
 
 ### 4.4.3. Web Applications Mock-ups
-
-
 
 ##### 1. Sección de Registro de Usuario (Modal de Selección de Rol y Formulario)
 * **Descripción:** Disposición en contenedor modal centrado sobre rejilla de 6 columnas en modo oscuro que gestiona el alta de usuarios:
