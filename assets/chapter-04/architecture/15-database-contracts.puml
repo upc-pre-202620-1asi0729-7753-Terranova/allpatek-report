@@ -1,0 +1,54 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 15
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam ArrowColor #476050
+skinparam dpi 140
+title Allpatek | Database - Season Contracting
+top to bottom direction
+hide methods
+entity "contracts" as contracts {
+ {field} * id: BIGINT <<PK>>
+ {field} * plot_id: BIGINT <<FK plots>>
+ {field} * buyer_id: BIGINT <<FK users>>
+ {field} * farmer_id: BIGINT <<FK users>>
+ {field} * start_date: DATE
+ {field} * end_date: DATE
+ {field} * total_amount: DECIMAL(12,2)
+ {field} * currency: CHAR(3)
+ {field} * terms: TEXT
+ {field} buyer_accepted_at: TIMESTAMP
+ {field} farmer_accepted_at: TIMESTAMP
+ {field} * status: VARCHAR(30)
+ {field} document_key: TEXT
+ {field} document_sent_at: TIMESTAMP
+}
+entity "milestones" as milestones {
+ {field} * id: BIGINT <<PK>>
+ {field} * contract_id: BIGINT <<FK contracts>>
+ {field} * sequence: INTEGER
+ {field} * name: VARCHAR(120)
+ {field} * criteria: TEXT
+ {field} * amount: DECIMAL(12,2)
+ {field} * status: VARCHAR(20)
+ {field} reviewed_at: TIMESTAMP
+ {field} review_note: TEXT
+}
+entity "users\n[Other module]" as users #EEEEEE {
+ * id: BIGINT <<PK>>
+}
+entity "plots\n[Other module]" as plots #EEEEEE {
+ * id: BIGINT <<PK>>
+}
+plots ||--o{ contracts : plot_id
+users ||--o{ contracts : buyer_id
+users ||--o{ contracts : farmer_id
+contracts ||--o{ milestones : contract_id
+legend bottom
+PK: primary key | FK: foreign key | UQ: unique | *: required
+Gray tables belong to another module.
+endlegend
+@enduml

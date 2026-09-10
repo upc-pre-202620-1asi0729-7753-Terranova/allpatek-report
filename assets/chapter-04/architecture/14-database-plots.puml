@@ -1,0 +1,43 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 15
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam ArrowColor #476050
+skinparam dpi 140
+title Allpatek | Database - Land Management
+top to bottom direction
+hide methods
+entity "plots" as plots {
+ {field} * id: BIGINT <<PK>>
+ {field} * farmer_id: BIGINT <<FK users>>
+ {field} * name: VARCHAR(120)
+ {field} * location: VARCHAR(200)
+ {field} * latitude: DECIMAL(9,6)
+ {field} * longitude: DECIMAL(9,6)
+ {field} * area_hectares: DECIMAL(10,4)
+ {field} * soil_type: VARCHAR(80)
+ {field} * crop: VARCHAR(100)
+ {field} * season_cost: DECIMAL(12,2)
+ {field} * available_from: DATE
+ {field} * available_until: DATE
+ {field} * status: VARCHAR(20)
+}
+entity "plot_photos" as plot_photos {
+ {field} * id: BIGINT <<PK>>
+ {field} * plot_id: BIGINT <<FK plots>>
+ {field} * file_key: TEXT
+ {field} * is_main: BOOLEAN
+}
+entity "users\n[Other module]" as users #EEEEEE {
+ * id: BIGINT <<PK>>
+}
+users ||--o{ plots : farmer_id
+plots ||--o{ plot_photos : plot_id
+legend bottom
+PK: primary key | FK: foreign key | UQ: unique | *: required
+Gray tables belong to another module.
+endlegend
+@enduml

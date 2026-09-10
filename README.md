@@ -476,7 +476,96 @@ ProgressUpdate registra el trabajo y sus evidencias. WeatherAlert conserva una a
 La UI de Angular utilizará componentes y servicios para presentar estos datos; su organización aparece en 4.6.4-B. La landing y los flujos n8n no incorporan clases de negocio propias. Por eso los diagramas de dominio se concentran en la API y no repiten las mismas reglas en cada producto.
 
 ## 4.8. Database Design
+
+La base de datos conserva la información de Allpatek y relaciona sus elementos mediante identificadores. Se utiliza un modelo relacional para representar usuarios, parcelas, contratos, hitos, pagos y seguimiento.
+
+Cada tabla tiene una **clave primaria (PK)** que identifica sus registros. Las **claves foráneas (FK)** relacionan tablas; por ejemplo, plot_id permite conocer la parcela de un contrato. Los importes se representan con DECIMAL y los archivos mediante una clave de almacenamiento, evitando guardar fotografías completas en los registros del negocio.
+
 ### 4.8.1. Database Diagrams
+
+Los diagramas presentan las tablas de cada área con columnas, tipos y relaciones. El asterisco identifica campos obligatorios; UQ identifica valores únicos. Las tablas grises pertenecen a otros módulos y se muestran resumidas para explicar la relación. Un campo opcional acepta NULL.
+
+#### Users and Profiles
+
+User representa a una persona registrada y su rol. Review guarda la calificación que una parte deja a la otra al terminar un contrato. Esto recoge la reputación bidireccional propuesta en el capítulo I.
+
+![Figura 4.8.1. Tablas de Users and Profiles](assets/chapter-04/architecture/13-database-users.png)
+
+*Figura 4.8.1. Tablas de Users and Profiles.* [Diagrama editable](assets/chapter-04/architecture/13-database-users.puml).
+
+#### Land Management
+
+Plot reúne los datos de la parcela, cultivo, costo orientativo y disponibilidad. PlotPhoto permite conservar varias fotografías y distinguir la principal, como solicita el formulario del capítulo IV.
+
+![Figura 4.8.2. Tablas de Land Management](assets/chapter-04/architecture/14-database-plots.png)
+
+*Figura 4.8.2. Tablas de Land Management.* [Diagrama editable](assets/chapter-04/architecture/14-database-plots.puml).
+
+#### Season Contracting
+
+Contract guarda las partes, fechas, importe y condiciones de la temporada. Milestone representa una etapa con sus criterios de aprobación e importe. Los hitos pertenecen al contrato y no existen de manera independiente.
+
+![Figura 4.8.3. Tablas de Season Contracting](assets/chapter-04/architecture/15-database-contracts.png)
+
+*Figura 4.8.3. Tablas de Season Contracting.* [Diagrama editable](assets/chapter-04/architecture/15-database-contracts.puml).
+
+#### Payments and Plans
+
+Payment registra una operación y su resultado. SubscriptionPlan y Subscription representan los planes mensuales de los prototipos. Su inclusión permite conectar el diseño con esas pantallas; los precios y la decisión de cobrar planes o comisiones siguen pendientes.
+
+![Figura 4.8.4. Tablas de Payments and Plans](assets/chapter-04/architecture/16-database-payments.png)
+
+*Figura 4.8.4. Tablas de Payments and Plans.* [Diagrama editable](assets/chapter-04/architecture/16-database-payments.puml).
+
+#### Crop Monitoring
+
+ProgressUpdate registra el trabajo y sus evidencias. WeatherAlert conserva una alerta con fuente y fecha. Se agrupan aquí para que el usuario consulte tanto el avance del cultivo como la información climática de su parcela.
+
+![Figura 4.8.5. Tablas de Crop Monitoring](assets/chapter-04/architecture/17-database-monitoring.png)
+
+*Figura 4.8.5. Tablas de Crop Monitoring.* [Diagrama editable](assets/chapter-04/architecture/17-database-monitoring.puml).
+
+#### Relaciones y reglas principales
+
+| Relación o dato | Regla que se aplicará |
+|---|---|
+| Usuario y parcelas | Un agricultor puede registrar varias parcelas. Solo su propietario puede modificarlas. |
+| Parcela y contratos | Una parcela conserva varios contratos históricos; sus temporadas activas no se superponen. |
+| Contrato e hitos | Un contrato tiene varios hitos ordenados. Su suma debe coincidir con el importe pactado. |
+| Aceptación y condiciones | Se guardan las fechas de aceptación de ambas partes. Cambiar condiciones antes de activar exige volver a aceptarlas; un acuerdo activo conserva las condiciones pactadas. |
+| Pago y destino | SEASON_FUNDING se vincula a un contrato; MILESTONE_RELEASE a un contrato y uno de sus hitos; SUBSCRIPTION solo a una suscripción. Los campos opcionales permiten estos tres casos, que la API debe validar. |
+| Confirmación de pagos | Una referencia de proveedor no se registra dos veces. Un hito no se desembolsa dos veces ni por encima del importe acordado. Las liberaciones acumuladas no superan los fondos confirmados de la temporada. |
+| Plan y suscripción | Un plan puede tener varias suscripciones. Sus precios y límites son configurables, no datos fijos en el código. |
+| Avance e hito | Un avance pertenece a un contrato y puede asociarse a uno de sus hitos. La API verifica que ambos correspondan al mismo acuerdo. |
+| Avances sin conexión | client_reference identifica el borrador enviado para evitar crear dos registros cuando se reintenta la misma carga. |
+| Calificación | Se permite una calificación por autor y contrato, dirigida a la otra parte y con puntuación de 1 a 5, al finalizar la temporada. |
+| Fotografías | Una parcela puede tener varias fotos y una sola principal. El formulario actual exige al menos tres para publicar. |
+| Alertas y mensajes | Las alertas indican fuente y fecha. Las marcas de envío permiten identificar documentos y avances pendientes de notificar. |
+
+Los roles y estados se validarán contra sus valores permitidos. Las áreas e importes deben ser positivos y la fecha final posterior a la inicial. Los correos serán únicos. Las comprobaciones de disponibilidad y saldo se realizarán dentro de una transacción que evite conflictos entre solicitudes simultáneas. Estos son criterios del diseño; todavía no son pruebas ejecutadas sobre una aplicación.
+
+#### Correspondencia con el informe del equipo
+
+| Función documentada | Procedencia | Diseño relacionado |
+|---|---|---|
+| Catálogo y publicación de parcelas | Capítulos I y IV | Plot, PlotPhoto y Land Management. |
+| Contratación y documento automático | Capítulos I y IV | Contract, Payments y flujo n8n. |
+| Seguimiento y pagos por hitos | Capítulo IV | Milestone, ProgressUpdate y Payment. |
+| Calificaciones entre participantes | Capítulo I | Review en Users and Profiles. |
+| Planes mensuales | Capítulo IV | SubscriptionPlan y Subscription, pendientes de confirmación comercial. |
+| Avisos por correo y WhatsApp | Capítulo I | Flujos n8n y servicios de mensajería. |
+| Conectividad limitada | Capítulo I | Borradores locales de avances y envío posterior. |
+| Alertas climáticas | Capítulo IV | WeatherAlert e integración meteorológica. |
+
+Antes de cerrar la versión del informe, el equipo debe unificar las condiciones de producción, la secuencia de aceptación y pago, el número de hitos y los planes comerciales. La firma dibujada en los prototipos y el PDF enviado representan pasos de la experiencia, pero no se presentan aquí como una certificación de firma digital. Las recomendaciones con IA y el inicio de sesión social requieren confirmación de alcance; no se añaden automáticamente a esta arquitectura.
+
+#### Referencias de diseño
+
+- Brown, S. (s. f.). *C4 model: Container diagram y Component diagram*. https://c4model.com/diagrams/container y https://c4model.com/diagrams/component
+- Brandolini, A. (s. f.). *EventStorming*. https://www.eventstorming.com/
+- n8n. (s. f.). *Webhook node*. https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.webhook/
+
+Estas referencias se consolidarán en la bibliografía general del informe. Las figuras son propuestas propias para Allpatek, elaboradas con PlantUML, herramienta admitida por el enunciado. Los repositorios SmilingCups se consultaron como referencia de organización por áreas, conservando las tecnologías exigidas en este curso.
 
 # Capítulo V: Product Implementation, Validation & Deployment
 

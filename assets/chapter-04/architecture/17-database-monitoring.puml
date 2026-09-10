@@ -1,0 +1,53 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 15
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam ArrowColor #476050
+skinparam dpi 140
+title Allpatek | Database - Crop Monitoring
+top to bottom direction
+hide methods
+entity "progress_updates" as progress_updates {
+ {field} * id: BIGINT <<PK>>
+ {field} * contract_id: BIGINT <<FK contracts>>
+ {field} milestone_id: BIGINT <<FK milestones>>
+ {field} * author_id: BIGINT <<FK users>>
+ {field} * client_reference: VARCHAR(100) <<UQ>>
+ {field} * description: TEXT
+ {field} evidence_key: TEXT
+ {field} * recorded_at: TIMESTAMP
+ {field} notification_sent_at: TIMESTAMP
+}
+entity "weather_alerts" as weather_alerts {
+ {field} * id: BIGINT <<PK>>
+ {field} * plot_id: BIGINT <<FK plots>>
+ {field} * message: TEXT
+ {field} * severity: VARCHAR(20)
+ {field} * source: VARCHAR(100)
+ {field} * observed_at: TIMESTAMP
+ {field} * created_at: TIMESTAMP
+}
+entity "contracts\n[Other module]" as contracts #EEEEEE {
+ * id: BIGINT <<PK>>
+}
+entity "plots\n[Other module]" as plots #EEEEEE {
+ * id: BIGINT <<PK>>
+}
+entity "milestones\n[Other module]" as milestones #EEEEEE {
+ * id: BIGINT <<PK>>
+}
+entity "users\n[Other module]" as users #EEEEEE {
+ * id: BIGINT <<PK>>
+}
+contracts ||--o{ progress_updates : contract_id
+milestones |o--o{ progress_updates : milestone_id
+users ||--o{ progress_updates : author_id
+plots ||--o{ weather_alerts : plot_id
+legend bottom
+PK: primary key | FK: foreign key | UQ: unique | *: required
+Gray tables belong to another module.
+endlegend
+@enduml

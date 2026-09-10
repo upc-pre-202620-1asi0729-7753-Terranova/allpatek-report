@@ -1,0 +1,41 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 15
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam ArrowColor #476050
+skinparam dpi 140
+title Allpatek | Database - Users and Profiles
+top to bottom direction
+hide methods
+entity "users" as users {
+ {field} * id: BIGINT <<PK>>
+ {field} * full_name: VARCHAR(150)
+ {field} * email: VARCHAR(254) <<UQ>>
+ {field} * password_hash: VARCHAR(255)
+ {field} * role: VARCHAR(20)
+ {field} phone: VARCHAR(30)
+ {field} * locale: VARCHAR(10)
+}
+entity "reviews" as reviews {
+ {field} * id: BIGINT <<PK>>
+ {field} * contract_id: BIGINT <<FK contracts>>
+ {field} * author_id: BIGINT <<FK users>>
+ {field} * recipient_id: BIGINT <<FK users>>
+ {field} * score: INTEGER
+ {field} comment: TEXT
+ {field} * created_at: TIMESTAMP
+}
+entity "contracts\n[Other module]" as contracts #EEEEEE {
+ * id: BIGINT <<PK>>
+}
+contracts ||--o{ reviews : contract_id
+users ||--o{ reviews : author_id
+users ||--o{ reviews : recipient_id
+legend bottom
+PK: primary key | FK: foreign key | UQ: unique | *: required
+Gray tables belong to another module.
+endlegend
+@enduml
