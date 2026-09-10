@@ -1,0 +1,29 @@
+@startuml
+!pragma layout smetana
+!include <C4/C4_Component>
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 15
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam ArrowColor #476050
+skinparam dpi 140
+title Allpatek | C4 - Web application components
+
+LAYOUT_TOP_DOWN()
+Person(user,"Farmer / Buyer","Access according to account role")
+Container_Boundary(web,"Angular web application") {
+ Component(nav,"Navigation and session","Angular Router","Chooses routes and keeps the signed-in session")
+ Component(views,"Feature screens","Angular / Material","Users, plots, contracts, payments and monitoring")
+ Component(services,"Application services","TypeScript / HttpClient","Loads data, submits actions and displays results")
+ Component(local,"Local draft storage","Browser IndexedDB","Proposed recovery of unsent progress during connection loss")
+}
+Container(api,"REST API","Spring Boot","Validates and stores information")
+Rel(user,nav,"Navigates", "Browser")
+Rel(nav,views,"Opens", "Router")
+Rel(views,services,"Requests data or action", "TypeScript")
+Rel(services,local,"Keeps unsent drafts", "Browser API")
+Rel(services,api,"Sends requests", "HTTPS / JSON")
+SHOW_LEGEND()
+
+@enduml

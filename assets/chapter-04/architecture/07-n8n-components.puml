@@ -1,0 +1,32 @@
+@startuml
+!pragma layout smetana
+!include <C4/C4_Component>
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 15
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam ArrowColor #476050
+skinparam dpi 140
+title Allpatek | C4 - n8n workflow components
+
+LAYOUT_TOP_DOWN()
+Container(api,"REST API","Spring Boot","Contract data and PDF generation endpoint")
+Container_Boundary(n8n,"n8n automation") {
+ Component(trigger,"Request receiver","Webhook","Receives authorized requests from the API")
+ Component(pdf,"Contract workflow","HTTP Request nodes","Obtains contract PDF from the API")
+ Component(notify,"Notification workflow","Messaging nodes","Sends the document or crop update")
+ Component(result,"Execution result","HTTP Request node","Reports success or failure to the API")
+}
+System_Ext(mail,"Messaging services","Email / optional WhatsApp")
+Rel(api,trigger,"Requests automation", "Authenticated HTTPS")
+Rel(trigger,pdf,"For contract document", "Workflow data")
+Rel(trigger,notify,"For progress or weather notice", "Workflow data")
+Rel(pdf,api,"Requests PDF", "HTTPS")
+Rel(pdf,notify,"Provides document link", "Workflow data")
+Rel(notify,mail,"Sends message", "Provider API")
+Rel(notify,result,"Passes outcome", "Workflow data")
+Rel(result,api,"Reports delivery status", "HTTPS")
+SHOW_LEGEND()
+
+@enduml

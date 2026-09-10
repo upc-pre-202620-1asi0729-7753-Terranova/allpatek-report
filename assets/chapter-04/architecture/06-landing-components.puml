@@ -1,0 +1,27 @@
+@startuml
+!pragma layout smetana
+!include <C4/C4_Component>
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 15
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam ArrowColor #476050
+skinparam dpi 140
+title Allpatek | C4 - Landing page components
+
+LAYOUT_TOP_DOWN()
+Person(visitor,"Visitor","Wants to understand the service")
+Container_Boundary(landing,"Landing page") {
+ Component(sections,"Information sections","HTML","Service, process, plans and contact")
+ Component(style,"Presentation and language","CSS / JavaScript","Responsive layout, English and Spanish")
+ Component(links,"Calls to action","HTML links","Farmer registration and buyer catalog")
+}
+Container(web,"Web application","Angular","Registration and catalog")
+Rel(visitor,sections,"Reads", "Browser")
+Rel(sections,style,"Uses", "CSS / JavaScript")
+Rel(sections,links,"Provides next step", "HTML")
+Rel(links,web,"Opens relevant route", "HTTPS")
+SHOW_LEGEND()
+
+@enduml

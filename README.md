@@ -395,6 +395,34 @@ La interfaz tendrá inglés como idioma predeterminado y español latinoamerican
 
 ### 4.6.4. Software Architecture Components Diagrams
 
+Los componentes permiten ver cómo se organiza cada aplicación por dentro. En la API, los **controladores** reciben solicitudes, los **servicios** realizan las operaciones del negocio y los **repositorios** consultan o guardan datos. Cada módulo mantiene sus propias reglas. En la figura, el bloque Repositories resume los repositorios de las cinco áreas.
+
+![Figura 4.6.4-A. Componentes de la API](assets/chapter-04/architecture/04-api-components.png)
+
+*Figura 4.6.4-A. Componentes de la API.* [Diagrama editable](assets/chapter-04/architecture/04-api-components.puml).
+
+Por ejemplo, una solicitud de contratación llega al controlador, pasa al servicio de contratos y se guarda mediante su repositorio. Cuando la operación necesita pagos, clima o mensajes, utiliza la integración correspondiente. Los servicios de Contratos, Parcelas, Pagos y Seguimiento se consultan entre sí cuando el proceso lo requiere.
+
+![Figura 4.6.4-B. Componentes de la aplicación web](assets/chapter-04/architecture/05-web-components.png)
+
+*Figura 4.6.4-B. Componentes de la aplicación web.* [Diagrama editable](assets/chapter-04/architecture/05-web-components.puml).
+
+La navegación abre las pantallas según el usuario. Los servicios de Angular solicitan información a la API y muestran sus resultados. Guardar un borrador local permite recuperar un avance aún no enviado; no significa que el servidor ya lo haya registrado.
+
+![Figura 4.6.4-C. Componentes de la landing page](assets/chapter-04/architecture/06-landing-components.png)
+
+*Figura 4.6.4-C. Componentes de la landing page.* [Diagrama editable](assets/chapter-04/architecture/06-landing-components.puml).
+
+Las secciones presentan el servicio, mientras los estilos y el idioma mantienen una experiencia consistente. Los botones principales conducen a la vista correspondiente de la aplicación.
+
+![Figura 4.6.4-D. Componentes de la automatización](assets/chapter-04/architecture/07-n8n-components.png)
+
+*Figura 4.6.4-D. Componentes de la automatización.* [Diagrama editable](assets/chapter-04/architecture/07-n8n-components.puml).
+
+Un flujo solicita el PDF del contrato; otro envía avisos de avance o clima. Ambos informan si el envío fue exitoso. El correo será el canal inicial; WhatsApp se integrará si el equipo confirma su proveedor y alcance.
+
+Los almacenes se detallan en el diseño de datos de 4.8. La base propia de n8n guarda su configuración y ejecuciones; no reemplaza la base de contratos y pagos de Allpatek.
+
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
 
