@@ -383,5 +383,13 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 # Video About-the-Team
 
 # Bibliografía
+Fan, Q., & Salas Garcia, V. B. (2018). Information access and smallholder farmers' market participation in Peru. Journal of Agricultural Economics, 69(2), 476–494. https://doi.org/10.1111/1477-9552.12243
 
+Heikkinen, A. M. (2021). Climate change, power, and vulnerabilities in the Peruvian Highlands. Regional Environmental Change, 21(3), 82. https://doi.org/10.1007/s10113-021-01825-8
+
+Heros, C., & De la Torre Ugarte, D. (2022). Política para el impulso de la Pequeña Agricultura Familiar. Consorcio de Investigación Económica y Social. https://cies.org.pe/investigacion/politica-para-el-impulso-de-la-pequena-agricultura-familiar/
+
+Otsuka, K., Nakano, Y., & Takahashi, K. (2016). Contract farming in developed and developing countries. Annual Review of Resource Economics, 8(1), 353–376. https://doi.org/10.1146/annurev-resource-100815-095459
+
+Tambet, H., & Stopnitzky, Y. (2021). Climate adaptation and conservation agriculture among Peruvian farmers. American Journal of Agricultural Economics, 103(3), 900–922. https://doi.org/10.1111/ajae.12177
 # Anexos
