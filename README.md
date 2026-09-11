@@ -884,64 +884,79 @@ Para garantizar consistencia en la arquitectura de información, se definieron p
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
-Esta sección presenta la propuesta formal de **User Flows** mapeados a partir de los diagramas de Wireflow previamente validados. Cada flujo integra los *Mock-ups* finales de alta fidelidad para representar la experiencia visual definitiva, definiendo con claridad tanto la ruta principal o esperada (*Happy Path*) como las decisiones y rutas de excepción (*Unhappy Paths*).
 
+En esta sección se presenta la propuesta formal de User Flows mapeados a partir de los diagramas de Wireflow previamente validados. Cada flujo integra los Mock-ups finales de alta fidelidad para representar la experiencia visual definitiva, definiendo con claridad tanto la ruta principal o esperada (Happy Path) como las decisiones y rutas de excepción (Unhappy Paths).
 
-#### User Flow 1: Registro de Parcela Agrícola y Publicación en Plataforma
+* * **Link:** [Link de los User Flow](https://www.figma.com/board/qh5vL4xQoPmKWNJbFj7TGj/Untitled?node-id=0-1&t=gEVZUOH5xRFhc4Dp-1
+)
 
+#### **User Flow 1: Registro de Parcela Agrícola y Publicación en Plataforma**
 * **User Persona:** Alejandro Mendoza (Agricultor)
 * **User Goal:** Publicar una nueva parcela en el catálogo para ponerla a disposición de comerciantes B2B, garantizando la carga correcta de datos técnicos, coordenadas GPS y fotos del terreno.
 
-##### Explicación del Flujo y Condiciones:
+<p align="center">
+  <img src="assets/chapter-04/UserFlow01.png" width="800" />
+</p>
+
+##### **Explicación del Flujo y Condiciones:**
 
 * **Happy Path (Ruta Esperada):**
-  1. **Inicio:** El usuario ingresa a *Gestión de Parcelas* y presiona el *CTA* "Publicar Nueva Parcela".
-  2. **Paso 1 (Datos Generales):** Completa exitosamente el nombre, área en hectáreas, tipo de suelo y costo/campaña. Presiona "Siguiente".
-  3. **Paso 2 (Geolocalización):** Selecciona departamento, provincia, distrito y presiona "Obtener Ubicación". El sistema valida las coordenadas GPS y renderiza el mapa.
-  4. **Paso 3 (Fotografías):** Adjunta al menos 3 imágenes mediante *Drag & Drop*, asigna la *Foto Principal* y selecciona "Guardar y Publicar Parcela".
-  5. **Resultado:** El sistema valida los datos y redirige al Dashboard, mostrando la tarjeta en estado *Disponible*.
+  1. **Inicio:** El usuario ingresa a *Gestión de Parcelas* y presiona el CTA `"Publicar Nueva Parcela"`.
+  2. **Paso 1 (Datos Generales):** Completa exitosamente el nombre, área en hectáreas, tipo de suelo y costo/campaña. Presiona `"Siguiente"`.
+  3. **Paso 2 (Geolocalización):** Selecciona departamento, provincia, distrito y presiona `"Obtener Ubicación"`. El sistema valida las coordenadas GPS y renderiza el mapa.
+  4. **Paso 3 (Fotografías):** Adjunta al menos 3 imágenes mediante *Drag & Drop*, asigna la Foto Principal y selecciona `"Guardar y Publicar Parcela"`.
+  5. **Resultado:** El sistema valida los datos y redirige al Dashboard, mostrando la tarjeta en estado `Disponible`.
 
 * **Unhappy Paths (Rutas Alternativas y Excepciones):**
-  * **Datos Incompletos o Formato Inválido (Paso 1):** Si el usuario deja campos requeridos vacíos o ingresa un costo no numérico, el botón "Siguiente" permanece deshabilitado o el input genera un borde de error en rojo.
-  * **Error de Geolocalización / Coordenadas Nulas (Paso 2):** Si el navegador o dispositivo no tiene permisos de GPS activados, la plataforma muestra un *Banner de Advertencia* solicitando la selección manual en el mapa o el reintento de la geolocalización.
-  * **Formato o Peso de Imagen No Permitido (Paso 3):** Si se intenta subir un archivo distinto a JPG/PNG o que supere el tamaño máximo ($5\text{MB}$), el contenedor de carga muestra un mensaje de alerta y no procesa el archivo hasta ser reemplazado.
+  * **Datos Incompletos o Formato Inválido (Paso 1):** Si el usuario deja campos requeridos vacíos o ingresa un costo no numérico, el botón `"Siguiente"` permanece deshabilitado o el input genera un borde de error en rojo.
+  * **Error de Geolocalización / Coordenadas Nulas (Paso 2):** Si el navegador o dispositivo no tiene permisos de GPS activados, la plataforma muestra un Banner de Advertencia solicitando la selección manual en el mapa o el reintento de la geolocalización.
+  * **Formato o Peso de Imagen No Permitido (Paso 3):** Si se intenta subir un archivo distinto a JPG/PNG o que supere el tamaño máximo (5MB), el contenedor de carga muestra un mensaje de alerta y no procesa el archivo hasta ser reemplazado.
 
 
 
-#### User Flow 2: Formalización y Firma Digital del Contrato Escrow
-
+#### **User Flow 2: Formalización y Firma Digital del Contrato Escrow**
 * **User Persona:** María Chen (Comerciante B2B)
 * **User Goal:** Revisar y firmar digitalmente un contrato de arrendamiento agrícola para proceder al bloqueo e inicio de la custodia de fondos en la Bóveda de Pagos.
 
-##### Explicación del Flujo y Condiciones:
+<p align="center">
+  <img src="assets/chapter-04/UserFlow02.png" width="800" />
+</p>
+
+##### **Explicación del Flujo y Condiciones:**
 
 * **Happy Path (Ruta Esperada):**
-  1. **Inicio:** La usuaria navega al módulo *Contratación* y hace clic en una propuesta con estado *Pendiente de Firma*.
+  1. **Inicio:** La usuaria navega al módulo *Contratación* y hace clic en una propuesta con estado `Pendiente de Firma`.
   2. **Revisión del Acuerdo:** Examina el visor de contrato (partes, cláusulas y plan de desembolsos por hitos Escrow).
   3. **Rúbrica Digital:** Dibuja su firma en el recuadro interactivo (*Canvas*).
-  4. **Aceptación y Confirmación:** Marca la casilla de verificación de términos Escrow y presiona el botón "Firmar y Activar Contrato".
-  5. **Resultado:** El sistema registra la firma, cambia el estado a *Contrato Activo* y habilita la visualización de la línea de tiempo en la *Bóveda de Pagos*.
+  4. **Aceptación y Confirmación:** Marca la casilla de verificación de términos Escrow y presiona el botón `"Firmar y Activar Contrato"`.
+  5. **Resultado:** El sistema registra la firma, cambia el estado a `Contrato Activo` y habilita la visualización de la línea de tiempo en la Bóveda de Pagos.
 
 * **Unhappy Paths (Rutas Alternativas y Excepciones):**
-  * **Firma No Realizada / Canvas Vacío:** Si la usuaria marca la casilla de términos pero no dibuja la firma en el recuadro, el botón "Firmar y Activar Contrato" se mantiene en estado deshabilitado.
-  * **Rechazo o Solicitud de Corrección:** Si la usuaria identifica un error en los montos o hectáreas del acuerdo, puede seleccionar la acción secundaria "Rechazar / Solicitar Modificación", abriendo un modal para enviar observaciones al Agricultor y pausar el flujo.
+  * **Firma No Realizada / Canvas Vacío:** Si la usuaria marca la casilla de términos pero no dibuja la firma en el recuadro, el botón `"Firmar y Activar Contrato"` se mantiene en estado deshabilitado.
+  * **Rechazo o Solicitud de Corrección:** Si la usuaria identifica un error en los montos o hectáreas del acuerdo, puede seleccionar la acción secundaria `"Rechazar / Solicitar Modificación"`, abriendo un modal para enviar observaciones al Agricultor y pausar el flujo.
 
 
-#### User Flow 3: Consulta de Monitoreo Climático y Gestión de Alerta
 
+#### **User Flow 3: Consulta de Monitoreo Climático y Gestión de Alerta**
 * **User Persona:** Alejandro Mendoza (Agricultor)
 * **User Goal:** Evaluar las métricas ambientales de sus parcelas y revisar detalles de alertas críticas para tomar decisiones preventivas sobre sus cultivos.
 
-##### Explicación del Flujo y Condiciones:
+<p align="center">
+  <img src="assets/chapter-04/UserFlow03.png" width="800" />
+</p>
+
+##### **Explicación del Flujo y Condiciones:**
 
 * **Happy Path (Ruta Esperada):**
-  1. **Inicio:** El usuario accede al menú lateral y selecciona "Alertas Climáticas".
-  2. **Lectura de Sensores:** Revisa los KPIs de *Temperatura*, *Humedad*, *Precipitación* y *Viento*.
+  1. **Inicio:** El usuario accede al menú lateral y selecciona `"Alertas Climáticas"`.
+  2. **Lectura de Sensores:** Revisa los KPIs de Temperatura, Humedad, Precipitación y Viento.
   3. **Identificación de Alerta:** Selecciona la primera tarjeta del feed (*Alerta de Helada - Riesgo Crítico*).
   4. **Visualización de Recomendación:** La tarjeta expande su contenido, mostrando el diagnóstico técnico y el protocolo de acción sugerido.
 
 * **Unhappy Paths (Rutas Alternativas y Excepciones):**
-  * **Pérdida de Conexión de Sensores / Datos Desactualizados:** Si las estaciones meteorológicas no envían señal, las tarjetas de KPI muestran un estado *Offline* con la última hora de sincronización y un botón de "Reintentar Lectura".
+  * **Pérdida de Conexión de Sensores / Datos Desactualizados:** Si las estaciones meteorológicas no envían señal, las tarjetas de KPI muestran un estado `Offline` con la última hora de sincronización y un botón de `"Reintentar Lectura"`.
+
+
 
 
 ## 4.5. Web Applications Prototyping
