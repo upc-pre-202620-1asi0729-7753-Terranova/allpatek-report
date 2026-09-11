@@ -389,7 +389,70 @@ Por otro lado, estas son nuestras tácticas específicas:
 * Acercamiento a técnicos agropecuarios, cooperativas y asociaciones de productores para posicionar a Allpatek frente a alternativas como Agromercado (gratuita pero sin automatización) o Procesadora Perú (sin canal digital de autoservicio).
 
 ## 2.2. Entrevistas
+
+Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubriendo características demográficas (edad, distrito, ocupación) y subjetivas (uso del celular, conectividad, confianza, canales digitales, objetivos, frustraciones), siguiendo buenas prácticas de needfinding.
+
 ### 2.2.1. Diseño de entrevistas
+
+**Guía de entrevista — Segmento 1: Agricultores familiares**
+
+*Preguntas básicas (iniciales):*
+1. Para comenzar, ¿me podría decir su nombre?
+2. ¿A qué se dedica? ¿Trabaja en la agricultura de forma principal o tiene algún otro trabajo adicional?
+3. ¿Qué celular utiliza normalmente?
+4. ¿Qué sistema operativo tiene su celular (Android, iPhone, o no lo sabe)?
+
+*Preguntas principales:*
+1. ¿Me podría contar un poco sobre usted y su trabajo en la agricultura?
+2. ¿Cómo es normalmente un día de trabajo suyo en el campo?
+3. ¿Cómo sabe qué trabajos tiene que realizar cada día o durante la semana?
+4. ¿Suele usar su celular mientras está trabajando en el campo?
+5. ¿Qué cosas le resultan fáciles y cuáles le resultan difíciles cuando usa el celular?
+6. ¿Cómo es la señal de internet o del celular en el lugar donde trabaja?
+7. Cuando no tiene señal, ¿qué hace si necesita enviar un mensaje, una foto o alguna información?
+8. ¿Alguna vez ha tenido que tomar fotos del cultivo para enseñárselas a otra persona?
+9. Cuando manda una foto del cultivo, ¿cómo demuestra cuándo y dónde fue tomada?
+10. ¿Cómo se entera normalmente de que va a llover, hacer mucho frío o cambiar el clima?
+11. ¿Alguna vez se enteró demasiado tarde de una lluvia fuerte, helada u otro cambio del clima?
+12. Cuando alguien necesita saber cómo está avanzando su cultivo, ¿cómo se comunica con esa persona?
+13. Imagine que usted toma una foto en el campo pero en ese momento no tiene internet. ¿Le serviría que el celular guarde esa foto y la mande automáticamente cuando vuelva la señal?
+    *"¿Por qué?"*
+14. ¿Le serviría que cuando tome una foto el celular guarde automáticamente el lugar, el día y la hora?
+15. ¿Le gustaría recibir un aviso en su celular cuando haya riesgo de lluvia fuerte, helada u otro clima que pueda afectar su cultivo?
+    *"¿Cómo preferiría recibir ese aviso?"*
+16. ¿Qué tipo de aviso revisaría usted más rápido?
+17. Si existiera una aplicación para ayudarle con estas cosas, ¿qué sería lo más importante para usted para que sea fácil de usar?
+18. ¿Hay alguna cosa de su trabajo que le gustaría poder hacer más rápido o más fácilmente con el celular?
+
+**Guía de entrevista — Segmento 2: Compradores urbanos / Comerciantes**
+
+*Preguntas básicas (iniciales):*
+1. Para comenzar, ¿me podría decir su nombre?
+2. ¿A qué se dedica (negocio propio, restaurante, compra para su familia, etc.)?
+3. ¿Qué celular utiliza normalmente?
+4. ¿Qué sistema operativo tiene su celular (Android, iPhone, o no lo sabe)?
+
+*Preguntas principales:*
+1. ¿Me podría contar un poco sobre cómo compra normalmente los productos agrícolas que necesita?
+2. ¿Cómo es un día normal cuando tiene que conseguir estos productos?
+3. ¿Cómo decide a quién comprarle o dónde comprar cada vez?
+4. ¿Usa su celular para hacer estas compras o para comunicarse con quien le vende?
+5. ¿Qué cosas le resultan fáciles y cuáles difíciles al comprar productos agrícolas hoy en día?
+6. ¿Qué tan seguido cambian los precios de un producto de una semana a otra? ¿Cómo le afecta eso?
+7. ¿Alguna vez ha recibido un producto que no correspondía con lo que esperaba (calidad, cantidad, frescura)?
+8. Cuando eso pasa, ¿cómo reclama o qué hace?
+9. ¿Le interesa saber de dónde viene el producto, quién lo cultivó o cómo se produjo?
+10. Si alguien le mandara una foto del cultivo antes de la cosecha, ¿confiaría en que esa foto es real y reciente?
+    *"¿Qué le daría esa confianza?"*
+11. ¿Alguna vez tuvo que esperar más de lo esperado para recibir un pedido? ¿Cómo se enteró del retraso?
+12. Imagine que puede pagar por adelantado toda una temporada de un producto a un precio fijo, sin que le suba después. ¿Le interesaría?
+    *"¿Por qué sí o no?"*
+13. ¿Le gustaría recibir avisos en su celular sobre el avance del cultivo que compró (por ejemplo, cuándo se sembró o cuándo estará lista la cosecha)?
+14. ¿Qué tipo de aviso revisaría usted más rápido: notificación de app, WhatsApp, correo o llamada?
+15. Si existiera una aplicación para hacer este tipo de compras directamente con el agricultor, ¿qué sería lo más importante para que confíe en ella y la use seguido?
+16. ¿Hay algo de este proceso de compra que le gustaría poder hacer más rápido o más fácil con el celular?
+17. ¿Qué lo haría dudar o desconfiar de comprarle directamente a un agricultor a través de una app, sin intermediarios?
+    
 ### 2.2.2. Registro de entrevistas
 ### 2.2.3. Análisis de entrevistas
 
