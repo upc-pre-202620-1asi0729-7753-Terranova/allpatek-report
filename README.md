@@ -278,13 +278,13 @@ Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y r
         <td colspan="4">Gracias al análisis de la competencia del mercado, se logra comprender el entorno competitivo en el que operará Allpatek. Esto permite identificar a los competidores directos e indirectos, evaluando su posicionamiento actual para trazar estrategias diferenciadas frente a la ausencia de una plataforma digital peruana que aplique íntegramente el modelo de agricultura por contrato automatizada.</td>
     </tr>
     <tr>
-        <td rowspan="3" class="sub">PERFIL</td>
-        <td rowspan="2" class="sub">Overview</td>
-        <td> Allpatek <img src="./assets/chapter-02/allpatek.jpg" width="140" height="140" style="width:140px;height:140px;object-fit:contain;background:#ffffff;padding:6px;"></td>
-        <td> Agromercado (MIDAGRI) <img src="./assets/chapter-02/agromercado.jpg" width="140" height="140" style="width:140px;height:140px;object-fit:contain;background:#ffffff;padding:6px;"></td>
-        <td> VeryAgro <img src="./assets/chapter-02/veryagro.jpg" width="140" height="140" style="width:140px;height:140px;object-fit:contain;background:#ffffff;padding:6px;"></td>
-        <td> Procesadora Perú <img src="./assets/chapter-02/procesadora-peru.jpg" width="140" height="140" style="width:140px;height:140px;object-fit:contain;background:#ffffff;padding:6px;"></td>
-    </tr>
+    <td rowspan="3" class="sub">PERFIL</td>
+    <td rowspan="2" class="sub">Overview</td>
+    <td> Allpatek <img src="./assets/chapter-02/allpatek.jpg" width="140"></td>
+    <td> Agromercado (MIDAGRI) <img src="./assets/chapter-02/agromercado.jpg" width="140"></td>
+    <td> VeryAgro <img src="./assets/chapter-02/veryagro.jpg" width="140"></td>
+    <td> Procesadora Perú <img src="./assets/chapter-02/procesadora-peru.jpg" width="140"></td>
+</tr>
     <tr>
         <td>Modelo Agro-as-a-Service (AaaS): el comprador alquila una parcela y contrata la labor del agricultor por una temporada, con formalización contractual y notificaciones automatizadas vía n8n.</td>
         <td>Sistema del Ministerio de Desarrollo Agrario y Riego que busca facilitar negocios directos y reducir brechas de información entre productores y compradores.</td>
@@ -681,14 +681,14 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 
 | Característica identificada | Resultado estadístico | Sustento en entrevistas | Relación con el arquetipo |
 |---|---|---|---|
-| Conectividad limitada en el lugar de trabajo |  |  | El arquetipo necesita que la app funcione con guardado local y envío automático cuando vuelva la señal. |
-| Dependencia de WhatsApp como canal principal |  |  | Las notificaciones y avisos deben poder llegar por un canal tan simple como WhatsApp, no solo por notificación push. |
-| Necesidad de evidenciar el avance del cultivo con fotos |  |  | El arquetipo valora que la foto quede georreferenciada y con fecha automática, sin pasos adicionales. |
-| Exposición a eventos climáticos no anticipados (heladas, lluvias, sequías) |  |  | Sustenta la necesidad de un módulo de alertas climáticas tempranas dentro de la plataforma. |
-| Interés en recibir alertas climáticas anticipadas |  |  | El arquetipo prioriza avisos claros y con antelación sobre el detalle técnico del dato meteorológico. |
-| Apertura a la firma digital del contrato |  |  | Determina si la firma digital puede ser el mecanismo único de formalización o si se necesita reforzar la confianza con explicaciones adicionales en la interfaz. |
-| Confianza en el pago liberado por hitos (Escrow) |  |  | Valida (o no) el modelo de custodia por etapas como mecanismo aceptado por el agricultor, o si se requiere mayor transparencia en cada liberación. |
-| Necesidad de simplicidad en la herramienta digital |  |  | La interfaz del panel de agricultor debe priorizar pocos pasos y lenguaje directo por sobre funciones avanzadas. |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
 
 </div>
 
@@ -698,26 +698,108 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 
 | Característica identificada | Resultado estadístico | Sustento en entrevistas | Relación con el arquetipo |
 |---|---|---|---|
-| Gestión de varios proveedores o parcelas a la vez |  |  | Sustenta la necesidad de un panel único donde ver todas las parcelas contratadas y su estado. |
-| Uso de canales digitales para dar seguimiento a acuerdos |  |  | El arquetipo espera que el seguimiento del contrato viva dentro de la misma app que usa para lo demás. |
-| Experiencia previa con incumplimientos o entregas no conformes |  |  | Justifica la importancia de la evidencia fotográfica con GPS como mecanismo de verificación remota. |
-| Interés en verificar el origen y las condiciones de producción |  |  | Refuerza el valor de la trazabilidad como diferenciador frente a la compra tradicional. |
-| Sensibilidad a la volatilidad de precios |  |  | Valida el atractivo de un costo fijo por temporada frente a la fluctuación del mercado mayorista. |
-| Interés en alertas de riesgo climático sobre sus parcelas contratadas |  |  | Sustenta extender el módulo de Alertas Climáticas también a la vista del comprador, no solo del agricultor. |
-| Apertura al pago mediante custodia (Escrow) liberada por hitos |  |  | Determina si el modelo de Escrow reduce o no la desconfianza frente a pagar por adelantado. |
-| Disposición a pagar una suscripción mensual fija |  |  | Valida (o ajusta) los planes Básico/Pro/Empresarial ya definidos en el Capítulo 4. |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
 
 </div>
 
 ## 2.3. Needfinding
+
+En esta sección se presentarán los artefactos resultantes del proceso de análisis de la información recolectada de los segmentos objetivos. Aquí se incluyen secciones para User Personas, User Task Matrix, User Journey Maps, Empathy Mapping y As-is Scenario Mapping.
+
 ### 2.3.1. User Personas
+
+A continuación, se presentan los User Personas diseñados para representar a los segmentos objetivo identificados durante la fase de investigación. Estos arquetipos detallan variables demográficas, rasgos psicográficos, motivaciones y comportamientos, así como los pains (frustraciones) y gains (objetivos) que enfrentan en su gestión diaria. Asimismo, se analiza su nivel digital y su interacción con soluciones tecnológicas del sector agropecuario. Toda la información ha sido sintetizada a partir de los insights recolectados en las entrevistas y estructurada mediante la plataforma UXPressia para garantizar una representación fiel de las necesidades del usuario.
+
+### User Persona: Agricultor
+
+![User-Persona Agricultor](./assets/chapter-02/user_persona_agricultor.png)
+
+### User Persona: Comprador urbano
+
+![User-Persona Comprador urbano](./assets/chapter-02/user_persona_comprador.png)
+
 ### 2.3.2. User Task Matrix
+
+A través de la User Task Matrix, es posible identificar y organizar las principales actividades que los usuarios realizan actualmente dentro de su contexto de trabajo, de forma independiente a la existencia de Allpatek. Al categorizar estas tareas según su frecuencia e importancia, se logra comprender cuáles representan mayores dificultades y necesidades para cada perfil de usuario, permitiendo detectar oportunidades de mejora en la relación comercial entre agricultores familiares y compradores urbanos.
+
+| **User Task** | **Martín Salas Hurtado (Frecuencia)** | **Martín Salas Hurtado (Importancia)** | **Lucía Fernández Torres (Frecuencia)** | **Lucía Fernández Torres (Importancia)** |
+|---|---|---|---|---|
+| Buscar información sobre precios antes de vender/comprar un producto agrícola | Often | High | Often | High |
+| Registrar información del cultivo o del pedido en cuadernos u hojas físicas | Often | High | Sometimes | Medium |
+| Coordinar con terceros (intermediarios o proveedores) por WhatsApp o llamada telefónica | Often | High | Often | High |
+| Verificar el estado o avance del cultivo/pedido antes de la entrega final | Often | High | Sometimes | Medium |
+| Buscar alternativas de venta o compra cuando el precio no es favorable | Sometimes | High | Often | Medium |
+| Informarse sobre el clima antes de tomar decisiones de siembra o cosecha | Sometimes | High | Rarely | Low |
+| Firmar acuerdos o compromisos de forma manual (papel o verbal) | Rarely | Medium | Sometimes | High |
+| Comparar distintos proveedores o compradores antes de decidir | Rarely | Low | Often | High |
+| Buscar información o soluciones digitales por internet para mejorar su negocio | Rarely | Low | Sometimes | Medium |
+| Controlar el presupuesto o gasto de la temporada/semana | Sometimes | Medium | Often | High |
+
+La User Task Matrix evidencia que tanto Martín como Lucía dependen constantemente de canales informales como WhatsApp y llamadas telefónicas para coordinar sus acuerdos comerciales, y que ambos enfrentan incertidumbre respecto al precio final antes de cerrar una venta o compra. Mientras Martín concentra sus tareas de mayor frecuencia e importancia en el registro manual del cultivo y en anticiparse a eventos climáticos que puedan afectar su producción, Lucía prioriza la comparación de proveedores y el control de su presupuesto, ya que su decisión de compra depende directamente de la previsibilidad del costo. Asimismo, ambos perfiles presentan dificultades relacionadas con la formalización de acuerdos, dado que Martín rara vez firma contratos y Lucía lo hace solo ocasionalmente, ambos con poca confianza en procesos que no dependan del trato directo. Estas tareas permiten comprender mejor el contexto actual de los usuarios e identificar necesidades reales dentro de la relación entre la agricultura familiar y los compradores urbanos.
+
 ### 2.3.3. User Journey Mapping
+
+Esta sección presenta el User Journey Map de cada User Persona, ilustrando el recorrido end-to-end que atraviesa cada segmento desde que identifica la necesidad de vender o comprar, hasta que evalúa el resultado de esa temporada o compra. Ambos journeys se elaboran en su versión As-Is: representan la situación actual de cada segmento sin que exista todavía Allpatek como solución, por lo que no se presenta ni se anticipa ninguna funcionalidad de la plataforma en esta etapa — el objetivo es exclusivamente identificar los puntos de dolor reales del proceso vigente. Cada Journey Map se construye en UXPressia y queda vinculado a la ficha de User Persona correspondiente, elaborada en la misma herramienta.
+
+User Agricultor:
+
+![User-Agricultor-Journey](./assets/chapter-02/user-agricultor-journey.png)
+
+User Comprador Urbano:
+
+![User-Comprador-Journey](./assets/chapter-02/user-comprador-journey.png)
+
 ### 2.3.4. Empathy Mapping
+
+Esta sección resume el proceso de elaboración de los Empathy Maps, uno por cada User Persona, construidos en UXPressia. El proceso parte de colocar al centro a la persona correspondiente (Martín Salas Hurtado o Lucía Fernández Torres) y de registrar, en la sección correspondiente de la herramienta, cada observación del equipo obtenida a partir del análisis de entrevistas, buscando responder: ¿Con quién estamos empatizando?, ¿Qué necesita hacer?, ¿Qué está diciendo?, ¿Qué está viendo?, ¿Qué está haciendo? y ¿Qué está escuchando?, además de ¿Cómo se siente y qué piensa? A partir de estas respuestas se identifican los Esfuerzos (Pains), a partir de lo que le preocupa a cada persona, y las Ganancias (Gains), a partir de lo que podría ayudarle a resolver sus problemas y convencerlo de que Allpatek es la alternativa correcta.
+
+User Agricultor:
+
+![User-Agricultor-Empathy](./assets/chapter-02/user-agricultor-empathy.png)
+
+User Comprador Urbano:
+
+![User-Comprador-Empathy](./assets/chapter-02/user-comprador-empathy.png)
 
 ## 2.4. Big Picture Event Storming
 
+El equipo realizó una sesión colaborativa de Big Picture Event Storming con el objetivo de explorar a alto nivel el dominio de negocio de Allpatek, identificando los eventos significativos del proceso de contratación de una parcela y sus relaciones cronológicas, desde la publicación de la parcela hasta el cierre de la temporada. Para la elaboración del diagrama se utilizó Mermaid como herramienta de Diagram-as-Code.
+
+![Event-Storming](./assets/chapter-02/big_picture.png)
+
 ## 2.5. Ubiquitous Language
+
+Siguiendo la definición de Eric Evans en *Domain-Driven Design: Tackling Complexity in the Heart of Software* - "Ubiquitous Language is modeled within a Limited context, where the terms and concepts of the business domain are identified, and there should be no ambiguity", se presenta a continuación el glosario de términos del dominio de negocio de Allpatek. Los términos se redactan en inglés, con su equivalente en español entre paréntesis; la definición correspondiente se redacta en español. Se incluyen únicamente términos del dominio de negocio agrícola y comercial, sin términos técnicos propios de la ingeniería de software.
+
+| Term (Spanish equivalent) | Definición |
+|---|---|
+| Agro-as-a-Service (AaaS) | Modelo de negocio de Allpatek en el que el comprador alquila una parcela y contrata la labor agrícola de una temporada, en lugar de comprar la cosecha ya producida. |
+| Climate Risk (Riesgo Climático) | Exposición del agricultor a eventos como sequías, heladas o lluvias intensas que afectan la producción, riesgo que Allpatek busca mitigar mediante alertas anticipadas. |
+| Contract Farming (Agricultura por Contrato) | Acuerdo previo entre productor y comprador sobre volumen, calidad, tiempo de entrega y precio, base conceptual del modelo de negocio de Allpatek. |
+| Contract Renewal (Renovación de Contrato) | Nueva temporada contratada entre el mismo agricultor y comprador tras una temporada previa completada exitosamente. |
+| Digital Signature (Firma Digital) | Mecanismo mediante el cual agricultor y comprador formalizan su aceptación de los términos del contrato de temporada, sin necesidad de firma física. |
+| Direct Production Cost (Costo Directo de Producción) | Costo que paga el comprador al contratar la temporada, equivalente al costo de producción sin intermediarios. |
+| Escrow Custody (Custodia Escrow) | Bóveda financiera donde se retienen los fondos depositados por el comprador, liberándose de forma progresiva conforme se cumplen los hitos de la temporada. |
+| Field Evidence (Evidencia de Campo) | Registro fotográfico georreferenciado y fechado del estado del cultivo, utilizado para verificar el cumplimiento de un hito. |
+| Milestone (Hito) | Etapa predefinida del ciclo de la temporada (firma del contrato, siembra, desarrollo del cultivo, validación de cosecha, entrega final) que determina cuándo se libera una porción de los fondos en custodia Escrow. |
+| Plot (Parcela) | Unidad de tierra agrícola registrada en la plataforma, disponible para ser contratada por un comprador durante una temporada. |
+| Production Plan (Plan de Producción) | Modalidad de suscripción (Básico, Pro o Empresarial) que define cuántas parcelas puede gestionar un comprador y qué funcionalidades de seguimiento y alertas tiene disponibles. |
+| Progress Notification (Notificación de Avance) | Mensaje automatizado que informa al comprador sobre hitos de siembra, cuidado y fecha estimada de cosecha de su parcela contratada. |
+| Rating & Reputation (Calificación y Reputación) | Módulo bidireccional donde agricultor y comprador se califican mutuamente al finalizar una temporada. |
+| Reservation (Reserva) | Acción del comprador de apartar una parcela y temporada disponible antes de completar el pago y la firma del contrato. |
+| Season (Temporada) | Periodo de cultivo determinado, definido por fechas de inicio y cosecha estimada, sobre el cual se establece el contrato entre agricultor y comprador. |
+| Season Contract (Contrato de Temporada) | Documento legal que formaliza el acuerdo de precio, duración y condiciones entre agricultor y comprador para una temporada específica. |
+| Smallholder Farmer (Agricultor Familiar) | Productor agrícola de pequeña escala, Segmento 1 de Allpatek, con acceso limitado a información de mercado y expuesto a riesgo climático. |
+| Urban Buyer (Comprador Urbano) | Consumidor individual, hogar urbano, restaurante o pyme del sector alimentario, Segmento 2 de Allpatek, que busca costo predecible y trazabilidad. |
+| Weather Alert (Alerta Climática) | Aviso emitido cuando se detecta riesgo climático (helada, sequía, lluvia intensa) que puede afectar una parcela contratada, clasificado por nivel de severidad (crítica, moderada, normal). |
+
 
 # Capítulo III: Requirements Specification
 
