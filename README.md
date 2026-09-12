@@ -721,7 +721,7 @@ A continuación, se presentan los User Personas diseñados para representar a lo
 
 ![User-Persona Agricultor](./assets/chapter-02/user_persona_agricultor.png)
 
-### User Persona: Comprador urbano
+### User Persona: Comprador Urbano
 
 ![User-Persona Comprador urbano](./assets/chapter-02/user_persona_comprador.png)
 
@@ -748,11 +748,11 @@ La User Task Matrix evidencia que tanto Martín como Lucía dependen constanteme
 
 Esta sección presenta el User Journey Map de cada User Persona, ilustrando el recorrido end-to-end que atraviesa cada segmento desde que identifica la necesidad de vender o comprar, hasta que evalúa el resultado de esa temporada o compra. Ambos journeys se elaboran en su versión As-Is: representan la situación actual de cada segmento sin que exista todavía Allpatek como solución, por lo que no se presenta ni se anticipa ninguna funcionalidad de la plataforma en esta etapa — el objetivo es exclusivamente identificar los puntos de dolor reales del proceso vigente. Cada Journey Map se construye en UXPressia y queda vinculado a la ficha de User Persona correspondiente, elaborada en la misma herramienta.
 
-User Agricultor:
+### User Agricultor:
 
 ![User-Agricultor-Journey](./assets/chapter-02/user-agricultor-journey.png)
 
-User Comprador Urbano:
+### User Comprador Urbano:
 
 ![User-Comprador-Journey](./assets/chapter-02/user-comprador-journey.png)
 
@@ -760,11 +760,11 @@ User Comprador Urbano:
 
 Esta sección resume el proceso de elaboración de los Empathy Maps, uno por cada User Persona, construidos en UXPressia. El proceso parte de colocar al centro a la persona correspondiente (Martín Salas Hurtado o Lucía Fernández Torres) y de registrar, en la sección correspondiente de la herramienta, cada observación del equipo obtenida a partir del análisis de entrevistas, buscando responder: ¿Con quién estamos empatizando?, ¿Qué necesita hacer?, ¿Qué está diciendo?, ¿Qué está viendo?, ¿Qué está haciendo? y ¿Qué está escuchando?, además de ¿Cómo se siente y qué piensa? A partir de estas respuestas se identifican los Esfuerzos (Pains), a partir de lo que le preocupa a cada persona, y las Ganancias (Gains), a partir de lo que podría ayudarle a resolver sus problemas y convencerlo de que Allpatek es la alternativa correcta.
 
-User Agricultor:
+### User Agricultor:
 
 ![User-Agricultor-Empathy](./assets/chapter-02/user-agricultor-empathy.png)
 
-User Comprador Urbano:
+### User Comprador Urbano:
 
 ![User-Comprador-Empathy](./assets/chapter-02/user-comprador-empathy.png)
 
