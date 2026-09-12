@@ -451,6 +451,228 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 17. ¿Qué lo haría dudar o desconfiar de comprarle directamente a un agricultor a través de una app, sin intermediarios?
     
 ### 2.2.2. Registro de entrevistas
+
+### Entrevistas al segmento de agricultores familiares
+
+#### Entrevista 1: [Nombre completo]
+
+<div align="center">
+
+| Campo | Información |
+|-------|-------------|
+| Segmento | Agricultor familiar |
+| Nombres y apellidos | |
+| Edad | |
+| Distrito | |
+| Ocupación | |
+| Tipo de cultivo principal | |
+| Extensión aproximada de la parcela | |
+| Inicio de la entrevista | 00:00 |
+| Duración | |
+| URL del video | |
+
+</div>
+
+<div align="center">
+    <img src="./assets/chapter-02/entrevista-agricultor-1.png" width="420">
+</div>
+
+**Resumen de la entrevista:**
+
+*[Completar]*
+
+#### Entrevista 2: [Nombre completo]
+
+<div align="center">
+
+| Campo | Información |
+|-------|-------------|
+| Segmento | Agricultor familiar |
+| Nombres y apellidos | |
+| Edad | |
+| Distrito | |
+| Ocupación | |
+| Tipo de cultivo principal | |
+| Extensión aproximada de la parcela | |
+| Inicio de la entrevista | 00:00 |
+| Duración | |
+| URL del video | |
+
+</div>
+
+<div align="center">
+    <img src="./assets/chapter-02/entrevista-agricultor-2.png" width="420">
+</div>
+
+**Resumen de la entrevista:**
+
+*[Completar]*
+
+#### Entrevista 3: [Nombre completo]
+
+<div align="center">
+
+| Campo | Información |
+|-------|-------------|
+| Segmento | Agricultor familiar |
+| Nombres y apellidos | |
+| Edad | |
+| Distrito | |
+| Ocupación | |
+| Tipo de cultivo principal | |
+| Extensión aproximada de la parcela | |
+| Inicio de la entrevista | 00:00 |
+| Duración | |
+| URL del video | |
+
+</div>
+
+<div align="center">
+    <img src="./assets/chapter-02/entrevista-agricultor-3.png" width="420">
+</div>
+
+**Resumen de la entrevista:**
+
+*[Completar]*
+
+#### Entrevista 4: [Nombre completo]
+
+<div align="center">
+
+| Campo | Información |
+|-------|-------------|
+| Segmento | Agricultor familiar |
+| Nombres y apellidos | |
+| Edad | |
+| Distrito | |
+| Ocupación | |
+| Tipo de cultivo principal | |
+| Extensión aproximada de la parcela | |
+| Inicio de la entrevista | 00:00 |
+| Duración | |
+| URL del video | |
+
+</div>
+
+<div align="center">
+    <img src="./assets/chapter-02/entrevista-agricultor-4.png" width="420">
+</div>
+
+**Resumen de la entrevista:**
+
+*[Completar]*
+
+
+### Entrevistas al segmento de compradores urbanos
+
+#### Entrevista 1: [Nombre completo]
+
+<div align="center">
+
+| Campo | Información |
+|-------|-------------|
+| Segmento | Comprador urbano |
+| Nombres y apellidos | |
+| Edad | |
+| Distrito | |
+| Ocupación | |
+| Tipo de comprador (familia / restaurante / negocio) | |
+| Volumen de compra aproximado | |
+| Inicio de la entrevista | 00:00 |
+| Duración | |
+| URL del video | |
+
+</div>
+
+<div align="center">
+    <img src="./assets/chapter-02/entrevista-comprador-1.png" width="420">
+</div>
+
+**Resumen de la entrevista:**
+
+*[Completar]*
+
+#### Entrevista 2: [Nombre completo]
+
+<div align="center">
+
+| Campo | Información |
+|-------|-------------|
+| Segmento | Comprador urbano |
+| Nombres y apellidos | |
+| Edad | |
+| Distrito | |
+| Ocupación | |
+| Tipo de comprador (familia / restaurante / negocio) | |
+| Volumen de compra aproximado | |
+| Inicio de la entrevista | 00:00 |
+| Duración | |
+| URL del video | |
+
+</div>
+
+<div align="center">
+    <img src="./assets/chapter-02/entrevista-comprador-2.png" width="420">
+</div>
+
+**Resumen de la entrevista:**
+
+*[Completar]*
+
+#### Entrevista 3: [Nombre completo]
+
+<div align="center">
+
+| Campo | Información |
+|-------|-------------|
+| Segmento | Comprador urbano |
+| Nombres y apellidos | |
+| Edad | |
+| Distrito | |
+| Ocupación | |
+| Tipo de comprador (familia / restaurante / negocio) | |
+| Volumen de compra aproximado | |
+| Inicio de la entrevista | 00:00 |
+| Duración | |
+| URL del video | |
+
+</div>
+
+<div align="center">
+    <img src="./assets/chapter-02/entrevista-comprador-3.png" width="420">
+</div>
+
+**Resumen de la entrevista:**
+
+*[Completar]*
+
+#### Entrevista 4: [Nombre completo]
+
+<div align="center">
+
+| Campo | Información |
+|-------|-------------|
+| Segmento | Comprador urbano |
+| Nombres y apellidos | |
+| Edad | |
+| Distrito | |
+| Ocupación | |
+| Tipo de comprador (familia / restaurante / negocio) | |
+| Volumen de compra aproximado | |
+| Inicio de la entrevista | 00:00 |
+| Duración | |
+| URL del video | |
+
+</div>
+
+<div align="center">
+    <img src="./assets/chapter-02/entrevista-comprador-4.png" width="420">
+</div>
+
+**Resumen de la entrevista:**
+
+*[Completar]*
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
