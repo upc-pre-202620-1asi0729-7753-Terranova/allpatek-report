@@ -675,6 +675,40 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 
 ### 2.2.3. Análisis de entrevistas
 
+### Análisis del segmento de Agricultores familiares
+
+<div align="center">
+
+| Característica identificada | Resultado estadístico | Sustento en entrevistas | Relación con el arquetipo |
+|---|---|---|---|
+| Conectividad limitada en el lugar de trabajo |  |  | El arquetipo necesita que la app funcione con guardado local y envío automático cuando vuelva la señal. |
+| Dependencia de WhatsApp como canal principal |  |  | Las notificaciones y avisos deben poder llegar por un canal tan simple como WhatsApp, no solo por notificación push. |
+| Necesidad de evidenciar el avance del cultivo con fotos |  |  | El arquetipo valora que la foto quede georreferenciada y con fecha automática, sin pasos adicionales. |
+| Exposición a eventos climáticos no anticipados (heladas, lluvias, sequías) |  |  | Sustenta la necesidad de un módulo de alertas climáticas tempranas dentro de la plataforma. |
+| Interés en recibir alertas climáticas anticipadas |  |  | El arquetipo prioriza avisos claros y con antelación sobre el detalle técnico del dato meteorológico. |
+| Apertura a la firma digital del contrato |  |  | Determina si la firma digital puede ser el mecanismo único de formalización o si se necesita reforzar la confianza con explicaciones adicionales en la interfaz. |
+| Confianza en el pago liberado por hitos (Escrow) |  |  | Valida (o no) el modelo de custodia por etapas como mecanismo aceptado por el agricultor, o si se requiere mayor transparencia en cada liberación. |
+| Necesidad de simplicidad en la herramienta digital |  |  | La interfaz del panel de agricultor debe priorizar pocos pasos y lenguaje directo por sobre funciones avanzadas. |
+
+</div>
+
+### Análisis del segmento de Compradores urbanos
+
+<div align="center">
+
+| Característica identificada | Resultado estadístico | Sustento en entrevistas | Relación con el arquetipo |
+|---|---|---|---|
+| Gestión de varios proveedores o parcelas a la vez |  |  | Sustenta la necesidad de un panel único donde ver todas las parcelas contratadas y su estado. |
+| Uso de canales digitales para dar seguimiento a acuerdos |  |  | El arquetipo espera que el seguimiento del contrato viva dentro de la misma app que usa para lo demás. |
+| Experiencia previa con incumplimientos o entregas no conformes |  |  | Justifica la importancia de la evidencia fotográfica con GPS como mecanismo de verificación remota. |
+| Interés en verificar el origen y las condiciones de producción |  |  | Refuerza el valor de la trazabilidad como diferenciador frente a la compra tradicional. |
+| Sensibilidad a la volatilidad de precios |  |  | Valida el atractivo de un costo fijo por temporada frente a la fluctuación del mercado mayorista. |
+| Interés en alertas de riesgo climático sobre sus parcelas contratadas |  |  | Sustenta extender el módulo de Alertas Climáticas también a la vista del comprador, no solo del agricultor. |
+| Apertura al pago mediante custodia (Escrow) liberada por hitos |  |  | Determina si el modelo de Escrow reduce o no la desconfianza frente a pagar por adelantado. |
+| Disposición a pagar una suscripción mensual fija |  |  | Valida (o ajusta) los planes Básico/Pro/Empresarial ya definidos en el Capítulo 4. |
+
+</div>
+
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 ### 2.3.2. User Task Matrix
