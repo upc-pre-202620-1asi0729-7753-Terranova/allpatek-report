@@ -280,10 +280,10 @@ Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y r
     <tr>
         <td rowspan="3" class="sub">PERFIL</td>
         <td rowspan="2" class="sub">Overview</td>
-        <td> Allpatek <img src="./assets/chapter-02/allpatek.jpg"></td>
-        <td> Agromercado (MIDAGRI) <img src="./assets/chapter-02/agromercado.jpg"></td>
-        <td> VeryAgro <img src="./assets/chapter-02/veryagro.jpg"></td>
-        <td> Procesadora Perú <img src="./assets/chapter-02/procesadora-peru.jpg"></td>
+        <td> Allpatek <img src="./assets/chapter-02/allpatek.jpg" width="140" height="140"></td>
+        <td> Agromercado (MIDAGRI) <img src="./assets/chapter-02/agromercado.jpg" width="140" height="140"></td>
+        <td> VeryAgro <img src="./assets/chapter-02/veryagro.jpg" width="140" height="140"></td>
+        <td> Procesadora Perú <img src="./assets/chapter-02/procesadora-peru.jpg" width="140" height="140"></td>
     </tr>
     <tr>
         <td>Modelo Agro-as-a-Service (AaaS): el comprador alquila una parcela y contrata la labor del agricultor por una temporada, con formalización contractual y notificaciones automatizadas vía n8n.</td>
