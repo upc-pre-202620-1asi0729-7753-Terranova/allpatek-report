@@ -320,7 +320,38 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 ## 3.2. Impact Mapping
 
 ## 3.3. Product Backlog
-
+| # Orden | User Story Id | Título | Descripción | Story Points |
+| :---: | :---: | :--- | :--- | :---: |
+| 1 | US024 | Propuesta AaaS en Landing | Como visitante del sitio web, quiero consultar los beneficios del modelo Agro-as-a-Service y el comparativo de ahorro, para entender la propuesta de valor antes de registrarme. | 3 |
+| 2 | US025 | Formulario corporativo Landing | Como visitante corporativo, quiero solicitar una demostración personalizada del servicio, para evaluar la contratación masiva de parcelas. | 3 |
+| 3 | US01 | Registro y verificación de identidad | Como productor agrícola, quiero registrar mi perfil y verificar mis datos de identidad, para transmitir confianza a los compradores. | 5 |
+| 4 | US016 | Validación fiscal corporativa | Como comprador, quiero registrar los datos de mi empresa y validar su identificación fiscal, para acreditar la formalidad del negocio. | 5 |
+| 5 | US06 | Publicación de lote agrícola | Como productor agrícola, quiero registrar dimensiones, características y ubicación de mi parcela, para hacer visible mi oferta productiva. | 5 |
+| 6 | US012 | Calendario de siembra | Como productor agrícola, quiero registrar las fechas estimadas de siembra y cosecha de mi parcela, para informar periodos de disponibilidad. | 3 |
+| 7 | US02 | Filtrado de parcelas | Como comprador, quiero filtrar parcelas agrícolas por tipo de cultivo, zona geográfica y extensión de hectáreas, para seleccionar abastecimiento. | 3 |
+| 8 | US020 | Alertas de cosechas futuras | Como comprador, quiero suscribirme a alertas según cultivos, zonas y volúmenes de interés, para anticipar abastecimiento. | 3 |
+| 9 | US07 | Negociación directa de volumen | Como comprador, quiero enviar una propuesta formal de compra indicando volumen, precio y fecha de entrega, para iniciar negociación directa. | 5 |
+| 10 | US021 | Contraofertas de negociación | Como productor agrícola, quiero enviar una contrapropuesta modificando condiciones económicas o de entrega, para negociar términos. | 5 |
+| 11 | US08 | Firma de contrato digital Escrow | Como productor agrícola, quiero aceptar las condiciones acordadas y formalizar digitalmente el acuerdo de venta, para activar la custodia. | 5 |
+| 12 | US027 | Checkout de temporada | Como comprador urbano/corporativo, quiero completar el pago de la tarifa de temporada mediante pasarela digital, para reservar la parcela. | 8 |
+| 13 | US028 | Bloqueo automático de parcela | Como pequeño agricultor, quiero que mi parcela pase al estado "Contratada" inmediatamente tras el pago, para evitar reservas duplicadas. | 3 |
+| 14 | US09 | Depósito de fondos en custodia | Como comprador, quiero transferir el capital acordado a la cuenta de custodia, para garantizar disponibilidad y habilitar el trabajo. | 5 |
+| 15 | US029 | Cancelación y reembolso pre-siembra | Como comprador, quiero solicitar la cancelación de la reserva antes del inicio de la siembra, para recuperar fondos según términos. | 5 |
+| 16 | US022 | Adendas en hitos de pago | Como comprador, quiero proponer modificaciones a los montos de los hitos de un contrato activo, para adaptar desembolsos por variaciones. | 5 |
+| 17 | US011 | Visita presencial a parcela | Como comprador, quiero programar una visita de inspección a la parcela en producción, para verificar condiciones antes del desembolso final. | 3 |
+| 18 | US023 | Registro de insumos fitosanitarios | Como productor agrícola, quiero registrar los insumos utilizados durante cada hito del cultivo, para mantener trazabilidad técnica. | 5 |
+| 19 | US04 | Evidencias fotográficas con GPS | Como productor agrícola, quiero registrar evidencias fotográficas de mi cultivo con información de ubicación, para demostrar avance de hitos. | 5 |
+| 20 | US014 | Revisión técnica de evidencias | Como comprador, quiero revisar evidencias enviadas y solicitar correcciones cuando sean insuficientes, para asegurar estándares de calidad. | 3 |
+| 21 | US03 | Aprobación de hito y liberación | Como comprador, quiero revisar evidencias de un hito cumplido y aprobar la liberación parcial de fondos en custodia, para pagar al productor. | 5 |
+| 22 | US013 | Configuración de cuenta bancaria | Como productor agrícola, quiero vincular una cuenta bancaria a mi perfil, para recibir los fondos liberados de la custodia Escrow. | 3 |
+| 23 | US017 | Mensajería de coordinación | Como comprador, quiero intercambiar mensajes con el productor durante la ejecución de un contrato, para resolver dudas técnicas y operativas. | 5 |
+| 24 | US010 | Solicitud de prórroga de hito | Como productor agrícola, quiero solicitar la reprogramación de fecha límite de hito por imprevisto justificado, para evitar penalizaciones. | 3 |
+| 25 | US05 | Alertas climáticas de riesgo | Como comprador, quiero recibir alertas ante eventos climáticos adversos en las parcelas contratadas, para coordinar medidas preventivas. | 3 |
+| 26 | US019 | Reporte de incidencias | Como productor/comprador, quiero reportar incidencias técnicas y solicitar soporte sobre el uso de la plataforma, para recibir asistencia. | 3 |
+| 27 | US015 | Calificación del comprador | Como productor agrícola, quiero calificar la puntualidad y comunicación del comprador al finalizar contrato, para aportar transparencia. | 2 |
+| 28 | US018 | Evaluación de calidad del productor | Como comprador, quiero evaluar el cumplimiento y calidad del producto entregado por el productor, para contribuir a su reputación. | 2 |
+| 29 | US026 | Consulta de catálogo de parcelas | Como usuario, quiero consultar el catálogo general de parcelas filtradas, para visualizar oferta disponible. | 3 |
+| 30 | US030 | Gestión de órdenes de contratación | Como comprador/usuario, quiero crear y consultar el estado de una orden de contratación, para gestionar el ciclo comercial. | 3 |
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
