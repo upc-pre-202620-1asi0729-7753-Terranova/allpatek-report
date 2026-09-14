@@ -73,7 +73,7 @@
 
 | Integrante | Tareas Asignadas |
 |---|---|
-| [Nombre Completo 1] | [Lista de tareas realizadas] |
+| Alexander Sebastián, Atauje Barreto | Introduction, Startup Profile, Startup Description, Team Member Profiles, Solution Profile, Background & Problematic, Lean UX Process (Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas), Target Segments, Services Section (HTML5 & CSS Grid Layout), Milestones / How It Works Section (HTML5 & CSS Layout), Landing Page Modularization & GitHub Branch Management |
 | [Nombre Completo 2] | [Lista de tareas realizadas |
 | Mel Andree, Orellana Rodriguez | Style Guidelines, General Style Guidelines, Web Style Guidelines, Information Architecture, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Web Applications UX/UI Design, Web Applications Wireframes, Web Applications Wireflow Diagrams, Web Applications Mock-ups, Web Applications User Flow Diagrams, Web Applications Prototyping |
 | [Nombre Completo 4] | [Lista de tareas realizadas] |
