@@ -322,6 +322,10 @@ El proceso de colaboración en el informe se realizó mediante commits constante
   <img src="assets/chapter-03/impact_mapping1.jpg" alt="Impact Mapping" width="850">
 </div>
 
+
+<div align="center">
+  <img src="assets/chapter-03/impact_mapping2.jpg" alt="Impact Mapping" width="850">
+</div>
 ## 3.3. Product Backlog
 | # Orden | User Story Id | Título | Descripción | Story Points |
 | :---: | :---: | :--- | :--- | :---: |
