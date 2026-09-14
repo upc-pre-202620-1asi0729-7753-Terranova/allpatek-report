@@ -1080,68 +1080,41 @@ El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de 
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-<table>
-  <thead>
-    <tr>
-      <th>Repository</th>
-      <th>Branch</th>
-      <th>Commit Id</th>
-      <th>Commit Message</th>
-      <th>Commit Message Body</th>
-      <th>Committed on (Date)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| --- | --- | --- | --- | --- | --- |
+| allpatek-website | main | 3a8eb3fc0a4d5d77f5f11fc5858b905740023dea | feat:implementing the basic structure in html | Set up foundational HTML document with semantic boilerplate elements. | 07/09/2026 |
+| allpatek-website | main | d787382ba7a0d210d9468ed9158274697bbe9545 | feat: basic structure for implementing css | Create initial styles.css file and reset basic layout properties. | 07/09/2026 |
+| allpatek-website | main | 36bc9f66d672055aeb50d9696bccb8a4a899396b | feat: initial script in Javascript | Initialize main.js script file for handling web page interactions. | 07/09/2026 |
+| allpatek-website | main | ac648453b501b0aa0310d6cb9f5c62f63b98c35b | feat: adding images for the views | Add initial image assets for landing page sections into assets folder. | 07/09/2026 |
+| allpatek-website | feature/services | 2fee825338dbf3028991a8c8064c8a519249ca2a | feat: add services section content in index.html | Add HTML grid container and cards for Escrow services section. | 10/09/2026 |
+| allpatek-website | feature/services | 08261cfea0463728390afb709160b733cb40cca5 | feat: add styles for services section in styles.css | Apply CSS styles, card colors, and layout for services grid. | 10/09/2026 |
+| allpatek-website | feature/how-it-works | 4b0288336be0a4160051bb113fd5187fe758be3b | feat: add how it works milestones section content in index.html | Add HTML timeline markup for Escrow milestone workflow steps. | 10/09/2026 |
+| allpatek-website | feature/how-it-works | 18f98fd9dfc69ee59953c12e2e31b0791354c1d3 | feat: add styles for how it works section in styles.css | Add CSS rules for milestone timeline design and visual connectors. | 10/09/2026 |
+| allpatek-website | feature/how-it-works | 103271ba9d95fbe7e93536d4adec038f31e5c716 | feat: fix styles for the functionality section in styles.css | Adjust spacing and alignment for how-it-works section elements. | 10/09/2026 |
+| allpatek-website | feature/services | 7b4d3ff51fec3110e4572aff657027dfc1b4224b | fix: isolate services styles by removing shared section tokens in styles.css | Refactor CSS selectors to prevent style leaks across sections. | 10/09/2026 |
+| allpatek-website | feature/hero | 4386868b588b1290595b674860361703b72f6dce | feat(hero): add hero section and key metrics | Implement hero section markup with call-to-action and metric badges. | 11/09/2026 |
+| allpatek-website | feature/header-navbar | d31ba2ddbb7ed0c07039bf94385c700c2dc7fe7e | feat(header-navbar): add header markup and styles | Add sticky navigation bar with logo, menu links, and action button. | 11/09/2026 |
+| allpatek-website | feature/hero | 2c8d7db171aaa467e04d962666a4b43b9c3662f8 | fix(hero): correct styling and mobile layout | Fix hero background alignment and font sizes on mobile viewports. | 11/09/2026 |
+| allpatek-website | feature/header-navbar | c096c5242ffc431eaf514a9216b2295465ecd927 | fix(header-navbar): correct styling and mobile menu behavior | Resolve hamburger menu toggle and navigation bar overlay issues. | 11/09/2026 |
+| allpatek-website | feature/team | 94c016bbf24fbd08af641f1d72c477c9775143a2 | feat: add team members data file | Add structured JSON file containing engineering team profile info. | 11/09/2026 |
+| allpatek-website | feature/team | 6a93b1ec811af094e27c7a7708f9edbc779eca6e | feat: add team members section markup | Add HTML structure for displaying team members cards section. | 11/09/2026 |
+| allpatek-website | feature/team | 02ed6554d1c2fc03abcc066db1ca4d5212df0400 | feat: add layout and styling for team members section | Style team cards layout, member avatars, and social links. | 11/09/2026 |
+| allpatek-website | feature/global-styles-and-responsive | a303af90b73a246c4ca18b1462879bab34bf209f | feat: add global styles and responsive design media queries | Add media queries for desktop, tablet, and mobile breakpoints. | 11/09/2026 |
+| allpatek-website | feature/contact-form | 758ac7435eefb27d5f2c4abb571f7fd78aab06bc | feat: add contact section with form for proposals | Build contact section markup with proposal form input fields. | 12/09/2026 |
+| allpatek-website | feature/contact-form | ab115ba0373d6e15a0c9e95620fb9dae60c12352 | feat: add styles for contact form layout and design | Apply styles for contact form fields, focus states, and submit button. | 12/09/2026 |
+| allpatek-website | feature/footer | caff03637654950bf1a9e01f35119e71a4c1d05f | feat: add footer section with navigation and contact info | Create footer HTML markup with links, copyright notice, and social icons. | 12/09/2026 |
+| allpatek-website | feature/footer | d572abe14decc53b6b5713cd188e03ab452e1a05 | feat: add footer styles to styles.css | Style footer dark layout, column alignments, and text links. | 12/09/2026 |
+| allpatek-website | feature/testimonials | 0be1ba338ca60770468686f8b572786a6773cd20 | feat: add testimonials and plans sections to index.html | Add HTML cards for user reviews and subscription pricing plans. | 13/09/2026 |
+| allpatek-website | feature/testimonials | 0423bca629431b5a78632b64e25b1d0f03005b68 | feat: add styles for reviews and plans sections | Style pricing plan tables, highlight featured plan, and customer reviews. | 13/09/2026 |
+| allpatek-website | develop | f5068cc6cca4ce74601b14b55cf927104884d510 | Merge branch 'feature/global-styles-and-responsive' into develop | Merge global styles and responsive design features into develop branch. | 13/09/2026 |
+| allpatek-website | develop | c5f10dbe1ed05c6d1e8d6b7bf298064b4076fc03 | Merge branch 'feature/header-navbar' into develop | Merge header navigation bar component features into develop branch. | 13/09/2026 |
+| allpatek-website | develop | 2291646184c9876bfc9fac92199468ea73bb64d7 | Merge branch 'feature/hero' into develop | Merge hero section features and key metrics into develop branch. | 13/09/2026 |
+| allpatek-website | develop | b22c4a209fa9219449f978053c15d2166d9e7349 | Merge branch 'feature/services' into develop | Merge Escrow services section features into develop branch. | 13/09/2026 |
+| allpatek-website | develop | 68413828fe042d51133837dba8514a51243ccb9e | Merge branch 'feature/how-it-works' into develop | Merge how-it-works milestone workflow features into develop branch. | 13/09/2026 |
+| allpatek-website | develop | 7f046503874b08f53b1e375614e5bb31819a5571 | Merge branch 'feature/testimonials' into develop | Merge customer testimonials section features into develop branch. | 13/09/2026 |
+| allpatek-website | develop | 62db8f58b21ceb0b2fa324732550f72892eb328b | Merge branch 'feature/team' into develop | Merge team profile section features into develop branch. | 13/09/2026 |
+| allpatek-website | develop | e5e145d965d4a6de348db6bbbaff2bf6e4bd098e | Merge branch 'feature/contact-form' into develop | Merge contact section and proposal form features into develop branch. | 13/09/2026 |
+| allpatek-website | develop | a425cfea58eddf7c207bb5536791fe2fa7b791da | Merge branch 'feature/footer' into develop | Merge footer section features into develop branch. | 13/09/2026 |
 
 
 
