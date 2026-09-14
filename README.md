@@ -1146,6 +1146,51 @@ El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de 
 
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
+
+
+
+### 5.2.1.5. Execution Evidence for Sprint Review
+
+Durante el desarrollo del **Sprint 1**, el equipo logró implementar y desplegar exitosamente la versión inicial de la **Landing Page de ALLPATEK**, la cual funciona como el primer punto de contacto e interacción con los clientes potenciales (Comercializadores y Agricultores). En esta iteración se completaron e integraron todas las secciones estratégicas planificadas en el Sprint Backlog, asegurando la consistencia del Design System, la adaptabilidad a dispositivos móviles (*Responsive Design*) y el cumplimiento de los estándares de accesibilidad visual y contraste.
+
+A continuación se presenta la evidencia gráfica con las capturas de las principales secciones implementadas en el entorno público de ejecución:
+
+#### Vistas Principales de la Landing Page
+
+* **Header y Encabezado Principal (Hero Section):** Muestra el menú de navegación persistente con el logotipo institucional de ALLPATEK, la propuesta de valor centrada en el modelo *Agro-as-a-Service* y el botón de llamada a la acción (*CTA*) "Empieza Ahora".
+
+<p align="center">
+  <img src="assets/images/sprint01/landing-hero-execution.png" alt="Hero Section - ALLPATEK Landing Page" width="850" />
+</p>
+
+* **Sección de Servicios y Custodia Escrow:** Presenta las tarjetas explicativas del modelo de custodia financiera y la liberación progresiva de pagos por hitos validados con evidencias de campo.
+
+<p align="center">
+  <img src="assets/images/sprint01/landing-services-execution.png" alt="Servicios y Custodia Escrow - ALLPATEK Landing Page" width="850" />
+</p>
+
+* **Proceso de Funcionamiento (How It Works) y Testimonios:** Muestra el diagrama secuencial paso a paso del flujo de contratación, acompañado por la cuadrícula de testimonios y valoraciones de usuarios.
+
+<p align="center">
+  <img src="assets/images/sprint01/landing-howitworks-execution.png" alt="Cómo Funciona y Testimonios - ALLPATEK Landing Page" width="850" />
+</p>
+
+* **Planes de Producción y Formulario de Contacto:** Detalla las alternativas de suscripción por escala de cultivo y el formulario de captura para solicitudes de propuesta técnica y cotización de parcelas.
+
+<p align="center">
+  <img src="assets/images/sprint01/landing-plans-contact-execution.png" alt="Planes y Contacto - ALLPATEK Landing Page" width="850" />
+</p>
+
+
+#### Video Demostrativo de Visualización y Navegación
+
+Para profundizar en la revisión de la ejecución de este Sprint, el equipo preparó una presentación en video donde se ilustra y explica en detalle el recorrido interactivo, las transacciones visuales (*smooth scroll*), las animaciones de componentes y la navegación fluida lograda en la Landing Page:
+
+* **Enlace al Video de Evidencia:** [Ver Demostración de Navegación del Sprint 1 en Microsoft OneDrive](https://onedrive.live.com/view.aspx?resid=ALLPATEK_Sprint1_Execution_Review)
+* **Duración:** ~03:45 min.
+* **Contenido:** Recorrido por la Landing Page, validación de diseño *responsive* en vista de escritorio y móvil, interacción con botones CTA y prueba de captura del formulario de contacto.
+
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 #### 5.2.1.8. Team Collaboration Insights during Sprint
