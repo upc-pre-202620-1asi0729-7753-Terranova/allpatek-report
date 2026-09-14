@@ -1220,6 +1220,45 @@ A continuación se presenta la captura de pantalla que confirma la ejecución ex
 
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
+
+Durante el desarrollo del **Sprint 1**, el equipo **TerraNova** estableció una dinámica de trabajo colaborativa, inclusiva y altamente distribuida para cumplir con la implementación y publicación de la Landing Page estática e informativa de la plataforma **ALLPATEK**. El proceso de desarrollo se gestionó mediante la plataforma **GitHub**, adoptando una estrategia de ramificación por aspectos de la interfaz web (`feature/header-navbar`, `feature/hero`, `feature/services`, `feature/how-it-works`, `feature/testimonials`, `feature/team`, `feature/contact-form`, `feature/footer`, `feature/plans`) para permitir el trabajo en paralelo de todos los miembros del equipo.
+
+Para asegurar la trazabilidad del código fuente y el control de cambios, se aplicó la guía de trabajo basada en el estándar **Conventional Commits** con mensajes redactados estrictamente en inglés. La consolidación del progreso se realizó mediante la revisión continua y la integración de ramas hacia la rama principal de integración, garantizando una participación activa y equitativa de todos los integrantes.
+
+
+
+#### 1. Evidencia Analítica de Colaboración en GitHub (Analytics & Contributors)
+
+
+A continuación, se presentan las capturas de los analíticos extraídos de la pestaña *Insights / Contributors* y *Commits* del repositorio oficial, los cuales evidencian la distribución del trabajo, la frecuencia de commits y las adiciones de código realizadas por cada estudiante:
+
+<p align="center">
+  <img src="assets/images/sprint01/github-contributors-insights.png" alt="Analíticos de Colaboración e Insights de GitHub - Sprint 1" width="850" />
+</p>
+
+* **Figura 5.2.1.8.1.** *Métricas de contribuciones por usuario en GitHub Insights, mostrando la participación activa y constante de todos los miembros del equipo durante el desarrollo del Sprint 1.*
+
+<p align="center">
+  <img src="assets/images/sprint01/github-commit-network.png" alt="Historial y Grafo de Ramas en GitHub" width="850" />
+</p>
+
+* **Figura 5.2.1.8.2.** *Grafo de red y flujo de commits en GitHub, evidenciando el uso de ramas de funcionalidades por componente y la integración hacia la rama de desarrollo.*
+
+
+#### 2. Resumen de Contribuciones por Integrante
+
+En la siguiente tabla se resumen las actividades y entregables específicos asumidos por cada miembro del equipo durante el desarrollo del producto en este Sprint:
+
+| Integrante del Equipo | Usuario en GitHub | Rol / Producto Asignado | Tareas y Secciones Implementadas |
+| :--- | :--- | :--- | :--- |
+| **Atauje Barreto, Alexander Sebastián** | Alexander1Alexander2 | Developer / Aspect Leader | Maquetación y desarrollo del Header/Navbar, Hero Section y Testimonios. Configuración inicial de la estructura HTML/CSS. |
+| **Egocheaga Suyo, Miguel Angel** | MiguelAngel0107 | Developer / Aspect Leader | Desarrollo de la sección de Servicios (Custodia Escrow) y el flujo descriptivo de Funcionamiento (How It Works). |
+| **Orellana Rodríguez, Mel Andree** | melandree8 | Repository Admin / Aspect Leader | Configuración del repositorio, implementación de la sección de Equipo (Team), Planes de Producción y gestión de despliegue en GitHub Pages. |
+| **Raymundo Villarroel, Abigail Nadhim** | AbigailRV | Developer / Aspect Leader | Maquetación y desarrollo del Formulario de Contacto/Cotización técnica y la sección del Footer. |
+| **Vera Solsol, Nayely Macarena** | Macaxprogram29 | Developer / Aspect Leader | Desarrollo de la sección de Testimonios y soporte en la adaptabilidad responsive de la barra de navegación. |
+
+
+
 ### 5.2.2. Sprint 2
 #### 5.2.2.1. Sprint Planning 2
 #### 5.2.2.2. Aspect Leaders and Collaborators
