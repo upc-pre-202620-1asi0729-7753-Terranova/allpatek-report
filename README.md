@@ -1148,9 +1148,6 @@ El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
 
-
-### 5.2.1.5. Execution Evidence for Sprint Review
-
 Durante el desarrollo del **Sprint 1**, el equipo logró implementar y desplegar exitosamente la versión inicial de la **Landing Page de ALLPATEK**, la cual funciona como el primer punto de contacto e interacción con los clientes potenciales (Comercializadores y Agricultores). En esta iteración se completaron e integraron todas las secciones estratégicas planificadas en el Sprint Backlog, asegurando la consistencia del Design System, la adaptabilidad a dispositivos móviles (*Responsive Design*) y el cumplimiento de los estándares de accesibilidad visual y contraste.
 
 A continuación se presenta la evidencia gráfica con las capturas de las principales secciones implementadas en el entorno público de ejecución:
@@ -1192,7 +1189,36 @@ Para profundizar en la revisión de la ejecución de este Sprint, el equipo prep
 
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+Durante el desarrollo del **Sprint 1**, el equipo llevó a cabo la configuración del entorno de despliegue y la publicación pública de la **Landing Page estática de ALLPATEK**, la cual constituye el sitio web informativo y de adquisición inicial para potenciales Comercializadores y productores agrícolas. Para esta iteración, el proceso de despliegue se gestionó en su totalidad a través del servicio de almacenamiento estático **GitHub Pages**, garantizando un acceso público continuo y seguro mediante certificado TLS/SSL.
+
+A continuación, se describen los pasos de configuración ejecutados en el repositorio, la evidencia visual del estado activo del servicio y la matriz con la dirección de acceso al sitio web.
+
+
+#### 1. Resumen del Proceso de Despliegue en GitHub Pages
+
+1. **Configuración de la Rama de Publicación:** Se configuró el repositorio oficial de la organización para realizar el despliegue automático (*Deploy from a branch*) tomando como fuente la rama principal `main` y asignando el directorio raíz (`/root`) para la compilación de los archivos estáticos (`index.html`, hojas de estilo CSS e imágenes del proyecto).
+2. **Generación de Dominio y Certificación SSL:** Se verificó la generación del certificado de seguridad de capa de transporte (HTTPS/TLS) y la asignación del nombre de dominio público provisto por la infraestructura de GitHub.
+
+
+#### 2. Evidencia Gráfica del Despliegue
+
+A continuación se presenta la captura de pantalla que confirma la ejecución exitosa del flujo de publicación de GitHub Pages dentro del panel de administración del repositorio:
+
+<p align="center">
+  <img src="assets/images/sprint01/deployment-github-pages-setup.png" alt="Configuración de GitHub Pages para la Landing Page de ALLPATEK" width="850" />
+</p>
+
+#### 3. Enlace Público del Producto Desplegado
+
+| Producto Digital | Entorno / Hosting | Fuente de Despliegue | Estado de Publicación | Dirección URL de Acceso Público |
+| :--- | :--- | :---: | :---: | :--- |
+| **Landing Page** | GitHub Pages | Rama `main` (`/root`) | **Active / Live** | [https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-report/](https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-report/) |
+
+
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 ### 5.2.2. Sprint 2
 #### 5.2.2.1. Sprint Planning 2
