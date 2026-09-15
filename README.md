@@ -565,22 +565,22 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 
 ### Entrevistas al segmento de compradores urbanos
 
-#### Entrevista 1: [Nombre completo]
+#### Entrevista 1: Irma Barreto Castro
 
 <div align="center">
 
 | Campo | Información |
 |-------|-------------|
 | Segmento | Comprador urbano |
-| Nombres y apellidos | |
-| Edad | |
-| Distrito | |
-| Ocupación | |
-| Tipo de comprador (familia / restaurante / negocio) | |
-| Volumen de compra aproximado | |
+| Nombres y apellidos | Irma Barreto Castro |
+| Edad | 40 años |
+| Distrito | La Molina |
+| Ocupación | Dueña y administradora de un pequeño restaurante familiar |
+| Tipo de comprador (familia / restaurante / negocio) | Restaurante |
+| Volumen de compra aproximado | 30-40kg por semana |
 | Inicio de la entrevista | 00:00 |
-| Duración | |
-| URL del video | |
+| Duración | 7:27 |
+| URL del video | [Video evidencia](https://drive.google.com/file/d/10f68I-EdKxsz1NcjvNJ-0lKSVOwJga0g/view?usp=sharing) |
 
 </div>
 
