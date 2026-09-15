@@ -580,7 +580,7 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 | Volumen de compra aproximado | 30-40kg por semana |
 | Inicio de la entrevista | 00:00 |
 | Duración | 7:27 |
-| URL del video | [Video evidencia](https://drive.google.com/file/d/10f68I-EdKxsz1NcjvNJ-0lKSVOwJga0g/view?usp=sharing) |
+| URL del video | [Video evidencia](https://drive.google.com/file/d/1Of68I-EdKxsz1NcjvNJ-0lKSVOwJgaOg/view?t=132.478) |
 
 </div>
 
@@ -590,7 +590,13 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 
 **Resumen de la entrevista:**
 
-*[Completar]*
+Irma Barreto, dueña y administradora de un pequeño restaurante familiar, comentó que actualmente compra frutas y verduras principalmente a proveedores conocidos, mercados mayoristas y mediante pedidos por WhatsApp. Sus principales dificultades son la variación frecuente de precios, la incertidumbre sobre la calidad y frescura de los productos y la falta de información sobre su origen.
+
+Mostró interés en conocer directamente al agricultor, la ubicación de la parcela y el avance de los cultivos antes de realizar una compra. También consideró atractiva la posibilidad de pagar por adelantado una temporada a un precio fijo, siempre que exista un contrato claro y garantías de cumplimiento.
+
+Para Irma, las notificaciones sobre el progreso de los cultivos y la fecha estimada de cosecha serían útiles, prefiriendo WhatsApp como principal medio de comunicación. Además, señaló que confiaría más en la plataforma si los agricultores estuvieran verificados, existieran calificaciones de otros compradores y se ofrecieran mecanismos de respaldo ante incumplimientos.
+
+En general, la entrevista evidencia que el comprador busca reducir la incertidumbre en precio, calidad, origen y cumplimiento, además de contar con un proceso de compra directo, rápido y transparente.
 
 #### Entrevista 2: [Nombre completo]
 
