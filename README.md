@@ -1156,8 +1156,8 @@ A continuación se presenta la evidencia gráfica con las capturas de las princi
 
 Para profundizar en la revisión de la ejecución de este Sprint, el equipo preparó una presentación en video donde se ilustra y explica en detalle el recorrido interactivo, las transacciones visuales (*smooth scroll*), las animaciones de componentes y la navegación fluida lograda en la Landing Page:
 
-* **Enlace al Video de Evidencia:** [Ver Demostración de Navegación del Sprint 1 en Microsoft OneDrive](https://onedrive.live.com/view.aspx?resid=ALLPATEK_Sprint1_Execution_Review)
-* **Duración:** ~03:45 min.
+* **Enlace al Video de Evidencia:** [Ver Demostración de Navegación del Sprint 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQApudu7-aW0R6zofbarn9-pAd96aUTXm_GwyTKAwac5l90?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7oUJHv)
+* **Duración:** ~03:30 min.
 * **Contenido:** Recorrido por la Landing Page, validación de diseño *responsive* en vista de escritorio y móvil, interacción con botones CTA y prueba de captura del formulario de contacto.
 
 
