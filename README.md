@@ -1130,25 +1130,25 @@ A continuación se presenta la evidencia gráfica con las capturas de las princi
 * **Header y Encabezado Principal (Hero Section):** Muestra el menú de navegación persistente con el logotipo institucional de ALLPATEK, la propuesta de valor centrada en el modelo *Agro-as-a-Service* y el botón de llamada a la acción (*CTA*) "Empieza Ahora".
 
 <p align="center">
-  <img src="assets/images/sprint01/landing-hero-execution.png" alt="Hero Section - ALLPATEK Landing Page" width="850" />
+  <img src="assets/chapter-05/landing-header.png" alt="Hero Section - ALLPATEK Landing Page" width="850" />
 </p>
 
 * **Sección de Servicios y Custodia Escrow:** Presenta las tarjetas explicativas del modelo de custodia financiera y la liberación progresiva de pagos por hitos validados con evidencias de campo.
 
 <p align="center">
-  <img src="assets/images/sprint01/landing-services-execution.png" alt="Servicios y Custodia Escrow - ALLPATEK Landing Page" width="850" />
+  <img src="assets/chapter-05/landing-services.png" alt="Servicios y Custodia Escrow - ALLPATEK Landing Page" width="850" />
 </p>
 
 * **Proceso de Funcionamiento (How It Works) y Testimonios:** Muestra el diagrama secuencial paso a paso del flujo de contratación, acompañado por la cuadrícula de testimonios y valoraciones de usuarios.
 
 <p align="center">
-  <img src="assets/images/sprint01/landing-howitworks-execution.png" alt="Cómo Funciona y Testimonios - ALLPATEK Landing Page" width="850" />
+  <img src="assets/chapter-05/testimonios.png" alt="Cómo Funciona y Testimonios - ALLPATEK Landing Page" width="850" />
 </p>
 
 * **Planes de Producción y Formulario de Contacto:** Detalla las alternativas de suscripción por escala de cultivo y el formulario de captura para solicitudes de propuesta técnica y cotización de parcelas.
 
 <p align="center">
-  <img src="assets/images/sprint01/landing-plans-contact-execution.png" alt="Planes y Contacto - ALLPATEK Landing Page" width="850" />
+  <img src="assets/chapter-05/contacto.png" alt="Planes y Contacto - ALLPATEK Landing Page" width="850" />
 </p>
 
 
@@ -1182,7 +1182,7 @@ A continuación, se describen los pasos de configuración ejecutados en el repos
 A continuación se presenta la captura de pantalla que confirma la ejecución exitosa del flujo de publicación de GitHub Pages dentro del panel de administración del repositorio:
 
 <p align="center">
-  <img src="assets/images/sprint01/deployment-github-pages-setup.png" alt="Configuración de GitHub Pages para la Landing Page de ALLPATEK" width="850" />
+  <img src="assets/chapter-05/configuration_github.png" alt="Configuración de GitHub Pages para la Landing Page de ALLPATEK" width="850" />
 </p>
 
 #### 3. Enlace Público del Producto Desplegado
@@ -1212,7 +1212,7 @@ A continuación, se presentan las capturas de los analíticos extraídos de la p
 * **Figura 5.2.1.8.1.** *Métricas de contribuciones por usuario en GitHub Insights, mostrando la participación activa y constante de todos los miembros del equipo durante el desarrollo del Sprint 1.*
 
 <p align="center">
-  <img src="assets/images/sprint01/github-commit-network.png" alt="Historial y Grafo de Ramas en GitHub" width="850" />
+  <img src="assets/chapter-05/historial_commit.png" alt="Historial y Grafo de Ramas en GitHub" width="850" />
 </p>
 
 * **Figura 5.2.1.8.2.** *Grafo de red y flujo de commits en GitHub, evidenciando el uso de ramas de funcionalidades por componente y la integración hacia la rama de desarrollo.*
