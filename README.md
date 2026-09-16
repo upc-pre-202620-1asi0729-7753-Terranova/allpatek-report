@@ -392,7 +392,9 @@ El Product Backlog agrupa y prioriza el conjunto de User Stories identificadas. 
 * **URL Pública del Product Backlog:** `https://trello.com/b/A0csigUo/terranova` 
 
 ### Captura de Pantalla 
-
+<div align="center">
+  <img src="assets/chapter-03/product_backlog_pag.jpg" alt="Product Backlog" width="500">
+</div>
 
 
 
