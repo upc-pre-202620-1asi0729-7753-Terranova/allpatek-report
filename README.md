@@ -33,7 +33,7 @@
 | u202215188 | Egocheaga Suyo, Miguel Angel |
 | u202116018 | Orellana Rodríguez, Mel Andree |
 | U20231h171 | Vera Solsol, Nayely Macarena |
-| u202318001 |Raymundo Villarroel, Abigail Nadhim |
+| u202318001 | Raymundo Villarroel, Abigail Nadhim |
 
 </div>
 
@@ -64,6 +64,11 @@
 | AV1 | 14/09/2026 | Alexander | Maquetación HTML5 e implementación de estilos CSS Grid para la sección Servicios de la Landing Page |
 | AV1 | 14/09/2026 | Alexander | Maquetación HTML5 e implementación de estilos CSS para la sección Hitos / Cómo Funciona |
 | AV1 | 14/09/2026 | Alexander | Modularización, refactorización de código CSS y gestión de commits en ramas de GitHub (`feature/services`, `feature/how-it-works`) |
+| AV1 | 13/09/2026 | Raymundo Villarroel, Abigail Nadhim | Elaboración de Competidores: Análisis Competitivo, SWOT y Estrategias/Tácticas frente a Agromercado, VeryAgro y Procesadora Perú |
+| AV1 | 13/09/2026 | Raymundo Villarroel, Abigail Nadhim | Diseño, Registro y Análisis de Entrevistas para los segmentos de Agricultor Familiar y Comprador Urbano |
+| AV1 | 13/09/2026 | Raymundo Villarroel, Abigail Nadhim | Elaboración de Needfinding en UXPressia: User Personas, User Task Matrix, User Journey Mapping (As-Is) y Empathy Mapping |
+| AV1 | 13/09/2026 | Raymundo Villarroel, Abigail Nadhim | Modelado del Big Picture Event Storming (Mermaid) y redacción del glosario de Ubiquitous Language |
+| AV1 | 13/09/2026 | Raymundo Villarroel, Abigail Nadhim | Maquetación HTML5 y CSS de las secciones de Contacto y Footer de la Landing Page, con gestión de commits en ramas de GitHub (`feature/contact-form`, `feature/footer`) |
 
 </div>
 
@@ -77,7 +82,7 @@
 | [Nombre Completo 2] | [Lista de tareas realizadas |
 | Mel Andree, Orellana Rodriguez | Style Guidelines, General Style Guidelines, Web Style Guidelines, Information Architecture, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Web Applications UX/UI Design, Web Applications Wireframes, Web Applications Wireflow Diagrams, Web Applications Mock-ups, Web Applications User Flow Diagrams, Web Applications Prototyping |
 | [Nombre Completo 4] | [Lista de tareas realizadas] |
-| [Nombre Completo 5] | [Lista de tareas realizadas] |
+| Raymundo Villarroel, Abigail Nadhim | Requirements Elicitation & Analysis (Chapter 2): Competitors, Competitive Analysis Landscape & SWOT, Competitive Strategies and Tactics, Interviews (Design, Record and Analysis for both segments), User Personas, User Task Matrix, User Journey Mapping (As-Is), Empathy Mapping, Big Picture Event Storming (Mermaid), Ubiquitous Language; Landing Page Contact Section and Footer Section (HTML5 & CSS) |
 
 </div>
 
