@@ -563,7 +563,7 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 *[Completar]*
 
 
-### Entrevistas al segmento de compradores urbanos
+### Entrevistas al segmento de comerciantes urbanos
 
 #### Entrevista 1: Irma Barreto Castro
 
@@ -571,12 +571,12 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 
 | Campo | Información |
 |-------|-------------|
-| Segmento | Comprador urbano |
+| Segmento | Comerciante urbano |
 | Nombres y apellidos | Irma Barreto Castro |
 | Edad | 40 años |
 | Distrito | La Molina |
 | Ocupación | Dueña y administradora de un pequeño restaurante familiar |
-| Tipo de comprador (familia / restaurante / negocio) | Restaurante |
+| Tipo de comerciante (familia / restaurante / negocio) | Restaurante |
 | Volumen de compra aproximado | 30-40kg por semana |
 | Inicio de la entrevista | 00:00 |
 | Duración | 7:27 |
@@ -594,9 +594,9 @@ Irma Barreto, dueña y administradora de un pequeño restaurante familiar, comen
 
 Mostró interés en conocer directamente al agricultor, la ubicación de la parcela y el avance de los cultivos antes de realizar una compra. También consideró atractiva la posibilidad de pagar por adelantado una temporada a un precio fijo, siempre que exista un contrato claro y garantías de cumplimiento.
 
-Para Irma, las notificaciones sobre el progreso de los cultivos y la fecha estimada de cosecha serían útiles, prefiriendo WhatsApp como principal medio de comunicación. Además, señaló que confiaría más en la plataforma si los agricultores estuvieran verificados, existieran calificaciones de otros compradores y se ofrecieran mecanismos de respaldo ante incumplimientos.
+Para Irma, las notificaciones sobre el progreso de los cultivos y la fecha estimada de cosecha serían útiles, prefiriendo WhatsApp como principal medio de comunicación. Además, señaló que confiaría más en la plataforma si los agricultores estuvieran verificados, existieran calificaciones de otros comerciantes y se ofrecieran mecanismos de respaldo ante incumplimientos.
 
-En general, la entrevista evidencia que el comprador busca reducir la incertidumbre en precio, calidad, origen y cumplimiento, además de contar con un proceso de compra directo, rápido y transparente.
+En general, la entrevista evidencia que el comerciante busca reducir la incertidumbre en precio, calidad, origen y cumplimiento, además de contar con un proceso de compra directo, rápido y transparente.
 
 #### Entrevista 2: [Nombre completo]
 
@@ -604,12 +604,12 @@ En general, la entrevista evidencia que el comprador busca reducir la incertidum
 
 | Campo | Información |
 |-------|-------------|
-| Segmento | Comprador urbano |
+| Segmento | Comerciante urbano |
 | Nombres y apellidos | |
 | Edad | |
 | Distrito | |
 | Ocupación | |
-| Tipo de comprador (familia / restaurante / negocio) | |
+| Tipo de Comerciante (familia / restaurante / negocio) | |
 | Volumen de compra aproximado | |
 | Inicio de la entrevista | 00:00 |
 | Duración | |
@@ -631,12 +631,12 @@ En general, la entrevista evidencia que el comprador busca reducir la incertidum
 
 | Campo | Información |
 |-------|-------------|
-| Segmento | Comprador urbano |
+| Segmento | Comerciante urbano |
 | Nombres y apellidos | |
 | Edad | |
 | Distrito | |
 | Ocupación | |
-| Tipo de comprador (familia / restaurante / negocio) | |
+| Tipo de comerciante (familia / restaurante / negocio) | |
 | Volumen de compra aproximado | |
 | Inicio de la entrevista | 00:00 |
 | Duración | |
@@ -658,12 +658,12 @@ En general, la entrevista evidencia que el comprador busca reducir la incertidum
 
 | Campo | Información |
 |-------|-------------|
-| Segmento | Comprador urbano |
+| Segmento | Comerciante urbano |
 | Nombres y apellidos | |
 | Edad | |
 | Distrito | |
 | Ocupación | |
-| Tipo de comprador (familia / restaurante / negocio) | |
+| Tipo de comerciante (familia / restaurante / negocio) | |
 | Volumen de compra aproximado | |
 | Inicio de la entrevista | 00:00 |
 | Duración | |
