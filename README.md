@@ -1060,23 +1060,50 @@ El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de 
 
 #### 5.2.1.3. Sprint Backlog 1
 
-| Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
-|--------|--------------|------------------|---------|------------|-------------|--------------------|-------------|--------|
-| Sprint 1 | | | | | | | | |
-| Sprint 1 | | | | | | | | |
-| Sprint 1 | | | | | | | | |
-| Sprint 1 | | | | | | | | |
-| Sprint 1 | | | | | | | | |
-| Sprint 1 | | | | | | | | |
-| Sprint 1 | | | | | | | | |
-| Sprint 1 | | | | | | | | |
-| Sprint 1 | | | | | | | | |
 
-###  Estados de las tareas
-- **To-do**: Pendiente
-- **InProcess**: En desarrollo
-- **ToReview**: En revisión
-- **Done**: Finalizado
+El **Sprint 1** tuvo como objetivo principal la maquetación, diseño responsivo, lógica de interacción y despliegue público de la **Landing Page estática e informativa de ALLPATEK**, la cual sirve como punto de contacto inicial para comunicar la propuesta de valor del modelo *Agro-as-a-Service* e incentivar la captación de productores agrícolas y compradores B2B.
+
+Para la gestión y control del flujo de trabajo, las tareas se organizaron y monitorearon interactivamente mediante la herramienta de gestión de proyectos **GitHub Projects**.
+
+#### Tablero de Control del Sprint 1 (Sprint Board)
+
+<p align="center">
+  <img src="assets/images/sprint01/sprint1-board-github.png" alt="Sprint 1 Board - ALLPATEK" width="850" />
+</p>
+
+* **Figura 5.2.1.3.1.** *Captura del tablero del Sprint 1 en la herramienta de control mostrando el estado de desarrollo de las historias de usuario y tareas técnicas.*
+
+* **URL Pública del Board del Sprint 1:** [https://github.com/orgs/upc-pre-202620-1asi0729-7753-Terranova/projects/1](https://github.com/orgs/upc-pre-202620-1asi0729-7753-Terranova/projects/1)
+
+
+#### Tabla de Control de Estado del Sprint Backlog 1
+
+A continuación, se detalla la descomposición de las Historias de Usuario de la Landing Page asignadas al Sprint 1 en sus respectivas tareas técnicas (*Work-items / Tasks*), distribuidas según las ramas de desarrollo por componente (*feature branches*) y los líderes asignados a cada sección:
+
+| Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :---: | :---: | :--- | :---: | :--- | :--- | :---: | :--- | :---: |
+| **Sprint 1** | **US24** | Consultar la propuesta de valor de ALLPATEK | **T001** | Inicialización del repositorio y estructura base | Configurar el repositorio oficial, convención de commits y estructura de carpetas HTML/CSS/JS inicial. | 3 | Mel Andree | Done |
+| **Sprint 1** | **US31** | Recorrer las áreas informativas del sitio | **T002** | Maquetación HTML del Header y Navbar | Construir la estructura semántica en HTML5 del logo, menú de navegación principal y contenedor superior (`feature/header-navbar`). | 4 | Miguel Angel | Done |
+| **Sprint 1** | **US38** | Consultar el sitio desde un dispositivo móvil | **T003** | Estilos CSS y responsive design para Header/Navbar | Aplicar la paleta de colores, tipografía y adaptabilidad móvil para el menú desplegable y navegación. | 4 | Miguel Angel | Done |
+| **Sprint 1** | **US24** | Consultar la propuesta de valor de ALLPATEK | **T004** | Maquetación HTML de la sección Hero | Construir la estructura semántica del Hero Section con propuesta de valor y botones CTA (`feature/hero`). | 4 | Miguel Angel | Done |
+| **Sprint 1** | **US24** | Consultar la propuesta de valor de ALLPATEK | **T005** | Estilos CSS y métricas clave para la sección Hero | Diseñar el estilo visual de la sección principal, fondo responsivo e insignias de métricas clave. | 4 | Miguel Angel | Done |
+| **Sprint 1** | **US32** | Conocer los servicios de producción garantizada | **T006** | Maquetación HTML de la sección Servicios | Crear la estructura de cuadrícula para las tarjetas explicativas del modelo de custodia financiera Escrow (`feature/servicios`). | 4 | Alexander Sebastián | Done |
+| **Sprint 1** | **US40** | Evaluar la protección de fondos antes de comprometer capital | **T007** | Estilos CSS para el grid de Servicios | Aplicar sombras, bordes y estilos de contraste visual para las tarjetas de servicios de la plataforma. | 4 | Alexander Sebastián | Done |
+| **Sprint 1** | **US33** | Entender el esquema de pagos por hitos | **T008** | Maquetación HTML de la sección Hitos / Cómo Funciona | Construir la secuencia del flujo de trabajo por hitos y desembolsos progresivos (`feature/hitos`). | 4 | Alexander Sebastián | Done |
+| **Sprint 1** | **US41** | Entender cómo se garantiza el cobro al productor | **T009** | Estilos CSS para la línea de tiempo de Hitos | Diseñar la línea de tiempo visual y los conectores gráficos entre los pasos del proceso Escrow. | 3 | Alexander Sebastián | Done |
+| **Sprint 1** | **US34** | Revisar experiencias de comerciantes y productores | **T010** | Maquetación HTML y estilos de Testimonios | Diseñar las tarjetas de reseñas y valoraciones de compradores B2B y productores agrícolas (`feature/testimonios`). | 4 | Nayely Macarena | Done |
+| **Sprint 1** | **US35** | Comparar planes de producción según escala | **T011** | Maquetación HTML de la sección Planes | Estructurar las tarjetas comparativas de planes de producción y suscripción agrícola (`feature/planes`). | 3 | Nayely Macarena | Done |
+| **Sprint 1** | **US35** | Comparar planes de producción según escala | **T012** | Estilos CSS y destacado del plan recomendado | Resaltar el plan principal mediante etiquetas, bordes especiales e indicadores de precio. | 3 | Nayely Macarena | Done |
+| **Sprint 1** | **US36** | Conocer al equipo detrás de la plataforma | **T013** | Maquetación HTML y estilos de la sección Equipo | Estructurar la cuadrícula de perfiles del equipo técnico (*Aspect Leaders*) con sus tarjetas y enlaces (`feature/equipo`). | 3 | Mel Andree | Done |
+| **Sprint 1** | **US25** | Solicitar una propuesta técnica desde el sitio | **T014** | Maquetación HTML del Formulario de Contacto | Construir los campos de captura para datos de contacto, empresa y requerimiento de propuesta técnica (`feature/contacto`). | 3 | Abigail Nadhim | Done |
+| **Sprint 1** | **US39** | Iniciar una cotización de parcela | **T015** | Estilos CSS y lógica JS para validación de formulario | Diseñar estados hover/focus y programar la validación visual en cliente para campos obligatorios. | 4 | Abigail Nadhim | Done |
+| **Sprint 1** | **US37** | Consultar canales, horarios y datos de atención | **T016** | Maquetación HTML y estilos CSS del Footer | Construir el pie de página en columnas con datos institucionales, enlaces secundarios y copyright (`feature/footer`). | 3 | Abigail Nadhim | Done |
+| **Sprint 1** | **US38** | Consultar el sitio desde un dispositivo móvil | **T017** | Optimización responsive y media queries globales | Ajustar estilos globales CSS para adaptar todas las secciones a pantallas móviles y tabletas. | 4 | Mel Andree | Done |
+
+
+
+
+
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
