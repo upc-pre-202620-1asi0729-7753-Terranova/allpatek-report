@@ -914,17 +914,18 @@ El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de 
 
 #### 5.2.1.1. Sprint Planning 1
 
+
 <table>
   <tr>
     <th colspan="5">Sprint #</th>
-    <th colspan="9">Sprint 1</th>
+    <th colspan="8">Sprint 1</th>
   </tr>
   <tr>
-    <td colspan="13">Sprint Planning Background</td>
+    <td colspan="13"><strong>Sprint Planning Background</strong></td>
   </tr>
   <tr>
     <td colspan="5">Date</td>
-    <td colspan="8">07-09-2026</td>
+    <td colspan="8">2026-09-14</td>
   </tr>
   <tr>
     <td colspan="5">Time</td>
@@ -932,40 +933,44 @@ El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de 
   </tr>
   <tr>
     <td colspan="5">Location</td>
-    <td colspan="8">Reunion por Meet</td>
+    <td colspan="8">Reunión virtual vía Google Meet</td>
   </tr>
   <tr>
     <td colspan="5">Prepared By</td>
-    <td colspan="8"></td>
+    <td colspan="8">Orellana Rodriguez, Mel Andree</td>
   </tr>
   <tr>
     <td colspan="5">Attendees (to planning meeting)</td>
-    <td colspan="8"> Alexander Sebastián,  Miguel Angel,  Mel Andree, Nayely Macarena, Abigail Nadhim</td>
+    <td colspan="8">Alexander Sebastián, Miguel Angel, Mel Andree, Nayely Macarena, Abigail Nadhim</td>
   </tr>
   <tr>
     <td colspan="5">Sprint n-1 Review Summary</td>
-    <td colspan="8">No aplica - Este es el primer Sprint del proyecto</td>
+    <td colspan="8">No aplica - Este es el primer Sprint del proyecto.</td>
   </tr>
   <tr>
     <td colspan="5">Sprint n-1 Retrospective Summary</td>
-    <td colspan="8">No aplica - Este es el primer Sprint del proyecto</td>
+    <td colspan="8">No aplica - Este es el primer Sprint del proyecto.</td>
   </tr>
   <tr>
-    <td colspan="13">Sprint Goal & User Stories</td>
+    <td colspan="13"><strong>Sprint Goal & User Stories</strong></td>
   </tr>
   <tr>
     <td colspan="5">Sprint 1 Goal</td>
-    <td colspan="8"><strong>""</strong></td>
+    <td colspan="8"><strong>Our focus is on</strong> presenting ALLPATEK’s guaranteed agricultural production model, fee-by-milestone structure, and service offerings through a responsive static landing page with lead capture capabilities. <strong>We believe it delivers</strong> initial market reach, brand credibility, and clear commercial orientation <strong>to</strong> prospective agricultural producers and B2B grain merchants. <strong>This will be confirmed when</strong> visitors can navigate through all service overview sections, compare commercial plans, and submit a technical proposal request in under 3 steps with zero UI validation errors.</td>
   </tr>
   <tr>
     <td colspan="5">Sprint 1 Velocity</td>
-    <td colspan="8"></td>
+    <td colspan="8">30 story points</td>
   </tr>
   <tr>
     <td colspan="5">Sum of Story Points</td>
-    <td colspan="8"> story points</td>
+    <td colspan="8">30 story points</td>
   </tr>
 </table>
+
+
+
+
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
