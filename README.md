@@ -1073,12 +1073,12 @@ Para la gestión y control del flujo de trabajo, las tareas se organizaron y mon
 #### Tablero de Control del Sprint 1 (Sprint Board)
 
 <p align="center">
-  <img src="assets/images/sprint01/sprint1-board-github.png" alt="Sprint 1 Board - ALLPATEK" width="850" />
+  <img src="assets/chapter-05/trello-sprint-01.png" alt="Sprint 1 Board - ALLPATEK" width="850" />
 </p>
 
-* **Figura 5.2.1.3.1.** *Captura del tablero del Sprint 1 en la herramienta de control mostrando el estado de desarrollo de las historias de usuario y tareas técnicas.*
+* **Figura 5.2.1.3.1.** *Captura del tablero del Sprint 1 en la herramienta de control mostrando el estado de desarrollo.*
 
-* **URL Pública del Board del Sprint 1:** [https://github.com/orgs/upc-pre-202620-1asi0729-7753-Terranova/projects/1](https://github.com/orgs/upc-pre-202620-1asi0729-7753-Terranova/projects/1)
+* **URL Pública del Board del Sprint 1:** [Enlace de Trello Sprint 1](https://trello.com/invite/b/6aa216c035a4a46c6bd2f3f0/ATTI885bbe2f06b7915f27146102eb51b6dfDBBD1DE6/terranova)
 
 
 #### Tabla de Control de Estado del Sprint Backlog 1
@@ -1238,7 +1238,7 @@ Para asegurar la trazabilidad del código fuente y el control de cambios, se apl
 A continuación, se presentan las capturas de los analíticos extraídos de la pestaña *Insights / Contributors* y *Commits* del repositorio oficial, los cuales evidencian la distribución del trabajo, la frecuencia de commits y las adiciones de código realizadas por cada estudiante:
 
 <p align="center">
-  <img src="assets/images/sprint01/github-contributors-insights.png" alt="Analíticos de Colaboración e Insights de GitHub - Sprint 1" width="850" />
+  <img src="assets/chapter-05/insight-spint-01.png" alt="Analíticos de Colaboración e Insights de GitHub - Sprint 1" width="850" />
 </p>
 
 * **Figura 5.2.1.8.1.** *Métricas de contribuciones por usuario en GitHub Insights, mostrando la participación activa y constante de todos los miembros del equipo durante el desarrollo del Sprint 1.*
