@@ -989,8 +989,8 @@ A continuación, se presentan los enlaces y capturas de los videos explicativos 
   <img src="./assets/chapter-04/prototipo_desktop.png" alt="Descripción de la imagen" width="700">
 </p>
 
-* * **Link del Prototipo:** [Link del Prototipo Web](https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=85-504&t=DTHiWfYH71axACfB-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=123%3A494&show-proto-sidebar=1)
-* **Enlace al Video:** [Ver Demostración Desktop Web en Microsoft Stream](https://stream.microsoft.com/enlace-al-video-desktop)
+* **Link del Prototipo:** [Link del Prototipo Web](https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=85-504&t=DTHiWfYH71axACfB-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=123%3A494&show-proto-sidebar=1)
+* **Enlace al Video:** [Ver Demostración](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQDF54TKL6PlS58DK7p4wuJAAQiikz0rs6edE33i_ATjpPk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7pTDmu)
 
 ##### 2. Prototipo Mobile Web Browser – Adaptabilidad y Monitoreo en Campo
 * **Descripción del Video:** Demostración de la respuesta adaptativa en navegadores móviles, enfocada en la facilidad de uso para agricultores en campo: consulta de alertas climáticas en tiempo real, navegación táctil y carga directa de fotografías.
@@ -1000,8 +1000,8 @@ A continuación, se presentan los enlaces y capturas de los videos explicativos 
   <img src="./assets/chapter-04/prototipo_movil.png" alt="Descripción de la imagen" width="700">
 </p>
 
-* * * **Link del Prototipo:** [Link del Prototipo Movil](https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=257-10099&t=g4J1J50GPL689wBS-1&scaling=scale-down&content-scaling=fixed&page-id=236%3A5996)
-* **Enlace al Video:** [Ver Demostración Mobile Web en Microsoft Stream](https://stream.microsoft.com/enlace-al-video-mobile)
+* **Link del Prototipo:** [Link del Prototipo Movil](https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=257-10099&t=g4J1J50GPL689wBS-1&scaling=scale-down&content-scaling=fixed&page-id=236%3A5996)
+* **Enlace al Video:** [Ver Demostración](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQAF9cog3awORKq4HYfc7F9uAa-vd6s6V_oT3BiDwhjeADQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y3j1dP)
 
 
 ## 4.6. Domain-Driven Software Architecture
