@@ -234,7 +234,7 @@ El proceso de colaboración en el informe se realizó mediante commits constante
             <li><b>AV1 - Mel Andree Orellana Rodriguez:</b> Presentación oral del avance del Capítulo 4 enfocado en el diseño de interfaces UI/UX para la plataforma "ALLPATEK", adaptando el vocabulario técnico para audiencias con perfil agrícola (agricultores) y comercial (comerciantes B2B) durante la demostración de los prototipos interactivos.</li>
             <li><b>AV1 - Atauje Barreto, Alexander Sebastián:</b> Exposición oral del Capítulo 1 (Introducción), sustentando la propuesta de valor de ALLPATEK, el problema del sector agrícola y los supuestos del Lean UX Canvas ante el equipo de evaluación, adaptando la explicación del modelo de negocio B2B para perfiles técnicos y académicos.</li>
             <li><b>AV1 - Egocheaga Suyo, Miguel Angel:</b> contenido </li>
-            <li><b>AV1 - Raymundo Villarroel, Abigail Nadhim:</b> contenido </li>
+            <li><b>AV1 - Raymundo Villarroel, Abigail Nadhim:</b> Exposición oral del avance del Capítulo II (Requirements Elicitation & Analysis), presentando el análisis competitivo frente a Agromercado, VeryAgro y Procesadora Perú, los hallazgos del proceso de needfinding (User Personas, User Journey Maps y Empathy Maps) y el modelado del Big Picture Event Storming, adaptando la explicación del dominio agrícola y del modelo Agro-as-a-Service para una audiencia evaluadora sin conocimiento previo del sector.</li>
             <li><b>AV1 - Vera Solsol, Nayely Macarena:</b> contenido </li>
           </ul>
         </td>
@@ -250,7 +250,7 @@ Se demostró capacidad para exponer y sustentar de manera clara las soluciones t
             <li><b>AV1 - Mel Andree Orellana Rodriguez:</b> Redacté y estructuré los entregables escritos correspondientes al diseño de interfaces UI/UX de la plataforma ALLPATEK, adaptando el lenguaje técnico para la documentación del sistema y elaborando explicaciones claras para los flujos de trabajo de agricultores y comerciantes. Además, documenté los avances del proyecto manteniendo un estándar accesible para la revisión del equipo y supervisores.</li>
             <li><b>AV1 - Atauje Barreto, Alexander Sebastián:</b> Redacción y estructuración académica del Capítulo I bajo estándares APA 7, abarcando el perfil de la startup, la problemática del sector agrícola, el Lean UX Process y la caracterización de los segmentos objetivo. Asimismo, maqueté las secciones de Servicios e Hitos en la Landing Page garantizando claridad textual y coherencia visual para usuarios finales y revisores.</li>
             <li><b>AV1 - Egocheaga Suyo, Miguel Angel:</b> contenido </li>
-            <li><b>AV1 - Raymundo Villarroel, Abigail Nadhim:</b> contenido </li>
+            <li><b>AV1 - Raymundo Villarroel, Abigail Nadhim:</b> Redacción del Capítulo II (Requirements Elicitation & Analysis) del informe, incluyendo el análisis competitivo y SWOT, el diseño y análisis de entrevistas para los segmentos de Agricultor Familiar y Comprador Urbano, la construcción de los User Personas, User Task Matrix, User Journey Maps y Empathy Maps, el modelado del Big Picture Event Storming y la elaboración del glosario de Ubiquitous Language, estructurando el contenido de forma clara y trazable para su revisión por el equipo docente y evaluador.</li>
             <li><b>AV1 - Vera Solsol, Nayely Macarena:</b> contenido </li>
           </ul>
         </td>
