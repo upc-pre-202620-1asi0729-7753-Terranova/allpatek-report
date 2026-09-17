@@ -17,8 +17,11 @@ class User {
  -role: UserRole
  -phone: String
  -locale: String
+ -identityDocument: String
+ -verificationStatus: VerificationStatus
  --
 +updateProfile(fullName: String, phone: String): void
++startVerification(): void
 }
 class Review {
  -id: Long
@@ -33,9 +36,15 @@ class Review {
 }
 enum UserRole {
 FARMER
-BUYER
+MERCHANT
+}
+enum VerificationStatus {
+PENDING
+VERIFIED
+REJECTED
 }
 User ..> UserRole : uses
+User ..> VerificationStatus : uses
 interface UserRepository {
  +findById(id: Long): Optional<User>
  +save(entity: User): User

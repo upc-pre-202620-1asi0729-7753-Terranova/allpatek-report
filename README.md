@@ -436,7 +436,7 @@ Los diagramas siguientes corresponden al modelo de negocio de la API Java. Se in
 
 #### Users and Profiles
 
-User representa a una persona registrada y su rol. Review guarda la calificación que una parte deja a la otra al terminar un contrato. Esto recoge la reputación bidireccional propuesta en el capítulo I.
+User representa a una persona registrada, su rol y el estado de verificación de su identidad. Review guarda la calificación que una parte deja a la otra al terminar un contrato. Esto recoge la reputación bidireccional propuesta en el capítulo I y la validación solicitada en US01 del capítulo III.
 
 ![Figura 4.7.1. Clases de Users and Profiles](assets/chapter-04/architecture/08-classes-users.png)
 
@@ -468,7 +468,7 @@ Payment registra una operación y su resultado. SubscriptionPlan y Subscription 
 
 #### Crop Monitoring
 
-ProgressUpdate registra el trabajo y sus evidencias. WeatherAlert conserva una alerta con fuente y fecha. Se agrupan aquí para que el usuario consulte tanto el avance del cultivo como la información climática de su parcela.
+ProgressUpdate registra el trabajo, sus evidencias, fecha de captura y ubicación. WeatherAlert conserva una alerta con fuente y fecha. Se agrupan aquí para que el usuario consulte tanto el avance del cultivo como la información climática de su parcela. La ubicación de la evidencia responde a US04 del capítulo III.
 
 ![Figura 4.7.5. Clases de Crop Monitoring](assets/chapter-04/architecture/12-classes-monitoring.png)
 
@@ -488,7 +488,7 @@ Los diagramas presentan las tablas de cada área con columnas, tipos y relacione
 
 #### Users and Profiles
 
-User representa a una persona registrada y su rol. Review guarda la calificación que una parte deja a la otra al terminar un contrato. Esto recoge la reputación bidireccional propuesta en el capítulo I.
+User representa a una persona registrada, su rol y el estado de verificación de su identidad. Review guarda la calificación que una parte deja a la otra al terminar un contrato. Esto recoge la reputación bidireccional propuesta en el capítulo I y la validación solicitada en US01 del capítulo III.
 
 ![Figura 4.8.1. Tablas de Users and Profiles](assets/chapter-04/architecture/13-database-users.png)
 
@@ -520,7 +520,7 @@ Payment registra una operación y su resultado. SubscriptionPlan y Subscription 
 
 #### Crop Monitoring
 
-ProgressUpdate registra el trabajo y sus evidencias. WeatherAlert conserva una alerta con fuente y fecha. Se agrupan aquí para que el usuario consulte tanto el avance del cultivo como la información climática de su parcela.
+ProgressUpdate registra el trabajo, sus evidencias, fecha de captura y ubicación. WeatherAlert conserva una alerta con fuente y fecha. Se agrupan aquí para que el usuario consulte tanto el avance del cultivo como la información climática de su parcela. La ubicación de la evidencia responde a US04 del capítulo III.
 
 ![Figura 4.8.5. Tablas de Crop Monitoring](assets/chapter-04/architecture/17-database-monitoring.png)
 
@@ -531,6 +531,7 @@ ProgressUpdate registra el trabajo y sus evidencias. WeatherAlert conserva una a
 | Relación o dato | Regla que se aplicará |
 |---|---|
 | Usuario y parcelas | Un agricultor puede registrar varias parcelas. Solo su propietario puede modificarlas. |
+| Identidad | Todo usuario conserva el estado de su verificación. El proceso que la aprueba o rechaza se definirá con el equipo antes de implementar el servicio. |
 | Propuesta y reserva | Una propuesta tiene un plazo y puede ser aceptada, rechazada o recibir una contraoferta. Al acordar las condiciones, una reserva temporal evita que otra contratación use la misma parcela antes de confirmar el pago. |
 | Parcela y contratos | Una parcela conserva varios contratos históricos; sus temporadas activas no se superponen. |
 | Contrato e hitos | Un contrato proviene de una propuesta aceptada y puede referenciar su reserva. Tiene varios hitos ordenados cuya suma debe coincidir con el importe pactado. |
@@ -539,6 +540,7 @@ ProgressUpdate registra el trabajo y sus evidencias. WeatherAlert conserva una a
 | Confirmación de pagos | Una referencia de proveedor no se registra dos veces. Un hito no se desembolsa dos veces ni por encima del importe acordado. Las liberaciones acumuladas no superan los fondos confirmados de la temporada. |
 | Plan y suscripción | Un plan puede tener varias suscripciones. Sus precios y límites son configurables, no datos fijos en el código. |
 | Avance e hito | Un avance pertenece a un contrato y puede asociarse a uno de sus hitos. La API verifica que ambos correspondan al mismo acuerdo. |
+| Evidencia y ubicación | Una evidencia puede conservar fecha y coordenadas. Su ubicación se registra para validación; la regla exacta de aceptación se definirá antes de implementarla. |
 | Avances sin conexión | client_reference identifica el borrador enviado para evitar crear dos registros cuando se reintenta la misma carga. |
 | Calificación | Se permite una calificación por autor y contrato, dirigida a la otra parte y con puntuación de 1 a 5, al finalizar la temporada. |
 | Fotografías | Una parcela puede tener varias fotos y una sola principal. El formulario actual exige al menos tres para publicar. |
@@ -551,9 +553,10 @@ Los roles y estados se validarán contra sus valores permitidos. Las áreas e im
 | Función documentada | Procedencia | Diseño relacionado |
 |---|---|---|
 | Catálogo y publicación de parcelas | Capítulos I y IV | Plot, PlotPhoto y Land Management. |
+| Registro y verificación de identidad | Capítulo III | User y VerificationStatus. |
 | Propuesta, contraoferta y reserva | Capítulos II y III | Proposal, Reservation y disponibilidad de Plot. |
 | Contratación y documento automático | Capítulos I, III y IV | Contract, Payments y flujo n8n. |
-| Seguimiento y pagos por hitos | Capítulo IV | Milestone, ProgressUpdate y Payment. |
+| Seguimiento, evidencias y pagos por hitos | Capítulos III y IV | Milestone, ProgressUpdate y Payment. |
 | Calificaciones entre participantes | Capítulo I | Review en Users and Profiles. |
 | Planes mensuales | Capítulo IV | SubscriptionPlan y Subscription, pendientes de confirmación comercial. |
 | Avisos por correo y WhatsApp | Capítulo I | Flujos n8n y servicios de mensajería. |

@@ -18,6 +18,8 @@ entity "users" as users {
  {field} * role: VARCHAR(20)
  {field} phone: VARCHAR(30)
  {field} * locale: VARCHAR(10)
+ {field} * identity_document: VARCHAR(30) <<UQ>>
+ {field} * verification_status: VARCHAR(20)
 }
 entity "reviews" as reviews {
  {field} * id: BIGINT <<PK>>

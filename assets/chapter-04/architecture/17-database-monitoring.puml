@@ -18,6 +18,10 @@ entity "progress_updates" as progress_updates {
  {field} * client_reference: VARCHAR(100) <<UQ>>
  {field} * description: TEXT
  {field} evidence_key: TEXT
+ {field} evidence_latitude: DECIMAL(9,6)
+ {field} evidence_longitude: DECIMAL(9,6)
+ {field} evidence_captured_at: TIMESTAMP
+ {field} location_status: VARCHAR(20)
  {field} * recorded_at: TIMESTAMP
  {field} notification_sent_at: TIMESTAMP
 }

@@ -17,11 +17,16 @@ class ProgressUpdate {
  -clientReference: String
  -description: String
  -evidenceKey: String
+ -evidenceLatitude: BigDecimal
+ -evidenceLongitude: BigDecimal
+ -evidenceCapturedAt: Instant
+ -locationStatus: EvidenceLocationStatus
  -recordedAt: Instant
  -notificationSentAt: Instant
  --
 +record(): void
 +attachEvidence(key: String): void
++recordEvidenceLocation(latitude: BigDecimal, longitude: BigDecimal): void
 }
 class WeatherAlert {
  -id: Long
@@ -34,6 +39,12 @@ class WeatherAlert {
  --
 +createFromWeatherData(): void
 }
+enum EvidenceLocationStatus {
+PENDING
+VERIFIED
+REJECTED
+}
+ProgressUpdate ..> EvidenceLocationStatus : uses
 interface ProgressUpdateRepository {
  +findById(id: Long): Optional<ProgressUpdate>
  +save(entity: ProgressUpdate): ProgressUpdate
