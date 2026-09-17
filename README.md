@@ -71,9 +71,10 @@
 | AV1 | 13/09/2026 | Raymundo Villarroel, Abigail Nadhim | Maquetación HTML5 y CSS de las secciones de Contacto y Footer de la Landing Page, con gestión de commits en ramas de GitHub (`feature/contact-form`, `feature/footer`) |
 | AV1 | 10/09/2026 | Egocheaga Suyo, Miguel Angel | Diseño de la arquitectura guiada por dominio, EventStorming de diseño y diagramas C4 de contexto, contenedores y componentes. |
 | AV1 | 10/09/2026 | Egocheaga Suyo, Miguel Angel | Diseño orientado a objetos, diagramas de clases, diseño de base de datos y diagramas de base de datos. |
-| AV1 | 11/09/2026 | Egocheaga Suyo, Miguel Angel | Implementación y ajustes responsivos de Header/Navbar y Hero de la Landing Page, con HTML5, CSS3 y JavaScript. | AV1 | 13/09/2026 | Vera Solsol, Nayely Macarena | Actualizar el Product Backlog |
+| AV1 | 11/09/2026 | Egocheaga Suyo, Miguel Angel | Implementación y ajustes responsivos de Header/Navbar y Hero de la Landing Page, con HTML5, CSS3 y JavaScript. 
 | AV1 | 14/09/2026 | Vera Solsol, Nayely Macarena | Elaboración del Impact Mapping |
 | AV1 | 14/09/2026 | Vera Solsol, Nayely Macarena | Diseñar y actualizar los User Stories |
+| AV1 | 13/09/2026 | Vera Solsol, Nayely Macarena | Elaboracion del Product Backlog | 
 
 </div>
 
