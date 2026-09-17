@@ -1261,7 +1261,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
 | Integrante del Equipo | Usuario en GitHub | Rol / Producto Asignado | Tareas y Secciones Implementadas |
 | :--- | :--- | :--- | :--- |
 | **Atauje Barreto, Alexander Sebastián** | Alexander1Alexander2 | Developer / Aspect Leader | Maquetación y desarrollo del Header/Navbar, Hero Section y Testimonios. Configuración inicial de la estructura HTML/CSS. |
-| **Egocheaga Suyo, Miguel Angel** | MiguelAngel0107 | Developer / Aspect Leader | Desarrollo de la sección de Servicios (Custodia Escrow) y el flujo descriptivo de Funcionamiento (How It Works). |
+| **Egocheaga Suyo, Miguel Angel** | MiguelAngel0107 | Developer / Aspect Leader | Desarrollo de la arquitectura del Capítulo IV y de las secciones Header/Navbar y Hero de la Landing Page, incluyendo estilos responsivos y comportamiento de navegación móvil. |
 | **Orellana Rodríguez, Mel Andree** | melandree8 | Repository Admin / Aspect Leader | Configuración del repositorio, implementación de la sección de Equipo (Team), Planes de Producción y gestión de despliegue en GitHub Pages. |
 | **Raymundo Villarroel, Abigail Nadhim** | AbigailRV | Developer / Aspect Leader | Maquetación y desarrollo del Formulario de Contacto/Cotización técnica y la sección del Footer. |
 | **Vera Solsol, Nayely Macarena** | Macaxprogram29 | Developer / Aspect Leader | Desarrollo de la sección de Testimonios y soporte en la adaptabilidad responsive de la barra de navegación. |
