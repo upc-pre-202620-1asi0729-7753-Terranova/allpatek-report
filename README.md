@@ -50,7 +50,9 @@
 
 | Versión |    Fecha    |                Autor                |                                                                                                Descripción de modificación                                                                                                |
 |:-------:|:----------:|:-----------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| [Versión] | [DD-MM-AAAA] | [Apellidos, Nombres] | [Descripción del cambio o aporte] |
+| AV1 | 10/09/2026 | Egocheaga Suyo, Miguel Angel | Diseño de la arquitectura guiada por dominio, EventStorming de diseño y diagramas C4 de contexto, contenedores y componentes. |
+| AV1 | 10/09/2026 | Egocheaga Suyo, Miguel Angel | Diseño orientado a objetos, diagramas de clases, diseño de base de datos y diagramas de base de datos. |
+| AV1 | 11/09/2026 | Egocheaga Suyo, Miguel Angel | Implementación y ajustes responsivos de Header/Navbar y Hero de la Landing Page, con HTML5, CSS3 y JavaScript. |
 
 </div>
 
@@ -60,11 +62,7 @@
 
 | Integrante | Tareas Asignadas |
 |---|---|
-| [Nombre Completo 1] | [Lista de tareas realizadas] |
-| [Nombre Completo 2] | [Lista de tareas realizadas] |
-| [Nombre Completo 3] | [Lista de tareas realizadas] |
-| [Nombre Completo 4] | [Lista de tareas realizadas] |
-| [Nombre Completo 5] | [Lista de tareas realizadas] |
+| Egocheaga Suyo, Miguel Angel | Domain-Driven Software Architecture (Chapter 4.6), Design-Level EventStorming, Software Architecture Context, Container and Component Diagrams, Software Object-Oriented Design, Class Diagrams, Database Design and Database Diagrams; Landing Page Header/Navbar and Hero Section implementation, responsive styles and navigation behavior (HTML5, CSS3 and JavaScript). |
 
 </div>
 
