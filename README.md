@@ -193,7 +193,7 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 
 
-# Student Outcome
+# Student Outcome 3
 
 <div align="center">
   <table style="width:100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 14px;">
@@ -207,28 +207,28 @@ El proceso de colaboración en el informe se realizó mediante commits constante
     <tbody>
       <tr>
         <td style="border: 1px solid #dddddd; padding: 10px; font-weight: bold; vertical-align: top;">
-          Trabaja en equipo para proporcionar liderazgo en forma conjunta.
+          Comunica oralmente con efectividad a diferentes rangos de audiencia.
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
           <ul>
-            <li><b>[Entrega] - [Nombre del Integrante]:</b> [Descripción de la acción realizada]</li>
+            <li><b>AV1 - Miguel Angel Egocheaga Suyo:</b> Exposición oral de las secciones 4.6 a 4.8.1 del Capítulo IV, explicando el flujo de contratación, los pagos por hitos, la arquitectura de Allpatek y el diseño de datos mediante ejemplos comprensibles para evaluadores y perfiles no técnicos.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
-          [Conclusión sobre el criterio]
+          Miguel demostró capacidad para explicar sus decisiones de arquitectura y diseño de datos con un lenguaje adecuado para evaluadores y perfiles no técnicos.
         </td>
       </tr>
       <tr>
         <td style="border: 1px solid #dddddd; padding: 10px; font-weight: bold; vertical-align: top;">
-          Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.
+          Comunica por escrito con efectividad a diferentes rangos de audiencia.
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
           <ul>
-            <li><b>[Entrega] - [Nombre del Integrante]:</b> [Descripción de la acción realizada]</li>
+            <li><b>AV1 - Miguel Angel Egocheaga Suyo:</b> Redacción y diagramación de las secciones 4.6 a 4.8.1 del Capítulo IV: arquitectura guiada por dominio, EventStorming de diseño, diagramas C4, diseño orientado a objetos, clases y diseño de base de datos. Además, implementé Header/Navbar y Hero de la Landing Page con HTML5, CSS3 y JavaScript, incluyendo ajustes de navegación y adaptación a móviles.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
-          [Conclusión sobre el criterio]
+          Miguel documentó sus decisiones técnicas de forma ordenada y comprensible, relacionándolas con las necesidades del negocio y dejando evidencia de su participación.
         </td>
       </tr>
     </tbody>
