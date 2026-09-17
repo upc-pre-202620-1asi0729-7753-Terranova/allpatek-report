@@ -11,7 +11,7 @@ skinparam dpi 140
 title Allpatek | C4 - Web application components
 
 LAYOUT_TOP_DOWN()
-Person(user,"Farmer / Buyer","Access according to account role")
+Person(user,"Farmer / Merchant","Access according to account role")
 Container_Boundary(web,"Angular web application") {
  Component(nav,"Navigation and session","Angular Router","Chooses routes and keeps the signed-in session")
  Component(views,"Feature screens","Angular / Material","Users, plots, contracts, payments and monitoring")

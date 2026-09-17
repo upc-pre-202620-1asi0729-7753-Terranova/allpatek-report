@@ -15,7 +15,7 @@ Person(visitor,"Visitor","Wants to understand the service")
 Container_Boundary(landing,"Landing page") {
  Component(sections,"Information sections","HTML","Service, process, plans and contact")
  Component(style,"Presentation and language","CSS / JavaScript","Responsive layout, English and Spanish")
- Component(links,"Calls to action","HTML links","Farmer registration and buyer catalog")
+ Component(links,"Calls to action","HTML links","Farmer registration and merchant catalog")
 }
 Container(web,"Web application","Angular","Registration and catalog")
 Rel(visitor,sections,"Reads", "Browser")

@@ -11,7 +11,7 @@ skinparam dpi 140
 title Allpatek | C4 - Containers
 
 LAYOUT_TOP_DOWN()
-Person(user,"Farmer / Buyer","Uses the platform")
+Person(user,"Farmer / Merchant","Uses the platform")
 System_Boundary(allpatek,"Allpatek") {
  Container(landing,"Landing page","HTML, CSS, JavaScript","Presents the service and routes visitors to the application")
  Container(web,"Web application","Angular / Angular Material","Plot catalog, contracts, payments and progress screens")

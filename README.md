@@ -312,59 +312,60 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 ## 4.6. Domain-Driven Software Architecture
 
-Allpatek permite que un comprador contrate una parcela y el trabajo de un agricultor durante una temporada. La arquitectura organiza las funciones necesarias para publicar parcelas, establecer contratos, registrar pagos y consultar el avance del cultivo.
+Allpatek permite que un comerciante contrate una parcela y el trabajo de un agricultor durante una temporada. La arquitectura organiza las funciones necesarias para publicar parcelas, establecer contratos, registrar pagos y consultar el avance del cultivo.
 
 Se utiliza **Domain-Driven Design (DDD)** para agrupar el sistema según sus responsabilidades de negocio. Cada grupo se denomina **bounded context**: un área con datos y reglas propios. Para este proyecto se proponen cinco áreas:
 
 | Bounded context | Responsabilidad | Ejemplo en Allpatek |
 |---|---|---|
-| Users and Profiles | Usuarios, perfiles y calificaciones. | El comprador consulta la experiencia previa de un agricultor. |
+| Users and Profiles | Usuarios, perfiles y calificaciones. | El comerciante consulta la experiencia previa de un agricultor. |
 | Land Management | Parcelas, fotografías y disponibilidad. | El agricultor publica una parcela para una temporada. |
 | Season Contracting | Contratos, aceptación de condiciones e hitos. | Ambas partes acuerdan fechas, costos y etapas del trabajo. |
 | Payments and Plans | Pagos y planes de suscripción propuestos. | Se consulta un abono o el pago correspondiente a un hito. |
-| Crop Monitoring | Avances, evidencias y alertas climáticas. | El agricultor registra la siembra y el comprador recibe una actualización. |
+| Crop Monitoring | Avances, evidencias y alertas climáticas. | El agricultor registra la siembra y el comerciante recibe una actualización. |
 
 Estos módulos se implementarán dentro de una misma API Spring Boot. Se comunicarán mediante sus servicios, manteniendo la responsabilidad de cada uno. Por ejemplo, Contratos consulta la disponibilidad de Parcelas y el estado de Pagos para determinar si puede activar un acuerdo. n8n se utiliza como herramienta de automatización para documentos y mensajes.
 
-**Base de la propuesta.** Se utiliza el nombre Allpatek empleado en los capítulos I, II y IV; la portada aún debe unificarse con ese nombre. Se consideran los roles agricultor y comprador, sin excluir a familias ni negocios. Los planes de suscripción proceden del capítulo IV y las calificaciones, WhatsApp y el uso con conectividad limitada proceden del capítulo I. Son funciones propuestas, no capacidades ya implementadas.
+**Base de la propuesta.** Se utiliza el nombre Allpatek empleado en los capítulos I, II y IV. Se consideran los roles agricultor y comerciante, sin excluir a familias ni negocios. Los planes de suscripción proceden del capítulo IV y las calificaciones, WhatsApp y el uso con conectividad limitada proceden del capítulo I. Son funciones propuestas, no capacidades ya implementadas.
 
-Los términos de cada contrato deben aclarar qué producción recibirá el comprador y qué ocurre ante una pérdida de cosecha. La arquitectura permite registrar estas condiciones, pero no presupone una cantidad garantizada ni la eliminación del riesgo agrícola. Tampoco se consideran definitivos los precios de los planes, el número de hitos o el proveedor de pagos.
+Los términos de cada contrato deben aclarar qué producción recibirá el comerciante y qué ocurre ante una pérdida de cosecha. La arquitectura permite registrar estas condiciones, pero no presupone una cantidad garantizada ni la eliminación del riesgo agrícola. Tampoco se consideran definitivos los precios de los planes, el número de hitos o el proveedor de pagos.
 
 ### 4.6.1. Design-Level Event Storming
 
-El **Design-Level EventStorming** permite recorrer lo que sucede en el negocio y relacionarlo con las funciones del sistema. Se identifican las acciones, sus resultados y las reglas necesarias. Esta propuesta deberá vincularse con el proceso general del capítulo II cuando el equipo lo complete.
+El **Design-Level EventStorming** permite recorrer lo que sucede en el negocio y relacionarlo con las funciones del sistema. Se identifican las acciones, sus resultados y las reglas necesarias. Esta propuesta detalla el Big Picture Event Storming del capítulo II y se relaciona con US02, US07, US21, US08, US09, US04 y US03 del capítulo III.
 
 | Elemento | Qué significa | Ejemplo |
 |---|---|---|
-| Actor | Persona o servicio que participa. | Agricultor, comprador o servicio de pagos. |
+| Actor | Persona o servicio que participa. | Agricultor, comerciante o servicio de pagos. |
 | Command | Acción que se solicita. | PublishPlot: publicar una parcela. |
 | Event | Hecho que ya ocurrió. | PaymentConfirmed: pago confirmado. |
 | Aggregate | Objeto principal que controla un grupo de datos y reglas. | Contract controla las condiciones y los hitos del acuerdo. |
 | Policy | Regla que indica cuándo debe ocurrir otra acción. | Después de confirmar el pago y las aceptaciones, activar el contrato. |
 | Query / Read model | Información que se consulta sin modificarla. | Parcelas disponibles o estado de un contrato. |
 
-El flujo principal propuesto es: el agricultor publica una parcela; el comprador solicita la contratación; ambas partes aceptan las condiciones; se verifica el pago; se activa el contrato y se envía el PDF. Durante la temporada, el agricultor registra avances y el comprador revisa los hitos acordados.
+El flujo principal es: el agricultor publica una parcela; el comerciante consulta el catálogo y envía una propuesta; el agricultor la acepta o presenta una contraoferta; se realiza una reserva temporal; ambas partes aceptan las mismas condiciones; se verifica el pago; se activa el contrato y se envía el PDF. Durante la temporada, el agricultor registra avances y el comerciante revisa los hitos acordados.
 
 ![Figura 4.6.1. Propuesta de EventStorming para el flujo principal](assets/chapter-04/architecture/01-eventstorming.png)
 
 *Figura 4.6.1. Propuesta de EventStorming para el flujo principal.* [Diagrama editable](assets/chapter-04/architecture/01-eventstorming.puml).
 
-Los agregados principales son User, Plot, Contract, Payment y ProgressUpdate. Las consultas iniciales son SearchPlots, GetContract, GetPayments y GetProgress. Los contratos relacionan el catálogo con pagos y seguimiento, manteniendo el acuerdo como referencia común.
+Los agregados principales son User, Plot, Proposal, Reservation, Contract, Payment y ProgressUpdate. Las consultas iniciales son SearchPlots, GetProposal, GetReservation, GetContract, GetPayments y GetProgress. Los contratos relacionan el catálogo con pagos y seguimiento, manteniendo el acuerdo como referencia común.
 
 Las reglas principales son:
 
+- Una propuesta puede recibir una contraoferta y vence si el comerciante no responde dentro del plazo acordado. Una reserva temporal evita que una misma parcela se ofrezca a dos comerciantes mientras se confirma el pago.
 - Una parcela no puede asignarse a dos contratos activos con fechas superpuestas. La API revisa la disponibilidad también al confirmar la contratación.
 - El contrato se activa cuando ambas partes aceptaron las mismas condiciones y se verificó el pago correspondiente. Si se cambian las condiciones antes de la activación, deben aceptarse nuevamente.
-- El agricultor registra evidencias; el comprador revisa los criterios del hito. Un rechazo debe incluir una observación que permita corregirlo.
+- El agricultor registra evidencias con fecha y ubicación; el comerciante revisa los criterios del hito. Un rechazo debe incluir una observación que permita corregirlo.
 - La aprobación de un hito y la confirmación de su desembolso son hechos diferentes. El estado del pago se actualiza según el resultado del proveedor.
 - Los criterios de pago por labor deben distinguir el trabajo realizado del rendimiento de la cosecha, de acuerdo con el modelo del capítulo I.
 - Una falla de correo no anula un contrato ni debe duplicar un pago.
 
-**Validación colaborativa pendiente:** este diagrama es la propuesta para la sesión del equipo. En ella se revisará el recorrido, se ajustarán los límites de cada área y se resolverán las preguntas abiertas. Después se incorporarán fecha, participantes, enlace y capturas reales del tablero. No se afirma que esa reunión ya haya ocurrido. Los identificadores definitivos de historias y la relación con el Big Picture EventStorming se añadirán cuando esos artefactos estén disponibles.
+**Validación colaborativa pendiente:** el recorrido ya se relaciona con el Big Picture Event Storming y las historias disponibles. Aún falta realizar y evidenciar la sesión de diseño del equipo con su fecha, participantes, enlace y capturas reales del tablero. En ella se revisarán los límites de cada área y las preguntas abiertas.
 
 ### 4.6.2. Software Architecture Context Diagram
 
-El diagrama de contexto muestra Allpatek como un sistema completo: quién lo utiliza y con qué servicios externos se comunica. El agricultor publica parcelas y reporta labores. El comprador consulta ofertas, contrata una temporada y revisa los avances. Los servicios externos permiten verificar pagos, obtener información meteorológica y enviar mensajes.
+El diagrama de contexto muestra Allpatek como un sistema completo: quién lo utiliza y con qué servicios externos se comunica. El agricultor publica parcelas y reporta labores. El comerciante consulta ofertas, contrata una temporada y revisa los avances. Los servicios externos permiten verificar pagos, obtener información meteorológica y enviar mensajes.
 
 ![Figura 4.6.2. Diagrama de contexto de Allpatek](assets/chapter-04/architecture/02-context.png)
 
@@ -383,7 +384,7 @@ El diagrama de contenedores muestra las aplicaciones y almacenes que forman la s
 | Elemento | Función | Tecnología propuesta |
 |---|---|---|
 | Landing page | Presentar el negocio y dirigir al registro o catálogo. | HTML5, CSS3 y JavaScript. |
-| Web application | Mostrar las pantallas que utilizan agricultores y compradores. | Angular, TypeScript y Angular Material. |
+| Web application | Mostrar las pantallas que utilizan agricultores y comerciantes. | Angular, TypeScript y Angular Material. |
 | REST API | Procesar solicitudes, validar reglas y administrar información. | Java, Spring Boot y Spring Data JPA; documentación OpenAPI/Swagger. |
 | Base de datos | Guardar usuarios, parcelas, contratos, pagos y avances. | PostgreSQL, como propuesta a confirmar con el equipo. |
 | Almacenamiento de archivos | Conservar fotos, evidencias y documentos PDF. | Servicio privado de almacenamiento por seleccionar. |
@@ -431,7 +432,7 @@ Se proponen clases agrupadas en los mismos cinco módulos de la arquitectura. Lo
 
 ### 4.7.1. Class Diagrams
 
-Los diagramas siguientes corresponden al modelo de negocio de la API Java. Se incluye una interfaz Repository representativa por módulo para mostrar cómo se separa la consulta de datos de las clases del negocio. Las referencias entre módulos utilizan identificadores, como buyerId o contractId.
+Los diagramas siguientes corresponden al modelo de negocio de la API Java. Se incluye una interfaz Repository representativa por módulo para mostrar cómo se separa la consulta de datos de las clases del negocio. Las referencias entre módulos utilizan identificadores, como merchantId o contractId.
 
 #### Users and Profiles
 
