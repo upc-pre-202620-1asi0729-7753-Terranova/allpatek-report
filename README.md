@@ -444,7 +444,7 @@ User representa a una persona registrada y su rol. Review guarda la calificació
 
 #### Land Management
 
-Plot reúne los datos de la parcela, cultivo, costo orientativo y disponibilidad. PlotPhoto permite conservar varias fotografías y distinguir la principal, como solicita el formulario del capítulo IV.
+Plot reúne los datos de la parcela, cultivo, costo orientativo y disponibilidad. Una reserva temporal cambia su estado mientras se confirma el pago. PlotPhoto permite conservar varias fotografías y distinguir la principal, como solicita el formulario del capítulo IV.
 
 ![Figura 4.7.2. Clases de Land Management](assets/chapter-04/architecture/09-classes-plots.png)
 
@@ -452,7 +452,7 @@ Plot reúne los datos de la parcela, cultivo, costo orientativo y disponibilidad
 
 #### Season Contracting
 
-Contract guarda las partes, fechas, importe y condiciones de la temporada. Milestone representa una etapa con sus criterios de aprobación e importe. Los hitos pertenecen al contrato y no existen de manera independiente.
+Proposal registra la oferta inicial y sus contraofertas; Reservation bloquea temporalmente una parcela cuando ya se acordaron las condiciones. Contract guarda las partes, fechas, importe y condiciones de la temporada. Milestone representa una etapa con sus criterios de aprobación e importe. Los hitos pertenecen al contrato y no existen de manera independiente.
 
 ![Figura 4.7.3. Clases de Season Contracting](assets/chapter-04/architecture/10-classes-contracts.png)
 
@@ -478,7 +478,7 @@ La UI de Angular utilizará componentes y servicios para presentar estos datos; 
 
 ## 4.8. Database Design
 
-La base de datos conserva la información de Allpatek y relaciona sus elementos mediante identificadores. Se utiliza un modelo relacional para representar usuarios, parcelas, contratos, hitos, pagos y seguimiento.
+La base de datos conserva la información de Allpatek y relaciona sus elementos mediante identificadores. Se utiliza un modelo relacional para representar usuarios, parcelas, propuestas, reservas, contratos, hitos, pagos y seguimiento.
 
 Cada tabla tiene una **clave primaria (PK)** que identifica sus registros. Las **claves foráneas (FK)** relacionan tablas; por ejemplo, plot_id permite conocer la parcela de un contrato. Los importes se representan con DECIMAL y los archivos mediante una clave de almacenamiento, evitando guardar fotografías completas en los registros del negocio.
 
@@ -496,7 +496,7 @@ User representa a una persona registrada y su rol. Review guarda la calificació
 
 #### Land Management
 
-Plot reúne los datos de la parcela, cultivo, costo orientativo y disponibilidad. PlotPhoto permite conservar varias fotografías y distinguir la principal, como solicita el formulario del capítulo IV.
+Plot reúne los datos de la parcela, cultivo, costo orientativo y disponibilidad. Una reserva temporal protege la disponibilidad acordada antes del pago. PlotPhoto permite conservar varias fotografías y distinguir la principal, como solicita el formulario del capítulo IV.
 
 ![Figura 4.8.2. Tablas de Land Management](assets/chapter-04/architecture/14-database-plots.png)
 
@@ -504,7 +504,7 @@ Plot reúne los datos de la parcela, cultivo, costo orientativo y disponibilidad
 
 #### Season Contracting
 
-Contract guarda las partes, fechas, importe y condiciones de la temporada. Milestone representa una etapa con sus criterios de aprobación e importe. Los hitos pertenecen al contrato y no existen de manera independiente.
+Proposal conserva la oferta y sus contraofertas; Reservation mantiene una reserva temporal vinculada a la propuesta. Contract conserva el acuerdo aceptado y Milestone representa una etapa con sus criterios de aprobación e importe. Los hitos pertenecen al contrato y no existen de manera independiente.
 
 ![Figura 4.8.3. Tablas de Season Contracting](assets/chapter-04/architecture/15-database-contracts.png)
 
@@ -531,9 +531,10 @@ ProgressUpdate registra el trabajo y sus evidencias. WeatherAlert conserva una a
 | Relación o dato | Regla que se aplicará |
 |---|---|
 | Usuario y parcelas | Un agricultor puede registrar varias parcelas. Solo su propietario puede modificarlas. |
+| Propuesta y reserva | Una propuesta tiene un plazo y puede ser aceptada, rechazada o recibir una contraoferta. Al acordar las condiciones, una reserva temporal evita que otra contratación use la misma parcela antes de confirmar el pago. |
 | Parcela y contratos | Una parcela conserva varios contratos históricos; sus temporadas activas no se superponen. |
-| Contrato e hitos | Un contrato tiene varios hitos ordenados. Su suma debe coincidir con el importe pactado. |
-| Aceptación y condiciones | Se guardan las fechas de aceptación de ambas partes. Cambiar condiciones antes de activar exige volver a aceptarlas; un acuerdo activo conserva las condiciones pactadas. |
+| Contrato e hitos | Un contrato proviene de una propuesta aceptada y puede referenciar su reserva. Tiene varios hitos ordenados cuya suma debe coincidir con el importe pactado. |
+| Aceptación y condiciones | Se guardan las fechas de aceptación del agricultor y comerciante. Cambiar condiciones antes de activar exige volver a aceptarlas; un acuerdo activo conserva las condiciones pactadas. |
 | Pago y destino | SEASON_FUNDING se vincula a un contrato; MILESTONE_RELEASE a un contrato y uno de sus hitos; SUBSCRIPTION solo a una suscripción. Los campos opcionales permiten estos tres casos, que la API debe validar. |
 | Confirmación de pagos | Una referencia de proveedor no se registra dos veces. Un hito no se desembolsa dos veces ni por encima del importe acordado. Las liberaciones acumuladas no superan los fondos confirmados de la temporada. |
 | Plan y suscripción | Un plan puede tener varias suscripciones. Sus precios y límites son configurables, no datos fijos en el código. |
@@ -550,7 +551,8 @@ Los roles y estados se validarán contra sus valores permitidos. Las áreas e im
 | Función documentada | Procedencia | Diseño relacionado |
 |---|---|---|
 | Catálogo y publicación de parcelas | Capítulos I y IV | Plot, PlotPhoto y Land Management. |
-| Contratación y documento automático | Capítulos I y IV | Contract, Payments y flujo n8n. |
+| Propuesta, contraoferta y reserva | Capítulos II y III | Proposal, Reservation y disponibilidad de Plot. |
+| Contratación y documento automático | Capítulos I, III y IV | Contract, Payments y flujo n8n. |
 | Seguimiento y pagos por hitos | Capítulo IV | Milestone, ProgressUpdate y Payment. |
 | Calificaciones entre participantes | Capítulo I | Review en Users and Profiles. |
 | Planes mensuales | Capítulo IV | SubscriptionPlan y Subscription, pendientes de confirmación comercial. |

@@ -38,6 +38,7 @@ class PlotPhoto {
 enum PlotStatus {
 DRAFT
 AVAILABLE
+RESERVED
 IN_PRODUCTION
 INACTIVE
 }

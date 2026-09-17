@@ -15,7 +15,16 @@ rectangle "PublishPlot\n[Command]" as publish #D9EAF7
 rectangle "Plot\n[Aggregate]" as plot #FFF2CC
 rectangle "PlotPublished\n[Event]" as published #F8CBAD
 rectangle "Available plots\n[Read model]" as catalog #E2F0D9
-rectangle "Buyer: RequestContract\n[Command]" as request #D9EAF7
+rectangle "Merchant\n[Actor]" as merchant #FFF2CC
+rectangle "Merchant: SubmitProposal\n[Command | US07]" as propose #D9EAF7
+rectangle "Proposal\n[Aggregate]" as proposal #FFF2CC
+rectangle "ProposalSubmitted\n[Event]" as proposed #F8CBAD
+rectangle "Farmer: Counter or accept proposal\n[Command | US21]" as negotiate #D9EAF7
+rectangle "TermsAgreed\n[Event]" as agreed #F8CBAD
+rectangle "Create temporary reservation\n[Policy | US27-US28]" as hold #E4DFEC
+rectangle "Reservation\n[Aggregate]" as reservation #FFF2CC
+rectangle "PlotReserved\n[Event]" as reserved #F8CBAD
+rectangle "CreateContract\n[Command | US08]" as create #D9EAF7
 rectangle "Contract\n[Aggregate]\nDates, terms and milestones" as contract #FFF2CC
 rectangle "ContractAccepted\n[Event]\nAfter acceptance by both parties" as accepted #F8CBAD
 rectangle "ConfirmPayment\n[Command]\nVerified provider response" as pay #D9EAF7
@@ -25,18 +34,28 @@ rectangle "Activate funded contract;\ngenerate PDF and notify\n[Policy]" as noti
 rectangle "Farmer: RecordProgress\n[Command]" as record #D9EAF7
 rectangle "ProgressUpdate\n[Aggregate]" as update #FFF2CC
 rectangle "ProgressRecorded\n[Event]" as recorded #F8CBAD
-rectangle "Buyer reviews evidence\n[Policy]" as review #E4DFEC
+rectangle "Merchant reviews evidence\n[Policy]" as review #E4DFEC
 rectangle "ApproveMilestone\n[Command]" as approve #D9EAF7
 rectangle "Contract / Milestone\n[Aggregate / Entity]" as milestone #FFF2CC
 rectangle "MilestoneApproved\n[Event]" as approved #F8CBAD
 rectangle "Request agreed payment release\n[Policy]" as release #E4DFEC
-rectangle "Yield risk? Four or five milestones?\nWho resolves disagreements?\n[Open decisions]" as open #FFC7CE
+rectangle "Yield risk? Final reservation window?\nWho resolves disagreements?\n[Open decisions]" as open #FFC7CE
 farmer -right-> publish
 publish -right-> plot
 plot -right-> published
 published --> catalog
-catalog -left-> request
-request -left-> contract
+merchant -right-> propose
+catalog -down-> propose
+propose -right-> proposal
+proposal -right-> proposed
+farmer -down-> negotiate
+proposed -down-> negotiate
+negotiate -right-> agreed
+agreed -right-> hold
+hold -right-> reservation
+reservation -right-> reserved
+reserved -down-> create
+create -left-> contract
 contract -left-> accepted
 accepted --> pay
 pay -right-> payment
@@ -54,7 +73,8 @@ open .. milestone
 legend bottom
 Blue: command | Yellow: actor / aggregate | Orange: event
 Green: information to consult | Purple: policy | Red: open question
-Proposal to validate in the team workshop.
+Proposal based on US02, US07, US21, US08, US09, US04 and US03.
+The team workshop is still pending.
 endlegend
 
 @enduml
