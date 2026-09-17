@@ -309,6 +309,14 @@ Diseñada para captar la atención, comunicar modernidad y guiar al usuario haci
 * **Verde Oliva / Neutro (`#626751`):** Aplicado en bloques secundarios y delimitaciones de sección.
 * **Gris Claro (`#E4E4E4`):** Color neutro para fondos de contraste y lectura limpia de bloques extensos.
 
+
+<p align="center">
+  <img src="./assets/chapter-04/paleta-landing.png" alt="Descripción de la imagen" width="900">
+</p>
+
+
+
+
 #### B. Paleta de la Aplicación Web (Dashboard / App Interna)
 Optimizada para reducir la fatiga visual (*Dark Mode*), mantener una jerarquía financiera clara y facilitar el uso prolongado.
 
@@ -317,6 +325,14 @@ Optimizada para reducir la fatiga visual (*Dark Mode*), mantener una jerarquía 
 * **Dorado Maíz (`#E9C46A`):** Color de acento de alta jerarquía usado en montos retenidos en *Escrow*, botones de acción principal y aprobaciones.
 * **Gris Neutral (`#E4E4E4`):** Utilizado para la tipografía principal, etiquetas de formularios e íconos operativos.
 
+
+
+<p align="center">
+  <img src="./assets/chapter-04/paleta-web.png" alt="Descripción de la imagen" width="900">
+</p>
+
+
+
 #### Tipografía (Typography)
 * **Títulos y Encabezados:** Se adopta **Fjalla One**, una tipografía *display* sans-serif condensada que otorga personalidad, fuerza y un carácter industrial/agrícola a los titulares principales de la plataforma.
 * **Cuerpo de Texto y Datos:** Se utiliza **Inter** (o **Roboto** como alternativa secundaria) por su excelente legibilidad en pantallas de alta densidad, facilitando la lectura de coordenadas GPS, tablas de hitos financieros y formularios técnicos.
@@ -324,6 +340,13 @@ Optimizada para reducir la fatiga visual (*Dark Mode*), mantener una jerarquía 
 #### Espaciado y Rejilla (Spacing & Layout)
 * **Sistema de 8px:** Todos los márgenes internos (*padding*) y externos (*margin*) siguen múltiplos de 8px (8, 16, 24, 32, 48px) para mantener un ritmo visual armónico.
 * **Efecto Glassmorphism:** Implementación de tarjetas semi-transparentes (`rgba(255, 255, 255, 0.05)`) con bordes sutiles y desenfoque de fondo (`backdrop-blur-md`) para estructurar la información sin recargar la pantalla.
+
+
+<p align="center">
+  <img src="./assets/chapter-04/rejillas.png" alt="Descripción de la imagen" width="900">
+</p>
+
+
 
 #### Tono de Comunicación y Lenguaje (Voice & Tone)
 
