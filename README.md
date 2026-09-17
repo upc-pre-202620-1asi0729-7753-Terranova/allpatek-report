@@ -260,11 +260,11 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 ## 2.1. Competidores
 
-Comprender el entorno competitivo resulta clave para el posicionamiento de cualquier modelo de negocio digital. En esta sección se realiza un análisis de los competidores de Allpatek, tanto directos como indirectos, evaluando las estrategias que aplican, así como sus principales fortalezas y debilidades frente a la propuesta de agricultura por contrato automatizada del negocio.
+Comprender el entorno competitivo resulta clave para el posicionamiento de cualquier modelo de negocio digital. En esta sección se realiza un análisis de los competidores de Terranova, tanto directos como indirectos, evaluando las estrategias que aplican, así como sus principales fortalezas y debilidades frente a la propuesta de agricultura por contrato automatizada del negocio.
 
 ### 2.1.1. Análisis competitivo
 
-Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y riesgos en el mercado, así como para posicionar a Allpatek de manera estratégica. Este análisis permite comprender cómo los competidores atienden las necesidades de los clientes, identificar vacíos en el mercado y destacar nuestra solución a través de ventajas diferenciadoras. También facilita la elaboración de estrategias más efectivas de marketing, precios y distribución, garantizando una propuesta de valor sólida y sostenible.
+Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y riesgos en el mercado, así como para posicionar a Terranova de manera estratégica. Este análisis permite comprender cómo los competidores atienden las necesidades de los clientes, identificar vacíos en el mercado y destacar nuestra solución a través de ventajas diferenciadoras. También facilita la elaboración de estrategias más efectivas de marketing, precios y distribución, garantizando una propuesta de valor sólida y sostenible.
 
 <table>
     <tr>
@@ -275,25 +275,25 @@ Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y r
         <td colspan="4" class="sub"><h3>¿Quiénes son nuestros principales competidores?</h3></td>
     </tr>
     <tr>
-        <td colspan="4">Gracias al análisis de la competencia del mercado, se logra comprender el entorno competitivo en el que operará Allpatek. Esto permite identificar a los competidores directos e indirectos, evaluando su posicionamiento actual para trazar estrategias diferenciadas frente a la ausencia de una plataforma digital peruana que aplique íntegramente el modelo de agricultura por contrato automatizada.</td>
+        <td colspan="4">Gracias al análisis de la competencia del mercado, se logra comprender el entorno competitivo en el que operará Terranova Esto permite identificar a los competidores directos e indirectos, evaluando su posicionamiento actual para trazar estrategias diferenciadas frente a la ausencia de una plataforma digital peruana que aplique íntegramente el modelo de agricultura por contrato automatizada.</td>
     </tr>
     <tr>
     <td rowspan="3" class="sub">PERFIL</td>
     <td rowspan="2" class="sub">Overview</td>
-    <td> Allpatek <img src="./assets/chapter-02/allpatek.jpg" width="140"></td>
+    <td> Allpatek <img src="./assets/chapter-02/logo-startup-terranova.jpg" width="160"></td>
     <td> Agromercado (MIDAGRI) <img src="./assets/chapter-02/agromercado.jpg" width="140"></td>
     <td> VeryAgro <img src="./assets/chapter-02/veryagro.jpg" width="140"></td>
     <td> Procesadora Perú <img src="./assets/chapter-02/procesadora-peru.jpg" width="140"></td>
 </tr>
     <tr>
-        <td>Modelo Agro-as-a-Service (AaaS): el comprador alquila una parcela y contrata la labor del agricultor por una temporada, con formalización contractual y notificaciones automatizadas vía n8n.</td>
-        <td>Sistema del Ministerio de Desarrollo Agrario y Riego que busca facilitar negocios directos y reducir brechas de información entre productores y compradores.</td>
+        <td>Modelo Agro-as-a-Service (AaaS): el comerciante alquila una parcela y contrata la labor del agricultor por una temporada, con formalización contractual y notificaciones automatizadas.</td>
+        <td>Sistema del Ministerio de Desarrollo Agrario y Riego que busca facilitar negocios directos y reducir brechas de información entre productores y comerciantes.</td>
         <td>Marketplace español (fundado en 2021) que conecta agricultores con proveedores de insumos agrícolas (fertilizantes, riego, maquinaria); anunció su ingreso a Perú como primer mercado de expansión en Latinoamérica.</td>
         <td>Empresa agroexportadora que aplica "siembra por contrato": compra anticipada de toda la cosecha a un precio mínimo garantizado, a más de 1,000 agricultores de Lambayeque, La Libertad y Piura.</td>
     </tr>
     <tr>
         <td class="sub">Ventaja Competitiva ¿Qué valor ofrece a los clientes?</td>
-        <td>Automatización end-to-end del contrato (vía n8n) e ingreso garantizado por labor, no por resultado de cosecha.</td>
+        <td>Automatización end-to-end del contrato  e ingreso garantizado por labor, no por resultado de cosecha.</td>
         <td>Respaldo institucional/estatal y alcance nacional gratuito.</td>
         <td>Catálogo amplio de proveedores (+60) y alta recurrencia de clientes reportada.</td>
         <td>Mercado asegurado y precio mínimo garantizado, con trayectoria comprobada a gran escala.</td>
@@ -421,7 +421,7 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 17. Si existiera una aplicación para ayudarle con estas cosas, ¿qué sería lo más importante para usted para que sea fácil de usar?
 18. ¿Hay alguna cosa de su trabajo que le gustaría poder hacer más rápido o más fácilmente con el celular?
 
-**Guía de entrevista — Segmento 2: Compradores urbanos / Comerciantes**
+**Guía de entrevista — Segmento 2: Comerciantes /  Compradores urbanos **
 
 *Preguntas básicas (iniciales):*
 1. Para comenzar, ¿me podría decir su nombre?
