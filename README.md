@@ -1931,13 +1931,6 @@ Los roles y estados se validarán contra sus valores permitidos. Las áreas e im
 
 Antes de cerrar la versión del informe, el equipo debe unificar las condiciones de producción, la secuencia de aceptación y pago, el número de hitos y los planes comerciales. La firma dibujada en los prototipos y el PDF enviado representan pasos de la experiencia, pero no se presentan aquí como una certificación de firma digital. Las recomendaciones con IA y el inicio de sesión social requieren confirmación de alcance; no se añaden automáticamente a esta arquitectura.
 
-#### Referencias de diseño
-
-- Brown, S. (s. f.). *C4 model: Container diagram y Component diagram*. https://c4model.com/diagrams/container y https://c4model.com/diagrams/component
-- Brandolini, A. (s. f.). *EventStorming*. https://www.eventstorming.com/
-- n8n. (s. f.). *Webhook node*. https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.webhook/
-
-Estas referencias se consolidarán en la bibliografía general del informe. Las figuras son propuestas propias para Allpatek, elaboradas con PlantUML, herramienta admitida por el enunciado. Los repositorios SmilingCups se consultaron como referencia de organización por áreas, conservando las tecnologías exigidas en este curso.
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -2568,6 +2561,13 @@ Para profundizar en la revisión de la ejecución de este Sprint, el equipo prep
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
 
+Durante el **Sprint 1**, el trabajo del equipo se centró de manera exclusiva en el diseño, maquetación, adaptabilidad responsiva y despliegue del sitio web estático para la **Landing Page** de la plataforma **ALLPATEK** (desarrollada con HTML5, CSS3 y JavaScript).
+
+Al tratarse de una solución estática e informativa en esta primera iteración, **no se contempló el desarrollo de un backend ni la creación de servicios web RESTful (APIs / endpoints)**. Por lo tanto, no aplica la inclusión de endpoints, contratos de API ni capturas de interacción en Swagger UI para esta entrega.
+
+La implementación de los servicios web backend (*RESTful Web Services* en Java con Spring Boot) y su correspondiente documentación interactiva mediante **OpenAPI Specification / Swagger UI** se iniciará a partir del **Sprint 3 (AV2)**, cuando se construya la lógica del servidor para la aplicación web.
+
+
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
 Durante el desarrollo del **Sprint 1**, el equipo llevó a cabo la configuración del entorno de despliegue y la publicación pública de la **Landing Page estática de ALLPATEK**, la cual constituye el sitio web informativo y de adquisición inicial para potenciales Comercializadores y productores agrícolas. Para esta iteración, el proceso de despliegue se gestionó en su totalidad a través del servicio de almacenamiento estático **GitHub Pages**, garantizando un acceso público continuo y seguro mediante certificado TLS/SSL.
@@ -2695,7 +2695,6 @@ Asimismo, las validaciones de interfaz alineadas a las pautas de accesibilidad  
 
 
 
-
 # Video About-the-Team
 
 # Bibliografía
@@ -2708,4 +2707,50 @@ Heros, C., & De la Torre Ugarte, D. (2022). Política para el impulso de la Pequ
 Otsuka, K., Nakano, Y., & Takahashi, K. (2016). Contract farming in developed and developing countries. Annual Review of Resource Economics, 8(1), 353–376. https://doi.org/10.1146/annurev-resource-100815-095459
 
 Tambet, H., & Stopnitzky, Y. (2021). Climate adaptation and conservation agriculture among Peruvian farmers. American Journal of Agricultural Economics, 103(3), 900–922. https://doi.org/10.1111/ajae.12177
+
+
+
 # Anexos
+
+## Anexo A. Registros de Participación del Equipo (Participant Performance Report)
+
+Evidencia del desempeño individual del equipo **TerraNova** evaluado para el hito **AV1**:
+
+| Entrega | Documento de Rendimiento | Archivos Adjuntos |
+| :---: | :--- | :---: |
+| **AV1** | `upc-pre-202620-1asi0729-7753-terranova-performance-av1` | `upc-pre-202620-1asi0729-7753-terranova-performance-av1.docx`<br>`upc-pre-202620-1asi0729-7753-terranova-performance-av1.pdf` |
+
+---
+
+## Anexo B. Repositorios de Código Fuente y Control de Versiones
+
+Repositorios oficiales en la organización pública de **GitHub** para el hito **AV1**:
+
+| Producto / Artefacto | Repositorio Oficial | Rama Principal | Estado | Enlace al Repositorio |
+| :--- | :--- | :---: | :---: | :---: |
+| **Project Report** | `allpatek-report` | `main` | Active | [Ver Repositorio del Informe](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-report) |
+| **Landing Page** | `allpatek-website` | `main` | Deployed | [Ver Repositorio Landing Page](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website) |
+
+---
+
+## Anexo C. Enlaces de Despliegue en Entornos de Operación (Cloud Deployments)
+
+Acceso al sitio web estático (Landing Page) desplegado públicamente para la entrega **AV1**:
+
+| Producto Digital | Entorno / Provider | Estado | Dirección URL de Acceso Público |
+| :--- | :---: | :---: | :---: |
+| **Landing Page (ALLPATEK)** | GitHub Pages | Live | [https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/](https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/) |
+
+---
+
+## Anexo D. Gestión del Proyecto y Product Backlog (Trello)
+
+Seguimiento interactivo de tareas y planificación del Product Backlog / Sprint 1:
+
+| Artefacto de Gestión | Herramienta | Enlace Público al Tablero |
+| :--- | :---: | :---: |
+| **Product Backlog & Sprint 1 Board** | Trello | [Ver Tablero Trello - TerraNova ALLPATEK](https://trello.com/b/A0csigUo/terranova) |
+
+
+
+
