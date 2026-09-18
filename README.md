@@ -648,7 +648,7 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 | Extensión aproximada de la parcela |  950 m² |
 | Inicio de la entrevista | 00:00 |
 | Duración | 06:09 |
-| URL del video | [Video evidencia](URL_DEL_VIDEO) |
+| URL del video | [Video evidencia](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBbQDY3p2SiRq-xBW2hRB-dARiTcCuKw4tJ7sUQ8oeVau8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iVsXEQ) |
 | **Fotografía** | <div align="center"><img src="./assets/chapter-02/imagen-agricultor-rosa.jpeg" alt="Captura de la entrevista a Rosa Flores" width="300"></div> |
 | **Resumen de la entrevista** | Entrevista realizada a Rosa Flores, agricultora a tiempo completo encargada de la gestión, supervisión y trabajo diario en una parcela familiar de palta con más de 6 años de experiencia en el cultivo. Utiliza un dispositivo Android (Xiaomi Redmi Note 11) para coordinar las labores agrícolas, tomar evidencias fotográficas del calibre de la fruta y comunicarse vía WhatsApp con el dueño de la parcela y los compradores. Señala serios problemas de conectividad a internet en las partes altas del huerto, lo que retrasa la entrega de reportes y negociaciones. Asimismo, destaca la necesidad de un sistema automatizado de guardado y envío de fotos con geolocalización/fecha y un servicio de alertas climáticas tempranas para proteger la floración del palto. |
 
@@ -1985,9 +1985,9 @@ Para llevar un control claro de los cambios y trabajar en equipo de forma ordena
 
 Organizamos el proyecto en repositorios independientes según cada producto digital:
 
-* **Landing Page (HTML, CSS y JS):** [Link del Repositorio](https://github.com/TuOrganizacion/tu-proyecto-landing-page)
-* **Web Services (Java / Spring Boot):** [Link del Repositorio](https://github.com/TuOrganizacion/tu-proyecto-landing-page)
-* **Frontend Web Application (Angular):** [Link del Repositorio](https://github.com/TuOrganizacion/tu-proyecto-landing-page)
+* **Landing Page (HTML, CSS y JS):** [Link del Repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website)
+* **Web Services (Java / Spring Boot):** [Link del Repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform)
+* **Frontend Web Application (Angular):** [Link del Repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp)
 
 
 #### Estrategia de Trabajo: GitFlow
@@ -2275,7 +2275,7 @@ El sistema funciona de la siguiente manera:
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
 
-El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de Allpatek, la cual constituye el primer punto de contacto con los usuarios potenciales. Su objetivo fue comunicar de manera clara la propuesta de valor del sistema centrada en la gestión de seguridad ciudadana. Durante este sprint, se integraron las secciones principales (presentación, funcionalidades, beneficios y llamadas a la acción) siguiendo los wireframes del Capítulo IV y priorizando estándares de usabilidad, diseño responsivo y consistencia visual.
+El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de Allpatek, la cual constituye el primer punto de contacto con los usuarios potenciales. Su objetivo fue comunicar de manera clara la propuesta de valor del sistema centrada en el modelo Agro-as-a-Service y la agricultura por contrato. Durante este sprint, se integraron las secciones principales (presentación, funcionalidades, beneficios y llamadas a la acción) siguiendo los wireframes del Capítulo IV y priorizando estándares de usabilidad, diseño responsivo y consistencia visual.
 
 #### 5.2.1.1. Sprint Planning 1
 
