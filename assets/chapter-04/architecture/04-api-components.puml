@@ -1,0 +1,45 @@
+@startuml
+!pragma layout smetana
+!include <C4/C4_Component>
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 15
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam ArrowColor #476050
+skinparam dpi 140
+title Allpatek | C4 - API components
+
+LAYOUT_TOP_DOWN()
+Container(web,"Web application","Angular","Screens and user actions")
+Container_Boundary(api,"REST API - Spring Boot") {
+ Component(rest,"Controllers and access checks","Spring MVC / Security","Receives requests and checks user permissions")
+ Component(users,"Users and Profiles","Java","Accounts, personal data and ratings")
+ Component(plots,"Land Management","Java","Plots, photos and availability")
+ Component(contracts,"Season Contracting","Java","Agreements, acceptance and milestones")
+ Component(payments,"Payments and Plans","Java","Payment records and proposed subscription plans")
+ Component(progress,"Crop Monitoring","Java","Progress, evidence and weather alerts")
+ Component(persistence,"Repositories","Spring Data JPA","Stores and retrieves each module's data")
+ Component(integrations,"External service adapters","Java HTTP clients","Calls payment, weather, file storage and n8n services")
+}
+ContainerDb(db,"Application database","PostgreSQL","Persistent business data")
+System_Ext(ext,"External services and n8n","Payments, weather, files and messages")
+Rel(web,rest,"Calls", "HTTPS / JSON")
+Rel(rest,users,"Account actions", "Java")
+Rel(rest,plots,"Plot actions", "Java")
+Rel(rest,contracts,"Contract actions", "Java")
+Rel(rest,payments,"Payment actions", "Java")
+Rel(rest,progress,"Progress actions", "Java")
+Rel(users,persistence,"Uses its repository", "Java")
+Rel(plots,persistence,"Uses its repository", "Java")
+Rel(contracts,persistence,"Uses its repository", "Java")
+Rel(payments,persistence,"Uses its repository", "Java")
+Rel(progress,persistence,"Uses its repository", "Java")
+Rel(contracts,integrations,"Requests PDF / notification", "Java")
+Rel(payments,integrations,"Verifies payment", "Java")
+Rel(progress,integrations,"Consults weather / sends update", "Java")
+Rel(persistence,db,"Reads / writes", "SQL")
+Rel(integrations,ext,"Calls", "HTTPS")
+SHOW_LEGEND()
+
+@enduml
