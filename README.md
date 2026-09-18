@@ -652,28 +652,28 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 
 *[Completar]*
 
-#### Entrevista 2: [Nombre completo]
+#### Entrevista 2: Gustavo Adolfo Suyo
 
 | Campo | Información |
 |-------|-------------|
 | Segmento | Agricultor familiar |
-| Nombres y apellidos | |
-| Edad | |
-| Distrito | |
-| Ocupación | |
-| Tipo de cultivo principal | |
-| Extensión aproximada de la parcela | |
+| Nombres y apellidos | Gustavo Adolfo Suyo |
+| Edad | 48 años |
+| Distrito | Yauyos |
+| Ocupación | Agricultor |
+| Tipo de cultivo principal | Paltas |
+| Extensión aproximada de la parcela | 1000 m² |
 | Inicio de la entrevista | 00:00 |
-| Duración | |
+| Duración | 10:33 |
 | URL del video | |
 
 <div align="center">
-    <img src="./assets/chapter-02/entrevista-agricultor-2.png" width="420">
+    <img src="./assets/chapter-02/entrevista-agricultor-2.png" alt="Captura de la entrevista a Gustavo Adolfo Suyo" width="420">
 </div>
 
 **Resumen de la entrevista:**
 
-*[Completar]*
+Entrevista realizada a Gustavo Adolfo Suyo, agricultor de 48 años del distrito de Yauyos. Indicó que cultiva paltas en una parcela de aproximadamente 1000 m². El enlace del video se incorporará cuando esté disponible.
 
 #### Entrevista 3: [Nombre completo]
 
