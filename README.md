@@ -2330,10 +2330,38 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
 # Conclusiones y recomendaciones
 
 ## Conclusiones
+
+
+
+El desarrollo y despliegue de la Landing Page informativa representó el hito inicial del proyecto, logrando establecer un canal de contacto directo para comunicar la propuesta de valor del modelo Agro-as-a-Service. Este hito permitió evaluar la respuesta del mercado frente a la incertidumbre económica y la falta de previsibilidad en el suministro que afectan al sector agrícola. A través de una arquitectura web limpia y responsiva, desplegada mediante integración continua en GitHub Pages, se estructuró la presentación de los servicios clave del sistema. Entre ellos destacan la selección de parcelas con geolocalización, la protección de capital mediante la Bóveda Escrow con pagos por hitos y la asistencia climática preventiva.
+
+Asimismo, las validaciones de interfaz alineadas a las pautas de accesibilidad  y los resultados obtenidos en las fases iniciales de Lean UX permitieron contrastar los supuestos del comportamiento de los usuarios y validar las hipótesis del servicio. Las pruebas realizadas con comerciantes y productores agrícolas confirman que la solución no solo resulta visualmente accesible y clara en su propuesta, sino que además sienta bases sólidas para las siguientes etapas del proyecto. Esta preparación facilita la futura integración de la aplicación web y los servicios de backend, garantizando un modelo de negocio técnicamente rentable y con capacidad de brindar estabilidad a los agricultores.
+
+
+
 ## Recomendaciones
+
+
+* Evolución del Roadmap hacia la Web Application: Se recomienda iniciar la transición del desarrollo desde la Landing Page informativa hacia los módulos interactivos del entorno autenticado de la Web Application. Esto permitirá habilitar el registro de usuarios con validación de identidad y la publicación del catálogo dinámico de parcelas.
+
+* Implementación Operativa de la Bóveda Escrow: Se sugiere integrar la pasarela de pagos con el motor de reglas de custodia financiera para formalizar el flujo de depósito de capital por parte del comerciante y automatizar la liberación de desembolsos parciales (25% por hito) tras la aprobación de evidencias.
+
+
+* Estrategia de Adquisición y Trabajo en Campo: Se sugiere continuar con el plan de captación directa mediante alianzas estratégicas con cooperativas agrarias y talleres presenciales para agricultores, utilizando la oferta de asistencia climática gratuita como incentivo de entrada para incrementar la oferta de tierras en la plataforma.
+
+
+
 
 # Video About-the-Team
 
 # Bibliografía
+Fan, Q., & Salas Garcia, V. B. (2018). Information access and smallholder farmers' market participation in Peru. Journal of Agricultural Economics, 69(2), 476–494. https://doi.org/10.1111/1477-9552.12243
 
+Heikkinen, A. M. (2021). Climate change, power, and vulnerabilities in the Peruvian Highlands. Regional Environmental Change, 21(3), 82. https://doi.org/10.1007/s10113-021-01825-8
+
+Heros, C., & De la Torre Ugarte, D. (2022). Política para el impulso de la Pequeña Agricultura Familiar. Consorcio de Investigación Económica y Social. https://cies.org.pe/investigacion/politica-para-el-impulso-de-la-pequena-agricultura-familiar/
+
+Otsuka, K., Nakano, Y., & Takahashi, K. (2016). Contract farming in developed and developing countries. Annual Review of Resource Economics, 8(1), 353–376. https://doi.org/10.1146/annurev-resource-100815-095459
+
+Tambet, H., & Stopnitzky, Y. (2021). Climate adaptation and conservation agriculture among Peruvian farmers. American Journal of Agricultural Economics, 103(3), 900–922. https://doi.org/10.1111/ajae.12177
 # Anexos
