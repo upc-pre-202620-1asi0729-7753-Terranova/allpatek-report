@@ -627,35 +627,36 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
     
 ### 2.2.2. Registro de entrevistas
 
-### Entrevistas al segmento de agricultores familiares
 
-#### Entrevista 1: [Nombre completo]
+
+### A.Entrevistas al segmento de agricultores familiares
+
+#### Entrevista 1: Rosa Flores
 
 | Campo | Información |
 |-------|-------------|
+| **Título** | **Entrevista 1: Rosa Flores** |
 | Segmento | Agricultor familiar |
-| Nombres y apellidos | |
-| Edad | |
-| Distrito | |
-| Ocupación | |
-| Tipo de cultivo principal | |
-| Extensión aproximada de la parcela | |
+| Nombres y apellidos | Rosa Flores |
+| Edad | 45 años |
+| Distrito | Cieneguilla |
+| Ocupación | Administradora y trabajadora agrícola a tiempo completo (Parcela de palta) |
+| Tipo de cultivo principal | Palta (Paltos) |
+| Extensión aproximada de la parcela |  950 m² |
 | Inicio de la entrevista | 00:00 |
-| Duración | |
-| URL del video | |
+| Duración | 06:09 |
+| URL del video | [Video evidencia](URL_DEL_VIDEO) |
+| **Fotografía** | <div align="center"><img src="./assets/chapter-02/imagen-agricultor-rosa.jpeg" alt="Captura de la entrevista a Rosa Flores" width="300"></div> |
+| **Resumen de la entrevista** | Entrevista realizada a Rosa Flores, agricultora a tiempo completo encargada de la gestión, supervisión y trabajo diario en una parcela familiar de palta con más de 6 años de experiencia en el cultivo. Utiliza un dispositivo Android (Xiaomi Redmi Note 11) para coordinar las labores agrícolas, tomar evidencias fotográficas del calibre de la fruta y comunicarse vía WhatsApp con el dueño de la parcela y los compradores. Señala serios problemas de conectividad a internet en las partes altas del huerto, lo que retrasa la entrega de reportes y negociaciones. Asimismo, destaca la necesidad de un sistema automatizado de guardado y envío de fotos con geolocalización/fecha y un servicio de alertas climáticas tempranas para proteger la floración del palto. |
 
-<div align="center">
-    <img src="./assets/chapter-02/entrevista-agricultor-1.png" width="420">
-</div>
 
-**Resumen de la entrevista:**
 
-*[Completar]*
 
 #### Entrevista 2: Gustavo Adolfo Suyo
 
 | Campo | Información |
 |-------|-------------|
+| **Título** | **Entrevista 2: Gustavo Adolfo Suyo** |
 | Segmento | Agricultor familiar |
 | Nombres y apellidos | Gustavo Adolfo Suyo |
 | Edad | 48 años |
@@ -665,69 +666,19 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 | Extensión aproximada de la parcela | 1000 m² |
 | Inicio de la entrevista | 00:00 |
 | Duración | 09:28 |
-| URL del video | [Video Evidencia](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQDAVMVnlqPDR4ysCethRB9SAdcd45gkIefMcHaSE811nGw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hTSuYz)|
-
-<div align="center">
-    <img src="./assets/chapter-02/entrevista-agricultor-2.png" alt="Captura de la entrevista a Gustavo Adolfo Suyo" width="420">
-</div>
-
-**Resumen de la entrevista:**
-
-Entrevista realizada a Gustavo Adolfo Suyo, agricultor de 48 años del distrito de Yauyos. Indicó que cultiva paltas en una parcela de aproximadamente 1000 m². El enlace del video se incorporará cuando esté disponible.
-
-#### Entrevista 3: [Nombre completo]
-
-| Campo | Información |
-|-------|-------------|
-| Segmento | Agricultor familiar |
-| Nombres y apellidos | |
-| Edad | |
-| Distrito | |
-| Ocupación | |
-| Tipo de cultivo principal | |
-| Extensión aproximada de la parcela | |
-| Inicio de la entrevista | 00:00 |
-| Duración | |
-| URL del video | |
-
-<div align="center">
-    <img src="./assets/chapter-02/entrevista-agricultor-3.png" width="420">
-</div>
-
-**Resumen de la entrevista:**
-
-*[Completar]*
-
-#### Entrevista 4: [Nombre completo]
-
-| Campo | Información |
-|-------|-------------|
-| Segmento | Agricultor familiar |
-| Nombres y apellidos | |
-| Edad | |
-| Distrito | |
-| Ocupación | |
-| Tipo de cultivo principal | |
-| Extensión aproximada de la parcela | |
-| Inicio de la entrevista | 00:00 |
-| Duración | |
-| URL del video | |
-
-<div align="center">
-    <img src="./assets/chapter-02/entrevista-agricultor-4.png" width="420">
-</div>
-
-**Resumen de la entrevista:**
-
-*[Completar]*
+| URL del video | [Video Evidencia](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQDAVMVnlqPDR4ysCethRB9SAdcd45gkIefMcHaSE811nGw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hTSuYz) |
+| **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-agricultor-2.png" alt="Captura de la entrevista a Gustavo Adolfo Suyo" width="300"></div> |
+| **Resumen de la entrevista** | Entrevista realizada a Gustavo Adolfo Suyo, agricultor de 48 años del distrito de Yauyos. Indicó que cultiva paltas en una parcela de aproximadamente 1000 m². El enlace del video se incorporará cuando esté disponible. |
 
 
-### Entrevistas al segmento de comerciantes urbanos
+
+### B.Entrevistas al segmento de comerciantes urbanos
 
 #### Entrevista 1: Irma Barreto Castro
 
 | Campo | Información |
 |-------|-------------|
+| **Título** | **Entrevista 1: Irma Barreto Castro** |
 | Segmento | Comerciante urbano |
 | Nombres y apellidos | Irma Barreto Castro |
 | Edad | 40 años |
@@ -738,25 +689,14 @@ Entrevista realizada a Gustavo Adolfo Suyo, agricultor de 48 años del distrito 
 | Inicio de la entrevista | 00:00 |
 | Duración | 7:27 |
 | URL del video | [Video evidencia](https://1drv.ms/v/c/d3c743b5a0e38c7f/IQD_LJde0WbnRKFSU8nptpj0Aa4E7e9k4GaI_LXprbhW7qY?e=F1i4PE) |
-
-<div align="center">
-    <img src="./assets/chapter-02/entrevista-comprador-1.png" width="420">
-</div>
-
-**Resumen de la entrevista:**
-
-Irma Barreto, dueña y administradora de un pequeño restaurante familiar, comentó que actualmente compra frutas y verduras principalmente a proveedores conocidos, mercados mayoristas y mediante pedidos por WhatsApp. Sus principales dificultades son la variación frecuente de precios, la incertidumbre sobre la calidad y frescura de los productos y la falta de información sobre su origen.
-
-Mostró interés en conocer directamente al agricultor, la ubicación de la parcela y el avance de los cultivos antes de realizar una compra. También consideró atractiva la posibilidad de pagar por adelantado una temporada a un precio fijo, siempre que exista un contrato claro y garantías de cumplimiento.
-
-Para Irma, las notificaciones sobre el progreso de los cultivos y la fecha estimada de cosecha serían útiles, prefiriendo WhatsApp como principal medio de comunicación. Además, señaló que confiaría más en la plataforma si los agricultores estuvieran verificados, existieran calificaciones de otros comerciantes y se ofrecieran mecanismos de respaldo ante incumplimientos.
-
-En general, la entrevista evidencia que el comerciante busca reducir la incertidumbre en precio, calidad, origen y cumplimiento, además de contar con un proceso de compra directo, rápido y transparente.
+| **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-comprador-1.png" width="300"></div> |
+| **Resumen de la entrevista** | Irma Barreto, dueña y administradora de un pequeño restaurante familiar, comentó que actualmente compra frutas y verduras principalmente a proveedores conocidos, mercados mayoristas y mediante pedidos por WhatsApp. Sus principales dificultades son la variación frecuente de precios, la incertidumbre sobre la calidad y frescura de los productos y la falta de información sobre su origen. Mostró interés en conocer directamente al agricultor, la ubicación de la parcela y el avance de los cultivos antes de realizar una compra. También consideró atractiva la posibilidad de pagar por adelantado una temporada a un precio fijo, siempre que exista un contrato claro y garantías de cumplimiento. Para Irma, las notificaciones sobre el progreso de los cultivos y la fecha estimada de cosecha serían útiles, prefiriendo WhatsApp como principal medio de comunicación. Además, señaló que confiaría más en la plataforma si los agricultores estuvieran verificados, existieran calificaciones de otros comerciantes y se ofrecieran mecanismos de respaldo ante incumplimientos. En general, la entrevista evidencia que el comerciante busca reducir la incertidumbre en precio, calidad, origen y cumplimiento, además de contar con un proceso de compra directo, rápido y transparente. |
 
 #### Entrevista 2: César Hugo Egocheaga
 
 | Campo | Información |
 |-------|-------------|
+| **Título** | **Entrevista 2: César Hugo Egocheaga** |
 | Segmento | Comerciante urbano |
 | Nombres y apellidos | César Hugo Egocheaga |
 | Edad | 50 años |
@@ -766,89 +706,18 @@ En general, la entrevista evidencia que el comerciante busca reducir la incertid
 | Volumen de compra aproximado | 400 kg por semana |
 | Inicio de la entrevista | 00:00 |
 | Duración | 10:33 |
-| URL del video |  [Video evidencia](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQA2ALZ3uFutSaQ8ve7Nk7hqAXADf3-eTjCN6dlRHIPgDVI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MX0bNw) |
+| URL del video | [Video evidencia](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQA2ALZ3uFutSaQ8ve7Nk7hqAXADf3-eTjCN6dlRHIPgDVI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MX0bNw) |
+| **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-comprador-2.png" alt="Captura de la entrevista a César Hugo Egocheaga" width="300"></div> |
+| **Resumen de la entrevista** | Entrevista realizada a César Hugo Egocheaga, comerciante de 50 años que dirige un negocio en el Mercado de Frutas de El Agustino. Indicó un volumen de compra aproximado de 400 kg por semana. El enlace del video se incorporará cuando esté disponible. |
 
-<div align="center">
-    <img src="./assets/chapter-02/entrevista-comprador-2.png" alt="Captura de la entrevista a César Hugo Egocheaga" width="420">
-</div>
 
-**Resumen de la entrevista:**
 
-Entrevista realizada a César Hugo Egocheaga, comerciante de 50 años que dirige un negocio en el Mercado de Frutas de El Agustino. Indicó un volumen de compra aproximado de 400 kg por semana. El enlace del video se incorporará cuando esté disponible.
 
-#### Entrevista 3: [Nombre completo]
 
-| Campo | Información |
-|-------|-------------|
-| Segmento | Comerciante urbano |
-| Nombres y apellidos | |
-| Edad | |
-| Distrito | |
-| Ocupación | |
-| Tipo de comerciante (familia / restaurante / negocio) | |
-| Volumen de compra aproximado | |
-| Inicio de la entrevista | 00:00 |
-| Duración | |
-| URL del video | |
 
-<div align="center">
-    <img src="./assets/chapter-02/entrevista-comprador-3.png" width="420">
-</div>
 
-**Resumen de la entrevista:**
 
-*[Completar]*
 
-#### Entrevista 4: [Nombre completo]
-
-| Campo | Información |
-|-------|-------------|
-| Segmento | Comerciante urbano |
-| Nombres y apellidos | |
-| Edad | |
-| Distrito | |
-| Ocupación | |
-| Tipo de comerciante (familia / restaurante / negocio) | |
-| Volumen de compra aproximado | |
-| Inicio de la entrevista | 00:00 |
-| Duración | |
-| URL del video | |
-
-<div align="center">
-    <img src="./assets/chapter-02/entrevista-comprador-4.png" width="420">
-</div>
-
-**Resumen de la entrevista:**
-
-*[Completar]*
-
-### 2.2.3. Análisis de entrevistas
-
-### Análisis del segmento de Agricultores familiares
-
-| Característica identificada | Resultado estadístico | Sustento en entrevistas | Relación con el arquetipo |
-|---|---|---|---|
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-
-### Análisis del segmento de Compradores urbanos
-
-| Característica identificada | Resultado estadístico | Sustento en entrevistas | Relación con el arquetipo |
-|---|---|---|---|
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
 
 ## 2.3. Needfinding
 
