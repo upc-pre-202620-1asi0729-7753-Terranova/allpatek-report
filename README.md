@@ -713,6 +713,7 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 | **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-comprador-2.png" alt="Captura de la entrevista a César Hugo Egocheaga" width="300"></div> |
 | **Resumen de la entrevista** | Entrevista realizada a César Hugo Egocheaga, comerciante de 50 años que dirige un negocio en el Mercado de Frutas de El Agustino. Indicó un volumen de compra aproximado de 400 kg por semana. El enlace del video se incorporará cuando esté disponible. |
 
+
 ### 2.2.3. Análisis de entrevistas
 
 El presente análisis sintetiza la información recopilada a partir de las entrevistas en profundidad realizadas a los representantes de los dos segmentos objetivos.
@@ -726,7 +727,7 @@ En tercer lugar, existe una demanda transversal por herramientas móviles de baj
 En cuarto lugar, respecto a la viabilidad y adopción de la plataforma, la disposición a utilizar el sistema está condicionada a la simplicidad operativa y la efectividad en la venta. Los agricultores respaldarán la herramienta si demuestra que simplifica el registro de sus parcelas, garantiza la autenticidad de sus evidencias de calidad frente a los compradores y les permite acceder a transacciones más rápidas y transparentes. En síntesis, este segmento requiere una solución móvil intuitiva que resuelva los problemas de conectividad, certifique la calidad de sus productos y emita alertas preventivas para resguardar sus cultivos.
 
 <div align="center">
-  <img src="../../assets/chapter-02/GraficaSegmento1-Agricultores.png" alt="Gráfica Segmento 1 - Agricultores" width="500">
+  <img src="assets/chapter-02/GraficaSegmento1-Agricultores.png" alt="Impact Mapping" width="850">
 </div>
 
 **Análisis Segundo Segmento: Comerciantes Urbanos (Restaurantes y Puestos de Mercado):** En primer lugar, se evidencia una severa vulnerabilidad operativa por la variabilidad incontrolada de costos, la incertidumbre en la calidad del insumo y la falta absoluta de trazabilidad sobre el origen del producto. Según se extrae de los testimonios recopilados, el 100% (2 de 2) de los comerciantes gestiona el abastecimiento de sus negocios (con volúmenes que van desde 30-40 kg/semana en restaurantes de La Molina hasta 400 kg/semana en puestos del Mercado de Frutas en El Agustino) mediante intermediarios tradicionales, compras presenciales en mercados mayoristas o pedidos informales por redes como WhatsApp. Esta dependencia genera que operen bajo una constante imprevisibilidad en el margen de ganancia debido a la fluctuación repentina de precios y a la incapacidad de verificar el estado real y la frescura de las frutas y verduras antes de recibirlas en sus locales.
@@ -738,7 +739,7 @@ En tercer lugar, se identifica una alta disposición a la adopción de esquemas 
 En cuarto lugar, respecto a la viabilidad comercial y seguridad de las transacciones, la disposición a pagar e invertir en la plataforma está condicionada a la mitigación del riesgo mediante garantías formales. Los comerciantes señalaron con firmeza que migrarán su canal de abastecimiento hacia la plataforma digital solo si se garantizan protocolos claros de respaldo ante incumplimientos, devolución por producto defectuoso y contratos transparentes. En síntesis, este segmento requiere una plataforma directa y transparente que reduzca la intermediación, garantice la trazabilidad de los cultivos desde la siembra hasta la cosecha y asegure estabilidad de precios para proteger el capital del negocio.
 
 <div align="center">
-  <img src="../../assets/chapter-02/GraficaSegmento2-Comerciantes.png" alt="Gráfica Segmento 2 - Comerciantes" width="500">
+  <img src="assets/chapter-02/GraficaSegmento2-Comerciantes.png" alt="Impact Mapping" width="850">
 </div>
 
 
