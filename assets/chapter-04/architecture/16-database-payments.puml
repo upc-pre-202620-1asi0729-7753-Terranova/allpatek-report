@@ -1,0 +1,58 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 15
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam ArrowColor #476050
+skinparam dpi 140
+title Allpatek | Database - Payments and Plans
+top to bottom direction
+hide methods
+entity "payments" as payments {
+ {field} * id: BIGINT <<PK>>
+ {field} contract_id: BIGINT <<FK contracts>>
+ {field} milestone_id: BIGINT <<FK milestones>>
+ {field} subscription_id: BIGINT <<FK subscriptions>>
+ {field} * kind: VARCHAR(25)
+ {field} * amount: DECIMAL(12,2)
+ {field} * currency: CHAR(3)
+ {field} provider_reference: VARCHAR(180) <<UQ>>
+ {field} * status: VARCHAR(20)
+ {field} * created_at: TIMESTAMP
+}
+entity "subscription_plans" as subscription_plans {
+ {field} * id: BIGINT <<PK>>
+ {field} * name: VARCHAR(80)
+ {field} * monthly_price: DECIMAL(12,2)
+ {field} * currency: CHAR(3)
+ {field} plot_limit: INTEGER
+}
+entity "subscriptions" as subscriptions {
+ {field} * id: BIGINT <<PK>>
+ {field} * user_id: BIGINT <<FK users>>
+ {field} * plan_id: BIGINT <<FK subscription_plans>>
+ {field} * start_date: DATE
+ {field} * end_date: DATE
+ {field} * status: VARCHAR(20)
+}
+entity "contracts\n[Other module]" as contracts #EEEEEE {
+ * id: BIGINT <<PK>>
+}
+entity "milestones\n[Other module]" as milestones #EEEEEE {
+ * id: BIGINT <<PK>>
+}
+entity "users\n[Other module]" as users #EEEEEE {
+ * id: BIGINT <<PK>>
+}
+contracts |o--o{ payments : contract_id
+milestones |o--o{ payments : milestone_id
+subscriptions |o--o{ payments : subscription_id
+users ||--o{ subscriptions : user_id
+subscription_plans ||--o{ subscriptions : plan_id
+legend bottom
+PK: primary key | FK: foreign key | UQ: unique | *: required
+Gray tables belong to another module.
+endlegend
+@enduml
