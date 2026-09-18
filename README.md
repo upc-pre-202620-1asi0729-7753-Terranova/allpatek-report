@@ -648,7 +648,7 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 | Extensión aproximada de la parcela |  950 m² |
 | Inicio de la entrevista | 00:00 |
 | Duración | 06:09 |
-| URL del video | [Video evidencia](URL_DEL_VIDEO) |
+| URL del video | [Video evidencia](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBbQDY3p2SiRq-xBW2hRB-dARiTcCuKw4tJ7sUQ8oeVau8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iVsXEQ) |
 | **Fotografía** | <div align="center"><img src="./assets/chapter-02/imagen-agricultor-rosa.jpeg" alt="Captura de la entrevista a Rosa Flores" width="300"></div> |
 | **Resumen de la entrevista** | Entrevista realizada a Rosa Flores, agricultora a tiempo completo encargada de la gestión, supervisión y trabajo diario en una parcela familiar de palta con más de 6 años de experiencia en el cultivo. Utiliza un dispositivo Android (Xiaomi Redmi Note 11) para coordinar las labores agrícolas, tomar evidencias fotográficas del calibre de la fruta y comunicarse vía WhatsApp con el dueño de la parcela y los compradores. Señala serios problemas de conectividad a internet en las partes altas del huerto, lo que retrasa la entrega de reportes y negociaciones. Asimismo, destaca la necesidad de un sistema automatizado de guardado y envío de fotos con geolocalización/fecha y un servicio de alertas climáticas tempranas para proteger la floración del palto. |
 
@@ -714,12 +714,33 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 | **Resumen de la entrevista** | Entrevista realizada a César Hugo Egocheaga, comerciante de 50 años que dirige un negocio en el Mercado de Frutas de El Agustino. Indicó un volumen de compra aproximado de 400 kg por semana. El enlace del video se incorporará cuando esté disponible. |
 
 
+### 2.2.3. Análisis de entrevistas
 
+El presente análisis sintetiza la información recopilada a partir de las entrevistas en profundidad realizadas a los representantes de los dos segmentos objetivos.
 
+**Análisis Primer Segmento: Agricultores Familiares (Productores de Palta):** En primer lugar, se evidencia una severa limitación técnica y operativa ocasionada por la baja conectividad en campo y la falta de herramientas digitales automatizadas. De acuerdo con los testimonios recopilados, el 100% (2 de 2) de los agricultores gestiona parcelas pequeñas a medianas (entre 950 m² y 1000 m²) dedicadas a cultivos perecibles como la palta en zonas como Cieneguilla y Yauyos. En este contexto, el 100% depende de dispositivos móviles Android para coordinar labores y registrar evidencias, pero enfrentan problemas críticos de cobertura en las partes altas de sus terrenos, lo que retrasa las negociaciones, el envío de reportes visuales y el contacto oportuno con los compradores.
 
+En segundo lugar, se identifica un impacto financiero directo generado por la falta de trazabilidad en la calidad del cultivo y la vulnerabilidad frente a riesgos climáticos. El 100% de los productores reportó fricciones económicas vinculadas a la imposibilidad de sustentar oportunamente el calibre y estado de su fruta. La falta de mecanismos automáticos con geolocalización y fecha para respaldar la calidad de sus productos provoca revisiones tardías, negociaciones en desventaja frente a compradores e intermediarios, y el riesgo constante de perder floraciones completas por falta de alertas meteorológicas tempranas.
 
+En tercer lugar, existe una demanda transversal por herramientas móviles de bajo consumo de datos que funcionen sin conexión intermitente y se integren con WhatsApp. Los productores (de entre 45 y 48 años) señalan requerir aplicaciones que les permitan tomar fotos del cultivo, registrar evidencias de calibre y almacenar datos geolocalizados de manera offline, sincronizando la información automáticamente al recuperar señal. Asimismo, priorizan recibir alertas climáticas tempranas para proteger sus paltos y comunicarse directamente mediante canales accesibles.
 
+En cuarto lugar, respecto a la viabilidad y adopción de la plataforma, la disposición a utilizar el sistema está condicionada a la simplicidad operativa y la efectividad en la venta. Los agricultores respaldarán la herramienta si demuestra que simplifica el registro de sus parcelas, garantiza la autenticidad de sus evidencias de calidad frente a los compradores y les permite acceder a transacciones más rápidas y transparentes. En síntesis, este segmento requiere una solución móvil intuitiva que resuelva los problemas de conectividad, certifique la calidad de sus productos y emita alertas preventivas para resguardar sus cultivos.
 
+<div align="center">
+  <img src="assets/chapter-02/GraficaSegmento1-Agricultores.png" alt="Impact Mapping" width="850">
+</div>
+
+**Análisis Segundo Segmento: Comerciantes Urbanos (Restaurantes y Puestos de Mercado):** En primer lugar, se evidencia una severa vulnerabilidad operativa por la variabilidad incontrolada de costos, la incertidumbre en la calidad del insumo y la falta absoluta de trazabilidad sobre el origen del producto. Según se extrae de los testimonios recopilados, el 100% (2 de 2) de los comerciantes gestiona el abastecimiento de sus negocios (con volúmenes que van desde 30-40 kg/semana en restaurantes de La Molina hasta 400 kg/semana en puestos del Mercado de Frutas en El Agustino) mediante intermediarios tradicionales, compras presenciales en mercados mayoristas o pedidos informales por redes como WhatsApp. Esta dependencia genera que operen bajo una constante imprevisibilidad en el margen de ganancia debido a la fluctuación repentina de precios y a la incapacidad de verificar el estado real y la frescura de las frutas y verduras antes de recibirlas en sus locales.
+
+En segundo lugar, existe un impacto económico y comercial directo derivado de la intermediación excesiva y los incumplimientos de entrega. El 100% de los entrevistados reportó fricciones financieras ligadas a la falta de garantías en el cumplimiento de volumen y calidad. En los pequeños y medianos comercios, la falta de frescura impacta de forma inmediata en la oferta gastronómica y el costo plato; mientras que en los distribuidores mayoristas de mercado, los desfases de entrega provocan mermas y quiebres de stock que comprometen el flujo de caja diario y la continuidad operativa con sus clientes finales.
+
+En tercer lugar, se identifica una alta disposición a la adopción de esquemas de compra directa en origen y modelos de financiamiento por temporada (suscripción o pago adelantado a precio fijo). El 100% de los comerciantes considera altamente atractivo contactar directamente con el agricultor, visualizar la ubicación exacta de las parcelas y monitorear el avance de los cultivos en tiempo real. Asimismo, señalan que adoptarían contratos de compra futura siempre que el canal digital ofrezca mecanismos estrictos de confianza, tales como verificación de identidad agrícola, calificaciones comunitarias entre comerciantes y notificaciones de cosecha directamente vía WhatsApp, su canal digital preferido de comunicación.
+
+En cuarto lugar, respecto a la viabilidad comercial y seguridad de las transacciones, la disposición a pagar e invertir en la plataforma está condicionada a la mitigación del riesgo mediante garantías formales. Los comerciantes señalaron con firmeza que migrarán su canal de abastecimiento hacia la plataforma digital solo si se garantizan protocolos claros de respaldo ante incumplimientos, devolución por producto defectuoso y contratos transparentes. En síntesis, este segmento requiere una plataforma directa y transparente que reduzca la intermediación, garantice la trazabilidad de los cultivos desde la siembra hasta la cosecha y asegure estabilidad de precios para proteger el capital del negocio.
+
+<div align="center">
+  <img src="assets/chapter-02/GraficaSegmento2-Comerciantes.png" alt="Impact Mapping" width="850">
+</div>
 
 
 ## 2.3. Needfinding
@@ -1985,9 +2006,9 @@ Para llevar un control claro de los cambios y trabajar en equipo de forma ordena
 
 Organizamos el proyecto en repositorios independientes según cada producto digital:
 
-* **Landing Page (HTML, CSS y JS):** [Link del Repositorio](https://github.com/TuOrganizacion/tu-proyecto-landing-page)
-* **Web Services (Java / Spring Boot):** [Link del Repositorio](https://github.com/TuOrganizacion/tu-proyecto-landing-page)
-* **Frontend Web Application (Angular):** [Link del Repositorio](https://github.com/TuOrganizacion/tu-proyecto-landing-page)
+* **Landing Page (HTML, CSS y JS):** [Link del Repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website)
+* **Web Services (Java / Spring Boot):** [Link del Repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform)
+* **Frontend Web Application (Angular):** [Link del Repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp)
 
 
 #### Estrategia de Trabajo: GitFlow
@@ -2275,7 +2296,7 @@ El sistema funciona de la siguiente manera:
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
 
-El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de Allpatek, la cual constituye el primer punto de contacto con los usuarios potenciales. Su objetivo fue comunicar de manera clara la propuesta de valor del sistema centrada en la gestión de seguridad ciudadana. Durante este sprint, se integraron las secciones principales (presentación, funcionalidades, beneficios y llamadas a la acción) siguiendo los wireframes del Capítulo IV y priorizando estándares de usabilidad, diseño responsivo y consistencia visual.
+El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de Allpatek, la cual constituye el primer punto de contacto con los usuarios potenciales. Su objetivo fue comunicar de manera clara la propuesta de valor del sistema centrada en el modelo Agro-as-a-Service y la agricultura por contrato. Durante este sprint, se integraron las secciones principales (presentación, funcionalidades, beneficios y llamadas a la acción) siguiendo los wireframes del Capítulo IV y priorizando estándares de usabilidad, diseño responsivo y consistencia visual.
 
 #### 5.2.1.1. Sprint Planning 1
 
