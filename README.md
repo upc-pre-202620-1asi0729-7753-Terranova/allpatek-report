@@ -1931,13 +1931,6 @@ Los roles y estados se validarán contra sus valores permitidos. Las áreas e im
 
 Antes de cerrar la versión del informe, el equipo debe unificar las condiciones de producción, la secuencia de aceptación y pago, el número de hitos y los planes comerciales. La firma dibujada en los prototipos y el PDF enviado representan pasos de la experiencia, pero no se presentan aquí como una certificación de firma digital. Las recomendaciones con IA y el inicio de sesión social requieren confirmación de alcance; no se añaden automáticamente a esta arquitectura.
 
-#### Referencias de diseño
-
-- Brown, S. (s. f.). *C4 model: Container diagram y Component diagram*. https://c4model.com/diagrams/container y https://c4model.com/diagrams/component
-- Brandolini, A. (s. f.). *EventStorming*. https://www.eventstorming.com/
-- n8n. (s. f.). *Webhook node*. https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.webhook/
-
-Estas referencias se consolidarán en la bibliografía general del informe. Las figuras son propuestas propias para Allpatek, elaboradas con PlantUML, herramienta admitida por el enunciado. Los repositorios SmilingCups se consultaron como referencia de organización por áreas, conservando las tecnologías exigidas en este curso.
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -2566,6 +2559,13 @@ Para profundizar en la revisión de la ejecución de este Sprint, el equipo prep
 
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+
+Durante el **Sprint 1**, el trabajo del equipo se centró de manera exclusiva en el diseño, maquetación, adaptabilidad responsiva y despliegue del sitio web estático para la **Landing Page** de la plataforma **ALLPATEK** (desarrollada con HTML5, CSS3 y JavaScript).
+
+Al tratarse de una solución estática e informativa en esta primera iteración, **no se contempló el desarrollo de un backend ni la creación de servicios web RESTful (APIs / endpoints)**. Por lo tanto, no aplica la inclusión de endpoints, contratos de API ni capturas de interacción en Swagger UI para esta entrega.
+
+La implementación de los servicios web backend (*RESTful Web Services* en Java con Spring Boot) y su correspondiente documentación interactiva mediante **OpenAPI Specification / Swagger UI** se iniciará a partir del **Sprint 3 (AV2)**, cuando se construya la lógica del servidor para la aplicación web.
 
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
