@@ -221,8 +221,7 @@ El proceso de colaboración en el informe se realizó mediante commits constante
     <tbody>
       <tr>
         <td style="border: 1px solid #dddddd; padding: 10px; font-weight: bold; vertical-align: top;">
-
-         Comunica oralmente con efectividad a diferentes rangos de audiencia.
+          Comunica oralmente con efectividad a diferentes rangos de audiencia.
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
           <ul>
