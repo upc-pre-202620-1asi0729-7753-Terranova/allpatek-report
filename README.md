@@ -33,7 +33,7 @@
 | u202215188 | Egocheaga Suyo, Miguel Angel |
 | u202116018 | Orellana Rodríguez, Mel Andree |
 | U20231h171 | Vera Solsol, Nayely Macarena |
-| u202318001 |Raymundo Villarroel, Abigail Nadhim |
+| u202318001 | Raymundo Villarroel, Abigail Nadhim |
 
 </div>
 
@@ -48,11 +48,35 @@
 
 <div align="center">
 
-| Versión |    Fecha    |                Autor                |                                                                                                Descripción de modificación                                                                                                |
+| Versión | Fecha | Autor | Descripción de modificación |
 |:-------:|:----------:|:-----------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+
+| AV1 | 06/09/2026 | Orellana Rodríguez, Mel Andree | Redacción de General Style Guidelines y Web Style Guidelines |
+| AV1 | 06/09/2026 | Orellana Rodríguez, Mel Andree | Definición de Organization, Labeling, Searching y Navigation Systems |
+| AV1 | 06/09/2026 | Orellana Rodríguez, Mel Andree | Configuración de SEO Tags y Meta Tags |
+| AV1 | 06/09/2026 | Orellana Rodríguez, Mel Andree | Elaboración de Wireframes y Mock-ups de Landing Page |
+| AV1 | 06/09/2026 | Orellana Rodríguez, Mel Andree | Diseño de Wireframes y Mock-ups de la aplicación web |
+| AV1 | 06/09/2026 | Orellana Rodríguez, Mel Andree | Creación de diagramas Wireflow y User Flow |
+| AV1 | 06/09/2026 | Orellana Rodríguez, Mel Andree | Desarrollo del prototipo interactivo de la aplicación web |
+| AV1 | 14/09/2026 | Alexander | Redacción de Startup Profile: Descripción de la Startup y Perfiles de integrantes del equipo |
+| AV1 | 14/09/2026 | Alexander | Elaboración de Solution Profile: Antecedentes y problemática del sector agrícola |
+| AV1 | 14/09/2026 | Alexander | Definición del Lean UX Process: Problem Statements, Assumptions, Hypothesis Statements y Lean UX Canvas |
+| AV1 | 14/09/2026 | Alexander | Redacción y caracterización detallada de los Segmentos Objetivo y referencias en formato APA 7 |
+| AV1 | 14/09/2026 | Alexander | Maquetación HTML5 e implementación de estilos CSS Grid para la sección Servicios de la Landing Page |
+| AV1 | 14/09/2026 | Alexander | Maquetación HTML5 e implementación de estilos CSS para la sección Hitos / Cómo Funciona |
+| AV1 | 14/09/2026 | Alexander | Modularización, refactorización de código CSS y gestión de commits en ramas de GitHub (`feature/services`, `feature/how-it-works`) |
+| AV1 | 13/09/2026 | Raymundo Villarroel, Abigail Nadhim | Elaboración de Competidores: Análisis Competitivo, SWOT y Estrategias/Tácticas frente a Agromercado, VeryAgro y Procesadora Perú |
+| AV1 | 13/09/2026 | Raymundo Villarroel, Abigail Nadhim | Diseño, Registro y Análisis de Entrevistas para los segmentos de Agricultor Familiar y Comprador Urbano |
+| AV1 | 13/09/2026 | Raymundo Villarroel, Abigail Nadhim | Elaboración de Needfinding en UXPressia: User Personas, User Task Matrix, User Journey Mapping (As-Is) y Empathy Mapping |
+| AV1 | 13/09/2026 | Raymundo Villarroel, Abigail Nadhim | Modelado del Big Picture Event Storming (Mermaid) y redacción del glosario de Ubiquitous Language |
+| AV1 | 13/09/2026 | Raymundo Villarroel, Abigail Nadhim | Maquetación HTML5 y CSS de las secciones de Contacto y Footer de la Landing Page, con gestión de commits en ramas de GitHub (`feature/contact-form`, `feature/footer`) |
 | AV1 | 10/09/2026 | Egocheaga Suyo, Miguel Angel | Diseño de la arquitectura guiada por dominio, EventStorming de diseño y diagramas C4 de contexto, contenedores y componentes. |
 | AV1 | 10/09/2026 | Egocheaga Suyo, Miguel Angel | Diseño orientado a objetos, diagramas de clases, diseño de base de datos y diagramas de base de datos. |
-| AV1 | 11/09/2026 | Egocheaga Suyo, Miguel Angel | Implementación y ajustes responsivos de Header/Navbar y Hero de la Landing Page, con HTML5, CSS3 y JavaScript. |
+| AV1 | 11/09/2026 | Egocheaga Suyo, Miguel Angel | Implementación y ajustes responsivos de Header/Navbar y Hero de la Landing Page, con HTML5, CSS3 y JavaScript. 
+| AV1 | 14/09/2026 | Vera Solsol, Nayely Macarena | Elaboración del Impact Mapping |
+| AV1 | 14/09/2026 | Vera Solsol, Nayely Macarena | Diseñar y actualizar los User Stories |
+| AV1 | 13/09/2026 | Vera Solsol, Nayely Macarena | Elaboracion del Product Backlog | 
+
 
 </div>
 
@@ -62,7 +86,13 @@
 
 | Integrante | Tareas Asignadas |
 |---|---|
+
+| Alexander Sebastián, Atauje Barreto | Introduction, Startup Profile, Startup Description, Team Member Profiles, Solution Profile, Background & Problematic, Lean UX Process (Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas), Target Segments, Services Section (HTML5 & CSS Grid Layout), Milestones / How It Works Section (HTML5 & CSS Layout), Landing Page Modularization & GitHub Branch Management |
 | Egocheaga Suyo, Miguel Angel | Domain-Driven Software Architecture (Chapter 4.6), Design-Level EventStorming, Software Architecture Context, Container and Component Diagrams, Software Object-Oriented Design, Class Diagrams, Database Design and Database Diagrams; Landing Page Header/Navbar and Hero Section implementation, responsive styles and navigation behavior (HTML5, CSS3 and JavaScript). |
+| Mel Andree, Orellana Rodriguez | Style Guidelines, General Style Guidelines, Web Style Guidelines, Information Architecture, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Web Applications UX/UI Design, Web Applications Wireframes, Web Applications Wireflow Diagrams, Web Applications Mock-ups, Web Applications User Flow Diagrams, Web Applications Prototyping |
+| Vera Solsol Nayely Macarena | Impact Mapping, User Stories and Product Backlog (Chapter 3) |
+| Raymundo Villarroel, Abigail Nadhim | Requirements Elicitation & Analysis (Chapter 2): Competitors, Competitive Analysis Landscape & SWOT, Competitive Strategies and Tactics, Interviews (Design, Record and Analysis for both segments), User Personas, User Task Matrix, User Journey Mapping (As-Is), Empathy Mapping, Big Picture Event Storming (Mermaid), Ubiquitous Language; Landing Page Contact Section and Footer Section (HTML5 & CSS) |
+
 
 </div>
 
@@ -207,34 +237,40 @@ El proceso de colaboración en el informe se realizó mediante commits constante
     <tbody>
       <tr>
         <td style="border: 1px solid #dddddd; padding: 10px; font-weight: bold; vertical-align: top;">
-          Comunica oralmente con efectividad a diferentes rangos de audiencia.
+
+         Comunica oralmente con efectividad a diferentes rangos de audiencia.
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
           <ul>
-            <li><b>AV1 - Miguel Angel Egocheaga Suyo:</b> Exposición oral de las secciones 4.6 a 4.8.1 del Capítulo IV, explicando el flujo de contratación, los pagos por hitos, la arquitectura de Allpatek y el diseño de datos mediante ejemplos comprensibles para evaluadores y perfiles no técnicos.</li>
+            <li><b>AV1 - Mel Andree Orellana Rodriguez:</b> Presentación oral del avance del Capítulo 4 enfocado en el diseño de interfaces UI/UX para la plataforma "ALLPATEK", adaptando el vocabulario técnico para audiencias con perfil agrícola (agricultores) y comercial (comerciantes B2B) durante la demostración de los prototipos interactivos.</li>
+            <li><b>AV1 - Atauje Barreto, Alexander Sebastián:</b> Exposición oral del Capítulo 1 (Introducción), sustentando la propuesta de valor de ALLPATEK, el problema del sector agrícola y los supuestos del Lean UX Canvas ante el equipo de evaluación, adaptando la explicación del modelo de negocio B2B para perfiles técnicos y académicos.</li>
+            <li><b>AV1 - Egocheaga Suyo, Miguel Angel:</b> Exposición oral de las secciones 4.6 a 4.8.1 del Capítulo IV, explicando el flujo de contratación, los pagos por hitos, la arquitectura de Allpatek y el diseño de datos mediante ejemplos comprensibles para evaluadores y perfiles no técnicos.</li>
+            <li><b>AV1 - Raymundo Villarroel, Abigail Nadhim:</b> Exposición oral del avance del Capítulo II (Requirements Elicitation & Analysis), presentando el análisis competitivo frente a Agromercado, VeryAgro y Procesadora Perú, los hallazgos del proceso de needfinding (User Personas, User Journey Maps y Empathy Maps) y el modelado del Big Picture Event Storming, adaptando la explicación del dominio agrícola y del modelo Agro-as-a-Service para una audiencia evaluadora sin conocimiento previo del sector.</li>
+            <li><b>AV1 - Vera Solsol, Nayely Macarena:</b> Exposición oral del avance del Capítulo III (Requirement Specification), presentando la alineación estratégica del Impact Mapping, la definición de las User Stories con sus criterios de aceptación y la priorización del Product Backlog para la plataforma ALLPATEK, adaptando la explicación técnica del flujo de requerimientos para una audiencia evaluadora académica y profesional. </li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
-          Miguel demostró capacidad para explicar sus decisiones de arquitectura y diseño de datos con un lenguaje adecuado para evaluadores y perfiles no técnicos.
-        </td>
+Se demostró capacidad para exponer y sustentar de manera clara las soluciones técnicas y de diseño del proyecto ante diversas audiencias, adaptando el lenguaje técnico según el perfil de los interlocutores (evaluadores, agricultores y comerciantes B2B) y defendiendo eficazmente las decisiones del sistema.        </td>
       </tr>
       <tr>
         <td style="border: 1px solid #dddddd; padding: 10px; font-weight: bold; vertical-align: top;">
-          Comunica por escrito con efectividad a diferentes rangos de audiencia.
+          Comunica por escrito con efectividad a diferentes rangos de audiencia
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
           <ul>
-            <li><b>AV1 - Miguel Angel Egocheaga Suyo:</b> Redacción y diagramación de las secciones 4.6 a 4.8.1 del Capítulo IV: arquitectura guiada por dominio, EventStorming de diseño, diagramas C4, diseño orientado a objetos, clases y diseño de base de datos. Además, implementé Header/Navbar y Hero de la Landing Page con HTML5, CSS3 y JavaScript, incluyendo ajustes de navegación y adaptación a móviles.</li>
+            <li><b>AV1 - Mel Andree Orellana Rodriguez:</b> Redacté y estructuré los entregables escritos correspondientes al diseño de interfaces UI/UX de la plataforma ALLPATEK, adaptando el lenguaje técnico para la documentación del sistema y elaborando explicaciones claras para los flujos de trabajo de agricultores y comerciantes. Además, documenté los avances del proyecto manteniendo un estándar accesible para la revisión del equipo y supervisores.</li>
+            <li><b>AV1 - Atauje Barreto, Alexander Sebastián:</b> Redacción y estructuración académica del Capítulo I bajo estándares APA 7, abarcando el perfil de la startup, la problemática del sector agrícola, el Lean UX Process y la caracterización de los segmentos objetivo. Asimismo, maqueté las secciones de Servicios e Hitos en la Landing Page garantizando claridad textual y coherencia visual para usuarios finales y revisores.</li>
+            <li><b>AV1 - Egocheaga Suyo, Miguel Angel:</b> Redacción y diagramación de las secciones 4.6 a 4.8.1 del Capítulo IV: arquitectura guiada por dominio, EventStorming de diseño, diagramas C4, diseño orientado a objetos, clases y diseño de base de datos. Además, implementé Header/Navbar y Hero de la Landing Page con HTML5, CSS3 y JavaScript, incluyendo ajustes de navegación y adaptación a móviles.</li>
+            <li><b>AV1 - Raymundo Villarroel, Abigail Nadhim:</b> Redacción del Capítulo II (Requirements Elicitation & Analysis) del informe, incluyendo el análisis competitivo y SWOT, el diseño y análisis de entrevistas para los segmentos de Agricultor Familiar y Comprador Urbano, la construcción de los User Personas, User Task Matrix, User Journey Maps y Empathy Maps, el modelado del Big Picture Event Storming y la elaboración del glosario de Ubiquitous Language, estructurando el contenido de forma clara y trazable para su revisión por el equipo docente y evaluador.</li>
+            <li><b>AV1 - Vera Solsol, Nayely Macarena:</b> Redacción y estructuración formal del Capítulo III: Requirement Specification, articulando con precisión técnica la elaboración del Impact Mapping para la alineación estratégica, la formulación detallada de User Stories con sus respectivos criterios de aceptación orientados al usuario final, y la priorización del Product Backlog de la plataforma ALLPATEK, empleando un lenguaje claro, profesional y adaptado tanto para perfiles técnicos como comerciales del sector agrícola. </li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
-          Miguel documentó sus decisiones técnicas de forma ordenada y comprensible, relacionándolas con las necesidades del negocio y dejando evidencia de su participación.
-        </td>
+Se evidenció rigor y claridad en la elaboración de la documentación técnica y entregables del proyecto, estructurando la información mediante estándares accesibles, documentación de interfaces y registros organizados que garantizan que el mensaje sea comprensible tanto para desarrolladores como para supervisores académicos.        </td>
       </tr>
     </tbody>
   </table>
 </div>
-
 
 
 
