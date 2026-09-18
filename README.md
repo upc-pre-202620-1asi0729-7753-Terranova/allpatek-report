@@ -753,28 +753,28 @@ Para Irma, las notificaciones sobre el progreso de los cultivos y la fecha estim
 
 En general, la entrevista evidencia que el comerciante busca reducir la incertidumbre en precio, calidad, origen y cumplimiento, además de contar con un proceso de compra directo, rápido y transparente.
 
-#### Entrevista 2: [Nombre completo]
+#### Entrevista 2: César Hugo Egocheaga
 
 | Campo | Información |
 |-------|-------------|
 | Segmento | Comerciante urbano |
-| Nombres y apellidos | |
-| Edad | |
-| Distrito | |
-| Ocupación | |
-| Tipo de Comerciante (familia / restaurante / negocio) | |
-| Volumen de compra aproximado | |
+| Nombres y apellidos | César Hugo Egocheaga |
+| Edad | 50 años |
+| Distrito | El Agustino |
+| Ocupación | Dueño de un puesto en el Mercado de Frutas |
+| Tipo de comerciante (familia / restaurante / negocio) | Negocio |
+| Volumen de compra aproximado | 400 kg por semana |
 | Inicio de la entrevista | 00:00 |
-| Duración | |
+| Duración | 10:33 |
 | URL del video | |
 
 <div align="center">
-    <img src="./assets/chapter-02/entrevista-comprador-2.png" width="420">
+    <img src="./assets/chapter-02/entrevista-comprador-2.png" alt="Captura de la entrevista a César Hugo Egocheaga" width="420">
 </div>
 
 **Resumen de la entrevista:**
 
-*[Completar]*
+Entrevista realizada a César Hugo Egocheaga, comerciante de 50 años que dirige un negocio en el Mercado de Frutas de El Agustino. Indicó un volumen de compra aproximado de 400 kg por semana. El enlace del video se incorporará cuando esté disponible.
 
 #### Entrevista 3: [Nombre completo]
 
