@@ -724,7 +724,7 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 
 ## 2.3. Needfinding
 
-En esta sección se presentarán los artefactos resultantes del proceso de análisis de la información recolectada de los segmentos objetivos. Aquí se incluyen secciones para User Personas, User Task Matrix, User Journey Maps, Empathy Mapping y As-is Scenario Mapping.
+En esta sección se presentarán los artefactos resultantes del proceso de análisis de la información recolectada de los segmentos objetivos. Aquí se incluyen secciones para User Personas, User Task Matrix, User Journey Maps y Empathy Mapping.
 
 ### 2.3.1. User Personas
 
@@ -738,24 +738,23 @@ A continuación, se presentan los User Personas diseñados para representar a lo
 
 ![User-Persona Comprador urbano](./assets/chapter-02/user_persona_comprador.png)
 
-### 2.3.2. User Task Matrix
+## 2.3.2. User Task Matrix.
 
 A través de la User Task Matrix, es posible identificar y organizar las principales actividades que los usuarios realizan actualmente dentro de su contexto de trabajo, de forma independiente a la existencia de Allpatek. Al categorizar estas tareas según su frecuencia e importancia, se logra comprender cuáles representan mayores dificultades y necesidades para cada perfil de usuario, permitiendo detectar oportunidades de mejora en la relación comercial entre agricultores familiares y compradores urbanos.
 
-| **User Task** | **Martín Salas Hurtado (Frecuencia)** | **Martín Salas Hurtado (Importancia)** | **Lucía Fernández Torres (Frecuencia)** | **Lucía Fernández Torres (Importancia)** |
+| **User Task** | **Gustavo Adolfo Suyo (Frecuencia)** | **Gustavo Adolfo Suyo (Importancia)** | **Irma Barreto Castro (Frecuencia)** | **Irma Barreto Castro (Importancia)** |
 |---|---|---|---|---|
-| Buscar información sobre precios antes de vender/comprar un producto agrícola | Often | High | Often | High |
-| Registrar información del cultivo o del pedido en cuadernos u hojas físicas | Often | High | Sometimes | Medium |
-| Coordinar con terceros (intermediarios o proveedores) por WhatsApp o llamada telefónica | Often | High | Often | High |
-| Verificar el estado o avance del cultivo/pedido antes de la entrega final | Often | High | Sometimes | Medium |
-| Buscar alternativas de venta o compra cuando el precio no es favorable | Sometimes | High | Often | Medium |
+| Buscar información sobre precios antes de vender/comprar | Often | High | Often | High |
+| Coordinar pedidos o ventas por WhatsApp | Often | High | Often | High |
+| Verificar la calidad, frescura u origen del producto antes de aceptarlo | Sometimes | High | Often | High |
+| Comprar/vender a proveedores o compradores conocidos por costumbre | Often | Medium | Often | High |
+| Registrar información del cultivo/pedido en cuadernos u hojas físicas | Often | High | Sometimes | Medium |
 | Informarse sobre el clima antes de tomar decisiones de siembra o cosecha | Sometimes | High | Rarely | Low |
-| Firmar acuerdos o compromisos de forma manual (papel o verbal) | Rarely | Medium | Sometimes | High |
-| Comparar distintos proveedores o compradores antes de decidir | Rarely | Low | Often | High |
-| Buscar información o soluciones digitales por internet para mejorar su negocio | Rarely | Low | Sometimes | Medium |
+| Firmar acuerdos o compromisos de forma manual (papel o verbal) | Rarely | Medium | Rarely | Medium |
+| Buscar alternativas cuando el precio no es favorable | Sometimes | High | Often | Medium |
 | Controlar el presupuesto o gasto de la temporada/semana | Sometimes | Medium | Often | High |
 
-La User Task Matrix evidencia que tanto Martín como Lucía dependen constantemente de canales informales como WhatsApp y llamadas telefónicas para coordinar sus acuerdos comerciales, y que ambos enfrentan incertidumbre respecto al precio final antes de cerrar una venta o compra. Mientras Martín concentra sus tareas de mayor frecuencia e importancia en el registro manual del cultivo y en anticiparse a eventos climáticos que puedan afectar su producción, Lucía prioriza la comparación de proveedores y el control de su presupuesto, ya que su decisión de compra depende directamente de la previsibilidad del costo. Asimismo, ambos perfiles presentan dificultades relacionadas con la formalización de acuerdos, dado que Martín rara vez firma contratos y Lucía lo hace solo ocasionalmente, ambos con poca confianza en procesos que no dependan del trato directo. Estas tareas permiten comprender mejor el contexto actual de los usuarios e identificar necesidades reales dentro de la relación entre la agricultura familiar y los compradores urbanos.
+La matriz confirma, con evidencia real de Irma, que la verificación de calidad/origen y la coordinación por WhatsApp son tareas frecuentes y de alta importancia para el comerciante — algo que antes solo era una hipótesis. Para Gustavo, al no contar todavía con el resto de su testimonio ni con las 3 entrevistas restantes del segmento, la matriz sigue basada en el perfil general del segmento y debe confirmarse más adelante.
 
 ### 2.3.3. User Journey Mapping
 
