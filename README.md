@@ -2695,7 +2695,6 @@ Asimismo, las validaciones de interfaz alineadas a las pautas de accesibilidad  
 
 
 
-
 # Video About-the-Team
 
 # Bibliografía
@@ -2708,4 +2707,50 @@ Heros, C., & De la Torre Ugarte, D. (2022). Política para el impulso de la Pequ
 Otsuka, K., Nakano, Y., & Takahashi, K. (2016). Contract farming in developed and developing countries. Annual Review of Resource Economics, 8(1), 353–376. https://doi.org/10.1146/annurev-resource-100815-095459
 
 Tambet, H., & Stopnitzky, Y. (2021). Climate adaptation and conservation agriculture among Peruvian farmers. American Journal of Agricultural Economics, 103(3), 900–922. https://doi.org/10.1111/ajae.12177
+
+
+
 # Anexos
+
+## Anexo A. Registros de Participación del Equipo (Participant Performance Report)
+
+Evidencia del desempeño individual del equipo **TerraNova** evaluado para el hito **AV1**:
+
+| Entrega | Documento de Rendimiento | Archivos Adjuntos |
+| :---: | :--- | :---: |
+| **AV1** | `upc-pre-202620-1asi0729-7753-terranova-performance-av1` | `upc-pre-202620-1asi0729-7753-terranova-performance-av1.docx`<br>`upc-pre-202620-1asi0729-7753-terranova-performance-av1.pdf` |
+
+---
+
+## Anexo B. Repositorios de Código Fuente y Control de Versiones
+
+Repositorios oficiales en la organización pública de **GitHub** para el hito **AV1**:
+
+| Producto / Artefacto | Repositorio Oficial | Rama Principal | Estado | Enlace al Repositorio |
+| :--- | :--- | :---: | :---: | :---: |
+| **Project Report** | `allpatek-report` | `main` | Active | [Ver Repositorio del Informe](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-report) |
+| **Landing Page** | `allpatek-website` | `main` | Deployed | [Ver Repositorio Landing Page](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website) |
+
+---
+
+## Anexo C. Enlaces de Despliegue en Entornos de Operación (Cloud Deployments)
+
+Acceso al sitio web estático (Landing Page) desplegado públicamente para la entrega **AV1**:
+
+| Producto Digital | Entorno / Provider | Estado | Dirección URL de Acceso Público |
+| :--- | :---: | :---: | :---: |
+| **Landing Page (ALLPATEK)** | GitHub Pages | Live | [https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/](https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/) |
+
+---
+
+## Anexo D. Gestión del Proyecto y Product Backlog (Trello)
+
+Seguimiento interactivo de tareas y planificación del Product Backlog / Sprint 1:
+
+| Artefacto de Gestión | Herramienta | Enlace Público al Tablero |
+| :--- | :---: | :---: |
+| **Product Backlog & Sprint 1 Board** | Trello | [Ver Tablero Trello - TerraNova ALLPATEK](https://trello.com/b/A0csigUo/terranova) |
+
+
+
+
