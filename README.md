@@ -25,8 +25,6 @@
 
 <h3 align="center"> Integrantes </h3>
 
-<div align="center">
-
 | Code | Member |
 | :---: | :--- |
 | u20241f246 | Atauje Barreto, Alexander Sebastián |
@@ -34,8 +32,6 @@
 | u202116018 | Orellana Rodríguez, Mel Andree |
 | U20231h171 | Vera Solsol, Nayely Macarena |
 | u202318001 | Raymundo Villarroel, Abigail Nadhim |
-
-</div>
 
 <h3 align="center">Periodo 202620</h3>
 <h3 align="center">Agosto, 2026</h3>
@@ -46,11 +42,8 @@
 
 ## Registro de Versiones del Informe
 
-<div align="center">
-
 | Versión | Fecha | Autor | Descripción de modificación |
 |:-------:|:----------:|:-----------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-
 | AV1 | 06/09/2026 | Orellana Rodríguez, Mel Andree | Redacción de General Style Guidelines y Web Style Guidelines |
 | AV1 | 06/09/2026 | Orellana Rodríguez, Mel Andree | Definición de Organization, Labeling, Searching y Navigation Systems |
 | AV1 | 06/09/2026 | Orellana Rodríguez, Mel Andree | Configuración de SEO Tags y Meta Tags |
@@ -72,30 +65,21 @@
 | AV1 | 13/09/2026 | Raymundo Villarroel, Abigail Nadhim | Maquetación HTML5 y CSS de las secciones de Contacto y Footer de la Landing Page, con gestión de commits en ramas de GitHub (`feature/contact-form`, `feature/footer`) |
 | AV1 | 10/09/2026 | Egocheaga Suyo, Miguel Angel | Diseño de la arquitectura guiada por dominio, EventStorming de diseño y diagramas C4 de contexto, contenedores y componentes. |
 | AV1 | 10/09/2026 | Egocheaga Suyo, Miguel Angel | Diseño orientado a objetos, diagramas de clases, diseño de base de datos y diagramas de base de datos. |
-| AV1 | 11/09/2026 | Egocheaga Suyo, Miguel Angel | Implementación y ajustes responsivos de Header/Navbar y Hero de la Landing Page, con HTML5, CSS3 y JavaScript. 
+| AV1 | 11/09/2026 | Egocheaga Suyo, Miguel Angel | Implementación y ajustes responsivos de Header/Navbar y Hero de la Landing Page, con HTML5, CSS3 y JavaScript. |
 | AV1 | 14/09/2026 | Vera Solsol, Nayely Macarena | Elaboración del Impact Mapping |
 | AV1 | 14/09/2026 | Vera Solsol, Nayely Macarena | Diseñar y actualizar los User Stories |
 | AV1 | 13/09/2026 | Vera Solsol, Nayely Macarena | Elaboracion del Product Backlog | 
 
 
-</div>
-
 ## Project Report Collaboration Insights
-
-<div align="center">
 
 | Integrante | Tareas Asignadas |
 |---|---|
-
-| Alexander Sebastián, Atauje Barreto | Introduction, Startup Profile, Startup Description, Team Member Profiles, Solution Profile, Background & Problematic, Lean UX Process (Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas), Target Segments, Services Section (HTML5 & CSS Grid Layout), Milestones / How It Works Section (HTML5 & CSS Layout), Landing Page Modularization & GitHub Branch Management |
+| Atauje Barreto, Alexander Sebastián | Introduction, Startup Profile, Startup Description, Team Member Profiles, Solution Profile, Background & Problematic, Lean UX Process (Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas), Target Segments, Services Section (HTML5 & CSS Grid Layout), Milestones / How It Works Section (HTML5 & CSS Layout), Landing Page Modularization & GitHub Branch Management |
 | Egocheaga Suyo, Miguel Angel | Domain-Driven Software Architecture (Chapter 4.6), Design-Level EventStorming, Software Architecture Context, Container and Component Diagrams, Software Object-Oriented Design, Class Diagrams, Database Design and Database Diagrams; Landing Page Header/Navbar and Hero Section implementation, responsive styles and navigation behavior (HTML5, CSS3 and JavaScript). |
-| Mel Andree, Orellana Rodriguez | Style Guidelines, General Style Guidelines, Web Style Guidelines, Information Architecture, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Web Applications UX/UI Design, Web Applications Wireframes, Web Applications Wireflow Diagrams, Web Applications Mock-ups, Web Applications User Flow Diagrams, Web Applications Prototyping |
-| Vera Solsol Nayely Macarena | Impact Mapping, User Stories and Product Backlog (Chapter 3) |
+| Orellana Rodríguez, Mel Andree | Style Guidelines, General Style Guidelines, Web Style Guidelines, Information Architecture, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Web Applications UX/UI Design, Web Applications Wireframes, Web Applications Wireflow Diagrams, Web Applications Mock-ups, Web Applications User Flow Diagrams, Web Applications Prototyping |
+| Vera Solsol, Nayely Macarena | Impact Mapping, User Stories and Product Backlog (Chapter 3) |
 | Raymundo Villarroel, Abigail Nadhim | Requirements Elicitation & Analysis (Chapter 2): Competitors, Competitive Analysis Landscape & SWOT, Competitive Strategies and Tactics, Interviews (Design, Record and Analysis for both segments), User Personas, User Task Matrix, User Journey Mapping (As-Is), Empathy Mapping, Big Picture Event Storming (Mermaid), Ubiquitous Language; Landing Page Contact Section and Footer Section (HTML5 & CSS) |
-
-
-</div>
-
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización.
 
@@ -237,8 +221,7 @@ El proceso de colaboración en el informe se realizó mediante commits constante
     <tbody>
       <tr>
         <td style="border: 1px solid #dddddd; padding: 10px; font-weight: bold; vertical-align: top;">
-
-         Comunica oralmente con efectividad a diferentes rangos de audiencia.
+          Comunica oralmente con efectividad a diferentes rangos de audiencia.
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
           <ul>
@@ -648,8 +631,6 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 
 #### Entrevista 1: [Nombre completo]
 
-<div align="center">
-
 | Campo | Información |
 |-------|-------------|
 | Segmento | Agricultor familiar |
@@ -662,8 +643,6 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 | Inicio de la entrevista | 00:00 |
 | Duración | |
 | URL del video | |
-
-</div>
 
 <div align="center">
     <img src="./assets/chapter-02/entrevista-agricultor-1.png" width="420">
@@ -675,8 +654,6 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 
 #### Entrevista 2: [Nombre completo]
 
-<div align="center">
-
 | Campo | Información |
 |-------|-------------|
 | Segmento | Agricultor familiar |
@@ -689,8 +666,6 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 | Inicio de la entrevista | 00:00 |
 | Duración | |
 | URL del video | |
-
-</div>
 
 <div align="center">
     <img src="./assets/chapter-02/entrevista-agricultor-2.png" width="420">
@@ -702,8 +677,6 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 
 #### Entrevista 3: [Nombre completo]
 
-<div align="center">
-
 | Campo | Información |
 |-------|-------------|
 | Segmento | Agricultor familiar |
@@ -716,8 +689,6 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 | Inicio de la entrevista | 00:00 |
 | Duración | |
 | URL del video | |
-
-</div>
 
 <div align="center">
     <img src="./assets/chapter-02/entrevista-agricultor-3.png" width="420">
@@ -729,8 +700,6 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 
 #### Entrevista 4: [Nombre completo]
 
-<div align="center">
-
 | Campo | Información |
 |-------|-------------|
 | Segmento | Agricultor familiar |
@@ -743,8 +712,6 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 | Inicio de la entrevista | 00:00 |
 | Duración | |
 | URL del video | |
-
-</div>
 
 <div align="center">
     <img src="./assets/chapter-02/entrevista-agricultor-4.png" width="420">
@@ -759,8 +726,6 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 
 #### Entrevista 1: Irma Barreto Castro
 
-<div align="center">
-
 | Campo | Información |
 |-------|-------------|
 | Segmento | Comerciante urbano |
@@ -773,8 +738,6 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 | Inicio de la entrevista | 00:00 |
 | Duración | 7:27 |
 | URL del video | [Video evidencia](https://1drv.ms/v/c/d3c743b5a0e38c7f/IQD_LJde0WbnRKFSU8nptpj0Aa4E7e9k4GaI_LXprbhW7qY?e=F1i4PE) |
-
-</div>
 
 <div align="center">
     <img src="./assets/chapter-02/entrevista-comprador-1.png" width="420">
@@ -792,8 +755,6 @@ En general, la entrevista evidencia que el comerciante busca reducir la incertid
 
 #### Entrevista 2: [Nombre completo]
 
-<div align="center">
-
 | Campo | Información |
 |-------|-------------|
 | Segmento | Comerciante urbano |
@@ -807,8 +768,6 @@ En general, la entrevista evidencia que el comerciante busca reducir la incertid
 | Duración | |
 | URL del video | |
 
-</div>
-
 <div align="center">
     <img src="./assets/chapter-02/entrevista-comprador-2.png" width="420">
 </div>
@@ -818,8 +777,6 @@ En general, la entrevista evidencia que el comerciante busca reducir la incertid
 *[Completar]*
 
 #### Entrevista 3: [Nombre completo]
-
-<div align="center">
 
 | Campo | Información |
 |-------|-------------|
@@ -833,8 +790,6 @@ En general, la entrevista evidencia que el comerciante busca reducir la incertid
 | Inicio de la entrevista | 00:00 |
 | Duración | |
 | URL del video | |
-
-</div>
 
 <div align="center">
     <img src="./assets/chapter-02/entrevista-comprador-3.png" width="420">
@@ -846,8 +801,6 @@ En general, la entrevista evidencia que el comerciante busca reducir la incertid
 
 #### Entrevista 4: [Nombre completo]
 
-<div align="center">
-
 | Campo | Información |
 |-------|-------------|
 | Segmento | Comerciante urbano |
@@ -860,8 +813,6 @@ En general, la entrevista evidencia que el comerciante busca reducir la incertid
 | Inicio de la entrevista | 00:00 |
 | Duración | |
 | URL del video | |
-
-</div>
 
 <div align="center">
     <img src="./assets/chapter-02/entrevista-comprador-4.png" width="420">
@@ -875,8 +826,6 @@ En general, la entrevista evidencia que el comerciante busca reducir la incertid
 
 ### Análisis del segmento de Agricultores familiares
 
-<div align="center">
-
 | Característica identificada | Resultado estadístico | Sustento en entrevistas | Relación con el arquetipo |
 |---|---|---|---|
 |  |  |  |  |
@@ -887,13 +836,9 @@ En general, la entrevista evidencia que el comerciante busca reducir la incertid
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
-
-</div>
 
 ### Análisis del segmento de Compradores urbanos
 
-<div align="center">
-
 | Característica identificada | Resultado estadístico | Sustento en entrevistas | Relación con el arquetipo |
 |---|---|---|---|
 |  |  |  |  |
@@ -904,8 +849,6 @@ En general, la entrevista evidencia que el comerciante busca reducir la incertid
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
-
-</div>
 
 ## 2.3. Needfinding
 
