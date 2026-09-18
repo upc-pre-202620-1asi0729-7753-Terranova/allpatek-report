@@ -1,41 +1,44 @@
 <div align="center">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"><br>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="120"><br>
 </div>
-<h3 align="center"> Universidad Peruana de Ciencias Aplicadas </h3>
 
-<h3 align="center">Carrera de  Ingeniería de Software </h3>
+<p align="center">Universidad Peruana de Ciencias Aplicadas</p>
+<p align="center">Carrera de Ingeniería de Software</p>
 
-<h3 align="center">1ASI0729 </h3>
-<h3 align="center">Desarrollo de Aplicaciones Open Source</h3>
-<h3 align="center"> NRC </h3>
-<h3 align="center"> 7747 </h3>
+<h3 align="center"><b>1ASI0729</b></h3>
+<h3 align="center"><b>Desarrollo de Aplicaciones Open Source</b></h3>
+<p align="center">NRC</p>
+<h3 align="center"><b>7753</b></h3>
 
-<h3 align="center">Informe del Trabajo Final</h3>
+<h3 align="center">Informe del Trabajo Final</h2>
+
+<p align="center">Docente</p>
+<h3 align="center"><b>Bautista Ubillús, Efraín Ricardo</b></h3>
 
 
-<h3 align="center"> Docente</h3>
-<h3 align="center">Bautista Ubillús, Efraín Ricardo </h3>
+<p align="center">Equipo</p>
+<h3 align="center"><b>TerraNova</b></h3>
+
+<p align="center">Proyecto</p>
+<h3 align="center"><b>Allpatek </b></h3>
 
 
-<h3 align="center"> Equipo </h3>
-<h3 align="center">TerraNova</h3>
+<h3 align="center"><b>Integrantes</b></h3>
 
-<h3 align="center"> Proyecto</h3>
-<h3 align="center"> TerraNova Platform </h3>
+<p align="center">
+  <b>Código</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Apellidos y Nombres</b><br>
+  u20241f246 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Atauje Barreto, Alexander Sebastián<br>
+  u202215188 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Egocheaga Suyo, Miguel Angel<br>
+  u202116018 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Orellana Rodríguez, Mel Andree<br>
+  U20231h171 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vera Solsol, Nayely Macarena<br>
+  u202318001 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Raymundo Villarroel, Abigail Nadhim
+</p>
 
-<h3 align="center"> Integrantes </h3>
+<br>
 
-| Code | Member |
-| :---: | :--- |
-| u20241f246 | Atauje Barreto, Alexander Sebastián |
-| u202215188 | Egocheaga Suyo, Miguel Angel |
-| u202116018 | Orellana Rodríguez, Mel Andree |
-| U20231h171 | Vera Solsol, Nayely Macarena |
-| u202318001 | Raymundo Villarroel, Abigail Nadhim |
+<h3 align="center"><b>Período 202620</b></h3>
 
-<h3 align="center">Periodo 202620</h3>
-<h3 align="center">Agosto, 2026</h3>
-
+<h3 align="center"><b>Septiembre 2026</b></h3>
 
 
 <div style="page-break-after: always;"></div>
