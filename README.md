@@ -2665,9 +2665,193 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
 
 ### 5.2.2. Sprint 2
 #### 5.2.2.1. Sprint Planning 2
+
+<table>
+  <tr>
+    <th colspan="5">Sprint #</th>
+    <th colspan="8">Sprint 2</th>
+  </tr>
+  <tr>
+    <td colspan="13"><strong>Sprint Planning Background</strong></td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8">Reunión virtual vía Google Meet</td>
+  </tr>
+  <tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8">Orellana Rodriguez, Mel Andree</td>
+  </tr>
+  <tr>
+    <td colspan="5">Attendees (to planning meeting)</td>
+    <td colspan="8">Alexander Sebastián, Miguel Angel, Mel Andree, Nayely Macarena, Abigail Nadhim</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 1 Review Summary</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 1 Retrospective Summary</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="13"><strong>Sprint Goal & User Stories</strong></td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 2 Goal</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 2 Velocity</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="8"></td>
+  </tr>
+</table>
+
+
 #### 5.2.2.2. Aspect Leaders and Collaborators
+
+
+<table>
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #dddddd; padding: 10px;">Team Member</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">-/th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">-/th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">-/th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">-/th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">-/th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">-/th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">-/th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">-/th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">-/th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Alexander1Alexander2</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">MiguelAngel0107</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">melandree8</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">AbigailRV</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Macaxprogram29</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
 #### 5.2.2.3. Sprint Backlog 2
+
+
+| Sprint | User Story ID | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Sprint 2** | | | | | | | |
+| **Sprint 2** | | | | | | | |
+| **Sprint 2** | | | | | | | |
+| **Sprint 2** | | | | | | | |
+| **Sprint 2** | | | | | | | |
+| **Sprint 2** | | | | | | | |
+| **Sprint 2** | | | | | | | |
+| **Sprint 2** | | | | | | | |
+| **Sprint 2** | | | | | | | |
+| **Sprint 2** | | | | | | | |
+| **Sprint 2** | | | | | | | |
+
+
+
 #### 5.2.2.4. Development Evidence for Sprint Review
+
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| --- | --- | --- | --- | --- | --- |
+| allpatek-webapp | | | | | |
+| allpatek-webapp | | | | | |
+| allpatek-webapp | | | | | |
+| allpatek-webapp | | | | | |
+| allpatek-webapp | | | | | |
+| allpatek-webapp | | | | | |
+| allpatek-webapp | | | | | |
+| allpatek-webapp | | | | | |
+| allpatek-webapp | | | | | |
+| allpatek-webapp | | | | | |
+| allpatek-webapp | | | | | |
+| allpatek-webapp | | | | | |
+| allpatek-webapp | | | | | |
+| allpatek-webapp | | | | | |
+| allpatek-webapp | | | | | |
+| allpatek-webapp | | | | | |
+
+
 #### 5.2.2.5. Execution Evidence for Sprint Review
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
