@@ -2,79 +2,112 @@
 !pragma layout smetana
 skinparam backgroundColor white
 skinparam defaultFontName SansSerif
-skinparam defaultFontSize 15
+skinparam defaultFontSize 14
 skinparam shadowing false
-skinparam classAttributeIconSize 0
 skinparam ArrowColor #476050
 skinparam dpi 140
-title Allpatek | Design-Level EventStorming
+title Allpatek | Design-Level EventStorming by bounded context
 
-top to bottom direction
+left to right direction
+
 rectangle "Farmer\n[Actor]" as farmer #FFF2CC
-rectangle "PublishPlot\n[Command]" as publish #D9EAF7
-rectangle "Plot\n[Aggregate]" as plot #FFF2CC
-rectangle "PlotPublished\n[Event]" as published #F8CBAD
-rectangle "Available plots\n[Read model]" as catalog #E2F0D9
 rectangle "Merchant\n[Actor]" as merchant #FFF2CC
-rectangle "Merchant: SubmitProposal\n[Command | US07]" as propose #D9EAF7
-rectangle "Proposal\n[Aggregate]" as proposal #FFF2CC
-rectangle "ProposalSubmitted\n[Event]" as proposed #F8CBAD
-rectangle "Farmer: Counter or accept proposal\n[Command | US21]" as negotiate #D9EAF7
-rectangle "TermsAgreed\n[Event]" as agreed #F8CBAD
-rectangle "Create temporary reservation\n[Policy | US27-US28]" as hold #E4DFEC
-rectangle "Reservation\n[Aggregate]" as reservation #FFF2CC
-rectangle "PlotReserved\n[Event]" as reserved #F8CBAD
-rectangle "CreateContract\n[Command | US08]" as create #D9EAF7
-rectangle "Contract\n[Aggregate]\nDates, terms and milestones" as contract #FFF2CC
-rectangle "ContractAccepted\n[Event]\nAfter acceptance by both parties" as accepted #F8CBAD
-rectangle "ConfirmPayment\n[Command]\nVerified provider response" as pay #D9EAF7
-rectangle "Payment\n[Aggregate]" as payment #FFF2CC
-rectangle "PaymentConfirmed\n[Event]" as confirmed #F8CBAD
-rectangle "Activate funded contract;\ngenerate PDF and notify\n[Policy]" as notify #E4DFEC
-rectangle "Farmer: RecordProgress\n[Command]" as record #D9EAF7
-rectangle "ProgressUpdate\n[Aggregate]" as update #FFF2CC
-rectangle "ProgressRecorded\n[Event]" as recorded #F8CBAD
-rectangle "Merchant reviews evidence\n[Policy]" as review #E4DFEC
-rectangle "ApproveMilestone\n[Command]" as approve #D9EAF7
-rectangle "Contract / Milestone\n[Aggregate / Entity]" as milestone #FFF2CC
-rectangle "MilestoneApproved\n[Event]" as approved #F8CBAD
-rectangle "Request agreed payment release\n[Policy]" as release #E4DFEC
-rectangle "Yield risk? Final reservation window?\nWho resolves disagreements?\n[Open decisions]" as open #FFC7CE
-farmer -right-> publish
-publish -right-> plot
-plot -right-> published
+rectangle "Payment provider\n[External actor]" as provider #FFF2CC
+
+package "Land Management" {
+  rectangle "PublishPlot\n[Command]" as publish #D9EAF7
+  rectangle "Plot\n[Aggregate root]" as plot #FFF2CC
+  rectangle "PlotPublished\n[Domain event]" as published #F8CBAD
+  rectangle "AvailablePlots\n[Read model]" as catalog #E2F0D9
+  rectangle "ReservePlot\n[Command]" as reserve #D9EAF7
+  rectangle "PlotReserved\n[Domain event]" as reserved #F8CBAD
+}
+
+package "Season Contracting" {
+  rectangle "SubmitProposal\n[Command | US07]" as propose #D9EAF7
+  rectangle "Proposal\n[Aggregate root]" as proposal #FFF2CC
+  rectangle "ProposalSubmitted\n[Domain event]" as proposed #F8CBAD
+  rectangle "AcceptOrCounterProposal\n[Command | US21]" as negotiate #D9EAF7
+  rectangle "TermsAgreed\n[Domain event]" as agreed #F8CBAD
+  rectangle "CreateTemporaryReservation\n[Policy]" as hold #E4DFEC
+  rectangle "AcceptContract\n[Command | US08]" as accept #D9EAF7
+  rectangle "Contract\n[Aggregate root]" as contract #FFF2CC
+  rectangle "ContractAccepted\n[Domain event]" as accepted #F8CBAD
+  rectangle "ActivateContract\n[Command]" as activate #D9EAF7
+  rectangle "ContractActivated\n[Domain event]" as activated #F8CBAD
+  rectangle "ApproveMilestone\n[Command]" as approve #D9EAF7
+  rectangle "MilestoneApproved\n[Domain event]" as approved #F8CBAD
+}
+
+package "Payments and Plans" {
+  rectangle "ConfirmPayment\n[Command]" as pay #D9EAF7
+  rectangle "Payment\n[Aggregate root]" as payment #FFF2CC
+  rectangle "PaymentConfirmed\n[Domain event]" as confirmed #F8CBAD
+  rectangle "RequestPaymentRelease\n[Policy]" as release #E4DFEC
+  rectangle "PaymentReleaseRequested\n[Domain event]" as releaseRequested #F8CBAD
+}
+
+package "Crop Monitoring" {
+  rectangle "RecordProgress\n[Command | US04]" as record #D9EAF7
+  rectangle "ProgressUpdate\n[Aggregate root]" as update #FFF2CC
+  rectangle "ProgressRecorded\n[Domain event]" as recorded #F8CBAD
+  rectangle "MilestoneEvidence\n[Read model]" as evidence #E2F0D9
+}
+
+package "Contract Automation (n8n)" {
+  rectangle "GenerateContractPdf\n[Policy / command]" as generatePdf #E4DFEC
+  rectangle "ContractPdfGenerated\n[Integration event]" as pdfGenerated #F8CBAD
+  rectangle "SendContractNotification\n[Policy / command]" as notify #E4DFEC
+  rectangle "ContractNotificationSent\n[Integration event]" as notified #F8CBAD
+  rectangle "NotifyProgressUpdate\n[Policy / command]" as notifyProgress #E4DFEC
+  rectangle "ProgressNotificationSent\n[Integration event]" as progressNotified #F8CBAD
+}
+
+farmer --> publish
+publish --> plot
+plot --> published
 published --> catalog
-merchant -right-> propose
-catalog -down-> propose
-propose -right-> proposal
-proposal -right-> proposed
-farmer -down-> negotiate
-proposed -down-> negotiate
-negotiate -right-> agreed
-agreed -right-> hold
-hold -right-> reservation
-reservation -right-> reserved
-reserved -down-> create
-create -left-> contract
-contract -left-> accepted
+merchant --> catalog
+merchant --> propose
+propose --> proposal
+proposal --> proposed
+farmer --> negotiate
+proposed --> negotiate
+negotiate --> agreed
+agreed --> hold
+hold --> reserve
+reserve --> reserved
+reserved --> accept
+merchant --> accept
+farmer --> accept
+accept --> contract
+contract --> accepted
+provider --> pay
 accepted --> pay
-pay -right-> payment
-payment -right-> confirmed
-confirmed -right-> notify
-notify --> record
-record -left-> update
-update -left-> recorded
-recorded -left-> review
-review --> approve
-approve -right-> milestone
-milestone -right-> approved
-approved -right-> release
-open .. milestone
+pay --> payment
+payment --> confirmed
+confirmed --> activate
+activate --> activated
+activated --> generatePdf
+generatePdf --> pdfGenerated
+pdfGenerated --> notify
+notify --> notified
+farmer --> record
+record --> update
+update --> recorded
+recorded --> evidence
+recorded --> notifyProgress
+notifyProgress --> progressNotified
+merchant --> approve
+evidence --> approve
+approve --> approved
+approved --> release
+release --> releaseRequested
+
 legend bottom
-Blue: command | Yellow: actor / aggregate | Orange: event
-Green: information to consult | Purple: policy | Red: open question
-Proposal based on US02, US07, US21, US08, US09, US04 and US03.
-The team workshop is still pending.
+Blue: command | Yellow: actor or aggregate root | Orange: domain/integration event
+Green: read model | Purple: policy or automated reaction
+Each package represents a bounded context. Cross-context arrows are explicit event reactions.
 endlegend
 
 @enduml
