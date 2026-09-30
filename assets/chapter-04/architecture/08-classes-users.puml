@@ -2,58 +2,104 @@
 !pragma layout smetana
 skinparam backgroundColor white
 skinparam defaultFontName SansSerif
-skinparam defaultFontSize 15
+skinparam defaultFontSize 14
 skinparam shadowing false
 skinparam classAttributeIconSize 0
 skinparam ArrowColor #476050
 skinparam dpi 140
-title Allpatek | Classes - Users and Profiles
+title Allpatek | DDD classes - Users and Profiles
 top to bottom direction
-class User {
- -id: Long
- -fullName: String
- -email: String
+
+class User <<Aggregate Root>> {
+ -id: UserId
+ -fullName: FullName
+ -email: EmailAddress
  -passwordHash: String
  -role: UserRole
- -phone: String
+ -phone: PhoneNumber
  -locale: String
- -identityDocument: String
+ -identityDocument: IdentityDocument
  -verificationStatus: VerificationStatus
  --
-+updateProfile(fullName: String, phone: String): void
-+startVerification(): void
+ +updateProfile(name: FullName, phone: PhoneNumber): void
+ +startVerification(document: IdentityDocument): void
+ +verify(): void
 }
-class Review {
- -id: Long
- -contractId: Long
- -authorId: Long
- -recipientId: Long
- -score: Integer
+
+class Review <<Aggregate Root>> {
+ -id: ReviewId
+ -contractId: ContractId
+ -authorId: UserId
+ -recipientId: UserId
+ -score: Rating
  -comment: String
  -createdAt: Instant
  --
-+publish(): void
+ +publish(): void
 }
+
+class UserId <<Value Object>> {
+ +value: Long
+}
+class ReviewId <<Value Object>> {
+ +value: Long
+}
+class ContractId <<Value Object>> {
+ +value: Long
+}
+class FullName <<Value Object>> {
+ +value: String
+}
+class EmailAddress <<Value Object>> {
+ +value: String
+ +normalized(): String
+}
+class PhoneNumber <<Value Object>> {
+ +value: String
+}
+class IdentityDocument <<Value Object>> {
+ +value: String
+}
+class Rating <<Value Object>> {
+ +value: Integer
+ +isValid(): Boolean
+}
+
 enum UserRole {
-FARMER
-MERCHANT
+ FARMER
+ MERCHANT
 }
 enum VerificationStatus {
-PENDING
-VERIFIED
-REJECTED
+ PENDING
+ VERIFIED
+ REJECTED
 }
-User ..> UserRole : uses
-User ..> VerificationStatus : uses
-interface UserRepository {
- +findById(id: Long): Optional<User>
- +save(entity: User): User
+
+interface UserRepository <<Repository Port>> {
+ +findById(id: UserId): Optional<User>
+ +findByEmail(email: EmailAddress): Optional<User>
+ +save(user: User): User
 }
-UserRepository ..> User : stores and retrieves
-User "1" <-- "0..*" Review : authorId
-User "1" <-- "0..*" Review : recipientId
+interface ReviewRepository <<Repository Port>> {
+ +save(review: Review): Review
+}
+
+User *-- UserId
+User *-- FullName
+User *-- EmailAddress
+User *-- PhoneNumber
+User *-- IdentityDocument
+User ..> UserRole
+User ..> VerificationStatus
+Review *-- ReviewId
+Review *-- ContractId
+Review *-- Rating
+Review --> UserId : author and recipient
+UserRepository ..> User
+ReviewRepository ..> Review
+
 legend bottom
-- Private attribute | + Public operation | Diamond: owned entity
-References to other modules use identifiers.
+Aggregate Root controls consistency. Value Object has no independent identity.
+Repository Port belongs to the domain; infrastructure provides its adapter.
 endlegend
 @enduml
