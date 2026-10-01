@@ -419,7 +419,7 @@ El Problem Statement se deriva directamente del análisis 5W2H: el estado actual
 We believe we will achieve a 25% increase in conversion from visitor to reserved parcel if urban buyers attain transparent and comparable information regarding land parcels, crops, season duration, and direct costs with a Parcel catalog featuring search options, location maps, crop calendars, and detailed pricing.
 
 **Hypothesis 2: Digital Contracting and Seasonal Payment**
-We believe we will achieve at least 150 seasonal contracts formalized within the first 8 months of operation if urban buyers and smallholder farmers attain a digital, contactless mechanism to agree upon and pay for parcel leasing and agricultural labor—addressing market access barriers identified by Fan & Salas Garcia (2018)—with a Digital contracting and payment module that locks the reservation upon payment confirmation.
+We believe we will achieve at least 150 seasonal contracts formalized within the first 8 months of operation if urban buyers and smallholder farmers attain a digital, contactless mechanism to agree upon and pay for parcel leasing and agricultural labor addressing market access barriers identified by Fan & Salas Garcia (2018) with a Digital contracting and payment module that locks the reservation upon payment confirmation.
 
 **Hypothesis 3: Automated Contract Generation (n8n)**
 We believe we will achieve a reduction in administrative processing time to under 5 minutes per transaction if farmers and urban buyers attain an instantly generated legal contract sent via email without manual drafting with an Automated n8n workflow that generates and delivers the PDF contract upon payment verification.
@@ -431,7 +431,7 @@ We believe we will achieve at least a 50% reduction in direct buyer-to-farmer in
 We believe we will achieve a weekly progress logging rate above 70% if farmers with low digital literacy and limited connectivity (Fan & Salas Garcia, 2018) attain a simple, low-data interface usable on low-end Android devices without extensive training with a Lightweight mobile panel for logging agricultural milestones.
 
 **Hypothesis 6: Bidirectional Reputation and Ratings**
-We believe we will achieve a season-to-season contract renewal rate above 60% if urban buyers and farmers attain mutual visibility into historical performance prior to committing—mitigating the risk of excluding less-connected producers (Otsuka et al., 2016)—with a Bidirectional reputation and ratings module.
+We believe we will achieve a season-to-season contract renewal rate above 60% if urban buyers and farmers attain mutual visibility into historical performance prior to committing mitigating the risk of excluding less-connected producers (Otsuka et al., 2016) with a Bidirectional reputation and ratings module.
 
 **Hypothesis 7: Guaranteed Payment Schedule**
 We believe we will achieve a 100% income predictability rate (full agreed payout regardless of harvest yield) if family farmers attain predictable compensation for labor performed, independent of market price fluctuations and climate events, with a Guaranteed payment schedule visible from contract signing that releases milestone-based disbursements.
