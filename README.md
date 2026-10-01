@@ -415,32 +415,32 @@ El Problem Statement se deriva directamente del análisis 5W2H: el estado actual
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-**Hipótesis 1: Catálogo de parcelas y temporadas**
-Creemos que lograremos un aumento del 25 % en la conversión de visita a parcela reservada si los comerciantes urbanos obtienen información transparente y comparable sobre parcelas, cultivos, duración de la temporada y costos directos con un Catálogo de parcelas con búsqueda, mapa de ubicación, calendario de cultivo y precios detallados.
+**Hypothesis 1: Parcel and Season Catalog**
+We believe we will achieve a 25% increase in conversion from visitor to reserved parcel if urban buyers attain transparent and comparable information regarding land parcels, crops, season duration, and direct costs with a Parcel catalog featuring search options, location maps, crop calendars, and detailed pricing.
 
-**Hipótesis 2: Contratación y pago digital por temporada**
-Creemos que lograremos al menos 150 contratos de temporada formalizados en los primeros 8 meses de operación si los comerciantes y agricultores obtienen un mecanismo digital, sin negociación presencial, para acordar y pagar el arrendamiento de parcelas y de labor agrícola, atendiendo las barreras de acceso al mercado señaladas por Fan y Salas Garcia (2018), con un Módulo de contratación y pago digital que bloquea la reserva al confirmar el pago.
+**Hypothesis 2: Digital Contracting and Seasonal Payment**
+We believe we will achieve at least 150 seasonal contracts formalized within the first 8 months of operation if urban buyers and smallholder farmers attain a digital, contactless mechanism to agree upon and pay for parcel leasing and agricultural labor—addressing market access barriers identified by Fan & Salas Garcia (2018)—with a Digital contracting and payment module that locks the reservation upon payment confirmation.
 
-**Hipótesis 3: Generación automática de contratos (n8n)**
-Creemos que lograremos reducir el tiempo administrativo a menos de 5 minutos por transacción si los agricultores y comerciantes obtienen un contrato legal generado al instante y enviado por correo, sin redacción manual, con un Flujo automatizado en n8n que genera y envía el contrato en PDF al verificar el pago.
+**Hypothesis 3: Automated Contract Generation (n8n)**
+We believe we will achieve a reduction in administrative processing time to under 5 minutes per transaction if farmers and urban buyers attain an instantly generated legal contract sent via email without manual drafting with an Automated n8n workflow that generates and delivers the PDF contract upon payment verification.
 
-**Hipótesis 4: Notificaciones de avance del cultivo**
-Creemos que lograremos una reducción de al menos 50 % en las consultas directas del comerciante al agricultor si los comerciantes obtienen seguimiento automático de la siembra, los hitos de riego y la fecha estimada de cosecha con un Sistema de notificaciones de avance del cultivo por correo y WhatsApp.
+**Hypothesis 4: Crop Progress Notifications**
+We believe we will achieve at least a 50% reduction in direct buyer-to-farmer inquiries if urban buyers attain automated progress tracking for planting, irrigation milestones, and estimated harvest dates with an Automated crop progress notification system via email and WhatsApp.
 
-**Hipótesis 5: Panel móvil del agricultor**
-Creemos que lograremos una tasa de registro semanal de avances superior al 70 % si los agricultores con baja alfabetización digital y conectividad limitada (Fan & Salas Garcia, 2018) obtienen una interfaz simple y de bajo consumo de datos, usable en Android de gama baja y sin capacitación extensa, con un Panel móvil ligero para registrar hitos agrícolas.
+**Hypothesis 5: Lightweight Mobile Panel for Farmers**
+We believe we will achieve a weekly progress logging rate above 70% if farmers with low digital literacy and limited connectivity (Fan & Salas Garcia, 2018) attain a simple, low-data interface usable on low-end Android devices without extensive training with a Lightweight mobile panel for logging agricultural milestones.
 
-**Hipótesis 6: Reputación y calificaciones**
-Creemos que lograremos una tasa de renovación superior al 60 % entre temporadas si los comerciantes y agricultores obtienen visibilidad mutua del historial y desempeño antes de comprometerse, reduciendo el riesgo de excluir a productores menos conectados (Otsuka et al., 2016), con un Módulo de reputación y calificaciones bidireccional.
+**Hypothesis 6: Bidirectional Reputation and Ratings**
+We believe we will achieve a season-to-season contract renewal rate above 60% if urban buyers and farmers attain mutual visibility into historical performance prior to committing—mitigating the risk of excluding less-connected producers (Otsuka et al., 2016)—with a Bidirectional reputation and ratings module.
 
-**Hipótesis 7: Calendario de pagos garantizado**
-Creemos que lograremos una previsibilidad de ingreso del 100 % (pago total pactado sin importar el rendimiento de la cosecha) si los agricultores familiares obtienen un pago predecible por la labor realizada, independiente del precio de mercado y del clima, con un Calendario de pagos garantizado, visible desde la firma del contrato, que libera los pagos por hitos de la temporada.
+**Hypothesis 7: Guaranteed Payment Schedule**
+We believe we will achieve a 100% income predictability rate (full agreed payout regardless of harvest yield) if family farmers attain predictable compensation for labor performed, independent of market price fluctuations and climate events, with a Guaranteed payment schedule visible from contract signing that releases milestone-based disbursements.
 
-**Hipótesis 8: Transparencia de costos y ahorro**
-Creemos que lograremos un ahorro de al menos 25 % frente al precio minorista equivalente si los comerciantes urbanos obtienen un costo directo fijo y desglosado antes de comprometerse con una temporada con un Comparador de costos directos frente al precio minorista integrado en el catálogo.
+**Hypothesis 8: Cost Transparency and Buyer Savings**
+We believe we will achieve buyer savings of at least 25% compared to equivalent retail prices if urban buyers attain a fixed, itemized direct cost breakdown before committing to a season with a Direct-cost-to-retail price comparison tool integrated into the catalog.
 
-**Hipótesis 9: Trazabilidad del origen**
-Creemos que lograremos registros de trazabilidad completos en al menos 80 % de las temporadas finalizadas si los comerciantes urbanos obtienen información verificable sobre el origen y el avance de su producto con un Registro de trazabilidad por temporada (parcela, agricultor, hitos y fecha de cosecha) accesible desde la página del contrato.
+**Hypothesis 9: Origin Traceability Record**
+We believe we will achieve complete traceability records in at least 80% of completed seasons if urban buyers attain verifiable information regarding the origin and progress of their produce with a Seasonal traceability record (parcel, farmer, milestones, and harvest date) accessible directly from the contract view.
 
 #### 1.2.2.4. Lean UX Canvas
 
