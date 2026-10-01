@@ -279,15 +279,19 @@ Desde el punto de vista teórico y sectorial, el modelo de Allpatek se fundament
 
 | Foto | Descripción |
 |:---:|:---|
-| <img src="assets/chapter-01/foto-alexander.jpg" alt="Foto de Alexander Sebastián Atauje Barreto" width="120"> | **Atauje Barreto, Alexander Sebastián** - U20241F246<br><br>Soy estudiante de Ingeniería de Software, actualmente curso el quinto ciclo, me interesa el área de iot, tengo ciertos conocimientos de las herramientas de programación conocidas como C++, HTML, CSS y C#, actualmente refuerzo mi nivel de ingles y mejoro en otras áreas para tener un mejor desempeño|
+| <img src="assets/chapter-01/foto-alexander.jpg" alt="Foto de Alexander Sebastián Atauje Barreto" width="120"> | **Atauje Barreto, Alexander Sebastián** - U20241F246<br><br>Soy estudiante de Ingeniería de Software, actualmente curso el quinto ciclo, me interesa el área de IoT, tengo ciertos conocimientos de las herramientas de programación conocidas como C++, HTML, CSS y C#, actualmente refuerzo mi nivel de inglés y mejoro en otras áreas para tener un mejor desempeño. |
 | <img src="assets/chapter-01/foto-miguel.jpg" alt="Foto de Miguel Angel Egocheaga Suyo" width="120"> | **Egocheaga Suyo, Miguel Angel** - U202215188<br><br>Soy estudiante de Ingeniería de Software y cuento con experiencia profesional en el desarrollo de aplicaciones web y la automatización de procesos. Trabajo principalmente con Python, Django, React, TypeScript y PostgreSQL, y tengo experiencia en la creación de APIs y la integración de sistemas. Me interesa desarrollar soluciones que respondan a necesidades reales, comprendiendo tanto los aspectos técnicos como los procesos del negocio. Me caracterizo por el aprendizaje autónomo, la organización y la resolución de problemas. Dentro del equipo, puedo aportar al análisis de requerimientos, al diseño de la solución y al desarrollo del backend, además de colaborar en la planificación de tareas y la integración de los componentes del proyecto. |
 | <img src="assets/chapter-01/foto-andree.jpg" alt="Foto de Mel Andree Orellana Rodríguez" width="120"> | **Orellana Rodríguez, Mel Andree** - U202116018<br><br>Soy estudiante de Ingeniería de Software, actualmente cursando el séptimo ciclo. Me interesa desarrollar e implementar soluciones tecnológicas innovadoras que generen un impacto positivo y ayuden a resolver necesidades reales. Cuento con conocimientos en desarrollo web utilizando HTML, CSS y JavaScript, así como en Python para análisis y procesamiento de datos. También tengo conocimientos en bases de datos y Supabase. Además, manejo herramientas de automatización como n8n y soluciones Low-Code como Power BI, Power Automate y Power Apps. Tengo especial interés en desarrollarme profesionalmente en las áreas de análisis de datos, automatización e Inteligencia Artificial Generativa, particularmente dentro del ecosistema de Microsoft. |
-| <img src="assets/chapter-01/foto_nayely.jpg" alt="Foto de Nayely Macarena Vera Solsol" width="120"> | **Vera Solsol, Nayely Macarena** - U20231H171<br><br> Mi nombre es Nayely Macarena Vera Solsol, tengo 20 años y estoy cursando el 5to ciclo de la carrera de Ingeniería de Software. Me apasiona el proceso de aprendizaje continuo y el trabajo colaborativo, aportando compromiso, adaptabilidad y buena comunicación al equipo. Cuento con conocimientos en C++ y actualmente me encuentro reforzando mi nivel de inglés para ampliar mis oportunidades profesionales y responder de manera efectiva a los retos tecnológicos actuales. Me comprometo a aportar de forma activa, responsable y dedicada al desarrollo del proyecto para lograr resultados de calidad.|
+| <img src="assets/chapter-01/foto_nayely.jpg" alt="Foto de Nayely Macarena Vera Solsol" width="120"> | **Vera Solsol, Nayely Macarena** - U20231H171<br><br>Mi nombre es Nayely Macarena Vera Solsol, tengo 20 años y estoy cursando el 5to ciclo de la carrera de Ingeniería de Software. Me apasiona el proceso de aprendizaje continuo y el trabajo colaborativo, aportando compromiso, adaptabilidad y buena comunicación al equipo. Cuento con conocimientos en C++ y actualmente me encuentro reforzando mi nivel de inglés para ampliar mis oportunidades profesionales y responder de manera efectiva a los retos tecnológicos actuales. Me comprometo a aportar de forma activa, responsable y dedicada al desarrollo del proyecto para lograr resultados de calidad. |
 | <img src="assets/chapter-01/foto-abigail.png" alt="Foto de Abigail Nadhim Raymundo Villarroel" width="120"> | **Raymundo Villarroel, Abigail Nadhim** - U202318001<br><br>Mi nombre es Abigail Nadhim Raymundo Villarroel, tengo 20 años y vivo en Lima. Actualmente estoy cursando el sexto ciclo de Ingeniería de Software, avanzando algunos cursos del ciclo superior. Desde siempre me ha apasionado crear, diseñar y programar para ofrecer soluciones. Me gusta aprender constantemente para ampliar mis conocimientos y fortalecer mi perfil profesional. Además, cuento con un nivel intermedio de inglés y tengo interés por los idiomas, por lo que también estoy aprendiendo francés y portugués. En mi tiempo libre disfruto dibujar, bailar y cantar, actividades que me ayudan a mantener mi creatividad y energía. Me comprometo a aportar con responsabilidad y dedicación al equipo, trabajar de manera colaborativa y contribuir al desarrollo de un proyecto sobresaliente. Mis principales habilidades incluyen creatividad, disciplina y trabajo en equipo, cualidades que aplico para lograr resultados efectivos y de calidad. |
 
 ## 1.2. Solution Profile
 
 En esta sección se fundamenta el diseño estratégico de Allpatek a partir del diagnóstico de las fricciones comerciales y los riesgos estructurales que afectan al agro peruano. Para ello, la arquitectura de la solución parte del marco conceptual de la literatura académica sobre acceso a mercados, modelos de agricultura por contrato y mitigación del riesgo climático en unidades de producción familiar. Sobre esta base analítica se implementa la metodología Lean UX, la cual permite articular las suposiciones del negocio, formular hipótesis de valor contrastables y estructurar el Canvas del producto. Este enfoque garantiza que las funcionalidades de la plataforma respondan directamente a los puntos de dolor detectados tanto en las familias agricultoras como en los comerciantes urbanos y corporativos.
+
+**Product Description**
+
+Allpatek es una plataforma web distribuida que permite a comerciantes urbanos y corporativos contratar por temporada parcelas agrícolas y la labor de agricultores familiares, bajo el modelo *Agro-as-a-Service*. La solución centraliza el catálogo de parcelas con sus costos directos, la reserva y el pago digital de la temporada, la formalización automática del contrato en PDF mediante n8n, el calendario de pagos garantizados al agricultor, el seguimiento de los hitos del ciclo productivo mediante notificaciones, el registro de trazabilidad del origen del producto y un sistema bidireccional de reputación. Para el agricultor, la plataforma ofrece un panel móvil ligero, pensado para dispositivos Android de gama baja y conectividad intermitente.
 
 ### 1.2.1. Antecedentes y problemática
 
@@ -303,136 +307,201 @@ Frente a este escenario, el modelo de comercialización vigente no ofrece al agr
 
 #### Análisis de la problemática (Técnica 5W2H)
 
-Who? (¿Quiénes?):
+* **Who (¿Quiénes?)**
+  * **Pequeños agricultores familiares:** con acceso limitado a información de mercado, internet y telefonía, lo que reduce su probabilidad de participar en canales de comercialización más rentables y el volumen que logran vender (Fan & Salas Garcia, 2018).
+  * **Comerciantes urbanos:** empresas de alimentos, restaurantes, familias y organizaciones que no tienen forma de anticipar el costo final ni la trazabilidad del producto que consumen.
 
-Los actores directamente afectados son los pequeños agricultores familiares con acceso limitado a información de mercado, internet y telefonía, lo que reduce su probabilidad de participar en canales de comercialización más rentables y el volumen que logran vender (Fan & Salas Garcia, 2018); y los comerciantes urbanos, empresas de alimentos, restaurantes, familias y organizaciones, que no tienen forma de anticipar el costo final ni la trazabilidad del producto que consumen.
+* **What (¿Qué?)**
+  * El problema central es la asimetría de riesgo e información en la comercialización agrícola: el agricultor asume el riesgo climático y de precio de mercado con escasos mecanismos de cobertura formal, mientras enfrenta una desventaja de acceso a información que limita su participación en mercados más dinámicos (Fan & Salas Garcia, 2018).
+  * Los mecanismos de agricultura por contrato pueden mitigar esta asimetría, pero su beneficio no es automático ni se distribuye de forma pareja entre todos los productores si no se diseñan con criterios de inclusión (Otsuka et al., 2016).
 
-What? (¿Qué?):
+* **Where (¿Dónde?)**
+  * El problema se concentra en las zonas de agricultura familiar de pequeña escala de la sierra y costa peruanas. El estudio de Fan y Salas Garcia (2018) utiliza datos representativos a nivel nacional del IV Censo Nacional Agropecuario, mientras que los estudios de caso de Heikkinen (2021) y Tambet y Stopnitzky (2021) sitúan parte de la problemática climática en el valle del río Mantaro, en la sierra central del país, una de las principales zonas productoras de papa y maíz y, a la vez, una de las más expuestas a la variabilidad climática andina.
 
-El problema central es la asimetría de riesgo e información en la comercialización agrícola: el agricultor asume el riesgo climático y de precio de mercado con escasos mecanismos de cobertura formal, mientras enfrenta una desventaja de acceso a información que limita su participación en mercados más dinámicos (Fan & Salas Garcia, 2018). Los mecanismos de agricultura por contrato pueden mitigar esta asimetría, pero su beneficio no es automático ni se distribuye de forma pareja entre todos los productores si no se diseñan con criterios de inclusión (Otsuka et al., 2016).
+* **When (¿Cuándo?)**
+  * El riesgo climático se materializa de forma creciente en las últimas décadas, con una mayor frecuencia de sequías, heladas y lluvias intensas respecto a periodos anteriores (Heikkinen, 2021).
+  * El ajuste reactivo de los agricultores ante estos choques climáticos, y su correspondiente costo, ocurre en cada ciclo agrícola, inmediatamente después de un año de sequía o de precipitación inusualmente alta (Tambet & Stopnitzky, 2021).
+  * La barrera de acceso a información de mercado, en cambio, es una condición estructural y permanente para los productores que no cuentan con conectividad (Fan & Salas Garcia, 2018).
 
-Where? (¿Dónde?):
+* **Why (¿Por qué?)**
+  * La falta de acceso a internet y telefonía limita la capacidad de los pequeños productores para conocer precios, elegir el mejor canal de venta y negociar mejores condiciones, lo que reduce tanto su participación en mercados rentables como el volumen que logran comercializar (Fan & Salas Garcia, 2018).
+  * La vulnerabilidad climática de los agricultores de montaña está mediada por relaciones de poder asimétricas dentro de las estructuras institucionales de adaptación, que no siempre priorizan la protección de este segmento (Heikkinen, 2021).
 
-El problema se concentra en las zonas de agricultura familiar de pequeña escala de la sierra y costa peruanas. El estudio de Fan y Salas Garcia (2018) utiliza datos representativos a nivel nacional del IV Censo Nacional Agropecuario, mientras que los estudios de caso de Heikkinen (2021) y Tambet y Stopnitzky (2021) sitúan parte de la problemática climática en el valle del río Mantaro, en la sierra central del país, una de las principales zonas productoras de papa y maíz y, a la vez, una de las más expuestas a la variabilidad climática andina.
+* **How (¿Cómo?)**
+  * La ineficiencia se manifiesta en un ingreso incierto para el agricultor, sujeto tanto al precio de mercado al momento de la cosecha como a la ocurrencia de eventos climáticos extremos.
+  * Se manifiesta también en una menor participación en mercados más rentables por falta de acceso a información (Fan & Salas Garcia, 2018).
+  * Y en ajustes productivos reactivos y costosos, como el mayor uso de pesticidas tras una sequía, que no resuelven el problema de fondo de la falta de cobertura de riesgo (Tambet & Stopnitzky, 2021).
 
-When? (¿Cuándo?):
+* **How Much (¿Cuánto?)**
+  * El acceso a internet tiene un efecto positivo y estadísticamente significativo sobre el volumen de venta de los pequeños agricultores peruanos, con un efecto incluso mayor que el de la sola posesión de un teléfono móvil (Fan & Salas Garcia, 2018).
+  * Tras un año de sequía, el uso de pesticidas por parte de los agricultores peruanos de papa y maíz se incrementa en 8 puntos porcentuales (Tambet & Stopnitzky, 2021), un costo productivo adicional y reactivo que un modelo de contratación por temporada con ingreso garantizado, como el propuesto por Allpatek, podría anticipar y gestionar de forma más eficiente.
 
-El riesgo climático se materializa de forma creciente en las últimas décadas, con una mayor frecuencia de sequías, heladas y lluvias intensas respecto a periodos anteriores (Heikkinen, 2021). El ajuste reactivo de los agricultores ante estos choques climáticos, y su correspondiente costo, ocurre en cada ciclo agrícola, inmediatamente después de un año de sequía o de precipitación inusualmente alta (Tambet & Stopnitzky, 2021). La barrera de acceso a información de mercado, en cambio, es una condición estructural y permanente para los productores que no cuentan con conectividad (Fan & Salas Garcia, 2018).
+Para delimitar con precisión el alcance y el impacto del desarrollo del producto de software, el equipo ha establecido los siguientes objetivos:
 
-Why? (¿Por qué?):
+* **Objetivo General:**
+  * Diseñar, desarrollar e implementar un sistema web distribuido (compuesto por una aplicación de interfaz cliente responsive y un RESTful API de desarrollo interno) para la startup Allpatek, que permita a comerciantes urbanos y corporativos contratar por temporada parcelas y la labor de agricultores familiares, formalizando el acuerdo de manera automatizada y garantizando al agricultor un ingreso predecible por la labor realizada.
 
-La literatura identifica dos causas centrales. Primero, la falta de acceso a internet y telefonía limita la capacidad de los pequeños productores para conocer precios, elegir el mejor canal de venta y negociar mejores condiciones, lo que reduce tanto su participación en mercados rentables como el volumen que logran comercializar (Fan & Salas Garcia, 2018). Segundo, la vulnerabilidad climática de los agricultores de montaña está mediada por relaciones de poder asimétricas dentro de las estructuras institucionales de adaptación, que no siempre priorizan la protección de este segmento (Heikkinen, 2021).
+* **Objetivos Específicos:**
+  * Desarrollar una aplicación frontend responsive con un catálogo de parcelas y un flujo de reserva y pago digital para los comerciantes, y un panel ligero para los agricultores, usable en dispositivos Android de gama baja con conectividad intermitente.
+  * Construir un RESTful API del lado del servidor que garantice la persistencia segura, la lógica de negocio de contratos, pagos y calendario de pagos, y el registro de trazabilidad por temporada.
+  * Automatizar mediante n8n la generación y el envío del contrato en PDF tras la confirmación del pago, así como las notificaciones sobre los hitos del ciclo productivo.
+  * Implementar un sistema bidireccional de reputación y calificaciones que construya historial transaccional entre agricultores y comerciantes.
+  * Alcanzar los criterios de éxito planteados: formalizar al menos 150 contratos de temporada en los primeros 8 meses, lograr una tasa de renovación superior al 60 %, reducir el tiempo de formalización a menos de 5 minutos por transacción y ofrecer al comerciante un ahorro de al menos 25 % frente al precio minorista.
 
-How? (¿Cómo?):
+El desarrollo de Allpatek está sujeto a las siguientes restricciones tecnológicas, metodológicas y operativas:
 
-La ineficiencia se manifiesta en un ingreso incierto para el agricultor, sujeto tanto al precio de mercado al momento de la cosecha como a la ocurrencia de eventos climáticos extremos; en una menor participación en mercados más rentables por falta de acceso a información (Fan & Salas Garcia, 2018); y en ajustes productivos reactivos y costosos, como el mayor uso de pesticidas tras una sequía, que no resuelven el problema de fondo de la falta de cobertura de riesgo (Tambet & Stopnitzky, 2021).
-
-How Much? (¿Cuánto?):
-
-La evidencia cuantitativa disponible en la literatura académica revisada muestra, por un lado, que el acceso a internet tiene un efecto positivo y estadísticamente significativo sobre el volumen de venta de los pequeños agricultores peruanos, con un efecto incluso mayor que el de la sola posesión de un teléfono móvil (Fan & Salas Garcia, 2018); y, por otro, que tras un año de sequía el uso de pesticidas por parte de los agricultores peruanos de papa y maíz se incrementa en 8 puntos porcentuales (Tambet & Stopnitzky, 2021), un costo productivo adicional y reactivo que un modelo de contratación por temporada con ingreso garantizado, como el propuesto por Allpatek, podría anticipar y gestionar de forma más eficiente.
+* **Restricciones del modelo de negocio:** el agricultor recibe una retribución por la labor realizada durante la temporada y no por el rendimiento de la cosecha; el contrato se formaliza únicamente tras la confirmación del pago.
+* **Restricciones de usabilidad y conectividad:** la interfaz del agricultor debe funcionar en dispositivos Android de gama baja con datos móviles intermitentes, sin exigir programas extensos de capacitación.
+* **Restricciones de automatización:** la generación del contrato en PDF y las notificaciones por hitos se ejecutan mediante flujos de trabajo de n8n, disparados por la confirmación del pago y por el calendario del ciclo productivo.
+* **Restricciones de alcance geográfico:** la operación inicial se limita a agricultores familiares de valles con exposición climática documentada y a comerciantes urbanos.
+* **Restricciones de proceso y calidad de código:** el proyecto se gestiona bajo el marco ágil Scrum, con código en repositorios de una organización pública de GitHub, aplicando GitFlow, nomenclatura estandarizada en inglés, Conventional Commits y Semantic Versioning (SemVer 2.0.0); los servicios se documentan con OpenAPI Specification a través de Swagger.
+* **Restricciones de idioma y accesibilidad:** el sistema se diseña de forma nativa en español, con soporte de internacionalización (i18n) en inglés y español, y atributos ARIA para garantizar la accesibilidad web (a11y).
 
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-The current state of agricultural commercialization in Peru has focused mainly on a fragmented, information-asymmetric marketing environment in which smallholder farmers with limited internet or phone access are less likely to participate in profitable markets and sell smaller volumes than those with connectivity (Fan & Salas Garcia, 2018). Farmers absorb both market-price risk and climate risk with limited formal coverage mechanisms, while urban buyers have no visibility into production conditions or origin.
+El Problem Statement se deriva directamente del análisis 5W2H: el estado actual del mercado recoge el *Who*, el *What*, el *Where*, el *When* y el *Why*; la brecha que las soluciones existentes no cubren resume el *How*; y los criterios de éxito se anclan en el *How Much*.
 
-What existing products and services fail to address is a transparent, contract-based model that lets a buyer secure agricultural production in advance at direct production cost, while guaranteeing the farmer a predictable income for labor performed rather than for market outcomes, fully formalized and automated without requiring either party to manage legal paperwork manually. The academic literature on contract farming shows this mechanism can raise farmer income and reduce market-price exposure, though its poverty-reduction effect depends on inclusive design that does not favor only better-connected producers (Otsuka et al., 2016).
+**The current state of** agricultural commercialization in Peru has focused mainly on fragmented, information-asymmetric channels in which smallholder family farmers with limited internet and phone access are less likely to reach profitable markets and sell smaller volumes (Fan & Salas Garcia, 2018), while absorbing on their own both the market-price risk and a growing climate risk of droughts, frosts and heavy rains (Heikkinen, 2021; Tambet & Stopnitzky, 2021). On the other side of the chain, urban buyers depend on intermediaries and cannot anticipate the final cost of their produce or trace its origin.
 
-Our product, Allpatek, will address this gap by offering a web platform where buyers can browse and reserve available parcels and farmer labor for a season, complete payment digitally, and automatically receive a legally structured PDF contract and progress notifications throughout the crop cycle, powered by an automated workflow layer (n8n) that removes manual administrative overhead for both farmers and the platform.
+**What existing products and services fail to address is** a formal, digital, season-based contracting model (contract farming; Otsuka et al., 2016) that lets a buyer secure a parcel and farmer labor in advance at direct production cost, while guaranteeing the farmer a predictable income for labor performed rather than for harvest or price outcomes. Such a model must be automated end to end, without manual legal paperwork, and designed inclusively so that less-connected producers are not excluded (Otsuka et al., 2016).
 
-Our initial focus will be on smallholder farming families operating small parcels in agricultural valleys with documented climate exposure, such as the Mantaro river valley in central Peru (Heikkinen, 2021; Tambet & Stopnitzky, 2021), and urban buyers, households, restaurants, and small food businesses, seeking predictable-cost, traceable produce directly from the source, both characterized by low tolerance for the current model's unpredictability and a strong willingness to engage with a transparent seasonal-contract alternative.
+**Our product, Allpatek, will address this gap by** offering a web platform where buyers browse and reserve parcels and farmer labor for a season, pay digitally, and automatically receive a legally structured PDF contract and crop-progress notifications through an n8n workflow. Farmers, in turn, receive a guaranteed payment schedule and a lightweight mobile panel to log seasonal progress, and buyers gain a traceability record of the origin of their produce.
 
-We will know we are successful when we see at least 150 seasonal contracts formalized through the platform within the first 8 months of operation, a farmer income predictability rate, defined as the share of contracted farmers receiving their full agreed payment regardless of yield outcome, of 100% for platform-mediated seasons, and a buyer cost saving of at least 25% compared to the equivalent retail price of the same produce.
+**Our initial focus will be** smallholder farming families operating small parcels in agricultural valleys with documented climate exposure, such as the Mantaro river valley in central Peru (Heikkinen, 2021; Tambet & Stopnitzky, 2021), and urban buyers (households, restaurants and small food businesses) seeking predictable-cost, traceable produce directly from the source. The solution operates under the following constraints: (1) the farmer interface must work on low-end Android devices with intermittent connectivity; (2) contracts and notifications must be generated automatically after payment confirmation through n8n; (3) farmers are paid for labor performed per season, not for yield; and (4) the initial scope is limited to the Mantaro valley and its urban buyers.
+
+**We will know we are successful when we see** at least 150 seasonal contracts formalized through the platform within the first 8 months of operation; a farmer income predictability rate of 100% (share of contracted farmers receiving their full agreed payment regardless of yield outcome); a buyer saving of at least 25% compared to the equivalent retail price of the same produce; a formalization time under 5 minutes per transaction; and a season-to-season contract renewal rate above 60%.
 
 #### 1.2.2.2. Lean UX Assumptions
 
-1. Creemos que la implementación de un catálogo estructurado de parcelas agrícolas que detalle variables clave como ubicación geográfica, tipo de cultivo, duración de la temporada y desglose de costos directos permitirá a los comerciantes urbanos y corporativos evaluar opciones y tomar decisiones de reserva de forma totalmente autónoma y eficiente.
+**Business Assumptions**
+1. Creemos que existen comerciantes urbanos (hogares, restaurantes y pymes de alimentos) dispuestos a pagar por adelantado el costo de una temporada agrícola a cambio de costo directo de producción y trazabilidad del origen.
+2. Creemos que las familias agricultoras de valles como el Mantaro aceptarán pasar de la venta a intermediarios a una retribución fija por labor de temporada, en línea con los mecanismos de *contract farming* (Otsuka et al., 2016).
+3. Creemos que un modelo de comisión por servicio sobre cada contrato es aceptable tanto para agricultores como para comerciantes.
+4. Creemos que vender a costo directo permite ofrecer al comerciante un ahorro de al menos 25 % frente al precio minorista, sin reducir el pago pactado al agricultor.
+5. Creemos que la plataforma es técnicamente factible mediante n8n, una pasarela de pagos digitales y notificaciones por correo y WhatsApp, dentro del alcance del proyecto y del ciclo académico.
 
-2. Creemos que la integración de un módulo de contratación y pasarela de pagos digitales por temporada incrementará sustancialmente la tasa de conversión de reservas, al sustituir la negociación presencial e informal por un flujo comercial estandarizado, ágil y transparente.
+**Business Outcome Assumptions**
+1. Creemos que la plataforma logrará formalizar al menos 150 contratos de temporada en sus primeros 8 meses de operación.
+2. Creemos que más del 60 % de los usuarios registrados renovará su contrato en temporadas consecutivas.
+3. Creemos que la formalización automatizada reducirá el tiempo administrativo a menos de 5 minutos por transacción.
+4. Creemos que las comisiones por servicio permitirán alcanzar el punto de equilibrio operativo durante el primer año de despliegue.
+5. Creemos que los contratos cumplidos y las calificaciones acumuladas generarán confianza y atraerán a nuevos agricultores y comerciantes por recomendación.
 
-3. Creemos que la automatización del proceso de formalización mediante n8n, configurado para compilar y emitir contratos legales en formato PDF de manera inmediata tras la confirmación del pago, reducirá a cero la carga administrativa manual que tradicionalmente enfrentan tanto los agricultores como los comerciantes.
+**User Assumptions**
+1. Creemos que el primer segmento de usuarios está conformado por familias agricultoras de parcelas pequeñas en valles andinos con alta exposición climática, como el Mantaro.
+2. Creemos que estos agricultores usan teléfonos Android de gama baja con datos móviles intermitentes, tienen a WhatsApp como su canal digital principal y poca experiencia con software de gestión agrícola.
+3. Creemos que el segundo segmento está conformado por hogares, restaurantes y pymes de alimentos urbanos, habituados al comercio electrónico, las billeteras digitales y las reservas en línea.
+4. Creemos que estos comerciantes valoran conocer el origen de sus alimentos y prefieren gestionar sus compras en un entorno digital unificado.
+5. Creemos que los agricultores con menor acceso a información de mercado tienen menor capacidad de negociación y de venta (Fan & Salas Garcia, 2018).
 
-4. Creemos que un canal de notificaciones automatizadas enfocado en las hitos del ciclo productivo (preparación del terreno, siembra, etapas de riego y fecha estimada de cosecha) mantendrá un nivel óptimo de visibilidad para el comerciante, disminuyendo la necesidad de consultas individuales directas hacia el productor.
+**User Outcome and Benefit Assumptions**
+1. Creemos que los agricultores buscan un ingreso predecible por su trabajo, desvinculado del precio de mercado en la cosecha y de los eventos climáticos.
+2. Creemos que los agricultores quieren acceder a compradores directos sin intermediarios ni trámites legales manuales.
+3. Creemos que los comerciantes necesitan conocer y fijar su costo desde el inicio de la temporada, con un ahorro frente al precio minorista.
+4. Creemos que los comerciantes necesitan seguir el avance del cultivo y verificar el origen del producto sin tener que consultar directamente al agricultor.
+5. Creemos que ambos perfiles necesitan un contrato formal inmediato tras el pago para confiar en el acuerdo.
 
-5. Creemos que el diseño de una interfaz simplificada para el agricultor, optimizada para su ejecución en dispositivos móviles de gama baja, garantizará una adopción fluida en el Segmento 1 sin exigir programas extensos de capacitación técnica, considerando que el uso de tecnologías móviles ya muestra un impacto favorable en los resultados comerciales de la agricultura familiar (Fan & Salas Garcia, 2018).
-
-6. Creemos que un sistema recíproco de reputación y calificaciones para agricultores y comerciantes fortalecerá la confianza dentro de la comunidad de la plataforma, impulsando la tasa de fidelización y la renovación de acuerdos comerciales en temporadas consecutivas.
+**Feature Assumptions**
+1. Creemos que un catálogo de parcelas con ubicación, tipo de cultivo, duración de la temporada y desglose de costos directos permitirá al comerciante evaluar y decidir su reserva de forma autónoma.
+2. Creemos que un módulo de contratación con pasarela de pagos digitales aumentará la tasa de conversión de reservas frente a la negociación presencial e informal.
+3. Creemos que la generación y el envío del contrato en PDF mediante n8n tras la confirmación del pago eliminará la redacción manual de documentos para ambas partes.
+4. Creemos que las notificaciones automatizadas por hitos (preparación del terreno, siembra, riego y fecha estimada de cosecha) reducirán en al menos 50 % las consultas directas del comerciante al agricultor.
+5. Creemos que un panel móvil ligero para el agricultor, usable en Android de gama baja, permitirá su adopción sin programas extensos de capacitación, considerando que el uso de tecnologías móviles ya muestra un impacto favorable en los resultados comerciales de la agricultura familiar (Fan & Salas Garcia, 2018).
+6. Creemos que un sistema bidireccional de reputación y calificaciones fortalecerá la confianza entre las partes e impulsará la renovación de acuerdos entre temporadas.
+7. Creemos que un calendario de pagos garantizado, visible desde la firma del contrato, dará al agricultor la certeza de ingreso que busca.
+8. Creemos que un registro de trazabilidad por temporada (parcela, agricultor, hitos y fecha de cosecha) dará al comerciante la verificación de origen que necesita.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-#### Hypothesis Statements
+**Hipótesis 1: Catálogo de parcelas y temporadas**
+Creemos que lograremos un aumento del 25 % en la conversión de visita a parcela reservada si los comerciantes urbanos obtienen información transparente y comparable sobre parcelas, cultivos, duración de la temporada y costos directos con un Catálogo de parcelas con búsqueda, mapa de ubicación, calendario de cultivo y precios detallados.
 
-**Hypothesis 1: Parcel & Season Catalog**  
-We believe we will achieve a 25% increase in the conversion rate from initial platform visit to reserved parcel if urban buyers attain transparent, structured, and easily comparable data regarding available land holdings, active crop varieties, seasonal duration, and total direct production costs through a searchable parcel catalog featuring location mapping, crop scheduling, and transparent pricing models.
+**Hipótesis 2: Contratación y pago digital por temporada**
+Creemos que lograremos al menos 150 contratos de temporada formalizados en los primeros 8 meses de operación si los comerciantes y agricultores obtienen un mecanismo digital, sin negociación presencial, para acordar y pagar el arrendamiento de parcelas y de labor agrícola, atendiendo las barreras de acceso al mercado señaladas por Fan y Salas Garcia (2018), con un Módulo de contratación y pago digital que bloquea la reserva al confirmar el pago.
 
-**Hypothesis 2: Digital Season Contracting & Payment**  
-We believe we will achieve at least 150 seasonal contracts formalized within the first 8 months of operation if buyers and farmers attain a fully digital, friction-free mechanism to agree upon and execute payments for seasonal land leases and agricultural labor without physical negotiation—thereby addressing the structural market-access barriers highlighted by Fan and Salas Garcia (2018) through an integrated contracting and digital payment module that locks parcel reservations upon payment confirmation.
+**Hipótesis 3: Generación automática de contratos (n8n)**
+Creemos que lograremos reducir el tiempo administrativo a menos de 5 minutos por transacción si los agricultores y comerciantes obtienen un contrato legal generado al instante y enviado por correo, sin redacción manual, con un Flujo automatizado en n8n que genera y envía el contrato en PDF al verificar el pago.
 
-**Hypothesis 3: Automated Legal Contract Generation (n8n)**  
-We believe we will achieve a reduction in administrative overhead to under 5 minutes per transaction for both contracting parties if farmers and buyers attain an instantly generated, legally compliant contract delivered via email upon payment processing without manual document drafting through an automated workflow orchestrated by n8n that triggers PDF contract generation and dispatch upon payment verification.
+**Hipótesis 4: Notificaciones de avance del cultivo**
+Creemos que lograremos una reducción de al menos 50 % en las consultas directas del comerciante al agricultor si los comerciantes obtienen seguimiento automático de la siembra, los hitos de riego y la fecha estimada de cosecha con un Sistema de notificaciones de avance del cultivo por correo y WhatsApp.
 
-**Hypothesis 4: Crop Progress Notification System**  
-We believe we will achieve a reduction of at least 50% in direct buyer-to-farmer inquiries regarding crop development throughout the active season if buyers attain automated, real-time tracking updates detailing planting schedules, irrigation milestones, and estimated harvest dates without requiring direct producer intervention through an automated notification system delivering personalized status alerts via email and messaging channels.
+**Hipótesis 5: Panel móvil del agricultor**
+Creemos que lograremos una tasa de registro semanal de avances superior al 70 % si los agricultores con baja alfabetización digital y conectividad limitada (Fan & Salas Garcia, 2018) obtienen una interfaz simple y de bajo consumo de datos, usable en Android de gama baja y sin capacitación extensa, con un Panel móvil ligero para registrar hitos agrícolas.
 
-**Hypothesis 5: Farmer Progress Panel**  
-We believe we will achieve an active weekly logging rate above 70% among participating producers if farmers operating under limited digital literacy and constrained connectivity conditions (Fan & Salas Garcia, 2018) attain an intuitive, low-bandwidth interface to record seasonal progress from entry-level Android mobile devices without extensive technical onboarding through a lightweight, offline-resilient farmer panel optimized for logging key agricultural milestones.
+**Hipótesis 6: Reputación y calificaciones**
+Creemos que lograremos una tasa de renovación superior al 60 % entre temporadas si los comerciantes y agricultores obtienen visibilidad mutua del historial y desempeño antes de comprometerse, reduciendo el riesgo de excluir a productores menos conectados (Otsuka et al., 2016), con un Módulo de reputación y calificaciones bidireccional.
 
-**Hypothesis 6: Rating & Reputation Module**  
-We believe we will achieve a season-to-season contract renewal rate exceeding 60% among registered users if buyers and producers attain mutual visibility into verifiable transaction histories and performance metrics prior to finalizing seasonal commitments—mitigating the risk of marginalizing less-connected agricultural producers within formal value chains (Otsuka et al., 2016)—through a two-sided rating and reputation framework that logs completed seasonal agreements and peer feedback.
+**Hipótesis 7: Calendario de pagos garantizado**
+Creemos que lograremos una previsibilidad de ingreso del 100 % (pago total pactado sin importar el rendimiento de la cosecha) si los agricultores familiares obtienen un pago predecible por la labor realizada, independiente del precio de mercado y del clima, con un Calendario de pagos garantizado, visible desde la firma del contrato, que libera los pagos por hitos de la temporada.
+
+**Hipótesis 8: Transparencia de costos y ahorro**
+Creemos que lograremos un ahorro de al menos 25 % frente al precio minorista equivalente si los comerciantes urbanos obtienen un costo directo fijo y desglosado antes de comprometerse con una temporada con un Comparador de costos directos frente al precio minorista integrado en el catálogo.
+
+**Hipótesis 9: Trazabilidad del origen**
+Creemos que lograremos registros de trazabilidad completos en al menos 80 % de las temporadas finalizadas si los comerciantes urbanos obtienen información verificable sobre el origen y el avance de su producto con un Registro de trazabilidad por temporada (parcela, agricultor, hitos y fecha de cosecha) accesible desde la página del contrato.
 
 #### 1.2.2.4. Lean UX Canvas
 
-| Bloque | Contenido de Negocio y Producto para Allpatek |
-| :--- | :--- |
-| **1. Business Problem** | La agricultura familiar en el Perú opera bajo un esquema de comercialización altamente fragmentado y desestructurado. Los pequeños productores con conectividad limitada enfrentan asimetrías de información que reducen su margen de negociación y volumen de ventas (Fan & Salas Garcia, 2018), asumiendo de manera individual el impacto de la variabilidad climática —heladas, sequías y precipitaciones extremas sobre sus rendimientos (Heikkinen, 2021; Tambet & Stopnitzky, 2021). Actualmente, el ecosistema agrotech peruano carece de una plataforma integral que aplique un modelo formalizado de *contract farming* (Otsuka et al., 2016) mediante el cual se pueda reservar y financiar por anticipado la producción de una temporada. |
-| **2. Business Outcomes** | • Concretar la formalización de un mínimo de 150 contratos de temporada en los primeros 8 meses de operación comercial.<br/>• Mantener una tasa de fidelización y renovación de contratos por temporada superior al 60% entre los agricultores registrados.<br/>• Reducir la latencia administrativa de formalización a menos de 5 minutos por transacción a través de flujos automatizados.<br/>• Ofrecer a los comerciantes urbanos un margen de ahorro no menor al 25% respecto a las tarifas minoristas del mercado tradicional.<br/>• Alcanzar el punto de equilibrio operativo de la plataforma mediante comisiones por servicio durante el primer año de despliegue. |
-| **3. Users & Customers** | **Segmento 1 (Agricultores familiares):** Pequeños productores agrarios con acceso limitado a canales comerciales de valor (Fan & Salas Garcia, 2018), concentrados en regiones andinas con alto nivel de exposición climática, tales como el valle del río Mantaro (Heikkinen, 2021).<br/><br/>**Segmento 2 (Comerciantes urbanos y corporativos):** Hogares, establecimientos gastronómicos y pymes del sector alimentario ubicados en zonas urbanas que requieren previsibilidad de costos, suministro directo y trazabilidad completa del origen de sus insumos. |
-| **4. User Benefits** | **Para el agricultor:** Mitigación del riesgo de mercado y climático al asegurar un ingreso garantizado por el trabajo estacional realizado, superando las barreras de intermediación comercial (Fan & Salas Garcia, 2018).<br/><br/>**Para el comerciante:** Reducción sustancial del costo de adquisición, transparencia en el origen del producto, emisión automática de documentación contractual legalizada y monitoreo directo sobre el avance del cultivo. |
-| **5. Solution Ideas** | • Catálogo interactivo de parcelas agrícolas con desglose transparente de costos directos, cultivos y tiempos de cosecha.<br/>• Módulo de reserva y pasarela de pagos digitales para la contratación de temporadas.<br/>• Arquitectura de automatización basada en **n8n** para la generación y envío instantáneo de contratos en PDF tras la confirmación del pago.<br/>• Sistema multicanal de notificaciones automatizadas (correo electrónico y WhatsApp) para el seguimiento de hitos agrícolas.<br/>• Panel de gestión móvil optimizado para dispositivos de gama baja, enfocado en el registro simplificado de avances de campo.<br/>• Sistema de reputación y valoración bidireccional para construir historial transaccional entre agricultores y comerciantes. |
-| **6. Hypotheses** | Se formulan seis declaraciones de hipótesis orientadas a validar el valor del producto, en correspondencia directa con cada idea de solución propuesta y alineadas a la estructura estándar del marco Lean UX (*outcome - persona - benefit - feature*). |
-| **7. What's the Most Important Thing We Need to Learn First?** | • ¿Existe disposición real en los comerciantes urbanos y corporativos para realizar pagos por adelantado correspondientes al costo total de una temporada agrícola a cambio de menores costos y trazabilidad?<br/><br/>• ¿Resulta atractivo para los pequeños agricultores migrar desde un esquema de venta al barrer hacia un modelo de retribución fija garantizada por temporada, considerando sus restricciones históricas de acceso a información de mercado (Fan & Salas Garcia, 2018)? |
-| **8. What's the Least Amount of Work We Need to Learn the Next Most Important Thing?** | • Desplegar entrevistas cualitativas profundas y sesiones de validación con pequeños productores del valle del Mantaro y representantes de negocios gastronómicos urbanos.<br/><br/>• Diseñar un prototipo interactivo en Figma de fidelidad media/alta para evaluar la usabilidad del catálogo de parcelas, el flujo de pago digital y la interfaz de seguimiento, realizando pruebas guiadas con usuarios finales. |
+El Lean UX Canvas es una herramienta ágil que sintetiza los elementos clave del proceso Lean UX en un único artefacto visual colaborativo. A continuación, se presenta el canvas desarrollado por el equipo para el diseño y concepción de Allpatek:
+
+*Lean UX Canvas*
+
+<p align="center">
+  <img src="assets/chapter-01/lean-ux-canvas1.png" alt="Lean UX Canvas de Allpatek" width="800"><br>
+  <i>Nota. Elaboración propia.</i>
+</p>
+
+
+<p align="center"> Enlace público del Lean UX Canvas: (https://miro.com/app/board/uXjVHInt5w4=/) </p>
+
 
 ## 1.3. Segmentos objetivo
 
 Allpatek dirige su propuesta de valor a dos segmentos objetivo que se ubican en extremos opuestos, pero complementarios, del modelo de Agro-as-a-Service: quienes ofrecen la tierra y el trabajo agrícola, y quienes contratan ese trabajo por temporada.
 
+---
+
 ### Segmento 1: Agricultura Familiar y Pequeños Productores
 
-Descripción general: Este segmento está integrado por pequeños productores agrarios y comunidades agrícolas familiares que cultivan parcelas de escala reducida en valles y zonas rurales andinas. Se caracterizan por operar dentro de un entorno con conectividad móvil limitada pero en gradual expansión, mientras asumen directamente el impacto de la variabilidad climática sobre sus ciclos productivos (Fan & Salas Garcia, 2018; Heikkinen, 2021; Tambet & Stopnitzky, 2021).
+**Descripción general**
+Este segmento está integrado por pequeños productores agrarios y comunidades agrícolas familiares que cultivan parcelas de escala reducida en valles y zonas rurales andinas. Se caracterizan por operar dentro de un entorno con conectividad móvil limitada pero en gradual expansión, mientras asumen directamente el impacto de la variabilidad climática sobre sus ciclos productivos (Fan & Salas Garcia, 2018; Heikkinen, 2021; Tambet & Stopnitzky, 2021).
 
-Características conductuales y tecnológicas:
-
+**Características conductuales y tecnológicas**
 * Emplean principalmente teléfonos inteligentes Android de gama baja o de entrada, operando bajo conexiones a datos móviles intermitentes o de baja cobertura en zonas de campo.
 * Su uso digital cotidiano se concentra casi exclusivamente en WhatsApp, aplicación que funciona como su vía principal para coordinar ventas con intermediarios locales, comunicarse con sus redes familiares y mantener contacto con comerciantes.
 * Cuentan con poca trayectoria en el manejo de plataformas o software de gestión agrícola, pero muestran una alta disposición a adoptar herramientas sencillas que les garanticen estabilidad económica e ingresos predecibles.
 
-Necesidades y dolores principales:
-
+**Necesidades y dolores principales**
 * Requieren un esquema de retribución garantizado por la temporada de cultivo que desvincule sus ingresos de las caídas drásticas de precios en los mercados mayoristas al momento de cosechar.
 * Necesitan mecanismos de protección frente a eventos meteorológicos adversos. La evidencia científica muestra que los productores peruanos aplican adaptaciones reactivas y económicamente costosas ante contingencias como las sequías, incrementando por ejemplo hasta en ocho puntos porcentuales el uso de plaguicidas sintéticos para salvar sus cultivos (Tambet & Stopnitzky, 2021), al no contar con coberturas previas.
 * Buscan superar la brecha histórica de información comercial que hoy condiciona su capacidad de negociación, limita su acceso a canales de venta directa con mejores márgenes y reduce los volúmenes totales que logran comercializar (Fan & Salas Garcia, 2018).
 
-Datos de sustento académico: Fan y Salas Garcia (2018), utilizando datos del IV Censo Nacional Agropecuario (CENAGRO 2012), demuestran que disponer de telefonía e internet eleva de forma estadísticamente significativa la probabilidad de que un pequeño agricultor logre insertarse en mercados regionales, nacionales o de exportación, potenciando directamente el volumen vendido. Por su parte, Heikkinen (2021) documenta en el valle del río Mantaro una presencia cada vez más recurrente de heladas no estacionales, lluvias intensas y sequías prolongadas. Asimismo, Tambet y Stopnitzky (2021), a partir de los datos de la Encuesta Nacional Agropecuaria (ENA) del INEI cruzados con registros climáticos históricos, confirman que las alteraciones del clima imponen ajustes operativos directos y sobrecostos sobre las decisiones de producción de las familias dedicadas al cultivo de papa y maíz.
+**Datos de sustento académico**
+Fan y Salas Garcia (2018), utilizando datos del IV Censo Nacional Agropecuario (CENAGRO 2012), demuestran que disponer de telefonía e internet eleva de forma estadísticamente significativa la probabilidad de que un pequeño agricultor logre insertarse en mercados regionales, nacionales o de exportación, potenciando directamente el volumen vendido. Por su parte, Heikkinen (2021) documenta en el valle del río Mantaro una presencia cada vez más recurrente de heladas no estacionales, lluvias intensas y sequías prolongadas. Asimismo, Tambet y Stopnitzky (2021), a partir de los datos de la Encuesta Nacional Agropecuaria (ENA) del INEI cruzados con registros climáticos históricos, confirman que las alteraciones del clima imponen ajustes operativos directos y sobrecostos sobre las decisiones de producción de las familias dedicadas al cultivo de papa y maíz.
+
+---
 
 ### Segmento 2: Comerciantes urbanos / familias, restaurantes y pequeños negocios de alimentos
 
-Descripción general: Este segmento comprende a consumidores individuales, hogares urbanos, establecimientos gastronómicos y pymes del sector alimentario ubicados en centros urbanos. Se caracterizan por su interés en adquirir productos agrícolas frescos directamente desde el origen, buscando tarifas previsibles, transparencia en la cadena de insumos y trazabilidad garantizada.
+**Descripción general**
+Este segmento comprende a consumidores individuales, hogares urbanos, establecimientos gastronómicos y pymes del sector alimentario ubicados en centros urbanos. Se caracterizan por su interés en adquirir productos agrícolas frescos directamente desde el origen, buscando tarifas previsibles, transparencia en la cadena de insumos y trazabilidad garantizada.
 
-Características conductuales y tecnológicas:
-
+**Características conductuales y tecnológicas**
 * Interactúan de manera continua con plataformas móviles de comercio electrónico, billeteras digitales y aplicaciones de reserva de servicios, lo que simplifica su curva de aprendizaje para interactuar con el módulo de contratación de Allpatek.
 * Muestran un interés creciente por la procedencia de los alimentos que consumen o comercializan, valorando la posibilidad de construir un vínculo comercial directo y transparente con los productores agrícolas.
 * Priorizan la optimización de tiempos en sus procesos operacionales y administrativos, prefiriendo entornos digitales unificados a la gestión presencial o informal.
 
-Necesidades y dolores principales:
-
+**Necesidades y dolores principales**
 * Exigen previsibilidad presupuestaria y estabilización de costos ante la volatilidad recurrente de los precios mayoristas, en un contexto donde las brechas de información entre el campo y la ciudad dificultan la comercialización directa (Fan & Salas Garcia, 2018).
 * Buscan recortar los márgenes de intermediación en la cadena de distribución tradicional, reduciendo el sobreprecio acumulado y asegurando mayor frescura en los insumos.
 * Requieren un canal digital estructurado que les permita asegurar y formalizar la producción de una temporada agrícola mediante acuerdos legales automáticos, evitando la gestión manual de documentos o transferencias desordenadas.
 
-Datos de sustento académico: El análisis de Otsuka et al. (2016) sobre modelos de agricultura por contrato en economías emergentes confirma que los acuerdos formales previos sobre precios, volúmenes y estándares de calidad constituyen un mecanismo eficaz para reducir la incertidumbre transaccional en ambos extremos de la cadena de suministro. Allpatek adapta esta dinámica al contexto urbano peruano mediante una plataforma digital que automatiza la formalización contractual y mitiga de forma directa las asimetrías informativas señaladas por Fan y Salas Garcia (2018).
+**Datos de sustento académico**
+El análisis de Otsuka et al. (2016) sobre modelos de agricultura por contrato en economías emergentes confirma que los acuerdos formales previos sobre precios, volúmenes y estándares de calidad constituyen un mecanismo eficaz para reducir la incertidumbre transaccional en ambos extremos de la cadena de suministro. Allpatek adapta esta dinámica al contexto urbano peruano mediante una plataforma digital que automatiza la formalización contractual y mitiga de forma directa las asimetrías informativas señaladas por Fan y Salas Garcia (2018).
+
+---
 
 # Capítulo II: Requirements Elicitation & Analysis
 
