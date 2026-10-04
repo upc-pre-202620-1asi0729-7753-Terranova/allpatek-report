@@ -2799,19 +2799,173 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
 #### 5.2.2.3. Sprint Backlog 2
 
 
-| Sprint | User Story ID | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Sprint 2** | | | | | | | |
-| **Sprint 2** | | | | | | | |
-| **Sprint 2** | | | | | | | |
-| **Sprint 2** | | | | | | | |
-| **Sprint 2** | | | | | | | |
-| **Sprint 2** | | | | | | | |
-| **Sprint 2** | | | | | | | |
-| **Sprint 2** | | | | | | | |
-| **Sprint 2** | | | | | | | |
-| **Sprint 2** | | | | | | | |
-| **Sprint 2** | | | | | | | |
+<table>
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #dddddd; padding: 10px;">Sprint</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">User Story ID</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">Task ID</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">Task Title</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">Description</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">Estimation (Hours)</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">Assigned To</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US08</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T001</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Interfaz de vista previa de cláusulas del contrato digital</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Maquetar la pantalla Contract Signature desplegando las cláusulas de arrendamiento, plan de pagos e hitos Escrow.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US08</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T002</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Componente de firma digital y aceptación de términos</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Implementar el panel lateral de carga de imagen de firma, checkbox de aceptación y botón de envío de contrato.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US16</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T003</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Vista de datos personales del perfil de usuario</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Construir la sección Personal Data en User Profile con campos para nombre completo, DNI, teléfono, dirección y correo.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US16</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T004</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Vista de información comercial de la empresa</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Desarrollar la sección Commercial Details mostrando razón social de la empresa, RUC y rubro comercial.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">4</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US04</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T005</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Línea de tiempo para selección de hitos de cultivo</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Diseñar el componente Milestone Timeline con estados habilitados y bloqueados para las 4 etapas del proyecto agrícola.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US04</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T006</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Formulario de carga de archivos de evidencia fotográfica</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Implementar la zona interactiva de arrastre de archivos (JPG, PNG, PDF) y campo de observaciones para el hito.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US04</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T007</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Tabla de registro e historial de evidencias enviadas</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Construir la tabla Traceability and Evidence con contadores de evidencias totales, tipo de evidencia y estado de auditoría.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US05</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T008</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Panel de métricas climáticas en tiempo real</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Diseñar las tarjetas métricas de Climate Alerts mostrando temperatura actual, humedad relativa, precipitación y velocidad del viento.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US05</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T009</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Componente de alertas de riesgo agronómico activo</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Implementar la tarjeta de estado Active Risk Alerts con indicador de nivel de severidad y descripción del evento.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US03</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T010</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Dashboard de saldos en la bóveda de custodia Escrow</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Maquetar la vista Payment Vault desplegando las tarjetas de monto total retenido y avance de porcentaje liberado.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US03</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T011</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Sección de contratos activos y seguimiento de desembolsos por hito</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Construir el panel Active Contract con datos de las partes, parcela vinculada y avance de desbloqueo de fondos de las 4 etapas.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US09</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T012</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Formulario interactivo para vinculación de tarjeta bancaria</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Construir la pantalla Add card con el diseño gráfico de tarjeta de débito/crédito y campos de número, titular, expiración y CVV.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US06</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T013</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Tarjeta interactiva de resumen de parcela agrícola</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Diseñar la tarjeta informativa del lote en My Parcels mostrando imagen, extensión en hectáreas, coordenadas GPS, tipo de suelo y costo.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US06</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T014</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Formulario de registro de especificaciones de nueva parcela</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Implementar la pantalla Register New Parcel con campos para nombre, hectáreas, tipo de suelo, costo por campaña y cultivos ideales.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US08</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T015</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Estructura de navegación lateral y selector de idioma en SPA</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Maquetar el menú lateral principal con accesos a módulos, tarjeta de perfil de usuario logueado y selector de idioma EN/ES.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 
