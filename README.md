@@ -2724,20 +2724,19 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
 
+
+
 <table>
   <thead>
     <tr style="background-color: #f2f2f2;">
       <th style="border: 1px solid #dddddd; padding: 10px;">Team Member</th>
       <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">-/th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">-/th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">-/th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">-/th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">-/th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">-/th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">-/th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">-/th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">-/th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">agreements-management</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">alerts-management</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">escrow-payments</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">parcel-management</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">tracking-evidence</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">shared</th>
     </tr>
   </thead>
   <tbody>
@@ -2745,10 +2744,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Alexander1Alexander2</td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
@@ -2759,10 +2755,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">MiguelAngel0107</td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
@@ -2770,15 +2763,12 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">melandree8</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
@@ -2786,10 +2776,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
     </tr>
@@ -2800,14 +2787,12 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
     </tr>
   </tbody>
 </table>
+
 
 
 
