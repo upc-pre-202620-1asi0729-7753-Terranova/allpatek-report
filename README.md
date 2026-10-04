@@ -2666,6 +2666,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
 ### 5.2.2. Sprint 2
 #### 5.2.2.1. Sprint Planning 2
 
+
 <table>
   <tr>
     <th colspan="5">Sprint #</th>
@@ -2676,11 +2677,11 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
   </tr>
   <tr>
     <td colspan="5">Date</td>
-    <td colspan="8"></td>
+    <td colspan="8">2026-10-04</td>
   </tr>
   <tr>
     <td colspan="5">Time</td>
-    <td colspan="8"></td>
+    <td colspan="8">04:20 PM</td>
   </tr>
   <tr>
     <td colspan="5">Location</td>
@@ -2696,26 +2697,26 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
   </tr>
   <tr>
     <td colspan="5">Sprint 1 Review Summary</td>
-    <td colspan="8"></td>
+    <td colspan="8">Se completaron y desplegaron exitosamente la Landing Page y la configuración de SDC con puntaje máximo. Sin embargo, el feedback de la entrega anterior requiere subsanar brechas en el proceso Lean UX (definición incompleta de supuestos de negocio/usuario en Needfinding), reestructurar la arquitectura interna y diagramas de clases alineándolos a Domain-Driven Design (DDD, incluyendo la SPA y Value Objects), e incorporar historias de usuario omitidas en el Backlog.</td>
   </tr>
   <tr>
     <td colspan="5">Sprint 1 Retrospective Summary</td>
-    <td colspan="8"></td>
+    <td colspan="8">El equipo acordó equilibrar la contribución y distribución de commits en el repositorio de GitFlow entre todos los integrantes, estandarizar la nomenclatura de archivos según las convenciones del curso, enriquecer la redacción de conclusiones y realizar una descomposición rigurosa de las User Stories en tareas de ingeniería con estimaciones de entre 4 y 8 horas.</td>
   </tr>
   <tr>
     <td colspan="13"><strong>Sprint Goal & User Stories</strong></td>
   </tr>
   <tr>
     <td colspan="5">Sprint 2 Goal</td>
-    <td colspan="8"></td>
+    <td colspan="8">Our focus is on automating contract delivery workflows via n8n and providing real-time crop progress notifications to agricultural investors.<br><br>We believe it delivers transparency, legal assurance, and continuous visibility of agricultural investments to investors and farmers.<br><br>This will be confirmed when 100% of signed agreements automatically generate and deliver PDF contracts to user inboxes within 1 minute, and investors receive real-time status updates in the SPA for every crop milestone updated by farmers.</td>
   </tr>
   <tr>
     <td colspan="5">Sprint 2 Velocity</td>
-    <td colspan="8"></td>
+    <td colspan="8">32 Story Points</td>
   </tr>
   <tr>
     <td colspan="5">Sum of Story Points</td>
-    <td colspan="8"></td>
+    <td colspan="8">28 Story Points</td>
   </tr>
 </table>
 
