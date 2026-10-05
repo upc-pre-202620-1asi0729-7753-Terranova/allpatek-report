@@ -2662,6 +2662,48 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
 #### 5.2.2.2. Aspect Leaders and Collaborators
 #### 5.2.2.3. Sprint Backlog 2
 #### 5.2.2.4. Development Evidence for Sprint Review
+
+La siguiente tabla registra los commits de `allpatek-webapp` disponibles en las referencias locales. Los hashes, mensajes, cuerpos y fechas se obtuvieron directamente de Git. Se conservan 33 commits de `origin/develop` y tres ajustes de `feature/allpatek-bugfixes`, todavía fuera de esa referencia de integración. Las ramas de cada módulo indican de dónde provino el trabajo.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| --- | --- | --- | --- | --- | --- |
+| allpatek-webapp | develop | b7e0f33ee39076294858dbf4f139c56cf91ca1e7 | chore: configure workspace environments and app shell | Sin cuerpo | 2026-10-02 |
+| allpatek-webapp | develop | 9b10d1e53a529a8a9dfb1bb9dd83a4f7e9d6e918 | feat: add shared kernel with session and profiles | Sin cuerpo | 2026-10-02 |
+| allpatek-webapp | feature/tracking-evidence | 8bf634b486f3692de7944eb81a555aa8630da6b8 | chore: add bounded context folders | Sin cuerpo | 2026-10-02 |
+| allpatek-webapp | feature/agreements-management | 995c9fdc9cd12e684163680aba05d0317b2d17d7 | feat: add agreements domain model | Sin cuerpo | 2026-10-03 |
+| allpatek-webapp | feature/agreements-management | 70d8aa9773181e21d9e2d37011691084dd6ac58a | feat: add agreements infrastructure | Sin cuerpo | 2026-10-03 |
+| allpatek-webapp | feature/agreements-management | f4eb370b09e1949bc998cfe7e312741865a9a853 | feat: add agreements application store | Sin cuerpo | 2026-10-03 |
+| allpatek-webapp | feature/agreements-management | 47d3d7b1dd0ce8df3fb023a154f9fed29aa386af | feat: add agreements presentation views | Sin cuerpo | 2026-10-03 |
+| allpatek-webapp | develop | 2b7dc4c505248d28fe0206f4b42cab84bbfec7ea | feat: wire agreements routes | Sin cuerpo | 2026-10-03 |
+| allpatek-webapp | develop | 917ba1b3121481c49f2340a67ebe5cfc039c1bd7 | Merge  branch 'feature/agreements-management' into develop | Sin cuerpo | 2026-10-03 |
+| allpatek-webapp | feature/alerts-management | f8110834ca59a41eda9ae754c8e6b1ba827ea48a | feat: add climate reading model used by parcel weather alerts | Sin cuerpo | 2026-10-03 |
+| allpatek-webapp | feature/alerts-management | dc100e45388b73952be15cbd50341d9add8b9155 | feat: integrate Open-Meteo forecast client inside alerts infrastructure | Sin cuerpo | 2026-10-03 |
+| allpatek-webapp | feature/alerts-management | 6c9ff83c48e562ea87ee8b936c7f0cdad935ec3c | feat: load farmer climate readings through the alerts application store | Sin cuerpo | 2026-10-03 |
+| allpatek-webapp | feature/alerts-management | 7e4cc8d3ff6c21aa45efa0fba9550334603f4fb0 | feat: present climate board with weather metrics and field warnings | Sin cuerpo | 2026-10-03 |
+| allpatek-webapp | develop | c7f7c00704ee5ee7f8980159d4880cbe98ad6abf | feat: register farmer-only alerts routes in the workspace shell | Sin cuerpo | 2026-10-03 |
+| allpatek-webapp | develop | ffbf30c173c5fb6a6b001e69894622c62721607b | Merge branch 'feature/alerts-management' into develop | Sin cuerpo | 2026-10-03 |
+| allpatek-webapp | feature/escrow-payments | c75cea87b7d81ec105683192e6cef720d7d35536 | feat: introduce escrow payment entities | Sin cuerpo | 2026-10-03 |
+| allpatek-webapp | feature/escrow-payments | d0470ed6e9d7ae85b0e6239dc9c99465da2372b5 | feat: connect wallets to the platform API | Sin cuerpo | 2026-10-03 |
+| allpatek-webapp | feature/escrow-payments | 61501fd5d27224be70061d4384ab59a250f33674 | feat: implement escrow vault store | Sin cuerpo | 2026-10-03 |
+| allpatek-webapp | feature/escrow-payments | df1552765970a60482936daf5e0e6399a6009bae | feat: build vault and deposit screens | Sin cuerpo | 2026-10-03 |
+| allpatek-webapp | develop | 0abae2dfa7de313e6f1fa69ab31919fe36790c33 | feat: register escrow payment routes | Sin cuerpo | 2026-10-03 |
+| allpatek-webapp | develop | 577d3b9ff3782a3cb4867dbe3f737de17dbadb55 | Merge branch 'feature/escrow-payments' into develop | Sin cuerpo | 2026-10-04 |
+| allpatek-webapp | feature/parcel-management | 089c544c9fe02707eed852c9d69538a9be495e2a | feat: define parcel entity and campaign cost helpers | Sin cuerpo | 2026-10-04 |
+| allpatek-webapp | feature/parcel-management | 4c9acfd8972c3bf64f507a5916443e808e997eab | feat: expose parcel persistence through the platform API | Sin cuerpo | 2026-10-04 |
+| allpatek-webapp | feature/parcel-management | 63d40007231af37f0321de3cd84e2eff0b960883 | feat: coordinate parcel catalog state in the application store | Sin cuerpo | 2026-10-04 |
+| allpatek-webapp | feature/parcel-management | d64b835f0e4932c6929952195882171be4429131 | feat: render parcel board, form and detail workspace screens | Sin cuerpo | 2026-10-04 |
+| allpatek-webapp | develop | 1da2d298165d8fc071c5b09cb4af2c5c635ca914 | feat: mount parcel routes as the workspace landing path | Sin cuerpo | 2026-10-04 |
+| allpatek-webapp | develop | 375a16fcdee3552d9d110e5e0566fb23dc48d5a3 | Merge branch 'feature/parcel-management' into develop | Sin cuerpo | 2026-10-04 |
+| allpatek-webapp | feature/tracking-evidence | a6c8547b79f52207b919818c3b77d80f0534d988 | feat: model milestone evidence submitted for activated contracts | Sin cuerpo | 2026-10-04 |
+| allpatek-webapp | feature/tracking-evidence | 79878f15d2fb639fdd18a0c40848f4536ced92fb | feat: persist milestone evidence through the platform evidence API | Sin cuerpo | 2026-10-04 |
+| allpatek-webapp | feature/tracking-evidence | 282dcb9bea604d9184a642c10dff4638c7bf3fb7 | feat: orchestrate evidence status transitions in the application store | Sin cuerpo | 2026-10-04 |
+| allpatek-webapp | feature/tracking-evidence | 4e2283e109a4ead5cdf824b582a7ee0c2f4511c3 | feat: ship farmer upload and merchant review evidence screens | Sin cuerpo | 2026-10-04 |
+| allpatek-webapp | develop | 224b062d5eeb1121c1060eb7d9330da2af8f2831 | feat: attach evidence routes for farmer upload and merchant review | Sin cuerpo | 2026-10-04 |
+| allpatek-webapp | develop | 8917d4e1b66a4aa0208a3d568ae49d7a9b2b93d7 | Merge branch 'feature/tracking-evidence' into develop | Sin cuerpo | 2026-10-04 |
+| allpatek-webapp | feature/allpatek-bugfixes | d07a9dac63c133c051842466d89c5630d356d2a8 | refactor: hoist money and contract code helpers into the shared kernel | Bounded contexts now reuse one parseMoney and contractCode implementation instead of shipping identical copies. | 2026-10-05 |
+| allpatek-webapp | feature/allpatek-bugfixes | e45dead6ed8a3fc3b6109f1483dc93b02bc98b2c | fix: drop B2B wording from the merchant role label | Keep the register role cards unchanged and show Merchant or Comerciante only. | 2026-10-05 |
+| allpatek-webapp | feature/allpatek-bugfixes | 5f04e6b841807838c398bdbd8fb1ba08ab8ce85d | fix: open the workspace by chosen role without checking credentials | Farmer and merchant enter at once from Create Account. Email and password stay on screen but are not used. | 2026-10-05 |
+
 #### 5.2.2.5. Execution Evidence for Sprint Review
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
