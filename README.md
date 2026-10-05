@@ -3069,6 +3069,66 @@ Corresponde al tablero desde el cual el agricultor administra los entregables co
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 
+### 1. Introducción
+
+En este Sprint se completó la especificación, documentación y despliegue del contrato REST de la **Fake API de Allpatek** (`allpatek-platform-mock`). El servicio fue desarrollado sobre Node.js utilizando `json-server` (v0.17.4), exponiendo sus recursos bajo la ruta base de versión `/api/v1`.
+
+###  Logros Alcanzados en Web Services
+* **Definición de Contrato REST:** Especificación de los recursos requeridos por los distintos Bounded Contexts del sistema Allpatek.
+* **Estandarización de Rutas:** Implementación del prefijo de versión `/api/v1` y disponibilidad de un endpoint de verificación de estado (`/api/v1/health`).
+* **Despliegue Cloud en Azure:** Publicación del servicio en **Azure App Service** (Región Chile Central).
+* **Consumo Dinámico:** Integración transparente desde la aplicación Web Angular a través del archivo de configuración `environment.ts`.
+
+###  Entornos de Servicio
+
+* **URL Base Desplegada (Producción/Staging):**  
+  `https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1`
+
+* **URL Base Local (Entorno de Desarrollo):**  
+  `http://localhost:3000/api/v1`
+
+
+### 2. Repositorio y Commits de Documentación
+
+* **Repositorio de Web Services (GitHub):**  [Repositorio Web Mock Api](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock)
+
+###  Commits Relacionados con el Contrato de Servicios
+| Commit Hash | Tipo / Mensaje de Commit | Descripción / Alcance |
+| :---: | :--- | :--- |
+| `7f27faa` | `feat(api): add Allpatek mock API` | Implementación inicial del contrato de la Fake API y esquemas de datos. |
+| `0b22df8` | `chore(merge): resolve conflict in README.md` | Resolución de conflictos y documentación del contrato en el README. |
+| `49fd999` | `Initial commit` | Inicialización de la estructura del repositorio de Web Services. |
+
+
+
+### 3. Matriz de Endpoints del Alcance del Sprint
+
+> **Ruta Base (`BASE`):** `https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1`
+
+| Endpoint | Verbo HTTP | Bounded Context | Descripción de Acción | URL Documentada / Desplegada |
+| :---: | :---: | :---: | :---: | :---: |
+| `/health` | `GET` | Plataforma / Core | Verificar disponibilidad del servicio | `BASE/health` |
+| `/profiles` | `GET` | Shared Context | Obtener lista o detalle de perfiles | `BASE/profiles` |
+| `/profiles/{id}` | `PUT` | Shared Context | Actualizar perfil de usuario | `BASE/profiles/{id}` |
+| `/users` | `GET` | Shared Context | Consultar usuarios por rol o id | `BASE/users` |
+| `/users/{id}` | `PUT` | Shared Context | Actualizar datos de usuario | `BASE/users/{id}` |
+| `/parcels` | `GET` | Parcel Management | Consultar catálogo de parcelas | `BASE/parcels` |
+| `/parcels` | `POST` | Parcel Management | Registrar nueva parcela | `BASE/parcels` |
+| `/parcels/{id}` | `PUT` | Parcel Management | Actualizar datos de parcela | `BASE/parcels/{id}` |
+| `/parcels/{id}` | `DELETE` | Parcel Management | Eliminar parcela existente | `BASE/parcels/{id}` |
+| `/agreements` | `GET` | Agreements Management | Consultar contratos de arrendamiento | `BASE/agreements` |
+| `/agreements` | `POST` | Agreements Management | Crear solicitud de contrato | `BASE/agreements` |
+| `/agreements/{id}` | `PUT` | Agreements Management | Registrar firma de agricultor/comerciante | `BASE/agreements/{id}` |
+| `/evidence` | `GET` | Tracking Evidence | Consultar evidencias registradas | `BASE/evidence` |
+| `/evidence` | `POST` | Tracking Evidence | Cargar evidencia por hito (agricultor) | `BASE/evidence` |
+| `/evidence/{id}` | `PUT` | Tracking Evidence | Validar evidencia (comerciante/bóveda) | `BASE/evidence/{id}` |
+| `/wallets` | `GET` | Escrow Payments | Consultar datos de fondeo de bóveda | `BASE/wallets` |
+| `/wallets` | `POST` | Escrow Payments | Registrar fondeo de bóveda con tarjeta | `BASE/wallets` |
+| `/wallets/{id}` | `PUT` | Escrow Payments | Actualizar información de tarjeta/bóveda | `BASE/wallets/{id}` |
+| `/escrow` | `GET` | Escrow Payments | Colección reservada *(sin escritura)* | `BASE/escrow` |
+| `/alerts` | `GET` | Alerts Management | Colección reservada *(sin escritura)* | `BASE/alerts` |
+
+
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
