@@ -809,15 +809,25 @@ Esta sección presenta el User Journey Map de cada User Persona, ilustrando el r
 
 ### 2.3.4. Empathy Mapping
 
-Esta sección resume el proceso de elaboración de los Empathy Maps, uno por cada User Persona, construidos en UXPressia. El proceso parte de colocar al centro a la persona correspondiente (Martín Salas Hurtado o Lucía Fernández Torres) y de registrar, en la sección correspondiente de la herramienta, cada observación del equipo obtenida a partir del análisis de entrevistas, buscando responder: ¿Con quién estamos empatizando?, ¿Qué necesita hacer?, ¿Qué está diciendo?, ¿Qué está viendo?, ¿Qué está haciendo? y ¿Qué está escuchando?, además de ¿Cómo se siente y qué piensa? A partir de estas respuestas se identifican los Esfuerzos (Pains), a partir de lo que le preocupa a cada persona, y las Ganancias (Gains), a partir de lo que podría ayudarle a resolver sus problemas y convencerlo de que Allpatek es la alternativa correcta.
+Los Empathy Maps se elaboraron en UXPressia a partir de las entrevistas a Gustavo Adolfo Suyo (Segmento 1: Agricultor Familiar) e Irma Barreto Castro (Segmento 2: Comprador Urbano). Cada mapa organiza lo que la persona necesita hacer, ve, dice, hace, escucha, piensa y siente, junto con sus esfuerzos y ganancias.
 
 ### User Agricultor:
 
-![User-Agricultor-Empathy](./assets/chapter-02/user-agricultor-empathy.png)
+<p align="center">
+  <img src="./assets/chapter-02/user-agricultor-empathy.png" width="600">
+</p>
+
+Gustavo es un agricultor de 48 años de Yauyos que cultiva paltas en una parcela de aproximadamente 1000 m². Necesita cuidar su cultivo sin perderlo por un evento climático, encontrar comprador antes de que la cosecha pierda calidad y cerrar la temporada con un ingreso estable. Hoy se informa del clima por radio y por comentarios de otros agricultores, y vende a intermediarios que fijan el precio el día de la entrega. Sus esfuerzos principales son no poder anticipar heladas o sequías, depender de intermediarios sin poder de negociación y no tener garantía de que el pago se cumpla. Sus ganancias esperadas son recibir una alerta anticipada, tener un ingreso predecible y vender sin intermediarios. Siente incertidumbre por depender del clima y del comprador, y desconfía de formalizar acuerdos digitales que no maneja del todo.
 
 ### User Comprador Urbano:
 
-![User-Comprador-Empathy](./assets/chapter-02/user-comprador-empathy.png)
+<p align="center">
+  <img src="./assets/chapter-02/user-comprador-empathy.png" width="600">
+</p>
+
+Irma es una mujer de 40 años que administra un restaurante familiar en La Molina y compra entre 30 y 40 kg de frutas y verduras por semana. Necesita conseguir insumos frescos sin quedarse sin stock, mantener un costo predecible y confirmar que lo que recibe corresponde a lo acordado. Hoy contacta a varios proveedores por WhatsApp para comparar precio y disponibilidad, revisa el pedido a simple vista y anota en una hoja de cálculo cuánto gastó. Sus esfuerzos principales son la variación de precios entre semanas, no poder verificar el origen del producto y no tener respaldo formal más allá del chat. Sus ganancias esperadas son un costo fijo por temporada, verificar de forma remota el origen y el avance, y un acuerdo respaldado formalmente. Piensa si el proveedor realmente va a entregar lo que promete y siente desconfianza al no poder verificar el origen.
+
+**Hallazgo común:** ambos hablan de lo mismo desde lados opuestos: el agricultor no tiene garantía de que le pagarán lo acordado y la compradora no tiene garantía de que recibirá lo acordado. Esta simetría de desconfianza es la base de la propuesta de custodia Escrow por hitos de Allpatek.
 
 ## 2.4. Big Picture Event Storming.
 
