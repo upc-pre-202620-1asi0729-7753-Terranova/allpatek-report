@@ -2994,7 +2994,150 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+
+
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+
+
+Este documento detalla el procedimiento técnico, las configuraciones y las evidencias de despliegue para el ecosistema **Allpatek**. Se han publicado dos componentes independientes de forma automatizada mediante pipelines de CI/CD:
+
+<table align="center" style="margin: 0 auto; text-align: center;">
+  <thead>
+    <tr>
+      <th style="text-align: center;">Componente</th>
+      <th style="text-align: center;">Tecnología</th>
+      <th style="text-align: center;">Plataforma</th>
+      <th style="text-align: center;">Repositorio</th>
+      <th style="text-align: center;">URL Pública</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center;"><strong>Fake API</strong></td>
+      <td style="text-align: center;">Node.js (<code>json-server</code>)</td>
+      <td style="text-align: center;">Azure App Service</td>
+      <td style="text-align: center;"><code>allpatek-platform-mock</code></td>
+      <td style="text-align: center;"><a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/" target="_blank">Ver API</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Frontend</strong></td>
+      <td style="text-align: center;">Angular 22</td>
+      <td style="text-align: center;">Netlify</td>
+      <td style="text-align: center;"><code>allpatek-webapp</code></td>
+      <td style="text-align: center;"><a href="https://terranova-allpatek.netlify.app/" target="_blank">Ver Web App</a></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+## 1. Despliegue del Backend / Fake API (`allpatek-mockapi`)
+
+### Paso 1: Aprovisionamiento del Recurso en Azure
+Se configuró y creó una instancia de **Azure Web App** optimizada para ejecutar un servicio de API simulada basado en Node.js y `json-server`.
+
+* **Suscripción:** Azure for Students
+* **Grupo de Recursos:** `allpatek-mockapi_group`
+* **Nombre de App Service:** `allpatek-mockapi`
+* **Región:** Chile Central (`chilecentral-01`)
+* **Plan de App Service:** `ASP-allpatekmockapigrou`
+* **Entorno de Ejecución:** Node.js (Servidor ejecuta `node server.js` con `json-server 0.17.4`)
+
+
+<p align="center">
+  <img src="assets/chapter-05/despliegueApi01.png" alt="Analíticos de Colaboración e Insights de GitHub - Sprint 1" width="850" />
+</p>
+
+
+### Paso 2: Confirmación de Infraestructura Activa
+Azure completó exitosamente el aprovisionamiento de los recursos cloud. El endpoint base quedó activo y listo para recibir publicaciones de código.
+
+* **Endpoint Base API:** `https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1`
+* **Estado de Infraestructura:** `OK` / `Se completó la implementación`
+
+
+<p align="center">
+  <img src="assets/chapter-05/despliegueApi02.png" alt="Analíticos de Colaboración e Insights de GitHub - Sprint 1" width="850" />
+</p>
+
+### Paso 3: Pipeline de CI/CD con GitHub Actions
+Se automatizó el flujo de integración y despliegue continuo (CI/CD) para la API desde GitHub.
+
+* **Repositorio:** `upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock`
+* **Workflow:** `.github/workflows/main_allpatek-mockapi.yml`
+* **Triggers:** `push` a la rama `main` y ejecución manual (`workflow_dispatch`).
+* **Etapas del Workflow:**
+  1. **Job `build` (9s):** Checkout del código, configuración de Node.js v24, instalación de dependencias (`npm install`) y compilación (`npm run build`).
+  2. **Job `deploy` (1m 06s):** Autenticación segura en Azure mediante secretos en GitHub (`AZUREAPPSERVICE_CLIENTID`, `AZUREAPPSERVICE_TENANTID`, `AZUREAPPSERVICE_SUBSCRIPTIONID`) y publicación en el slot de producción de `allpatek-mockapi`.
+* **Estado Final:** `Success`  (Duración total: 1m 22s)
+
+
+<p align="center">
+  <img src="assets/chapter-05/despliegueApi03.png" alt="Analíticos de Colaboración e Insights de GitHub - Sprint 1" width="850" />
+</p>
+
+
+## 2. Despliegue del Frontend Angular en Netlify (`terranova-allpatek`)
+
+### Paso 1: Vinculación del Repositorio en Netlify
+Se conectó la plataforma de hosting Netlify con la organización de GitHub del proyecto para habilitar el despliegue automático del cliente Web.
+
+* **Cuenta / Equipo:** `Allpatek`
+* **Organización Git:** `upc-pre-202620-1asi0729-7753-Terranova`
+* **Repositorio Seleccionado:** `allpatek-webapp` (Público)
+
+
+<p align="center">
+  <img src="assets/chapter-05/desplieguefront01.png" alt="Vinculación de repositorio allpatek-webapp en Netlify" width="850" />
+</p>
+
+
+
+### Paso 2: Configuración de Build y Entorno
+Se definieron los parámetros técnicos requeridos por Angular 22 para su compilación y posterior distribución estática.
+
+| Parámetro | Valor Configurado | Notas Técnicas |
+| :---: | :---: | :---: |
+| **Nombre del Proyecto** | `terranova-allpatek` | Asigna la URL `terranova-allpatek.netlify.app` |
+| **Rama de Despliegue** | `develop` | Monitorea cambios en desarrollo |
+| **Comando de Build** | `npm run build` | Ejecuta el compilador CLI de Angular |
+| **Directorio de Publicación** | `dist/allpatek-webapp/browser` | Angular 22 ubica el `index.html` en `/browser` |
+| **Variables de Entorno** | *Ninguna* | URLs de Azure precargadas en `src/environments/environment.ts` |
+
+
+<p align="center">
+  <img src="assets/chapter-05/desplieguefront02.png" alt="Configuración de parámetros de build en Netlify" width="850" />
+</p>
+
+
+
+### Paso 3: Publicación del Frontend en Netlify
+Netlify procesó el pipeline de construcción de Angular y publicó el cliente web en su red global de distribución (CDN).
+
+* **Estrategia CD:** Despliegue automático disparado tras cada `push` a la rama `develop`.
+* **Estado del Sitio:** `Published` ✅
+
+
+<p align="center">
+  <img src="assets/chapter-05/desplieguefront03.png" alt="Confirmación de sitio publicado en Netlify Dashboard" width="850" />
+</p>
+
+
+
+### Paso 4: Verificación del Frontend desplegado en Producción
+Se realizó la comprobación final de acceso en vivo a la aplicación web, verificando la carga correcta de la interfaz Angular comunicándose con el entorno de backend.
+
+* **URL de Producción:** [Ver App Web](https://terranova-allpatek.netlify.app)
+* **Resultado:** Carga interactiva correcta en navegador sin errores de renderizado.
+
+
+<p align="center">
+  <img src="assets/chapter-05/desplieguefront04.png" alt="Vista del cliente Frontend Angular desplegado y en ejecución" width="850" />
+</p>
+
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 ### 5.2.3. Sprint 3
 #### 5.2.3.1. Sprint Planning 3
