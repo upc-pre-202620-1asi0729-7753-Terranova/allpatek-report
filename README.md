@@ -922,7 +922,6 @@ Siguiendo la definición de Eric Evans en *Domain-Driven Design: Tackling Comple
 
 ## 3.3. Product Backlog
 
-
 El Product Backlog agrupa y prioriza el conjunto de User Stories identificadas. En cumplimiento con los requerimientos de la guía, la priorización está determinada por el valor entregado al negocio, ubicando en el primer Sprint las funcionalidades correspondientes al sitio web estático (Landing Page) para habilitar la captación pública de usuarios y la presentación del modelo de negocio de ALLPATEK.
 
 | Orden | User Story Id | Título | Descripción | Story Points |
@@ -931,18 +930,45 @@ El Product Backlog agrupa y prioriza el conjunto de User Stories identificadas. 
 | 2 | US32 | Conocer los servicios de producción garantizada | Como visitante del segmento comerciante B2B deseo ver la cobertura de parcelas, trazabilidad, custodia y clima para reconocer si el servicio reduce mi riesgo a campo. | 3 |
 | 3 | US33 | Entender el esquema de pagos por hitos | Como visitante deseo conocer las etapas del flujo de fondos para saber cuándo entra el dinero a custodia y cuándo se libera. | 2 |
 | 4 | US25 | Solicitar una propuesta técnica desde el sitio | Como visitante deseo enviar mis datos de contacto y solicitar el desglose de costos para recibir información comercial sin registrarme aún. | 3 |
-| 5 | US35 | Comparar planes de producción según escala | Como visitante del segmento comerciante corporativo deseo comparar las capacidades de cada plan y sus tarifas para evaluar la opción adecuada según mi escala. | 3 |
-| 6 | US39 | Iniciar una cotización de parcela | Como visitante del segmento comerciante B2B deseo solicitar una cotización formal desde la presentación del servicio para avanzar al proceso de contratación. | 2 |
-| 7 | US38 | Consultar el sitio desde un dispositivo móvil | Como visitante deseo revisar la propuesta, planes y contacto desde mi celular para informarme en desplazamiento o en el campo. | 3 |
-| 8 | US02 | Búsqueda y filtrado de parcelas disponibles | Como comerciante deseo filtrar parcelas por cultivo, zona y extensión para seleccionar la opción que mejor se ajuste a mis necesidades. | 5 |
-| 9 | US07 | Solicitud de cotización y negociación directa | Como comerciante deseo enviar una propuesta indicando volumen, precio y fecha para iniciar la negociación directa con el productor. | 5 |
-| 10 | US21 | Envío de contraofertas durante la negociación | Como productor agrícola deseo responder con una contrapropuesta modificando términos para negociar sin rechazar la oferta. | 3 |
-| 11 | US08 | Aceptación de propuesta y firma de contrato digital Escrow | Como productor agrícola deseo aceptar las condiciones y formalizar el acuerdo para activar el proceso de custodia de fondos. | 5 |
-| 12 | US09 | Depósito de fondos iniciales en custodia | Como comerciante deseo transferir el capital a la cuenta de custodia Escrow para garantizar la disponibilidad de pagos al productor. | 5 |
-| 13 | US04 | Registro y carga de evidencias fotográficas por hito | Como productor agrícola deseo registrar fotografías con geolocalización para demostrar el avance del cultivo y solicitar el desembolso. | 5 |
-| 14 | US03 | Aprobación de hito y orden de liberación de fondos | Como comerciante deseo revisar evidencias y aprobar la liberación parcial para transferir el capital de la etapa completada. | 5 |
-| 15 | US01 | Registro de perfil y verificación de identidad | Como productor agrícola deseo verificar mi identidad para dar confianza a los comerciantes y habilitar la publicación de mis hectáreas. | 3 |
-| 16 | US16 | Registro de perfil corporativo y validación fiscal | Como comerciante deseo registrar datos de mi empresa y validar la condición fiscal para acreditar la formalidad del negocio. | 3 |
+| 5 | US42 | Envío automático de dossier informativo al solicitar más información | Como comerciante B2B deseo recibir automáticamente en mi correo electrónico el dossier comercial y la propuesta técnica al presionar "Quiero conocer más información" para revisar el detalle de la custodia Escrow y costos antes de decidir una contratación. | 3 |
+| 6 | US35 | Comparar planes de producción según escala | Como visitante del segmento comerciante corporativo deseo comparar las capacidades de cada plan y sus tarifas para evaluar la opción adecuada según mi escala. | 3 |
+| 7 | US39 | Iniciar una cotización de parcela | Como visitante del segmento comerciante B2B deseo solicitar una cotización formal desde la presentación del servicio para avanzar al proceso de contratación. | 2 |
+| 8 | US38 | Consultar el sitio desde un dispositivo móvil | Como visitante deseo revisar la propuesta, planes y contacto desde mi celular para informarme en desplazamiento o en el campo. | 3 |
+| 9 | US31 | Recorrer las áreas informativas del sitio | Como visitante del sitio web deseo navegar de forma fluida entre la presentación, los hitos del proceso y los planes para comprender la propuesta de ALLPATEK de manera integral. | 2 |
+| 10 | US34 | Revisar experiencias de comerciantes y productores | Como visitante deseo leer testimonios y casos de éxito de otros usuarios en la plataforma para generar confianza en la seguridad y efectividad del modelo. | 2 |
+| 11 | US36 | Conocer al equipo detrás de la plataforma | Como visitante deseo revisar la sección informativa con el perfil de los creadores del proyecto para conocer el respaldo académico y profesional detrás de ALLPATEK. | 1 |
+| 12 | US37 | Consultar canales, horarios y datos de atención | Como usuario o visitante deseo ubicar rápidamente los canales de contacto, correos y horarios de soporte para comunicarme en caso de dudas o incidencias operativas. | 2 |
+| 13 | US40 | Evaluar la protección de fondos antes de comprometer capital | Como comerciante interesado deseo revisar la sección detallada de mitigación de riesgo y fondos en custodia para evaluar las garantías antes de firmar un contrato. | 3 |
+| 14 | US41 | Entender cómo se garantiza el cobro al productor | Como productor agrícola deseo conocer el mecanismo de retención y liberación de pagos por hitos para tener la seguridad de que recibiré mi contraprestación al cumplir las metas. | 3 |
+| 15 | US01 | Registro de perfil y verificación de identidad | Como usuario (productor o comerciante) deseo registrarme con mis datos básicos y validar mi identidad para operar de forma segura dentro de la plataforma. | 5 |
+| 16 | TS01 | API RESTful para autenticación y emisión de tokens JWT | Como desarrollador deseo implementar servicios backend seguros con tokens JWT para autenticar y autorizar las peticiones de los diferentes roles de usuario. | 5 |
+| 17 | US02 | Búsqueda y filtrado de parcelas disponibles | Como comerciante deseo filtrar parcelas por cultivo, zona y extensión para seleccionar la opción que mejor se ajuste a mis necesidades. | 5 |
+| 18 | TS03 | API RESTful para consulta del catálogo de parcelas | Como desarrollador deseo exponer endpoints GET optimizados para que la interfaz consuma el catálogo de parcelas con filtros dinámicos. | 3 |
+| 19 | US06 | Publicación y geolocalización de lote agrícola | Como productor agrícola deseo registrar las coordenadas geográficas y características de mi lote para ponerlo a disposición del mercado. | 3 |
+| 20 | US12 | Gestión de disponibilidad y calendario de siembra | Como productor deseo actualizar las fechas estimadas de siembra y cosecha de mis parcelas para que los comerciantes conozcan las temporadas disponibles. | 3 |
+| 21 | US16 | Registro de perfil corporativo y validación fiscal | Como comerciante B2B deseo ingresar los datos fiscales de mi empresa para asociarlos a mis futuras contrataciones comerciales. | 3 |
+| 22 | US20 | Suscripción a alertas de disponibilidad de cosechas futuras | Como comerciante deseo suscribirme a avisos automáticos sobre parcelas de mi interés para asegurar contratos antes de que empiece la temporada. | 3 |
+| 23 | US07 | Solicitud de cotización y negociación directa de volumen | Como comerciante deseo enviar una propuesta formal indicando volumen, precio y plazos para negociar directamente con el productor. | 5 |
+| 24 | US21 | Envío de contraofertas durante la negociación | Como productor agrícola deseo responder con contraofertas de precio o volumen para llegar a un acuerdo comercial equitativo. | 3 |
+| 25 | TS04 | API RESTful para gestión de órdenes de contratación | Como desarrollador deseo programar la lógica backend para procesar el ciclo de vida de las órdenes de compra y contratos preliminares. | 5 |
+| 26 | US27 | Checkout y reserva de temporada agrícola | Como comerciante deseo realizar el pago de la tarifa inicial de reserva para asegurar la temporada agrícola seleccionada. | 5 |
+| 27 | US28 | Bloqueo automático de disponibilidad de la parcela | Como sistema, deseo retirar de forma automática la parcela del catálogo público al concretarse la reserva para evitar sobrecontrataciones. | 3 |
+| 28 | US29 | Cancelación y política de reembolso pre-siembra | Como usuario deseo gestionar la cancelación de un contrato antes de la siembra bajo las políticas establecidas para tramitar la devolución de fondos. | 3 |
+| 29 | US08 | Aceptación de propuesta y firma de contrato digital Escrow | Como usuario involucrado deseo aceptar los términos comerciales finales para formalizar el contrato digital de custodia. | 3 |
+| 30 | TS05 | API e integración con n8n para generación y envío de contratos en PDF | Como desarrollador deseo configurar un flujo en n8n conectado al backend para generar automáticamente el contrato en PDF y enviarlo por correo a los firmantes. | 5 |
+| 31 | US03 | Aprobación de hito y orden de liberación de fondos | Como comerciante deseo revisar y aprobar las evidencias de cada hito para autorizar la liberación de fondos correspondientes al productor. | 5 |
+| 32 | TS02 | API RESTful para consulta e integración del estado Escrow | Como desarrollador deseo crear servicios seguros para consultar saldos retenidos, liberados y el avance de los hitos financieros. | 5 |
+| 33 | US09 | Depósito de fondos iniciales en custodia | Como comerciante deseo transferir el capital inicial acordado a la cuenta centralizada de custodia para garantizar la solvencia del proyecto. | 5 |
+| 34 | US13 | Configuración de cuenta bancaria para recepción de desembolsos | Como productor agrícola deseo registrar y verificar mi cuenta bancaria personal o corporativa para recibir los desembolsos de los hitos aprobados. | 3 |
+| 35 | US22 | Adendas y modificación de hitos de pago en custodia | Como usuario autorizado deseo registrar adendas para modificar fechas o montos de hitos en contratos que lo requieran por acuerdos mutuos. | 3 |
+| 36 | US04 | Registro y carga de evidencias fotográficas por hito | Como productor agrícola deseo subir fotografías y coordenadas GPS del estado actual del cultivo para cumplir con los entregables del hito. | 3 |
+| 37 | SP01 | Evaluación de almacenamiento y sincronización offline de fotografías | Como desarrollador deseo evaluar mecanismos de almacenamiento local en la app para permitir la captura de evidencias en zonas rurales sin señal. | 3 |
+| 38 | US10 | Solicitud de prórroga por imprevisto técnico o ambiental | Como productor agrícola deseo solicitar una extensión de plazo justificada ante factores climáticos adversos para evitar penalizaciones en el hito. | 3 |
+| 39 | US14 | Revisión y observación técnica de evidencias de hito | Como comerciante deseo emitir observaciones técnicas si la evidencia fotográfica no es clara, solicitando un reenvío al productor. | 3 |
+| 40 | US26 | Notificaciones de actualización de avance de cultivo | Como comerciante deseo recibir notificaciones automáticas (push y correo) cuando el productor registre nuevos avances o evidencias en un hito para validar el progreso a tiempo. | 3 |
+| 41 | US17 | Canal de mensajería para coordinación técnica | Como usuario deseo utilizar un chat interno de coordinación entre comerciante y productor para resolver dudas operativas durante el contrato. | 5 |
+
+
 
 
 ### Referencia y Enlace Público
