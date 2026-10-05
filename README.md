@@ -2654,30 +2654,31 @@ Para la gestión y control del flujo de trabajo, las tareas se organizaron y mon
 * **URL Pública del Board del Sprint 1:** [Enlace de Trello Sprint 1](https://trello.com/invite/b/6aa216c035a4a46c6bd2f3f0/ATTI885bbe2f06b7915f27146102eb51b6dfDBBD1DE6/terranova)
 
 
-#### Tabla de Control de Estado del Sprint Backlog 1
+### Tabla de Control de Estado del Sprint Backlog 1
 
-A continuación, se detalla la descomposición de las Historias de Usuario de la Landing Page asignadas al Sprint 1 en sus respectivas tareas técnicas (*Work-items / Tasks*), distribuidas según las ramas de desarrollo por componente (*feature branches*) y los líderes asignados a cada sección:
+A continuación se detalla la descomposición de las Historias de Usuario de la Landing Page asignadas al Sprint 1 en sus respectivas tareas técnicas (*Engineering Tasks / Work-items*), distribuidas según las componentes de la interfaz, lógica de validación e integración con n8n para la captura de solicitudes:
 
-| Sprint | User Story ID | User Story Title | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
-| :---: | :---: | :--- | :---: | :--- | :--- | :---: | :--- | :---: |
-| **Sprint 1** | **US24** | Consultar la propuesta de valor de ALLPATEK | **T001** | Inicialización del repositorio y estructura base | Configurar el repositorio oficial, convención de commits y estructura de carpetas HTML/CSS/JS inicial. | 3 | Mel Andree | Done |
-| **Sprint 1** | **US31** | Recorrer las áreas informativas del sitio | **T002** | Maquetación HTML del Header y Navbar | Construir la estructura semántica en HTML5 del logo, menú de navegación principal y contenedor superior (`feature/header-navbar`). | 4 | Miguel Angel | Done |
-| **Sprint 1** | **US38** | Consultar el sitio desde un dispositivo móvil | **T003** | Estilos CSS y responsive design para Header/Navbar | Aplicar la paleta de colores, tipografía y adaptabilidad móvil para el menú desplegable y navegación. | 4 | Miguel Angel | Done |
-| **Sprint 1** | **US24** | Consultar la propuesta de valor de ALLPATEK | **T004** | Maquetación HTML de la sección Hero | Construir la estructura semántica del Hero Section con propuesta de valor y botones CTA (`feature/hero`). | 4 | Miguel Angel | Done |
-| **Sprint 1** | **US24** | Consultar la propuesta de valor de ALLPATEK | **T005** | Estilos CSS y métricas clave para la sección Hero | Diseñar el estilo visual de la sección principal, fondo responsivo e insignias de métricas clave. | 4 | Miguel Angel | Done |
-| **Sprint 1** | **US32** | Conocer los servicios de producción garantizada | **T006** | Maquetación HTML de la sección Servicios | Crear la estructura de cuadrícula para las tarjetas explicativas del modelo de custodia financiera Escrow (`feature/servicios`). | 4 | Alexander Sebastián | Done |
-| **Sprint 1** | **US40** | Evaluar la protección de fondos antes de comprometer capital | **T007** | Estilos CSS para el grid de Servicios | Aplicar sombras, bordes y estilos de contraste visual para las tarjetas de servicios de la plataforma. | 4 | Alexander Sebastián | Done |
-| **Sprint 1** | **US33** | Entender el esquema de pagos por hitos | **T008** | Maquetación HTML de la sección Hitos / Cómo Funciona | Construir la secuencia del flujo de trabajo por hitos y desembolsos progresivos (`feature/hitos`). | 4 | Alexander Sebastián | Done |
-| **Sprint 1** | **US41** | Entender cómo se garantiza el cobro al productor | **T009** | Estilos CSS para la línea de tiempo de Hitos | Diseñar la línea de tiempo visual y los conectores gráficos entre los pasos del proceso Escrow. | 3 | Alexander Sebastián | Done |
-| **Sprint 1** | **US34** | Revisar experiencias de comerciantes y productores | **T010** | Maquetación HTML y estilos de Testimonios | Diseñar las tarjetas de reseñas y valoraciones de compradores y productores agrícolas (`feature/testimonios`). | 4 | Nayely Macarena | Done |
-| **Sprint 1** | **US35** | Comparar planes de producción según escala | **T011** | Maquetación HTML de la sección Planes | Estructurar las tarjetas comparativas de planes de producción y suscripción agrícola (`feature/planes`). | 3 | Nayely Macarena | Done |
-| **Sprint 1** | **US35** | Comparar planes de producción según escala | **T012** | Estilos CSS y destacado del plan recomendado | Resaltar el plan principal mediante etiquetas, bordes especiales e indicadores de precio. | 3 | Nayely Macarena | Done |
-| **Sprint 1** | **US36** | Conocer al equipo detrás de la plataforma | **T013** | Maquetación HTML y estilos de la sección Equipo | Estructurar la cuadrícula de perfiles del equipo técnico (*Aspect Leaders*) con sus tarjetas y enlaces (`feature/equipo`). | 3 | Mel Andree | Done |
-| **Sprint 1** | **US25** | Solicitar una propuesta técnica desde el sitio | **T014** | Maquetación HTML del Formulario de Contacto | Construir los campos de captura para datos de contacto, empresa y requerimiento de propuesta técnica (`feature/contacto`). | 3 | Abigail Nadhim | Done |
-| **Sprint 1** | **US39** | Iniciar una cotización de parcela | **T015** | Estilos CSS y lógica JS para validación de formulario | Diseñar estados hover/focus y programar la validación visual en cliente para campos obligatorios. | 4 | Abigail Nadhim | Done |
-| **Sprint 1** | **US37** | Consultar canales, horarios y datos de atención | **T016** | Maquetación HTML y estilos CSS del Footer | Construir el pie de página en columnas con datos institucionales, enlaces secundarios y copyright (`feature/footer`). | 3 | Abigail Nadhim | Done |
-| **Sprint 1** | **US38** | Consultar el sitio desde un dispositivo móvil | **T017** | Optimización responsive y media queries globales | Ajustar estilos globales CSS para adaptar todas las secciones a pantallas móviles y tabletas. | 4 | Mel Andree | Done |
-
+| Sprint | User Story ID | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Sprint 1** | **US24** | **T001** | Inicialización del repositorio y estructura base | Configurar el repositorio oficial, convención de commits y estructura de carpetas HTML/CSS/JS inicial. | 3 | Mel Andree | Done |
+| **Sprint 1** | **US31** | **T002** | Maquetación HTML del Header y Navbar | Construir la estructura semántica en HTML5 del logo, menú de navegación principal y contenedor superior. | 4 | Miguel Angel | Done |
+| **Sprint 1** | **US38** | **T003** | Estilos CSS y responsive design para Header/Navbar | Aplicar paleta de colores, tipografía y adaptabilidad móvil para el menú desplegable y navegación. | 4 | Miguel Angel | Done |
+| **Sprint 1** | **US24** | **T004** | Maquetación HTML de la sección Hero | Construir la estructura semántica del Hero Section con propuesta de valor y botones CTA. | 4 | Miguel Angel | Done |
+| **Sprint 1** | **US24** | **T005** | Estilos CSS y métricas clave para la sección Hero | Diseñar el estilo visual de la sección principal, fondo responsivo e insignias de métricas clave. | 4 | Miguel Angel | Done |
+| **Sprint 1** | **US32** | **T006** | Maquetación HTML de la sección Servicios | Crear la estructura de cuadrícula para las tarjetas explicativas del modelo de custodia financiera Escrow. | 4 | Alexander Sebastián | Done |
+| **Sprint 1** | **US40** | **T007** | Estilos CSS para el grid de Servicios | Aplicar sombras, bordes y estilos de contraste visual para las tarjetas de servicios de la plataforma. | 4 | Alexander Sebastián | Done |
+| **Sprint 1** | **US33** | **T008** | Maquetación HTML de la sección Hitos / Cómo Funciona | Construir la secuencia del flujo de trabajo por hitos y desembolsos progresivos. | 4 | Alexander Sebastián | Done |
+| **Sprint 1** | **US41** | **T009** | Estilos CSS para la línea de tiempo de Hitos | Diseñar la línea de tiempo visual y los conectores gráficos entre los pasos del proceso Escrow. | 3 | Alexander Sebastián | Done |
+| **Sprint 1** | **US34** | **T010** | Maquetación HTML y estilos de Testimonios | Diseñar las tarjetas de reseñas y valoraciones de compradores y productores agrícolas. | 4 | Nayely Macarena | Done |
+| **Sprint 1** | **US35** | **T011** | Maquetación HTML de la sección Planes | Estructurar las tarjetas comparativas de planes de producción y suscripción agrícola. | 3 | Nayely Macarena | Done |
+| **Sprint 1** | **US35** | **T012** | Estilos CSS y destacado del plan recomendado | Resaltar el plan principal mediante etiquetas, bordes especiales e indicadores de precio. | 3 | Nayely Macarena | Done |
+| **Sprint 1** | **US36** | **T013** | Maquetación HTML y estilos de la sección Equipo | Estructurar la cuadrícula de perfiles del equipo técnico con sus tarjetas y enlaces. | 3 | Mel Andree | Done |
+| **Sprint 1** | **US25** | **T014** | Maquetación HTML del Formulario de Contacto | Construir los campos de captura para datos de contacto, empresa y requerimiento de propuesta técnica. | 3 | Abigail Nadhim | Done |
+| **Sprint 1** | **US39** | **T015** | Estilos CSS y lógica JS para validación de formulario | Diseñar estados hover/focus y programar la validación visual en cliente para campos obligatorios. | 4 | Abigail Nadhim | Done |
+| **Sprint 1** | **US42** | **T016** | Consumo del Webhook de n8n desde el Formulario | Implementar la petición asíncrona JS (fetch) para enviar los datos ingresados en el formulario al Webhook de n8n al hacer clic en "Quiero conocer más información". | 5 | Mel Andree | Done |
+| **Sprint 1** | **US42** | **T017** | Configuración del flujo en n8n para envío de correo y dossier | Configurar el workflow en n8n para recibir el webhook de la Landing Page y despachar automáticamente el correo electrónico con la propuesta técnica en PDF. | 6 | Mel Andree | Done |
+| **Sprint 1** | **US37** | **T018** | Maquetación HTML y estilos CSS del Footer | Construir el pie de página en columnas con datos institucionales, enlaces secundarios y copyright. | 3 | Abigail Nadhim | Done |
+| **Sprint 1** | **US38** | **T019** | Optimización responsive y media queries globales | Ajustar estilos globales CSS para adaptar todas las secciones de la Landing Page a pantallas móviles y tabletas. | 4 | Mel Andree | Done |
 
 
 
@@ -2846,13 +2847,663 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
 
 ### 5.2.2. Sprint 2
 #### 5.2.2.1. Sprint Planning 2
+
+
+<table>
+  <tr>
+    <th colspan="5">Sprint #</th>
+    <th colspan="8">Sprint 2</th>
+  </tr>
+  <tr>
+    <td colspan="13"><strong>Sprint Planning Background</strong></td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8">2026-10-04</td>
+  </tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8">04:20 PM</td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8">Reunión virtual vía Google Meet</td>
+  </tr>
+  <tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8">Orellana Rodriguez, Mel Andree</td>
+  </tr>
+  <tr>
+    <td colspan="5">Attendees (to planning meeting)</td>
+    <td colspan="8">Alexander Sebastián, Miguel Angel, Mel Andree, Nayely Macarena, Abigail Nadhim</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 1 Review Summary</td>
+    <td colspan="8">Se completaron y desplegaron exitosamente la Landing Page y la configuración de SDC con puntaje máximo. Sin embargo, el feedback de la entrega anterior requiere subsanar brechas en el proceso Lean UX (definición incompleta de supuestos de negocio/usuario en Needfinding), reestructurar la arquitectura interna y diagramas de clases alineándolos a Domain-Driven Design (DDD, incluyendo la SPA y Value Objects), e incorporar historias de usuario omitidas en el Backlog.</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 1 Retrospective Summary</td>
+    <td colspan="8">El equipo acordó equilibrar la contribución y distribución de commits en el repositorio de GitFlow entre todos los integrantes, estandarizar la nomenclatura de archivos según las convenciones del curso, enriquecer la redacción de conclusiones y realizar una descomposición rigurosa de las User Stories en tareas de ingeniería con estimaciones de entre 4 y 8 horas.</td>
+  </tr>
+  <tr>
+    <td colspan="13"><strong>Sprint Goal & User Stories</strong></td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 2 Goal</td>
+    <td colspan="8">Our focus is on automating contract delivery workflows via n8n and providing real-time crop progress notifications to agricultural investors.<br><br>We believe it delivers transparency, legal assurance, and continuous visibility of agricultural investments to investors and farmers.<br><br>This will be confirmed when 100% of signed agreements automatically generate and deliver PDF contracts to user inboxes within 1 minute, and investors receive real-time status updates in the SPA for every crop milestone updated by farmers.</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 2 Velocity</td>
+    <td colspan="8">32 Story Points</td>
+  </tr>
+  <tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="8">28 Story Points</td>
+  </tr>
+</table>
+
+
 #### 5.2.2.2. Aspect Leaders and Collaborators
+
+
+
+
+<table>
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #dddddd; padding: 10px;">Team Member</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">agreements-management</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">alerts-management</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">escrow-payments</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">parcel-management</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">tracking-evidence</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">shared</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Alexander1Alexander2</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">MiguelAngel0107</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">melandree8</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">AbigailRV</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Macaxprogram29</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
 #### 5.2.2.3. Sprint Backlog 2
+
+
+<table>
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #dddddd; padding: 10px;">Sprint</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">User Story ID</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">Task ID</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">Task Title</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">Description</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">Estimation (Hours)</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">Assigned To</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US08</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T001</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Interfaz de vista previa de cláusulas del contrato digital</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Maquetar la pantalla Contract Signature desplegando las cláusulas de arrendamiento, plan de pagos e hitos Escrow.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US08</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T002</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Componente de firma digital y aceptación de términos</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Implementar el panel lateral de carga de imagen de firma, checkbox de aceptación y botón de envío de contrato.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US16</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T003</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Vista de datos personales del perfil de usuario</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Construir la sección Personal Data en User Profile con campos para nombre completo, DNI, teléfono, dirección y correo.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US16</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T004</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Vista de información comercial de la empresa</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Desarrollar la sección Commercial Details mostrando razón social de la empresa, RUC y rubro comercial.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">4</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US04</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T005</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Línea de tiempo para selección de hitos de cultivo</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Diseñar el componente Milestone Timeline con estados habilitados y bloqueados para las 4 etapas del proyecto agrícola.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US04</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T006</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Formulario de carga de archivos de evidencia fotográfica</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Implementar la zona interactiva de arrastre de archivos (JPG, PNG, PDF) y campo de observaciones para el hito.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US04</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T007</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Tabla de registro e historial de evidencias enviadas</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Construir la tabla Traceability and Evidence con contadores de evidencias totales, tipo de evidencia y estado de auditoría.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US05</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T008</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Panel de métricas climáticas en tiempo real</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Diseñar las tarjetas métricas de Climate Alerts mostrando temperatura actual, humedad relativa, precipitación y velocidad del viento.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US05</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T009</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Componente de alertas de riesgo agronómico activo</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Implementar la tarjeta de estado Active Risk Alerts con indicador de nivel de severidad y descripción del evento.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US03</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T010</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Dashboard de saldos en la bóveda de custodia Escrow</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Maquetar la vista Payment Vault desplegando las tarjetas de monto total retenido y avance de porcentaje liberado.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US03</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T011</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Sección de contratos activos y seguimiento de desembolsos por hito</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Construir el panel Active Contract con datos de las partes, parcela vinculada y avance de desbloqueo de fondos de las 4 etapas.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US09</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T012</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Formulario interactivo para vinculación de tarjeta bancaria</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Construir la pantalla Add card con el diseño gráfico de tarjeta de débito/crédito y campos de número, titular, expiración y CVV.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US06</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T013</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Tarjeta interactiva de resumen de parcela agrícola</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Diseñar la tarjeta informativa del lote en My Parcels mostrando imagen, extensión en hectáreas, coordenadas GPS, tipo de suelo y costo.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US06</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T014</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Formulario de registro de especificaciones de nueva parcela</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Implementar la pantalla Register New Parcel con campos para nombre, hectáreas, tipo de suelo, costo por campaña y cultivos ideales.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">US08</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">T015</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Estructura de navegación lateral y selector de idioma en SPA</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Maquetar el menú lateral principal con accesos a módulos, tarjeta de perfil de usuario logueado y selector de idioma EN/ES.</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
 #### 5.2.2.4. Development Evidence for Sprint Review
+
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| --- | --- | --- | --- | --- | --- |
+| allpatek-webapp | develop | ae65b82 | chore: configure workspace environments and app shell | Set Angular workspace environments and the shared app shell used by every bounded context. | 2026-10-04 |
+| allpatek-webapp | develop | 714ab81 | feat: add shared kernel with session and profiles | Add session and profile support in the shared kernel so feature modules can resolve the signed-in user. | 2026-10-04 |
+| allpatek-webapp | develop | 1a81779 | chore: add bounded context folders | Create empty DDD folders for each bounded context so teammates can implement their feature on a dedicated branch. | 2026-10-04 |
+| allpatek-webapp | feature/agreements-management | c781e7e | feat: add agreements domain model | Introduce agreement entities, contract codes, and money helpers used to draft and activate contracts. | 2026-10-04 |
+| allpatek-webapp | feature/agreements-management | 5498a2b | feat: add agreements infrastructure | Add HTTP clients that persist agreements and look up parcels by id without importing other contexts. | 2026-10-04 |
+| allpatek-webapp | feature/agreements-management | 7aa4816 | feat: add agreements application store | Coordinate agreement list, draft, and activation state from the application layer. | 2026-10-04 |
+| allpatek-webapp | feature/agreements-management | 79b8efd | feat: add agreements presentation views | Build contract list, merchant detail, and sign screens for farmer and merchant roles. | 2026-10-04 |
+| allpatek-webapp | feature/agreements-management | 6776288 | feat: wire agreements routes | Register agreement child routes in the workspace so the contracts module can be lazy-loaded. | 2026-10-04 |
+| allpatek-webapp | develop | ded9397 | Merge branch 'feature/agreements-management' into develop | Integrate the agreements bounded context into the shared develop branch. | 2026-10-04 |
+| allpatek-webapp | feature/alerts-management | 3a866a9 | feat: add climate reading model used by parcel weather alerts | Define the climate reading model that maps forecast data to parcel weather alerts. | 2026-10-04 |
+| allpatek-webapp | feature/alerts-management | 2891a83 | feat: integrate Open-Meteo forecast client inside alerts infrastructure | Connect alerts infrastructure to the Open-Meteo forecast client for parcel weather readings. | 2026-10-04 |
+| allpatek-webapp | feature/alerts-management | ed5e79b | feat: load farmer climate readings through the alerts application store | Load farmer-owned climate readings in the alerts application store using parcel location. | 2026-10-04 |
+| allpatek-webapp | feature/alerts-management | bbe51b3 | feat: present climate board with weather metrics and field warnings | Render the climate board with weather metrics and field warnings for the farmer. | 2026-10-04 |
+| allpatek-webapp | feature/alerts-management | 92b872a | feat: register farmer-only alerts routes in the workspace shell | Mount alerts routes as a farmer-only workspace section. | 2026-10-04 |
+| allpatek-webapp | develop | 6f38288 | Merge branch 'feature/alerts-management' into develop | Integrate the alerts bounded context into the shared develop branch. | 2026-10-04 |
+| allpatek-webapp | feature/escrow-payments | 4aadfaa | feat: introduce escrow payment entities | Add wallet and escrow domain types used to hold funds until evidence is accepted. | 2026-10-04 |
+| allpatek-webapp | feature/escrow-payments | 9b6c36c | feat: connect wallets to the platform API | Persist wallet balances and transfers through the platform API. | 2026-10-04 |
+| allpatek-webapp | feature/escrow-payments | 096345e | feat: implement escrow vault store | Coordinate deposit, hold, and release of escrow funds in the application store. | 2026-10-04 |
+| allpatek-webapp | feature/escrow-payments | 661a8d2 | feat: build vault and deposit screens | Build the vault board and deposit form used by farmer and merchant roles. | 2026-10-04 |
+| allpatek-webapp | feature/escrow-payments | 1a0369d | feat: register escrow payment routes | Register vault and deposit routes in the workspace shell. | 2026-10-04 |
+| allpatek-webapp | develop | ab71598 | Merge branch 'feature/escrow-payments' into develop | Integrate the escrow payments bounded context into the shared develop branch. | 2026-10-04 |
+| allpatek-webapp | feature/parcel-management | 5540ed7 | feat: define parcel entity and campaign cost helpers | Model parcels and campaign cost helpers for the farmer catalog. | 2026-10-04 |
+| allpatek-webapp | feature/parcel-management | 9aca698 | feat: expose parcel persistence through the platform API | Persist parcels through the platform API from the infrastructure layer. | 2026-10-04 |
+| allpatek-webapp | feature/parcel-management | 92a0f4d | feat: coordinate parcel catalog state in the application store | Coordinate list, create, update, and delete of parcels in the application store. | 2026-10-04 |
+| allpatek-webapp | feature/parcel-management | 90c6737 | feat: render parcel board, form and detail workspace screens | Render parcel board, form, and detail screens in the workspace. | 2026-10-04 |
+| allpatek-webapp | feature/parcel-management | 1561a6d | feat: mount parcel routes as the workspace landing path | Make parcels the default workspace landing route after login. | 2026-10-04 |
+| allpatek-webapp | develop | 4818453 | Merge branch 'feature/parcel-management' into develop | Integrate the parcel management bounded context into the shared develop branch. | 2026-10-04 |
+| allpatek-webapp | feature/tracking-evidence | 50a5d32 | feat: model milestone evidence submitted for activated contracts | Define milestone evidence submitted against an activated contract. | 2026-10-04 |
+| allpatek-webapp | feature/tracking-evidence | 3a561a6 | feat: persist milestone evidence through the platform evidence API | Persist milestone evidence through the platform evidence API. | 2026-10-04 |
+| allpatek-webapp | feature/tracking-evidence | aaea17c | feat: orchestrate evidence status transitions in the application store | Orchestrate evidence status transitions from submitted to accepted or rejected. | 2026-10-04 |
+| allpatek-webapp | feature/tracking-evidence | 6adba0a | feat: ship farmer upload and merchant review evidence screens | Ship farmer upload and merchant review screens for milestone evidence. | 2026-10-04 |
+| allpatek-webapp | feature/tracking-evidence | 504f9ad | feat: attach evidence routes for farmer upload and merchant review | Register evidence routes for farmer upload and merchant review. | 2026-10-04 |
+| allpatek-webapp | develop | 26ff76e | Merge branch 'feature/tracking-evidence' into develop | Integrate the tracking evidence bounded context into the shared develop branch. | 2026-10-04 |
+
+
 #### 5.2.2.5. Execution Evidence for Sprint Review
+
+
+
+#### Vista 1: Pantalla de Inicio de Sesión (*Login*)
+Esta interfaz ofrece un acceso unificado a la plataforma mediante la autenticación de credenciales. La pantalla incluye un selector dinámico de rol (Agricultor o Comerciante) que permite redirigir al usuario hacia su espacio de trabajo personalizado. Al validar los campos de correo electrónico y contraseña, el sistema procesa el inicio de sesión y da paso a las funciones correspondientes.
+
+<p align="center">
+  <img src="assets/chapter-05/vista01.png" alt="Pantalla de Login" width="850" />
+</p>
+
+
+#### Vista 2: Registro de Cuenta de Usuario
+Se trata de un formulario de alta adaptativo diseñado para incorporar nuevos usuarios al sistema. La interfaz ajusta dinámicamente sus campos en función del perfil seleccionado, solicitando información personal en el caso del agricultor o datos fiscales y corporativos cuando se trata de un comerciante. Tras aceptar los términos y completar el registro, la cuenta queda activa en la base de datos para ingresar de inmediato.
+
+<p align="center">
+  <img src="assets/chapter-05/vista02.png" alt="Pantalla de Login" width="850" />
+</p>
+
+
+
+#### Vista 3: Panel de Mis Parcelas (*Agricultor*)
+Corresponde al panel principal del agricultor donde se centraliza la visualización de todos los terrenos agrícolas registrados a su nombre. La vista presenta tarjetas informativas con el estado operativo de cada predio, su extensión y accesos rápidos a las operaciones CRUD. Desde este tablero, el usuario puede iniciar el registro de nuevas parcelas, editarlas o consultar su detalle.
+
+<p align="center">
+  <img src="assets/chapter-05/vista03.png" alt="Pantalla de Login" width="850" />
+</p>
+
+
+
+#### Vista 4: Formulario de Registro / Edición de Parcela
+Esta pantalla captura y actualiza los parámetros técnicos y geográficos de un terreno agrícola. El usuario puede ingresar datos clave como el nombre del predio, la superficie total en hectáreas, la ubicación exacta, el tipo de suelo, el costo estimado de la campaña y adjuntar fotografías de respaldo. Al guardar, la Fake API actualiza la información y refresca el catálogo.
+
+<p align="center">
+  <img src="assets/chapter-05/vista04.png" alt="Pantalla de Login" width="850" />
+</p>
+
+
+#### Vista 5: Ficha de Detalle de Parcela
+Es una vista resumida que consolida las especificaciones técnicas y la galería multimedia de una parcela en particular. Funciona como un centro de control desde el cual el usuario puede navegar directamente hacia el contrato asociado, revisar el historial de evidencias técnicas enviadas o consultar el estado financiero en la bóveda de custodia.
+
+<p align="center">
+  <img src="assets/chapter-05/vista05.png" alt="Pantalla de Login" width="850" />
+</p>
+
+
+
+#### Vista 6: Emisión y Firma Digital de Contrato
+Muestra el documento de arrendamiento con sus cláusulas legales, los datos de las partes firmantes y el desglose de pagos estructurado en cuatro hitos equivalentes al 25% cada uno. Incluye un identificador único con formato `CTR-YYYY-NNNN` y un panel de firma digital para que el agricultor pueda aceptar y validar formalmente el acuerdo emitido por el comerciante.
+
+<p align="center">
+  <img src="assets/chapter-05/vista06.png" alt="Pantalla de Login" width="850" />
+</p>
+
+
+#### Vista 7: Panel de Bóveda de Custodia (*Escrow Vault*)
+Esta vista financiera gestiona la retención y liberación progresiva de los fondos del contrato bajo el esquema de custodia (*Escrow*). Permite a ambas partes visualizar el balance total depositado, el monto retenido y el capital liberado a medida que se aprueban los hitos de trabajo programados.
+
+<p align="center">
+  <img src="assets/chapter-05/vista07.png" alt="Pantalla de Login" width="850" />
+</p>
+
+
+
+#### Vista 8: Panel de Control de Evidencias (*Agricultor*)
+Corresponde al tablero desde el cual el agricultor administra los entregables correspondientes a los cuatro hitos del contrato. La pantalla muestra el estado de cada etapa (Pendiente, En Revisión o Aprobado) y habilita los botones para adjuntar comprobantes fotográficos en el hito que se encuentre activo.
+
+<p align="center">
+  <img src="assets/chapter-05/vista08.png" alt="Pantalla de Login" width="850" />
+</p>
+
+
+
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+
+### 1. Introducción
+
+En este Sprint se completó la especificación, documentación y despliegue del contrato REST de la **Fake API de Allpatek** (`allpatek-platform-mock`). El servicio fue desarrollado sobre Node.js utilizando `json-server` (v0.17.4), exponiendo sus recursos bajo la ruta base de versión `/api/v1`.
+
+###  Logros Alcanzados en Web Services
+* **Definición de Contrato REST:** Especificación de los recursos requeridos por los distintos Bounded Contexts del sistema Allpatek.
+* **Estandarización de Rutas:** Implementación del prefijo de versión `/api/v1` y disponibilidad de un endpoint de verificación de estado (`/api/v1/health`).
+* **Despliegue Cloud en Azure:** Publicación del servicio en **Azure App Service** (Región Chile Central).
+* **Consumo Dinámico:** Integración transparente desde la aplicación Web Angular a través del archivo de configuración `environment.ts`.
+
+###  Entornos de Servicio
+
+* **URL Base Desplegada (Producción/Staging):**  
+  `https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1`
+
+* **URL Base Local (Entorno de Desarrollo):**  
+  `http://localhost:3000/api/v1`
+
+
+### 2. Repositorio y Commits de Documentación
+
+* **Repositorio de Web Services (GitHub):**  [Repositorio Web Mock Api](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock)
+
+###  Commits Relacionados con el Contrato de Servicios
+| Commit Hash | Tipo / Mensaje de Commit | Descripción / Alcance |
+| :---: | :--- | :--- |
+| `7f27faa` | `feat(api): add Allpatek mock API` | Implementación inicial del contrato de la Fake API y esquemas de datos. |
+| `0b22df8` | `chore(merge): resolve conflict in README.md` | Resolución de conflictos y documentación del contrato en el README. |
+| `49fd999` | `Initial commit` | Inicialización de la estructura del repositorio de Web Services. |
+
+
+
+### 3. Matriz de Endpoints del Alcance del Sprint
+
+> **Ruta Base (`BASE`):** `https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1`
+
+| Endpoint | Verbo HTTP | Bounded Context | Descripción de Acción | URL Documentada / Desplegada |
+| :---: | :---: | :---: | :---: | :---: |
+| `/health` | `GET` | Plataforma / Core | Verificar disponibilidad del servicio | `BASE/health` |
+| `/profiles` | `GET` | Shared Context | Obtener lista o detalle de perfiles | `BASE/profiles` |
+| `/profiles/{id}` | `PUT` | Shared Context | Actualizar perfil de usuario | `BASE/profiles/{id}` |
+| `/users` | `GET` | Shared Context | Consultar usuarios por rol o id | `BASE/users` |
+| `/users/{id}` | `PUT` | Shared Context | Actualizar datos de usuario | `BASE/users/{id}` |
+| `/parcels` | `GET` | Parcel Management | Consultar catálogo de parcelas | `BASE/parcels` |
+| `/parcels` | `POST` | Parcel Management | Registrar nueva parcela | `BASE/parcels` |
+| `/parcels/{id}` | `PUT` | Parcel Management | Actualizar datos de parcela | `BASE/parcels/{id}` |
+| `/parcels/{id}` | `DELETE` | Parcel Management | Eliminar parcela existente | `BASE/parcels/{id}` |
+| `/agreements` | `GET` | Agreements Management | Consultar contratos de arrendamiento | `BASE/agreements` |
+| `/agreements` | `POST` | Agreements Management | Crear solicitud de contrato | `BASE/agreements` |
+| `/agreements/{id}` | `PUT` | Agreements Management | Registrar firma de agricultor/comerciante | `BASE/agreements/{id}` |
+| `/evidence` | `GET` | Tracking Evidence | Consultar evidencias registradas | `BASE/evidence` |
+| `/evidence` | `POST` | Tracking Evidence | Cargar evidencia por hito (agricultor) | `BASE/evidence` |
+| `/evidence/{id}` | `PUT` | Tracking Evidence | Validar evidencia (comerciante/bóveda) | `BASE/evidence/{id}` |
+| `/wallets` | `GET` | Escrow Payments | Consultar datos de fondeo de bóveda | `BASE/wallets` |
+| `/wallets` | `POST` | Escrow Payments | Registrar fondeo de bóveda con tarjeta | `BASE/wallets` |
+| `/wallets/{id}` | `PUT` | Escrow Payments | Actualizar información de tarjeta/bóveda | `BASE/wallets/{id}` |
+| `/escrow` | `GET` | Escrow Payments | Colección reservada *(sin escritura)* | `BASE/escrow` |
+| `/alerts` | `GET` | Alerts Management | Colección reservada *(sin escritura)* | `BASE/alerts` |
+
+
+
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+
+
+Este documento detalla el procedimiento técnico, las configuraciones y las evidencias de despliegue para el ecosistema **Allpatek**. Se han publicado dos componentes independientes de forma automatizada mediante pipelines de CI/CD:
+
+<table align="center" style="margin: 0 auto; text-align: center;">
+  <thead>
+    <tr>
+      <th style="text-align: center;">Componente</th>
+      <th style="text-align: center;">Tecnología</th>
+      <th style="text-align: center;">Plataforma</th>
+      <th style="text-align: center;">Repositorio</th>
+      <th style="text-align: center;">URL Pública</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center;"><strong>Fake API</strong></td>
+      <td style="text-align: center;">Node.js (<code>json-server</code>)</td>
+      <td style="text-align: center;">Azure App Service</td>
+      <td style="text-align: center;"><code>allpatek-platform-mock</code></td>
+      <td style="text-align: center;"><a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/" target="_blank">Ver API</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Frontend</strong></td>
+      <td style="text-align: center;">Angular 22</td>
+      <td style="text-align: center;">Netlify</td>
+      <td style="text-align: center;"><code>allpatek-webapp</code></td>
+      <td style="text-align: center;"><a href="https://terranova-allpatek.netlify.app/" target="_blank">Ver Web App</a></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+## 1. Despliegue del Backend / Fake API (`allpatek-mockapi`)
+
+### Paso 1: Aprovisionamiento del Recurso en Azure
+Se configuró y creó una instancia de **Azure Web App** optimizada para ejecutar un servicio de API simulada basado en Node.js y `json-server`.
+
+* **Suscripción:** Azure for Students
+* **Grupo de Recursos:** `allpatek-mockapi_group`
+* **Nombre de App Service:** `allpatek-mockapi`
+* **Región:** Chile Central (`chilecentral-01`)
+* **Plan de App Service:** `ASP-allpatekmockapigrou`
+* **Entorno de Ejecución:** Node.js (Servidor ejecuta `node server.js` con `json-server 0.17.4`)
+
+
+<p align="center">
+  <img src="assets/chapter-05/despliegueApi01.png" alt="Analíticos de Colaboración e Insights de GitHub - Sprint 1" width="850" />
+</p>
+
+
+### Paso 2: Confirmación de Infraestructura Activa
+Azure completó exitosamente el aprovisionamiento de los recursos cloud. El endpoint base quedó activo y listo para recibir publicaciones de código.
+
+* **Endpoint Base API:** `https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1`
+* **Estado de Infraestructura:** `OK` / `Se completó la implementación`
+
+
+<p align="center">
+  <img src="assets/chapter-05/despliegueApi02.png" alt="Analíticos de Colaboración e Insights de GitHub - Sprint 1" width="850" />
+</p>
+
+### Paso 3: Pipeline de CI/CD con GitHub Actions
+Se automatizó el flujo de integración y despliegue continuo (CI/CD) para la API desde GitHub.
+
+* **Repositorio:** `upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock`
+* **Workflow:** `.github/workflows/main_allpatek-mockapi.yml`
+* **Triggers:** `push` a la rama `main` y ejecución manual (`workflow_dispatch`).
+* **Etapas del Workflow:**
+  1. **Job `build` (9s):** Checkout del código, configuración de Node.js v24, instalación de dependencias (`npm install`) y compilación (`npm run build`).
+  2. **Job `deploy` (1m 06s):** Autenticación segura en Azure mediante secretos en GitHub (`AZUREAPPSERVICE_CLIENTID`, `AZUREAPPSERVICE_TENANTID`, `AZUREAPPSERVICE_SUBSCRIPTIONID`) y publicación en el slot de producción de `allpatek-mockapi`.
+* **Estado Final:** `Success`  (Duración total: 1m 22s)
+
+
+<p align="center">
+  <img src="assets/chapter-05/despliegueApi03.png" alt="Analíticos de Colaboración e Insights de GitHub - Sprint 1" width="850" />
+</p>
+
+
+## 2. Despliegue del Frontend Angular en Netlify (`terranova-allpatek`)
+
+### Paso 1: Vinculación del Repositorio en Netlify
+Se conectó la plataforma de hosting Netlify con la organización de GitHub del proyecto para habilitar el despliegue automático del cliente Web.
+
+* **Cuenta / Equipo:** `Allpatek`
+* **Organización Git:** `upc-pre-202620-1asi0729-7753-Terranova`
+* **Repositorio Seleccionado:** `allpatek-webapp` (Público)
+
+
+<p align="center">
+  <img src="assets/chapter-05/desplieguefront01.png" alt="Vinculación de repositorio allpatek-webapp en Netlify" width="850" />
+</p>
+
+
+
+### Paso 2: Configuración de Build y Entorno
+Se definieron los parámetros técnicos requeridos por Angular 22 para su compilación y posterior distribución estática.
+
+| Parámetro | Valor Configurado | Notas Técnicas |
+| :---: | :---: | :---: |
+| **Nombre del Proyecto** | `terranova-allpatek` | Asigna la URL `terranova-allpatek.netlify.app` |
+| **Rama de Despliegue** | `develop` | Monitorea cambios en desarrollo |
+| **Comando de Build** | `npm run build` | Ejecuta el compilador CLI de Angular |
+| **Directorio de Publicación** | `dist/allpatek-webapp/browser` | Angular 22 ubica el `index.html` en `/browser` |
+| **Variables de Entorno** | *Ninguna* | URLs de Azure precargadas en `src/environments/environment.ts` |
+
+
+<p align="center">
+  <img src="assets/chapter-05/desplieguefront02.png" alt="Configuración de parámetros de build en Netlify" width="850" />
+</p>
+
+
+
+### Paso 3: Publicación del Frontend en Netlify
+Netlify procesó el pipeline de construcción de Angular y publicó el cliente web en su red global de distribución (CDN).
+
+* **Estrategia CD:** Despliegue automático disparado tras cada `push` a la rama `develop`.
+* **Estado del Sitio:** `Published` ✅
+
+
+<p align="center">
+  <img src="assets/chapter-05/desplieguefront03.png" alt="Confirmación de sitio publicado en Netlify Dashboard" width="850" />
+</p>
+
+
+
+### Paso 4: Verificación del Frontend desplegado en Producción
+Se realizó la comprobación final de acceso en vivo a la aplicación web, verificando la carga correcta de la interfaz Angular comunicándose con el entorno de backend.
+
+* **URL de Producción:** [Ver App Web](https://terranova-allpatek.netlify.app)
+* **Resultado:** Carga interactiva correcta en navegador sin errores de renderizado.
+
+
+<p align="center">
+  <img src="assets/chapter-05/desplieguefront04.png" alt="Vista del cliente Frontend Angular desplegado y en ejecución" width="850" />
+</p>
+
+
 #### 5.2.2.8. Team Collaboration Insights during Sprint
+
+
+Durante el **Sprint 2** el equipo TerraNova implementó la **Web Application** (SPA Angular, repositorio `allpatek-webapp`) y el **Web Service / Fake API** (repositorio `allpatek-platform-mock`). La Landing Page quedó cerrada en el Sprint 1; en este sprint no se reabrió como producto, salvo el consumo de la misma organización de GitHub.
+
+
+
+| Integrante | Usuario GitHub | Web Application (`allpatek-webapp`) | Web Services (`allpatek-platform-mock`) |
+| :--- | :--- | :--- | :--- |
+| Atauje Barreto, Alexander Sebastián | Alexander1Alexander2 | Líder de `feature/alerts-management`: modelo climático, cliente Open-Meteo, climate board y rutas farmer-only. | Consumo de parcelas/perfiles por id y contrato REST `/api/v1` documentado en la matriz de endpoints. |
+| Egocheaga Suyo, Miguel Angel | MiguelAngel0107 | Líder de `feature/escrow-payments`: entidades de wallet/escrow, bóveda, depósito y liberación por hito. | Uso de `/wallets` y recursos de contrato/evidencia para el estado de la bóveda. |
+| Orellana Rodríguez, Mel Andree | melandree8 | Shared kernel (sesión, perfiles, shell, i18n) y líder de `feature/agreements-management`; integración en `develop`, `release/v1.0.0` y `main`; despliegue Netlify. | Contrato mock, `db.json`, rewriter `/api/v1`, health check y pipeline Azure (`allpatek-mockapi`). |
+| Raymundo Villarroel, Abigail Nadhim | AbigailRV | Líder de `feature/parcel-management`: entidad parcela, API, store, board/form/detail y ruta de aterrizaje del workspace. | CRUD sobre `/parcels` (GET, POST, PUT, DELETE) contra el mock desplegado. |
+| Vera Solsol, Nayely Macarena | Macaxprogram29 | Líder de `feature/tracking-evidence`: evidencias por hito, carga del agricultor, revisión del comerciante y transiciones de estado. | Persistencia en `/evidence` (GET, POST, PUT) usada por la bóveda al aceptar un hito. |
+
+Todos los miembros del equipo tienen commits de implementación en la **Web Application**. El **Web Service** es un único mock compartido: Mel lideró el repositorio y el deploy; el resto participa al implementar el cliente HTTP de su contexto sobre el mismo contrato `/api/v1` .
+
+
+####  Cómo se desarrolló la implementación
+
+1. Se partió `develop` con el kernel compartido (entornos, sesión, perfiles, carpetas DDD vacías).
+2. Cada líder abrió su `feature/*`, implementó dominio → infraestructura → application store → vistas → rutas, y abrió integración a `develop`.
+3. Los contextos no importan stores ajenos: consultan el mock por `parcelId` / `profileId`.
+4. Los conflictos de `app.routes.ts` se resolvieron en rebase para dejar todos los `loadChildren`.
+5. Pruebas de ejecución sobre Netlify + Azure; n8n se usó para avisos de contrato, evidencia y pago, sin sustituir el contrato REST del mock.
+
+
+<div align="center">
+  <img src="assets/chapter-05/sprint02.png" alt="Impact Mapping" width="850">
+</div>
+
+
+
+
 ### 5.2.3. Sprint 3
 #### 5.2.3.1. Sprint Planning 3
 #### 5.2.3.2. Aspect Leaders and Collaborators
