@@ -2974,22 +2974,39 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 | --- | --- | --- | --- | --- | --- |
-| allpatek-webapp | | | | | |
-| allpatek-webapp | | | | | |
-| allpatek-webapp | | | | | |
-| allpatek-webapp | | | | | |
-| allpatek-webapp | | | | | |
-| allpatek-webapp | | | | | |
-| allpatek-webapp | | | | | |
-| allpatek-webapp | | | | | |
-| allpatek-webapp | | | | | |
-| allpatek-webapp | | | | | |
-| allpatek-webapp | | | | | |
-| allpatek-webapp | | | | | |
-| allpatek-webapp | | | | | |
-| allpatek-webapp | | | | | |
-| allpatek-webapp | | | | | |
-| allpatek-webapp | | | | | |
+| allpatek-webapp | develop | ae65b82 | chore: configure workspace environments and app shell | Set Angular workspace environments and the shared app shell used by every bounded context. | 2026-10-04 |
+| allpatek-webapp | develop | 714ab81 | feat: add shared kernel with session and profiles | Add session and profile support in the shared kernel so feature modules can resolve the signed-in user. | 2026-10-04 |
+| allpatek-webapp | develop | 1a81779 | chore: add bounded context folders | Create empty DDD folders for each bounded context so teammates can implement their feature on a dedicated branch. | 2026-10-04 |
+| allpatek-webapp | feature/agreements-management | c781e7e | feat: add agreements domain model | Introduce agreement entities, contract codes, and money helpers used to draft and activate contracts. | 2026-10-04 |
+| allpatek-webapp | feature/agreements-management | 5498a2b | feat: add agreements infrastructure | Add HTTP clients that persist agreements and look up parcels by id without importing other contexts. | 2026-10-04 |
+| allpatek-webapp | feature/agreements-management | 7aa4816 | feat: add agreements application store | Coordinate agreement list, draft, and activation state from the application layer. | 2026-10-04 |
+| allpatek-webapp | feature/agreements-management | 79b8efd | feat: add agreements presentation views | Build contract list, merchant detail, and sign screens for farmer and merchant roles. | 2026-10-04 |
+| allpatek-webapp | feature/agreements-management | 6776288 | feat: wire agreements routes | Register agreement child routes in the workspace so the contracts module can be lazy-loaded. | 2026-10-04 |
+| allpatek-webapp | develop | ded9397 | Merge branch 'feature/agreements-management' into develop | Integrate the agreements bounded context into the shared develop branch. | 2026-10-04 |
+| allpatek-webapp | feature/alerts-management | 3a866a9 | feat: add climate reading model used by parcel weather alerts | Define the climate reading model that maps forecast data to parcel weather alerts. | 2026-10-04 |
+| allpatek-webapp | feature/alerts-management | 2891a83 | feat: integrate Open-Meteo forecast client inside alerts infrastructure | Connect alerts infrastructure to the Open-Meteo forecast client for parcel weather readings. | 2026-10-04 |
+| allpatek-webapp | feature/alerts-management | ed5e79b | feat: load farmer climate readings through the alerts application store | Load farmer-owned climate readings in the alerts application store using parcel location. | 2026-10-04 |
+| allpatek-webapp | feature/alerts-management | bbe51b3 | feat: present climate board with weather metrics and field warnings | Render the climate board with weather metrics and field warnings for the farmer. | 2026-10-04 |
+| allpatek-webapp | feature/alerts-management | 92b872a | feat: register farmer-only alerts routes in the workspace shell | Mount alerts routes as a farmer-only workspace section. | 2026-10-04 |
+| allpatek-webapp | develop | 6f38288 | Merge branch 'feature/alerts-management' into develop | Integrate the alerts bounded context into the shared develop branch. | 2026-10-04 |
+| allpatek-webapp | feature/escrow-payments | 4aadfaa | feat: introduce escrow payment entities | Add wallet and escrow domain types used to hold funds until evidence is accepted. | 2026-10-04 |
+| allpatek-webapp | feature/escrow-payments | 9b6c36c | feat: connect wallets to the platform API | Persist wallet balances and transfers through the platform API. | 2026-10-04 |
+| allpatek-webapp | feature/escrow-payments | 096345e | feat: implement escrow vault store | Coordinate deposit, hold, and release of escrow funds in the application store. | 2026-10-04 |
+| allpatek-webapp | feature/escrow-payments | 661a8d2 | feat: build vault and deposit screens | Build the vault board and deposit form used by farmer and merchant roles. | 2026-10-04 |
+| allpatek-webapp | feature/escrow-payments | 1a0369d | feat: register escrow payment routes | Register vault and deposit routes in the workspace shell. | 2026-10-04 |
+| allpatek-webapp | develop | ab71598 | Merge branch 'feature/escrow-payments' into develop | Integrate the escrow payments bounded context into the shared develop branch. | 2026-10-04 |
+| allpatek-webapp | feature/parcel-management | 5540ed7 | feat: define parcel entity and campaign cost helpers | Model parcels and campaign cost helpers for the farmer catalog. | 2026-10-04 |
+| allpatek-webapp | feature/parcel-management | 9aca698 | feat: expose parcel persistence through the platform API | Persist parcels through the platform API from the infrastructure layer. | 2026-10-04 |
+| allpatek-webapp | feature/parcel-management | 92a0f4d | feat: coordinate parcel catalog state in the application store | Coordinate list, create, update, and delete of parcels in the application store. | 2026-10-04 |
+| allpatek-webapp | feature/parcel-management | 90c6737 | feat: render parcel board, form and detail workspace screens | Render parcel board, form, and detail screens in the workspace. | 2026-10-04 |
+| allpatek-webapp | feature/parcel-management | 1561a6d | feat: mount parcel routes as the workspace landing path | Make parcels the default workspace landing route after login. | 2026-10-04 |
+| allpatek-webapp | develop | 4818453 | Merge branch 'feature/parcel-management' into develop | Integrate the parcel management bounded context into the shared develop branch. | 2026-10-04 |
+| allpatek-webapp | feature/tracking-evidence | 50a5d32 | feat: model milestone evidence submitted for activated contracts | Define milestone evidence submitted against an activated contract. | 2026-10-04 |
+| allpatek-webapp | feature/tracking-evidence | 3a561a6 | feat: persist milestone evidence through the platform evidence API | Persist milestone evidence through the platform evidence API. | 2026-10-04 |
+| allpatek-webapp | feature/tracking-evidence | aaea17c | feat: orchestrate evidence status transitions in the application store | Orchestrate evidence status transitions from submitted to accepted or rejected. | 2026-10-04 |
+| allpatek-webapp | feature/tracking-evidence | 6adba0a | feat: ship farmer upload and merchant review evidence screens | Ship farmer upload and merchant review screens for milestone evidence. | 2026-10-04 |
+| allpatek-webapp | feature/tracking-evidence | 504f9ad | feat: attach evidence routes for farmer upload and merchant review | Register evidence routes for farmer upload and merchant review. | 2026-10-04 |
+| allpatek-webapp | develop | 26ff76e | Merge branch 'feature/tracking-evidence' into develop | Integrate the tracking evidence bounded context into the shared develop branch. | 2026-10-04 |
 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
