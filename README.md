@@ -1778,7 +1778,7 @@ Se utiliza **Domain-Driven Design (DDD)** para agrupar el sistema según sus res
 | Payments and Plans | Pagos y planes de suscripción propuestos. | Se consulta un abono o el pago correspondiente a un hito. |
 | Crop Monitoring | Avances, evidencias y alertas climáticas. | El agricultor registra la siembra y el comerciante recibe una actualización. |
 
-Estos módulos se implementarán dentro de una misma API Spring Boot. Se comunicarán mediante sus servicios, manteniendo la responsabilidad de cada uno. Por ejemplo, Contratos consulta la disponibilidad de Parcelas y el estado de Pagos para determinar si puede activar un acuerdo. n8n se utiliza como herramienta de automatización para documentos y mensajes.
+Estos módulos se implementarán inicialmente dentro de una misma API Spring Boot como un **modular monolith**. Cada bounded context tendrá sus propios servicios de aplicación, modelo de dominio y puertos de repositorio. Las consultas entre módulos se realizarán mediante interfaces explícitas; por ejemplo, Season Contracting consulta a Land Management para comprobar la disponibilidad y a Payments and Plans para verificar los fondos antes de activar un contrato. n8n permanece fuera del dominio y actúa como adaptador de automatización para generar documentos y enviar mensajes.
 
 **Base de la propuesta.** Se utiliza el nombre Allpatek empleado en los capítulos I, II y IV. Se consideran los roles agricultor y comerciante, sin excluir a familias ni negocios. Los planes de suscripción proceden del capítulo IV y las calificaciones, WhatsApp y el uso con conectividad limitada proceden del capítulo I. Son funciones propuestas, no capacidades ya implementadas.
 
@@ -1797,13 +1797,13 @@ El **Design-Level EventStorming** permite recorrer lo que sucede en el negocio y
 | Policy | Regla que indica cuándo debe ocurrir otra acción. | Después de confirmar el pago y las aceptaciones, activar el contrato. |
 | Query / Read model | Información que se consulta sin modificarla. | Parcelas disponibles o estado de un contrato. |
 
-El flujo principal es: el agricultor publica una parcela; el comerciante consulta el catálogo y envía una propuesta; el agricultor la acepta o presenta una contraoferta; se realiza una reserva temporal; ambas partes aceptan las mismas condiciones; se verifica el pago; se activa el contrato y se envía el PDF. Durante la temporada, el agricultor registra avances y el comerciante revisa los hitos acordados.
+El flujo se separa por bounded context para mostrar quién controla cada decisión. Land Management publica y reserva la parcela; Season Contracting administra la propuesta, la aceptación y los hitos; Payments and Plans confirma los fondos y solicita los desembolsos; Crop Monitoring registra las evidencias. Las flechas entre contextos representan reacciones explícitas a eventos, no acceso directo a sus datos.
 
 ![Figura 4.6.1. Propuesta de EventStorming para el flujo principal](assets/chapter-04/architecture/01-eventstorming.png)
 
 *Figura 4.6.1. Propuesta de EventStorming para el flujo principal.* [Diagrama editable](assets/chapter-04/architecture/01-eventstorming.puml).
 
-Los agregados principales son User, Plot, Proposal, Reservation, Contract, Payment y ProgressUpdate. Las consultas iniciales son SearchPlots, GetProposal, GetReservation, GetContract, GetPayments y GetProgress. Los contratos relacionan el catálogo con pagos y seguimiento, manteniendo el acuerdo como referencia común.
+Los aggregate roots principales son User, Plot, Proposal, Reservation, Contract, Payment, ProgressUpdate y WeatherAlert. Después de `PaymentConfirmed`, Season Contracting ejecuta `ActivateContract`. El evento `ContractActivated` inicia los flujos de n8n `GenerateContractPdf` y `SendContractNotification`. De forma similar, `ProgressRecorded` inicia `NotifyProgressUpdate`. La aprobación del hito produce `MilestoneApproved`; luego Payments and Plans solicita el desembolso sin confundir la aprobación del trabajo con la confirmación bancaria.
 
 Las reglas principales son:
 
@@ -1815,7 +1815,7 @@ Las reglas principales son:
 - Los criterios de pago por labor deben distinguir el trabajo realizado del rendimiento de la cosecha, de acuerdo con el modelo del capítulo I.
 - Una falla de correo no anula un contrato ni debe duplicar un pago.
 
-**Validación colaborativa pendiente:** el recorrido ya se relaciona con el Big Picture Event Storming y las historias disponibles. Aún falta realizar y evidenciar la sesión de diseño del equipo con su fecha, participantes, enlace y capturas reales del tablero. En ella se revisarán los límites de cada área y las preguntas abiertas.
+**Evidencia de validación colaborativa requerida:** el modelo ya identifica los bounded contexts, comandos, eventos, aggregate roots, read models y políticas. Para cerrar esta sección todavía debe adjuntarse la evidencia real de una sesión del equipo: fecha, participantes, enlace al tablero, captura y decisiones acordadas. No se reemplaza esta evidencia con un diagrama elaborado individualmente.
 
 ### 4.6.2. Software Architecture Context Diagram
 
@@ -1838,25 +1838,25 @@ El diagrama de contenedores muestra las aplicaciones y almacenes que forman la s
 | Elemento | Función | Tecnología propuesta |
 |---|---|---|
 | Landing page | Presentar el negocio y dirigir al registro o catálogo. | HTML5, CSS3 y JavaScript. |
-| Web application | Mostrar las pantallas que utilizan agricultores y comerciantes. | Angular, TypeScript y Angular Material. |
+| Web application (SPA) | Ejecutarse en el navegador como una Single-Page Application y mostrar las pantallas que utilizan agricultores y comerciantes. | Angular, TypeScript y Angular Material. |
 | REST API | Procesar solicitudes, validar reglas y administrar información. | Java, Spring Boot y Spring Data JPA; documentación OpenAPI/Swagger. |
 | Base de datos | Guardar usuarios, parcelas, contratos, pagos y avances. | PostgreSQL, como propuesta a confirmar con el equipo. |
 | Almacenamiento de archivos | Conservar fotos, evidencias y documentos PDF. | Servicio privado de almacenamiento por seleccionar. |
 | n8n | Coordinar la generación del documento y el envío de mensajes. | Flujos de automatización n8n, con su almacenamiento de configuración. |
 
-La aplicación Angular se comunica con la API; la API consulta y guarda los datos. Los archivos se entregan únicamente a usuarios autorizados. n8n recibe una solicitud de la API, obtiene el documento y coordina su envío. Para generar el PDF, se propone que n8n invoque un servicio Java de la API que utilice los datos del contrato.
+La **SPA Angular** se descarga y ejecuta en el navegador. Cambia de vistas mediante el enrutador del cliente y consume la REST API por HTTPS/JSON, sin renderizar las reglas del negocio en el navegador. La API consulta y guarda los datos. Los archivos se entregan únicamente a usuarios autorizados. n8n recibe una solicitud autenticada de la API, obtiene el documento y coordina su envío. Para generar el PDF, se propone que n8n invoque un servicio Java de la API que utilice los datos del contrato.
 
 La interfaz tendrá inglés como idioma predeterminado y español latinoamericano como alternativa, conforme al enunciado. Las pantallas contemplarán uso con teclado, etiquetas claras, contraste y adaptación a móviles. Para la conectividad limitada se propone conservar borradores de avances y enviarlos al recuperar conexión; pagos y aceptación de contratos requieren conexión.
 
 ### 4.6.4. Software Architecture Components Diagrams
 
-Los componentes permiten ver cómo se organiza cada aplicación por dentro. En la API, los **controladores** reciben solicitudes, los **servicios** realizan las operaciones del negocio y los **repositorios** consultan o guardan datos. Cada módulo mantiene sus propias reglas. En la figura, el bloque Repositories resume los repositorios de las cinco áreas.
+Los componentes permiten ver cómo se organiza cada aplicación por dentro. La API aplica DDD junto con una arquitectura de puertos y adaptadores. Los **adaptadores de entrada REST** traducen HTTP a comandos y consultas. Cada bounded context contiene sus **servicios de aplicación**, **aggregate roots**, **value objects** y **puertos de repositorio**. Los adaptadores de persistencia y de servicios externos implementan esos puertos sin introducir detalles de PostgreSQL, pagos o n8n dentro del modelo de dominio.
 
 ![Figura 4.6.4-A. Componentes de la API](assets/chapter-04/architecture/04-api-components.png)
 
 *Figura 4.6.4-A. Componentes de la API.* [Diagrama editable](assets/chapter-04/architecture/04-api-components.puml).
 
-Por ejemplo, una solicitud de contratación llega al controlador, pasa al servicio de contratos y se guarda mediante su repositorio. Cuando la operación necesita pagos, clima o mensajes, utiliza la integración correspondiente. Los servicios de Contratos, Parcelas, Pagos y Seguimiento se consultan entre sí cuando el proceso lo requiere.
+Por ejemplo, una solicitud de contratación entra por un controlador, ejecuta un caso de uso de Season Contracting y modifica el aggregate `Contract`. El módulo consulta la disponibilidad de la parcela y el pago mediante puertos explícitos. Finalmente, un adaptador JPA persiste el agregado. Esta dirección de dependencias mantiene las reglas del negocio independientes de Spring MVC, PostgreSQL, proveedores de pago y n8n.
 
 ![Figura 4.6.4-B. Componentes de la aplicación web](assets/chapter-04/architecture/05-web-components.png)
 
@@ -1880,17 +1880,17 @@ Los almacenes se detallan en el diseño de datos de 4.8. La base propia de n8n g
 
 ## 4.7. Software Object-Oriented Design
 
-El diseño orientado a objetos representa los elementos del negocio mediante clases. Cada clase reúne información y operaciones relacionadas. Por ejemplo, Contract conserva las fechas de la temporada y permite registrar su aceptación o cierre.
+El diseño orientado a objetos representa los elementos del negocio mediante clases DDD. Un **Aggregate Root** controla los cambios que deben conservar consistencia; una **Entity** tiene identidad dentro del agregado; y un **Value Object** representa un concepto inmutable y valida sus propios datos. Por ejemplo, `Contract` controla sus hitos, mientras `Money`, `DateRange` y `ContractTerms` evitan representar reglas del negocio como valores primitivos sin comportamiento.
 
-Se proponen clases agrupadas en los mismos cinco módulos de la arquitectura. Los atributos se muestran con **-** para indicar acceso privado y los métodos con **+** para indicar acceso público. Las relaciones señalan cómo se conectan las clases y cuántos elementos pueden participar. Las enumeraciones agrupan valores permitidos, como los roles de usuario o estados de contrato.
+Las clases se agrupan en los mismos cinco bounded contexts de la arquitectura. Los estereotipos `Aggregate Root`, `Entity`, `Value Object` y `Repository Port` hacen explícita su responsabilidad. Los atributos se muestran con **-** para indicar acceso privado y los métodos con **+** para indicar acceso público. Las enumeraciones limitan roles y estados; los identificadores de otros contextos se modelan como value objects y no como asociaciones que permitan modificar el agregado externo.
 
 ### 4.7.1. Class Diagrams
 
-Los diagramas siguientes corresponden al modelo de negocio de la API Java. Se incluye una interfaz Repository representativa por módulo para mostrar cómo se separa la consulta de datos de las clases del negocio. Las referencias entre módulos utilizan identificadores, como merchantId o contractId.
+Los diagramas siguientes corresponden al modelo de dominio de la API Java. Los repositorios se expresan como puertos del dominio; Spring Data JPA implementará sus adaptadores en infraestructura. Los value objects como `EmailAddress`, `Money`, `GeoLocation`, `DateRange`, `ContractTerms`, `Evidence` y `ProviderReference` centralizan validaciones que antes estaban dispersas en atributos `String` o `BigDecimal`.
 
 #### Users and Profiles
 
-User representa a una persona registrada, su rol y el estado de verificación de su identidad. Review guarda la calificación que una parte deja a la otra al terminar un contrato. Esto recoge la reputación bidireccional propuesta en el capítulo I y la validación solicitada en US01 del capítulo III.
+`User` y `Review` son aggregate roots. `EmailAddress`, `PhoneNumber`, `IdentityDocument` y `Rating` validan conceptos del perfil sin identidad propia. Review conserva referencias mediante `UserId` y `ContractId`, evitando acoplar su ciclo de vida al de otros contextos.
 
 ![Figura 4.7.1. Clases de Users and Profiles](assets/chapter-04/architecture/08-classes-users.png)
 
@@ -1898,7 +1898,7 @@ User representa a una persona registrada, su rol y el estado de verificación de
 
 #### Land Management
 
-Plot reúne los datos de la parcela, cultivo, costo orientativo y disponibilidad. Una reserva temporal cambia su estado mientras se confirma el pago. PlotPhoto permite conservar varias fotografías y distinguir la principal, como solicita el formulario del capítulo IV.
+`Plot` es el aggregate root y controla sus entidades `PlotPhoto`. `GeoLocation`, `Area`, `Money` y `AvailabilityPeriod` validan coordenadas, superficie, costo y periodos. La regla de una sola fotografía principal y los cambios de disponibilidad se ejecutan a través de Plot.
 
 ![Figura 4.7.2. Clases de Land Management](assets/chapter-04/architecture/09-classes-plots.png)
 
@@ -1906,7 +1906,7 @@ Plot reúne los datos de la parcela, cultivo, costo orientativo y disponibilidad
 
 #### Season Contracting
 
-Proposal registra la oferta inicial y sus contraofertas; Reservation bloquea temporalmente una parcela cuando ya se acordaron las condiciones. Contract guarda las partes, fechas, importe y condiciones de la temporada. Milestone representa una etapa con sus criterios de aprobación e importe. Los hitos pertenecen al contrato y no existen de manera independiente.
+`Proposal`, `Reservation` y `Contract` son aggregate roots con límites de consistencia distintos. `Milestone` es una entity propiedad de Contract y no se modifica de manera independiente. `Money`, `DateRange`, `ContractTerms`, `ContractAcceptance` y `MilestoneCriteria` expresan reglas como la moneda, el periodo, la versión aceptada de las condiciones y los criterios de aprobación.
 
 ![Figura 4.7.3. Clases de Season Contracting](assets/chapter-04/architecture/10-classes-contracts.png)
 
@@ -1914,7 +1914,7 @@ Proposal registra la oferta inicial y sus contraofertas; Reservation bloquea tem
 
 #### Payments and Plans
 
-Payment registra una operación y su resultado. SubscriptionPlan y Subscription representan los planes mensuales de los prototipos. Su inclusión permite conectar el diseño con esas pantallas; los precios y la decisión de cobrar planes o comisiones siguen pendientes.
+`Payment`, `SubscriptionPlan` y `Subscription` son aggregate roots. `Money` protege la combinación importe-moneda y `PaymentDestination` valida que cada tipo de pago apunte a un contrato, hito o suscripción válido. `ProviderReference` permite impedir que una confirmación del proveedor se procese dos veces.
 
 ![Figura 4.7.4. Clases de Payments and Plans](assets/chapter-04/architecture/11-classes-payments.png)
 
@@ -1922,7 +1922,7 @@ Payment registra una operación y su resultado. SubscriptionPlan y Subscription 
 
 #### Crop Monitoring
 
-ProgressUpdate registra el trabajo, sus evidencias, fecha de captura y ubicación. WeatherAlert conserva una alerta con fuente y fecha. Se agrupan aquí para que el usuario consulte tanto el avance del cultivo como la información climática de su parcela. La ubicación de la evidencia responde a US04 del capítulo III.
+`ProgressUpdate` y `WeatherAlert` son aggregate roots. `Evidence` agrupa el archivo, la ubicación y la fecha de captura; `ClientReference` evita duplicar un avance al reintentar una carga sin conexión. `WeatherObservation` conserva la fuente y la fecha de los datos que originan una alerta.
 
 ![Figura 4.7.5. Clases de Crop Monitoring](assets/chapter-04/architecture/12-classes-monitoring.png)
 
@@ -1934,7 +1934,7 @@ La UI de Angular utilizará componentes y servicios para presentar estos datos; 
 
 La base de datos conserva la información de Allpatek y relaciona sus elementos mediante identificadores. Se utiliza un modelo relacional para representar usuarios, parcelas, propuestas, reservas, contratos, hitos, pagos y seguimiento.
 
-Cada tabla tiene una **clave primaria (PK)** que identifica sus registros. Las **claves foráneas (FK)** relacionan tablas; por ejemplo, plot_id permite conocer la parcela de un contrato. Los importes se representan con DECIMAL y los archivos mediante una clave de almacenamiento, evitando guardar fotografías completas en los registros del negocio.
+Cada tabla tiene una **clave primaria (PK)** que identifica sus registros. Las **claves foráneas (FK)** relacionan tablas; por ejemplo, `plot_id` permite conocer la parcela de un contrato. Los value objects se aplanan en columnas: `Money` se guarda como importe y moneda, `GeoLocation` como latitud y longitud, y `DateRange` como fecha inicial y final. Los archivos se representan mediante una clave de almacenamiento, evitando guardar fotografías completas en los registros del negocio.
 
 ### 4.8.1. Database Diagrams
 
