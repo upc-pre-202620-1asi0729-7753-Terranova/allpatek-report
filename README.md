@@ -54,13 +54,15 @@
 | AV1 | 06/09/2026 | Orellana Rodríguez, Mel Andree | Diseño de Wireframes y Mock-ups de la aplicación web |
 | AV1 | 06/09/2026 | Orellana Rodríguez, Mel Andree | Creación de diagramas Wireflow y User Flow |
 | AV1 | 06/09/2026 | Orellana Rodríguez, Mel Andree | Desarrollo del prototipo interactivo de la aplicación web |
-| AV1 | 14/09/2026 | Alexander | Redacción de Startup Profile: Descripción de la Startup y Perfiles de integrantes del equipo |
-| AV1 | 14/09/2026 | Alexander | Elaboración de Solution Profile: Antecedentes y problemática del sector agrícola |
-| AV1 | 14/09/2026 | Alexander | Definición del Lean UX Process: Problem Statements, Assumptions, Hypothesis Statements y Lean UX Canvas |
-| AV1 | 14/09/2026 | Alexander | Redacción y caracterización detallada de los Segmentos Objetivo y referencias en formato APA 7 |
-| AV1 | 14/09/2026 | Alexander | Maquetación HTML5 e implementación de estilos CSS Grid para la sección Servicios de la Landing Page |
-| AV1 | 14/09/2026 | Alexander | Maquetación HTML5 e implementación de estilos CSS para la sección Hitos / Cómo Funciona |
-| AV1 | 14/09/2026 | Alexander | Modularización, refactorización de código CSS y gestión de commits en ramas de GitHub (`feature/services`, `feature/how-it-works`) |
+| AV1 | 14/09/2026 | Atauje Barreto, Alexander Sebastián | Redacción y estructuración completa de Startup Profile (Descripción de la Startup y Perfiles de integrantes del equipo) |
+| AV1 | 14/09/2026 | Atauje Barreto, Alexander Sebastián | Elaboración de Solution Profile: Análisis de antecedentes, problemática del sector agrícola y propuesta de valor de Allpatek |
+| AV1 | 14/09/2026 | Atauje Barreto, Alexander Sebastián | Definición del Lean UX Process: Problem Statements, Assumptions, Hypothesis Statements y diseño del Lean UX Canvas |
+| AV1 | 14/09/2026 | Atauje Barreto, Alexander Sebastián | Redacción, caracterización y segmentación detallada de los Segmentos Objetivo (Agricultor Familiar y Comprador Urbano/Corporativo) con referencias APA 7 |
+| AV1 | 14/09/2026 | Atauje Barreto, Alexander Sebastián | Corrección y alineación del Alcance General del Proyecto: contratación digital (parcelas + reserva + pago + contrato), seguimiento de hitos/trazabilidad y conexión de actores |
+| AV1 | 4/10/2026 | Atauje Barreto, Alexander Sebastián | Maquetación HTML5 e implementación de estilos CSS Grid responsivos para la sección Servicios de la Landing Page |
+| AV1 | 4/10/2026 | Atauje Barreto, Alexander Sebastián | Maquetación HTML5 e implementación de estilos CSS para la sección Hitos / Cómo Funciona de la Landing Page |
+| AV1 | 4/10/2026 | Atauje Barreto, Alexander Sebastián | Modularización de código CSS, refactorización y gestión de control de versiones con Git/GitHub mediante las ramas `feature/services` y `feature/how-it-works` |
+| AV1 | 4/10/2026 | Atauje Barreto, Alexander Sebastián | Participación en la grabación del video de exposición del producto/equipo y preparación de diapositivas de sustentación |
 | AV1 | 13/09/2026 | Raymundo Villarroel, Abigail Nadhim | Elaboración de Competidores: Análisis Competitivo, SWOT y Estrategias/Tácticas frente a Agromercado, VeryAgro y Procesadora Perú |
 | AV1 | 13/09/2026 | Raymundo Villarroel, Abigail Nadhim | Diseño, Registro y Análisis de Entrevistas para los segmentos de Agricultor Familiar y Comprador Urbano |
 | AV1 | 13/09/2026 | Raymundo Villarroel, Abigail Nadhim | Elaboración de Needfinding en UXPressia: User Personas, User Task Matrix, User Journey Mapping (As-Is) y Empathy Mapping |
@@ -78,7 +80,7 @@
 
 | Integrante | Tareas Asignadas |
 |---|---|
-| Atauje Barreto, Alexander Sebastián | Introduction, Startup Profile, Startup Description, Team Member Profiles, Solution Profile, Background & Problematic, Lean UX Process (Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas), Target Segments, Services Section (HTML5 & CSS Grid Layout), Milestones / How It Works Section (HTML5 & CSS Layout), Landing Page Modularization & GitHub Branch Management |
+| Atauje Barreto, Alexander Sebastián | Capítulo I completo: Introduction, Startup Profile (Startup Description, Team Member Profiles), Solution Profile (Background & Problematic, Lean UX Process: Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas), Target Segments. Alineación del Alcance General del Proyecto (Contratación Digital, Seguimiento de Hitos/Trazabilidad y Conexión Directa entre Actores). Maquetación e implementación web de las secciones Services (HTML5 & CSS Grid Layout) y Milestones / How It Works (HTML5 & CSS Layout) de la Landing Page. Modularización de estilos, refactorización y gestión de ramas en GitHub (`feature/services`, `feature/how-it-works`). Elaboración del material de exposición, grabación del video de presentación del equipo/producto y entrevistas de validación. |
 | Egocheaga Suyo, Miguel Angel | Domain-Driven Software Architecture (Chapter 4.6), Design-Level EventStorming, Software Architecture Context, Container and Component Diagrams, Software Object-Oriented Design, Class Diagrams, Database Design and Database Diagrams; Landing Page Header/Navbar and Hero Section implementation, responsive styles and navigation behavior (HTML5, CSS3 and JavaScript). |
 | Orellana Rodríguez, Mel Andree | Style Guidelines, General Style Guidelines, Web Style Guidelines, Information Architecture, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Web Applications UX/UI Design, Web Applications Wireframes, Web Applications Wireflow Diagrams, Web Applications Mock-ups, Web Applications User Flow Diagrams, Web Applications Prototyping |
 | Vera Solsol, Nayely Macarena | Impact Mapping, User Stories and Product Backlog (Chapter 3) |
