@@ -74,6 +74,15 @@
 | AV1 | 14/09/2026 | Vera Solsol, Nayely Macarena | Elaboración del Impact Mapping |
 | AV1 | 14/09/2026 | Vera Solsol, Nayely Macarena | Diseñar y actualizar los User Stories |
 | AV1 | 13/09/2026 | Vera Solsol, Nayely Macarena | Elaboracion del Product Backlog | 
+| TB1 | 03/10/2026 | Orellana Rodriguez, Mel Andree | Desarrollo del bounded context Shared | 
+| TB1 | 03/10/2026 | Orellana Rodriguez, Mel Andree | Desarrollo del bounded context agreements-management| 
+| TB1 | 03/10/2026 | Orellana Rodriguez, Mel Andree | Desarrollo de la estructura de Aplicación Web | 
+| TB1 | 04/10/2026 | Orellana Rodriguez, Mel Andree | Despliegue de la Frontend en Netlify | 
+| TB1 | 04/10/2026 | Orellana Rodriguez, Mel Andree | Despliegue del Mock APi en Azure | 
+| TB1 | 03/10/2026 | Orellana Rodriguez, Mel Andree | Correciones en el Product Backlog | 
+
+
+
 
 
 ## Project Report Collaboration Insights
