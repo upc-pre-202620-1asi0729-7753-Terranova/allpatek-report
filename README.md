@@ -825,6 +825,8 @@ El equipo realizó una sesión colaborativa de Big Picture Event Storming con el
 
 El diagrama se organiza en **cuatro fases** del ciclo de una temporada bajo el modelo Agro-as-a-Service. En cada fase se identifican los **domain events** (en naranja, redactados en tiempo pasado), los **actores** que los originan (en amarillo), los **sistemas externos** que participan (en lila) y los **hotspots** o puntos de fricción pendientes de resolver (en rosado).
 
+El proceso se desarrolló en cinco etapas: (1) exploración de eventos, en la que se listaron en tiempo pasado todos los eventos relevantes del negocio; (2) ordenamiento cronológico, desde la publicación de la parcela hasta el cierre de la temporada; (3) incorporación de los actores y sistemas externos que originan o participan en cada evento; (4) identificación de hotspots, es decir, dudas o fricciones sin resolver; y (5) agrupación de los eventos en cuatro fases para facilitar la lectura.
+
 ### Fases y eventos
 
 | Fase | Eventos | Actor o sistema involucrado |
@@ -847,66 +849,6 @@ Los tres hotspots quedan como insumo para el Design-Level Event Storming del Cap
 <p align="center">
   <img src="./assets/chapter-02/big-picture-event-storming.png" width="900">
 </p>
-
-*Código fuente del diagrama (Mermaid), disponible para su edición en [mermaid.live](https://mermaid.live):*
-
-```mermaid
-flowchart TB
-    classDef event fill:#FFA500,stroke:#333,stroke-width:1px,color:#000;
-    classDef actor fill:#FFE066,stroke:#333,stroke-width:1px,color:#000;
-    classDef system fill:#D8B4FE,stroke:#333,stroke-width:1px,color:#000;
-    classDef hotspot fill:#FF69B4,stroke:#333,stroke-width:1px,color:#000,stroke-dasharray: 3 3;
-
-    subgraph LEG["Leyenda"]
-        direction LR
-        L1["Domain event"]:::event
-        L2(["Actor"]):::actor
-        L3[["Sistema externo"]]:::system
-        L4["Hotspot"]:::hotspot
-    end
-
-    subgraph F1["Fase 1: Publicación y reserva"]
-        direction LR
-        A1(["Agricultor Familiar"]):::actor -.-> E1["Parcela publicada"]:::event
-        E1 --> E2["Plan de producción registrado"]:::event
-        A2(["Comprador Urbano"]):::actor -.-> E3["Parcela reservada"]:::event
-        E2 --> E3 --> E4["Plan de suscripción elegido"]:::event
-    end
-
-    subgraph F2["Fase 2: Contratación"]
-        direction LR
-        S1[["n8n: contrato PDF"]]:::system -.-> E5["Contrato de temporada generado"]:::event
-        E5 --> E6["Firma digital registrada"]:::event
-        E6 --> E7["Fondos depositados en custodia Escrow"]:::event
-        S2[["Pasarela de pagos"]]:::system -.-> E7
-        E7 --> E8["Hito 1 liberado: firma y bloqueo de capital"]:::event
-    end
-
-    subgraph F3["Fase 3: Cultivo y seguimiento"]
-        direction LR
-        A3(["Agricultor Familiar"]):::actor -.-> E9["Evidencia de siembra registrada"]:::event
-        E9 --> E10["Hito 2 liberado: verificación de siembra"]:::event
-        E10 --> E11["Evidencia de desarrollo registrada"]:::event
-        E11 --> E12["Notificación de avance enviada"]:::event
-        S3[["Servicio meteorológico"]]:::system -.-> E13["Alerta climática emitida"]:::event
-        E12 --> E13 --> E14["Hito 3 liberado: inspección de desarrollo"]:::event
-        E10 -.-> HS1["¿Qué pasa si el agricultor no cumple un hito a tiempo?"]:::hotspot
-        E13 -.-> HS3["¿Quién asume la pérdida ante un evento climático?"]:::hotspot
-    end
-
-    subgraph F4["Fase 4: Cosecha y cierre"]
-        direction LR
-        E15["Cosecha validada"]:::event --> E16["Hito 4 liberado: validación de cosecha"]:::event
-        E16 --> E17["Entrega final confirmada"]:::event
-        E17 --> E18["Hito 5 liberado: saldo final"]:::event
-        E18 --> E19["Calificación registrada"]:::event
-        E19 --> E20["Temporada renovada"]:::event
-        E15 -.-> HS2["¿Cómo se verifica objetivamente la calidad en la cosecha?"]:::hotspot
-    end
-
-    LEG ~~~ F1
-    F1 --> F2 --> F3 --> F4
-```
 
 ## 2.5. Ubiquitous Language
 
