@@ -228,15 +228,15 @@ El proceso de colaboración en el informe se realizó mediante commits constante
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
           <ul>
-            <li><b>AV1 - Mel Andree Orellana Rodriguez:</b> Presentación oral del avance del Capítulo 4 enfocado en el diseño de interfaces UI/UX para la plataforma "ALLPATEK", adaptando el vocabulario técnico para audiencias con perfil agrícola (agricultores) y comercial (comerciantes B2B) durante la demostración de los prototipos interactivos.</li>
-            <li><b>AV1 - Atauje Barreto, Alexander Sebastián:</b> Exposición oral del Capítulo 1 (Introducción), sustentando la propuesta de valor de ALLPATEK, el problema del sector agrícola y los supuestos del Lean UX Canvas ante el equipo de evaluación, adaptando la explicación del modelo de negocio B2B para perfiles técnicos y académicos.</li>
+            <li><b>AV1 - Mel Andree Orellana Rodriguez:</b> Presentación oral del avance del Capítulo 4 enfocado en el diseño de interfaces UI/UX para la plataforma "ALLPATEK", adaptando el vocabulario técnico para audiencias con perfil agrícola (agricultores) y comercial (comerciantes) durante la demostración de los prototipos interactivos.</li>
+            <li><b>AV1 - Atauje Barreto, Alexander Sebastián:</b> Exposición oral del Capítulo 1 (Introducción), sustentando la propuesta de valor de ALLPATEK, el problema del sector agrícola y los supuestos del Lean UX Canvas ante el equipo de evaluación, adaptando la explicación del modelo de negocio para perfiles técnicos y académicos.</li>
             <li><b>AV1 - Egocheaga Suyo, Miguel Angel:</b> Exposición oral de las secciones 4.6 a 4.8.1 del Capítulo IV, explicando el flujo de contratación, los pagos por hitos, la arquitectura de Allpatek y el diseño de datos mediante ejemplos comprensibles para evaluadores y perfiles no técnicos.</li>
             <li><b>AV1 - Raymundo Villarroel, Abigail Nadhim:</b> Exposición oral del avance del Capítulo II (Requirements Elicitation & Analysis), presentando el análisis competitivo frente a Agromercado, VeryAgro y Procesadora Perú, los hallazgos del proceso de needfinding (User Personas, User Journey Maps y Empathy Maps) y el modelado del Big Picture Event Storming, adaptando la explicación del dominio agrícola y del modelo Agro-as-a-Service para una audiencia evaluadora sin conocimiento previo del sector.</li>
             <li><b>AV1 - Vera Solsol, Nayely Macarena:</b> Exposición oral del avance del Capítulo III (Requirement Specification), presentando la alineación estratégica del Impact Mapping, la definición de las User Stories con sus criterios de aceptación y la priorización del Product Backlog para la plataforma ALLPATEK, adaptando la explicación técnica del flujo de requerimientos para una audiencia evaluadora académica y profesional. </li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
-Se demostró capacidad para exponer y sustentar de manera clara las soluciones técnicas y de diseño del proyecto ante diversas audiencias, adaptando el lenguaje técnico según el perfil de los interlocutores (evaluadores, agricultores y comerciantes B2B) y defendiendo eficazmente las decisiones del sistema.        </td>
+Se demostró capacidad para exponer y sustentar de manera clara las soluciones técnicas y de diseño del proyecto ante diversas audiencias, adaptando el lenguaje técnico según el perfil de los interlocutores (evaluadores, agricultores y comerciantes) y defendiendo eficazmente las decisiones del sistema.        </td>
       </tr>
       <tr>
         <td style="border: 1px solid #dddddd; padding: 10px; font-weight: bold; vertical-align: top;">
@@ -569,7 +569,20 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 
 ### 2.2.1. Diseño de entrevistas
 
-**Guía de entrevista — Segmento 1: Agricultores familiares**
+Se diseñaron guías de entrevista semiestructuradas para cada segmento. Cada guía tiene cuatro partes: una **apertura** con presentación y consentimiento, **preguntas básicas** sobre características objetivas (nombre, ocupación, dispositivo), **preguntas principales** sobre el proceso actual, los problemas y las expectativas del entrevistado, y **bloques de profundización** sobre características subjetivas (personalidad, familia, marcas e influencias y canales digitales). Estos últimos alimentan las fichas de User Persona.
+
+#### Apertura de la entrevista (ambos segmentos)
+
+Antes de la primera pregunta, el entrevistador sigue este orden:
+
+1. **Presentación:** nombre del entrevistado
+2. **Propósito:** se trata de un proyecto académico llamado Allpatek, el objetivo es entender cómo el entrevistado vende o compra productos agrícolas hoy, no se le va a vender nada y no hay respuestas correctas o incorrectas.
+3. **Duración:** unos 15 a 20 minutos.
+4. **Consentimiento:** se pide autorización para grabar en video y se aclara que solo se usará para el trabajo del curso y que puede detener la entrevista cuando quiera.
+
+---
+
+#### Guía de entrevista — Segmento 1: Agricultores familiares
 
 *Preguntas básicas (iniciales):*
 1. Para comenzar, ¿me podría decir su nombre?
@@ -599,7 +612,9 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 17. Si existiera una aplicación para ayudarle con estas cosas, ¿qué sería lo más importante para usted para que sea fácil de usar?
 18. ¿Hay alguna cosa de su trabajo que le gustaría poder hacer más rápido o más fácilmente con el celular?
 
-**Guía de entrevista — Segmento 2: Comerciantes /  Compradores urbanos **
+---
+
+#### Guía de entrevista — Segmento 2: Comerciantes / Compradores urbanos
 
 *Preguntas básicas (iniciales):*
 1. Para comenzar, ¿me podría decir su nombre?
@@ -627,10 +642,10 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 15. Si existiera una aplicación para hacer este tipo de compras directamente con el agricultor, ¿qué sería lo más importante para que confíe en ella y la use seguido?
 16. ¿Hay algo de este proceso de compra que le gustaría poder hacer más rápido o más fácil con el celular?
 17. ¿Qué lo haría dudar o desconfiar de comprarle directamente a un agricultor a través de una app, sin intermediarios?
+
+
     
 ### 2.2.2. Registro de entrevistas
-
-
 
 ### A.Entrevistas al segmento de agricultores familiares
 
@@ -649,7 +664,7 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 | Inicio de la entrevista | 00:00 |
 | Duración | 06:09 |
 | URL del video | [Video evidencia](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBbQDY3p2SiRq-xBW2hRB-dARiTcCuKw4tJ7sUQ8oeVau8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iVsXEQ) |
-| **Fotografía** | <div align="center"><img src="./assets/chapter-02/imagen-agricultor-rosa.jpeg" alt="Captura de la entrevista a Rosa Flores" width="300"></div> |
+| **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-agricultor-1.jpeg" alt="Captura de la entrevista a Rosa Flores" width="300"></div> |
 | **Resumen de la entrevista** | Entrevista realizada a Rosa Flores, agricultora a tiempo completo encargada de la gestión, supervisión y trabajo diario en una parcela familiar de palta con más de 6 años de experiencia en el cultivo. Utiliza un dispositivo Android (Xiaomi Redmi Note 11) para coordinar las labores agrícolas, tomar evidencias fotográficas del calibre de la fruta y comunicarse vía WhatsApp con el dueño de la parcela y los compradores. Señala serios problemas de conectividad a internet en las partes altas del huerto, lo que retrasa la entrega de reportes y negociaciones. Asimismo, destaca la necesidad de un sistema automatizado de guardado y envío de fotos con geolocalización/fecha y un servicio de alertas climáticas tempranas para proteger la floración del palto. |
 
 
@@ -669,7 +684,7 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 | Extensión aproximada de la parcela | 1000 m² |
 | Inicio de la entrevista | 00:00 |
 | Duración | 09:28 |
-| URL del video | [Video Evidencia](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQDAVMVnlqPDR4ysCethRB9SAdcd45gkIefMcHaSE811nGw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hTSuYz) |
+| URL del video | [Video Evidencia](https://upcedupe-my.sharepoint.com/:v:/r/personal/u20231h171_upc_edu_pe/Documents/Video%20Entrevista.mp4?d=w350e6ee8e89f44e3a0801080e03a5a37&csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vPTAoG) |
 | **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-agricultor-2.png" alt="Captura de la entrevista a Gustavo Adolfo Suyo" width="300"></div> |
 | **Resumen de la entrevista** | Entrevista realizada a Gustavo Adolfo Suyo, agricultor de 48 años del distrito de Yauyos. Indicó que cultiva paltas en una parcela de aproximadamente 1000 m². El enlace del video se incorporará cuando esté disponible. |
 
@@ -711,8 +726,26 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 | Duración | 10:33 |
 | URL del video | [Video evidencia](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQA2ALZ3uFutSaQ8ve7Nk7hqAXADf3-eTjCN6dlRHIPgDVI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MX0bNw) |
 | **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-comprador-2.png" alt="Captura de la entrevista a César Hugo Egocheaga" width="300"></div> |
-| **Resumen de la entrevista** | Entrevista realizada a César Hugo Egocheaga, comerciante de 50 años que dirige un negocio en el Mercado de Frutas de El Agustino. Indicó un volumen de compra aproximado de 400 kg por semana. El enlace del video se incorporará cuando esté disponible. |
+| **Resumen de la entrevista** | Entrevista realizada a César Hugo Egocheaga, concesionario de un puesto en el Mercado Mayorista de Frutas. Explicó que no compra la mercadería, sino que los productores de ceja de selva (zona de Chanchamayo) llevan su fruta al mercado, él la vende al público y cobra una comisión acordada con el agricultor. Trabaja principalmente con papaya, mandarina, naranja y, en algunos casos, manzana. Señala como principales dificultades el clima en época de lluvias, que daña o retrasa el transporte por la carretera central, la estacionalidad de los productos y el costo del flete, que se duplicó por el aumento del combustible y encarece el producto final. Indicó que, cuando la fruta llega maltratada, debe bajar el precio para venderla. Su relación con los productores se basa en la confianza de años y en cobrar sin engañarse. Usa WhatsApp para comunicarse con ellos. Sobre comprar por adelantado a precio fijo, indicó que no es una práctica habitual, aunque algunos concesionarios con capital sí lo hacen, y que una aplicación le sería interesante solo si cuenta con capital y con bastante confianza, porque hoy los tratos se hacen presencialmente para ver la mercadería. Como mejora, propone ampliar los espacios de estacionamiento y las instalaciones del mercado para atender mejor a los clientes. |
 
+
+#### Entrevista 3: Carolin Solsol
+
+| Campo | Información |
+|-------|-------------|
+| **Título** | **Entrevista 3: Carolin Solsol** |
+| Segmento | Comerciante urbano |
+| Nombres y apellidos | Carolin Solsol |
+| Edad | 46 años |
+| Distrito | Cercado de Lima |
+| Ocupación | Dueña de un restaurante familiar |
+| Tipo de comerciante (familia / restaurante / negocio) | Restaurante |
+| Volumen de compra aproximado | 35-45 kg por semana |
+| Inicio de la entrevista | 00:00 |
+| Duración | 9:40 |
+| URL del video | [Video evidencia](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h171_upc_edu_pe/IQDobg41n-jjRKCAEIDgOlo3AfXMuQqEXkTp0vU3WnDO5Eg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Z15UJ ) |
+| **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-comprador-3.png" width="300"></div> |
+| **Resumen de la entrevista** | La entrevista realizada a Carolin, dueña de un restaurante familiar en Lima, revela que realiza sus compras de insumos agrícolas principalmente por WhatsApp con proveedores de confianza, valorando más la calidad y la seguridad que el costo más bajo. Sus principales dolores de cabeza son la inestabilidad semanal de los precios, la incertidumbre sobre la frescura y peso de la mercadería, y los retrasos en las entregas. Ante una posible aplicación de compra directa al agricultor o modelos de precios fijos por temporada, se mostraría interesada siempre y cuando la plataforma garantice transparencia, verificación de identidad de los productores, soporte ante problemas y un canal de comunicación ágil como WhatsApp. |
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -727,21 +760,20 @@ En tercer lugar, existe una demanda transversal por herramientas móviles de baj
 En cuarto lugar, respecto a la viabilidad y adopción de la plataforma, la disposición a utilizar el sistema está condicionada a la simplicidad operativa y la efectividad en la venta. Los agricultores respaldarán la herramienta si demuestra que simplifica el registro de sus parcelas, garantiza la autenticidad de sus evidencias de calidad frente a los compradores y les permite acceder a transacciones más rápidas y transparentes. En síntesis, este segmento requiere una solución móvil intuitiva que resuelva los problemas de conectividad, certifique la calidad de sus productos y emita alertas preventivas para resguardar sus cultivos.
 
 <div align="center">
-  <img src="assets/chapter-02/GraficaSegmento1-Agricultores.png" alt="Impact Mapping" width="850">
+  <img src="assets/chapter-02/grafica-segmento-1-agricultores.png" alt="Gráfica de hallazgos del segmento Agricultores Familiares" width="850">
 </div>
 
-**Análisis Segundo Segmento: Comerciantes Urbanos (Restaurantes y Puestos de Mercado):** En primer lugar, se evidencia una severa vulnerabilidad operativa por la variabilidad incontrolada de costos, la incertidumbre en la calidad del insumo y la falta absoluta de trazabilidad sobre el origen del producto. Según se extrae de los testimonios recopilados, el 100% (2 de 2) de los comerciantes gestiona el abastecimiento de sus negocios (con volúmenes que van desde 30-40 kg/semana en restaurantes de La Molina hasta 400 kg/semana en puestos del Mercado de Frutas en El Agustino) mediante intermediarios tradicionales, compras presenciales en mercados mayoristas o pedidos informales por redes como WhatsApp. Esta dependencia genera que operen bajo una constante imprevisibilidad en el margen de ganancia debido a la fluctuación repentina de precios y a la incapacidad de verificar el estado real y la frescura de las frutas y verduras antes de recibirlas en sus locales.
+**Análisis Segundo Segmento: Comerciantes Urbanos (Restaurantes y Puestos de Mercado):** En primer lugar, se evidencia una severa vulnerabilidad operativa por la variabilidad incontrolada de costos, la incertidumbre en la calidad del insumo y la falta absoluta de trazabilidad sobre el origen del producto. Según se extrae de los testimonios recopilados, el 100% (3 de 3) de los comerciantes gestiona el abastecimiento de sus negocios (con volúmenes que van desde 30-40 kg/semana en un restaurante de La Molina y 35-45 kg/semana en uno del Cercado de Lima, hasta 400 kg/semana en un puesto del Mercado de Frutas en El Agustino) mediante intermediarios tradicionales, compras presenciales en mercados mayoristas o pedidos informales por redes como WhatsApp. Esta dependencia genera que operen bajo una constante imprevisibilidad en el margen de ganancia debido a la fluctuación repentina de precios y a la incapacidad de verificar el estado real y la frescura de las frutas y verduras antes de recibirlas en sus locales. Carolin Solsol, por ejemplo, indicó que valora más la calidad y la seguridad que el costo más bajo, y aun así no puede comprobar la frescura ni el peso de lo que recibe.
 
-En segundo lugar, existe un impacto económico y comercial directo derivado de la intermediación excesiva y los incumplimientos de entrega. El 100% de los entrevistados reportó fricciones financieras ligadas a la falta de garantías en el cumplimiento de volumen y calidad. En los pequeños y medianos comercios, la falta de frescura impacta de forma inmediata en la oferta gastronómica y el costo plato; mientras que en los distribuidores mayoristas de mercado, los desfases de entrega provocan mermas y quiebres de stock que comprometen el flujo de caja diario y la continuidad operativa con sus clientes finales.
+En segundo lugar, existe un impacto económico y comercial directo derivado de la intermediación excesiva y los incumplimientos de entrega. Los comerciantes con testimonio detallado (Irma Barreto Castro y Carolin Solsol) reportaron fricciones ligadas a la falta de garantías en el cumplimiento de volumen, calidad y plazos, incluyendo la inestabilidad semanal de precios y los retrasos en las entregas. En los pequeños y medianos comercios, la falta de frescura impacta de forma inmediata en la oferta gastronómica y el costo plato; mientras que en los distribuidores mayoristas de mercado, los desfases de entrega provocan mermas y quiebres de stock que comprometen el flujo de caja diario y la continuidad operativa con sus clientes finales.
 
-En tercer lugar, se identifica una alta disposición a la adopción de esquemas de compra directa en origen y modelos de financiamiento por temporada (suscripción o pago adelantado a precio fijo). El 100% de los comerciantes considera altamente atractivo contactar directamente con el agricultor, visualizar la ubicación exacta de las parcelas y monitorear el avance de los cultivos en tiempo real. Asimismo, señalan que adoptarían contratos de compra futura siempre que el canal digital ofrezca mecanismos estrictos de confianza, tales como verificación de identidad agrícola, calificaciones comunitarias entre comerciantes y notificaciones de cosecha directamente vía WhatsApp, su canal digital preferido de comunicación.
+En tercer lugar, se identifica una alta disposición a la adopción de esquemas de compra directa en origen y modelos de financiamiento por temporada (suscripción o pago adelantado a precio fijo). Los comerciantes entrevistados con testimonio detallado consideran atractivo contactar directamente con el agricultor, visualizar la ubicación de las parcelas y monitorear el avance de los cultivos. Asimismo, señalan que adoptarían contratos de compra futura siempre que el canal digital ofrezca mecanismos estrictos de confianza, tales como verificación de identidad de los productores, calificaciones comunitarias entre comerciantes, soporte ante problemas y notificaciones de cosecha directamente vía WhatsApp, su canal digital preferido de comunicación.
 
 En cuarto lugar, respecto a la viabilidad comercial y seguridad de las transacciones, la disposición a pagar e invertir en la plataforma está condicionada a la mitigación del riesgo mediante garantías formales. Los comerciantes señalaron con firmeza que migrarán su canal de abastecimiento hacia la plataforma digital solo si se garantizan protocolos claros de respaldo ante incumplimientos, devolución por producto defectuoso y contratos transparentes. En síntesis, este segmento requiere una plataforma directa y transparente que reduzca la intermediación, garantice la trazabilidad de los cultivos desde la siembra hasta la cosecha y asegure estabilidad de precios para proteger el capital del negocio.
 
 <div align="center">
-  <img src="assets/chapter-02/GraficaSegmento2-Comerciantes.png" alt="Impact Mapping" width="850">
+  <img src="assets/chapter-02/grafica-segmento-2-comerciantes.png" alt="Gráfica de hallazgos del segmento Comerciantes Urbanos" width="850">
 </div>
-
 
 ## 2.3. Needfinding
 
@@ -753,13 +785,13 @@ A continuación, se presentan los User Personas diseñados para representar a lo
 
 ### User Persona: Agricultor
 
-![User-Persona Agricultor](./assets/chapter-02/user_persona_agricultor.png)
+![User-Persona Agricultor](./assets/chapter-02/user-persona-agricultor.png)
 
 ### User Persona: Comprador Urbano
 
-![User-Persona Comprador urbano](./assets/chapter-02/user_persona_comprador.png)
+![User-Persona Comprador urbano](./assets/chapter-02/user-persona-comprador.png)
 
-## 2.3.2. User Task Matrix.
+### 2.3.2. User Task Matrix.
 
 A través de la User Task Matrix, es posible identificar y organizar las principales actividades que los usuarios realizan actualmente dentro de su contexto de trabajo, de forma independiente a la existencia de Allpatek. Al categorizar estas tareas según su frecuencia e importancia, se logra comprender cuáles representan mayores dificultades y necesidades para cada perfil de usuario, permitiendo detectar oportunidades de mejora en la relación comercial entre agricultores familiares y compradores urbanos.
 
@@ -775,7 +807,7 @@ A través de la User Task Matrix, es posible identificar y organizar las princip
 | Buscar alternativas cuando el precio no es favorable | Sometimes | High | Often | Medium |
 | Controlar el presupuesto o gasto de la temporada/semana | Sometimes | Medium | Often | High |
 
-La matriz confirma, con evidencia real de Irma, que la verificación de calidad/origen y la coordinación por WhatsApp son tareas frecuentes y de alta importancia para el comerciante — algo que antes solo era una hipótesis. Para Gustavo, al no contar todavía con el resto de su testimonio ni con las 3 entrevistas restantes del segmento, la matriz sigue basada en el perfil general del segmento y debe confirmarse más adelante.
+La matriz se construyó a partir de las entrevistas a Gustavo Adolfo Suyo (Segmento 1: Agricultor Familiar) e Irma Barreto Castro (Segmento 2: Comprador Urbano). Muestra que la coordinación de pedidos por WhatsApp, la búsqueda de información de precios y la verificación de calidad u origen son tareas frecuentes y de alta importancia, especialmente para la compradora. Para el agricultor, destacan el registro manual de información del cultivo y la búsqueda de información del clima antes de decidir la siembra o la cosecha. En ambos casos, la firma de acuerdos de forma manual o verbal es una tarea poco frecuente, lo que evidencia que hoy los acuerdos se cierran sin un respaldo formal. La matriz se validará y ajustará con las entrevistas restantes de cada segmento.
 
 ### 2.3.3. User Journey Mapping
 
@@ -791,21 +823,56 @@ Esta sección presenta el User Journey Map de cada User Persona, ilustrando el r
 
 ### 2.3.4. Empathy Mapping
 
-Esta sección resume el proceso de elaboración de los Empathy Maps, uno por cada User Persona, construidos en UXPressia. El proceso parte de colocar al centro a la persona correspondiente (Martín Salas Hurtado o Lucía Fernández Torres) y de registrar, en la sección correspondiente de la herramienta, cada observación del equipo obtenida a partir del análisis de entrevistas, buscando responder: ¿Con quién estamos empatizando?, ¿Qué necesita hacer?, ¿Qué está diciendo?, ¿Qué está viendo?, ¿Qué está haciendo? y ¿Qué está escuchando?, además de ¿Cómo se siente y qué piensa? A partir de estas respuestas se identifican los Esfuerzos (Pains), a partir de lo que le preocupa a cada persona, y las Ganancias (Gains), a partir de lo que podría ayudarle a resolver sus problemas y convencerlo de que Allpatek es la alternativa correcta.
+Los Empathy Maps se elaboraron en UXPressia a partir de las entrevistas a Gustavo Adolfo Suyo (Segmento 1: Agricultor Familiar) e Irma Barreto Castro (Segmento 2: Comprador Urbano). Cada mapa organiza lo que la persona necesita hacer, ve, dice, hace, escucha, piensa y siente, junto con sus esfuerzos y ganancias.
 
 ### User Agricultor:
 
-![User-Agricultor-Empathy](./assets/chapter-02/user-agricultor-empathy.png)
+<p align="center">
+  <img src="./assets/chapter-02/user-agricultor-empathy.png" width="600">
+</p>
+
+Gustavo es un agricultor de 48 años de Yauyos que cultiva paltas en una parcela de aproximadamente 1000 m². Necesita cuidar su cultivo sin perderlo por un evento climático, encontrar comprador antes de que la cosecha pierda calidad y cerrar la temporada con un ingreso estable. Hoy se informa del clima por radio y por comentarios de otros agricultores, y vende a intermediarios que fijan el precio el día de la entrega. Sus esfuerzos principales son no poder anticipar heladas o sequías, depender de intermediarios sin poder de negociación y no tener garantía de que el pago se cumpla. Sus ganancias esperadas son recibir una alerta anticipada, tener un ingreso predecible y vender sin intermediarios. Siente incertidumbre por depender del clima y del comprador, y desconfía de formalizar acuerdos digitales que no maneja del todo.
 
 ### User Comprador Urbano:
 
-![User-Comprador-Empathy](./assets/chapter-02/user-comprador-empathy.png)
+<p align="center">
+  <img src="./assets/chapter-02/user-comprador-empathy.png" width="600">
+</p>
 
-## 2.4. Big Picture Event Storming
+Irma es una mujer de 40 años que administra un restaurante familiar en La Molina y compra entre 30 y 40 kg de frutas y verduras por semana. Necesita conseguir insumos frescos sin quedarse sin stock, mantener un costo predecible y confirmar que lo que recibe corresponde a lo acordado. Hoy contacta a varios proveedores por WhatsApp para comparar precio y disponibilidad, revisa el pedido a simple vista y anota en una hoja de cálculo cuánto gastó. Sus esfuerzos principales son la variación de precios entre semanas, no poder verificar el origen del producto y no tener respaldo formal más allá del chat. Sus ganancias esperadas son un costo fijo por temporada, verificar de forma remota el origen y el avance, y un acuerdo respaldado formalmente. Piensa si el proveedor realmente va a entregar lo que promete y siente desconfianza al no poder verificar el origen.
 
-El equipo realizó una sesión colaborativa de Big Picture Event Storming con el objetivo de explorar a alto nivel el dominio de negocio de Allpatek, identificando los eventos significativos del proceso de contratación de una parcela y sus relaciones cronológicas, desde la publicación de la parcela hasta el cierre de la temporada. Para la elaboración del diagrama se utilizó Mermaid como herramienta de Diagram-as-Code.
+**Hallazgo común:** ambos hablan de lo mismo desde lados opuestos: el agricultor no tiene garantía de que le pagarán lo acordado y la compradora no tiene garantía de que recibirá lo acordado. Esta simetría de desconfianza es la base de la propuesta de custodia Escrow por hitos de Allpatek.
 
-![Event-Storming](./assets/chapter-02/big_picture.png)
+## 2.4. Big Picture Event Storming.
+
+El equipo realizó una sesión colaborativa de Big Picture Event Storming con el objetivo de explorar a alto nivel el dominio de negocio de Allpatek, identificando los eventos significativos del proceso de contratación de una parcela y sus relaciones cronológicas, desde la publicación de la parcela hasta el cierre de la temporada. Para la elaboración del diagrama se utilizó **Mermaid** como herramienta de Diagram-as-Code.
+
+El diagrama se organiza en **cuatro fases** del ciclo de una temporada bajo el modelo Agro-as-a-Service. En cada fase se identifican los **domain events** (en naranja, redactados en tiempo pasado), los **actores** que los originan (en amarillo), los **sistemas externos** que participan (en lila) y los **hotspots** o puntos de fricción pendientes de resolver (en rosado).
+
+El proceso se desarrolló en cinco etapas: (1) exploración de eventos, en la que se listaron en tiempo pasado todos los eventos relevantes del negocio; (2) ordenamiento cronológico, desde la publicación de la parcela hasta el cierre de la temporada; (3) incorporación de los actores y sistemas externos que originan o participan en cada evento; (4) identificación de hotspots, es decir, dudas o fricciones sin resolver; y (5) agrupación de los eventos en cuatro fases para facilitar la lectura.
+
+### Fases y eventos
+
+| Fase | Eventos | Actor o sistema involucrado |
+|---|---|---|
+| 1. Publicación y reserva | Parcela publicada, Plan de producción registrado, Parcela reservada, Plan de suscripción elegido | Agricultor Familiar, Comprador Urbano |
+| 2. Contratación | Contrato de temporada generado, Firma digital registrada, Fondos depositados en custodia Escrow, Hito 1 liberado (firma y bloqueo de capital) | Agricultor, Comprador, n8n, Pasarela de pagos |
+| 3. Cultivo y seguimiento | Evidencia de siembra registrada, Hito 2 liberado (verificación de siembra), Evidencia de desarrollo registrada, Notificación de avance enviada, Alerta climática emitida, Hito 3 liberado (inspección de desarrollo) | Agricultor, Comprador, Servicio meteorológico |
+| 4. Cosecha y cierre | Cosecha validada, Hito 4 liberado (validación de cosecha), Entrega final confirmada, Hito 5 liberado (saldo final), Calificación registrada, Temporada renovada | Agricultor, Comprador, Pasarela de pagos |
+
+En total se identificaron **20 domain events**, **2 actores**, **3 sistemas externos** y **3 hotspots**.
+
+### Hotspots
+
+* **¿Qué pasa si el agricultor no cumple un hito a tiempo?** Pendiente de definir si existe un plazo de tolerancia, una notificación de advertencia o una penalidad antes de suspender el contrato.
+* **¿Cómo se verifica objetivamente la calidad al momento de cosecha?** Pendiente de definir si la validación depende únicamente de la evidencia fotográfica enviada por el agricultor o si se incorpora una inspección o criterio adicional.
+* **¿Quién asume la pérdida cuando un evento climático destruye parte de la cosecha?** Pendiente de definir cómo se reparten el riesgo y los fondos que siguen en custodia Escrow cuando se emite una alerta climática y luego hay pérdida.
+
+Los tres hotspots quedan como insumo para el Design-Level Event Storming del Capítulo IV, donde el equipo profundizará el modelado a nivel de Bounded Contexts, Commands y Policies.
+
+<p align="center">
+  <img src="./assets/chapter-02/big-picture-event-storming.png" width="900">
+</p>
 
 ## 2.5. Ubiquitous Language
 
@@ -885,7 +952,7 @@ Siguiendo la definición de Eric Evans en *Domain-Driven Design: Tackling Comple
 | **US21** | Envío de contraofertas durante la negociación | **Como** productor agrícola,<br>**quiero** enviar una contrapropuesta modificando las condiciones económicas o de entrega,<br>**para** negociar los términos comerciales sin rechazar definitivamente la propuesta. | **Escenario 1: Contraoferta válida**<br>- Given que existe una propuesta de compra pendiente.<br>- When el productor modifica el precio, volumen o fecha de entrega dentro de los límites permitidos.<br>- Then el sistema registra la contraoferta y establece un plazo de respuesta de 48 horas.<br><br>**Escenario 2: Falta de respuesta**<br>- Given que el comerciante no responde dentro del plazo establecido.<br>- When finaliza el periodo de 48 horas.<br>- Then el sistema cambia el estado de la negociación a "Vencido" y libera la capacidad comprometida. | EP02 |
 | **US22** | Adendas y modificación de hitos de pago en custodia | **Como** comerciante,<br>**quiero** proponer modificaciones a los montos de los hitos de un contrato activo,<br>**para** adaptar el esquema de desembolsos ante variaciones justificadas del volumen de cosecha. | **Escenario 1: Aprobación de la adenda**<br>- Given que existe un contrato activo y una propuesta de modificación de los hitos.<br>- When el productor acepta la modificación mediante el mecanismo de confirmación establecido.<br>- Then el sistema actualiza los montos de los hitos y el cronograma de pagos.<br><br>**Escenario 2: Rechazo de la adenda**<br>- Given que el productor rechaza la modificación propuesta.<br>- When finaliza el periodo de revisión.<br>- Then el sistema mantiene vigentes los términos y el cronograma originales. | EP03 |
 | **US23** | Registro de insumos agrícolas y trazabilidad técnica | **Como** productor agrícola,<br>**quiero** registrar los insumos utilizados durante cada hito del cultivo,<br>**para** mantener la trazabilidad técnica y demostrar el cumplimiento de los requisitos fitosanitarios. | **Escenario 1: Registro de insumo autorizado**<br>- Given que el productor utiliza un insumo permitido.<br>- When registra el producto, fecha de aplicación y evidencia correspondiente.<br>- Then el sistema almacena el registro y lo asocia al hito correspondiente.<br><br>**Escenario 2: Insumo no autorizado**<br>- Given que el insumo registrado no pertenece a la lista de productos autorizados.<br>- When el productor intenta registrar su aplicación.<br>- Then el sistema marca el registro como pendiente de validación y solicita la documentación técnica requerida. | EP04 |
-| **US24** | Consultar la propuesta de valor de ALLPATEK | **Como** visitante,<br>**quiero** entender qué ofrece ALLPATEK y con qué resultados se presenta,<br>**para** decidir si el modelo de producción garantizada vale la pena antes de dejar mis datos. | **Escenario 1: Consulta de la propuesta inicial**<br>- Given que el visitante ingresa al sitio por primera vez y aún no tiene una cuenta.<br>- When consulta la información introductoria del servicio.<br>- Then el sistema presenta el propósito de conectar comerciantes B2B con agricultores, la protección de pagos por hitos y las métricas de custodia, riesgo de fraude, hectáreas gestionadas y ahorro estimado.<br><br>**Escenario 2: Continuación hacia el detalle de la oferta**<br>- Given que el visitante ya conoció la propuesta inicial.<br>- When decide profundizar en cómo se entrega ese valor.<br>- Then puede continuar hacia el detalle de servicios sin perder el contexto de producción garantizada. | EP06 |
+| **US24** | Consultar la propuesta de valor de ALLPATEK | **Como** visitante,<br>**quiero** entender qué ofrece ALLPATEK y con qué resultados se presenta,<br>**para** decidir si el modelo de producción garantizada vale la pena antes de dejar mis datos. | **Escenario 1: Consulta de la propuesta inicial**<br>- Given que el visitante ingresa al sitio por primera vez y aún no tiene una cuenta.<br>- When consulta la información introductoria del servicio.<br>- Then el sistema presenta el propósito de conectar comerciantes con agricultores, la protección de pagos por hitos y las métricas de custodia, riesgo de fraude, hectáreas gestionadas y ahorro estimado.<br><br>**Escenario 2: Continuación hacia el detalle de la oferta**<br>- Given que el visitante ya conoció la propuesta inicial.<br>- When decide profundizar en cómo se entrega ese valor.<br>- Then puede continuar hacia el detalle de servicios sin perder el contexto de producción garantizada. | EP06 |
 | **US25** | Solicitar una propuesta técnica desde el sitio | **Como** visitante,<br>**quiero** dejar mis datos de contacto y pedir el desglose de costos y el modelo de custodia,<br>**para** recibir información comercial sin tener que registrarme todavía. | **Escenario 1: Solicitud con datos válidos**<br>- Given que el visitante completa nombres, apellidos, correo y teléfono con valores válidos.<br>- When envía la solicitud de información.<br>- Then el sistema registra la solicitud y confirma que la propuesta técnica será enviada.<br><br>**Escenario 2: Datos incompletos o correo no válido**<br>- Given que falta un dato obligatorio o el correo no tiene un formato válido.<br>- When el visitante intenta enviar la solicitud.<br>- Then el sistema no registra la solicitud e informa que los datos están incompletos o no son válidos. | EP06 |
 | **TS03** | API RESTful para consulta del catálogo de parcelas | **Como** developer,<br>**quiero** implementar el endpoint GET /api/v1/parcels,<br>**para** entregar a las aplicaciones cliente el listado filtrado de parcelas disponibles. | **Escenario 1: Consulta exitosa**<br>- Given que la aplicación cliente solicita parcelas con parámetros de búsqueda válidos y existen ofertas activas.<br>- When la API procesa la solicitud.<br>- Then responde con 200 OK y un listado JSON de parcelas que cumplen los filtros.<br><br>**Escenario 2: Sin resultados para los filtros**<br>- Given que no existen parcelas activas que coincidan con los parámetros enviados.<br>- When la API procesa la solicitud.<br>- Then responde con 200 OK y una colección vacía, sin tratar la ausencia de resultados como error de servidor. | EP02 |
 | **US27** | Checkout y reserva de temporada agrícola | **Como** comerciante urbano o corporativo,<br>**quiero** completar el pago de la tarifa de temporada mediante la pasarela digital,<br>**para** reservar la parcela y asegurar la retribución del agricultor. | **Escenario 1: Checkout exitoso**<br>- Given que el comerciante selecciona una parcela disponible.<br>- When confirma la transacción con un medio de pago válido.<br>- Then el sistema procesa el cobro y genera el comprobante de reserva.<br><br>**Escenario 2: Pago no autorizado**<br>- Given que la pasarela rechaza el medio de pago.<br>- When el sistema recibe el resultado de la transacción.<br>- Then no reserva la parcela y el comerciante conserva la posibilidad de reintentar el pago. | EP02 |
@@ -893,15 +960,15 @@ Siguiendo la definición de Eric Evans en *Domain-Driven Design: Tackling Comple
 | **US29** | Cancelación y política de reembolso pre-siembra | **Como** comerciante urbano o corporativo,<br>**quiero** cancelar la reserva antes de que empiece la siembra,<br>**para** recuperar los fondos según los términos del servicio. | **Escenario 1: Cancelación dentro del plazo**<br>- Given que el contrato aún no inicia la fase de preparación de tierra.<br>- When el comerciante solicita la cancelación.<br>- Then el sistema procesa la devolución ajustada a los términos y libera la parcela.<br><br>**Escenario 2: Cancelación fuera de plazo**<br>- Given que la parcela ya inició la preparación de tierra o la siembra.<br>- When el comerciante solicita la cancelación.<br>- Then el sistema rechaza la devolución total e informa que el periodo de reembolso pre-siembra ya no aplica. | EP02 |
 | **TS04** | API RESTful para gestión de órdenes de contratación | **Como** developer,<br>**quiero** implementar POST /api/v1/orders y GET /api/v1/orders/{id},<br>**para** que los clientes de la plataforma gestionen el ciclo de vida de una temporada contratada. | **Escenario 1: Creación de orden**<br>- Given que el cliente envía los datos de contratación de una parcela disponible.<br>- When el servicio valida la disponibilidad.<br>- Then crea la orden en estado pendiente y responde 201 Created con el identificador de la orden.<br><br>**Escenario 2: Parcela ya no disponible**<br>- Given que la parcela indicada está contratada o no existe.<br>- When el cliente intenta crear la orden.<br>- Then el servicio no crea el recurso y responde 409 Conflict o 404 Not Found, según corresponda, con un JSON de error. | EP02 |
 | **US31** | Recorrer las áreas informativas del sitio | **Como** visitante,<br>**quiero** pasar de la presentación inicial a servicios, hitos, testimonios, planes y contacto,<br>**para** armarme una idea completa de ALLPATEK sin perder el hilo. | **Escenario 1: Recorrido entre áreas del sitio**<br>- Given que el visitante se encuentra en el sitio público.<br>- When elige un área informativa distinta a la actual.<br>- Then el sistema lo lleva a esa área y el contenido correspondiente queda disponible.<br><br>**Escenario 2: Retorno al inicio**<br>- Given que el visitante se encuentra en un área distinta a la presentación inicial.<br>- When solicita volver al inicio.<br>- Then el sistema lo sitúa nuevamente en la propuesta de valor principal. | EP06 |
-| **US32** | Conocer los servicios de producción garantizada | **Como** visitante del segmento comerciante B2B,<br>**quiero** ver cómo ALLPATEK cubre parcela, trazabilidad, custodia y clima,<br>**para** reconocer si el servicio cubre el riesgo que hoy asumo al comprar a campo. | **Escenario 1: Consulta de los cuatro servicios**<br>- Given que el visitante busca entender qué incluye la oferta.<br>- When consulta los servicios publicados.<br>- Then el sistema presenta selección de parcelas verificadas, trazabilidad con evidencias de campo, fondos en custodia por hitos y asistencia climática.<br><br>**Escenario 2: Servicio de custodia como diferenciador**<br>- Given que el visitante compara ALLPATEK con una compra directa sin intermediación formal.<br>- When consulta el servicio de fondos protegidos.<br>- Then entiende que el capital permanece retenido y solo se libera cuando un hito queda cumplido. | EP06 |
+| **US32** | Conocer los servicios de producción garantizada | **Como** visitante del segmento comerciante,<br>**quiero** ver cómo ALLPATEK cubre parcela, trazabilidad, custodia y clima,<br>**para** reconocer si el servicio cubre el riesgo que hoy asumo al comprar a campo. | **Escenario 1: Consulta de los cuatro servicios**<br>- Given que el visitante busca entender qué incluye la oferta.<br>- When consulta los servicios publicados.<br>- Then el sistema presenta selección de parcelas verificadas, trazabilidad con evidencias de campo, fondos en custodia por hitos y asistencia climática.<br><br>**Escenario 2: Servicio de custodia como diferenciador**<br>- Given que el visitante compara ALLPATEK con una compra directa sin intermediación formal.<br>- When consulta el servicio de fondos protegidos.<br>- Then entiende que el capital permanece retenido y solo se libera cuando un hito queda cumplido. | EP06 |
 | **US33** | Entender el esquema de pagos por hitos | **Como** visitante,<br>**quiero** conocer las etapas desde el contrato hasta la entrega,<br>**para** saber cuándo entra el dinero a custodia y cuándo se libera. | **Escenario 1: Consulta del flujo completo**<br>- Given que el visitante aún no conoce el modelo Escrow de ALLPATEK.<br>- When consulta cómo funciona el pago por hitos.<br>- Then el sistema presenta las cinco etapas: firma y bloqueo del capital, verificación de siembra, inspección de desarrollo, validación de cosecha y entrega con liberación del saldo.<br><br>**Escenario 2: Relación hito-desembolso**<br>- Given que el visitante ya vio el listado de etapas.<br>- When profundiza en el sentido de cada hito.<br>- Then cada etapa queda asociada a una verificación de campo y a una liberación parcial de fondos, no a un pago único por adelantado. | EP06 |
-| **US34** | Revisar experiencias de comerciantes y productores | **Como** visitante,<br>**quiero** leer lo que ya obtuvieron comerciantes B2B y productores,<br>**para** contrastar la promesa del servicio con resultados contados por quienes ya lo usaron. | **Escenario 1: Consulta de testimonios publicados**<br>- Given que el visitante busca evidencia social antes de contactar.<br>- When consulta las experiencias publicadas.<br>- Then el sistema presenta testimonios de comerciantes y de productores, con el resultado que cada uno destaca y una valoración asociada.<br><br>**Escenario 2: Segmentos visibles en las experiencias**<br>- Given que el visitante necesita verse reflejado en un perfil parecido al suyo.<br>- When revisa el conjunto de testimonios.<br>- Then identifica al menos una experiencia orientada a abastecimiento B2B y otra orientada al cobro o a la operación del productor. | EP06 |
+| **US34** | Revisar experiencias de comerciantes y productores | **Como** visitante,<br>**quiero** leer lo que ya obtuvieron comerciantes y productores,<br>**para** contrastar la promesa del servicio con resultados contados por quienes ya lo usaron. | **Escenario 1: Consulta de testimonios publicados**<br>- Given que el visitante busca evidencia social antes de contactar.<br>- When consulta las experiencias publicadas.<br>- Then el sistema presenta testimonios de comerciantes y de productores, con el resultado que cada uno destaca y una valoración asociada.<br><br>**Escenario 2: Segmentos visibles en las experiencias**<br>- Given que el visitante necesita verse reflejado en un perfil parecido al suyo.<br>- When revisa el conjunto de testimonios.<br>- Then identifica al menos una experiencia orientada a abastecimiento y otra orientada al cobro o a la operación del productor. | EP06 |
 | **US35** | Comparar planes de producción según escala | **Como** visitante del segmento comerciante corporativo,<br>**quiero** comparar las capacidades de cada plan y su tarifa,<br>**para** ubicar si me alcanza un plan acotado o necesito una conversación comercial. | **Escenario 1: Comparación de planes publicados**<br>- Given que el visitante evalúa contratar más de una parcela o un volumen mayor.<br>- When consulta los planes de producción.<br>- Then el sistema presenta los planes Básico, Pro y Empresarial, con el alcance de parcelas, el tipo de custodia o trazabilidad incluido y la tarifa mensual de cada uno.<br><br>**Escenario 2: Plan que requiere conversación comercial**<br>- Given que el visitante necesita parcelas ilimitadas, integración o un gestor de cuenta.<br>- When identifica el plan Empresarial.<br>- Then el sistema lo deriva a una solicitud de contacto comercial en lugar de un alta inmediata. | EP06 |
 | **US36** | Conocer al equipo detrás de la plataforma | **Como** visitante,<br>**quiero** ver quién construye ALLPATEK,<br>**para** confiar en que hay un equipo técnico real detrás de la custodia y la trazabilidad. | **Escenario 1: Consulta del equipo publicado**<br>- Given que el visitante busca respaldo institucional además de la oferta comercial.<br>- When consulta la información del equipo.<br>- Then el sistema presenta a los integrantes con nombre y rol profesional.<br><br>**Escenario 2: Ausencia de un integrante**<br>- Given que un perfil de equipo deja de estar vigente.<br>- When el visitante consulta el equipo.<br>- Then el sistema no muestra integrantes sin nombre o sin rol, y solo lista perfiles publicados. | EP06 |
 | **US37** | Consultar canales, horarios y datos de atención | **Como** visitante,<br>**quiero** ubicar correo, teléfono, dirección y horario de atención,<br>**para** escribir o llamar si prefiero no dejar el formulario. | **Escenario 1: Consulta de datos de contacto**<br>- Given que el visitante necesita una vía directa de atención.<br>- When consulta la información de contacto del sitio.<br>- Then el sistema presenta dirección, teléfono, correo y horario laboral.<br><br>**Escenario 2: Conservación de las vías de contacto**<br>- Given que el visitante ya recorrió servicios o planes.<br>- When busca los datos de atención al final del recorrido.<br>- Then esos datos siguen disponibles y coinciden con los publicados en el resto del sitio. | EP06 |
 | **US38** | Consultar el sitio desde un dispositivo móvil | **Como** visitante,<br>**quiero** revisar la propuesta, los planes y el contacto desde el celular,<br>**para** informarme en campo o en desplazamiento sin depender de un computador. | **Escenario 1: Consulta completa en pantalla reducida**<br>- Given que el visitante accede al sitio desde un dispositivo móvil.<br>- When recorre la propuesta, los servicios, los planes y el contacto.<br>- Then el contenido de cada área permanece legible y las acciones de cotizar o solicitar información siguen disponibles.<br><br>**Escenario 2: Navegación en dispositivo móvil**<br>- Given que el visitante usa un dispositivo móvil y el menú de áreas no está desplegado.<br>- When solicita ver las áreas informativas.<br>- Then el sistema presenta esas áreas y, al elegir una, cierra la navegación auxiliar para dejar visible el contenido. | EP06 |
-| **US39** | Iniciar una cotización de parcela | **Como** visitante del segmento comerciante B2B,<br>**quiero** pasar de la presentación del servicio a una solicitud de cotización,<br>**para** pedir una parcela gestionada sin tener que adivinar el siguiente paso. | **Escenario 1: Inicio de cotización desde la propuesta**<br>- Given que el visitante ya entendió la propuesta de producción garantizada.<br>- When solicita cotizar una parcela.<br>- Then el sistema lo lleva a dejar una solicitud de información comercial.<br><br>**Escenario 2: Cotización desde un plan**<br>- Given que el visitante ya comparó un plan de producción.<br>- When solicita empezar o pedir una demostración asociada a ese plan.<br>- Then el sistema lo lleva a la misma solicitud de propuesta técnica. | EP06 |
-| **US40** | Evaluar la protección de fondos antes de comprometer capital | **Como** visitante del segmento comerciante B2B,<br>**quiero** confirmar que el dinero no se entrega completo al inicio,<br>**para** bajar el miedo a un incumplimiento o a un fraude en la compra a campo. | **Escenario 1: Custodia como condición del modelo**<br>- Given que el visitante desconfía de pagar por adelantado a un productor que no conoce.<br>- When consulta la información de fondos protegidos y de pagos por hitos.<br>- Then entiende que el capital se bloquea al firmar y que cada desembolso depende de una verificación de campo.<br><br>**Escenario 2: Ausencia de pago único anticipado**<br>- Given que el visitante busca una alternativa a un prepago total.<br>- When compara el esquema publicado con un pago único al inicio.<br>- Then el sitio no presenta la liberación total del saldo antes de la entrega final. | EP06 |
+| **US39** | Iniciar una cotización de parcela | **Como** visitante del segmento comerciante,<br>**quiero** pasar de la presentación del servicio a una solicitud de cotización,<br>**para** pedir una parcela gestionada sin tener que adivinar el siguiente paso. | **Escenario 1: Inicio de cotización desde la propuesta**<br>- Given que el visitante ya entendió la propuesta de producción garantizada.<br>- When solicita cotizar una parcela.<br>- Then el sistema lo lleva a dejar una solicitud de información comercial.<br><br>**Escenario 2: Cotización desde un plan**<br>- Given que el visitante ya comparó un plan de producción.<br>- When solicita empezar o pedir una demostración asociada a ese plan.<br>- Then el sistema lo lleva a la misma solicitud de propuesta técnica. | EP06 |
+| **US40** | Evaluar la protección de fondos antes de comprometer capital | **Como** visitante del segmento comerciante,<br>**quiero** confirmar que el dinero no se entrega completo al inicio,<br>**para** bajar el miedo a un incumplimiento o a un fraude en la compra a campo. | **Escenario 1: Custodia como condición del modelo**<br>- Given que el visitante desconfía de pagar por adelantado a un productor que no conoce.<br>- When consulta la información de fondos protegidos y de pagos por hitos.<br>- Then entiende que el capital se bloquea al firmar y que cada desembolso depende de una verificación de campo.<br><br>**Escenario 2: Ausencia de pago único anticipado**<br>- Given que el visitante busca una alternativa a un prepago total.<br>- When compara el esquema publicado con un pago único al inicio.<br>- Then el sitio no presenta la liberación total del saldo antes de la entrega final. | EP06 |
 | **US41** | Entender cómo se garantiza el cobro al productor | **Como** visitante del segmento productor agrícola,<br>**quiero** ver cuándo y bajo qué condición se me libera el pago,<br>**para** saber si ALLPATEK me cubre si el comerciante se atrasara o no cumpliera. | **Escenario 1: Cobro ligado al hito cumplido**<br>- Given que el productor visita el sitio para evaluar si le conviene ofrecer su parcela.<br>- When consulta el esquema de hitos y los testimonios de productores.<br>- Then entiende que el cobro se libera al verificar siembra, desarrollo, cosecha o entrega, y no queda sujeto solo a la voluntad posterior del comerciante.<br><br>**Escenario 2: Capital ya retenido al inicio**<br>- Given que el productor teme trabajar una temporada sin respaldo de pago.<br>- When consulta la etapa de firma y bloqueo del capital.<br>- Then confirma que el trabajo de campo empieza después de que el capital inicial queda en custodia. | EP06 |
 
 
@@ -926,11 +993,11 @@ El Product Backlog agrupa y prioriza el conjunto de User Stories identificadas. 
 | Orden | User Story Id | Título | Descripción | Story Points |
 | :---: | :--- | :--- | :--- | :---: |
 | 1 | US24 | Consultar la propuesta de valor de ALLPATEK | Como visitante deseo entender la propuesta de valor y métricas de ALLPATEK para decidir si el modelo de producción garantizada me conviene antes de registrarme. | 2 |
-| 2 | US32 | Conocer los servicios de producción garantizada | Como visitante del segmento comerciante B2B deseo ver la cobertura de parcelas, trazabilidad, custodia y clima para reconocer si el servicio reduce mi riesgo a campo. | 3 |
+| 2 | US32 | Conocer los servicios de producción garantizada | Como visitante del segmento comerciante deseo ver la cobertura de parcelas, trazabilidad, custodia y clima para reconocer si el servicio reduce mi riesgo a campo. | 3 |
 | 3 | US33 | Entender el esquema de pagos por hitos | Como visitante deseo conocer las etapas del flujo de fondos para saber cuándo entra el dinero a custodia y cuándo se libera. | 2 |
 | 4 | US25 | Solicitar una propuesta técnica desde el sitio | Como visitante deseo enviar mis datos de contacto y solicitar el desglose de costos para recibir información comercial sin registrarme aún. | 3 |
 | 5 | US35 | Comparar planes de producción según escala | Como visitante del segmento comerciante corporativo deseo comparar las capacidades de cada plan y sus tarifas para evaluar la opción adecuada según mi escala. | 3 |
-| 6 | US39 | Iniciar una cotización de parcela | Como visitante del segmento comerciante B2B deseo solicitar una cotización formal desde la presentación del servicio para avanzar al proceso de contratación. | 2 |
+| 6 | US39 | Iniciar una cotización de parcela | Como visitante del segmento comerciante deseo solicitar una cotización formal desde la presentación del servicio para avanzar al proceso de contratación. | 2 |
 | 7 | US38 | Consultar el sitio desde un dispositivo móvil | Como visitante deseo revisar la propuesta, planes y contacto desde mi celular para informarme en desplazamiento o en el campo. | 3 |
 | 8 | US02 | Búsqueda y filtrado de parcelas disponibles | Como comerciante deseo filtrar parcelas por cultivo, zona y extensión para seleccionar la opción que mejor se ajuste a mis necesidades. | 5 |
 | 9 | US07 | Solicitud de cotización y negociación directa | Como comerciante deseo enviar una propuesta indicando volumen, precio y fecha para iniciar la negociación directa con el productor. | 5 |
@@ -964,7 +1031,7 @@ Esta sección establece los lineamientos visuales y de comunicación que garanti
 ### 4.1.1. General Style Guidelines
 
 #### Branding e Identidad Visual
-* **Concepto:** Conectar la tecnología financiera moderna con la solidez de la tierra. La marca refleja seguridad en la custodia de pagos (*escrow*), profesionalismo en acuerdos B2B y trazabilidad agrícola directa.
+* **Concepto:** Conectar la tecnología financiera moderna con la solidez de la tierra. La marca refleja seguridad en la custodia de pagos (*escrow*), profesionalismo en acuerdos y trazabilidad agrícola directa.
 * **Logotipo:** Tipografía sans-serif geométrica acompañada de un isotipo de hoja y acentos dorados, simbolizando la unión entre el crecimiento orgánico del campo y el valor económico protegido.
 
 #### Paleta de Colores (Colors)
@@ -1023,7 +1090,7 @@ Optimizada para reducir la fatiga visual (*Dark Mode*), mantener una jerarquía 
 | Dimensión | Posición | Justificación |
 | :--- | :--- | :--- |
 | **Divertido / Serio** | **Serio (80%)** | Maneja contratos de arrendamiento y fondos monetarios en custodia, por lo que las instrucciones y estados deben ser precisos y libres de ambigüedades. |
-| **Formal / Casual** | **Profesional equilibrado (60% Formal)** | Se comunica de forma accesible con el agricultor en el campo, pero manteniendo la estructura técnica que exige un comprador o empresa B2B. |
+| **Formal / Casual** | **Profesional equilibrado (60% Formal)** | Se comunica de forma accesible con el agricultor en el campo, pero manteniendo la estructura técnica que exige un comprador o empresa. |
 | **Respetuoso / Irreverente** | **Respetuoso (100%)** | Muestra empatía ante los riesgos climáticos del agricultor y la inversión del comprador, ofreciendo siempre soporte claro y guiado. |
 | **Entusiasta / Sereno** | **Sereno (75%)** | Transmite calma frente a situaciones de alerta (ej: heladas o demoras) presentando soluciones claras mediante la automatización de avisos. |
 
@@ -1046,7 +1113,7 @@ En esta sección se detallan las decisiones y el sustento que estructuran la org
 
 ### 4.2.1. Organization Systems
 
-En esta sección se determinan las estructuras y criterios para agrupar y presentar la información en la plataforma **ALLPATEK**, facilitando que tanto los agricultores como los compradores B2B reconozcan el flujo visual y operen con claridad.
+En esta sección se determinan las estructuras y criterios para agrupar y presentar la información en la plataforma **ALLPATEK**, facilitando que tanto los agricultores como los compradores reconozcan el flujo visual y operen con claridad.
 
 #### 1. Formas de Organización Visual del Contenido
 
@@ -1058,7 +1125,7 @@ En esta sección se determinan las estructuras y criterios para agrupar y presen
 
 * **Por Tipo de Usuario (Audiencia):** Es la forma principal de organizar la aplicación. Al iniciar sesión, el sistema adapta el menú según el perfil de la persona:
   * *Vista del Agricultor:* Muestra herramientas para publicar hectáreas, subir fotos del avance del cultivo y revisar los pagos recibidos por cada hito cumplido.
-  * *Vista del Comprador B2B:* Muestra herramientas para explorar el catálogo de terrenos, simular contratos de producción y hacer seguimiento a los pagos en custodia.
+  * *Vista del Comprador:* Muestra herramientas para explorar el catálogo de terrenos, simular contratos de producción y hacer seguimiento a los pagos en custodia.
 * **Por Secciones o Módulos Funcionales:** La información se agrupa en menús conceptuales sencillos: *Mis Contratos*, *Fondos en Garantía*, *Seguimiento y Evidencias*, *Alertas del Clima* y *Fichas Técnicas*.
 * **Por Orden Cronológico:** Se aplica para ordenar el historial de pagos, el registro de evidencias con fecha y hora, y el historial de avisos meteorológicos.
 * **Por Orden Alfabético:** Se utiliza como criterio secundario para ordenar listas extensas, como catálogos de insumos, tipos de cultivos y regiones del país.
@@ -1109,10 +1176,10 @@ Para optimizar la visibilidad en motores de búsqueda (SEO) y asegurar una prese
 
 | Tipo de Experiencia | Sección / Módulo | Title | Meta Description | Meta Keywords | Meta Author / Robots |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Landing Page** | Inicio (*Hero Section*) | Producción Agrícola Garantizada | Conectamos compradores B2B con agricultores mediante parcelas gestionadas, pagos protegidos y trazabilidad en tiempo real. | agro as a service, trazabilidad, parcelas, custodia escrow | **Author:** Equipo ALLPATEK |
+| **Landing Page** | Inicio (*Hero Section*) | Producción Agrícola Garantizada | Conectamos compradores con agricultores mediante parcelas gestionadas, pagos protegidos y trazabilidad en tiempo real. | agro as a service, trazabilidad, parcelas, custodia escrow | **Author:** Equipo ALLPATEK |
 | **Landing Page** | Garantía de Pagos por Hitos | Custodia Escrow | Liberación gradual de fondos respaldada por la verificación en campo mediante evidencias GPS e inspección de cosechas. | garantia de pagos, pago por hitos, verificacion en campo | **Author:** Equipo ALLPATEK |
 | **Landing Page** | Planes de Producción | Planes de Producción | Escoja la escala de cultivo y las herramientas de trazabilidad ideales para su abastecimiento: Básico, Pro y Empresarial. | planes de produccion, suscripcion agricola, contratos PDF | **Author:** Equipo ALLPATEK |
-| **Landing Page** | Contacto y Propuesta Técnica | Propuesta Técnica | Recibe el desglose de costos y el modelo de custodia financiera en tu correo. Cotiza parcelas e inicia tu proyecto. | cotizar parcela, propuesta tecnica, contacto B2B | **Author:** Equipo ALLPATEK |
+| **Landing Page** | Contacto y Propuesta Técnica | Propuesta Técnica | Recibe el desglose de costos y el modelo de custodia financiera en tu correo. Cotiza parcelas e inicia tu proyecto. | cotizar parcela, propuesta tecnica, contacto | **Author:** Equipo ALLPATEK |
 | **Web Application** | Gestión de Parcelas | Catálogo de Parcelas | Explora y administra las opciones disponibles, filtrando por tipo de suelo, zona geográfica y capacidad de cultivo. | gestion de parcelas, catálogo de terrenos, hectáreas | **Robots:** noindex, nofollow<br>**Author:** Equipo ALLPATEK |
 | **Web Application** | Detalle de Contratación | Detalle y Plan de Pagos | Consulta la información técnica del terreno, el plan de desembolsos por hitos en custodia y datos del productor. | detalle de parcela, plan de pagos, contratación | **Robots:** noindex, nofollow<br>**Author:** Equipo ALLPATEK |
 | **Web Application** | Registrar Nueva Parcela | Registro de Parcela | Formula y da de alta un nuevo terreno ingresando datos técnicos, geolocalización BPO y evidencias fotográficas. | registrar parcela, geolocalizacion, alta de terreno | **Robots:** noindex, nofollow<br>**Author:** Equipo ALLPATEK |
@@ -1183,7 +1250,7 @@ Dentro del entorno autenticado, la navegación se estructura para facilitar el f
 ## 4.3. Landing Page UI Design
 
 
-En esta sección se presenta la propuesta de diseño de interfaz de usuario (UI) para la *Landing Page* de **ALLPATEK**. La interfaz ha sido desarrollada traduciendo de manera directa las decisiones previamente establecidas en la Arquitectura de Información (IA) y en los sistemas de navegación, organización y etiquetado. El objetivo principal del diseño es proyectar confianza, transparencia y eficiencia operativa, facilitando que los potenciales clientes B2B y agricultores comprendan de forma inmediata la propuesta de valor del modelo *Agro-as-a-Service* y la seguridad del sistema de custodia financiera *Escrow*.
+En esta sección se presenta la propuesta de diseño de interfaz de usuario (UI) para la *Landing Page* de **ALLPATEK**. La interfaz ha sido desarrollada traduciendo de manera directa las decisiones previamente establecidas en la Arquitectura de Información (IA) y en los sistemas de navegación, organización y etiquetado. El objetivo principal del diseño es proyectar confianza, transparencia y eficiencia operativa, facilitando que los potenciales clientes y agricultores comprendan de forma inmediata la propuesta de valor del modelo *Agro-as-a-Service* y la seguridad del sistema de custodia financiera *Escrow*.
 
 Para lograr una experiencia visual limpia y profesional, se aplicaron principios de jerarquía visual clara, tipografía legible y una paleta de colores inspirada en el sector agrícola con acentos dinámicos para los llamados a la acción (CTA). Cada sección de la página sigue una secuencia lógica orientada a la conversión y al descubrimiento progresivo, transformando conceptos técnicos complejos como la verificación de hitos en campo y la liberación gradual de fondos en componentes visuales comprensibles y estructurados.
 
@@ -1207,7 +1274,7 @@ Para lograr una experiencia visual limpia y profesional, se aplicaron principios
 
 
 ##### 2. Sección Principal (Hero Section)
-* **Descripción:** Primera vista que recibe al usuario. Presenta la propuesta de valor con un titular de alto impacto (*"Producción agrícola garantizada, de la tierra a tu negocio"*), seguido de una bajada descriptiva que explica la conexión entre compradores B2B y agricultores. Incluye un llamado a la acción primario (*Cotizar Parcela*) y un bloque destacado con cuatro métricas cuantitativas clave (100% Pagos protegidos, 0% Riesgo de estafa, 15+ Hectáreas gestionadas, 25% Ahorro promedio).
+* **Descripción:** Primera vista que recibe al usuario. Presenta la propuesta de valor con un titular de alto impacto (*"Producción agrícola garantizada, de la tierra a tu negocio"*), seguido de una bajada descriptiva que explica la conexión entre compradores y agricultores. Incluye un llamado a la acción primario (*Cotizar Parcela*) y un bloque destacado con cuatro métricas cuantitativas clave (100% Pagos protegidos, 0% Riesgo de estafa, 15+ Hectáreas gestionadas, 25% Ahorro promedio).
 
 
 
@@ -1239,7 +1306,7 @@ Para lograr una experiencia visual limpia y profesional, se aplicaron principios
 </p>
 
 ##### 5. Sección de Testimonios (Confianza Respaldada por Resultados)
-* **Descripción:** Bloque de prueba social organizado en tres tarjetas verticales. Presenta testimonios reales de compradores B2B y productores (Carlos Mendoza Ríos, Miguel Huamán, Valeria Benavides), acompañados de su fotografía, rol, calificación en estrellas y métricas de éxito obtenidas al usar la plataforma.
+* **Descripción:** Bloque de prueba social organizado en tres tarjetas verticales. Presenta testimonios reales de compradores y productores (Carlos Mendoza Ríos, Miguel Huamán, Valeria Benavides), acompañados de su fotografía, rol, calificación en estrellas y métricas de éxito obtenidas al usar la plataforma.
 
 <p align="center">
   <img src="./assets/chapter-04/wireframe_reseñas.png" alt="Descripción de la imagen" width="800">
@@ -1411,7 +1478,7 @@ Esta sección presenta los esquemas de baja y media fidelidad (wireframes) dise�
 ##### 1. Wireframe: Autenticación y Selección de Rol
 * **Descripción:** Esquema en pantalla única enfocado en el ingreso rápido de credenciales y selección de perfil:
   * **Contenedor Principal:** Módulo centrado con campos de entrada en bloque y botones sociales secundarios en la base.
-  * **Selector de Rol:** Botones de opción amplia para conmutar entre *Agricultor* y *Comerciante B2B* antes del alta.
+  * **Selector de Rol:** Botones de opción amplia para conmutar entre *Agricultor* y *Comerciante* antes del alta.
 
  <p align="center">
   <img src="./assets/chapter-04/wireframe_web_autentication.png" alt="Descripción de la imagen" width="700">
@@ -1457,15 +1524,15 @@ Para garantizar consistencia en la arquitectura de información, se definieron p
 </p>
 
 **Explicación del Flujo Paso a Paso:**
-1. **Paso 1 (Modal de Selección de Rol - Estado Inicial):** El usuario accede al flujo de alta. La interfaz despliega un contenedor modal centrado en modo oscuro con dos tarjetas interactivas: **Agricultor** y **Comerciante B2B**. El usuario hace clic sobre la tarjeta de su perfil, la cual cambia visualmente de estado activando un borde destacado en tono dorado maiz (`#E9C46A`). Luego, presiona `Siguiente`.
+1. **Paso 1 (Modal de Selección de Rol - Estado Inicial):** El usuario accede al flujo de alta. La interfaz despliega un contenedor modal centrado en modo oscuro con dos tarjetas interactivas: **Agricultor** y **Comerciante**. El usuario hace clic sobre la tarjeta de su perfil, la cual cambia visualmente de estado activando un borde destacado en tono dorado maiz (`#E9C46A`). Luego, presiona `Siguiente`.
 2. **Paso 2 (Formulario Progresivo de Registro):** La pantalla cambia al formulario de alta de datos. El usuario ingresa sus nombres completos, documento de identidad (DNI/RUC), correo electrónico y contraseña Al hacer clic en `Crear Cuenta`, el sistema valida las entradas y registra la cuenta.
 3. **Paso 3 (Pantalla de Inicio de Sesión - Login):** La interfaz muestra el formulario de ingreso de credenciales en un contenedor de columna única. El usuario introduce su correo y contraseña registrados y presiona el botón principal `Iniciar Sesión`. Tras validar el token JWT, el sistema otorga acceso al Dashboard, desde cuyo menú lateral el usuario selecciona `Mi Perfil`.
-4. **Paso 4 (Vista de Perfil de Usuario y Datos de Cuenta):** El Wireframe se actualiza mostrando la sección de Perfil de Usuario. Presenta el avatar del usuario, badge de rol activo (`Agricultor` o `Comerciante B2B`), datos fiscales/personales en modo lectura y el botón de acción `Editar Perfil`.
+4. **Paso 4 (Vista de Perfil de Usuario y Datos de Cuenta):** El Wireframe se actualiza mostrando la sección de Perfil de Usuario. Presenta el avatar del usuario, badge de rol activo (`Agricultor` o `Comerciante`), datos fiscales/personales en modo lectura y el botón de acción `Editar Perfil`.
 
 
 #### Wireflow 2: Registro de Parcela y Publicación en la Plataforma Web
 * **User Persona:** Alejandro Mendoza (Productor Agrícola)
-* **User Goal:** Registrar un nuevo terreno agrícola ingresando sus especificaciones técnicas, ubicación geográfica en mapa y evidencia fotográfica para ponerlo a disposición de comerciantes B2B en el catálogo de ALLPATEK.
+* **User Goal:** Registrar un nuevo terreno agrícola ingresando sus especificaciones técnicas, ubicación geográfica en mapa y evidencia fotográfica para ponerlo a disposición de comerciantes en el catálogo de ALLPATEK.
 
 <p align="center">
   <img src="./assets/chapter-04/Wireflow02.png" alt="Descripción de la imagen" width="700">
@@ -1585,7 +1652,7 @@ En esta sección se presenta la propuesta formal de User Flows mapeados a partir
 
 #### **User Flow 1: Registro de Parcela Agrícola y Publicación en Plataforma**
 * **User Persona:** Alejandro Mendoza (Agricultor)
-* **User Goal:** Publicar una nueva parcela en el catálogo para ponerla a disposición de comerciantes B2B, garantizando la carga correcta de datos técnicos, coordenadas GPS y fotos del terreno.
+* **User Goal:** Publicar una nueva parcela en el catálogo para ponerla a disposición de comerciantes, garantizando la carga correcta de datos técnicos, coordenadas GPS y fotos del terreno.
 
 <p align="center">
   <img src="assets/chapter-04/UserFlow01.png" width="800" />
@@ -1608,7 +1675,7 @@ En esta sección se presenta la propuesta formal de User Flows mapeados a partir
 
 
 #### **User Flow 2: Formalización y Firma Digital del Contrato Escrow**
-* **User Persona:** María Chen (Comerciante B2B)
+* **User Persona:** María Chen (Comerciante)
 * **User Goal:** Revisar y firmar digitalmente un contrato de arrendamiento agrícola para proceder al bloqueo e inicio de la custodia de fondos en la Bóveda de Pagos.
 
 <p align="center">
@@ -2342,7 +2409,7 @@ El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de 
   </tr>
   <tr>
     <td colspan="5">Sprint 1 Goal</td>
-    <td colspan="8"><strong>Our focus is on</strong> presenting ALLPATEK’s guaranteed agricultural production model, fee-by-milestone structure, and service offerings through a responsive static landing page with lead capture capabilities. <strong>We believe it delivers</strong> initial market reach, brand credibility, and clear commercial orientation <strong>to</strong> prospective agricultural producers and B2B grain merchants. <strong>This will be confirmed when</strong> visitors can navigate through all service overview sections, compare commercial plans, and submit a technical proposal request in under 3 steps with zero UI validation errors.</td>
+    <td colspan="8"><strong>Our focus is on</strong> presenting ALLPATEK’s guaranteed agricultural production model, fee-by-milestone structure, and service offerings through a responsive static landing page with lead capture capabilities. <strong>We believe it delivers</strong> initial market reach, brand credibility, and clear commercial orientation <strong>to</strong> prospective agricultural producers and grain merchants. <strong>This will be confirmed when</strong> visitors can navigate through all service overview sections, compare commercial plans, and submit a technical proposal request in under 3 steps with zero UI validation errors.</td>
   </tr>
   <tr>
     <td colspan="5">Sprint 1 Velocity</td>
@@ -2452,7 +2519,7 @@ El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de 
 #### 5.2.1.3. Sprint Backlog 1
 
 
-El **Sprint 1** tuvo como objetivo principal la maquetación, diseño responsivo, lógica de interacción y despliegue público de la **Landing Page estática e informativa de ALLPATEK**, la cual sirve como punto de contacto inicial para comunicar la propuesta de valor del modelo *Agro-as-a-Service* e incentivar la captación de productores agrícolas y compradores B2B.
+El **Sprint 1** tuvo como objetivo principal la maquetación, diseño responsivo, lógica de interacción y despliegue público de la **Landing Page estática e informativa de ALLPATEK**, la cual sirve como punto de contacto inicial para comunicar la propuesta de valor del modelo *Agro-as-a-Service* e incentivar la captación de productores agrícolas y compradores.
 
 Para la gestión y control del flujo de trabajo, las tareas se organizaron y monitorearon interactivamente mediante la herramienta de gestión de proyectos **GitHub Projects**.
 
@@ -2482,7 +2549,7 @@ A continuación, se detalla la descomposición de las Historias de Usuario de la
 | **Sprint 1** | **US40** | Evaluar la protección de fondos antes de comprometer capital | **T007** | Estilos CSS para el grid de Servicios | Aplicar sombras, bordes y estilos de contraste visual para las tarjetas de servicios de la plataforma. | 4 | Alexander Sebastián | Done |
 | **Sprint 1** | **US33** | Entender el esquema de pagos por hitos | **T008** | Maquetación HTML de la sección Hitos / Cómo Funciona | Construir la secuencia del flujo de trabajo por hitos y desembolsos progresivos (`feature/hitos`). | 4 | Alexander Sebastián | Done |
 | **Sprint 1** | **US41** | Entender cómo se garantiza el cobro al productor | **T009** | Estilos CSS para la línea de tiempo de Hitos | Diseñar la línea de tiempo visual y los conectores gráficos entre los pasos del proceso Escrow. | 3 | Alexander Sebastián | Done |
-| **Sprint 1** | **US34** | Revisar experiencias de comerciantes y productores | **T010** | Maquetación HTML y estilos de Testimonios | Diseñar las tarjetas de reseñas y valoraciones de compradores B2B y productores agrícolas (`feature/testimonios`). | 4 | Nayely Macarena | Done |
+| **Sprint 1** | **US34** | Revisar experiencias de comerciantes y productores | **T010** | Maquetación HTML y estilos de Testimonios | Diseñar las tarjetas de reseñas y valoraciones de compradores y productores agrícolas (`feature/testimonios`). | 4 | Nayely Macarena | Done |
 | **Sprint 1** | **US35** | Comparar planes de producción según escala | **T011** | Maquetación HTML de la sección Planes | Estructurar las tarjetas comparativas de planes de producción y suscripción agrícola (`feature/planes`). | 3 | Nayely Macarena | Done |
 | **Sprint 1** | **US35** | Comparar planes de producción según escala | **T012** | Estilos CSS y destacado del plan recomendado | Resaltar el plan principal mediante etiquetas, bordes especiales e indicadores de precio. | 3 | Nayely Macarena | Done |
 | **Sprint 1** | **US36** | Conocer al equipo detrás de la plataforma | **T013** | Maquetación HTML y estilos de la sección Equipo | Estructurar la cuadrícula de perfiles del equipo técnico (*Aspect Leaders*) con sus tarjetas y enlaces (`feature/equipo`). | 3 | Mel Andree | Done |
