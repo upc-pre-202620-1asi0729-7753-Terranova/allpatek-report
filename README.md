@@ -569,7 +569,7 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 
 ### 2.2.1. Diseño de entrevistas
 
-Se diseñaron guías de entrevista semiestructuradas para cada segmento. Cada guía tiene cuatro partes: una **apertura** con presentación y consentimiento, **preguntas básicas** sobre características objetivas (nombre, ocupación, dispositivo), **preguntas principales** sobre el proceso actual, los problemas y las expectativas del entrevistado, características subjetivas (personalidad, familia, marcas e influencias y canales digitales). Estos últimos alimentan las fichas de User Persona.
+Se diseñaron guías de entrevista semiestructuradas para cada segmento. Cada guía tiene cuatro partes: una **apertura** con presentación y consentimiento, **preguntas básicas** sobre características objetivas (nombre, ocupación, dispositivo), **preguntas principales** sobre el proceso actual, los problemas y las expectativas del entrevistado, y **bloques de profundización** sobre características subjetivas (personalidad, familia, marcas e influencias y canales digitales). Estos últimos alimentan las fichas de User Persona.
 
 #### Apertura de la entrevista (ambos segmentos)
 
@@ -664,7 +664,7 @@ Antes de la primera pregunta, el entrevistador sigue este orden:
 | Inicio de la entrevista | 00:00 |
 | Duración | 06:09 |
 | URL del video | [Video evidencia](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBbQDY3p2SiRq-xBW2hRB-dARiTcCuKw4tJ7sUQ8oeVau8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iVsXEQ) |
-| **Fotografía** | <div align="center"><img src="./assets/chapter-02/imagen-agricultor-rosa.jpeg" alt="Captura de la entrevista a Rosa Flores" width="300"></div> |
+| **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-agricultor-1.jpeg" alt="Captura de la entrevista a Rosa Flores" width="300"></div> |
 | **Resumen de la entrevista** | Entrevista realizada a Rosa Flores, agricultora a tiempo completo encargada de la gestión, supervisión y trabajo diario en una parcela familiar de palta con más de 6 años de experiencia en el cultivo. Utiliza un dispositivo Android (Xiaomi Redmi Note 11) para coordinar las labores agrícolas, tomar evidencias fotográficas del calibre de la fruta y comunicarse vía WhatsApp con el dueño de la parcela y los compradores. Señala serios problemas de conectividad a internet en las partes altas del huerto, lo que retrasa la entrega de reportes y negociaciones. Asimismo, destaca la necesidad de un sistema automatizado de guardado y envío de fotos con geolocalización/fecha y un servicio de alertas climáticas tempranas para proteger la floración del palto. |
 
 
@@ -744,7 +744,7 @@ Antes de la primera pregunta, el entrevistador sigue este orden:
 | Inicio de la entrevista | 00:00 |
 | Duración | 9:40 |
 | URL del video | [Video evidencia](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h171_upc_edu_pe/IQDobg41n-jjRKCAEIDgOlo3AfXMuQqEXkTp0vU3WnDO5Eg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Z15UJ ) |
-| **Fotografía** | <div align="center"><img src="./assets/chapter-02/imagen_entrevista.png" width="300"></div> |
+| **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-comprador-3.png" width="300"></div> |
 | **Resumen de la entrevista** | La entrevista realizada a Carolin, dueña de un restaurante familiar en Lima, revela que realiza sus compras de insumos agrícolas principalmente por WhatsApp con proveedores de confianza, valorando más la calidad y la seguridad que el costo más bajo. Sus principales dolores de cabeza son la inestabilidad semanal de los precios, la incertidumbre sobre la frescura y peso de la mercadería, y los retrasos en las entregas. Ante una posible aplicación de compra directa al agricultor o modelos de precios fijos por temporada, se mostraría interesada siempre y cuando la plataforma garantice transparencia, verificación de identidad de los productores, soporte ante problemas y un canal de comunicación ágil como WhatsApp. |
 
 ### 2.2.3. Análisis de entrevistas
@@ -760,21 +760,20 @@ En tercer lugar, existe una demanda transversal por herramientas móviles de baj
 En cuarto lugar, respecto a la viabilidad y adopción de la plataforma, la disposición a utilizar el sistema está condicionada a la simplicidad operativa y la efectividad en la venta. Los agricultores respaldarán la herramienta si demuestra que simplifica el registro de sus parcelas, garantiza la autenticidad de sus evidencias de calidad frente a los compradores y les permite acceder a transacciones más rápidas y transparentes. En síntesis, este segmento requiere una solución móvil intuitiva que resuelva los problemas de conectividad, certifique la calidad de sus productos y emita alertas preventivas para resguardar sus cultivos.
 
 <div align="center">
-  <img src="assets/chapter-02/GraficaSegmento1-Agricultores.png" alt="Impact Mapping" width="850">
+  <img src="assets/chapter-02/grafica-segmento-1-agricultores.png" alt="Gráfica de hallazgos del segmento Agricultores Familiares" width="850">
 </div>
 
-**Análisis Segundo Segmento: Comerciantes Urbanos (Restaurantes y Puestos de Mercado):** En primer lugar, se evidencia una severa vulnerabilidad operativa por la variabilidad incontrolada de costos, la incertidumbre en la calidad del insumo y la falta absoluta de trazabilidad sobre el origen del producto. Según se extrae de los testimonios recopilados, el 100% (2 de 2) de los comerciantes gestiona el abastecimiento de sus negocios (con volúmenes que van desde 30-40 kg/semana en restaurantes de La Molina hasta 400 kg/semana en puestos del Mercado de Frutas en El Agustino) mediante intermediarios tradicionales, compras presenciales en mercados mayoristas o pedidos informales por redes como WhatsApp. Esta dependencia genera que operen bajo una constante imprevisibilidad en el margen de ganancia debido a la fluctuación repentina de precios y a la incapacidad de verificar el estado real y la frescura de las frutas y verduras antes de recibirlas en sus locales.
+**Análisis Segundo Segmento: Comerciantes Urbanos (Restaurantes y Puestos de Mercado):** En primer lugar, se evidencia una severa vulnerabilidad operativa por la variabilidad incontrolada de costos, la incertidumbre en la calidad del insumo y la falta absoluta de trazabilidad sobre el origen del producto. Según se extrae de los testimonios recopilados, el 100% (3 de 3) de los comerciantes gestiona el abastecimiento de sus negocios (con volúmenes que van desde 30-40 kg/semana en un restaurante de La Molina y 35-45 kg/semana en uno del Cercado de Lima, hasta 400 kg/semana en un puesto del Mercado de Frutas en El Agustino) mediante intermediarios tradicionales, compras presenciales en mercados mayoristas o pedidos informales por redes como WhatsApp. Esta dependencia genera que operen bajo una constante imprevisibilidad en el margen de ganancia debido a la fluctuación repentina de precios y a la incapacidad de verificar el estado real y la frescura de las frutas y verduras antes de recibirlas en sus locales. Carolin Solsol, por ejemplo, indicó que valora más la calidad y la seguridad que el costo más bajo, y aun así no puede comprobar la frescura ni el peso de lo que recibe.
 
-En segundo lugar, existe un impacto económico y comercial directo derivado de la intermediación excesiva y los incumplimientos de entrega. El 100% de los entrevistados reportó fricciones financieras ligadas a la falta de garantías en el cumplimiento de volumen y calidad. En los pequeños y medianos comercios, la falta de frescura impacta de forma inmediata en la oferta gastronómica y el costo plato; mientras que en los distribuidores mayoristas de mercado, los desfases de entrega provocan mermas y quiebres de stock que comprometen el flujo de caja diario y la continuidad operativa con sus clientes finales.
+En segundo lugar, existe un impacto económico y comercial directo derivado de la intermediación excesiva y los incumplimientos de entrega. Los comerciantes con testimonio detallado (Irma Barreto Castro y Carolin Solsol) reportaron fricciones ligadas a la falta de garantías en el cumplimiento de volumen, calidad y plazos, incluyendo la inestabilidad semanal de precios y los retrasos en las entregas. En los pequeños y medianos comercios, la falta de frescura impacta de forma inmediata en la oferta gastronómica y el costo plato; mientras que en los distribuidores mayoristas de mercado, los desfases de entrega provocan mermas y quiebres de stock que comprometen el flujo de caja diario y la continuidad operativa con sus clientes finales.
 
-En tercer lugar, se identifica una alta disposición a la adopción de esquemas de compra directa en origen y modelos de financiamiento por temporada (suscripción o pago adelantado a precio fijo). El 100% de los comerciantes considera altamente atractivo contactar directamente con el agricultor, visualizar la ubicación exacta de las parcelas y monitorear el avance de los cultivos en tiempo real. Asimismo, señalan que adoptarían contratos de compra futura siempre que el canal digital ofrezca mecanismos estrictos de confianza, tales como verificación de identidad agrícola, calificaciones comunitarias entre comerciantes y notificaciones de cosecha directamente vía WhatsApp, su canal digital preferido de comunicación.
+En tercer lugar, se identifica una alta disposición a la adopción de esquemas de compra directa en origen y modelos de financiamiento por temporada (suscripción o pago adelantado a precio fijo). Los comerciantes entrevistados con testimonio detallado consideran atractivo contactar directamente con el agricultor, visualizar la ubicación de las parcelas y monitorear el avance de los cultivos. Asimismo, señalan que adoptarían contratos de compra futura siempre que el canal digital ofrezca mecanismos estrictos de confianza, tales como verificación de identidad de los productores, calificaciones comunitarias entre comerciantes, soporte ante problemas y notificaciones de cosecha directamente vía WhatsApp, su canal digital preferido de comunicación.
 
 En cuarto lugar, respecto a la viabilidad comercial y seguridad de las transacciones, la disposición a pagar e invertir en la plataforma está condicionada a la mitigación del riesgo mediante garantías formales. Los comerciantes señalaron con firmeza que migrarán su canal de abastecimiento hacia la plataforma digital solo si se garantizan protocolos claros de respaldo ante incumplimientos, devolución por producto defectuoso y contratos transparentes. En síntesis, este segmento requiere una plataforma directa y transparente que reduzca la intermediación, garantice la trazabilidad de los cultivos desde la siembra hasta la cosecha y asegure estabilidad de precios para proteger el capital del negocio.
 
 <div align="center">
-  <img src="assets/chapter-02/GraficaSegmento2-Comerciantes.png" alt="Impact Mapping" width="850">
+  <img src="assets/chapter-02/grafica-segmento-2-comerciantes.png" alt="Gráfica de hallazgos del segmento Comerciantes Urbanos" width="850">
 </div>
-
 
 ## 2.3. Needfinding
 
@@ -786,13 +785,13 @@ A continuación, se presentan los User Personas diseñados para representar a lo
 
 ### User Persona: Agricultor
 
-![User-Persona Agricultor](./assets/chapter-02/user_persona_agricultor.png)
+![User-Persona Agricultor](./assets/chapter-02/user-persona-agricultor.png)
 
 ### User Persona: Comprador Urbano
 
-![User-Persona Comprador urbano](./assets/chapter-02/user_persona_comprador.png)
+![User-Persona Comprador urbano](./assets/chapter-02/user-persona-comprador.png)
 
-## 2.3.2. User Task Matrix.
+### 2.3.2. User Task Matrix.
 
 A través de la User Task Matrix, es posible identificar y organizar las principales actividades que los usuarios realizan actualmente dentro de su contexto de trabajo, de forma independiente a la existencia de Allpatek. Al categorizar estas tareas según su frecuencia e importancia, se logra comprender cuáles representan mayores dificultades y necesidades para cada perfil de usuario, permitiendo detectar oportunidades de mejora en la relación comercial entre agricultores familiares y compradores urbanos.
 
@@ -808,7 +807,7 @@ A través de la User Task Matrix, es posible identificar y organizar las princip
 | Buscar alternativas cuando el precio no es favorable | Sometimes | High | Often | Medium |
 | Controlar el presupuesto o gasto de la temporada/semana | Sometimes | Medium | Often | High |
 
-La matriz confirma, con evidencia real de Irma, que la verificación de calidad/origen y la coordinación por WhatsApp son tareas frecuentes y de alta importancia para el comerciante — algo que antes solo era una hipótesis. Para Gustavo, al no contar todavía con el resto de su testimonio ni con las 3 entrevistas restantes del segmento, la matriz sigue basada en el perfil general del segmento y debe confirmarse más adelante.
+La matriz se construyó a partir de las entrevistas a Gustavo Adolfo Suyo (Segmento 1: Agricultor Familiar) e Irma Barreto Castro (Segmento 2: Comprador Urbano). Muestra que la coordinación de pedidos por WhatsApp, la búsqueda de información de precios y la verificación de calidad u origen son tareas frecuentes y de alta importancia, especialmente para la compradora. Para el agricultor, destacan el registro manual de información del cultivo y la búsqueda de información del clima antes de decidir la siembra o la cosecha. En ambos casos, la firma de acuerdos de forma manual o verbal es una tarea poco frecuente, lo que evidencia que hoy los acuerdos se cierran sin un respaldo formal. La matriz se validará y ajustará con las entrevistas restantes de cada segmento.
 
 ### 2.3.3. User Journey Mapping
 
