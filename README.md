@@ -569,7 +569,20 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 
 ### 2.2.1. Diseño de entrevistas
 
-**Guía de entrevista — Segmento 1: Agricultores familiares**
+Se diseñaron guías de entrevista semiestructuradas para cada segmento. Cada guía tiene cuatro partes: una **apertura** con presentación y consentimiento, **preguntas básicas** sobre características objetivas (nombre, ocupación, dispositivo), **preguntas principales** sobre el proceso actual, los problemas y las expectativas del entrevistado, características subjetivas (personalidad, familia, marcas e influencias y canales digitales). Estos últimos alimentan las fichas de User Persona.
+
+#### Apertura de la entrevista (ambos segmentos)
+
+Antes de la primera pregunta, el entrevistador sigue este orden:
+
+1. **Presentación:** nombre del entrevistado
+2. **Propósito:** se trata de un proyecto académico llamado Allpatek, el objetivo es entender cómo el entrevistado vende o compra productos agrícolas hoy, no se le va a vender nada y no hay respuestas correctas o incorrectas.
+3. **Duración:** unos 15 a 20 minutos.
+4. **Consentimiento:** se pide autorización para grabar en video y se aclara que solo se usará para el trabajo del curso y que puede detener la entrevista cuando quiera.
+
+---
+
+#### Guía de entrevista — Segmento 1: Agricultores familiares
 
 *Preguntas básicas (iniciales):*
 1. Para comenzar, ¿me podría decir su nombre?
@@ -599,7 +612,9 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 17. Si existiera una aplicación para ayudarle con estas cosas, ¿qué sería lo más importante para usted para que sea fácil de usar?
 18. ¿Hay alguna cosa de su trabajo que le gustaría poder hacer más rápido o más fácilmente con el celular?
 
-**Guía de entrevista — Segmento 2: Comerciantes /  Compradores urbanos **
+---
+
+#### Guía de entrevista — Segmento 2: Comerciantes / Compradores urbanos
 
 *Preguntas básicas (iniciales):*
 1. Para comenzar, ¿me podría decir su nombre?
@@ -627,10 +642,10 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 15. Si existiera una aplicación para hacer este tipo de compras directamente con el agricultor, ¿qué sería lo más importante para que confíe en ella y la use seguido?
 16. ¿Hay algo de este proceso de compra que le gustaría poder hacer más rápido o más fácil con el celular?
 17. ¿Qué lo haría dudar o desconfiar de comprarle directamente a un agricultor a través de una app, sin intermediarios?
+
+
     
 ### 2.2.2. Registro de entrevistas
-
-
 
 ### A.Entrevistas al segmento de agricultores familiares
 
