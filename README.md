@@ -714,6 +714,24 @@ Se diseñaron guías de entrevista semiestructuradas para cada segmento, cubrien
 | **Resumen de la entrevista** | Entrevista realizada a César Hugo Egocheaga, comerciante de 50 años que dirige un negocio en el Mercado de Frutas de El Agustino. Indicó un volumen de compra aproximado de 400 kg por semana. El enlace del video se incorporará cuando esté disponible. |
 
 
+#### Entrevista 3: Carolin Solsol
+
+| Campo | Información |
+|-------|-------------|
+| **Título** | **Entrevista 3: Carolin Solsol** |
+| Segmento | Comerciante urbano |
+| Nombres y apellidos | Carolin Solsol |
+| Edad | 46 años |
+| Distrito | Cercado de Lima |
+| Ocupación | Dueña de un restaurante familiar |
+| Tipo de comerciante (familia / restaurante / negocio) | Restaurante |
+| Volumen de compra aproximado | 35-45 kg por semana |
+| Inicio de la entrevista | 00:00 |
+| Duración | 9:40 |
+| URL del video | [Video evidencia](https://1drv.ms/v/c/d3c743b5a0e38c7f/IQD_LJde0WbnRKFSU8nptpj0Aa4E7e9k4GaI_LXprbhW7qY?e=F1i4PE) |
+| **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-comprador-1.png" width="300"></div> |
+| **Resumen de la entrevista** | La entrevista realizada a Carolin, dueña de un restaurante familiar en Lima, revela que realiza sus compras de insumos agrícolas principalmente por WhatsApp con proveedores de confianza, valorando más la calidad y la seguridad que el costo más bajo. Sus principales dolores de cabeza son la inestabilidad semanal de los precios, la incertidumbre sobre la frescura y peso de la mercadería, y los retrasos en las entregas. Ante una posible aplicación de compra directa al agricultor o modelos de precios fijos por temporada, se mostraría interesada siempre y cuando la plataforma garantice transparencia, verificación de identidad de los productores, soporte ante problemas y un canal de comunicación ágil como WhatsApp. |
+
 ### 2.2.3. Análisis de entrevistas
 
 El presente análisis sintetiza la información recopilada a partir de las entrevistas en profundidad realizadas a los representantes de los dos segmentos objetivos.
