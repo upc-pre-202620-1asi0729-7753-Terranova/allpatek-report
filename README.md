@@ -176,24 +176,6 @@ El proceso de colaboración en el informe se realizó mediante commits constante
       * [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       * [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       * [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
-    * [5.2.3. Sprint 3](#523-sprint-3)
-      * [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
-      * [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
-      * [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
-      * [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
-      * [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-      * [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
-      * [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
-      * [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-    * [5.2.4. Sprint 4](#524-sprint-4)
-      * [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
-      * [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
-      * [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
-      * [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
-      * [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
-      * [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
-      * [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
-      * [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
   * [5.3. Validation Interviews](#53-validation-interviews)
     * [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     * [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -2723,24 +2705,6 @@ Mel también figura como autor de la configuración compartida y los merges a `d
 
 Este registro describe los cambios de código y su autoría; no afirma que se hayan realizado reuniones, validaciones con usuarios o nuevos despliegues.
 
-### 5.2.3. Sprint 3
-#### 5.2.3.1. Sprint Planning 3
-#### 5.2.3.2. Aspect Leaders and Collaborators
-#### 5.2.3.3. Sprint Backlog 3
-#### 5.2.3.4. Development Evidence for Sprint Review
-#### 5.2.3.5. Execution Evidence for Sprint Review
-#### 5.2.3.6. Services Documentation Evidence for Sprint Review
-#### 5.2.3.7. Software Deployment Evidence for Sprint Review
-#### 5.2.3.8. Team Collaboration Insights during Sprint
-### 5.2.4. Sprint 4
-#### 5.2.4.1. Sprint Planning 4
-#### 5.2.4.2. Aspect Leaders and Collaborators
-#### 5.2.4.3. Sprint Backlog 4
-#### 5.2.4.4. Development Evidence for Sprint Review
-#### 5.2.4.5. Execution Evidence for Sprint Review
-#### 5.2.4.6. Services Documentation Evidence for Sprint Review
-#### 5.2.4.7. Software Deployment Evidence for Sprint Review
-#### 5.2.4.8. Team Collaboration Insights during Sprint
 
 ## 5.3. Validation Interviews
 ### 5.3.1. Diseño de Entrevistas
