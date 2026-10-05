@@ -2,63 +2,132 @@
 !pragma layout smetana
 skinparam backgroundColor white
 skinparam defaultFontName SansSerif
-skinparam defaultFontSize 15
+skinparam defaultFontSize 14
 skinparam shadowing false
 skinparam classAttributeIconSize 0
 skinparam ArrowColor #476050
 skinparam dpi 140
-title Allpatek | Classes - Payments and Plans
+title Allpatek | DDD classes - Payments and Plans
 top to bottom direction
-class Payment {
- -id: Long
- -contractId: Long
- -milestoneId: Long
- -subscriptionId: Long
+
+class Payment <<Aggregate Root>> {
+ -id: PaymentId
+ -destination: PaymentDestination
  -kind: PaymentKind
- -amount: BigDecimal
- -currency: String
- -providerReference: String
- -status: String
+ -amount: Money
+ -providerReference: ProviderReference
+ -status: PaymentStatus
  -createdAt: Instant
  --
-+confirm(reference: String): void
-+markFailed(): void
+ +confirm(reference: ProviderReference): void
+ +markFailed(): void
+ +requestRelease(): void
 }
-class SubscriptionPlan {
- -id: Long
+
+class SubscriptionPlan <<Aggregate Root>> {
+ -id: SubscriptionPlanId
  -name: String
- -monthlyPrice: BigDecimal
- -currency: String
+ -monthlyPrice: Money
  -plotLimit: Integer
  --
-+updatePrice(amount: BigDecimal): void
+ +updatePrice(price: Money): void
 }
-class Subscription {
- -id: Long
- -userId: Long
- -planId: Long
- -startDate: LocalDate
- -endDate: LocalDate
- -status: String
+
+class Subscription <<Aggregate Root>> {
+ -id: SubscriptionId
+ -userId: UserId
+ -planId: SubscriptionPlanId
+ -billingPeriod: DateRange
+ -status: SubscriptionStatus
  --
-+activate(): void
-+cancel(): void
+ +activate(): void
+ +cancel(): void
 }
+
+class PaymentId <<Value Object>> {
+ +value: Long
+}
+class SubscriptionPlanId <<Value Object>> {
+ +value: Long
+}
+class SubscriptionId <<Value Object>> {
+ +value: Long
+}
+class UserId <<Value Object>> {
+ +value: Long
+}
+class ContractId <<Value Object>> {
+ +value: Long
+}
+class MilestoneId <<Value Object>> {
+ +value: Long
+}
+class Money <<Value Object>> {
+ +amount: BigDecimal
+ +currency: String
+ +isPositive(): Boolean
+}
+class ProviderReference <<Value Object>> {
+ +value: String
+}
+class PaymentDestination <<Value Object>> {
+ +contractId: ContractId
+ +milestoneId: MilestoneId
+ +subscriptionId: SubscriptionId
+ +isValidFor(kind: PaymentKind): Boolean
+}
+class DateRange <<Value Object>> {
+ +start: LocalDate
+ +end: LocalDate
+}
+
 enum PaymentKind {
-SEASON_FUNDING
-MILESTONE_RELEASE
-SUBSCRIPTION
+ SEASON_FUNDING
+ MILESTONE_RELEASE
+ SUBSCRIPTION
 }
-Payment ..> PaymentKind : uses
-interface PaymentRepository {
- +findById(id: Long): Optional<Payment>
- +save(entity: Payment): Payment
+enum PaymentStatus {
+ PENDING
+ CONFIRMED
+ FAILED
+ RELEASE_REQUESTED
+ RELEASED
 }
-PaymentRepository ..> Payment : stores and retrieves
-Subscription "0..1" <-- "0..*" Payment : subscriptionId
-SubscriptionPlan "1" <-- "0..*" Subscription : planId
+enum SubscriptionStatus {
+ PENDING
+ ACTIVE
+ CANCELLED
+ EXPIRED
+}
+
+interface PaymentRepository <<Repository Port>> {
+ +findById(id: PaymentId): Optional<Payment>
+ +findByProviderReference(reference: ProviderReference): Optional<Payment>
+ +save(payment: Payment): Payment
+}
+interface SubscriptionRepository <<Repository Port>> {
+ +findById(id: SubscriptionId): Optional<Subscription>
+ +save(subscription: Subscription): Subscription
+}
+
+Payment *-- PaymentId
+Payment *-- PaymentDestination
+Payment *-- Money
+Payment *-- ProviderReference
+Payment ..> PaymentKind
+Payment ..> PaymentStatus
+SubscriptionPlan *-- SubscriptionPlanId
+SubscriptionPlan *-- Money
+Subscription *-- SubscriptionId
+Subscription *-- UserId
+Subscription *-- SubscriptionPlanId
+Subscription *-- DateRange
+Subscription ..> SubscriptionStatus
+PaymentRepository ..> Payment
+SubscriptionRepository ..> Subscription
+
 legend bottom
-- Private attribute | + Public operation | Diamond: owned entity
-References to other modules use identifiers.
+Money prevents invalid amount/currency combinations.
+PaymentDestination enforces the required reference for each payment kind.
 endlegend
 @enduml

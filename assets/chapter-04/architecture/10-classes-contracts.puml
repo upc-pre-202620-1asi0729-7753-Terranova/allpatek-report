@@ -2,117 +2,194 @@
 !pragma layout smetana
 skinparam backgroundColor white
 skinparam defaultFontName SansSerif
-skinparam defaultFontSize 15
+skinparam defaultFontSize 14
 skinparam shadowing false
 skinparam classAttributeIconSize 0
 skinparam ArrowColor #476050
 skinparam dpi 140
-title Allpatek | Classes - Season Contracting
+title Allpatek | DDD classes - Season Contracting
 top to bottom direction
-class Proposal {
- -id: Long
- -plotId: Long
- -merchantId: Long
- -farmerId: Long
- -requestedVolume: BigDecimal
- -proposedPrice: BigDecimal
- -currency: String
+
+class Proposal <<Aggregate Root>> {
+ -id: ProposalId
+ -plotId: PlotId
+ -merchantId: UserId
+ -farmerId: UserId
+ -requestedVolume: Quantity
+ -proposedPrice: Money
  -deliveryDate: LocalDate
- -terms: String
+ -terms: ContractTerms
  -expiresAt: Instant
  -status: ProposalStatus
  --
-+submit(): void
-+counter(terms: String): void
-+accept(): void
-+expire(): void
+ +submit(): void
+ +counter(price: Money, terms: ContractTerms): void
+ +accept(): void
+ +expire(): void
 }
-class Reservation {
- -id: Long
- -plotId: Long
- -proposalId: Long
- -merchantId: Long
+
+class Reservation <<Aggregate Root>> {
+ -id: ReservationId
+ -plotId: PlotId
+ -proposalId: ProposalId
+ -merchantId: UserId
  -expiresAt: Instant
  -status: ReservationStatus
  --
-+hold(): void
-+confirm(): void
-+release(): void
-+expire(): void
+ +hold(): void
+ +confirm(): void
+ +release(): void
+ +expire(): void
 }
-class Contract {
- -id: Long
- -plotId: Long
- -proposalId: Long
- -reservationId: Long
- -merchantId: Long
- -farmerId: Long
- -startDate: LocalDate
- -endDate: LocalDate
- -totalAmount: BigDecimal
- -currency: String
- -terms: String
- -merchantAcceptedAt: Instant
- -farmerAcceptedAt: Instant
+
+class Contract <<Aggregate Root>> {
+ -id: ContractId
+ -plotId: PlotId
+ -proposalId: ProposalId
+ -reservationId: ReservationId
+ -merchantId: UserId
+ -farmerId: UserId
+ -season: DateRange
+ -totalAmount: Money
+ -terms: ContractTerms
+ -acceptance: ContractAcceptance
  -status: ContractStatus
- -documentKey: String
- -documentSentAt: Instant
+ -document: StorageKey
+ -milestones: List<Milestone>
  --
-+accept(partyId: Long): void
-+activate(): void
-+complete(): void
+ +accept(partyId: UserId): void
+ +activate(paymentConfirmed: Boolean): void
+ +addMilestone(milestone: Milestone): void
+ +complete(): void
 }
-class Milestone {
- -id: Long
- -contractId: Long
+
+class Milestone <<Entity>> {
+ -id: MilestoneId
  -sequence: Integer
  -name: String
- -criteria: String
- -amount: BigDecimal
- -status: String
+ -criteria: MilestoneCriteria
+ -amount: Money
+ -status: MilestoneStatus
  -reviewedAt: Instant
  -reviewNote: String
  --
-+submit(): void
-+approve(): void
-+reject(reason: String): void
+ +submit(): void
+ +approve(): void
+ +reject(reason: String): void
 }
+
+class ProposalId <<Value Object>> {
+ +value: Long
+}
+class ReservationId <<Value Object>> {
+ +value: Long
+}
+class ContractId <<Value Object>> {
+ +value: Long
+}
+class MilestoneId <<Value Object>> {
+ +value: Long
+}
+class PlotId <<Value Object>> {
+ +value: Long
+}
+class UserId <<Value Object>> {
+ +value: Long
+}
+class Quantity <<Value Object>> {
+ +value: BigDecimal
+ +unit: String
+}
+class Money <<Value Object>> {
+ +amount: BigDecimal
+ +currency: String
+}
+class DateRange <<Value Object>> {
+ +start: LocalDate
+ +end: LocalDate
+ +overlaps(other: DateRange): Boolean
+}
+class ContractTerms <<Value Object>> {
+ +text: String
+ +version: Integer
+}
+class ContractAcceptance <<Value Object>> {
+ +merchantAcceptedAt: Instant
+ +farmerAcceptedAt: Instant
+ +matchesTermsVersion: Boolean
+}
+class MilestoneCriteria <<Value Object>> {
+ +description: String
+}
+class StorageKey <<Value Object>> {
+ +value: String
+}
+
 enum ProposalStatus {
-PENDING
-COUNTERED
-ACCEPTED
-REJECTED
-EXPIRED
+ PENDING
+ COUNTERED
+ ACCEPTED
+ REJECTED
+ EXPIRED
 }
 enum ReservationStatus {
-PENDING_PAYMENT
-CONFIRMED
-RELEASED
-EXPIRED
+ PENDING_PAYMENT
+ CONFIRMED
+ RELEASED
+ EXPIRED
 }
 enum ContractStatus {
-PENDING_ACCEPTANCE
-PENDING_PAYMENT
-ACTIVE
-COMPLETED
-CANCELLED
+ PENDING_ACCEPTANCE
+ PENDING_PAYMENT
+ ACTIVE
+ COMPLETED
+ CANCELLED
 }
-Proposal ..> ProposalStatus : uses
-Reservation ..> ReservationStatus : uses
-Contract ..> ContractStatus : uses
-interface ContractRepository {
- +findById(id: Long): Optional<Contract>
- +save(entity: Contract): Contract
+enum MilestoneStatus {
+ PENDING
+ SUBMITTED
+ APPROVED
+ REJECTED
+ PAID
 }
-ContractRepository ..> Proposal : stores and retrieves
-ContractRepository ..> Reservation : stores and retrieves
-ContractRepository ..> Contract : stores and retrieves
-Proposal "1" --> "0..*" Reservation : proposalId
-Proposal "1" --> "0..1" Contract : proposalId
-Reservation "1" --> "0..1" Contract : reservationId
-Contract "1" *-- "0..*" Milestone : contractId
+
+interface ProposalRepository <<Repository Port>> {
+ +findById(id: ProposalId): Optional<Proposal>
+ +save(proposal: Proposal): Proposal
+}
+interface ReservationRepository <<Repository Port>> {
+ +findById(id: ReservationId): Optional<Reservation>
+ +save(reservation: Reservation): Reservation
+}
+interface ContractRepository <<Repository Port>> {
+ +findById(id: ContractId): Optional<Contract>
+ +save(contract: Contract): Contract
+}
+
+Proposal *-- ProposalId
+Proposal *-- Money
+Proposal *-- Quantity
+Proposal *-- ContractTerms
+Reservation *-- ReservationId
+Contract *-- ContractId
+Contract *-- DateRange
+Contract *-- Money
+Contract *-- ContractTerms
+Contract *-- ContractAcceptance
+Contract *-- "1..*" Milestone
+Milestone *-- MilestoneId
+Milestone *-- MilestoneCriteria
+Milestone *-- Money
+Proposal ..> ProposalStatus
+Reservation ..> ReservationStatus
+Contract ..> ContractStatus
+Milestone ..> MilestoneStatus
+ProposalRepository ..> Proposal
+ReservationRepository ..> Reservation
+ContractRepository ..> Contract
+
 legend bottom
-- Private attribute | + Public operation | Diamond: owned entity
-References to other modules use identifiers.
+Proposal, Reservation and Contract define separate consistency boundaries.
+Milestone is owned by Contract. Value Objects contain validation and comparison rules.
 endlegend
 @enduml
