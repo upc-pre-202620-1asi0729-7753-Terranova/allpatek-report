@@ -3289,6 +3289,39 @@ Se realizó la comprobación final de acceso en vivo a la aplicación web, verif
 
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
+
+
+Durante el **Sprint 2** el equipo TerraNova implementó la **Web Application** (SPA Angular, repositorio `allpatek-webapp`) y el **Web Service / Fake API** (repositorio `allpatek-platform-mock`). La Landing Page quedó cerrada en el Sprint 1; en este sprint no se reabrió como producto, salvo el consumo de la misma organización de GitHub.
+
+
+
+| Integrante | Usuario GitHub | Web Application (`allpatek-webapp`) | Web Services (`allpatek-platform-mock`) |
+| :--- | :--- | :--- | :--- |
+| Atauje Barreto, Alexander Sebastián | Alexander1Alexander2 | Líder de `feature/alerts-management`: modelo climático, cliente Open-Meteo, climate board y rutas farmer-only. | Consumo de parcelas/perfiles por id y contrato REST `/api/v1` documentado en la matriz de endpoints. |
+| Egocheaga Suyo, Miguel Angel | MiguelAngel0107 | Líder de `feature/escrow-payments`: entidades de wallet/escrow, bóveda, depósito y liberación por hito. | Uso de `/wallets` y recursos de contrato/evidencia para el estado de la bóveda. |
+| Orellana Rodríguez, Mel Andree | melandree8 | Shared kernel (sesión, perfiles, shell, i18n) y líder de `feature/agreements-management`; integración en `develop`, `release/v1.0.0` y `main`; despliegue Netlify. | Contrato mock, `db.json`, rewriter `/api/v1`, health check y pipeline Azure (`allpatek-mockapi`). |
+| Raymundo Villarroel, Abigail Nadhim | AbigailRV | Líder de `feature/parcel-management`: entidad parcela, API, store, board/form/detail y ruta de aterrizaje del workspace. | CRUD sobre `/parcels` (GET, POST, PUT, DELETE) contra el mock desplegado. |
+| Vera Solsol, Nayely Macarena | Macaxprogram29 | Líder de `feature/tracking-evidence`: evidencias por hito, carga del agricultor, revisión del comerciante y transiciones de estado. | Persistencia en `/evidence` (GET, POST, PUT) usada por la bóveda al aceptar un hito. |
+
+Todos los miembros del equipo tienen commits de implementación en la **Web Application**. El **Web Service** es un único mock compartido: Mel lideró el repositorio y el deploy; el resto participa al implementar el cliente HTTP de su contexto sobre el mismo contrato `/api/v1` .
+
+
+####  Cómo se desarrolló la implementación
+
+1. Se partió `develop` con el kernel compartido (entornos, sesión, perfiles, carpetas DDD vacías).
+2. Cada líder abrió su `feature/*`, implementó dominio → infraestructura → application store → vistas → rutas, y abrió integración a `develop`.
+3. Los contextos no importan stores ajenos: consultan el mock por `parcelId` / `profileId`.
+4. Los conflictos de `app.routes.ts` se resolvieron en rebase para dejar todos los `loadChildren`.
+5. Pruebas de ejecución sobre Netlify + Azure; n8n se usó para avisos de contrato, evidencia y pago, sin sustituir el contrato REST del mock.
+
+
+<div align="center">
+  <img src="assets/chapter-05/sprint02.png" alt="Impact Mapping" width="850">
+</div>
+
+
+
+
 ### 5.2.3. Sprint 3
 #### 5.2.3.1. Sprint Planning 3
 #### 5.2.3.2. Aspect Leaders and Collaborators
