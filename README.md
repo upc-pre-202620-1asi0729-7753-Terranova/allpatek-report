@@ -2993,6 +2993,79 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
+
+
+
+#### Vista 1: Pantalla de Inicio de Sesión (*Login*)
+Esta interfaz ofrece un acceso unificado a la plataforma mediante la autenticación de credenciales. La pantalla incluye un selector dinámico de rol (Agricultor o Comerciante) que permite redirigir al usuario hacia su espacio de trabajo personalizado. Al validar los campos de correo electrónico y contraseña, el sistema procesa el inicio de sesión y da paso a las funciones correspondientes.
+
+<p align="center">
+  <img src="assets/chapter-05/vista01.png" alt="Pantalla de Login" width="850" />
+</p>
+
+
+#### Vista 2: Registro de Cuenta de Usuario
+Se trata de un formulario de alta adaptativo diseñado para incorporar nuevos usuarios al sistema. La interfaz ajusta dinámicamente sus campos en función del perfil seleccionado, solicitando información personal en el caso del agricultor o datos fiscales y corporativos cuando se trata de un comerciante. Tras aceptar los términos y completar el registro, la cuenta queda activa en la base de datos para ingresar de inmediato.
+
+<p align="center">
+  <img src="assets/chapter-05/vista02.png" alt="Pantalla de Login" width="850" />
+</p>
+
+
+
+#### Vista 3: Panel de Mis Parcelas (*Agricultor*)
+Corresponde al panel principal del agricultor donde se centraliza la visualización de todos los terrenos agrícolas registrados a su nombre. La vista presenta tarjetas informativas con el estado operativo de cada predio, su extensión y accesos rápidos a las operaciones CRUD. Desde este tablero, el usuario puede iniciar el registro de nuevas parcelas, editarlas o consultar su detalle.
+
+<p align="center">
+  <img src="assets/chapter-05/vista03.png" alt="Pantalla de Login" width="850" />
+</p>
+
+
+
+#### Vista 4: Formulario de Registro / Edición de Parcela
+Esta pantalla captura y actualiza los parámetros técnicos y geográficos de un terreno agrícola. El usuario puede ingresar datos clave como el nombre del predio, la superficie total en hectáreas, la ubicación exacta, el tipo de suelo, el costo estimado de la campaña y adjuntar fotografías de respaldo. Al guardar, la Fake API actualiza la información y refresca el catálogo.
+
+<p align="center">
+  <img src="assets/chapter-05/vista04.png" alt="Pantalla de Login" width="850" />
+</p>
+
+
+#### Vista 5: Ficha de Detalle de Parcela
+Es una vista resumida que consolida las especificaciones técnicas y la galería multimedia de una parcela en particular. Funciona como un centro de control desde el cual el usuario puede navegar directamente hacia el contrato asociado, revisar el historial de evidencias técnicas enviadas o consultar el estado financiero en la bóveda de custodia.
+
+<p align="center">
+  <img src="assets/chapter-05/vista05.png" alt="Pantalla de Login" width="850" />
+</p>
+
+
+
+#### Vista 6: Emisión y Firma Digital de Contrato
+Muestra el documento de arrendamiento con sus cláusulas legales, los datos de las partes firmantes y el desglose de pagos estructurado en cuatro hitos equivalentes al 25% cada uno. Incluye un identificador único con formato `CTR-YYYY-NNNN` y un panel de firma digital para que el agricultor pueda aceptar y validar formalmente el acuerdo emitido por el comerciante.
+
+<p align="center">
+  <img src="assets/chapter-05/vista06.png" alt="Pantalla de Login" width="850" />
+</p>
+
+
+#### Vista 7: Panel de Bóveda de Custodia (*Escrow Vault*)
+Esta vista financiera gestiona la retención y liberación progresiva de los fondos del contrato bajo el esquema de custodia (*Escrow*). Permite a ambas partes visualizar el balance total depositado, el monto retenido y el capital liberado a medida que se aprueban los hitos de trabajo programados.
+
+<p align="center">
+  <img src="assets/chapter-05/vista07.png" alt="Pantalla de Login" width="850" />
+</p>
+
+
+
+#### Vista 8: Panel de Control de Evidencias (*Agricultor*)
+Corresponde al tablero desde el cual el agricultor administra los entregables correspondientes a los cuatro hitos del contrato. La pantalla muestra el estado de cada etapa (Pendiente, En Revisión o Aprobado) y habilita los botones para adjuntar comprobantes fotográficos en el hito que se encuentre activo.
+
+<p align="center">
+  <img src="assets/chapter-05/vista08.png" alt="Pantalla de Login" width="850" />
+</p>
+
+
+
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 
