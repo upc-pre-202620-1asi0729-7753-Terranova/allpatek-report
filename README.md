@@ -59,10 +59,10 @@
 | AV1 | 14/09/2026 | Atauje Barreto, Alexander Sebastián | Definición del Lean UX Process: Problem Statements, Assumptions, Hypothesis Statements y diseño del Lean UX Canvas |
 | AV1 | 14/09/2026 | Atauje Barreto, Alexander Sebastián | Redacción, caracterización y segmentación detallada de los Segmentos Objetivo (Agricultor Familiar y Comprador Urbano/Corporativo) con referencias APA 7 |
 | AV1 | 14/09/2026 | Atauje Barreto, Alexander Sebastián | Corrección y alineación del Alcance General del Proyecto: contratación digital (parcelas + reserva + pago + contrato), seguimiento de hitos/trazabilidad y conexión de actores |
-| AV1 | 4/10/2026 | Atauje Barreto, Alexander Sebastián | Maquetación HTML5 e implementación de estilos CSS Grid responsivos para la sección Servicios de la Landing Page |
-| AV1 | 4/10/2026 | Atauje Barreto, Alexander Sebastián | Maquetación HTML5 e implementación de estilos CSS para la sección Hitos / Cómo Funciona de la Landing Page |
-| AV1 | 4/10/2026 | Atauje Barreto, Alexander Sebastián | Modularización de código CSS, refactorización y gestión de control de versiones con Git/GitHub mediante las ramas `feature/services` y `feature/how-it-works` |
-| AV1 | 4/10/2026 | Atauje Barreto, Alexander Sebastián | Participación en la grabación del video de exposición del producto/equipo y preparación de diapositivas de sustentación |
+| AV1 | 14/09/2026 | Atauje Barreto, Alexander Sebastián | Maquetación HTML5 e implementación de estilos CSS Grid responsivos para la sección Servicios de la Landing Page |
+| AV1 | 14/09/2026 | Atauje Barreto, Alexander Sebastián | Maquetación HTML5 e implementación de estilos CSS para la sección Hitos / Cómo Funciona de la Landing Page |
+| AV1 | 14/09/2026 | Atauje Barreto, Alexander Sebastián | Modularización de código CSS, refactorización y gestión de control de versiones con Git/GitHub mediante las ramas `feature/services` y `feature/how-it-works` |
+| AV1 | 14/09/2026 | Atauje Barreto, Alexander Sebastián | Participación en la grabación del video de exposición del producto/equipo y preparación de diapositivas de sustentación |
 | AV1 | 13/09/2026 | Raymundo Villarroel, Abigail Nadhim | Elaboración de Competidores: Análisis Competitivo, SWOT y Estrategias/Tácticas frente a Agromercado, VeryAgro y Procesadora Perú |
 | AV1 | 13/09/2026 | Raymundo Villarroel, Abigail Nadhim | Diseño, Registro y Análisis de Entrevistas para los segmentos de Agricultor Familiar y Comprador Urbano |
 | AV1 | 13/09/2026 | Raymundo Villarroel, Abigail Nadhim | Elaboración de Needfinding en UXPressia: User Personas, User Task Matrix, User Journey Mapping (As-Is) y Empathy Mapping |
@@ -80,7 +80,8 @@
 | TB1 | 04/10/2026 | Orellana Rodriguez, Mel Andree | Despliegue de la Frontend en Netlify | 
 | TB1 | 04/10/2026 | Orellana Rodriguez, Mel Andree | Despliegue del Mock APi en Azure | 
 | TB1 | 03/10/2026 | Orellana Rodriguez, Mel Andree | Correciones en el Product Backlog | 
-
+| TB1 | 25/09/2026 | Atauje Barreto, Alexander Sebastián | Asignación y responsabilidad del bounded context / microservicio `alerts-management` en el repositorio de la organización |
+| TB1 | 25/09/2026 | Atauje Barreto, Alexander Sebastián | Implementación de las observaciones y correcciones indicadas en la retroalimentación de la entrega |
 
 
 
@@ -89,7 +90,7 @@
 
 | Integrante | Tareas Asignadas |
 |---|---|
-| Atauje Barreto, Alexander Sebastián | Capítulo I completo: Introduction, Startup Profile (Startup Description, Team Member Profiles), Solution Profile (Background & Problematic, Lean UX Process: Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas), Target Segments. Alineación del Alcance General del Proyecto (Contratación Digital, Seguimiento de Hitos/Trazabilidad y Conexión Directa entre Actores). Maquetación e implementación web de las secciones Services (HTML5 & CSS Grid Layout) y Milestones / How It Works (HTML5 & CSS Layout) de la Landing Page. Modularización de estilos, refactorización y gestión de ramas en GitHub (`feature/services`, `feature/how-it-works`). Elaboración del material de exposición, grabación del video de presentación del equipo/producto y entrevistas de validación. |
+| Atauje Barreto, Alexander Sebastián | Capítulo I completo: Introduction, Startup Profile (Startup Description, Team Member Profiles), Solution Profile (Background & Problematic, Lean UX Process: Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas), Target Segments. Alineación del Alcance General del Proyecto (Contratación Digital, Seguimiento de Hitos/Trazabilidad y Conexión Directa entre Actores). Maquetación e implementación web de las secciones Services (HTML5 & CSS Grid Layout) y Milestones / How It Works (HTML5 & CSS Layout) de la Landing Page. Modularización de estilos, refactorización y gestión de ramas en GitHub (`feature/services`, `feature/how-it-works`). Responsable del área `alerts-management` en el desarrollo de la solución para la entrega TB1. Elaboración del material de exposición, grabación del video de presentación del equipo/producto y correcciones del informe. |
 | Egocheaga Suyo, Miguel Angel | Domain-Driven Software Architecture (Chapter 4.6), Design-Level EventStorming, Software Architecture Context, Container and Component Diagrams, Software Object-Oriented Design, Class Diagrams, Database Design and Database Diagrams; Landing Page Header/Navbar and Hero Section implementation, responsive styles and navigation behavior (HTML5, CSS3 and JavaScript). |
 | Orellana Rodríguez, Mel Andree | Style Guidelines, General Style Guidelines, Web Style Guidelines, Information Architecture, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Web Applications UX/UI Design, Web Applications Wireframes, Web Applications Wireflow Diagrams, Web Applications Mock-ups, Web Applications User Flow Diagrams, Web Applications Prototyping,  Desarrollo del bounded context Shared, Desarrollo del bounded context agreements-management, Desarrollo de la estructura de Aplicación We, Despliegue del Mock APi en Azure, Correciones en el Product Backlog  |
 | Vera Solsol, Nayely Macarena | Impact Mapping, User Stories and Product Backlog (Chapter 3) |
@@ -245,6 +246,7 @@ El proceso de colaboración en el informe se realizó mediante commits constante
             <li><b>AV1 - Raymundo Villarroel, Abigail Nadhim:</b> Exposición oral del avance del Capítulo II (Requirements Elicitation & Analysis), presentando el análisis competitivo frente a Agromercado, VeryAgro y Procesadora Perú, los hallazgos del proceso de needfinding (User Personas, User Journey Maps y Empathy Maps) y el modelado del Big Picture Event Storming, adaptando la explicación del dominio agrícola y del modelo Agro-as-a-Service para una audiencia evaluadora sin conocimiento previo del sector.</li>
             <li><b>AV1 - Vera Solsol, Nayely Macarena:</b> Exposición oral del avance del Capítulo III (Requirement Specification), presentando la alineación estratégica del Impact Mapping, la definición de las User Stories con sus criterios de aceptación y la priorización del Product Backlog para la plataforma ALLPATEK, adaptando la explicación técnica del flujo de requerimientos para una audiencia evaluadora académica y profesional. </li>
               <li><b>TB1 - Mel Andree Orellana Rodriguez:</b> Presentación oral de la entrega TB1 del proyecto "ALLPATEK", exponiendo el marco del problema, requerimientos y modelo de negocio con un lenguaje adecuado para audiencias agrícolas y comerciales.</li>
+              <li>TB1 - Atauje Barreto, Alexander Sebastián: Exposición oral de la entrega TB1 del proyecto ALLPATEK, sustentando la arquitectura de la solución, la integración del módulo de alertas y el cumplimiento de las observaciones señaladas por la evaluación académica.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
@@ -262,6 +264,7 @@ Se demostró capacidad para exponer y sustentar de manera clara las soluciones t
             <li><b>AV1 - Raymundo Villarroel, Abigail Nadhim:</b> Redacción del Capítulo II (Requirements Elicitation & Analysis) del informe, incluyendo el análisis competitivo y SWOT, el diseño y análisis de entrevistas para los segmentos de Agricultor Familiar y Comprador Urbano, la construcción de los User Personas, User Task Matrix, User Journey Maps y Empathy Maps, el modelado del Big Picture Event Storming y la elaboración del glosario de Ubiquitous Language, estructurando el contenido de forma clara y trazable para su revisión por el equipo docente y evaluador.</li>
             <li><b>AV1 - Vera Solsol, Nayely Macarena:</b> Redacción y estructuración formal del Capítulo III: Requirement Specification, articulando con precisión técnica la elaboración del Impact Mapping para la alineación estratégica, la formulación detallada de User Stories con sus respectivos criterios de aceptación orientados al usuario final, y la priorización del Product Backlog de la plataforma ALLPATEK, empleando un lenguaje claro, profesional y adaptado tanto para perfiles técnicos como comerciales del sector agrícola. </li>
               <li><b>TB1 - Mel Andree Orellana Rodriguez:</b> Redacté y consolidé los capítulos iniciales de la entrega TB1 para la plataforma ALLPATEK, documentando los requerimientos y procesos principales con un lenguaje claro y adaptado para audiencias técnicas, agrícolas y comerciales.</li>
+              <li>TB1 - Atauje Barreto, Alexander Sebastián: Documentación de la entrega TB1, incorporando las correcciones requeridas por el docente, la especificación de responsabilidad del bounded context de alertas (alerts-management) y el refinamiento de la estructura del informe.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
