@@ -3003,7 +3003,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Maquetar la pantalla Contract Signature desplegando las cláusulas de arrendamiento, plan de pagos e hitos Escrow.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3013,7 +3013,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Implementar el panel lateral de carga de imagen de firma, checkbox de aceptación y botón de envío de contrato.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3023,7 +3023,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Construir la sección Personal Data en User Profile con campos para nombre completo, DNI, teléfono, dirección y correo.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3033,7 +3033,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Desarrollar la sección Commercial Details mostrando razón social de la empresa, RUC y rubro comercial.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">4</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3043,7 +3043,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Diseñar el componente Milestone Timeline con estados habilitados y bloqueados para las 4 etapas del proyecto agrícola.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3053,7 +3053,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Implementar la zona interactiva de arrastre de archivos (JPG, PNG, PDF) y campo de observaciones para el hito.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3063,7 +3063,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Construir la tabla Traceability and Evidence con contadores de evidencias totales, tipo de evidencia y estado de auditoría.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3073,7 +3073,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Diseñar las tarjetas métricas de Climate Alerts mostrando temperatura actual, humedad relativa, precipitación y velocidad del viento.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3083,7 +3083,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Implementar la tarjeta de estado Active Risk Alerts con indicador de nivel de severidad y descripción del evento.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3093,7 +3093,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Maquetar la vista Payment Vault desplegando las tarjetas de monto total retenido y avance de porcentaje liberado.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3103,7 +3103,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Construir el panel Active Contract con datos de las partes, parcela vinculada y avance de desbloqueo de fondos de las 4 etapas.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3113,7 +3113,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Construir la pantalla Add card con el diseño gráfico de tarjeta de débito/crédito y campos de número, titular, expiración y CVV.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3123,7 +3123,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Diseñar la tarjeta informativa del lote en My Parcels mostrando imagen, extensión en hectáreas, coordenadas GPS, tipo de suelo y costo.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3133,7 +3133,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Implementar la pantalla Register New Parcel con campos para nombre, hectáreas, tipo de suelo, costo por campaña y cultivos ideales.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3143,7 +3143,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Maquetar el menú lateral principal con accesos a módulos, tarjeta de perfil de usuario logueado y selector de idioma EN/ES.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
   </tbody>
 </table>
