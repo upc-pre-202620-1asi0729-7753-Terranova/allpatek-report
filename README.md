@@ -98,9 +98,48 @@
 | AV2 | || |
 
 
-
-
 ## Project Report Collaboration Insights
+
+A lo largo del desarrollo del trabajo, se ha evidenciado una participación activa, coordinada y progresiva por parte de todos los integrantes del equipo. Cada fase fue abordada de manera estructurada, siguiendo las buenas prácticas de trabajo colaborativo con control de versiones en GitHub, planificación por entregables, y asignación clara de responsabilidades según las competencias de cada integrante.
+
+El uso de repositorios específicos por subcomponente también contribuyó a mantener una mejor trazabilidad del trabajo colaborativo, integrando ramas por entregables y controlando versiones según el avance de cada sprint.
+
+A continuación, se detallan los repositorios utilizados a lo largo del proyecto:
+
+<div align="center">
+  <table style="border-collapse: collapse; margin: 0 auto; text-align: left;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th style="border: 1px solid #dddddd; padding: 10px; text-align: left;">Nombre y Apellido</th>
+        <th style="border: 1px solid #dddddd; padding: 10px; text-align: center;">User Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Orellana Rodríguez, Mel Andree</strong></td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">melandree08</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Egocheaga Suyo, Miguel Angel</strong></td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">MiguelAngel0107</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Atauje Barreto, Alexander Sebastián</strong></td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Alexander1Alexander2</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Vera Solsol, Nayely Macarena</strong></td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Macaxprogram29</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Raymundo Villarroel, Abigail Nadhim</strong></td>
+        <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">AbigailRV</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
 
 | Integrante | Tareas Asignadas |
 |---|---|
