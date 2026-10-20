@@ -38,7 +38,7 @@
 
 <h3 align="center"><b>Período 202620</b></h3>
 
-<h3 align="center"><b>Octubre 2026</b></h3>
+<h3 align="center"><b>Noviembre 2026</b></h3>
 
 
 <div style="page-break-after: always;"></div>
@@ -251,8 +251,8 @@ El proceso de colaboración en el informe se realizó mediante commits constante
             <li><b>AV1 - Atauje Barreto, Alexander Sebastián:</b> Exposición oral del Capítulo 1 (Introducción), sustentando la propuesta de valor de ALLPATEK, el problema del sector agrícola y los supuestos del Lean UX Canvas ante el equipo de evaluación, adaptando la explicación del modelo de negocio para perfiles técnicos y académicos.</li>
             <li><b>AV1 - Egocheaga Suyo, Miguel Angel:</b> Exposición oral de las secciones 4.6 a 4.8.1 del Capítulo IV, explicando el flujo de contratación, los pagos por hitos, la arquitectura de Allpatek y el diseño de datos mediante ejemplos comprensibles para evaluadores y perfiles no técnicos.</li>
             <li><b>AV1 - Raymundo Villarroel, Abigail Nadhim:</b> Exposición oral del avance del Capítulo II (Requirements Elicitation & Analysis), presentando el análisis competitivo frente a Agromercado, VeryAgro y Procesadora Perú, los hallazgos del proceso de needfinding (User Personas, User Journey Maps y Empathy Maps) y el modelado del Big Picture Event Storming, adaptando la explicación del dominio agrícola y del modelo Agro-as-a-Service para una audiencia evaluadora sin conocimiento previo del sector.</li>
-            <li><b>AV1 - Vera Solsol, Nayely Macarena:</b> Exposición oral del avance del Capítulo III (Requirement Specification), presentando la alineación estratégica del Impact Mapping, la definición de las User Stories con sus criterios de aceptación y la priorización del Product Backlog para la plataforma ALLPATEK, adaptando la explicación técnica del flujo de requerimientos para una audiencia evaluadora académica y profesional. </li>
-              <li><b>TB1 - Mel Andree Orellana Rodriguez:</b> Presentación oral de la entrega TB1 del proyecto "ALLPATEK", exponiendo el marco del problema, requerimientos y modelo de negocio con un lenguaje adecuado para audiencias agrícolas y comerciales.</li>
+            <li><b>AV1 - Vera Solsol, Nayely Macarena:</b> Exposición oral del avance del Capítulo III (Requirement Specification), presentando la alineación estratégica del Impact Mapping, la definición de las User Stories con sus criterios de aceptación y la priorización del Product Backlog para la plataforma ALLPATEK, adaptando la explicación técnica del flujo de Requisito para una audiencia evaluadora académica y profesional. </li>
+              <li><b>TB1 - Mel Andree Orellana Rodriguez:</b> Presentación oral de la entrega TB1 del proyecto "ALLPATEK", exponiendo el marco del problema, Requisito y modelo de negocio con un lenguaje adecuado para audiencias agrícolas y comerciales.</li>
               <li>TB1 - Atauje Barreto, Alexander Sebastián: Exposición oral de la entrega TB1 del proyecto ALLPATEK, sustentando la arquitectura de la solución, la integración del módulo de alertas y el cumplimiento de las observaciones señaladas por la evaluación académica.</li>
               <li><b>TB1 - Raymundo Villarroel, Abigail Nadhim:</b> Exposición oral en video de la entrega TB1, explicando el desarrollo del bounded context <code>parcel-management</code> de la aplicación web (entidad Parcel, acceso a la API, store de estado y pantallas de tablero, formulario y detalle de parcelas) y las correcciones del Capítulo II (Empathy Mapping, guías de entrevista y Big Picture Event Storming), adaptando el vocabulario técnico para evaluadores académicos y el lenguaje del negocio para audiencias agrícolas y comerciales.</li>
           </ul>
@@ -271,7 +271,7 @@ Se demostró capacidad para exponer y sustentar de manera clara las soluciones t
             <li><b>AV1 - Egocheaga Suyo, Miguel Angel:</b> Redacción y diagramación de las secciones 4.6 a 4.8.1 del Capítulo IV: arquitectura guiada por dominio, EventStorming de diseño, diagramas C4, diseño orientado a objetos, clases y diseño de base de datos. Además, implementé Header/Navbar y Hero de la Landing Page con HTML5, CSS3 y JavaScript, incluyendo ajustes de navegación y adaptación a móviles.</li>
             <li><b>AV1 - Raymundo Villarroel, Abigail Nadhim:</b> Redacción del Capítulo II (Requirements Elicitation & Analysis) del informe, incluyendo el análisis competitivo y SWOT, el diseño y análisis de entrevistas para los segmentos de Agricultor Familiar y Comprador Urbano, la construcción de los User Personas, User Task Matrix, User Journey Maps y Empathy Maps, el modelado del Big Picture Event Storming y la elaboración del glosario de Ubiquitous Language, estructurando el contenido de forma clara y trazable para su revisión por el equipo docente y evaluador.</li>
             <li><b>AV1 - Vera Solsol, Nayely Macarena:</b> Redacción y estructuración formal del Capítulo III: Requirement Specification, articulando con precisión técnica la elaboración del Impact Mapping para la alineación estratégica, la formulación detallada de User Stories con sus respectivos criterios de aceptación orientados al usuario final, y la priorización del Product Backlog de la plataforma ALLPATEK, empleando un lenguaje claro, profesional y adaptado tanto para perfiles técnicos como comerciales del sector agrícola. </li>
-              <li><b>TB1 - Mel Andree Orellana Rodriguez:</b> Redacté y consolidé los capítulos iniciales de la entrega TB1 para la plataforma ALLPATEK, documentando los requerimientos y procesos principales con un lenguaje claro y adaptado para audiencias técnicas, agrícolas y comerciales.</li>
+              <li><b>TB1 - Mel Andree Orellana Rodriguez:</b> Redacté y consolidé los capítulos iniciales de la entrega TB1 para la plataforma ALLPATEK, documentando los Requisito y procesos principales con un lenguaje claro y adaptado para audiencias técnicas, agrícolas y comerciales.</li>
               <li>TB1 - Atauje Barreto, Alexander Sebastián: Documentación de la entrega TB1, incorporando las correcciones requeridas por el docente, la especificación de responsabilidad del bounded context de alertas (alerts-management) y el refinamiento de la estructura del informe.</li><li><b>TB1 - Raymundo Villarroel, Abigail Nadhim:</b> Corrección y reestructuración del Capítulo II a partir de la retroalimentación de la entrega: reescritura del Empathy Mapping con los entrevistados reales, guías de entrevista con apertura y consentimiento, análisis de entrevistas actualizado con tres comerciantes, Big Picture Event Storming documentado por fases con su código fuente en Mermaid y estandarización de los nombres de archivos del informe. Además, documenté la estructura del bounded context <code>parcel-management</code> mediante commits descriptivos organizados por capas.</li>
           </ul>
         </td>
@@ -1082,7 +1082,7 @@ Siguiendo la definición de Eric Evans en *Domain-Driven Design: Tackling Comple
 
 ## 3.3. Product Backlog
 
-El Product Backlog agrupa y prioriza el conjunto de User Stories identificadas. En cumplimiento con los requerimientos de la guía, la priorización está determinada por el valor entregado al negocio, ubicando en el primer Sprint las funcionalidades correspondientes al sitio web estático (Landing Page) para habilitar la captación pública de usuarios y la presentación del modelo de negocio de ALLPATEK.
+El Product Backlog agrupa y prioriza el conjunto de User Stories identificadas. En cumplimiento con los Requisito de la guía, la priorización está determinada por el valor entregado al negocio, ubicando en el primer Sprint las funcionalidades correspondientes al sitio web estático (Landing Page) para habilitar la captación pública de usuarios y la presentación del modelo de negocio de ALLPATEK.
 
 | Orden | User Story Id | Título | Descripción | Story Points |
 | :---: | :--- | :--- | :--- | :---: |
@@ -3003,7 +3003,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Maquetar la pantalla Contract Signature desplegando las cláusulas de arrendamiento, plan de pagos e hitos Escrow.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3013,7 +3013,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Implementar el panel lateral de carga de imagen de firma, checkbox de aceptación y botón de envío de contrato.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3023,7 +3023,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Construir la sección Personal Data en User Profile con campos para nombre completo, DNI, teléfono, dirección y correo.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3033,7 +3033,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Desarrollar la sección Commercial Details mostrando razón social de la empresa, RUC y rubro comercial.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">4</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3043,7 +3043,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Diseñar el componente Milestone Timeline con estados habilitados y bloqueados para las 4 etapas del proyecto agrícola.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3053,7 +3053,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Implementar la zona interactiva de arrastre de archivos (JPG, PNG, PDF) y campo de observaciones para el hito.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3063,7 +3063,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Construir la tabla Traceability and Evidence con contadores de evidencias totales, tipo de evidencia y estado de auditoría.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3073,7 +3073,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Diseñar las tarjetas métricas de Climate Alerts mostrando temperatura actual, humedad relativa, precipitación y velocidad del viento.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3083,7 +3083,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Implementar la tarjeta de estado Active Risk Alerts con indicador de nivel de severidad y descripción del evento.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3093,7 +3093,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Maquetar la vista Payment Vault desplegando las tarjetas de monto total retenido y avance de porcentaje liberado.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3103,7 +3103,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Construir el panel Active Contract con datos de las partes, parcela vinculada y avance de desbloqueo de fondos de las 4 etapas.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3113,7 +3113,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Construir la pantalla Add card con el diseño gráfico de tarjeta de débito/crédito y campos de número, titular, expiración y CVV.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3123,7 +3123,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Diseñar la tarjeta informativa del lote en My Parcels mostrando imagen, extensión en hectáreas, coordenadas GPS, tipo de suelo y costo.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3133,7 +3133,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Implementar la pantalla Register New Parcel con campos para nombre, hectáreas, tipo de suelo, costo por campaña y cultivos ideales.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
@@ -3143,7 +3143,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
       <td style="border: 1px solid #dddddd; padding: 8px;">Maquetar el menú lateral principal con accesos a módulos, tarjeta de perfil de usuario logueado y selector de idioma EN/ES.</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">To Do</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
     </tr>
   </tbody>
 </table>
