@@ -149,11 +149,16 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 | Vera Solsol, Nayely Macarena | Impact Mapping, User Stories and Product Backlog (Chapter 3) |
 | Raymundo Villarroel, Abigail Nadhim | Requirements Elicitation & Analysis (Chapter 2): Competitors, Competitive Analysis Landscape & SWOT, Competitive Strategies and Tactics, Interviews (Design, Record and Analysis for both segments), User Personas, User Task Matrix, User Journey Mapping (As-Is), Empathy Mapping, Big Picture Event Storming (Mermaid), Ubiquitous Language; Landing Page Contact Section and Footer Section (HTML5 & CSS). TB1: desarrollo del bounded context `parcel-management` de la aplicación web (capas de dominio, infraestructura, aplicación y presentación) y correcciones del Capítulo II (Empathy Mapping, guías de entrevista, Event Storming y nomenclatura de assets). |
 
-El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización.
-
-
-
-
+<div align="center">
+    
+| Tipo | Repositorio | Enlace URL |
+| :--- | :--- | :--- |
+| **Landing** | allpatek-website | [Ver Repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website) |
+| **Frontend** | allpatek-webapp | [Ver Repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp) |
+| **MockApi** | allpatek-platform-mock | [Ver Repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock) |
+| **Backend** | allpatek-platform | [Ver Repositorio](https://github.com/orgs/upc-pre-202620-1asi0729-7753-Terranova/repositories) |
+    
+</div>
 
 ## Tabla de Contenidos
 
