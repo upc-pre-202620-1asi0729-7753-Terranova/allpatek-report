@@ -324,8 +324,8 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
           <ul>
-            <li><b>AV1 - Mel Andree Orellana Rodriguez:</b> Presentación oral del avance del Capítulo 4 enfocado en el diseño de interfaces UI/UX para la plataforma "ALLPATEK", adaptando el vocabulario técnico para audiencias con perfil agrícola (agricultores) y comercial (comerciantes) durante la demostración de los prototipos interactivos.</li>
-            <li><b>AV1 - Atauje Barreto, Alexander Sebastián:</b> Exposición oral del Capítulo 1 (Introducción), sustentando la propuesta de valor de ALLPATEK, el problema del sector agrícola y los supuestos del Lean UX Canvas ante el equipo de evaluación, adaptando la explicación del modelo de negocio para perfiles técnicos y académicos.</li>
+            <li><b>AV1 - Mel Andree Orellana Rodriguez:</b> Presentación oral del avance del Capítulo 4 enfocado en el diseño de interfaces UI/UX para la plataforma Allpatek, adaptando el vocabulario técnico para audiencias con perfil agrícola (agricultores) y comercial (comerciantes) durante la demostración de los prototipos interactivos.</li>
+            <li><b>AV1 - Atauje Barreto, Alexander Sebastián:</b> Exposición oral del Capítulo 1 (Introducción), sustentando la propuesta de valor de Allpatek, el problema del sector agrícola y los supuestos del Lean UX Canvas ante el equipo de evaluación, adaptando la explicación del modelo de negocio para perfiles técnicos y académicos.</li>
             <li><b>AV1 - Egocheaga Suyo, Miguel Angel:</b> Exposición oral de las secciones 4.6 a 4.8.1 del Capítulo IV, explicando el flujo de contratación, los pagos por hitos, la arquitectura de Allpatek y el diseño de datos mediante ejemplos comprensibles para evaluadores y perfiles no técnicos.</li>
             <li><b>AV1 - Raymundo Villarroel, Abigail Nadhim:</b> Exposición oral del avance del Capítulo II (Requirements Elicitation & Analysis), presentando el análisis competitivo frente a Agromercado, VeryAgro y Procesadora Perú, los hallazgos del proceso de needfinding (User Personas, User Journey Maps y Empathy Maps) y el modelado del Big Picture Event Storming, adaptando la explicación del dominio agrícola y del modelo Agro-as-a-Service para una audiencia evaluadora sin conocimiento previo del sector.</li>
             <li><b>AV1 - Vera Solsol, Nayely Macarena:</b> Exposición oral del avance del Capítulo III (Requirement Specification), presentando la alineación estratégica del Impact Mapping, la definición de las User Stories con sus criterios de aceptación y la priorización del Product Backlog para la plataforma ALLPATEK, adaptando la explicación técnica del flujo de requisitos para una audiencia evaluadora académica y profesional.</li>
@@ -337,7 +337,10 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
-Se demostró capacidad para exponer y sustentar de manera clara las soluciones técnicas y de diseño del proyecto ante diversas audiencias, adaptando el lenguaje técnico según el perfil de los interlocutores (evaluadores, agricultores y comerciantes) y defendiendo eficazmente las decisiones del sistema.
+          <ul>
+            <li><b>AV1:</b> Se demostró capacidad para exponer de manera clara el avance de cada capítulo del informe, adaptando el lenguaje técnico al perfil de los interlocutores (evaluadores, agricultores y comerciantes).</li>
+            <li><b>TB1:</b> Se sustentaron con claridad las soluciones implementadas y las correcciones realizadas tras la retroalimentación, defendiendo las decisiones del sistema ante audiencias académicas y de negocio.</li>
+          </ul>
         </td>
       </tr>
       <tr>
@@ -359,7 +362,10 @@ Se demostró capacidad para exponer y sustentar de manera clara las soluciones t
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
-Se evidenció rigor y claridad en la elaboración de la documentación técnica y entregables del proyecto, estructurando la información mediante estándares accesibles, documentación de interfaces y registros organizados que garantizan que el mensaje sea comprensible tanto para desarrolladores como para supervisores académicos.
+          <ul>
+            <li><b>AV1:</b> Se evidenció rigor y claridad en la redacción de los capítulos del informe, con contenido estructurado y comprensible para supervisores académicos y perfiles técnicos y de negocio.</li>
+            <li><b>TB1:</b> Se corrigió y amplió la documentación a partir de la retroalimentación, y los commits descriptivos de cada bounded context dejaron un registro organizado y entendible para desarrolladores y supervisores.</li>
+          </ul>
         </td>
       </tr>
     </tbody>
