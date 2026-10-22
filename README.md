@@ -5,40 +5,66 @@
 <p align="center">Universidad Peruana de Ciencias Aplicadas</p>
 <p align="center">Carrera de Ingeniería de Software</p>
 
-<h3 align="center"><b>1ASI0729</b></h3>
-<h3 align="center"><b>Desarrollo de Aplicaciones Open Source</b></h3>
-<p align="center">NRC</p>
-<h3 align="center"><b>7753</b></h3>
+<p align="center">&nbsp;</p>
 
-<h3 align="center">Informe del Trabajo Final</h2>
+<h3 align="center">1ASI0729</h3>
+<h3 align="center">Desarrollo de Aplicaciones Open Source</h3>
+<p align="center">NRC</p>
+<h3 align="center">7753</h3>
+
+<h3 align="center">Informe del Trabajo Final</h3>
 
 <p align="center">Docente</p>
-<h3 align="center"><b>Bautista Ubillús, Efraín Ricardo</b></h3>
+<h3 align="center">Bautista Ubillús, Efraín Ricardo</h3>
 
+<p align="center">&nbsp;</p>
 
 <p align="center">Equipo</p>
-<h3 align="center"><b>TerraNova</b></h3>
+<h3 align="center">TerraNova</h3>
 
 <p align="center">Proyecto</p>
-<h3 align="center"><b>Allpatek </b></h3>
+<h3 align="center">Allpatek</h3>
 
+<p align="center">&nbsp;</p>
 
-<h3 align="center"><b>Integrantes</b></h3>
+<h3 align="center">Integrantes</h3>
 
-<p align="center">
-  <b>Código</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Apellidos y Nombres</b><br>
-  u20241f246 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Atauje Barreto, Alexander Sebastián<br>
-  u202215188 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Egocheaga Suyo, Miguel Angel<br>
-  u202116018 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Orellana Rodríguez, Mel Andree<br>
-  U20231h171 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vera Solsol, Nayely Macarena<br>
-  u202318001 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Raymundo Villarroel, Abigail Nadhim
-</p>
+<table align="center">
+  <tr>
+    <th align="left">Código</th>
+    <th align="left">Apellidos y Nombres</th>
+  </tr>
+  <tr>
+    <td align="left">u20241f246</td>
+    <td align="left">Atauje Barreto, Alexander Sebastián</td>
+  </tr>
+  <tr>
+    <td align="left">u202215188</td>
+    <td align="left">Egocheaga Suyo, Miguel Angel</td>
+  </tr>
+  <tr>
+    <td align="left">u202116018</td>
+    <td align="left">Orellana Rodríguez, Mel Andree</td>
+  </tr>
+  <tr>
+    <td align="left">u20231h171</td>
+    <td align="left">Vera Solsol, Nayely Macarena</td>
+  </tr>
+  <tr>
+    <td align="left">u202318001</td>
+    <td align="left">Raymundo Villarroel, Abigail Nadhim</td>
+  </tr>
+</table>
 
-<br>
+<p align="center">&nbsp;</p>
 
-<h3 align="center"><b>Período 202620</b></h3>
+<h3 align="center">Período 202620</h3>
 
-<h3 align="center"><b>Noviembre 2026</b></h3>
+<p align="center">&nbsp;</p>
+
+<h3 align="center">Noviembre 2026</h3>
+
+<p align="center">&nbsp;</p>
 
 
 <div style="page-break-after: always;"></div>
