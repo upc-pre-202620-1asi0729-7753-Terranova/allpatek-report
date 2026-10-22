@@ -3883,9 +3883,104 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
 ## 5.3. Validation Interviews
+
+En esta sección, el equipo registra y explica las actividades de entrevistas de validación realizadas durante el proyecto Allpatek. Las pruebas se efectuaron con usuarios pertenecientes a los dos segmentos objetivo para evaluar el Landing Page y las aplicaciones web.
+
 ### 5.3.1. Diseño de Entrevistas
+
+El proceso de validación se estructuró mediante entrevistas semiestructuradas divididas en cuatro bloques metodológicos:
+1. **Apertura y Consentimiento:** Presentación del equipo, explicación del propósito académico y solicitud de autorización para la grabación en video.
+2. **Preguntas Básicas de Perfilamiento:** Registro de datos demográficos y rol/ocupación de los participantes.
+3. **Tareas Guiadas / User Flows:** Interacción directa con el Landing Page y los prototipos interactivos.
+4. **Cuestionario de Validación:** Evaluación de 12 preguntas por segmento orientadas a medir usabilidad, propuesta de valor y confianza.
+
+
+### A. Guía de Validación — Segmento 1: Agricultores Familiares
+
+#### 1. Apertura y Consentimiento
+* **Presentación:** Bienvenida y explicación del propósito de la prueba de usabilidad con la plataforma Allpatek.
+* **Consentimiento:** Lectura y aceptación de la grabación en video como evidencia para el informe académico.
+
+#### 2. Preguntas Básicas de Perfilamiento
+1. ¿Cuál es su nombre completo?
+2. ¿Qué edad tiene y en qué distrito o valle se encuentra su parcela?
+3. ¿Cuál es su ocupación principal y qué tipo de cultivos maneja habitualmente?
+4. ¿Qué modelo de celular utiliza normalmente y cuenta con acceso a internet en el campo?
+
+#### 3. Tareas Guiadas / User Flows Evaluados
+* **Tarea 1 (Landing Page):** Exploración libre de la página pública para comprender el modelo de negocio.
+* **Tarea 2 (User Flow 1 - Registro de Parcela):** Publicar el terreno "El Vergel" de 12.5 Ha, marcar ubicación GPS y adjuntar fotos del suelo.
+* **Tarea 3 (User Flow 3 - Alertas Climáticas):** Consultar el panel climático y revisar las recomendaciones frente a riesgo de heladas.
+
+#### 4. Cuestionario de Validación (12 Preguntas)
+
+##### Landing Page y Propuesta de Valor
+1. ¿Qué comprende que hace la plataforma Allpatek al mirar la página principal por primera vez?
+2. ¿Siente que la forma en que se explica el alquiler de parcelas y el trabajo por contrato es clara para el trabajo diario en el campo?
+3. ¿Qué beneficio o garantía considera más relevante para proteger su producción y sus ingresos frente a intermediarios?
+
+##### User Flow 1: Registro de Parcela y Carga de Evidencias
+4. Al ingresar al formulario de registro de parcela, ¿los campos requeridos (como hectáreas o tipo de cultivo) resultan claros o encontró algún término confuso?
+5. ¿Qué tan fácil o difícil le pareció utilizar el mapa para marcar la ubicación GPS de su terreno?
+6. Durante la carga de fotos del suelo, ¿el proceso le pareció rápido o sintió que requeriría demasiados datos/señal de internet para completar la subida?
+
+##### User Flow 3: Monitoreo Climático y Alertas
+7. Al revisar el panel del clima, ¿los íconos y recomendaciones de riesgo (como heladas o sequías) se entienden de forma inmediata?
+8. ¿Siente que la información presentada en la alerta es suficiente para tomar una decisión rápida de protección sobre su cultivo?
+9. ¿Qué cambios le haría al tamaño de letra, colores o botones para poder usar esta pantalla cómodamente bajo la luz del sol?
+
+##### Cierre y Disposición de Uso
+10. Si se encuentra en el campo con conexión lenta o intermitente, ¿qué elemento de la aplicación considera que debería simplificarse primero?
+11. ¿Considera que enviar fotos periódicas como evidencia le generará más confianza con el comprador para asegurar el pago de sus jornadas?
+12. ¿Estaría dispuesto a registrar sus terrenos en Allpatek para asegurar la venta de sus próximas campañas agrícolas? ¿Por qué?
+
+
+### B. Guía de Validación — Segmento 2: Comerciantes Urbanos
+
+#### 1. Apertura y Consentimiento
+* **Presentación:** Bienvenida y explicación del propósito de la prueba de usabilidad con la plataforma Allpatek.
+* **Consentimiento:** Lectura y aceptación de la grabación en video como evidencia para el informe académico.
+
+#### 2. Preguntas Básicas de Perfilamiento
+1. ¿Cuál es su nombre completo?
+2. ¿A qué se dedica y qué papel desempeña en su negocio o empresa (dueño, administrador, encargado de compras)?
+3. ¿En qué distrito se ubica su establecimiento o punto de venta?
+4. ¿Qué tipo de insumos agrícolas suele comprar semanalmente y mediante qué canal los adquiere hoy?
+
+#### 3. Tareas Guiadas / User Flows Evaluados
+* **Tarea 1 (Landing Page):** Ubicar la sección "Garantía de Pagos por Hitos" y explicar el modelo.
+* **Tarea 2 (User Flow 2 - Firma de Contrato):** Revisar la propuesta de la parcela "El Tambo" y realizar la firma digital.
+* **Tarea 3 (User Flow 4 - Bóveda y Evidencias):** Revisar las evidencias del Hito 2 (Siembra) y aprobar la liberación de fondos.
+
+#### 4. Cuestionario de Validación 
+
+##### Landing Page y Propuesta de Valor
+1. Al explorar el Landing Page, ¿queda claro cómo funciona el modelo de alquiler de parcelas a costo directo de producción?
+2. ¿Qué nivel de confianza le transmite la explicación sobre la garantía de pagos retenidos y liberados por hitos (*Escrow*)?
+3. ¿La propuesta le parece atractiva para reducir costos en la cadena de suministro de su negocio frente a comprar a mayoristas?
+
+##### User Flow 2: Contratación y Firma Digital del Acuerdo
+4. Al revisar la información del catálogo de parcelas, ¿encuentra todos los datos necesarios para evaluar si el terreno cumple con sus estándares de abastecimiento?
+5. Durante la lectura del contrato digital, ¿las condiciones de entrega, plazos e hitos de pago se presentan de forma transparente?
+6. ¿Qué tan cómodo e intuitivo le resultó realizar la firma digital dentro de la plataforma para validar el acuerdo?
+
+##### User Flow 4: Bóveda de Pagos y Evidencias de Campo
+7. En el módulo de la Bóveda de Pagos, ¿el desglose entre dinero retenido en custodia y dinero liberado por hito se entiende con claridad?
+8. Al revisar el avance fotográfico subido por el agricultor, ¿las fotos le brindan la certeza necesaria para autorizar la liberación de los fondos?
+9. ¿Considera que falta alguna métrica o dato adicional (como fecha exacta de captura o coordenadas) para validar la calidad del cultivo?
+
+##### Cierre y Disposición de Uso
+10. ¿Cómo compara la experiencia de contratar directamente a un agricultor mediante esta plataforma frente a sus métodos tradicionales de compra?
+11. ¿Qué tipo de notificación o alerta preferiría recibir cuando el agricultor suba un nuevo avance a la plataforma (email, WhatsApp, notificación push)?
+12. ¿Utilizaría Allpatek para asegurar el abastecimiento de insumos agrícolas de su empresa para las siguientes temporadas? ¿Por qué?
+
+
+
 ### 5.3.2. Registro de Entrevistas
 ### 5.3.3. Evaluaciones según heurísticas
+
+
+
 
 ## 5.4. Video About-the-Product
 
