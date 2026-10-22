@@ -3980,9 +3980,22 @@ El proceso de validación se estructuró mediante entrevistas semiestructuradas 
 ### 5.3.3. Evaluaciones según heurísticas
 
 
-
-
 ## 5.4. Video About-the-Product
+
+En esta sección se presenta el video "About-the-Product", una demostración audiovisual diseñada para exponer la propuesta de valor, la arquitectura y el funcionamiento en vivo de la plataforma **Allpatek**. La presentación evidencia cómo nuestra solución aborda la problemática de la agricultura familiar y la incertidumbre en el abastecimiento agrícola mediante el uso de tecnología automatizada. A través de un recorrido guiado por el sistema, se muestra la interacción real entre el alquiler de parcelas, el monitoreo climático, la gestión de contratos bajo custodia *Escrow* y las automatizaciones con n8n, consolidando un ecosistema transparente que reduce riesgos financieros y promueve un pago justo para los agricultores.
+
+
+<div align="center">
+    
+| Tipo | Enlace del Video |
+| :--- | :--- |
+| **About the Product**  | [Enlace About the Product](enlace) |
+
+    
+</div>
+
+
+
 
 # Conclusiones y recomendaciones
 
