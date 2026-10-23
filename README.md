@@ -1186,7 +1186,7 @@ Siguiendo la definición de Eric Evans en *Domain-Driven Design: Tackling Comple
 
 ## 3.3. Product Backlog
 
-El Product Backlog agrupa y prioriza el conjunto de User Stories identificadas. En cumplimiento con los Requisito de la guía, la priorización está determinada por el valor entregado al negocio, ubicando en el primer Sprint las funcionalidades correspondientes al sitio web estático (Landing Page) para habilitar la captación pública de usuarios y la presentación del modelo de negocio de ALLPATEK.
+El Product Backlog agrupa y prioriza el conjunto de User Stories identificadas. En cumplimiento con los requisitos de la guía, la priorización está determinada por el valor entregado al negocio, ubicando en el primer Sprint las funcionalidades correspondientes al sitio web estático (Landing Page) para habilitar la captación pública de usuarios y la presentación del modelo de negocio de ALLPATEK.
 
 | Orden | User Story Id | Título | Descripción | Story Points |
 | :---: | :--- | :--- | :--- | :---: |
