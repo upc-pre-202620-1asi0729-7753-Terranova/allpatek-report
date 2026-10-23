@@ -3977,6 +3977,146 @@ El proceso de validación se estructuró mediante entrevistas semiestructuradas 
 
 
 ### 5.3.2. Registro de Entrevistas
+
+#### A) Segmento Agricultor
+
+
+<table width="100%" align="center" style="margin: 0 auto;">
+  <thead>
+    <tr>
+      <th width="30%" align="center">Campo</th>
+      <th width="70%" align="center">Información</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><b>Título</b></td>
+      <td align="center"><b>Entrevista : </b></td>
+    </tr>
+    <tr>
+      <td align="center">Segmento</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center">Nombres y apellidos</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center">Edad</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center">Distrito</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center">Ocupación</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center">Tipo de comerciante (familia / restaurante / negocio)</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center">Volumen de compra aproximado</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center">Inicio de la entrevista</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center">Duración</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center">URL del video</td>
+      <td align="center"><a href="" target="_blank">Video evidencia</a></td>
+    </tr>
+    <tr>
+      <td align="center"><b>Fotografía</b></td>
+      <td align="center">
+        <img src="./assets/chapter-02/entrevista-comprador-.png" width="300" alt="Evidencia de entrevista">
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>Resumen de la entrevista</b></td>
+      <td align="center"></td>
+    </tr>
+  </tbody>
+</table>
+    
+   
+
+#### B) Segmento Comerciante
+
+<table width="100%" align="center" style="margin: 0 auto;">
+  <thead>
+    <tr>
+      <th width="30%" align="center">Campo</th>
+      <th width="70%" align="center">Información</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><b>Título</b></td>
+      <td align="center"><b>Entrevista : </b></td>
+    </tr>
+    <tr>
+      <td align="center">Segmento</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center">Nombres y apellidos</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center">Edad</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center">Distrito</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center">Ocupación</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center">Tipo de comerciante (familia / restaurante / negocio)</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center">Volumen de compra aproximado</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center">Inicio de la entrevista</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center">Duración</td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center">URL del video</td>
+      <td align="center"><a href="" target="_blank">Video evidencia</a></td>
+    </tr>
+    <tr>
+      <td align="center"><b>Fotografía</b></td>
+      <td align="center">
+        <img src="./assets/chapter-02/entrevista-comprador-.png" width="300" alt="Evidencia de entrevista">
+      </td>
+    </tr>
+    <tr>
+      <td align="center"><b>Resumen de la entrevista</b></td>
+      <td align="center"></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
 ### 5.3.3. Evaluaciones según heurísticas
 
 
