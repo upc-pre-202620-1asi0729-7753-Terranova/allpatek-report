@@ -4177,6 +4177,20 @@ Asimismo, las validaciones de interfaz alineadas a las pautas de accesibilidad  
 
 # Video About-the-Team
 
+En esta sección se presenta el video "About-the-Team", un recurso audiovisual que expone las competencias técnicas y la dinámica de trabajo del equipo **TerraNova**, creadores de **Allpatek**. La presentación muestra la integración de nuestras capacidades en desarrollo web, diseño de arquitectura orientada al dominio (DDD) y automatización de procesos con n8n para la construcción de una plataforma agrícola escalable y accesible. A través de la intervención de cada integrante, se detallan los roles estratégicos, el compromiso técnico y la visión compartida que guiaron la ejecución del proyecto, respaldando cómo la fortaleza del producto se apoya en la solidez del equipo de desarrollo.
+
+<div align="center">
+    
+| Tipo | Enlace del Video |
+| :--- | :--- |
+| **About the Team**  | [Enlace About the Team](enlace) |
+
+    
+</div>
+
+
+
+
 # Bibliografía
 Fan, Q., & Salas Garcia, V. B. (2018). Information access and smallholder farmers' market participation in Peru. Journal of Agricultural Economics, 69(2), 476–494. https://doi.org/10.1111/1477-9552.12243
 
