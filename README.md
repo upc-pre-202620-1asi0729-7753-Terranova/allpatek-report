@@ -4143,10 +4143,15 @@ En esta sección se presenta el video "About-the-Product", una demostración aud
     
 | Tipo | Enlace del Video |
 | :--- | :--- |
-| **About the Product**  | [Enlace About the Product](enlace) |
+| **About the Product**  | [Enlace About the Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQC1ol8FG1iqRY-bGG2ue1M_AUxwB8p8jD8BnEUAGKaZdVA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=whZtiU) |
 
     
 </div>
+
+<p align="center">
+  <img src="assets/chapter-05/imgAboutTheProduct.png" alt="About the Product" width="800" />
+</p>
+
 
 
 
@@ -4183,10 +4188,15 @@ En esta sección se presenta el video "About-the-Team", un recurso audiovisual q
     
 | Tipo | Enlace del Video |
 | :--- | :--- |
-| **About the Team**  | [Enlace About the Team](enlace) |
+| **About the Team**  | [Enlace About the Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBcbq4xfH8tQr_ZPnlJKrMLAXb2-topoxDPFkdP2Z097vs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PB8hMC) |
 
     
 </div>
+
+<p align="center">
+  <img src="assets/chapter-05/imgAboutTheTeam.png" alt="About the Team" width="800" />
+</p>
+
 
 
 
