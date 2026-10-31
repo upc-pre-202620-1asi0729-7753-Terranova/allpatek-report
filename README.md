@@ -115,7 +115,9 @@
 | TB1 | 04/10/2026 | Raymundo Villarroel, Abigail Nadhim | Configuración de las rutas de parcelas como ruta de entrada del workspace de la aplicación web |
 | TB1 | 05/10/2026 | Raymundo Villarroel, Abigail Nadhim | Corrección del Capítulo II: Empathy Mapping con los entrevistados reales, guías de entrevista con apertura y bloques de profundización, y análisis de entrevistas actualizado |
 | TB1 | 05/10/2026 | Raymundo Villarroel, Abigail Nadhim | Rediseño del Big Picture Event Storming en Mermaid por fases, con actores, sistemas externos y hotspots, y estandarización de la nomenclatura de assets |
-| AV2 | || |
+| AV2 | 30/10/2026| Orellana Rodriguez, Mel Andree | Realizando el About the product  |
+| AV2 | 30/10/2026| Orellana Rodriguez, Mel Andree | Realizando el About the Team de forma colaborativa y los testimonios  |
+| AV2 | 22/10/2026| Orellana Rodriguez, Mel Andree | Realizando las estructura de todo lo relacionado al Sprint 3  |
 | AV2 | || |
 | AV2 | || |
 | AV2 | || |
