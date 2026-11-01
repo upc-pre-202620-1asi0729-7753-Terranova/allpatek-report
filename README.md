@@ -3623,7 +3623,7 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
   </tr>
   <tr>
     <td colspan="5">Date</td>
-    <td colspan="8"></td>
+    <td colspan="8">2026-11-05</td>
   </tr>
   <tr>
     <td colspan="5">Time</td>
@@ -3643,26 +3643,26 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
   </tr>
   <tr>
     <td colspan="5">Sprint 2 Review Summary</td>
-    <td colspan="8"></td>
+    <td colspan="8">Se implementaron y desplegaron la aplicación web Angular (<code>allpatek-webapp</code>) y el mock de servicios (<code>allpatek-platform-mock</code>) en Netlify y Azure, cubriendo los bounded contexts de parcelas, acuerdos, custodia Escrow, evidencias y alertas. La revisión docente de TB1/Sprint 2, no obstante, identificó brechas de proceso, modelado y evidencia que deben cerrarse en este sprint: versiones incorrectas en los releases de GitHub; tareas del Sprint 2 que permanecían en To-Do; distribución desigual de commits entre los cinco integrantes; carátula aún incompleta respecto al formato institucional y mes de entrega desactualizado; persistencia de tipos de datos primitivos en los diagramas de clases, con clases y value objects aislados sin relación; orden de exposición que no parte de los bounded contexts core, luego los de soporte y al final los genéricos; diagrama de componentes del frontend insuficiente; Student Outcome incompleto, porque no todos los integrantes registran acciones realizadas por cada entrega; uso de un término no admitido por la guía en lugar de «requisitos»; tratamiento de Domain-Driven Design (DDD) como metodología en lugar de enfoque de diseño de software; y ausencia del video de exposición de la entrega.</td>
   </tr>
   <tr>
     <td colspan="5">Sprint 2 Retrospective Summary</td>
-    <td colspan="8"></td>
+    <td colspan="8">El equipo acordó corregir el versionado de los releases en GitHub aplicando Semantic Versioning 2.0.0 de forma consistente; pasar a Done las tareas del Sprint 2 que quedaron en To-Do y mantener el tablero Trello alineado con el estado real; equilibrar el número de commits entre los cinco integrantes en todos los repositorios; ajustar la carátula al formato institucional al 100% y actualizar el mes en cada entrega; reemplazar tipos primitivos por value objects relacionados, sin clases aisladas; reordenar diagramas e user stories presentando primero los bounded contexts core, luego los de soporte y al final los genéricos; rediseñar el diagrama de componentes del frontend; completar el Student Outcome con acciones de todos los integrantes en cada entrega; sustituir el vocabulario no admitido por «requisitos»; describir DDD como enfoque de diseño de software y no como metodología; y grabar y publicar el video de exposición.</td>
   </tr>
   <tr>
     <td colspan="13"><strong>Sprint Goal & User Stories</strong></td>
   </tr>
   <tr>
     <td colspan="5">Sprint 3 Goal</td>
-    <td colspan="8"></td>
+    <td colspan="8"><strong>Our focus is on</strong> closing the TB1 review observations, documenting the core bounded-context services with OpenAPI, and validating the web application with farmers and urban merchants.<br><br><strong>We believe it delivers</strong> a consistent domain model, balanced team contribution, and evidence that both target segments can complete the parcel, contract, escrow and climate flows with confidence.<br><br><strong>This will be confirmed when</strong> GitHub releases follow Semantic Versioning 2.0.0, Sprint 2 tasks are marked Done, class diagrams use related value objects with no primitive types or isolated classes, Student Outcome lists actions for every member in each delivery, the exposition videos are published, and validation interviews with both segments are recorded.</td>
   </tr>
   <tr>
     <td colspan="5">Sprint 3 Velocity</td>
-    <td colspan="8"></td>
+    <td colspan="8">34 Story Points</td>
   </tr>
   <tr>
     <td colspan="5">Sum of Story Points</td>
-    <td colspan="8"></td>
+    <td colspan="8">32 Story Points</td>
   </tr>
 </table>
 
