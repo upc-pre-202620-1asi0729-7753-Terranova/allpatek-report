@@ -4175,47 +4175,49 @@ El proceso de validación se estructuró mediante entrevistas semiestructuradas 
   <tbody>
     <tr>
       <td align="center"><b>Título</b></td>
-      <td align="center"><b>Entrevista : </b></td>
+      <td align="center"><b>Entrevista 1: Irma Barreto Castro</b></td>
     </tr>
     <tr>
       <td align="center">Segmento</td>
-      <td align="center"></td>
+      <td align="center">Comerciante urbano</td>
     </tr>
     <tr>
       <td align="center">Nombres y apellidos</td>
-      <td align="center"></td>
+      <td align="center">Irma Barreto Castro</td>
     </tr>
     <tr>
       <td align="center">Edad</td>
-      <td align="center"></td>
+      <td align="center">40 años</td>
     </tr>
     <tr>
       <td align="center">Distrito</td>
-      <td align="center"></td>
+      <td align="center">La Molina</td>
     </tr>
     <tr>
       <td align="center">Ocupación</td>
-      <td align="center"></td>
+      <td align="center">Dueña y administradora de un pequeño restaurante familiar</td>
     </tr>
     <tr>
       <td align="center">Tipo de comerciante (familia / restaurante / negocio)</td>
-      <td align="center"></td>
+      <td align="center">Restaurante</td>
     </tr>
     <tr>
       <td align="center">Volumen de compra aproximado</td>
-      <td align="center"></td>
+      <td align="center">30-40 kg por semana</td>
     </tr>
     <tr>
       <td align="center">Inicio de la entrevista</td>
-      <td align="center"></td>
+      <td align="center">00:00</td>
     </tr>
     <tr>
       <td align="center">Duración</td>
-      <td align="center"></td>
+      <td align="center">04:50 aprox.</td>
     </tr>
     <tr>
       <td align="center">URL del video</td>
-      <td align="center"><a href="" target="_blank">Video evidencia</a></td>
+      <td align="center">
+        <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQA3Ki7VhhDdQIWWQzMUBKdlAX8OWAtP6xUPKwXCyBXh3w0?e=9NLXS5" target="_blank">Video evidencia</a>
+      </td>
     </tr>
     <tr>
       <td align="center"><b>Fotografía</b></td>
@@ -4225,11 +4227,12 @@ El proceso de validación se estructuró mediante entrevistas semiestructuradas 
     </tr>
     <tr>
       <td align="center"><b>Resumen de la entrevista</b></td>
-      <td align="center"></td>
+      <td align="center">
+        Durante la prueba de usabilidad, Irma Barreto evaluó la propuesta de Allpatek desde la perspectiva de una comerciante encargada del abastecimiento de un pequeño restaurante. La participante comprendió el funcionamiento del modelo de contratación directa y consideró que el sistema de pagos retenidos y liberados por hitos genera mayor confianza, ya que permite verificar el avance del agricultor antes de autorizar cada desembolso. Al revisar la parcela El Tambo, valoró positivamente la información sobre ubicación, tipo de suelo, cultivos, costos y duración de la campaña, aunque señaló que sería útil incluir información adicional como el rendimiento estimado y referencias del agricultor. Durante la revisión del contrato digital, consideró que las condiciones y los pagos por etapas se presentan de manera clara, pero recomendó especificar con mayor detalle las acciones que se tomarían ante retrasos o incumplimientos. La firma digital le resultó sencilla e intuitiva. En la Bóveda de Pagos comprendió la diferencia entre los fondos retenidos y liberados, mientras que las evidencias fotográficas le parecieron útiles para comprobar el avance del cultivo. Sin embargo, sugirió incorporar datos adicionales como la fecha exacta de captura, ubicación GPS y estado del cultivo. Finalmente, indicó que preferiría recibir notificaciones mediante WhatsApp y que estaría dispuesta a utilizar Allpatek en futuras temporadas siempre que existan agricultores verificados, contratos claros y mecanismos de respaldo ante posibles incumplimientos.
+      </td>
     </tr>
   </tbody>
 </table>
-
 
 
 <table width="100%" align="center" style="margin: 0 auto;">
