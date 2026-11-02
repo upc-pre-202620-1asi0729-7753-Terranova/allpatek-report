@@ -3,7 +3,7 @@
 !include <C4/C4_Component>
 skinparam backgroundColor white
 skinparam defaultFontName SansSerif
-skinparam defaultFontSize 15
+skinparam defaultFontSize 14
 skinparam shadowing false
 skinparam classAttributeIconSize 0
 skinparam ArrowColor #476050
@@ -12,18 +12,36 @@ title Allpatek | C4 - Web application components
 
 LAYOUT_TOP_DOWN()
 Person(user,"Farmer / Merchant","Access according to account role")
-Container_Boundary(web,"Angular web application") {
- Component(nav,"Navigation and session","Angular Router","Chooses routes and keeps the signed-in session")
- Component(views,"Feature screens","Angular / Material","Users, plots, contracts, payments and monitoring")
- Component(services,"Application services","TypeScript / HttpClient","Loads data, submits actions and displays results")
- Component(local,"Local draft storage","Browser IndexedDB","Proposed recovery of unsent progress during connection loss")
-}
-Container(api,"REST API","Spring Boot","Validates and stores information")
-Rel(user,nav,"Navigates", "Browser")
-Rel(nav,views,"Opens", "Router")
-Rel(views,services,"Requests data or action", "TypeScript")
-Rel(services,local,"Keeps unsent drafts", "Browser API")
-Rel(services,api,"Sends requests", "HTTPS / JSON")
-SHOW_LEGEND()
 
+Container_Boundary(web,"Angular web application") {
+  Component(agreements,"Season Contracting","agreements-management","Core. Views, store and HTTP adapter for seasonal contracts and signatures")
+  Component(parcels,"Land Management","parcel-management","Core. Catalog, form and plot detail")
+  Component(escrow,"Payments and Plans","escrow-payments","Core. Escrow vault, deposit and milestone release")
+  Component(evidence,"Crop Monitoring","tracking-evidence","Supporting. Milestone evidence board, upload and review")
+  Component(alerts,"Climate Alerts","alerts-management","Supporting. Weather board for contracted plots")
+  Component(shared,"Users and Profiles","shared","Generic. Shell, router, session, login, register and profile")
+}
+
+Container(api,"REST API","Spring Boot","Validates and stores information")
+
+Rel(user,shared,"Signs in and navigates", "Browser")
+Rel(shared,agreements,"Opens /agreements", "Angular Router")
+Rel(shared,parcels,"Opens /parcels", "Angular Router")
+Rel(shared,escrow,"Opens /escrow", "Angular Router")
+Rel(shared,evidence,"Opens /evidence", "Angular Router")
+Rel(shared,alerts,"Opens /alerts", "Angular Router")
+
+Rel(parcels,agreements,"Shares parcelId", "Identifier only")
+Rel(agreements,escrow,"Shares contractId", "Identifier only")
+Rel(agreements,evidence,"Shares contractId and milestoneId", "Identifier only")
+Rel(parcels,alerts,"Shares parcelId", "Identifier only")
+
+Rel(agreements,api,"Calls /agreements", "HTTPS / JSON")
+Rel(parcels,api,"Calls /parcels", "HTTPS / JSON")
+Rel(escrow,api,"Calls /wallets", "HTTPS / JSON")
+Rel(evidence,api,"Calls /evidence", "HTTPS / JSON")
+Rel(shared,api,"Calls /profiles and /users", "HTTPS / JSON")
+Rel(alerts,api,"Reads plot location from /parcels", "HTTPS / JSON")
+
+SHOW_LEGEND()
 @enduml

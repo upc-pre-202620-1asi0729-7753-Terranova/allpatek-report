@@ -2084,7 +2084,7 @@ Los componentes permiten ver cómo se organiza cada aplicación por dentro. La A
 
 Por ejemplo, una solicitud de contratación entra por un controlador, ejecuta un caso de uso de Season Contracting y modifica el aggregate `Contract`. El módulo consulta la disponibilidad de la parcela y el pago mediante puertos explícitos. Finalmente, un adaptador JPA persiste el agregado. Esta dirección de dependencias mantiene las reglas del negocio independientes de Spring MVC, PostgreSQL, proveedores de pago y n8n.
 
-![Figura 4.6.4-B. Componentes de la aplicación web](assets/chapter-04/architecture/05-web-components.png)
+![Figura 4.6.4-B. Componentes de la aplicación web](assets/chapter-04/architecture/05-web-components-update.png)
 
 *Figura 4.6.4-B. Componentes de la aplicación web.* [Diagrama editable](assets/chapter-04/architecture/05-web-components.puml).
 
