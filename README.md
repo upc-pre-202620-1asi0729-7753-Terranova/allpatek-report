@@ -4026,15 +4026,13 @@ El proceso de validación se estructuró mediante entrevistas semiestructuradas 
 
 ### 5.3.2. Registro de Entrevistas
 
-Las fichas retoman los datos de identificación y actividad de los mismos participantes registrados en la sección 2.2.2. Cada fotografía reutilizada se identifica como referencia de la entrevista inicial. Los tiempos, capturas y resultados específicos de validación permanecen pendientes donde aún falta verificar la grabación correspondiente.
+Las fichas mantienen los datos de identificación y actividad registrados en la sección 2.2.2. Las capturas de validación se obtienen directamente de las grabaciones actuales y se identifican con el nombre del archivo y el instante capturado.
 
 #### Evidencia audiovisual sobre la percepción de la plataforma
 
-La siguiente grabación se incorpora como evidencia de las entrevistas de validación, centradas en las preguntas sobre qué les pareció la plataforma Allpatek a los participantes.
+Se verificaron dos grabaciones actuales con preguntas sobre la opinión de los participantes tras revisar Allpatek: **Entrevista Agricultor Dos** (08:06), de Gustavo Adolfo Suyo, y **Segunda Entrevista COmerciante.mp4** (07:24 aprox.), de César Hugo Egocheaga.
 
-Los dos enlaces proporcionados corresponden al mismo archivo, titulado **Entrevista Agricultor Dos**, cuya duración visible en el reproductor es **08:06**. Queda pendiente confirmar el nombre del participante de esta grabación y proporcionar un enlace distinto para la segunda entrevista. Las respuestas y los resultados de validación de las fichas pendientes se incorporarán tras verificar el contenido de sus grabaciones.
-
-- [Ver grabación de la entrevista de validación sobre la experiencia con Allpatek](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQDhDCYqAhxbSKhg92qWZNqhAYT4gneD9GoPPK-jzUowbr8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vkukAa)
+Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace recibido se incorpora directamente en su ficha. La grabación del comerciante se verificó mediante el archivo local y su captura actual, y queda pendiente incorporar un enlace compartido distinto para acceder a ella en línea.
 
 #### A) Segmento Agricultor
 
@@ -4093,7 +4091,7 @@ Los dos enlaces proporcionados corresponden al mismo archivo, titulado **Entrevi
     </tr>
     <tr>
       <td align="center"><b>Fotografía</b></td>
-      <td align="center"><img src="./assets/chapter-02/entrevista-agricultor-1.jpeg" width="300" alt="Fotografía de referencia de Rosa Flores en la entrevista inicial"><br><small>Referencia de identificación de la entrevista inicial (sección 2.2.2); captura de validación pendiente.</small></td>
+      <td align="center">Pendiente de incorporar una captura de su entrevista de validación.</td>
     </tr>
     <tr>
       <td align="center"><b>Resumen de la entrevista</b></td>
@@ -4150,23 +4148,23 @@ Los dos enlaces proporcionados corresponden al mismo archivo, titulado **Entrevi
     </tr>
     <tr>
       <td align="center">Inicio de la entrevista</td>
-      <td align="center">Pendiente de verificar en la grabación de validación.</td>
+      <td align="center">00:00</td>
     </tr>
     <tr>
       <td align="center">Duración</td>
-      <td align="center">Pendiente de verificar en la grabación de validación.</td>
+      <td align="center">08:06</td>
     </tr>
     <tr>
       <td align="center">URL del video</td>
-      <td align="center">Pendiente de confirmar la correspondencia del participante con la <a href="#evidencia-audiovisual-sobre-la-percepción-de-la-plataforma">grabación recibida: Entrevista Agricultor Dos</a>.</td>
+      <td align="center"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQDhDCYqAhxbSKhg92qWZNqhAYT4gneD9GoPPK-jzUowbr8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;e=vkukAa" target="_blank">Ver entrevista de validación: Entrevista Agricultor Dos</a></td>
     </tr>
     <tr>
       <td align="center"><b>Fotografía</b></td>
-      <td align="center"><img src="./assets/chapter-02/entrevista-agricultor-2.png" width="300" alt="Fotografía de referencia de Gustavo Adolfo Suyo en la entrevista inicial"><br><small>Referencia de identificación de la entrevista inicial (sección 2.2.2); captura de validación pendiente.</small></td>
+      <td align="center"><img src="./assets/chapter-05/validacion-agricultor-gustavo-suyo.png" width="500" alt="Captura actual de la entrevista de validación de Gustavo Adolfo Suyo"><br><small>Captura real de Entrevista Agricultor Dos, en 00:37. El participante se presenta como Adolfo Suyo y figura en la llamada como Gustavo S.</small></td>
     </tr>
     <tr>
       <td align="center"><b>Resumen de la entrevista</b></td>
-      <td align="center">Pendiente de revisar las respuestas de validación sobre qué le pareció la plataforma Allpatek a la persona entrevistada.</td>
+      <td align="center">Tras revisar la página, Gustavo Adolfo Suyo comprendió que Allpatek conecta al productor con el comerciante y valoró que facilite la comercialización de la cosecha. Señaló como limitación la conectividad a internet en zonas rurales, que puede retrasar el envío de fotografías. Consideró viable compartir fotos del avance del cultivo para generar confianza y compromiso entre ambas partes. Recomendó que los acuerdos especifiquen claramente condiciones, fechas y lugar, y expresó interés en probar la plataforma y conocer sus requisitos de uso.</td>
     </tr>
     <tr>
       <td align="center">Fuente del perfil</td>
@@ -4291,23 +4289,23 @@ Los dos enlaces proporcionados corresponden al mismo archivo, titulado **Entrevi
     </tr>
     <tr>
       <td align="center">Inicio de la entrevista</td>
-      <td align="center">Pendiente de verificar en la grabación de validación.</td>
+      <td align="center">00:00</td>
     </tr>
     <tr>
       <td align="center">Duración</td>
-      <td align="center">Pendiente de verificar en la grabación de validación.</td>
+      <td align="center">07:24 aprox.</td>
     </tr>
     <tr>
       <td align="center">URL del video</td>
-      <td align="center">Pendiente de incorporar el enlace de la entrevista de validación.</td>
+      <td align="center">Archivo local verificado: <code>Segunda Entrevista COmerciante.mp4</code>. Pendiente de incorporar el enlace compartido de esta grabación; el segundo enlace recibido repite el video del agricultor.</td>
     </tr>
     <tr>
       <td align="center"><b>Fotografía</b></td>
-      <td align="center"><img src="./assets/chapter-02/entrevista-comprador-2.png" width="300" alt="Fotografía de referencia de César Hugo Egocheaga en la entrevista inicial"><br><small>Referencia de identificación de la entrevista inicial (sección 2.2.2); captura de validación pendiente.</small></td>
+      <td align="center"><img src="./assets/chapter-05/validacion-comerciante-cesar-egocheaga.png" width="500" alt="Captura actual de la entrevista de validación de César Hugo Egocheaga"><br><small>Captura real de Segunda Entrevista COmerciante.mp4, en 00:30. La llamada identifica al participante como CESAR HUGO EGOCHEAGA DIAZ; su cámara está desactivada en este instante.</small></td>
     </tr>
     <tr>
       <td align="center"><b>Resumen de la entrevista</b></td>
-      <td align="center">Pendiente de revisar las respuestas de validación sobre qué le pareció la plataforma Allpatek a la persona entrevistada.</td>
+      <td align="center">Tras revisar la página, César Hugo Egocheaga entendió la propuesta como un medio para consultar productos, comerciantes y precios. Para utilizarla en su negocio pidió precisar cantidades disponibles, costos, plazos y la diferencia entre el precio en chacra y el precio puesto en el mercado, incluyendo quién asumiría el transporte. Destacó que la confianza en los productores es decisiva y que encontrar en Allpatek a proveedores con los que ya trabaja le daría mayor seguridad. Consideró útil disponer de un catálogo con costos y disponibilidad para planificar el abastecimiento según la temporada.</td>
     </tr>
     <tr>
       <td align="center">Fuente del perfil</td>
