@@ -4026,9 +4026,13 @@ El proceso de validación se estructuró mediante entrevistas semiestructuradas 
 
 ### 5.3.2. Registro de Entrevistas
 
+Las fichas retoman los datos de identificación y actividad de los mismos participantes registrados en la sección 2.2.2. Cada fotografía reutilizada se identifica como referencia de la entrevista inicial. Los tiempos, capturas y resultados específicos de validación permanecen pendientes donde aún falta verificar la grabación correspondiente.
+
 #### Evidencia audiovisual sobre la percepción de la plataforma
 
 La siguiente grabación se incorpora como evidencia de las entrevistas de validación, centradas en las preguntas sobre qué les pareció la plataforma Allpatek a los participantes.
+
+Los dos enlaces proporcionados corresponden al mismo archivo, titulado **Entrevista Agricultor Dos**, cuya duración visible en el reproductor es **08:06**. Queda pendiente confirmar el nombre del participante de esta grabación y proporcionar un enlace distinto para la segunda entrevista. Las respuestas y los resultados de validación de las fichas pendientes se incorporarán tras verificar el contenido de sus grabaciones.
 
 - [Ver grabación de la entrevista de validación sobre la experiencia con Allpatek](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQDhDCYqAhxbSKhg92qWZNqhAYT4gneD9GoPPK-jzUowbr8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vkukAa)
 
@@ -4045,57 +4049,59 @@ La siguiente grabación se incorpora como evidencia de las entrevistas de valida
   <tbody>
     <tr>
       <td align="center"><b>Título</b></td>
-      <td align="center"><b>Entrevista : </b></td>
+      <td align="center"><b>Entrevista 1: Rosa Flores</b></td>
     </tr>
     <tr>
       <td align="center">Segmento</td>
-      <td align="center"></td>
+      <td align="center">Agricultor familiar</td>
     </tr>
     <tr>
       <td align="center">Nombres y apellidos</td>
-      <td align="center"></td>
+      <td align="center">Rosa Flores</td>
     </tr>
     <tr>
       <td align="center">Edad</td>
-      <td align="center"></td>
+      <td align="center">45 años</td>
     </tr>
     <tr>
       <td align="center">Distrito</td>
-      <td align="center"></td>
+      <td align="center">Cieneguilla</td>
     </tr>
     <tr>
       <td align="center">Ocupación</td>
-      <td align="center"></td>
+      <td align="center">Administradora y trabajadora agrícola a tiempo completo (Parcela de palta)</td>
     </tr>
     <tr>
-      <td align="center">Tipo de comerciante (familia / restaurante / negocio)</td>
-      <td align="center"></td>
+      <td align="center">Tipo de cultivo principal</td>
+      <td align="center">Palta (Paltos)</td>
     </tr>
     <tr>
-      <td align="center">Volumen de compra aproximado</td>
-      <td align="center"></td>
+      <td align="center">Extensión aproximada de la parcela</td>
+      <td align="center">950 m²</td>
     </tr>
     <tr>
       <td align="center">Inicio de la entrevista</td>
-      <td align="center"></td>
+      <td align="center">Pendiente de verificar en la grabación de validación.</td>
     </tr>
     <tr>
       <td align="center">Duración</td>
-      <td align="center"></td>
+      <td align="center">Pendiente de verificar en la grabación de validación.</td>
     </tr>
     <tr>
       <td align="center">URL del video</td>
-      <td align="center"><a href="" target="_blank">Video evidencia</a></td>
+      <td align="center">Pendiente de incorporar el enlace de la entrevista de validación.</td>
     </tr>
     <tr>
       <td align="center"><b>Fotografía</b></td>
-      <td align="center">
-        <img src="./assets/chapter-02/entrevista-comprador-.png" width="300" alt="Evidencia de entrevista">
-      </td>
+      <td align="center"><img src="./assets/chapter-02/entrevista-agricultor-1.jpeg" width="300" alt="Fotografía de referencia de Rosa Flores en la entrevista inicial"><br><small>Referencia de identificación de la entrevista inicial (sección 2.2.2); captura de validación pendiente.</small></td>
     </tr>
     <tr>
       <td align="center"><b>Resumen de la entrevista</b></td>
-      <td align="center"></td>
+      <td align="center">Pendiente de revisar las respuestas de validación sobre qué le pareció la plataforma Allpatek a la persona entrevistada.</td>
+    </tr>
+    <tr>
+      <td align="center">Fuente del perfil</td>
+      <td align="center"><a href="#entrevista-1-rosa-flores">Entrevista inicial de Rosa Flores (sección 2.2.2)</a></td>
     </tr>
   </tbody>
 </table>
@@ -4112,57 +4118,59 @@ La siguiente grabación se incorpora como evidencia de las entrevistas de valida
   <tbody>
     <tr>
       <td align="center"><b>Título</b></td>
-      <td align="center"><b>Entrevista : </b></td>
+      <td align="center"><b>Entrevista 2: Gustavo Adolfo Suyo</b></td>
     </tr>
     <tr>
       <td align="center">Segmento</td>
-      <td align="center"></td>
+      <td align="center">Agricultor familiar</td>
     </tr>
     <tr>
       <td align="center">Nombres y apellidos</td>
-      <td align="center"></td>
+      <td align="center">Gustavo Adolfo Suyo</td>
     </tr>
     <tr>
       <td align="center">Edad</td>
-      <td align="center"></td>
+      <td align="center">48 años</td>
     </tr>
     <tr>
       <td align="center">Distrito</td>
-      <td align="center"></td>
+      <td align="center">Yauyos</td>
     </tr>
     <tr>
       <td align="center">Ocupación</td>
-      <td align="center"></td>
+      <td align="center">Agricultor</td>
     </tr>
     <tr>
-      <td align="center">Tipo de comerciante (familia / restaurante / negocio)</td>
-      <td align="center"></td>
+      <td align="center">Tipo de cultivo principal</td>
+      <td align="center">Paltas</td>
     </tr>
     <tr>
-      <td align="center">Volumen de compra aproximado</td>
-      <td align="center"></td>
+      <td align="center">Extensión aproximada de la parcela</td>
+      <td align="center">1000 m²</td>
     </tr>
     <tr>
       <td align="center">Inicio de la entrevista</td>
-      <td align="center"></td>
+      <td align="center">Pendiente de verificar en la grabación de validación.</td>
     </tr>
     <tr>
       <td align="center">Duración</td>
-      <td align="center"></td>
+      <td align="center">Pendiente de verificar en la grabación de validación.</td>
     </tr>
     <tr>
       <td align="center">URL del video</td>
-      <td align="center"><a href="" target="_blank">Video evidencia</a></td>
+      <td align="center">Pendiente de confirmar la correspondencia del participante con la <a href="#evidencia-audiovisual-sobre-la-percepción-de-la-plataforma">grabación recibida: Entrevista Agricultor Dos</a>.</td>
     </tr>
     <tr>
       <td align="center"><b>Fotografía</b></td>
-      <td align="center">
-        <img src="./assets/chapter-02/entrevista-comprador-.png" width="300" alt="Evidencia de entrevista">
-      </td>
+      <td align="center"><img src="./assets/chapter-02/entrevista-agricultor-2.png" width="300" alt="Fotografía de referencia de Gustavo Adolfo Suyo en la entrevista inicial"><br><small>Referencia de identificación de la entrevista inicial (sección 2.2.2); captura de validación pendiente.</small></td>
     </tr>
     <tr>
       <td align="center"><b>Resumen de la entrevista</b></td>
-      <td align="center"></td>
+      <td align="center">Pendiente de revisar las respuestas de validación sobre qué le pareció la plataforma Allpatek a la persona entrevistada.</td>
+    </tr>
+    <tr>
+      <td align="center">Fuente del perfil</td>
+      <td align="center"><a href="#entrevista-2-gustavo-adolfo-suyo">Entrevista inicial de Gustavo Adolfo Suyo (sección 2.2.2)</a></td>
     </tr>
   </tbody>
 </table>
@@ -4251,57 +4259,59 @@ La siguiente grabación se incorpora como evidencia de las entrevistas de valida
   <tbody>
     <tr>
       <td align="center"><b>Título</b></td>
-      <td align="center"><b>Entrevista : </b></td>
+      <td align="center"><b>Entrevista 2: César Hugo Egocheaga</b></td>
     </tr>
     <tr>
       <td align="center">Segmento</td>
-      <td align="center"></td>
+      <td align="center">Comerciante urbano</td>
     </tr>
     <tr>
       <td align="center">Nombres y apellidos</td>
-      <td align="center"></td>
+      <td align="center">César Hugo Egocheaga</td>
     </tr>
     <tr>
       <td align="center">Edad</td>
-      <td align="center"></td>
+      <td align="center">50 años</td>
     </tr>
     <tr>
       <td align="center">Distrito</td>
-      <td align="center"></td>
+      <td align="center">El Agustino</td>
     </tr>
     <tr>
       <td align="center">Ocupación</td>
-      <td align="center"></td>
+      <td align="center">Concesionario de un puesto en el Mercado Mayorista de Frutas</td>
     </tr>
     <tr>
       <td align="center">Tipo de comerciante (familia / restaurante / negocio)</td>
-      <td align="center"></td>
+      <td align="center">Negocio</td>
     </tr>
     <tr>
-      <td align="center">Volumen de compra aproximado</td>
-      <td align="center"></td>
+      <td align="center">Volumen de comercialización aproximado</td>
+      <td align="center">400 kg por semana</td>
     </tr>
     <tr>
       <td align="center">Inicio de la entrevista</td>
-      <td align="center"></td>
+      <td align="center">Pendiente de verificar en la grabación de validación.</td>
     </tr>
     <tr>
       <td align="center">Duración</td>
-      <td align="center"></td>
+      <td align="center">Pendiente de verificar en la grabación de validación.</td>
     </tr>
     <tr>
       <td align="center">URL del video</td>
-      <td align="center"><a href="" target="_blank">Video evidencia</a></td>
+      <td align="center">Pendiente de incorporar el enlace de la entrevista de validación.</td>
     </tr>
     <tr>
       <td align="center"><b>Fotografía</b></td>
-      <td align="center">
-        <img src="./assets/chapter-02/entrevista-comprador-.png" width="300" alt="Evidencia de entrevista">
-      </td>
+      <td align="center"><img src="./assets/chapter-02/entrevista-comprador-2.png" width="300" alt="Fotografía de referencia de César Hugo Egocheaga en la entrevista inicial"><br><small>Referencia de identificación de la entrevista inicial (sección 2.2.2); captura de validación pendiente.</small></td>
     </tr>
     <tr>
       <td align="center"><b>Resumen de la entrevista</b></td>
-      <td align="center"></td>
+      <td align="center">Pendiente de revisar las respuestas de validación sobre qué le pareció la plataforma Allpatek a la persona entrevistada.</td>
+    </tr>
+    <tr>
+      <td align="center">Fuente del perfil</td>
+      <td align="center"><a href="#entrevista-2-césar-hugo-egocheaga">Entrevista inicial de César Hugo Egocheaga (sección 2.2.2)</a></td>
     </tr>
   </tbody>
 </table>
