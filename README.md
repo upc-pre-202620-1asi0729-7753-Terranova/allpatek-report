@@ -4026,6 +4026,12 @@ El proceso de validación se estructuró mediante entrevistas semiestructuradas 
 
 ### 5.3.2. Registro de Entrevistas
 
+#### Evidencia audiovisual sobre la percepción de la plataforma
+
+La siguiente grabación se incorpora como evidencia de las entrevistas de validación, centradas en las preguntas sobre qué les pareció la plataforma Allpatek a los participantes.
+
+- [Ver grabación de la entrevista de validación sobre la experiencia con Allpatek](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQDhDCYqAhxbSKhg92qWZNqhAYT4gneD9GoPPK-jzUowbr8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vkukAa)
+
 #### A) Segmento Agricultor
 
 
