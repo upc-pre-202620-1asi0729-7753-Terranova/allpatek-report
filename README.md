@@ -3686,7 +3686,7 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
       <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">Alexander1Alexander2</td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
@@ -3697,7 +3697,7 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
       <td style="border: 1px solid #dddddd; padding: 8px;">MiguelAngel0107</td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
@@ -3705,12 +3705,12 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
       <td style="border: 1px solid #dddddd; padding: 8px;">melandree8</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
     </tr>
     <tr>
       <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
@@ -3718,7 +3718,7 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
     </tr>
@@ -3729,7 +3729,7 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
     </tr>
   </tbody>
