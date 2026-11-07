@@ -398,7 +398,7 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 Allpatek se posiciona como una propuesta de innovación tecnológica aplicada al sector agrotech en el Perú, orientada a reestructurar la cadena tradicional de intermediación agrícola. La iniciativa introduce el modelo de *Agro-as-a-Service* (AaaS), una modalidad mediante la cual los comerciantes que abarcan desde familias y restaurantes hasta empresas del sector agroindustrial no compran cosechas listas para la venta ni interactúan con intermediarios comerciales. En su lugar, suscriben un acuerdo comercial para alquilar parcelas específicas y contratar de forma directa la labor del agricultor familiar durante todo el ciclo productivo de una temporada. Bajo este esquema, el comerciante obtiene alimentos trazables a costo directo de producción, mientras que la familia agricultora asegura una retribución económica predecible vinculada al trabajo realizado durante la campaña, mitigando su vulnerabilidad frente a las fluctuaciones de precios del mercado y las contingencias climáticas.
 
-La identidad de la startup sintetiza esta visión desde su denominación: el término proviene de la conjunción de la voz quechua *allpa* ("tierra") y la raíz *tek* (tecnología), formalizando el compromiso de digitalizar la gestión técnica y operativa del campo. La plataforma integra la oferta de terrenos cultivables, perfiles de agricultores, formalización contractual y canales de seguimiento en un solo entorno digital. Para garantizar la eficiencia operativa sin encarecer los costos de desarrollo, el sistema implementa **n8n**, una herramienta de automatización de flujos de trabajo de código abierto. Esta infraestructura gestiona tareas críticas del negocio: ante la confirmación del pago por parte del cliente, n8n compila y distribuye automáticamente el contrato legal en formato PDF vía correo electrónico, coordinando además la emisión programada de notificaciones sobre el estado del cultivo y estimaciones de cosecha.
+La identidad de la startup sintetiza esta visión desde su denominación: el término proviene de la conjunción de la voz quechua *allpa* ("tierra") y la raíz *tek* (tecnología), formalizando el compromiso de digitalizar la gestión técnica y operativa del campo. La plataforma integra la oferta de terrenos cultivables, perfiles de agricultores, formalización contractual y canales de seguimiento en un solo entorno digital. El producto contempla automatizar el envío del contrato en PDF y las notificaciones de seguimiento con n8n. La demo contiene llamadas a webhooks desde el navegador; la generación del PDF tras un pago confirmado permanece como diseño objetivo.
 
 Desde el punto de vista teórico y sectorial, el modelo de Allpatek se fundamenta en la literatura de *contract farming*, definida como la formalización de acuerdos previos entre productores y comerciantes sobre aspectos cuantitativos, cualitativos, plazos y precios de entrega. Investigaciones en economía agraria señalan que estos mecanismos incrementan de forma sustancial el ingreso de los pequeños productores al facilitar la adopción de mejores prácticas y transferir parte del riesgo comercial fuera del eslabón primario (Otsuka et al., 2016). Asimismo, la propuesta atiende un cuello de botella histórico en la agricultura familiar en el Perú, donde el acceso asimétrico a la información comercial restringe la inserción de los pequeños agricultores en los canales de distribución de mayor valor (Fan & Salas Garcia, 2018).
 
@@ -421,7 +421,7 @@ En esta sección se fundamenta el diseño estratégico de Allpatek a partir del 
 
 **Product Description**
 
-Allpatek es una plataforma web distribuida que permite a comerciantes urbanos y corporativos contratar por temporada parcelas agrícolas y la labor de agricultores familiares, bajo el modelo *Agro-as-a-Service*. La solución centraliza el catálogo de parcelas con sus costos directos, la reserva y el pago digital de la temporada, la formalización automática del contrato en PDF mediante n8n, el calendario de pagos garantizados al agricultor, el seguimiento de los hitos del ciclo productivo mediante notificaciones, el registro de trazabilidad del origen del producto y un sistema bidireccional de reputación. Para el agricultor, la plataforma ofrece un panel móvil ligero, pensado para dispositivos Android de gama baja y conectividad intermitente.
+Allpatek propone una plataforma web para que comerciantes contraten por temporada parcelas y la labor de agricultores familiares bajo el modelo *Agro-as-a-Service*. El alcance objetivo incluye reserva, pago, contrato en PDF, seguimiento, trazabilidad y reputación. La demo actual muestra el catálogo, aceptaciones, evidencias, clima y una bóveda simulada. El registro con verificación de identidad, la custodia real, la reputación y el funcionamiento sin conexión siguen pendientes.
 
 ### 1.2.1. Antecedentes y problemática
 
@@ -1043,6 +1043,8 @@ Irma es una mujer de 40 años que administra un restaurante familiar en La Molin
 **Hallazgo común:** ambos hablan de lo mismo desde lados opuestos: el agricultor no tiene garantía de que le pagarán lo acordado y la compradora no tiene garantía de que recibirá lo acordado. Esta simetría de desconfianza es la base de la propuesta de custodia Escrow por hitos de Allpatek.
 
 ## 2.4. Big Picture Event Storming.
+
+El modelo de esta sección representa el ciclo de temporada propuesto. El alcance implementado y las reglas pendientes se distinguen en 4.6.1.
 
 El equipo realizó una sesión colaborativa de Big Picture Event Storming con el objetivo de explorar a alto nivel el dominio de negocio de Allpatek, identificando los eventos significativos del proceso de contratación de una parcela y sus relaciones cronológicas, desde la publicación de la parcela hasta el cierre de la temporada. Para la elaboración del diagrama se utilizó **Mermaid** como herramienta de Diagram-as-Code.
 
@@ -1733,6 +1735,8 @@ Esta sección presenta los esquemas de baja y media fidelidad (wireframes) dise�
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
+**Alcance de las figuras:** estos wireflows describen la experiencia de diseño. La demo selecciona un rol y carga un perfil de prueba; no registra credenciales ni valida JWT. El flujo de firma dibujada y la activación financiera son objetivos del diseño. Los recorridos implementados se detallan al final de 4.4.4.
+
 
 En esta sección se presentan los diagramas de **Wireflow**, los cuales combinan la estructura de los *wireframes* con la secuencia de un *user flow* para representar la interacción y el cambio de estado de la pantalla en cada paso de la navegación. 
 
@@ -1870,6 +1874,8 @@ Para garantizar consistencia en la arquitectura de información, se definieron p
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
+Las imágenes de Figma y los pasos siguientes describen la experiencia objetivo. El bloque «Flujos implementados en la demo» indica qué pantallas, datos y decisiones están en el código revisado.
+
 
 En esta sección se presenta la propuesta formal de User Flows mapeados a partir de los diagramas de Wireflow previamente validados. Cada flujo integra los Mock-ups finales de alta fidelidad para representar la experiencia visual definitiva, definiendo con claridad tanto la ruta principal o esperada (Happy Path) como las decisiones y rutas de excepción (Unhappy Paths).
 
@@ -1945,6 +1951,27 @@ En esta sección se presenta la propuesta formal de User Flows mapeados a partir
 
 
 
+#### Flujos implementados en la demo
+
+| Actor | Ruta | Qué ocurre |
+|---|---|---|
+| Ambos | `/login`, `/register`, `/profile` | La selección del rol carga un perfil ficticio. La sesión se conserva en el navegador; no hay verificación de contraseña. |
+| Agricultor | `/parcels/new`, `/parcels/:id/edit` | Ingresa datos, cultivos y coordenadas, que puede completar por departamento o GPS. Puede adjuntar fotos; hay una imagen por defecto. La pantalla vuelve al catálogo si la API confirma el guardado. |
+| Comerciante y agricultor | `/parcels/:id`, `/agreements`, `/agreements/merchant` | El comerciante abre el acuerdo desde el detalle de parcela. El agricultor revisa la solicitud en `/agreements/merchant` y confirma en `/agreements`. Se almacenan dos indicadores de aceptación. |
+| Agricultor y comerciante | `/evidence/new`, `/evidence/review`, `/escrow` | El agricultor adjunta una imagen. El comerciante verifica la evidencia y luego marca la liberación simulada en la bóveda. |
+| Comerciante | `/escrow/deposit` | Registra tarjeta enmascarada y un monto de demostración. No se carga una tarjeta ni se mueve dinero. |
+| Agricultor | `/alerts` | Consulta pronóstico para sus parcelas con coordenadas utilizables. La SPA usa Open-Meteo directamente, sin sensores propios ni un historial de alertas. |
+
+En el flujo de evidencias, la UI usa `review → verified → accepted`. El acceso a evidencias se apoya en la aceptación del comerciante; la bóveda lista acuerdos con ambas aceptaciones y exige una tarjeta de demo y saldo disponible para marcar la liberación. El `PUT` reducido de liberación no incluye notas ni archivo, y el frontend transforma un error HTTP en un resultado exitoso. Esto puede provocar una falsa confirmación o perder información si se conecta al backend actual. La transición debería guardar solo el nuevo estado, preservar la evidencia y mostrar éxito únicamente tras una respuesta válida.
+
+![Figura 4.4.4-A. Acuerdo, evidencia y liberación simulada](assets/chapter-04/architecture/18-flow-agreement-evidence.png)
+
+*Figura 4.4.4-A. Acuerdo, evidencia y liberación simulada.* [Fuente PlantUML](assets/chapter-04/architecture/18-flow-agreement-evidence.puml) · [SVG](assets/chapter-04/architecture/18-flow-agreement-evidence.svg).
+
+![Figura 4.4.4-B. Publicación de parcela y consulta del clima](assets/chapter-04/architecture/19-flow-parcels-climate.png)
+
+*Figura 4.4.4-B. Publicación de parcela y consulta del clima.* [Fuente PlantUML](assets/chapter-04/architecture/19-flow-parcels-climate.puml) · [SVG](assets/chapter-04/architecture/19-flow-parcels-climate.svg).
+
 ## 4.5. Web Applications Prototyping
 
 En esta sección se presentan los prototipos interactivos de alta fidelidad desarrollados para navegadores **Desktop** y **Mobile Web**, los cuales simulan la experiencia real de navegación acorde a los trayectos definidos en los *User Flow Diagrams*. 
@@ -1992,259 +2019,165 @@ A continuación, se presentan los enlaces y capturas de los videos explicativos 
 
 ## 4.6. Domain-Driven Software Architecture
 
-Allpatek permite que un comerciante contrate una parcela y el trabajo de un agricultor durante una temporada. La arquitectura organiza las funciones necesarias para publicar parcelas, establecer contratos, registrar pagos y consultar el avance del cultivo.
+Allpatek busca que el comerciante contrate una parcela y el trabajo de un agricultor durante una temporada. El diseño usa **Domain-Driven Design (DDD)** para separar áreas con responsabilidades y reglas propias. En la implementación hay dos recorridos: la **SPA Angular de demostración** consume una API simulada; la **API Java/Spring Boot** del backend compartido funciona con MySQL y se verificó de forma independiente.
 
-Se utiliza **Domain-Driven Design (DDD)** para agrupar el sistema según sus responsabilidades de negocio. Cada grupo se denomina **bounded context**: un área con datos y reglas propios. Para este proyecto se proponen cinco áreas:
+| Área | Código Angular | Código Spring | Alcance observado |
+|---|---|---|---|
+| Gestión de parcelas | `parcel-management` | `parcelmanagement` | Alta, edición, listado y borrado de parcelas. La disponibilidad se registra como estado; no se reserva automáticamente al aceptar un acuerdo. |
+| Acuerdos | `agreements-management` | `agreementsmanagement` | Angular registra la aceptación del comerciante y luego la del agricultor. Spring guarda ambos indicadores, sin exigir una secuencia ni verificar al firmante. |
+| Bóveda de pagos | `escrow-payments` | `escrowpayments` | La UI muestra importes y liberaciones simuladas. Spring expone wallets con monto inicial y tarjeta enmascarada, sin depósitos ni transferencias. |
+| Evidencias | `tracking-evidence` | `trackingevidence` | Evidencia por parcela e hito; la UI diferencia revisión, verificación y aceptación. Spring guarda el estado que recibe. |
+| Clima | `alerts-management` | `alertsmanagement` | Angular consulta Open-Meteo directamente. Spring también ofrece una consulta independiente a partir de las parcelas guardadas. |
+| Perfiles y funciones comunes | `shared` | `shared`, `iam` | Angular selecciona perfiles de demo. Spring expone perfiles en `shared`; `iam` aún no implementa autenticación. |
 
-| Bounded context | Responsabilidad | Ejemplo en Allpatek |
-|---|---|---|
-| Users and Profiles | Usuarios, perfiles y calificaciones. | El comerciante consulta la experiencia previa de un agricultor. |
-| Land Management | Parcelas, fotografías y disponibilidad. | El agricultor publica una parcela para una temporada. |
-| Season Contracting | Contratos, aceptación de condiciones e hitos. | Ambas partes acuerdan fechas, costos y etapas del trabajo. |
-| Payments and Plans | Pagos y planes de suscripción propuestos. | Se consulta un abono o el pago correspondiente a un hito. |
-| Crop Monitoring | Avances, evidencias y alertas climáticas. | El agricultor registra la siembra y el comerciante recibe una actualización. |
-
-Estos módulos se implementarán inicialmente dentro de una misma API Spring Boot como un **modular monolith**. Cada bounded context tendrá sus propios servicios de aplicación, modelo de dominio y puertos de repositorio. Las consultas entre módulos se realizarán mediante interfaces explícitas; por ejemplo, Season Contracting consulta a Land Management para comprobar la disponibilidad y a Payments and Plans para verificar los fondos antes de activar un contrato. n8n permanece fuera del dominio y actúa como adaptador de automatización para generar documentos y enviar mensajes.
-
-**Base de la propuesta.** Se utiliza el nombre Allpatek empleado en los capítulos I, II y IV. Se consideran los roles agricultor y comerciante, sin excluir a familias ni negocios. Los planes de suscripción proceden del capítulo IV y las calificaciones, WhatsApp y el uso con conectividad limitada proceden del capítulo I. Son funciones propuestas, no capacidades ya implementadas.
-
-Los términos de cada contrato deben aclarar qué producción recibirá el comerciante y qué ocurre ante una pérdida de cosecha. La arquitectura permite registrar estas condiciones, pero no presupone una cantidad garantizada ni la eliminación del riesgo agrícola. Tampoco se consideran definitivos los precios de los planes, el número de hitos o el proveedor de pagos.
+**Versiones comparadas.** Webapp del equipo: `develop f635d7f` y `main 33bf377`. Landing: `develop ccc9d71` y `main 35fc7c0`; la incorporación de ambos videos se refleja en `develop`. Backend: `allpatek-platform.zip` (Java 27, Spring Boot 4.1.2, Spring Data JPA y MySQL 8.4 en la prueba). La versión publicada y una ejecución Angular–Spring de punta a punta requieren evidencia aparte.
 
 ### 4.6.1. Design-Level Event Storming
 
-El **Design-Level EventStorming** permite recorrer lo que sucede en el negocio y relacionarlo con las funciones del sistema. Se identifican las acciones, sus resultados y las reglas necesarias. Esta propuesta detalla el Big Picture Event Storming del capítulo II y se relaciona con US02, US07, US21, US08, US09, US04 y US03 del capítulo III.
+El diagrama contrasta comandos, resultados y consultas con el flujo de la demo. Los eventos escritos en pasado describen lo que ocurrió en el negocio o la pantalla; **no implican que Spring publique esos eventos**. El Big Picture Event Storming del capítulo II conserva el ciclo de temporada planteado como diseño.
 
-| Elemento | Qué significa | Ejemplo |
+| Actor y comando | Resultado en la demo | Regla o dato de lectura |
 |---|---|---|
-| Actor | Persona o servicio que participa. | Agricultor, comerciante o servicio de pagos. |
-| Command | Acción que se solicita. | PublishPlot: publicar una parcela. |
-| Event | Hecho que ya ocurrió. | PaymentConfirmed: pago confirmado. |
-| Aggregate | Objeto principal que controla un grupo de datos y reglas. | Contract controla las condiciones y los hitos del acuerdo. |
-| Policy | Regla que indica cuándo debe ocurrir otra acción. | Después de confirmar el pago y las aceptaciones, activar el contrato. |
-| Query / Read model | Información que se consulta sin modificarla. | Parcelas disponibles o estado de un contrato. |
+| Agricultor · PublishParcel | Parcel published | El formulario asigna propietario y guarda `available`. El catálogo consulta parcelas. |
+| Comerciante · AcceptAgreement; agricultor · ConfirmAgreement | Merchant acceptance recorded → Farmer acceptance recorded | La bóveda lee acuerdos con ambas aceptaciones. La confirmación en la UI no verifica identidad ni dinero. |
+| Agricultor · SubmitEvidence | Evidence submitted (`review`) | El formulario exige un hito habilitado y una imagen. El tablero identifica acuerdos mediante la aceptación del comerciante. |
+| Comerciante · VerifyEvidence; ReleaseMilestone | Evidence verified (`verified`) → Release recorded (`accepted`) | Se verifica la evidencia en una pantalla y se marca la liberación simulada en la bóveda. |
+| Agricultor · ViewForecast | Forecast displayed | Consulta de parcelas con coordenadas y pronóstico; no crea una alerta persistente. |
 
-El flujo se separa por bounded context para mostrar quién controla cada decisión. Land Management publica y reserva la parcela; Season Contracting administra la propuesta, la aceptación y los hitos; Payments and Plans confirma los fondos y solicita los desembolsos; Crop Monitoring registra las evidencias. Las flechas entre contextos representan reacciones explícitas a eventos, no acceso directo a sus datos.
+![Figura 4.6.1. Design-Level EventStorming del flujo de demostración](assets/chapter-04/architecture/01-eventstorming.png)
 
-![Figura 4.6.1. Propuesta de EventStorming para el flujo principal](assets/chapter-04/architecture/01-eventstorming.png)
+*Figura 4.6.1. Design-Level EventStorming del flujo de demostración.* [Fuente PlantUML](assets/chapter-04/architecture/01-eventstorming.puml) · [SVG](assets/chapter-04/architecture/01-eventstorming.svg).
 
-*Figura 4.6.1. Propuesta de EventStorming para el flujo principal.* [Diagrama editable](assets/chapter-04/architecture/01-eventstorming.puml).
+**Reglas aún por implementar.** El diseño objetivo requiere evitar reservas o temporadas activas superpuestas, validar las condiciones aceptadas por ambas partes y confirmar el abono antes de activar un contrato real. Aprobar un hito y confirmar su desembolso son decisiones distintas. El servidor todavía debe imponer las transiciones, verificar al actor, evitar duplicados y conservar las evidencias durante las actualizaciones. La entrega de un PDF o un aviso no debe confirmar un pago ni determinar su estado.
 
-Los aggregate roots principales son User, Plot, Proposal, Reservation, Contract, Payment, ProgressUpdate y WeatherAlert. Después de `PaymentConfirmed`, Season Contracting ejecuta `ActivateContract`. El evento `ContractActivated` inicia los flujos de n8n `GenerateContractPdf` y `SendContractNotification`. De forma similar, `ProgressRecorded` inicia `NotifyProgressUpdate`. La aprobación del hito produce `MilestoneApproved`; luego Payments and Plans solicita el desembolso sin confundir la aprobación del trabajo con la confirmación bancaria.
-
-Las reglas principales son:
-
-- Una propuesta puede recibir una contraoferta y vence si el comerciante no responde dentro del plazo acordado. Una reserva temporal evita que una misma parcela se ofrezca a dos comerciantes mientras se confirma el pago.
-- Una parcela no puede asignarse a dos contratos activos con fechas superpuestas. La API revisa la disponibilidad también al confirmar la contratación.
-- El contrato se activa cuando ambas partes aceptaron las mismas condiciones y se verificó el pago correspondiente. Si se cambian las condiciones antes de la activación, deben aceptarse nuevamente.
-- El agricultor registra evidencias con fecha y ubicación; el comerciante revisa los criterios del hito. Un rechazo debe incluir una observación que permita corregirlo.
-- La aprobación de un hito y la confirmación de su desembolso son hechos diferentes. El estado del pago se actualiza según el resultado del proveedor.
-- Los criterios de pago por labor deben distinguir el trabajo realizado del rendimiento de la cosecha, de acuerdo con el modelo del capítulo I.
-- Una falla de correo no anula un contrato ni debe duplicar un pago.
-
-**Evidencia de validación colaborativa requerida:** el modelo ya identifica los bounded contexts, comandos, eventos, aggregate roots, read models y políticas. Para cerrar esta sección todavía debe adjuntarse la evidencia real de una sesión del equipo: fecha, participantes, enlace al tablero, captura y decisiones acordadas. No se reemplaza esta evidencia con un diagrama elaborado individualmente.
+Este diagrama se cotejó con el código. Una sesión colaborativa de validación se debe respaldar aparte con fecha, participantes, tablero y decisiones.
 
 ### 4.6.2. Software Architecture Context Diagram
 
-El diagrama de contexto muestra Allpatek como un sistema completo: quién lo utiliza y con qué servicios externos se comunica. El agricultor publica parcelas y reporta labores. El comerciante consulta ofertas, contrata una temporada y revisa los avances. Los servicios externos permiten verificar pagos, obtener información meteorológica y enviar mensajes.
+Los actores principales son el agricultor y el comerciante. La landing explica la propuesta y abre la aplicación. Angular proporciona las pantallas de la demo y usa una API simulada. Los navegadores llaman a n8n desde ciertos formularios; Open-Meteo proporciona el pronóstico y OpenStreetMap, el mapa del formulario de parcela. Una pasarela de pagos, la firma verificable y el almacenamiento documental quedan como integraciones propuestas.
 
-![Figura 4.6.2. Diagrama de contexto de Allpatek](assets/chapter-04/architecture/02-context.png)
+![Figura 4.6.2. Contexto de Allpatek y sistemas externos](assets/chapter-04/architecture/02-context.png)
 
-*Figura 4.6.2. Diagrama de contexto de Allpatek.* [Diagrama editable](assets/chapter-04/architecture/02-context.puml).
-
-Esta vista ayuda a reconocer el alcance del producto. Los proveedores concretos todavía deben seleccionarse. La custodia real de fondos descrita en los prototipos depende de las capacidades del proveedor; una demostración con pagos simulados deberá identificarse como tal.
+*Figura 4.6.2. Contexto de Allpatek y sistemas externos.* [Fuente PlantUML](assets/chapter-04/architecture/02-context.puml) · [SVG](assets/chapter-04/architecture/02-context.svg).
 
 ### 4.6.3. Software Architecture Container Diagrams
 
-El diagrama de contenedores muestra las aplicaciones y almacenes que forman la solución. En C4, la palabra *container* se refiere a una aplicación o almacén de datos; no exige utilizar Docker.
-
-![Figura 4.6.3. Aplicaciones y almacenamiento de Allpatek](assets/chapter-04/architecture/03-containers.png)
-
-*Figura 4.6.3. Aplicaciones y almacenamiento de Allpatek.* [Diagrama editable](assets/chapter-04/architecture/03-containers.puml).
-
-| Elemento | Función | Tecnología propuesta |
+| Contenedor | Tecnología | Conexión observada |
 |---|---|---|
-| Landing page | Presentar el negocio y dirigir al registro o catálogo. | HTML5, CSS3 y JavaScript. |
-| Web application (SPA) | Ejecutarse en el navegador como una Single-Page Application y mostrar las pantallas que utilizan agricultores y comerciantes. | Angular, TypeScript y Angular Material. |
-| REST API | Procesar solicitudes, validar reglas y administrar información. | Java, Spring Boot y Spring Data JPA; documentación OpenAPI/Swagger. |
-| Base de datos | Guardar usuarios, parcelas, contratos, pagos y avances. | PostgreSQL, como propuesta a confirmar con el equipo. |
-| Almacenamiento de archivos | Conservar fotos, evidencias y documentos PDF. | Servicio privado de almacenamiento por seleccionar. |
-| n8n | Coordinar la generación del documento y el envío de mensajes. | Flujos de automatización n8n, con su almacenamiento de configuración. |
+| Landing | HTML, CSS y JavaScript | Abre la SPA, enlaza recursos y envía solicitudes de contacto a un webhook configurado. |
+| Aplicación web | SPA Angular 22.2, CSS, Signals, HttpClient y ngx-translate | Usa JSON Server local o Azure Mock API según el entorno. Consulta Open-Meteo y muestra un mapa de OpenStreetMap desde el navegador. |
+| API simulada | JSON Server / Azure Mock API | Colecciones `parcels`, `agreements`, `wallets`, `evidence`, `profiles` y `users` usadas por la demo. |
+| API de servicios | Java 27, Spring Boot 4.1.2, JPA, OpenAPI | REST `/api/v1`; verificada localmente con MySQL. También puede consultar Open-Meteo en `/api/v1/alerts`. |
+| Base de datos | MySQL | Guarda perfiles, parcelas, acuerdos, wallets y evidencias de la API Java. |
+| Automatización externa | n8n | Recibe solicitudes desde el navegador. El ZIP no incluye los workflows ni un generador de PDF en Spring. |
 
-La **SPA Angular** se descarga y ejecuta en el navegador. Cambia de vistas mediante el enrutador del cliente y consume la REST API por HTTPS/JSON, sin renderizar las reglas del negocio en el navegador. La API consulta y guarda los datos. Los archivos se entregan únicamente a usuarios autorizados. n8n recibe una solicitud autenticada de la API, obtiene el documento y coordina su envío. Para generar el PDF, se propone que n8n invoque un servicio Java de la API que utilice los datos del contrato.
+![Figura 4.6.3. Contenedores de la demo y de los servicios Java](assets/chapter-04/architecture/03-containers.png)
 
-La interfaz tendrá inglés como idioma predeterminado y español latinoamericano como alternativa, conforme al enunciado. Las pantallas contemplarán uso con teclado, etiquetas claras, contraste y adaptación a móviles. Para la conectividad limitada se propone conservar borradores de avances y enviarlos al recuperar conexión; pagos y aceptación de contratos requieren conexión.
+*Figura 4.6.3. Contenedores de la demo y de los servicios Java.* [Fuente PlantUML](assets/chapter-04/architecture/03-containers.puml) · [SVG](assets/chapter-04/architecture/03-containers.svg).
+
+La SPA se descarga y ejecuta en el navegador. Su enrutador cambia de vista y sus servicios de datos cargan o actualizan los registros. La configuración revisada todavía separa la API simulada de la API Java: cambiar una URL no resuelve por sí solo los contratos, el acceso ni los datos iniciales.
 
 ### 4.6.4. Software Architecture Components Diagrams
 
-Los componentes permiten ver cómo se organiza cada aplicación por dentro. La API aplica DDD junto con una arquitectura de puertos y adaptadores. Los **adaptadores de entrada REST** traducen HTTP a comandos y consultas. Cada bounded context contiene sus **servicios de aplicación**, **aggregate roots**, **value objects** y **puertos de repositorio**. Los adaptadores de persistencia y de servicios externos implementan esos puertos sin introducir detalles de PostgreSQL, pagos o n8n dentro del modelo de dominio.
+**API Java.** Los controladores REST convierten los recursos HTTP en comandos o consultas. Los servicios de aplicación trabajan con agregados y repositorios del dominio. Los adaptadores JPA convierten esos objetos a entidades de persistencia. Clima consulta parcelas mediante `ParcelsContextFacade` y delega el pronóstico al adaptador Open-Meteo. No hay una conexión comprobada que ejecute automáticamente un desembolso al cambiar una evidencia.
 
-![Figura 4.6.4-A. Componentes de la API](assets/chapter-04/architecture/04-api-components.png)
+![Figura 4.6.4-A. Componentes de la API Spring](assets/chapter-04/architecture/04-api-components.png)
 
-*Figura 4.6.4-A. Componentes de la API.* [Diagrama editable](assets/chapter-04/architecture/04-api-components.puml).
+*Figura 4.6.4-A. Componentes de la API Spring.* [Fuente PlantUML](assets/chapter-04/architecture/04-api-components.puml) · [SVG](assets/chapter-04/architecture/04-api-components.svg).
 
-Por ejemplo, una solicitud de contratación entra por un controlador, ejecuta un caso de uso de Season Contracting y modifica el aggregate `Contract`. El módulo consulta la disponibilidad de la parcela y el pago mediante puertos explícitos. Finalmente, un adaptador JPA persiste el agregado. Esta dirección de dependencias mantiene las reglas del negocio independientes de Spring MVC, PostgreSQL, proveedores de pago y n8n.
+**Aplicación web.** Las rutas organizan las pantallas por rol. Los stores usan Signals para exponer estado; los endpoints y assemblers traducen entre los modelos de Angular y el JSON de la demo. La UI permite ver acuerdos, wallet y evidencias; la selección de rol y los guardas de ruta operan en el cliente.
 
-![Figura 4.6.4-B. Componentes de la aplicación web](assets/chapter-04/architecture/05-web-components-update.png)
+![Figura 4.6.4-B. Componentes de la SPA Angular del equipo](assets/chapter-04/architecture/05-web-components.png)
 
-*Figura 4.6.4-B. Componentes de la aplicación web.* [Diagrama editable](assets/chapter-04/architecture/05-web-components.puml).
+*Figura 4.6.4-B. Componentes de la SPA Angular del equipo.* [Fuente PlantUML](assets/chapter-04/architecture/05-web-components.puml) · [SVG](assets/chapter-04/architecture/05-web-components.svg).
 
-La navegación abre las pantallas según el usuario. Los servicios de Angular solicitan información a la API y muestran sus resultados. Guardar un borrador local permite recuperar un avance aún no enviado; no significa que el servidor ya lo haya registrado.
+**Landing.** El header, las secciones informativas, los planes y el contacto son componentes de una página estática. JavaScript gestiona navegación móvil, idioma y formulario. La rama de desarrollo incorpora los videos del producto y del equipo.
 
-![Figura 4.6.4-C. Componentes de la landing page](assets/chapter-04/architecture/06-landing-components.png)
+![Figura 4.6.4-C. Componentes de la landing](assets/chapter-04/architecture/06-landing-components.png)
 
-*Figura 4.6.4-C. Componentes de la landing page.* [Diagrama editable](assets/chapter-04/architecture/06-landing-components.puml).
+*Figura 4.6.4-C. Componentes de la landing.* [Fuente PlantUML](assets/chapter-04/architecture/06-landing-components.puml) · [SVG](assets/chapter-04/architecture/06-landing-components.svg).
 
-Las secciones presentan el servicio, mientras los estilos y el idioma mantienen una experiencia consistente. Los botones principales conducen a la vista correspondiente de la aplicación.
+**Automatización.** El navegador solicita notificaciones para contacto, acuerdo, evidencia y liberación simulada. En la SPA, la llamada de acuerdo se intenta después de guardar la segunda aceptación; la de evidencia se inicia antes del guardado, y la de liberación depende del resultado que informa la UI. El código revisado no confirma la generación de PDF ni la entrega del correo. Spring no dispara estos webhooks en el ZIP.
 
-![Figura 4.6.4-D. Componentes de la automatización](assets/chapter-04/architecture/07-n8n-components.png)
+![Figura 4.6.4-D. Invocaciones de webhooks desde el navegador](assets/chapter-04/architecture/07-n8n-components.png)
 
-*Figura 4.6.4-D. Componentes de la automatización.* [Diagrama editable](assets/chapter-04/architecture/07-n8n-components.puml).
-
-Un flujo solicita el PDF del contrato; otro envía avisos de avance o clima. Ambos informan si el envío fue exitoso. El correo será el canal inicial; WhatsApp se integrará si el equipo confirma su proveedor y alcance.
-
-Los almacenes se detallan en el diseño de datos de 4.8. La base propia de n8n guarda su configuración y ejecuciones; no reemplaza la base de contratos y pagos de Allpatek.
+*Figura 4.6.4-D. Invocaciones de webhooks desde el navegador.* [Fuente PlantUML](assets/chapter-04/architecture/07-n8n-components.puml) · [SVG](assets/chapter-04/architecture/07-n8n-components.svg).
 
 ## 4.7. Software Object-Oriented Design
 
-El diseño orientado a objetos representa los elementos del negocio mediante clases DDD. Un **Aggregate Root** controla los cambios que deben conservar consistencia; una **Entity** tiene identidad dentro del agregado; y un **Value Object** representa un concepto inmutable y valida sus propios datos. Por ejemplo, `Contract` controla sus hitos, mientras `Money`, `DateRange` y `ContractTerms` evitan representar reglas del negocio como valores primitivos sin comportamiento.
-
-Las clases se agrupan en los mismos cinco bounded contexts de la arquitectura. Los estereotipos `Aggregate Root`, `Entity`, `Value Object` y `Repository Port` hacen explícita su responsabilidad. Los atributos se muestran con **-** para indicar acceso privado y los métodos con **+** para indicar acceso público. Las enumeraciones limitan roles y estados; los identificadores de otros contextos se modelan como value objects y no como asociaciones que permitan modificar el agregado externo.
+Las figuras de clases corresponden a la API Java. Los agregados agrupan los datos del negocio; los value objects expresan conceptos como una firma, una tarjeta enmascarada o el cronograma de campaña. Las entidades JPA y los assemblers mantienen el almacenamiento separado del modelo de dominio. Angular se documenta en la figura 4.6.4-B.
 
 ### 4.7.1. Class Diagrams
 
-Los diagramas siguientes corresponden al modelo de dominio de la API Java. Los repositorios se expresan como puertos del dominio; Spring Data JPA implementará sus adaptadores en infraestructura. Los value objects como `EmailAddress`, `Money`, `GeoLocation`, `DateRange`, `ContractTerms`, `Evidence` y `ProviderReference` centralizan validaciones que antes estaban dispersas en atributos `String` o `BigDecimal`.
+#### Gestión de parcelas
 
-#### Users and Profiles
+`Parcel` reúne ubicación, área, costo, cronograma, cultivos e imágenes. En el ZIP, `ParcelLocation` y `CampaignCost` encapsulan texto; todavía no constituyen un servicio de geolocalización ni un monto monetario transaccional.
 
-`User` y `Review` son aggregate roots. `EmailAddress`, `PhoneNumber`, `IdentityDocument` y `Rating` validan conceptos del perfil sin identidad propia. Review conserva referencias mediante `UserId` y `ContractId`, evitando acoplar su ciclo de vida al de otros contextos.
+![Figura 4.7.1-A. Clases de gestión de parcelas](assets/chapter-04/architecture/09-classes-plots.png)
 
-![Figura 4.7.1. Clases de Users and Profiles](assets/chapter-04/architecture/08-classes-users.png)
+*Figura 4.7.1-A. Clases de gestión de parcelas.* [Fuente PlantUML](assets/chapter-04/architecture/09-classes-plots.puml) · [SVG](assets/chapter-04/architecture/09-classes-plots.svg).
 
-*Figura 4.7.1. Clases de Users and Profiles.* [Diagrama editable](assets/chapter-04/architecture/08-classes-users.puml).
+#### Acuerdos de temporada
 
-#### Land Management
+`Agreement` relaciona una parcela con un comerciante mediante identificadores y encapsula los indicadores de aceptación en `ContractSignatures`. La API no conserva una reserva, una versión de cláusulas, un PDF ni una confirmación de pago.
 
-`Plot` es el aggregate root y controla sus entidades `PlotPhoto`. `GeoLocation`, `Area`, `Money` y `AvailabilityPeriod` validan coordenadas, superficie, costo y periodos. La regla de una sola fotografía principal y los cambios de disponibilidad se ejecutan a través de Plot.
+![Figura 4.7.1-B. Clases de acuerdos](assets/chapter-04/architecture/10-classes-contracts.png)
 
-![Figura 4.7.2. Clases de Land Management](assets/chapter-04/architecture/09-classes-plots.png)
+*Figura 4.7.1-B. Clases de acuerdos.* [Fuente PlantUML](assets/chapter-04/architecture/10-classes-contracts.puml) · [SVG](assets/chapter-04/architecture/10-classes-contracts.svg).
 
-*Figura 4.7.2. Clases de Land Management.* [Diagrama editable](assets/chapter-04/architecture/09-classes-plots.puml).
+#### Bóveda de demostración
 
-#### Season Contracting
+`Wallet` asocia un perfil con `PaymentCard` y `MoneyCents`. El modelo guarda los últimos cuatro dígitos y otros metadatos de tarjeta, además del monto inicial. No hay un libro de movimientos ni un proveedor de pagos conectado.
 
-`Proposal`, `Reservation` y `Contract` son aggregate roots con límites de consistencia distintos. `Milestone` es una entity propiedad de Contract y no se modifica de manera independiente. `Money`, `DateRange`, `ContractTerms`, `ContractAcceptance` y `MilestoneCriteria` expresan reglas como la moneda, el periodo, la versión aceptada de las condiciones y los criterios de aprobación.
+![Figura 4.7.1-C. Clases de wallets de demostración](assets/chapter-04/architecture/11-classes-payments.png)
 
-![Figura 4.7.3. Clases de Season Contracting](assets/chapter-04/architecture/10-classes-contracts.png)
+*Figura 4.7.1-C. Clases de wallets de demostración.* [Fuente PlantUML](assets/chapter-04/architecture/11-classes-payments.puml) · [SVG](assets/chapter-04/architecture/11-classes-payments.svg).
 
-*Figura 4.7.3. Clases de Season Contracting.* [Diagrama editable](assets/chapter-04/architecture/10-classes-contracts.puml).
+#### Evidencias y clima
 
-#### Payments and Plans
+`MilestoneEvidence` relaciona una parcela con un número de hito del 1 al 4, un estado, notas y archivo. El estado pertenece al modelo, pero el servidor aún no exige pasar de `review` a `verified` y luego a `accepted`. `ClimateReading` se calcula al consultar un pronóstico y no se persiste.
 
-`Payment`, `SubscriptionPlan` y `Subscription` son aggregate roots. `Money` protege la combinación importe-moneda y `PaymentDestination` valida que cada tipo de pago apunte a un contrato, hito o suscripción válido. `ProviderReference` permite impedir que una confirmación del proveedor se procese dos veces.
+![Figura 4.7.1-D. Clases de evidencias y consulta climática](assets/chapter-04/architecture/12-classes-monitoring.png)
 
-![Figura 4.7.4. Clases de Payments and Plans](assets/chapter-04/architecture/11-classes-payments.png)
+*Figura 4.7.1-D. Clases de evidencias y consulta climática.* [Fuente PlantUML](assets/chapter-04/architecture/12-classes-monitoring.puml) · [SVG](assets/chapter-04/architecture/12-classes-monitoring.svg).
 
-*Figura 4.7.4. Clases de Payments and Plans.* [Diagrama editable](assets/chapter-04/architecture/11-classes-payments.puml).
+#### Perfiles compartidos
 
-#### Crop Monitoring
+`Profile` encapsula `EmailAddress` y `CompanyDetails`. La API permite consultar y actualizar perfiles; el alta interna del repositorio no tiene un endpoint público de registro. No hay gestión de credenciales en `iam`.
 
-`ProgressUpdate` y `WeatherAlert` son aggregate roots. `Evidence` agrupa el archivo, la ubicación y la fecha de captura; `ClientReference` evita duplicar un avance al reintentar una carga sin conexión. `WeatherObservation` conserva la fuente y la fecha de los datos que originan una alerta.
+![Figura 4.7.1-E. Clases de perfiles compartidos](assets/chapter-04/architecture/08-classes-users.png)
 
-![Figura 4.7.5. Clases de Crop Monitoring](assets/chapter-04/architecture/12-classes-monitoring.png)
-
-*Figura 4.7.5. Clases de Crop Monitoring.* [Diagrama editable](assets/chapter-04/architecture/12-classes-monitoring.puml).
-
-La UI de Angular utilizará componentes y servicios para presentar estos datos; su organización aparece en 4.6.4-B. La landing y los flujos n8n no incorporan clases de negocio propias. Por eso los diagramas de dominio se concentran en la API y no repiten las mismas reglas en cada producto.
+*Figura 4.7.1-E. Clases de perfiles compartidos.* [Fuente PlantUML](assets/chapter-04/architecture/08-classes-users.puml) · [SVG](assets/chapter-04/architecture/08-classes-users.svg).
 
 ## 4.8. Database Design
 
-La base de datos conserva la información de Allpatek y relaciona sus elementos mediante identificadores. Se utiliza un modelo relacional para representar usuarios, parcelas, propuestas, reservas, contratos, hitos, pagos y seguimiento.
-
-Cada tabla tiene una **clave primaria (PK)** que identifica sus registros. Las **claves foráneas (FK)** relacionan tablas; por ejemplo, `plot_id` permite conocer la parcela de un contrato. Los value objects se aplanan en columnas: `Money` se guarda como importe y moneda, `GeoLocation` como latitud y longitud, y `DateRange` como fecha inicial y final. Los archivos se representan mediante una clave de almacenamiento, evitando guardar fotografías completas en los registros del negocio.
+La API Java usa **MySQL**, con entidades de persistencia para `parcels`, `agreements`, `wallets`, `evidences` y `profiles`. Se contrastaron las anotaciones JPA con los metadatos del esquema de una instancia de prueba MySQL 8.4. El mock conserva colecciones JSON y no usa este esquema.
 
 ### 4.8.1. Database Diagrams
 
-Los diagramas presentan las tablas de cada área con columnas, tipos y relaciones. El asterisco identifica campos obligatorios; UQ identifica valores únicos. Las tablas grises pertenecen a otros módulos y se muestran resumidas para explicar la relación. Un campo opcional acepta NULL.
+**Lectura.** PK identifica la fila; UQ indica un valor único; el asterisco indica NOT NULL. Las flechas discontinuas representan referencias por identificador. El esquema local inspeccionado **no declara claves foráneas** entre estas tablas. Se muestran de forma abreviada las tablas que solo aparecen como referencia.
 
-#### Users and Profiles
+![Figura 4.8.1-A. Tabla parcels y referencia a su propietario](assets/chapter-04/architecture/14-database-plots.png)
 
-User representa a una persona registrada, su rol y el estado de verificación de su identidad. Review guarda la calificación que una parte deja a la otra al terminar un contrato. Esto recoge la reputación bidireccional propuesta en el capítulo I y la validación solicitada en US01 del capítulo III.
+*Figura 4.8.1-A. Tabla parcels y referencia a su propietario.* [Fuente PlantUML](assets/chapter-04/architecture/14-database-plots.puml) · [SVG](assets/chapter-04/architecture/14-database-plots.svg).
 
-![Figura 4.8.1. Tablas de Users and Profiles](assets/chapter-04/architecture/13-database-users.png)
+![Figura 4.8.1-B. Tabla agreements y referencias a parcela y comerciante](assets/chapter-04/architecture/15-database-contracts.png)
 
-*Figura 4.8.1. Tablas de Users and Profiles.* [Diagrama editable](assets/chapter-04/architecture/13-database-users.puml).
+*Figura 4.8.1-B. Tabla agreements y referencias a parcela y comerciante.* [Fuente PlantUML](assets/chapter-04/architecture/15-database-contracts.puml) · [SVG](assets/chapter-04/architecture/15-database-contracts.svg).
 
-#### Land Management
+![Figura 4.8.1-C. Tabla wallets y referencia al perfil](assets/chapter-04/architecture/16-database-payments.png)
 
-Plot reúne los datos de la parcela, cultivo, costo orientativo y disponibilidad. Una reserva temporal protege la disponibilidad acordada antes del pago. PlotPhoto permite conservar varias fotografías y distinguir la principal, como solicita el formulario del capítulo IV.
+*Figura 4.8.1-C. Tabla wallets y referencia al perfil.* [Fuente PlantUML](assets/chapter-04/architecture/16-database-payments.puml) · [SVG](assets/chapter-04/architecture/16-database-payments.svg).
 
-![Figura 4.8.2. Tablas de Land Management](assets/chapter-04/architecture/14-database-plots.png)
+![Figura 4.8.1-D. Tabla evidences y referencia a parcela](assets/chapter-04/architecture/17-database-monitoring.png)
 
-*Figura 4.8.2. Tablas de Land Management.* [Diagrama editable](assets/chapter-04/architecture/14-database-plots.puml).
+*Figura 4.8.1-D. Tabla evidences y referencia a parcela.* [Fuente PlantUML](assets/chapter-04/architecture/17-database-monitoring.puml) · [SVG](assets/chapter-04/architecture/17-database-monitoring.svg).
 
-#### Season Contracting
+![Figura 4.8.1-E. Tabla profiles y datos de contacto](assets/chapter-04/architecture/13-database-users.png)
 
-Proposal conserva la oferta y sus contraofertas; Reservation mantiene una reserva temporal vinculada a la propuesta. Contract conserva el acuerdo aceptado y Milestone representa una etapa con sus criterios de aprobación e importe. Los hitos pertenecen al contrato y no existen de manera independiente.
+*Figura 4.8.1-E. Tabla profiles y datos de contacto.* [Fuente PlantUML](assets/chapter-04/architecture/13-database-users.puml) · [SVG](assets/chapter-04/architecture/13-database-users.svg).
 
-![Figura 4.8.3. Tablas de Season Contracting](assets/chapter-04/architecture/15-database-contracts.png)
-
-*Figura 4.8.3. Tablas de Season Contracting.* [Diagrama editable](assets/chapter-04/architecture/15-database-contracts.puml).
-
-#### Payments and Plans
-
-Payment registra una operación y su resultado. SubscriptionPlan y Subscription representan los planes mensuales de los prototipos. Su inclusión permite conectar el diseño con esas pantallas; los precios y la decisión de cobrar planes o comisiones siguen pendientes.
-
-![Figura 4.8.4. Tablas de Payments and Plans](assets/chapter-04/architecture/16-database-payments.png)
-
-*Figura 4.8.4. Tablas de Payments and Plans.* [Diagrama editable](assets/chapter-04/architecture/16-database-payments.puml).
-
-#### Crop Monitoring
-
-ProgressUpdate registra el trabajo, sus evidencias, fecha de captura y ubicación. WeatherAlert conserva una alerta con fuente y fecha. Se agrupan aquí para que el usuario consulte tanto el avance del cultivo como la información climática de su parcela. La ubicación de la evidencia responde a US04 del capítulo III.
-
-![Figura 4.8.5. Tablas de Crop Monitoring](assets/chapter-04/architecture/17-database-monitoring.png)
-
-*Figura 4.8.5. Tablas de Crop Monitoring.* [Diagrama editable](assets/chapter-04/architecture/17-database-monitoring.puml).
-
-#### Relaciones y reglas principales
-
-| Relación o dato | Regla que se aplicará |
-|---|---|
-| Usuario y parcelas | Un agricultor puede registrar varias parcelas. Solo su propietario puede modificarlas. |
-| Identidad | Todo usuario conserva el estado de su verificación. El proceso que la aprueba o rechaza se definirá con el equipo antes de implementar el servicio. |
-| Propuesta y reserva | Una propuesta tiene un plazo y puede ser aceptada, rechazada o recibir una contraoferta. Al acordar las condiciones, una reserva temporal evita que otra contratación use la misma parcela antes de confirmar el pago. |
-| Parcela y contratos | Una parcela conserva varios contratos históricos; sus temporadas activas no se superponen. |
-| Contrato e hitos | Un contrato proviene de una propuesta aceptada y puede referenciar su reserva. Tiene varios hitos ordenados cuya suma debe coincidir con el importe pactado. |
-| Aceptación y condiciones | Se guardan las fechas de aceptación del agricultor y comerciante. Cambiar condiciones antes de activar exige volver a aceptarlas; un acuerdo activo conserva las condiciones pactadas. |
-| Pago y destino | SEASON_FUNDING se vincula a un contrato; MILESTONE_RELEASE a un contrato y uno de sus hitos; SUBSCRIPTION solo a una suscripción. Los campos opcionales permiten estos tres casos, que la API debe validar. |
-| Confirmación de pagos | Una referencia de proveedor no se registra dos veces. Un hito no se desembolsa dos veces ni por encima del importe acordado. Las liberaciones acumuladas no superan los fondos confirmados de la temporada. |
-| Plan y suscripción | Un plan puede tener varias suscripciones. Sus precios y límites son configurables, no datos fijos en el código. |
-| Avance e hito | Un avance pertenece a un contrato y puede asociarse a uno de sus hitos. La API verifica que ambos correspondan al mismo acuerdo. |
-| Evidencia y ubicación | Una evidencia puede conservar fecha y coordenadas. Su ubicación se registra para validación; la regla exacta de aceptación se definirá antes de implementarla. |
-| Avances sin conexión | client_reference identifica el borrador enviado para evitar crear dos registros cuando se reintenta la misma carga. |
-| Calificación | Se permite una calificación por autor y contrato, dirigida a la otra parte y con puntuación de 1 a 5, al finalizar la temporada. |
-| Fotografías | Una parcela puede tener varias fotos y una sola principal. El formulario actual exige al menos tres para publicar. |
-| Alertas y mensajes | Las alertas indican fuente y fecha. Las marcas de envío permiten identificar documentos y avances pendientes de notificar. |
-
-Los roles y estados se validarán contra sus valores permitidos. Las áreas e importes deben ser positivos y la fecha final posterior a la inicial. Los correos serán únicos. Las comprobaciones de disponibilidad y saldo se realizarán dentro de una transacción que evite conflictos entre solicitudes simultáneas. Estos son criterios del diseño; todavía no son pruebas ejecutadas sobre una aplicación.
-
-#### Correspondencia con el informe del equipo
-
-| Función documentada | Procedencia | Diseño relacionado |
-|---|---|---|
-| Catálogo y publicación de parcelas | Capítulos I y IV | Plot, PlotPhoto y Land Management. |
-| Registro y verificación de identidad | Capítulo III | User y VerificationStatus. |
-| Propuesta, contraoferta y reserva | Capítulos II y III | Proposal, Reservation y disponibilidad de Plot. |
-| Contratación y documento automático | Capítulos I, III y IV | Contract, Payments y flujo n8n. |
-| Seguimiento, evidencias y pagos por hitos | Capítulos III y IV | Milestone, ProgressUpdate y Payment. |
-| Calificaciones entre participantes | Capítulo I | Review en Users and Profiles. |
-| Planes mensuales | Capítulo IV | SubscriptionPlan y Subscription, pendientes de confirmación comercial. |
-| Avisos por correo y WhatsApp | Capítulo I | Flujos n8n y servicios de mensajería. |
-| Conectividad limitada | Capítulo I | Borradores locales de avances y envío posterior. |
-| Alertas climáticas | Capítulo IV | WeatherAlert e integración meteorológica. |
-
-Antes de cerrar la versión del informe, el equipo debe unificar las condiciones de producción, la secuencia de aceptación y pago, el número de hitos y los planes comerciales. La firma dibujada en los prototipos y el PDF enviado representan pasos de la experiencia, pero no se presentan aquí como una certificación de firma digital. Las recomendaciones con IA y el inicio de sesión social requieren confirmación de alcance; no se añaden automáticamente a esta arquitectura.
-
+`evidences` es el nombre físico en MySQL; `/api/v1/evidence` es la ruta HTTP. Las listas de cultivos e imágenes se serializan como texto JSON. Los archivos de evidencia se guardan como texto de imagen y nombre de archivo. No existen tablas de cuentas de acceso, reservas, hitos independientes, transacciones, reseñas ni alertas meteorológicas. Para el diseño objetivo quedan pendientes las restricciones entre registros, la protección de datos y la conservación de archivos al cambiar un estado.
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -2435,7 +2368,7 @@ La solución se encuentra estructurada bajo una arquitectura desacoplada, donde 
 
 * **Landing Page:** desplegada en **GitHub Pages**.
 * **Frontend Web Application (Angular):** desplegada en **Netlify**.
-* **Backend Web Services (Java / Spring Boot) + Base de Datos (PostgreSQL/MySQL):** desplegados en **Railway**.
+* **Backend Web Services (Java / Spring Boot) + MySQL:** ejecución local verificada; el despliegue público requiere evidencia.
 
 
 
@@ -2507,84 +2440,35 @@ El frontend está desarrollado con Angular y se despliega en Netlify mediante in
         ```
 5. **Configurar variables de entorno**
     * En el panel de Netlify (*Site configuration* → *Environment variables*):
-        * `NG_APP_API_URL` = `https://tu-backend.up.railway.app/api/v1`
+        * La configuración publicada revisada toma la URL del mock de `src/environments/environment.ts`. Una variable del panel solo surtirá efecto si el proceso de build la incorpora.
 6. **Despliegue**
     * Netlify ejecuta el proceso de build automáticamente tras cada push a `main`.
     * Se genera una URL pública accesible para los usuarios finales.
 
 
 
-#### 4. Configuración de Base de Datos (PostgreSQL / MySQL en Railway)
+#### 4. Preparación de MySQL para los Web Services
 
-Antes de iniciar el backend, se aprovisiona la base de datos relacional dentro de Railway.
+La configuración de este backend usa **MySQL**. El perfil local `dev` usa el puerto 8090 por defecto y permite que Hibernate actualice el esquema. Para producción, `prod` usa el puerto 8080 por defecto y `ddl-auto=validate`: la base debe existir con el esquema aplicado antes del arranque. El ZIP no incluye migraciones ni datos iniciales de perfiles.
 
-**Pasos de configuración:**
+Configurar `DATABASE_URL` con el host de MySQL, `DATABASE_PORT`, `DATABASE_NAME`, `DATABASE_USER` y `DATABASE_PASSWORD`. Se recomienda una cuenta de base con permisos limitados y datos de demostración independientes. No guardar credenciales en Git.
 
-1. **Crear servicio de base de datos**
-    * En el dashboard de Railway, seleccionar **New Project** (o dentro del proyecto existente).
-    * Elegir **Provision PostgreSQL** (o **Provision MySQL**).
-2. **Obtener las credenciales generadas**
-    * En la pestaña **Variables** o **Connect** del servicio de la base de datos, Railway genera automáticamente:
-        * `PGHOST` / `MYSQLHOST`
-        * `PGDATABASE` / `MYSQLDATABASE`
-        * `PGUSER` / `MYSQLUSER`
-        * `PGPASSWORD` / `MYSQLPASSWORD`
-        * `PGPORT` / `MYSQLPORT`
-        * `DATABASE_URL` / `MYSQL_URL`
+#### 5. Configuración de Web Services (Java / Spring Boot)
 
+1. Preparar Java 27 y el Maven Wrapper. Compilar con `./mvnw clean package` con las dependencias y una instancia MySQL de prueba configurada para el test de arranque; ejecutar el JAR con `java -jar <archivo.jar>`.
+2. Para un entorno publicado, configurar `SPRING_PROFILES_ACTIVE=prod` y `PORT`, aplicar el esquema en MySQL y cargar datos de prueba.
+3. Antes de conectar Angular, permitir su origen HTTPS en CORS y ajustar el servidor de Swagger, configurado en el ZIP como `http://localhost:8090`.
+4. Comprobar `/health`, OpenAPI y una operación persistente. `/health` informa que la aplicación responde; la prueba de parcelas comprueba además la base.
 
+#### 6. Integración y evidencia
 
-#### 5. Despliegue de Web Services (Backend Java / Spring Boot en Railway)
-
-El backend está desarrollado en Java utilizando Spring Boot y se despliega en Railway conectado a la base de datos provisionada.
-
-**Pasos de despliegue:**
-
-1. **Subir el backend a GitHub**
-    ```bash
-    git add .
-    git commit -m "feat(backend): setup spring boot for deployment"
-    git push origin main
-    ```
-2. **Crear servicio de backend en Railway**
-    * Acceder al proyecto existente en Railway donde se encuentra la base de datos.
-    * Seleccionar **New** → **GitHub Repo**.
-    * Elegir el repositorio del backend en Java.
-3. **Configurar variables de entorno**
-    * En la pestaña **Variables** del servicio Java en Railway, configurar:
-        * `SPRING_PROFILES_ACTIVE` = `prod`
-        * `SPRING_DATASOURCE_URL` = `jdbc:postgresql://${{Postgres.PGHOST}}:${{Postgres.PGPORT}}/${{Postgres.PGDATABASE}}`
-        * `SPRING_DATASOURCE_USERNAME` = `${{Postgres.PGUSER}}`
-        * `SPRING_DATASOURCE_PASSWORD` = `${{Postgres.PGPASSWORD}}`
-        * `PORT` = `${{PORT}}`
-4. **Despliegue automático**
-    * Railway detecta el proyecto Maven/Java a través del archivo `pom.xml` y ejecuta automáticamente:
-        * **Compilation & Build:** `./mvnw clean package -DskipTests`
-        * **Execution:** `java -jar target/*.jar`
-    * **Resultado público:** `https://tu-backend.up.railway.app`
-
-
-
-#### 6. Integración de Componentes
-
-El sistema funciona de la siguiente manera:
-1. La **Landing Page** actúa como punto de entrada inicial, promocionando la solución y redirigiendo al usuario al Frontend Web.
-2. El **Frontend Web Application (Angular)** consume las APIs del backend mediante peticiones HTTP RESTful.
-3. El **Backend Web Services (Java / Spring Boot)** procesa la lógica de negocio estructurada en capas bajo DDD y gestiona las transacciones.
-4. La **Base de Datos (Railway)** almacena la información de forma persistente y segura.
-
-
+La landing enlaza la SPA. Los entornos Angular revisados apuntan al mock: JSON Server en desarrollo y Azure Mock API en la configuración publicada. La API Java con MySQL se probó por separado. Para declarar una integración, deben verificarse los contratos HTTP, los datos iniciales y los permisos, además de repetir un recorrido desde Angular con recarga. Railway se considera una opción de despliegue; esta revisión no acredita un servicio Java público allí.
 
 #### 7. Consideraciones de Despliegue
 
-* Uso obligatorio de variables de entorno para la configuración sensible (credenciales, llaves secretas, URLs de conexión).
-* Configuración de **CORS (Cross-Origin Resource Sharing)** en Spring Boot para permitir únicamente la comunicación desde el dominio del frontend en Netlify.
-* Separación clara entre entornos de desarrollo (`application-dev.yml`) y producción (`application-prod.yml`).
-* Prohibición estricta de incluir credenciales o tokens dentro del código fuente subido a GitHub.
-* Verificación periódica de la disponibilidad de endpoints mediante la documentación interactiva con Swagger/OpenAPI.
-* Preservación del versionado semántico en las entregas para asegurar la compatibilidad entre el frontend y backend.
-
-
+- Separar configuración con `application-dev.properties` y `application-prod.properties`.
+- Verificar identidad y acceso por recurso antes de publicar datos reales. En la versión revisada `iam` no implementa autenticación.
+- Conservar las URLs públicas, la versión desplegada y la evidencia de ejecución en 5.2.3.7 cuando estén verificadas.
 
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
@@ -3917,8 +3801,37 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
 | allpatek-report | feature/sprint-3-implementations | a539466 | docs: complete sprint 3 planning section | Fill Sprint Planning 3 with the TB1 review observations, retrospective agreements, goal, velocity and story points. | 2026-10-31 |
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
+
+En la verificación local del 6 de noviembre de 2026, el backend del ZIP compiló con Java 27 y arrancó contra una instancia aislada de MySQL 8.4. El empaquetado offline del JAR ejecutable no se completó por dependencias de Maven ausentes en caché; la prueba se ejecutó desde las clases compiladas y sus dependencias disponibles.
+
+| Verificación | Resultado observado |
+|---|---|
+| Health, OpenAPI y Swagger UI | HTTP 200 en `/health`, `/v3/api-docs` y `/swagger-ui/index.html`. |
+| Crear y editar parcela ficticia | HTTP 201 al crear, 409 al repetir el ID y 200 al editar. |
+| Persistencia | Tras reiniciar Spring, la consulta devolvió el nombre actualizado. |
+| Borrar parcela de prueba | HTTP 204 al borrar y 404 al repetir el borrado. |
+
+El recorrido Angular se documentó a partir del código de la demo. Esta prueba no conectó Angular a Spring ni ejecutó pagos, webhooks o pronósticos externos.
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+OpenAPI y Swagger UI se verificaron localmente. Los recursos de negocio usan el prefijo `/api/v1`:
+
+| Ruta | Métodos | Alcance |
+|---|---|---|
+| `/parcels`, `/parcels/{id}` | GET y POST en colección; PUT y DELETE por ID | Listado y mantenimiento de parcelas. |
+| `/agreements`, `/agreements/{id}` | GET, POST; PUT por ID | Listado y guardado de acuerdos con indicadores de aceptación. |
+| `/evidence`, `/evidence/{id}` | GET, POST; PUT por ID | Evidencias y estado recibido; PUT sustituye el registro. |
+| `/wallets`, `/wallets/{id}` | GET, POST; PUT por ID | Wallets de prueba con monto inicial y tarjeta enmascarada. |
+| `/profiles`, `/profiles/{id}` | GET en colección y por ID; PUT por ID | Consulta y edición de un perfil existente. |
+| `/alerts?ownerId=` | GET | Pronóstico bajo demanda; filtro de propietario opcional. |
+
+No existe `/users` en este backend. Los contratos del mock y de Spring deben comprobarse antes de cambiar la URL del frontend.
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Se dispone de verificación **local** de Spring con MySQL. No se comprobó una URL pública para esta versión del backend ni una demo Angular–Spring desplegada. Para cerrar la evidencia se debe registrar la URL del servicio, la versión publicada y una operación de escritura y lectura desde la aplicación. El procedimiento y sus prerrequisitos se describen en 5.1.4.
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 ### 5.2.4. Sprint 4
 #### 5.2.4.1. Sprint Planning 4
@@ -4321,7 +4234,7 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
 
 ## 5.4. Video About-the-Product
 
-En esta sección se presenta el video "About-the-Product", una demostración audiovisual diseñada para exponer la propuesta de valor, la arquitectura y el funcionamiento en vivo de la plataforma **Allpatek**. La presentación evidencia cómo nuestra solución aborda la problemática de la agricultura familiar y la incertidumbre en el abastecimiento agrícola mediante el uso de tecnología automatizada. A través de un recorrido guiado por el sistema, se muestra la interacción real entre el alquiler de parcelas, el monitoreo climático, la gestión de contratos bajo custodia *Escrow* y las automatizaciones con n8n, consolidando un ecosistema transparente que reduce riesgos financieros y promueve un pago justo para los agricultores.
+En esta sección se presenta el video "About-the-Product", una demostración audiovisual diseñada para exponer la propuesta de valor, la arquitectura y el funcionamiento en vivo de la plataforma **Allpatek**. La presentación evidencia cómo nuestra solución aborda la problemática de la agricultura familiar y la incertidumbre en el abastecimiento agrícola mediante el uso de tecnología automatizada. El recorrido muestra la experiencia de la demo: catálogo de parcelas, pronóstico, aceptaciones y bóveda de pagos simulados. El video presenta la propuesta de custodia y automatización; la integración productiva y los envíos requieren evidencia por separado.
 
 
 <div align="center">

@@ -1,0 +1,39 @@
+@startuml
+title Allpatek | Parcels and On-demand Weather
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 15
+skinparam dpi 140
+hide footbox
+actor Farmer
+participant "Angular SPA" as Web
+database "Mock API" as Mock
+participant "Open-Meteo" as Weather
+
+Farmer -> Web : Select demo farmer role
+Farmer -> Web : Open /parcels/new and fill in details
+note right of Web
+  Choose coordinates manually, by department or GPS.
+  Add crops and optional photos.
+end note
+Web -> Mock : POST /parcels (status available)
+Mock --> Web : Saved parcel
+Web --> Farmer : Return to /parcels on success
+Farmer -> Web : Open /alerts
+Web -> Mock : Read parcel references
+Mock --> Web : Parcels
+Web -> Web : Keep owner's parcels with valid coordinates
+alt Coordinates available
+  Web -> Weather : GET forecasts for the owner's parcels
+  Weather --> Web : Current, hourly and daily forecast
+  Web --> Farmer : Show readings and estimated risk
+else No usable coordinates
+  Web --> Farmer : No readings
+end
+note over Web,Weather
+  The browser calls Open-Meteo directly.
+  The separate Spring GET /api/v1/alerts reads MySQL parcels
+  and calls Open-Meteo independently; Angular does not call it.
+end note
+@enduml

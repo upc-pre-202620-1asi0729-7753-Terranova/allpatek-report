@@ -5,23 +5,28 @@ skinparam backgroundColor white
 skinparam defaultFontName SansSerif
 skinparam defaultFontSize 15
 skinparam shadowing false
-skinparam classAttributeIconSize 0
-skinparam ArrowColor #476050
 skinparam dpi 140
+
 title Allpatek | C4 - System context
-
 LAYOUT_TOP_DOWN()
-Person(farmer,"Farmer","Publishes plots and records agricultural work")
-Person(merchant,"Merchant","Contracts a season and reviews progress")
-System(app,"Allpatek","Connects farmers and merchants through seasonal agricultural contracts")
-System_Ext(pay,"Payment service","Confirms payments; release capabilities to validate")
-System_Ext(weather,"Weather service","Provides location-based weather data")
-System_Ext(message,"Messaging services","Email and optional WhatsApp delivery")
-Rel(farmer,app,"Publishes plots and reports progress")
-Rel(merchant,app,"Contracts, pays and reviews milestones")
-Rel(app,pay,"Requests and checks payments")
-Rel(app,weather,"Consults weather information")
-Rel(app,message,"Sends contracts and updates")
-SHOW_LEGEND()
 
+Person(farmer, "Farmer", "Publishes parcels, accepts agreements and submits evidence.")
+Person(merchant, "Merchant", "Chooses a parcel, accepts an agreement and reviews milestones.")
+
+System(allpatek, "Allpatek", "Seasonal agricultural agreements and crop tracking. Payments in the browser demo are simulated.")
+
+System_Ext(mock, "Azure Mock API", "Provides demo records and receives demo updates.")
+System_Ext(weather, "Open-Meteo", "Provides location-based weather forecasts.")
+System_Ext(maps, "OpenStreetMap", "Embedded parcel location map.")
+System_Ext(automation, "n8n", "Browser webhook targets; workflow execution was not verified.")
+
+Rel(farmer, allpatek, "Publishes parcels and submits evidence")
+Rel(merchant, allpatek, "Requests agreements and reviews milestones")
+Rel(allpatek, mock, "Reads and writes demo records")
+Rel(allpatek, weather, "Requests forecasts")
+Rel(allpatek, maps, "Loads map in parcel form")
+Rel(allpatek, automation, "Submits contact and demo event requests")
+
+footer Spring REST API and MySQL were verified separately in a local environment. No payment provider is connected.
+SHOW_LEGEND()
 @enduml

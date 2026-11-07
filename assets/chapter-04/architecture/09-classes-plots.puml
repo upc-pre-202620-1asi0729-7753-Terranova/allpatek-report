@@ -7,95 +7,69 @@ skinparam shadowing false
 skinparam classAttributeIconSize 0
 skinparam ArrowColor #476050
 skinparam dpi 140
-title Allpatek | DDD classes - Land Management
+title Allpatek | Implemented classes - Parcel Management
 top to bottom direction
 
-class Plot <<Aggregate Root>> {
- -id: PlotId
- -farmerId: UserId
- -name: String
- -location: GeoLocation
- -area: Area
- -soilType: String
- -crop: String
- -seasonCost: Money
- -availability: AvailabilityPeriod
- -status: PlotStatus
- -photos: List<PlotPhoto>
- --
- +publish(): void
- +reserve(period: AvailabilityPeriod): void
- +changeAvailability(period: AvailabilityPeriod): void
- +addPhoto(photo: PlotPhoto): void
+package "Parcel management domain" {
+  class Parcel <<Aggregate Root>> {
+    -id: ParcelId
+    -ownerId: ProfileId
+    -name: ParcelName
+    -status: ParcelStatus
+    -area: ParcelArea
+    -location: ParcelLocation
+    -soilType: SoilType
+    -campaignCost: CampaignCost
+    -schedule: CampaignSchedule
+    -crops: Crops
+    -media: ParcelMedia
+    +update(command: UpdateParcelCommand): void
+  }
+
+  class CampaignSchedule <<Value Object>> {
+    +durationMonths: int
+    +startMonth: String
+  }
+
+  class ParcelMedia <<Value Object>> {
+    +imageUrl: String
+    +images: List<String>
+  }
+
+  class Crops <<Value Object>> {
+    +items: List<CropName>
+  }
+
+  enum ParcelStatus {
+    available
+    in_production
+    maintenance
+  }
+
+  interface ParcelRepository <<Repository Port>> {
+    +save(parcel: Parcel): Parcel
+    +findById(id: String): Optional<Parcel>
+    +findAll(): List<Parcel>
+    +deleteById(id: String): void
+  }
+
+  Parcel *-- CampaignSchedule
+  Parcel *-- ParcelMedia
+  Parcel *-- Crops
+  Parcel --> ParcelStatus
+  ParcelRepository ..> Parcel
 }
 
-class PlotPhoto <<Entity>> {
- -id: PlotPhotoId
- -file: StorageKey
- -isMain: Boolean
- --
- +setAsMain(): void
-}
+package "Persistence" {
+  class ParcelRepositoryImpl <<JPA Adapter>>
+  class ParcelPersistenceEntity <<JPA Entity>>
 
-class PlotId <<Value Object>> {
- +value: Long
+  ParcelRepositoryImpl ..> ParcelPersistenceEntity : maps via assembler
 }
-class PlotPhotoId <<Value Object>> {
- +value: Long
-}
-class UserId <<Value Object>> {
- +value: Long
-}
-class GeoLocation <<Value Object>> {
- +description: String
- +latitude: BigDecimal
- +longitude: BigDecimal
-}
-class Area <<Value Object>> {
- +hectares: BigDecimal
- +isPositive(): Boolean
-}
-class Money <<Value Object>> {
- +amount: BigDecimal
- +currency: String
- +isPositive(): Boolean
-}
-class AvailabilityPeriod <<Value Object>> {
- +start: LocalDate
- +end: LocalDate
- +overlaps(other: AvailabilityPeriod): Boolean
-}
-class StorageKey <<Value Object>> {
- +value: String
-}
-
-enum PlotStatus {
- DRAFT
- AVAILABLE
- RESERVED
- IN_PRODUCTION
- INACTIVE
-}
-
-interface PlotRepository <<Repository Port>> {
- +findById(id: PlotId): Optional<Plot>
- +save(plot: Plot): Plot
-}
-
-Plot *-- PlotId
-Plot *-- UserId : farmer
-Plot *-- GeoLocation
-Plot *-- Area
-Plot *-- Money
-Plot *-- AvailabilityPeriod
-Plot *-- "0..*" PlotPhoto
-PlotPhoto *-- PlotPhotoId
-PlotPhoto *-- StorageKey
-Plot ..> PlotStatus
-PlotRepository ..> Plot
+ParcelRepositoryImpl ..|> ParcelRepository
 
 legend bottom
-Plot is the aggregate root. PlotPhoto can only change through Plot.
-Value Objects validate location, area, money and availability rules.
+Owner is a profile ID. Location, area and campaign cost are text values.
+The API exposes parcel status; it has no automatic reservation or contract activation.
 endlegend
 @enduml

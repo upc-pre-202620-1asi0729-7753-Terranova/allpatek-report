@@ -3,40 +3,40 @@
 !include <C4/C4_Container>
 skinparam backgroundColor white
 skinparam defaultFontName SansSerif
-skinparam defaultFontSize 15
+skinparam defaultFontSize 14
 skinparam shadowing false
-skinparam classAttributeIconSize 0
-skinparam ArrowColor #476050
 skinparam dpi 140
-title Allpatek | C4 - Containers
 
+title Allpatek | C4 - Demo and local backend containers
 LAYOUT_TOP_DOWN()
-Person(user,"Farmer / Merchant","Uses the platform")
-System_Boundary(allpatek,"Allpatek") {
- Container(landing,"Landing page","HTML, CSS, JavaScript","Presents the service and routes visitors to the application")
- Container(web,"Web application (SPA)","Angular / TypeScript / Angular Material","Single-page application executed in the browser for plots, contracts, payments and progress")
- Container(api,"REST API","Java / Spring Boot / Spring Data JPA","Business rules, permissions and OpenAPI documentation")
- ContainerDb(db,"Application database","PostgreSQL - proposed","Users, plots, contracts, payments and progress")
- Container(auto,"Automation","n8n","Coordinates PDF generation and messages")
- ContainerDb(files,"Private file storage","Storage service - to select","Plot photos, evidence and contract PDFs")
- ContainerDb(runtime,"n8n persistence","Database managed for n8n","Workflow settings and execution history")
-}
-System_Ext(pay,"Payment service","Provider to select")
-System_Ext(weather,"Weather service","Provider to select")
-System_Ext(mail,"Messaging services","Email / optional WhatsApp")
-Rel(user,landing,"Reads", "HTTPS")
-Rel(user,web,"Uses the SPA in a web browser", "HTTPS")
-Rel(landing,web,"Opens registration or catalog in the SPA", "HTTPS link")
-Rel(web,api,"Requests and submits information", "HTTPS / JSON")
-Rel(api,db,"Reads and stores data", "JPA / SQL")
-Rel(api,files,"Stores and retrieves authorized files", "HTTPS")
-Rel(api,pay,"Requests / verifies payments", "HTTPS")
-Rel(pay,api,"Reports payment result", "HTTPS webhook")
-Rel(api,weather,"Requests weather data", "HTTPS")
-Rel(api,auto,"Requests document or notification", "Authenticated HTTPS")
-Rel(auto,api,"Obtains PDF and reports result", "Authenticated HTTPS")
-Rel(auto,mail,"Sends message", "HTTPS / SMTP")
-Rel(auto,runtime,"Stores workflow configuration", "SQL")
-SHOW_LEGEND()
 
+Person(user, "Farmer / Merchant", "Uses the demo in a browser.")
+Person(reviewer, "API reviewer", "Exercises endpoints locally.")
+
+System_Boundary(allpatek, "Allpatek") {
+  Container(landing, "Landing page", "HTML / CSS / JavaScript", "Describes the service and captures inquiries.")
+  Container(web, "Web application (SPA)", "Angular / TypeScript", "Demo session by role, parcels, agreements, evidence, vault and weather.")
+  Container(api, "REST API", "Java 27 / Spring Boot", "Standalone local API with OpenAPI / Swagger.")
+  ContainerDb(db, "Relational storage", "MySQL 8.4 (verified locally)", "Tables: profiles, parcels, agreements, wallets and evidences.")
+}
+
+System_Ext(mock, "Demo data API", "Azure Mock API; JSON Server for local frontend development.")
+System_Ext(auto, "n8n", "Browser webhook targets; workflows not verified.")
+System_Ext(weather, "Open-Meteo", "Weather forecast API.")
+System_Ext(maps, "OpenStreetMap", "Embedded map in the parcel form.")
+
+Rel(user, landing, "Visits", "HTTPS")
+Rel(user, web, "Uses", "HTTPS")
+Rel(landing, web, "Opens web app", "Browser link")
+Rel(landing, auto, "Sends contact form", "HTTP / JSON")
+Rel(web, auto, "Calls contract, evidence and payout hooks", "HTTPS / JSON or form")
+Rel(web, mock, "Reads and updates demo records", "HTTP / JSON")
+Rel(web, weather, "Fetches forecasts directly", "HTTPS / JSON")
+Rel(web, maps, "Displays parcel location", "HTTPS / iframe")
+Rel(reviewer, api, "Checks endpoints and Swagger locally", "HTTP / JSON")
+Rel(api, db, "Reads and persists business data", "Spring Data JPA")
+Rel(api, weather, "Fetches forecasts for /alerts", "HTTPS / JSON")
+
+footer The reviewed Angular configuration uses the mock API. An Angular-to-Spring end-to-end run was not verified.
+SHOW_LEGEND()
 @enduml

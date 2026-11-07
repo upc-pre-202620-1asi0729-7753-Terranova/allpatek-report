@@ -7,37 +7,27 @@ skinparam shadowing false
 skinparam classAttributeIconSize 0
 skinparam ArrowColor #476050
 skinparam dpi 140
-title Allpatek | Database - Users and Profiles
-top to bottom direction
 hide methods
-entity "users" as users {
- {field} * id: BIGINT <<PK>>
- {field} * full_name: VARCHAR(150)
- {field} * email: VARCHAR(254) <<UQ>>
- {field} * password_hash: VARCHAR(255)
- {field} * role: VARCHAR(20)
- {field} phone: VARCHAR(30)
- {field} * locale: VARCHAR(10)
- {field} * identity_document: VARCHAR(30) <<UQ>>
- {field} * verification_status: VARCHAR(20)
+hide circle
+title Allpatek | MySQL - Profiles
+entity "profiles" as profile {
+  {field} * id: BIGINT <<PK, AUTO>>
+  {field} * full_name: VARCHAR(160)
+  {field} * email_address: VARCHAR(160) <<UQ>>
+  {field} phone: VARCHAR(40)
+  {field} document: VARCHAR(40)
+  {field} address: VARCHAR(240)
+  {field} company: VARCHAR(160)
+  {field} ruc: VARCHAR(20)
+  {field} activity: VARCHAR(160)
+  {field} * created_at: DATETIME(6)
+  {field} * updated_at: DATETIME(6)
 }
-entity "reviews" as reviews {
- {field} * id: BIGINT <<PK>>
- {field} * contract_id: BIGINT <<FK contracts>>
- {field} * author_id: BIGINT <<FK users>>
- {field} * recipient_id: BIGINT <<FK users>>
- {field} * score: INTEGER
- {field} comment: TEXT
- {field} * created_at: TIMESTAMP
-}
-entity "contracts\n[Other module]" as contracts #EEEEEE {
- * id: BIGINT <<PK>>
-}
-contracts ||--o{ reviews : contract_id
-users ||--o{ reviews : author_id
-users ||--o{ reviews : recipient_id
+note right of profile
+  Company details are embedded.
+  No separate account, role or review table.
+end note
 legend bottom
-PK: primary key | FK: foreign key | UQ: unique | *: required
-Gray tables belong to another module.
+PK: primary key | AUTO: auto-increment | UQ: unique | *: NOT NULL
 endlegend
 @enduml

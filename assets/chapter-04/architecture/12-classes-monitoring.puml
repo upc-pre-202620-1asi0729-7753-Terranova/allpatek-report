@@ -7,113 +7,80 @@ skinparam shadowing false
 skinparam classAttributeIconSize 0
 skinparam ArrowColor #476050
 skinparam dpi 140
-title Allpatek | DDD classes - Crop Monitoring
+title Allpatek | Implemented classes - Evidence and Climate
 top to bottom direction
 
-class ProgressUpdate <<Aggregate Root>> {
- -id: ProgressUpdateId
- -contractId: ContractId
- -milestoneId: MilestoneId
- -authorId: UserId
- -clientReference: ClientReference
- -description: String
- -evidence: Evidence
- -locationStatus: EvidenceLocationStatus
- -recordedAt: Instant
- -notificationSentAt: Instant
- --
- +record(): void
- +attachEvidence(evidence: Evidence): void
- +verifyLocation(): void
- +markNotificationSent(at: Instant): void
+package "Tracking evidence" {
+  class MilestoneEvidence <<Aggregate Root>> {
+    -id: EvidenceId
+    -parcelId: ParcelId
+    -milestone: MilestoneNumber
+    -status: EvidenceStatus
+    -notes: EvidenceNotes
+    -file: EvidenceFile
+  }
+
+  class MilestoneNumber <<Value Object>> {
+    +value: int
+  }
+
+  class EvidenceFile <<Value Object>> {
+    +fileName: String
+    +image: String
+  }
+
+  enum EvidenceStatus {
+    review
+    verified
+    accepted
+  }
+
+  interface EvidenceRepository <<Repository Port>> {
+    +save(evidence: MilestoneEvidence): MilestoneEvidence
+    +findAll(): List<MilestoneEvidence>
+  }
+
+  class EvidenceRepositoryImpl <<JPA Adapter>>
+  class EvidencePersistenceEntity <<JPA Entity>>
+
+  MilestoneEvidence *-- MilestoneNumber : 1 to 4
+  MilestoneEvidence *-- EvidenceFile
+  MilestoneEvidence --> EvidenceStatus
+  EvidenceRepository ..> MilestoneEvidence
+  EvidenceRepositoryImpl ..|> EvidenceRepository
+  EvidenceRepositoryImpl ..> EvidencePersistenceEntity : maps via assembler
 }
 
-class WeatherAlert <<Aggregate Root>> {
- -id: WeatherAlertId
- -plotId: PlotId
- -observation: WeatherObservation
- -severity: AlertSeverity
- -message: String
- -createdAt: Instant
- --
- +createFrom(observation: WeatherObservation): void
-}
+package "Climate alerts" {
+  class ClimateQueryServiceImpl <<Application Service>>
+  interface ParcelsContextFacade <<Parcel Context Port>>
+  interface WeatherForecastService <<Forecast Port>>
+  class OpenMeteoWeatherForecastService <<HTTP Adapter>>
+  class ClimateReading <<Domain Record>> {
+    +place: ParcelCoordinates
+    +weather: WeatherSnapshot
+    +condition: WeatherCondition
+    +alerts(): List<ClimateAlert>
+  }
 
-class ProgressUpdateId <<Value Object>> {
- +value: Long
-}
-class WeatherAlertId <<Value Object>> {
- +value: Long
-}
-class ContractId <<Value Object>> {
- +value: Long
-}
-class MilestoneId <<Value Object>> {
- +value: Long
-}
-class UserId <<Value Object>> {
- +value: Long
-}
-class PlotId <<Value Object>> {
- +value: Long
-}
-class ClientReference <<Value Object>> {
- +value: String
-}
-class StorageKey <<Value Object>> {
- +value: String
-}
-class GeoLocation <<Value Object>> {
- +latitude: BigDecimal
- +longitude: BigDecimal
-}
-class Evidence <<Value Object>> {
- +file: StorageKey
- +location: GeoLocation
- +capturedAt: Instant
-}
-class WeatherObservation <<Value Object>> {
- +source: String
- +observedAt: Instant
- +temperatureCelsius: BigDecimal
- +humidityPercent: BigDecimal
-}
+  class ParcelCoordinates <<Value Object>> {
+    +parcelId: ParcelId
+    +name: AlertParcelName
+    +point: GeoPoint
+  }
 
-enum EvidenceLocationStatus {
- PENDING
- VERIFIED
- REJECTED
-}
-enum AlertSeverity {
- INFORMATION
- WARNING
- CRITICAL
-}
+  class ClimateAlert <<Value Object>>
 
-interface ProgressUpdateRepository <<Repository Port>> {
- +findById(id: ProgressUpdateId): Optional<ProgressUpdate>
- +findByClientReference(reference: ClientReference): Optional<ProgressUpdate>
- +save(update: ProgressUpdate): ProgressUpdate
+  ClimateQueryServiceImpl ..> ParcelsContextFacade : parcel locations
+  ClimateQueryServiceImpl ..> WeatherForecastService : requests forecasts
+  WeatherForecastService ..> ClimateReading : returns readings
+  OpenMeteoWeatherForecastService ..|> WeatherForecastService
+  ClimateReading *-- ParcelCoordinates
+  ClimateReading ..> ClimateAlert : derives alerts
 }
-interface WeatherAlertRepository <<Repository Port>> {
- +save(alert: WeatherAlert): WeatherAlert
-}
-
-ProgressUpdate *-- ProgressUpdateId
-ProgressUpdate *-- ClientReference
-ProgressUpdate *-- Evidence
-Evidence *-- StorageKey
-Evidence *-- GeoLocation
-ProgressUpdate ..> EvidenceLocationStatus
-WeatherAlert *-- WeatherAlertId
-WeatherAlert *-- PlotId
-WeatherAlert *-- WeatherObservation
-WeatherAlert ..> AlertSeverity
-ProgressUpdateRepository ..> ProgressUpdate
-WeatherAlertRepository ..> WeatherAlert
 
 legend bottom
-ClientReference prevents duplicate offline submissions.
-Evidence groups file, capture time and location as one immutable concept.
+Evidence is stored by parcel and milestone number. The server does not enforce status transitions.
+Climate readings and alerts are computed on request using Open-Meteo; they are not persisted.
 endlegend
 @enduml

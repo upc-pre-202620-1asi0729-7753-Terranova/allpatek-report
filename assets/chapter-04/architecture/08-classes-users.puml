@@ -7,99 +7,60 @@ skinparam shadowing false
 skinparam classAttributeIconSize 0
 skinparam ArrowColor #476050
 skinparam dpi 140
-title Allpatek | DDD classes - Users and Profiles
+title Allpatek | Implemented classes - Profiles
 top to bottom direction
 
-class User <<Aggregate Root>> {
- -id: UserId
- -fullName: FullName
- -email: EmailAddress
- -passwordHash: String
- -role: UserRole
- -phone: PhoneNumber
- -locale: String
- -identityDocument: IdentityDocument
- -verificationStatus: VerificationStatus
- --
- +updateProfile(name: FullName, phone: PhoneNumber): void
- +startVerification(document: IdentityDocument): void
- +verify(): void
+package "Shared domain" {
+  class Profile <<Aggregate Root>> {
+    -id: ProfileId
+    -fullName: PersonName
+    -phone: PhoneNumber
+    -document: IdentityDocument
+    -address: StreetAddress
+    -emailAddress: EmailAddress
+    -company: CompanyDetails
+    +update(command: UpdateProfileCommand): void
+    +onCreated(): void
+  }
+
+  class ProfileId <<Value Object>> {
+    +value: Long
+    +isAssigned(): boolean
+  }
+
+  class EmailAddress <<Value Object>> {
+    +address: String
+  }
+
+  class CompanyDetails <<Value Object>> {
+    +company: String
+    +ruc: String
+    +activity: String
+  }
+
+  interface ProfileRepository <<Repository Port>> {
+    +save(profile: Profile): Profile
+    +findById(id: Long): Optional<Profile>
+    +findByEmailAddress(email: EmailAddress): Optional<Profile>
+    +findAll(): List<Profile>
+  }
+
+  Profile *-- ProfileId
+  Profile *-- EmailAddress
+  Profile *-- CompanyDetails
+  ProfileRepository ..> Profile
 }
 
-class Review <<Aggregate Root>> {
- -id: ReviewId
- -contractId: ContractId
- -authorId: UserId
- -recipientId: UserId
- -score: Rating
- -comment: String
- -createdAt: Instant
- --
- +publish(): void
-}
+package "Persistence" {
+  class ProfileRepositoryImpl <<JPA Adapter>>
+  class ProfilePersistenceEntity <<JPA Entity>>
 
-class UserId <<Value Object>> {
- +value: Long
+  ProfileRepositoryImpl ..> ProfilePersistenceEntity : maps via assembler
 }
-class ReviewId <<Value Object>> {
- +value: Long
-}
-class ContractId <<Value Object>> {
- +value: Long
-}
-class FullName <<Value Object>> {
- +value: String
-}
-class EmailAddress <<Value Object>> {
- +value: String
- +normalized(): String
-}
-class PhoneNumber <<Value Object>> {
- +value: String
-}
-class IdentityDocument <<Value Object>> {
- +value: String
-}
-class Rating <<Value Object>> {
- +value: Integer
- +isValid(): Boolean
-}
-
-enum UserRole {
- FARMER
- MERCHANT
-}
-enum VerificationStatus {
- PENDING
- VERIFIED
- REJECTED
-}
-
-interface UserRepository <<Repository Port>> {
- +findById(id: UserId): Optional<User>
- +findByEmail(email: EmailAddress): Optional<User>
- +save(user: User): User
-}
-interface ReviewRepository <<Repository Port>> {
- +save(review: Review): Review
-}
-
-User *-- UserId
-User *-- FullName
-User *-- EmailAddress
-User *-- PhoneNumber
-User *-- IdentityDocument
-User ..> UserRole
-User ..> VerificationStatus
-Review *-- ReviewId
-Review *-- ContractId
-Review *-- Rating
-Review --> UserId : author and recipient
-UserRepository ..> User
-ReviewRepository ..> Review
+ProfileRepositoryImpl ..|> ProfileRepository
 
 legend bottom
-Aggregate Root controls consistency. Value Object has no independent identity.
-Repository Port belongs to the domain; infrastructure provides its adapter.
+Profiles can be read and updated over REST.
+Profile creation is internal; there is no login, role enforcement or public registration in Spring.
 endlegend
 @enduml

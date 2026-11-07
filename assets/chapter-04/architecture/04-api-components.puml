@@ -5,47 +5,44 @@ skinparam backgroundColor white
 skinparam defaultFontName SansSerif
 skinparam defaultFontSize 14
 skinparam shadowing false
-skinparam classAttributeIconSize 0
-skinparam ArrowColor #476050
-skinparam dpi 140
-title Allpatek | C4 - REST API components aligned to DDD
+skinparam dpi 135
 
+title Allpatek | C4 - Spring REST API components
 LAYOUT_TOP_DOWN()
-Container(spa,"Web application (SPA)","Angular / TypeScript","Invokes the use cases exposed by the API")
 
-Container_Boundary(api,"REST API - Spring Boot") {
-  Component(inbound,"REST inbound adapters","Spring MVC / Spring Security","Controllers translate HTTP requests into commands and queries and enforce access")
-  Component(users,"Users and Profiles","DDD bounded-context module","Application services; User aggregate; EmailAddress and PhoneNumber value objects; repository ports")
-  Component(land,"Land Management","DDD bounded-context module","Application services; Plot aggregate; GeoLocation, Area and AvailabilityPeriod value objects; repository ports")
-  Component(contracting,"Season Contracting","DDD bounded-context module","Application services; Proposal and Contract aggregates; Money, DateRange and ContractTerms value objects; repository ports")
-  Component(payments,"Payments and Plans","DDD bounded-context module","Application services; Payment and Subscription aggregates; Money and ProviderReference value objects; repository ports")
-  Component(monitoring,"Crop Monitoring","DDD bounded-context module","Application services; ProgressUpdate and WeatherAlert aggregates; Evidence and ClientReference value objects; repository ports")
-  Component(persistence,"Persistence outbound adapters","Spring Data JPA","One repository adapter per bounded context; maps domain objects to relational records")
-  Component(external,"External-service outbound adapters","Java HTTP clients","Implements ports for payments, weather, private files and n8n")
+Person(reviewer, "API reviewer", "Uses REST / Swagger locally.")
+
+Container_Boundary(api, "Spring Boot REST API") {
+  Component(rest, "REST adapters", "Spring MVC", "Controllers and resource assemblers. OpenAPI and /health.")
+  Component(profiles, "Shared profiles", "shared", "Profile queries and updates.")
+  Component(land, "Parcel management", "parcelmanagement", "Parcel aggregate and CRUD use cases.")
+  Component(agreements, "Agreements management", "agreementsmanagement", "Agreement aggregate and acceptance flags.")
+  Component(wallets, "Escrow payments", "escrowpayments", "Wallet aggregate with card metadata and opening amount.")
+  Component(evidence, "Tracking evidence", "trackingevidence", "MilestoneEvidence aggregate and evidence status.")
+  Component(alerts, "Alerts management", "alertsmanagement", "Computes climate readings for parcel locations.")
+  Component(persistence, "Persistence adapters", "Spring Data JPA", "Implement repository ports and map aggregates to entities.")
 }
 
-ContainerDb(db,"Application database","PostgreSQL","Persistent business data")
-System_Ext(services,"External services and n8n","Payments, weather, file storage, PDF generation and messages")
+ContainerDb(db, "Relational storage", "MySQL", "Persistent business records.")
+System_Ext(weather, "Open-Meteo", "External forecast data.")
 
-Rel(spa,inbound,"Calls use cases", "HTTPS / JSON")
-Rel(inbound,users,"Executes user commands and queries", "Java")
-Rel(inbound,land,"Executes land commands and queries", "Java")
-Rel(inbound,contracting,"Executes contracting commands and queries", "Java")
-Rel(inbound,payments,"Executes payment commands and queries", "Java")
-Rel(inbound,monitoring,"Executes monitoring commands and queries", "Java")
-Rel(contracting,land,"Checks plot availability through an application port", "Java")
-Rel(contracting,payments,"Checks confirmed funding through an application port", "Java")
-Rel(monitoring,contracting,"Validates contract and milestone references through an application port", "Java")
-Rel(users,persistence,"Uses repository ports", "Java")
-Rel(land,persistence,"Uses repository ports", "Java")
-Rel(contracting,persistence,"Uses repository ports", "Java")
-Rel(payments,persistence,"Uses repository ports", "Java")
-Rel(monitoring,persistence,"Uses repository ports", "Java")
-Rel(contracting,external,"Requests contract PDF and notifications through ports", "Java")
-Rel(payments,external,"Verifies payments through a payment port", "Java")
-Rel(monitoring,external,"Obtains weather data and sends progress notifications through ports", "Java")
-Rel(persistence,db,"Reads and writes", "JPA / SQL")
-Rel(external,services,"Calls", "Authenticated HTTPS")
+Rel(reviewer, rest, "Calls local API", "HTTP / JSON")
+Rel(rest, profiles, "/profiles")
+Rel(rest, land, "/parcels")
+Rel(rest, agreements, "/agreements")
+Rel(rest, wallets, "/wallets")
+Rel(rest, evidence, "/evidence")
+Rel(rest, alerts, "/alerts")
 
+Rel(profiles, persistence, "Uses repository")
+Rel(land, persistence, "Uses repository")
+Rel(agreements, persistence, "Uses repository")
+Rel(wallets, persistence, "Uses repository")
+Rel(evidence, persistence, "Uses repository")
+Rel(alerts, land, "Reads parcel locations", "ParcelsContextFacade")
+Rel(alerts, weather, "Requests forecasts", "WeatherForecastService")
+Rel(persistence, db, "Reads and writes", "SQL")
+
+footer Business routes are under /api/v1. IAM is empty. No /users, real payment execution or server-side n8n hooks.
 SHOW_LEGEND()
 @enduml

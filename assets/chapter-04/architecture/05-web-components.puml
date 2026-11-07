@@ -5,43 +5,41 @@ skinparam backgroundColor white
 skinparam defaultFontName SansSerif
 skinparam defaultFontSize 14
 skinparam shadowing false
-skinparam classAttributeIconSize 0
 skinparam ArrowColor #476050
 skinparam dpi 140
-title Allpatek | C4 - Web application components
+title Allpatek | C4 - Angular web application components
 
 LAYOUT_TOP_DOWN()
-Person(user,"Farmer / Merchant","Access according to account role")
+Person(user, "Farmer / Merchant", "Selects a role in the demo")
 
-Container_Boundary(web,"Angular web application") {
-  Component(agreements,"Season Contracting","agreements-management","Core. Views, store and HTTP adapter for seasonal contracts and signatures")
-  Component(parcels,"Land Management","parcel-management","Core. Catalog, form and plot detail")
-  Component(escrow,"Payments and Plans","escrow-payments","Core. Escrow vault, deposit and milestone release")
-  Component(evidence,"Crop Monitoring","tracking-evidence","Supporting. Milestone evidence board, upload and review")
-  Component(alerts,"Climate Alerts","alerts-management","Supporting. Weather board for contracted plots")
-  Component(shared,"Users and Profiles","shared","Generic. Shell, router, session, login, register and profile")
+Container_Boundary(web, "Angular web application") {
+  Component(shared, "Workspace and profiles", "shared", "Shell, routing, demo session, profiles and language")
+  Component(parcels, "Land Management", "parcel-management", "Merchant catalog and farmer plot management")
+  Component(agreements, "Season Contracting", "agreements-management", "Merchant request and farmer acceptance")
+  Component(evidence, "Crop Monitoring", "tracking-evidence", "Evidence upload and review by milestone")
+  Component(escrow, "Escrow vault (demo)", "escrow-payments", "Demo card, entered balance and simulated release")
+  Component(alerts, "Climate Alerts", "alerts-management", "Farmer weather board")
 }
 
-Container(api,"REST API","Spring Boot","Validates and stores information")
+Container(mock, "Mock Data API", "JSON Server / Azure Mock API", "Local or deployed mock selected by environment")
+System_Ext(weather, "Open-Meteo", "Weather forecast service")
+System_Ext(maps, "OpenStreetMap", "Embedded parcel map")
 
-Rel(user,shared,"Signs in and navigates", "Browser")
-Rel(shared,agreements,"Opens /agreements", "Angular Router")
-Rel(shared,parcels,"Opens /parcels", "Angular Router")
-Rel(shared,escrow,"Opens /escrow", "Angular Router")
-Rel(shared,evidence,"Opens /evidence", "Angular Router")
-Rel(shared,alerts,"Opens /alerts", "Angular Router")
+Rel(user, shared, "Enters and navigates", "Browser")
+Rel(shared, parcels, "/parcels", "Angular Router")
+Rel(shared, agreements, "/agreements", "Angular Router")
+Rel(shared, evidence, "/evidence", "Angular Router")
+Rel(shared, escrow, "/escrow", "Angular Router")
+Rel(shared, alerts, "/alerts (farmer)", "Angular Router")
+Rel(shared, mock, "/profiles, /users", "HTTP / JSON")
+Rel(parcels, mock, "/parcels", "HTTP / JSON")
+Rel(parcels, maps, "Displays location in the form", "HTTPS / iframe")
+Rel(agreements, mock, "/agreements, /parcels", "HTTP / JSON")
+Rel(evidence, mock, "/evidence, /agreements, /parcels", "HTTP / JSON")
+Rel(escrow, mock, "/wallets, /evidence, /agreements, /parcels", "HTTP / JSON")
+Rel(alerts, mock, "Reads plot location from /parcels", "HTTP / JSON")
+Rel(alerts, weather, "Reads forecast directly", "HTTPS / JSON")
 
-Rel(parcels,agreements,"Shares parcelId", "Identifier only")
-Rel(agreements,escrow,"Shares contractId", "Identifier only")
-Rel(agreements,evidence,"Shares contractId and milestoneId", "Identifier only")
-Rel(parcels,alerts,"Shares parcelId", "Identifier only")
-
-Rel(agreements,api,"Calls /agreements", "HTTPS / JSON")
-Rel(parcels,api,"Calls /parcels", "HTTPS / JSON")
-Rel(escrow,api,"Calls /wallets", "HTTPS / JSON")
-Rel(evidence,api,"Calls /evidence", "HTTPS / JSON")
-Rel(shared,api,"Calls /profiles and /users", "HTTPS / JSON")
-Rel(alerts,api,"Reads plot location from /parcels", "HTTPS / JSON")
-
+footer Spring Boot is reviewed separately. Browser webhooks are shown in diagram 07.
 SHOW_LEGEND()
 @enduml

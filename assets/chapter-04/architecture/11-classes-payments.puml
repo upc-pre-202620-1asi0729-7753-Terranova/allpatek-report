@@ -7,127 +7,56 @@ skinparam shadowing false
 skinparam classAttributeIconSize 0
 skinparam ArrowColor #476050
 skinparam dpi 140
-title Allpatek | DDD classes - Payments and Plans
+title Allpatek | Implemented classes - Wallet Records
 top to bottom direction
 
-class Payment <<Aggregate Root>> {
- -id: PaymentId
- -destination: PaymentDestination
- -kind: PaymentKind
- -amount: Money
- -providerReference: ProviderReference
- -status: PaymentStatus
- -createdAt: Instant
- --
- +confirm(reference: ProviderReference): void
- +markFailed(): void
- +requestRelease(): void
+package "Escrow payments domain" {
+  class Wallet <<Aggregate Root>> {
+    -id: WalletId
+    -profileId: ProfileId
+    -card: PaymentCard
+    -openingBalance: MoneyCents
+  }
+
+  class WalletId <<Value Object>> {
+    +value: String
+  }
+
+  class PaymentCard <<Value Object>> {
+    +holder: String
+    +last4: String
+    +expiry: String
+    +brand: String
+  }
+
+  class MoneyCents <<Value Object>> {
+    +value: int
+  }
+
+  interface WalletRepository <<Repository Port>> {
+    +save(wallet: Wallet): Wallet
+    +findAll(): List<Wallet>
+  }
+
+  Wallet *-- WalletId
+  Wallet *-- PaymentCard
+  Wallet *-- MoneyCents
+  WalletRepository ..> Wallet
 }
 
-class SubscriptionPlan <<Aggregate Root>> {
- -id: SubscriptionPlanId
- -name: String
- -monthlyPrice: Money
- -plotLimit: Integer
- --
- +updatePrice(price: Money): void
-}
+class WalletCommandServiceImpl <<Application Service>>
+WalletCommandServiceImpl ..> WalletRepository : save whole aggregate
 
-class Subscription <<Aggregate Root>> {
- -id: SubscriptionId
- -userId: UserId
- -planId: SubscriptionPlanId
- -billingPeriod: DateRange
- -status: SubscriptionStatus
- --
- +activate(): void
- +cancel(): void
-}
+package "Persistence" {
+  class WalletRepositoryImpl <<JPA Adapter>>
+  class WalletPersistenceEntity <<JPA Entity>>
 
-class PaymentId <<Value Object>> {
- +value: Long
+  WalletRepositoryImpl ..> WalletPersistenceEntity : maps via assembler
 }
-class SubscriptionPlanId <<Value Object>> {
- +value: Long
-}
-class SubscriptionId <<Value Object>> {
- +value: Long
-}
-class UserId <<Value Object>> {
- +value: Long
-}
-class ContractId <<Value Object>> {
- +value: Long
-}
-class MilestoneId <<Value Object>> {
- +value: Long
-}
-class Money <<Value Object>> {
- +amount: BigDecimal
- +currency: String
- +isPositive(): Boolean
-}
-class ProviderReference <<Value Object>> {
- +value: String
-}
-class PaymentDestination <<Value Object>> {
- +contractId: ContractId
- +milestoneId: MilestoneId
- +subscriptionId: SubscriptionId
- +isValidFor(kind: PaymentKind): Boolean
-}
-class DateRange <<Value Object>> {
- +start: LocalDate
- +end: LocalDate
-}
-
-enum PaymentKind {
- SEASON_FUNDING
- MILESTONE_RELEASE
- SUBSCRIPTION
-}
-enum PaymentStatus {
- PENDING
- CONFIRMED
- FAILED
- RELEASE_REQUESTED
- RELEASED
-}
-enum SubscriptionStatus {
- PENDING
- ACTIVE
- CANCELLED
- EXPIRED
-}
-
-interface PaymentRepository <<Repository Port>> {
- +findById(id: PaymentId): Optional<Payment>
- +findByProviderReference(reference: ProviderReference): Optional<Payment>
- +save(payment: Payment): Payment
-}
-interface SubscriptionRepository <<Repository Port>> {
- +findById(id: SubscriptionId): Optional<Subscription>
- +save(subscription: Subscription): Subscription
-}
-
-Payment *-- PaymentId
-Payment *-- PaymentDestination
-Payment *-- Money
-Payment *-- ProviderReference
-Payment ..> PaymentKind
-Payment ..> PaymentStatus
-SubscriptionPlan *-- SubscriptionPlanId
-SubscriptionPlan *-- Money
-Subscription *-- SubscriptionId
-Subscription *-- UserId
-Subscription *-- SubscriptionPlanId
-Subscription *-- DateRange
-Subscription ..> SubscriptionStatus
-PaymentRepository ..> Payment
-SubscriptionRepository ..> Subscription
+WalletRepositoryImpl ..|> WalletRepository
 
 legend bottom
-Money prevents invalid amount/currency combinations.
-PaymentDestination enforces the required reference for each payment kind.
+Each record holds masked card details and a positive opening amount in cents.
+No payment gateway, transaction ledger, escrow movement or actual release is implemented here.
 endlegend
 @enduml
