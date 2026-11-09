@@ -4201,6 +4201,238 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
 ### 5.3.3. Evaluaciones según heurísticas
 
 
+
+En esta sección se evalúan las sesiones de validación del Sprint 3 según heurísticas de **usabilidad**, **arquitectura de información** y **diseño inclusivo**, con el formato del Anexo D del enunciado del trabajo final. El equipo TerraNova actuó como auditor. Los clientes de la sesión son los participantes de 5.3.2 que ya cuentan con resumen de validación: **Gustavo Adolfo Suyo** (agricultor familiar), **Irma Barreto Castro** y **César Hugo Egocheaga** (comerciantes urbanos). La ficha de Rosa Flores permanece pendiente de grabación; no se incluye como cliente de esta evaluación.
+
+Las tareas observadas coinciden con las guías de 5.3.1: exploración del Landing Page, registro de parcela y alertas climáticas (agricultor); garantía Escrow, firma digital y bóveda con evidencias (comerciante). Cada hallazgo se vincula a un testimonio de la sesión o a la inspección de la interfaz durante esa misma tarea.
+
+<div style="color:#1a365d;">
+
+**UX Heuristics & Principles Evaluation**  
+**Usability – Inclusive Design – Information Architecture**
+
+| Campo | Valor |
+| :--- | :--- |
+| **CARRERA** | Ingeniería de Software |
+| **CURSO** | Desarrollo de Aplicaciones Open Source (1ASI0729) |
+| **SECCIÓN** | 7753 |
+| **PROFESORES** | Todos |
+| **AUDITOR** | TerraNova |
+| **CLIENTE(S)** | Gustavo Adolfo Suyo; Irma Barreto Castro; César Hugo Egocheaga |
+
+**SITE o APP A EVALUAR:**  
+Landing Page de Allpatek (`allpatek-website`) y Web Application (`allpatek-webapp`), en conjunto con el recorrido de demostración publicado.
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Exploración del Landing Page y comprensión del modelo Agro-as-a-Service.
+2. Publicación de una parcela (datos, ubicación y fotografías).
+3. Consulta del panel climático y de alertas.
+4. Revisión del catálogo y de la ficha de una parcela (El Tambo / equivalente).
+5. Lectura y firma digital de un acuerdo de temporada.
+6. Revisión de evidencias de un hito y aprobación de la liberación simulada en la Bóveda de Pagos.
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Registro con verificación de identidad.
+2. Depósito real de fondos en una pasarela de pagos.
+3. Generación y descarga de un contrato en PDF con firma verificable.
+4. Calificación y reseña al cierre de la temporada.
+5. Sincronización de fotografías sin conexión.
+6. Reporte de incidencias y soporte técnico.
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores se puntúan con la siguiente escala de severidad.
+
+| Nivel | Descripción |
+| :---: | :--- |
+| **1** | Problema superficial: el usuario lo supera con facilidad o ocurre con muy poca frecuencia. No necesita corrección salvo que exista tiempo disponible. |
+| **2** | Problema menor: ocurre con algo más de frecuencia o es un poco más difícil de superar. Debe recibir prioridad baja de cara al siguiente *release*. |
+| **3** | Problema mayor: ocurre con frecuencia o los usuarios no logran resolverlo. Debe corregirse con prioridad alta. |
+| **4** | Problema muy grave: impide continuar el uso o induce una decisión incorrecta en un flujo de dinero o evidencia. Debe corregirse antes de un lanzamiento. |
+
+**TABLA RESUMEN:**
+
+| # | Problema | Escala de severidad | Heurística / principio violado |
+| :---: | :--- | :---: | :--- |
+| 1 | La carga de fotografías de parcela y de evidencia exige conectividad continua; en zonas rurales el envío se retrasa o se abandona. | 3 | Inclusive Design: Proporciona experiencias comparables |
+| 2 | El Landing Page se interpreta como un catálogo de productos y precios, no como contratación de parcela y labor por temporada. | 3 | Information Architecture: Is it understandable? |
+| 3 | El catálogo no muestra cantidad disponible, precio en chacra frente a precio puesto en mercado ni quién asume el transporte. | 3 | Information Architecture: Is it findable? |
+| 4 | La ficha de parcela omite rendimiento estimado y referencias del agricultor, datos que el comerciante usa para decidir. | 2 | Information Architecture: Is it findable? |
+| 5 | El acuerdo digital no deja explícitas fechas, lugar ni acciones ante retraso o incumplimiento. | 3 | Usability: Visibilidad del estado del sistema |
+| 6 | Las evidencias fotográficas no muestran fecha de captura, coordenadas GPS ni estado del cultivo. | 3 | Usability: Reconocimiento antes que recuerdo |
+| 7 | Los avisos de avance no llegan por WhatsApp, canal habitual de ambos segmentos. | 2 | Inclusive Design: Ofrece elección |
+| 8 | No hay verificación de identidad ni señal visible de productores ya conocidos por el comerciante. | 3 | Usability: Prevención de errores |
+| 9 | La interfaz confirma una liberación de hito como exitosa aunque la respuesta HTTP sea de error. | 4 | Usability: Prevención de errores |
+
+</div>
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1:** La carga de fotografías de parcela y de evidencia exige conectividad continua
+
+**Severidad:** 3  
+**Heurística violada:** Inclusive Design — Proporciona experiencias comparables  
+**Origen:** Tarea 2 del agricultor (registro de parcela / evidencias). Testimonio de Gustavo Adolfo Suyo.
+
+**Problema:**  
+Gustavo Adolfo Suyo comprendió que Allpatek conecta productor y comerciante, y consideró viable compartir fotos del avance para generar confianza. Señaló, no obstante, que la conectividad en zonas rurales retrasa el envío de fotografías. En la interfaz actual la carga ocurre en el momento y no conserva una cola local: si la señal cae, la tarea de publicar la parcela o el hito queda incompleta. El agricultor en campo no recibe una experiencia comparable a la del comerciante urbano con conexión estable.
+
+<p align="center">
+  <img src="assets/chapter-05/heuristic-01-upload.png" alt="Carga de fotografías de parcela o evidencia sin respaldo sin conexión" width="850" />
+</p>
+
+**Recomendación:**  
+Conservar las fotografías en el dispositivo, mostrar el estado “pendiente de envío” y sincronizar cuando exista señal, de modo que la pérdida de red no impida cerrar el registro del hito.
+
+---
+
+**PROBLEMA #2:** El Landing Page se interpreta como un catálogo de productos y precios
+
+**Severidad:** 3  
+**Heurística violada:** Information Architecture — Is it understandable?  
+**Origen:** Tarea 1 del comerciante (exploración del Landing Page). Testimonio de César Hugo Egocheaga.
+
+**Problema:**  
+Tras revisar la página, César Hugo Egocheaga entendió la propuesta como un medio para consultar productos, comerciantes y precios. El modelo de Allpatek es la contratación de una parcela y de la labor del agricultor durante una temporada, con custodia por hitos. Las etiquetas y el orden de las secciones no hicieron reconocible ese modelo en el primer recorrido, por lo que el visitante del segmento comerciante asigna a la página un propósito distinto al del negocio.
+
+<p align="center">
+  <img src="assets/chapter-05/heuristic-02-landing-labeling.png" alt="Landing Page: etiquetas que no dejan claro el modelo de contratación por temporada" width="850" />
+</p>
+
+**Recomendación:**  
+Anteponer en el *hero* y en los CTA una frase única del tipo “contrata parcela y labor por temporada”, y separar con etiquetas distintas el catálogo de parcelas, los costos de campaña y cualquier mención a precios de producto en chacra o en mercado.
+
+---
+
+**PROBLEMA #3:** Faltan cantidad, diferencial de precio y responsable del transporte
+
+**Severidad:** 3  
+**Heurística violada:** Information Architecture — Is it findable?  
+**Origen:** Tarea 4 (ficha / catálogo). Testimonio de César Hugo Egocheaga.
+
+**Problema:**  
+Para usar Allpatek en su puesto del Mercado Mayorista, César pidió cantidades disponibles, costos, plazos y la diferencia entre el precio en chacra y el precio puesto en el mercado, incluyendo quién asume el transporte. Esos datos no están agrupados en la ficha de parcela ni en el acuerdo. El comerciante no encuentra la información con la que hoy decide un pedido semanal de ~400 kg.
+
+<p align="center">
+  <img src="assets/chapter-05/heuristic-03-catalog-costs.png" alt="Ficha de parcela sin cantidad, diferencial de precio ni responsable de transporte" width="850" />
+</p>
+
+**Recomendación:**  
+Añadir en la ficha y en el resumen del acuerdo tres campos visibles: cantidad o hectárea comprometida, costo de campaña, y una línea de logística (quién paga el flete y si el precio es en chacra o puesto en mercado).
+
+---
+
+**PROBLEMA #4:** La ficha de parcela omite rendimiento estimado y referencias del agricultor
+
+**Severidad:** 2  
+**Heurística violada:** Information Architecture — Is it findable?  
+**Origen:** Tarea 4. Testimonio de Irma Barreto Castro.
+
+**Problema:**  
+Irma valoró ubicación, tipo de suelo, cultivos, costos y duración de campaña de la parcela revisada. Indicó que le faltaba rendimiento estimado y referencias del agricultor para decidir el abastecimiento de su restaurante. La información existe en parte en otras vistas (perfil, evidencias), pero no en el lugar donde el comerciante compara terrenos.
+
+<p align="center">
+  <img src="assets/chapter-05/heuristic-04-parcel-card.png" alt="Ficha de parcela sin rendimiento estimado ni referencias del agricultor" width="850" />
+</p>
+
+**Recomendación:**  
+Incluir en la tarjeta y en el detalle un bloque “confianza”: rendimiento esperado de la campaña anterior (si existe) y un resumen de acuerdos cumplidos del agricultor.
+
+---
+
+**PROBLEMA #5:** El acuerdo no deja explícitas fechas, lugar ni acciones ante incumplimiento
+
+**Severidad:** 3  
+**Heurística violada:** Usability — Visibilidad del estado del sistema  
+**Origen:** Tarea 5 (lectura y firma). Testimonios de Gustavo Adolfo Suyo e Irma Barreto Castro.
+
+**Problema:**  
+Gustavo recomendó que los acuerdos especifiquen condiciones, fechas y lugar. Irma encontró claras las etapas de pago, pero pidió detallar qué ocurre ante retrasos o incumplimientos. En la vista de firma el usuario ve cláusulas y un lienzo de rúbrica; no ve un estado ni una consecuencia si un hito no se cumple en la fecha pactada. Firma sin saber cómo el sistema reaccionará si el otro actor no cumple.
+
+<p align="center">
+  <img src="assets/chapter-05/heuristic-05-agreement.png" alt="Vista de acuerdo digital sin fechas, lugar ni consecuencias de incumplimiento" width="850" />
+</p>
+
+**Recomendación:**  
+Mostrar antes de firmar un recuadro de condiciones mínimas (fecha de inicio, lugar de entrega o parcela, qué pasa si un hito se retrasa) y bloquear la firma hasta que ambas partes confirmen haberlo leído.
+
+---
+
+**PROBLEMA #6:** Las evidencias no muestran fecha, GPS ni estado del cultivo
+
+**Severidad:** 3  
+**Heurística violada:** Usability — Reconocimiento antes que recuerdo  
+**Origen:** Tarea 6 (bóveda y evidencias). Testimonio de Irma Barreto Castro.
+
+**Problema:**  
+Irma consideró útiles las fotografías para comprobar el avance, pero indicó que le faltaban la fecha exacta de captura, la ubicación GPS y el estado del cultivo. La vista de revisión muestra la imagen y un estado (`review` / `verified` / `accepted`); el comerciante debe recordar o preguntar por WhatsApp cuándo y dónde se tomó la foto. Eso debilita la decisión de liberar un hito.
+
+<p align="center">
+  <img src="assets/chapter-05/heuristic-06-evidence.png" alt="Revisión de evidencias sin fecha de captura, GPS ni estado del cultivo" width="850" />
+</p>
+
+**Recomendación:**  
+Exigir y mostrar en la tarjeta de evidencia la marca de tiempo, las coordenadas y un campo de estado del cultivo, visibles en la misma pantalla donde el comerciante aprueba o observa.
+
+---
+
+**PROBLEMA #7:** Los avisos no usan WhatsApp, el canal habitual de ambos segmentos
+
+**Severidad:** 2  
+**Heurística violada:** Inclusive Design — Ofrece elección  
+**Origen:** Cierre de la sesión con Irma Barreto Castro; hábito de comunicación también señalado por César Hugo Egocheaga en la investigación previa.
+
+**Problema:**  
+Irma indicó que preferiría recibir notificaciones por WhatsApp cuando el agricultor suba un avance. La demo dispara avisos desde el navegador hacia webhooks; el usuario no elige el canal y no ve un historial en la aplicación. Quienes ya coordinan pedidos por WhatsApp quedan fuera del hábito real de comunicación.
+
+<p align="center">
+  <img src="assets/chapter-05/heuristic-07-notifications.png" alt="Ausencia de elección de canal de aviso (WhatsApp) en la Web Application" width="850" />
+</p>
+
+**Recomendación:**  
+Permitir elegir WhatsApp o correo al crear el perfil y confirmar el aviso en la misma conversación en la que hoy se cierran los pedidos.
+
+---
+
+**PROBLEMA #8:** No hay verificación de identidad ni productores ya conocidos
+
+**Severidad:** 3  
+**Heurística violada:** Usability — Prevención de errores  
+**Origen:** Cierre de sesión con Irma Barreto Castro y César Hugo Egocheaga.
+
+**Problema:**  
+Irma usaría Allpatek si existieran agricultores verificados, contratos claros y respaldo ante incumplimientos. César destacó que la confianza en los productores es decisiva y que encontrar en la plataforma a proveedores con los que ya trabaja le daría seguridad. El acceso actual selecciona un perfil de demostración; no hay verificación de identidad ni una marca de “productor conocido”. El comerciante puede firmar y liberar fondos de demo sin un control que prevenga el error de confiar en un actor no acreditado.
+
+<p align="center">
+  <img src="assets/chapter-05/heuristic-08-identity.png" alt="Inicio de sesión de demostración sin verificación de identidad ni productores conocidos" width="850" />
+</p>
+
+**Recomendación:**  
+Marcar en el catálogo el estado de verificación del agricultor y, cuando exista, la relación previa con el comerciante. No habilitar la firma del acuerdo hasta que el perfil tenga esa marca, aunque la custodia siga siendo simulada en este Sprint.
+
+---
+
+**PROBLEMA #9:** La interfaz confirma una liberación de hito como exitosa aunque la respuesta HTTP sea de error
+
+**Severidad:** 4  
+**Heurística violada:** Usability — Prevención de errores  
+**Origen:** Inspección del flujo de la Tarea 6 (bóveda) durante la sesión de validación, contrastada con el recorrido implementado en 4.4.4.
+
+**Problema:**  
+En la Bóveda, Irma distinguió fondos retenidos y fondos liberados. En el código revisado, un error HTTP de la liberación se transforma en un resultado exitoso en la interfaz. El comerciante cree haber autorizado el desembolso del hito cuando el servidor no confirmó el cambio. En un flujo de dinero, esa confirmación falsa es un error de gran impacto: no bloquea el clic, pero induce una decisión incorrecta y puede perder la evidencia asociada al `PUT`.
+
+<p align="center">
+  <img src="assets/chapter-05/heuristic-09-escrow-false-success.png" alt="Confirmación de liberación de hito en la Bóveda sin respuesta HTTP válida" width="850" />
+</p>
+
+**Recomendación:**  
+Mostrar éxito solo tras una respuesta HTTP válida. Conservar la evidencia y el estado anterior si la actualización falla, y presentar el error con una acción para reintentar.
+
+
 ## 5.4. Video About-the-Product
 
 En esta sección se presenta el video "About-the-Product", una demostración audiovisual diseñada para exponer la propuesta de valor, la arquitectura y el funcionamiento en vivo de la plataforma **Allpatek**. La presentación evidencia cómo nuestra solución aborda la problemática de la agricultura familiar y la incertidumbre en el abastecimiento agrícola mediante el uso de tecnología automatizada. El recorrido muestra la experiencia de la demo: catálogo de parcelas, pronóstico, aceptaciones y bóveda de pagos simulados. El video presenta la propuesta de custodia y automatización; la integración productiva y los envíos requieren evidencia por separado.
