@@ -4283,7 +4283,7 @@ Los errores se puntúan con la siguiente escala de severidad.
 Gustavo Adolfo Suyo comprendió que Allpatek conecta productor y comerciante, y consideró viable compartir fotos del avance para generar confianza. Señaló, no obstante, que la conectividad en zonas rurales retrasa el envío de fotografías. En la interfaz actual la carga ocurre en el momento y no conserva una cola local: si la señal cae, la tarea de publicar la parcela o el hito queda incompleta. El agricultor en campo no recibe una experiencia comparable a la del comerciante urbano con conexión estable.
 
 <p align="center">
-  <img src="assets/chapter-05/heuristic-01-upload.png" alt="Carga de fotografías de parcela o evidencia sin respaldo sin conexión" width="850" />
+  <img src="assets/chapter-05/heuristica01.png" alt="heuristica01" width="850" />
 </p>
 
 **Recomendación:**  
@@ -4301,7 +4301,7 @@ Conservar las fotografías en el dispositivo, mostrar el estado “pendiente de 
 Para usar Allpatek en su puesto del Mercado Mayorista, César pidió cantidades disponibles, costos, plazos y la diferencia entre el precio en chacra y el precio puesto en el mercado, incluyendo quién asume el transporte. Esos datos no están agrupados en la ficha de parcela ni en el acuerdo. El comerciante no encuentra la información con la que hoy decide un pedido semanal de ~400 kg.
 
 <p align="center">
-  <img src="assets/chapter-05/heuristic-03-catalog-costs.png" alt="Ficha de parcela sin cantidad, diferencial de precio ni responsable de transporte" width="850" />
+  <img src="assets/chapter-05/heuristica02.png" alt="heuristica02" width="850" />
 </p>
 
 **Recomendación:**  
@@ -4319,7 +4319,7 @@ Añadir en la ficha y en el resumen del acuerdo tres campos visibles: cantidad o
 Irma valoró ubicación, tipo de suelo, cultivos, costos y duración de campaña de la parcela revisada. Indicó que le faltaba rendimiento estimado y referencias del agricultor para decidir el abastecimiento de su restaurante. La información existe en parte en otras vistas (perfil, evidencias), pero no en el lugar donde el comerciante compara terrenos.
 
 <p align="center">
-  <img src="assets/chapter-05/heuristic-04-parcel-card.png" alt="Ficha de parcela sin rendimiento estimado ni referencias del agricultor" width="850" />
+  <img src="assets/chapter-05/heuristica03.png" alt="heuristica03" width="850" />
 </p>
 
 **Recomendación:**  
@@ -4337,7 +4337,7 @@ Incluir en la tarjeta y en el detalle un bloque “confianza”: rendimiento esp
 Gustavo recomendó que los acuerdos especifiquen condiciones, fechas y lugar. Irma encontró claras las etapas de pago, pero pidió detallar qué ocurre ante retrasos o incumplimientos. En la vista de firma el usuario ve cláusulas y un lienzo de rúbrica; no ve un estado ni una consecuencia si un hito no se cumple en la fecha pactada. Firma sin saber cómo el sistema reaccionará si el otro actor no cumple.
 
 <p align="center">
-  <img src="assets/chapter-05/heuristic-05-agreement.png" alt="Vista de acuerdo digital sin fechas, lugar ni consecuencias de incumplimiento" width="850" />
+  <img src="assets/chapter-05/heuristica04.png" alt="heuristica04" width="850" />
 </p>
 
 **Recomendación:**  
@@ -4355,7 +4355,7 @@ Mostrar antes de firmar un recuadro de condiciones mínimas (fecha de inicio, lu
 Irma consideró útiles las fotografías para comprobar el avance, pero indicó que le faltaban la fecha exacta de captura, la ubicación GPS y el estado del cultivo. La vista de revisión muestra la imagen y un estado (`review` / `verified` / `accepted`); el comerciante debe recordar o preguntar por WhatsApp cuándo y dónde se tomó la foto. Eso debilita la decisión de liberar un hito.
 
 <p align="center">
-  <img src="assets/chapter-05/heuristic-06-evidence.png" alt="Revisión de evidencias sin fecha de captura, GPS ni estado del cultivo" width="850" />
+  <img src="assets/chapter-05/heuristica05.png" alt="heuristica05" width="850" />
 </p>
 
 **Recomendación:**  
@@ -4374,7 +4374,7 @@ Exigir y mostrar en la tarjeta de evidencia la marca de tiempo, las coordenadas 
 Irma usaría Allpatek si existieran agricultores verificados, contratos claros y respaldo ante incumplimientos. César destacó que la confianza en los productores es decisiva y que encontrar en la plataforma a proveedores con los que ya trabaja le daría seguridad. El acceso actual selecciona un perfil de demostración; no hay verificación de identidad ni una marca de “productor conocido”. El comerciante puede firmar y liberar fondos de demo sin un control que prevenga el error de confiar en un actor no acreditado.
 
 <p align="center">
-  <img src="assets/chapter-05/heuristic-08-identity.png" alt="Inicio de sesión de demostración sin verificación de identidad ni productores conocidos" width="850" />
+  <img src="assets/chapter-05/heuristica06.png" alt="heuristica06" width="850" />
 </p>
 
 **Recomendación:**  
