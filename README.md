@@ -3762,43 +3762,12 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 | --- | --- | --- | --- | --- | --- |
-| allpatek-webapp | feature/allpatek-bugfixes | d07a9da | refactor: hoist money and contract code helpers into the shared kernel | Bounded contexts now reuse one parseMoney and contractCode implementation instead of shipping identical copies. | 2026-10-05 |
-| allpatek-webapp | feature/allpatek-bugfixes | e45dead | fix: drop B2B wording from the merchant role label | Keep the register role cards unchanged and show Merchant or Comerciante only. | 2026-10-05 |
-| allpatek-webapp | feature/allpatek-bugfixes | 5f04e6b | fix: open the workspace by chosen role without checking credentials | Farmer and merchant enter at once from Create Account. Email and password stay on screen but are not used. | 2026-10-05 |
-| allpatek-webapp | develop | d5fe25f | Merge branch 'feature/allpatek-bugfixes' into develop | Integrate bugfixes for role labels, shared helpers, and workspace entry into develop. | 2026-10-05 |
-| allpatek-webapp | main | 33bf377 | Merge branch 'release/v1.0.0' into main | Promote the Sprint 2 release candidate to the production branch. | 2026-10-05 |
-| allpatek-website | develop | 7376fc4 | fix(nav): update CTA button link to production netlify URL | Point the landing CTA to the production Netlify URL of the web application. | 2026-10-05 |
-| allpatek-website | fix/contact-production-webhook | 2da48ca | fix(contact): use production n8n webhook URL | Send contact form requests to the production n8n webhook. | 2026-10-05 |
-| allpatek-website | develop | 59a3075 | Merge branch 'fix/contact-production-webhook' into develop | Integrate the production contact webhook into develop. | 2026-10-05 |
-| allpatek-website | main | 69871da | Merge branch 'fix/contact-production-webhook' into main | Promote the production contact webhook to the public landing page. | 2026-10-05 |
-| allpatek-website | release/v2.0.0 | a5eeeaa | docs: removing the word B2B | Remove B2B wording from the landing page copy. | 2026-10-18 |
-| allpatek-website | main | 35fc7c0 | Merge branch 'release/v2.0.0' into main | Promote landing page v2.0.0 to the production branch. | 2026-10-18 |
-| allpatek-website | feature/landing-page-integration | 9bfb99f | feat(landing): integrate about the product and about the team video sections | Embed the About the Product and About the Team videos in the public landing page. | 2026-10-30 |
-| allpatek-website | develop | ccc9d71 | Merge branch 'feature/landing-page-integration' into develop | Integrate the landing video sections into develop. | 2026-10-30 |
-| allpatek-report | feature/correcting-the-structure | b743454 | docs: updating the report date change | Update the report delivery date for the current evaluation period. | 2026-10-16 |
-| allpatek-report | feature/correcting-the-structure | 04530a9 | docs: replace requerimiento with requisitos | Replace the non-approved term with requisitos throughout the report. | 2026-10-20 |
-| allpatek-report | feature/correcting-the-structure | 54f6d98 | docs: update Sprint 2 tasks from To-Do to Done | Align the Sprint 2 board with the completed status of the delivered tasks. | 2026-10-20 |
-| allpatek-report | feature/correcting-the-structure | e54592c | docs: updating the month | Update the cover month for the current delivery. | 2026-10-20 |
-| allpatek-report | develop | 7077a7c | Merge branch 'feature/correcting-the-structure' into develop | Integrate TB1 review corrections into develop. | 2026-10-20 |
-| allpatek-report | feature/sprint-3-implementations | e4ec434 | docs: setup project structure and folders for sprint 3 | Create the Sprint 3 section structure in the project report. | 2026-10-20 |
-| allpatek-report | feature/sprint-3-implementations | 90b9502 | docs: add team members github usernames table | Document the GitHub username of each team member. | 2026-10-20 |
-| allpatek-report | feature/sprint-3-implementations | 2699d6f | docs: add project repositories link table | Add the official repository links used by the team. | 2026-10-20 |
-| allpatek-report | feature/sprint-3-implementations | c7f41d5 | docs: format cover page layout and members table | Align headings, add spacing and center the team members table. | 2026-10-22 |
-| allpatek-report | feature/sprint-3-implementations | 3cbf8c9 | docs: replace requerimientos wording and fix DDD description | Keep requisitos wording and describe DDD as a software design approach. | 2026-10-22 |
-| allpatek-report | feature/sprint-3-implementations | aeba161 | docs: update and complete Student Outcome | Complete Student Outcome actions for the team members. | 2026-10-22 |
-| allpatek-report | feature/sprint-3-implementations | 0c49fcd | docs: update and complete Student Outcome | Continue the Student Outcome update so every member has recorded actions. | 2026-10-22 |
-| allpatek-report | feature/sprint-3-implementations | 03650c6 | docs: add interview design section for validation | Add the validation interview guides for farmers and urban merchants. | 2026-10-22 |
-| allpatek-report | feature/sprint-3-implementations | d5a8175 | docs: add video about the product section structure | Add the About the Product video section structure. | 2026-10-22 |
-| allpatek-report | feature/sprint-3-implementations | fd6a84d | docs: add structure for interview records section | Add the empty records structure for validation interviews. | 2026-10-22 |
-| allpatek-report | feature/sprint-3-implementations | 9290e3d | docs: add light theme contributions screenshot | Add the Sprint 2 contributions screenshot in light theme. | 2026-10-22 |
-| allpatek-report | feature/sprint-3-implementations | f4dc315 | docs: add assets images for documentation | Add documentation image assets used in Chapter V. | 2026-10-22 |
-| allpatek-report | feature/sprint-3-implementations | 26fb292 | docs: fix word product backlog | Corrected spelling of requisitos in the Product Backlog section. | 2026-10-22 |
-| allpatek-report | feature/sprint-3-implementations | ea3f5fa | docs: add structure for video about the team section | Add the About the Team video section structure. | 2026-10-26 |
-| allpatek-report | feature/sprint-3-implementations | e72f17a | docs: add the images for "about the team" | Add the About the Team video capture used in the report. | 2026-10-30 |
-| allpatek-report | feature/sprint-3-implementations | b442c79 | docs: integrate about the product and about the team videos | Publish the SharePoint links and captures for both exposition videos. | 2026-10-30 |
-| allpatek-report | feature/sprint-3-implementations | 64b2ea9 | docs: add report version history section | Add the AV2 entries to the report version log. | 2026-10-31 |
-| allpatek-report | feature/sprint-3-implementations | 09c7717 | docs: add project report collaboration insights section | Update collaboration insights with usernames, repositories, and sprint screenshots. | 2026-10-31 |
-| allpatek-report | feature/sprint-3-implementations | a539466 | docs: complete sprint 3 planning section | Fill Sprint Planning 3 with the TB1 review observations, retrospective agreements, goal, velocity and story points. | 2026-10-31 |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+
+
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
