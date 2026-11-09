@@ -3760,12 +3760,60 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
+En el Sprint 3 se implementó la primera versión de los Web Services en `allpatek-platform` (Java / Spring Boot). Cada bounded context del Sprint Backlog 3 tiene su rama `feature/*`; abajo se listan los commits de implementación de ese repositorio.
+
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 | --- | --- | --- | --- | --- | --- |
+| allpatek-platform | feature/shared | aa7aa48 | feat: UpdateProfileCommand | UpdateProfileCommand. | 2026-10-28 |
+| allpatek-platform | feature/shared | 74eb16a | feat: GetAllProfilesQuery | GetAllProfilesQuery. | 2026-10-29 |
+| allpatek-platform | feature/shared | b42ab18 | feat: GetProfileByIdQuery | GetProfileByIdQuery. | 2026-10-29 |
+| allpatek-platform | feature/shared | a2cbcbc | feat: ProfileRepository in shared | ProfileRepository in shared. | 2026-10-29 |
+| allpatek-platform | feature/shared | acc72d9 | feat: ProfileCommandService in shared | ProfileCommandService in shared. | 2026-10-29 |
+| allpatek-platform | feature/shared | 83fb558 | feat: ProfileQueryService in shared | ProfileQueryService in shared. | 2026-10-29 |
+| allpatek-platform | feature/shared | e324ebf | feat: auditable persistence superclass | Auditable persistence superclass. | 2026-10-29 |
+| allpatek-platform | feature/shared | 7147441 | feat: string-id persistence superclass | String-id persistence superclass. | 2026-10-29 |
+| allpatek-platform | feature/shared | 1e68e0a | feat: snake_case plural table names | Snake_case plural table names. | 2026-10-29 |
+| allpatek-platform | feature/shared | 72e3e24 | refactor: JPA converter for email | JPA converter for email. | 2026-10-29 |
+| allpatek-platform | feature/shared | 8612ca9 | refactor: JPA converter for string lists | JPA converter for string lists. | 2026-10-29 |
+| allpatek-platform | feature/shared | 9c88bb7 | feat: company details embeddable | Company details embeddable. | 2026-10-29 |
+| allpatek-platform | feature/shared | 586a4bd | feat: Profile persistence entity | Profile persistence entity. | 2026-10-29 |
+| allpatek-platform | feature/shared | 801d0fe | feat: Profile Spring Data repository | Profile Spring Data repository. | 2026-10-29 |
+| allpatek-platform | feature/shared | 6683b1f | feat: Profile persistence assembler | Profile persistence assembler. | 2026-10-29 |
+| allpatek-platform | feature/shared | 082ae3a | feat: ProfileRepository JPA adapter | ProfileRepository JPA adapter. | 2026-10-30 |
+| allpatek-platform | feature/shared | 4fd4c19 | feat: ProfileCommandService implementation | ProfileCommandService implementation. | 2026-10-30 |
+| allpatek-platform | feature/shared | dacf19e | feat: ProfileQueryService implementation | ProfileQueryService implementation. | 2026-10-30 |
+| allpatek-platform | feature/shared | c8e35f6 | feat: enable virtual threads | Enable virtual threads. | 2026-10-30 |
+| allpatek-platform | feature/shared | 01e6466 | feat: wire OpenAPI / Swagger | Wire OpenAPI / Swagger. | 2026-10-30 |
+| allpatek-platform | feature/shared | 6b8574c | feat: resolve locale from Accept-Language | Resolve locale from Accept-Language. | 2026-10-30 |
+| allpatek-platform | feature/shared | dfec650 | feat: CORS for the Angular app | CORS for the Angular app. | 2026-10-30 |
+| allpatek-platform | feature/shared | 198210b | feat: ProblemDetail from ApplicationError | ProblemDetail from ApplicationError. | 2026-10-30 |
+| allpatek-platform | feature/shared | 396c4cc | feat: Result to ResponseEntity helper | Result to ResponseEntity helper. | 2026-10-30 |
+| allpatek-platform | feature/shared | 2756a6a | feat: ProfileResource | ProfileResource. | 2026-10-30 |
+| allpatek-platform | feature/shared | 2cfb417 | feat: UpdateProfileResource | UpdateProfileResource. | 2026-10-30 |
+| allpatek-platform | feature/shared | 5f721cd | feat: Profile REST assembler | Profile REST assembler. | 2026-10-30 |
+| allpatek-platform | feature/shared | bd5a52b | feat: RFC 9457 exception handler | RFC 9457 exception handler. | 2026-10-30 |
+| allpatek-platform | feature/shared | be73176 | feat: health check endpoint | Health check endpoint. | 2026-10-30 |
+| allpatek-platform | feature/shared | e7c2d8d | feat: profiles REST API | Profiles REST API. | 2026-10-30 |
+| allpatek-platform | feature/agreements-management | 2b80f17 | feat: leave contracts out of the first platform drop | Leave contracts out of the first platform drop. | 2026-11-08 |
+| allpatek-platform | feature/agreements-management | e66bc2a | feat: keep agreement ids off primitives | Keep agreement ids off primitives. | 2026-11-01 |
+| allpatek-platform | feature/agreements-management | 1c03658 | feat: stamp contracts with a created-at date | Stamp contracts with a created-at date. | 2026-11-01 |
+| allpatek-platform | feature/agreements-management | cb8609a | feat: hold the merchant display name on the contract | Hold the merchant display name on the contract. | 2026-11-01 |
+| allpatek-platform | feature/agreements-management | cbd9c0d | feat: split agreement reads into a query service | Split agreement reads into a query service. | 2026-11-02 |
+| allpatek-platform | feature/agreements-management | 2370391 | feat: store agreements in a JPA entity | Store agreements in a JPA entity. | 2026-11-02 |
+| allpatek-platform | feature/agreements-management | ddf1ccd | feat: embed farmer and merchant signatures | Embed farmer and merchant signatures. | 2026-11-02 |
+| allpatek-platform | feature/agreements-management | a7edfa1 | feat: talk to agreements through Spring Data | Talk to agreements through Spring Data. | 2026-11-02 |
+| allpatek-platform | feature/agreements-management | f21451c | feat: assemble agreements in and out of persistence | Assemble agreements in and out of persistence. | 2026-11-02 |
+| allpatek-platform | feature/agreements-management | b9655b8 | feat: adapt the agreement repository to JPA | Adapt the agreement repository to JPA. | 2026-11-02 |
+| allpatek-platform | feature/agreements-management | 4bb6c63 | feat: handle save-agreement in the application layer | Handle save-agreement in the application layer. | 2026-11-02 |
+| allpatek-platform | feature/agreements-management | 6b5f18b | feat: handle agreement listing in the application layer | Handle agreement listing in the application layer. | 2026-11-02 |
+| allpatek-platform | feature/agreements-management | 3987741 | feat: shape the agreement REST payload | Shape the agreement REST payload. | 2026-11-02 |
+| allpatek-platform | feature/agreements-management | 4786db7 | feat: turn agreements into REST resources | Turn agreements into REST resources. | 2026-11-02 |
+| allpatek-platform | feature/agreements-management | 596eb15 | feat: publish contracts at /api/v1/agreements | Publish contracts at /api/v1/agreements. | 2026-11-02 |
 | | | | | | |
 | | | | | | |
 | | | | | | |
 | | | | | | |
+
 
 
 
