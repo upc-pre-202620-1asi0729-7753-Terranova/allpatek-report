@@ -356,12 +356,14 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
             <li><b>TB1 - Raymundo Villarroel, Abigail Nadhim:</b> Exposición oral en video de la entrega TB1, explicando el desarrollo del bounded context <code>parcel-management</code> de la aplicación web (entidad Parcel, acceso a la API, store de estado y pantallas de tablero, formulario y detalle de parcelas) y las correcciones del Capítulo II (Empathy Mapping, guías de entrevista y Big Picture Event Storming), adaptando el vocabulario técnico para evaluadores académicos y el lenguaje del negocio para audiencias agrícolas y comerciales.</li>
             <li><b>TB1 - Egocheaga Suyo, Miguel Angel:</b> Exposición oral de la entrega TB1 del proyecto ALLPATEK, explicando el bounded context <code>escrow-payments</code> y las correcciones del Capítulo IV con un lenguaje adecuado para evaluadores académicos y audiencias comerciales.</li>
             <li><b>TB1 - Vera Solsol, Nayely Macarena:</b> Exposición oral de la entrega TB1 del proyecto ALLPATEK, explicando el bounded context <code>tracking-evidence</code> y la actualización de las User Stories y del Product Backlog con un lenguaje adecuado para audiencias académicas, agrícolas y comerciales.</li>
+            <li><b>AV2 - Atauje Barreto, Alexander Sebastián:</b> Preparación de la explicación oral del bounded context <code>alerts-management</code> para la sustentación del AV2, organizando una presentación comprensible de su arquitectura en Java y Spring Boot, la integración con la API Open-Meteo, el uso de una Anti-Corruption Layer (ACL) para consultar datos de parcelas y la exposición de alertas climáticas mediante el endpoint <code>/api/v1/alerts</code>. La explicación se orientó a relacionar las decisiones técnicas con la utilidad de las advertencias de heladas, inundaciones y vientos fuertes para los agricultores.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
           <ul>
             <li><b>AV1:</b> Se demostró capacidad para exponer de manera clara el avance de cada capítulo del informe, adaptando el lenguaje técnico al perfil de los interlocutores (evaluadores, agricultores y comerciantes).</li>
             <li><b>TB1:</b> Se sustentaron con claridad las soluciones implementadas y las correcciones realizadas tras la retroalimentación, defendiendo las decisiones del sistema ante audiencias académicas y de negocio.</li>
+            <li><b>AV2:</b> Se estructuró la explicación del desarrollo de <code>alerts-management</code> para comunicar la relación entre el diseño del backend, la integración meteorológica y el beneficio práctico de las alertas para los agricultores. La presentación oral definitiva queda sujeta a la grabación del video de sustentación.</li>
           </ul>
         </td>
       </tr>
@@ -381,12 +383,14 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
             <li><b>TB1 - Raymundo Villarroel, Abigail Nadhim:</b> Corrección y reestructuración del Capítulo II a partir de la retroalimentación de la entrega: reescritura del Empathy Mapping con los entrevistados reales, guías de entrevista con apertura y consentimiento, análisis de entrevistas actualizado con tres comerciantes, Big Picture Event Storming documentado por fases con su código fuente en Mermaid y estandarización de los nombres de archivos del informe. Además, documenté la estructura del bounded context <code>parcel-management</code> mediante commits descriptivos organizados por capas.</li>
             <li><b>TB1 - Egocheaga Suyo, Miguel Angel:</b> Redacción de las correcciones del Capítulo IV (diagramas de clases, EventStorming y modelos C4) y documentación mediante commits descriptivos del bounded context <code>escrow-payments</code>, con un lenguaje claro para perfiles técnicos y de negocio.</li>
             <li><b>TB1 - Vera Solsol, Nayely Macarena:</b> Revisión y redacción de las User Stories y del Product Backlog del Capítulo III a partir de la retroalimentación recibida, y documentación mediante commits descriptivos del bounded context <code>tracking-evidence</code>, con un lenguaje claro para perfiles técnicos y de negocio.</li>
+            <li><b>AV2 - Atauje Barreto, Alexander Sebastián:</b> Documentación de la implementación del bounded context <code>alerts-management</code> en el backend <code>allpatek-platform</code>, detallando los modelos de alertas y lecturas climáticas, las consultas por propietario, los niveles de severidad, la integración con Open-Meteo y la comunicación con <code>parcel-management</code> mediante una ACL. Asimismo, actualicé el Registro de Versiones y la sección 5.2.3.4 (Development Evidence for Sprint Review) del informe, consignando los commits del módulo con sus identificadores, mensajes y descripciones técnicas para facilitar la trazabilidad y revisión del trabajo realizado.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
           <ul>
             <li><b>AV1:</b> Se evidenció rigor y claridad en la redacción de los capítulos del informe, con contenido estructurado y comprensible para supervisores académicos y perfiles técnicos y de negocio.</li>
             <li><b>TB1:</b> Se corrigió y amplió la documentación a partir de la retroalimentación, y los commits descriptivos de cada bounded context dejaron un registro organizado y entendible para desarrolladores y supervisores.</li>
+            <li><b>AV2:</b> La documentación de las funcionalidades y los commits de <code>alerts-management</code> fortaleció la trazabilidad del Sprint 3 y permitió comunicar los avances del backend con términos técnicos precisos y explicaciones comprensibles para la evaluación académica.</li>
           </ul>
         </td>
       </tr>
