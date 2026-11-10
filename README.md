@@ -118,6 +118,12 @@
 | AV2 | 30/10/2026| Orellana Rodriguez, Mel Andree | Realizando el About the product  |
 | AV2 | 30/10/2026| Orellana Rodriguez, Mel Andree | Realizando el About the Team de forma colaborativa y los testimonios  |
 | AV2 | 22/10/2026| Orellana Rodriguez, Mel Andree | Realizando las estructura de todo lo relacionado al Sprint 3  |
+| AV2 | 06/11/2026 | Atauje Barreto, Alexander Sebastián | Implementación del modelo de alertas climáticas con niveles de severidad, identificación de parcelas y advertencias por heladas, inundaciones y vientos fuertes |
+| AV2 | 07/11/2026 | Atauje Barreto, Alexander Sebastián | Desarrollo de la capa de dominio del bounded context `alerts-management`: lecturas meteorológicas, métricas climáticas y generación de alertas por parcela |
+| AV2 | 07/11/2026 | Atauje Barreto, Alexander Sebastián | Implementación de la capa de aplicación: consultas de alertas por propietario, servicio de consultas climáticas e integración mediante puertos de salida |
+| AV2 | 07/11/2026 | Atauje Barreto, Alexander Sebastián | Desarrollo de la capa de infraestructura: integración de la API Open-Meteo para obtener pronósticos meteorológicos y conexión con `parcel-management` mediante una Anti-Corruption Layer (ACL) |
+| AV2 | 08/11/2026 | Atauje Barreto, Alexander Sebastián | Implementación de coordenadas geográficas de parcelas, mapeo de códigos meteorológicos de Open-Meteo y procesamiento de información climática para generar advertencias |
+| AV2 | 08/11/2026 | Atauje Barreto, Alexander Sebastián | Implementación de la API REST del bounded context `alerts-management`, exponiendo alertas climáticas, lecturas meteorológicas y advertencias mediante el endpoint `/api/v1/alerts` |
 | AV2 | || |
 | AV2 | || |
 | AV2 | || |
