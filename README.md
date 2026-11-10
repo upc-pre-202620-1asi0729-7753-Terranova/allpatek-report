@@ -3815,39 +3815,39 @@ En el Sprint 3 se implementó la primera versión de los Web Services en `allpat
 | allpatek-platform | feature/agreements-management | 3987741 | feat: shape the agreement REST payload | Shape the agreement REST payload. | 2026-11-02 |
 | allpatek-platform | feature/agreements-management | 4786db7 | feat: turn agreements into REST resources | Turn agreements into REST resources. | 2026-11-02 |
 | allpatek-platform | feature/agreements-management | 596eb15 | feat: publish contracts at /api/v1/agreements | Publish contracts at /api/v1/agreements. | 2026-11-02 |
-| allpatek-platform | feature/alerts-management | 53b577d | feat: add frost flood and wind warning copy | — | 2026-11-06 |
-| allpatek-platform | feature/alerts-management | 699f564 | feat: add the parcel name shown on climate warnings | — | 2026-11-06 |
-| allpatek-platform | feature/alerts-management | d448a85 | feat: add warning severity tones for field alerts | — | 2026-11-06 |
-| allpatek-platform | feature/alerts-management | 59cd7c4 | feat: add a snapshot of current climate metrics | — | 2026-11-06 |
-| allpatek-platform | feature/alerts-management | a019141 | feat: register farmer climate alerts under /api/v1/alerts | — | 2026-11-07 |
-| allpatek-platform | feature/alerts-management | b9c0e9e | feat: present climate readings as REST resources | — | 2026-11-07 |
-| allpatek-platform | feature/alerts-management | 757c2d1 | feat: present climate readings in the REST payload | — | 2026-11-07 |
-| allpatek-platform | feature/alerts-management | b52ef1a | feat: present climate warnings in the REST payload | — | 2026-11-07 |
-| allpatek-platform | feature/alerts-management | a9cdb16 | feat: integrate Open-Meteo forecast client inside alerts infrastructure | — | 2026-11-07 |
-| allpatek-platform | feature/alerts-management | 6948408 | feat: load parcel weather through the parcels ACL | — | 2026-11-07 |
-| allpatek-platform | feature/alerts-management | 4d49405 | feat: integrate the climate alerts query service | — | 2026-11-07 |
-| allpatek-platform | feature/alerts-management | d88a1bb | feat: integrate a weather forecast outbound port | — | 2026-11-07 |
-| allpatek-platform | feature/alerts-management | 2aeef3a | feat: add a query that loads alerts by parcel owner | — | 2026-11-07 |
-| allpatek-platform | feature/alerts-management | 708379a | feat: add climate readings that derive field alerts | — | 2026-11-07 |
-| allpatek-platform | feature/alerts-management | 12c49fc | feat: add a climate warning composed for one parcel | — | 2026-11-07 |
-| allpatek-platform | feature/alerts-management | a6ef627 | feat: register farmer climate alerts under /api/v1/alerts | — | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | 057667b | feat: present climate readings as REST resources | — | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | cab03bb | feat: present climate readings in the REST payload | — | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | 6fb481b | feat: present climate warnings in the REST payload | — | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | 01c2c5f | feat: integrate Open-Meteo forecast client inside alerts infrastructure | — | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | d0ad251 | feat: load parcel weather through the parcels ACL | — | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | 9215c17 | feat: integrate the climate alerts query service | — | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | 3ce544f | feat: integrate a weather forecast outbound port | — | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | c8e2fc5 | feat: add a query that loads alerts by parcel owner | — | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | 26aa3cc | feat: add climate readings that derive field alerts | — | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | 6800fef | feat: add a climate warning composed for one parcel | — | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | 713a5e4 | feat: add frost flood and wind warning copy | — | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | 1026635 | feat: add the parcel name shown on climate warnings | — | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | b3d3a93 | feat: add warning severity tones for field alerts | — | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | 9c24b49 | feat: add a snapshot of current climate metrics | — | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | b080e51 | feat: add weather condition mapping from Open-Meteo codes | — | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | f38a7a8 | feat: add parcel coordinates for forecast lookup | — | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | 9464d99 | feat: add a geo point used by parcel weather | — | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | 53b577d | feat: add frost flood and wind warning copy | Add descriptive warning messages for frost, flooding, and strong winds. | 2026-11-06 |
+| allpatek-platform | feature/alerts-management | 699f564 | feat: add the parcel name shown on climate warnings | Include the parcel name in climate warning details. | 2026-11-06 |
+| allpatek-platform | feature/alerts-management | d448a85 | feat: add warning severity tones for field alerts | Define severity indicators for agricultural climate warnings. | 2026-11-06 |
+| allpatek-platform | feature/alerts-management | 59cd7c4 | feat: add a snapshot of current climate metrics | Capture current weather metrics for parcel climate monitoring. | 2026-11-06 |
+| allpatek-platform | feature/alerts-management | a019141 | feat: register farmer climate alerts under /api/v1/alerts | Register the farmer climate alerts REST endpoint at /api/v1/alerts. | 2026-11-07 |
+| allpatek-platform | feature/alerts-management | b9c0e9e | feat: present climate readings as REST resources | Expose climate readings as REST resources. | 2026-11-07 |
+| allpatek-platform | feature/alerts-management | 757c2d1 | feat: present climate readings in the REST payload | Include climate readings in REST response payloads. | 2026-11-07 |
+| allpatek-platform | feature/alerts-management | b52ef1a | feat: present climate warnings in the REST payload | Include climate warnings in REST response payloads. | 2026-11-07 |
+| allpatek-platform | feature/alerts-management | a9cdb16 | feat: integrate Open-Meteo forecast client inside alerts infrastructure | Integrate the Open-Meteo forecast client into the alerts infrastructure. | 2026-11-07 |
+| allpatek-platform | feature/alerts-management | 6948408 | feat: load parcel weather through the parcels ACL | Retrieve parcel weather data through the parcels Anti-Corruption Layer. | 2026-11-07 |
+| allpatek-platform | feature/alerts-management | 4d49405 | feat: integrate the climate alerts query service | Connect the application query service for retrieving climate alerts. | 2026-11-07 |
+| allpatek-platform | feature/alerts-management | d88a1bb | feat: integrate a weather forecast outbound port | Define the outbound port for accessing weather forecasts. | 2026-11-07 |
+| allpatek-platform | feature/alerts-management | 2aeef3a | feat: add a query that loads alerts by parcel owner | Add an application query to retrieve climate alerts by parcel owner. | 2026-11-07 |
+| allpatek-platform | feature/alerts-management | 708379a | feat: add climate readings that derive field alerts | Model climate readings used to derive field-specific alerts. | 2026-11-07 |
+| allpatek-platform | feature/alerts-management | 12c49fc | feat: add a climate warning composed for one parcel | Model a climate warning associated with an individual parcel. | 2026-11-07 |
+| allpatek-platform | feature/alerts-management | a6ef627 | feat: register farmer climate alerts under /api/v1/alerts | Register the farmer climate alerts REST endpoint at /api/v1/alerts. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | 057667b | feat: present climate readings as REST resources | Expose climate readings as REST resources. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | cab03bb | feat: present climate readings in the REST payload | Include climate readings in REST response payloads. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | 6fb481b | feat: present climate warnings in the REST payload | Include climate warnings in REST response payloads. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | 01c2c5f | feat: integrate Open-Meteo forecast client inside alerts infrastructure | Integrate the Open-Meteo forecast client into the alerts infrastructure. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | d0ad251 | feat: load parcel weather through the parcels ACL | Retrieve parcel weather data through the parcels Anti-Corruption Layer. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | 9215c17 | feat: integrate the climate alerts query service | Connect the application query service for retrieving climate alerts. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | 3ce544f | feat: integrate a weather forecast outbound port | Define the outbound port for accessing weather forecasts. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | c8e2fc5 | feat: add a query that loads alerts by parcel owner | Add an application query to retrieve climate alerts by parcel owner. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | 26aa3cc | feat: add climate readings that derive field alerts | Model climate readings used to derive field-specific alerts. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | 6800fef | feat: add a climate warning composed for one parcel | Model a climate warning associated with an individual parcel. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | 713a5e4 | feat: add frost flood and wind warning copy | Add descriptive warning messages for frost, flooding, and strong winds. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | 1026635 | feat: add the parcel name shown on climate warnings | Include the parcel name in climate warning details. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | b3d3a93 | feat: add warning severity tones for field alerts | Define severity indicators for agricultural climate warnings. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | 9c24b49 | feat: add a snapshot of current climate metrics | Capture current weather metrics for parcel climate monitoring. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | b080e51 | feat: add weather condition mapping from Open-Meteo codes | Map Open-Meteo weather codes to application weather conditions. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | f38a7a8 | feat: add parcel coordinates for forecast lookup | Provide parcel coordinates for weather forecast requests. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | 9464d99 | feat: add a geo point used by parcel weather | Introduce a geographic point for parcel weather coordinates. | 2026-11-08 |
 | | | | | | |
 | | | | | | |
 | | | | | | |
