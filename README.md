@@ -3900,8 +3900,9 @@ En el Sprint 3 se documentó con **OpenAPI / Swagger UI** la primera versión de
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-En el Sprint 3 se puso en operación la **primera versión de los Web Services** internos (`allpatek-platform`: Java 27, Spring Boot 4, Spring Data JPA y MySQL.
-  <thead>
+Durante el Sprint 3 se desplegó la versión inicial del backend core (allpatek-platform), construida sobre Java 27, Spring Boot 4, Spring Data JPA y MySQL.
+
+<thead>
     <tr>
       <th style="text-align: center;">Producto</th>
       <th style="text-align: center;">Tecnología</th>
@@ -3925,10 +3926,10 @@ En el Sprint 3 se puso en operación la **primera versión de los Web Services**
 
 ### Paso 1. Repositorio del backend
 
-El código del API está en GitHub, organización TerraNova, repositorio `allpatek-platform`. Las ramas de implementación son `feature/shared`, `feature/parcel-management`, `feature/agreements-management`, `feature/escrow-payments`, `feature/tracking-evidence` y `feature/alerts-management`, integradas en `develop`.
+Durante el Sprint 3 se desplegó la versión inicial del backend core (allpatek-platform), construida sobre Java 27, Spring Boot 4, Spring Data JPA y MySQL.
 
 <p align="center">
-  <img src="assets/chapter-05/sprint3-deploy-backend-01.png" alt="Repositorio allpatek-platform en GitHub" width="850" />
+  <img src="assets/chapter-05/imgrepositorio.png" alt="imgrepositorio" width="850" />
 </p>
 
 ### Paso 2. Instancia MySQL
@@ -3936,7 +3937,7 @@ El código del API está en GitHub, organización TerraNova, repositorio `allpat
 El perfil `dev` usa el puerto **8090** y `ddl-auto=update`. El perfil `prod` usa el puerto **8080** y `ddl-auto=validate`. La conexión se toma de `DATABASE_URL`, `DATABASE_PORT`, `DATABASE_NAME`, `DATABASE_USER` y `DATABASE_PASSWORD`. Las credenciales no se guardan en Git.
 
 <p align="center">
-  <img src="assets/chapter-05/sprint3-deploy-backend-02.png" alt="Instancia MySQL 8.4 usada por allpatek-platform" width="850" />
+  <img src="assets/chapter-05/mysql.png" alt="swagger" width="850" />
 </p>
 
 ### Paso 3. Arranque del servicio
@@ -3944,7 +3945,7 @@ El perfil `dev` usa el puerto **8090** y `ddl-auto=update`. El perfil `prod` usa
 Se compiló con Java 27 y Maven Wrapper (`./mvnw clean package`) y se arrancó Spring Boot contra MySQL. En consola debe verse el contexto levantado en el puerto 8090.
 
 <p align="center">
-  <img src="assets/chapter-05/sprint3-deploy-backend-03.png" alt="Arranque de Spring Boot de allpatek-platform en el puerto 8090" width="850" />
+  <img src="assets/chapter-05/ejecucion.png" alt="Arranque de Spring Boot de allpatek-platform en el puerto 8090" width="850" />
 </p>
 
 
@@ -3953,48 +3954,8 @@ Se compiló con Java 27 y Maven Wrapper (`./mvnw clean package`) y se arrancó S
 Desde Try it out se ejecutó el CRUD de parcelas contra MySQL: alta HTTP 201, repetición del mismo `id` HTTP 409, edición HTTP 200, borrado HTTP 204 y repetición del borrado HTTP 404. Tras reiniciar Spring, el GET devolvió el nombre actualizado.
 
 <p align="center">
-  <img src="assets/chapter-05/sprint3-deploy-swagger-03.png" alt="POST /api/v1/parcels en Swagger UI, HTTP 201" width="850" />
+  <img src="assets/chapter-05/endpoints.png" alt="POST /api/v1/parcels en Swagger UI, HTTP 201" width="850" />
 </p>
-
-<p align="center">
-  <img src="assets/chapter-05/sprint3-deploy-swagger-04.png" alt="GET /api/v1/parcels en Swagger UI tras persistir en MySQL" width="850" />
-</p>
-
-### Paso 6. Resto de recursos del Sprint en Swagger
-
-Mismas pruebas Try it out sobre acuerdos, wallets, evidencias y alertas, alineadas con **US08**, **US03**, **US04**, **US14** y **US05**.
-
-<p align="center">
-  <img src="assets/chapter-05/sprint3-deploy-swagger-05.png" alt="Tag agreements en Swagger UI" width="850" />
-</p>
-
-<p align="center">
-  <img src="assets/chapter-05/sprint3-deploy-swagger-06.png" alt="Tag escrow en Swagger UI" width="850" />
-</p>
-
-<p align="center">
-  <img src="assets/chapter-05/sprint3-deploy-swagger-07.png" alt="Tag tracking en Swagger UI" width="850" />
-</p>
-
-<p align="center">
-  <img src="assets/chapter-05/sprint3-deploy-swagger-08.png" alt="Tag alerts en Swagger UI" width="850" />
-</p>
-
-| Verificación | Resultado observado |
-| :--- | :--- |
-| Contrato | HTTP 200 en `/v3/api-docs` y `/swagger-ui/index.html` |
-| Parcelas (US06) | HTTP 201 al crear, 409 al repetir el ID, 200 al editar, 204 al borrar |
-| Persistencia | Tras reiniciar Spring, el GET devolvió el dato actualizado |
-| Acuerdos, wallets, evidencias, alertas | Tags visibles en Swagger UI y Try it out ejecutado |
-
-* **URL local:** `http://localhost:8090` (`/api/v1`, Swagger UI)
-* El detalle de verbos, parámetros y ejemplos de response está en 5.2.3.6.
-
-
-
-
-
-
 
 
 
