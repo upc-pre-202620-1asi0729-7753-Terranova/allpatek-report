@@ -127,6 +127,13 @@
 | AV2 | 08/11/2026 |Vera Solsol, Nayely Macarena | Diseño del modelo de evidencias por hito y definición de la arquitectura para el bounded context tracking-evidence.|
 | AV2 | 08/11/2026 |Vera Solsol, Nayely Macarena | Implementación de la capa de dominio y aplicación para la gestión de estados y validación de evidencias presentadas.|
 | AV2 | 08/11/2026 |Vera Solsol, Nayely Macarena | Desarrollo e implementación integral del bounded context tracking-evidence, incluyendo la capa de dominio, aplicación, infraestructura y exposición de los endpoints REST (/api/v1/evidence) para la gestión de evidencias por hito.
+| AV2 | 08/11/2026 | Raymundo Villarroel, Abigail Nadhim | Desarrollo de la capa de dominio del bounded context `parcel-management` en el backend: agregado `Parcel` y value objects de nombre, estado, área, ubicación, tipo de suelo, costo y calendario de campaña, cultivos e imágenes |
+| AV2 | 08/11/2026 | Raymundo Villarroel, Abigail Nadhim | Implementación de la capa de aplicación de `parcel-management`: comandos de creación, actualización y eliminación de parcelas, consulta del catálogo y sus servicios de comandos y consultas |
+| AV2 | 08/11/2026 | Raymundo Villarroel, Abigail Nadhim | Desarrollo de la capa de infraestructura de `parcel-management`: entidad JPA `parcels`, embeddables de calendario de campaña e imágenes, repositorio Spring Data y adaptador del repositorio |
+| AV2 | 08/11/2026 | Raymundo Villarroel, Abigail Nadhim | Implementación de la Anti-Corruption Layer (ACL) de `parcel-management` para compartir la ubicación de las parcelas por propietario con otros bounded contexts |
+| AV2 | 08/11/2026 | Raymundo Villarroel, Abigail Nadhim | Implementación de la API REST del bounded context `parcel-management` mediante el endpoint `/api/v1/parcels` (GET, POST, PUT y DELETE) |
+| AV2 | 10/11/2026 | Raymundo Villarroel, Abigail Nadhim | Actualización del informe: tareas asignadas, entrada AV2 del Student Outcome 3 y commits de `parcel-management` en la sección 5.2.3.4 |
+| AV2 | 11/11/2026 | Raymundo Villarroel, Abigail Nadhim | Registro de la contribución AV2 en el Registro de Versiones y depuración de la evidencia de desarrollo del Sprint 3 |
 | AV2 | || |
 | AV2 | || |
 | AV2 | || |
