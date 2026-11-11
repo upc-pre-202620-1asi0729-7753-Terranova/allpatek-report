@@ -134,9 +134,11 @@
 | AV2 | 08/11/2026 | Raymundo Villarroel, Abigail Nadhim | Implementación de la API REST del bounded context `parcel-management` mediante el endpoint `/api/v1/parcels` (GET, POST, PUT y DELETE) |
 | AV2 | 10/11/2026 | Raymundo Villarroel, Abigail Nadhim | Actualización del informe: tareas asignadas, entrada AV2 del Student Outcome 3 y commits de `parcel-management` en la sección 5.2.3.4 |
 | AV2 | 11/11/2026 | Raymundo Villarroel, Abigail Nadhim | Registro de la contribución AV2 en el Registro de Versiones y depuración de la evidencia de desarrollo del Sprint 3 |
-| AV2 | || |
-| AV2 | || |
-| AV2 | || |
+| AV2 | 03/11/2026 | Egocheaga Suyo, Miguel Angel | Desarrollo de la capa de dominio del bounded context `escrow-payments`: agregado `Wallet` y value objects `WalletId`, `MoneyCents` y `PaymentCard` para la custodia de demostración |
+| AV2 | 03/11/2026 | Egocheaga Suyo, Miguel Angel | Implementación de la capa de aplicación de `escrow-payments`: comando de registro/actualización de wallet, consulta del listado y servicios de comandos y consultas |
+| AV2 | 04/11/2026 | Egocheaga Suyo, Miguel Angel | Desarrollo de la capa de infraestructura de `escrow-payments`: entidad JPA `wallets`, embeddable de tarjeta, repositorio Spring Data y adaptador del repositorio |
+| AV2 | 04/11/2026 | Egocheaga Suyo, Miguel Angel | Implementación de la API REST del bounded context `escrow-payments` mediante los endpoints GET/POST `/api/v1/wallets` y PUT `/api/v1/wallets/{id}` para consultar el monto de demostración y la tarjeta enmascarada |
+| AV2 | 07/11/2026 | Egocheaga Suyo, Miguel Angel | Documentación del API de custodia en Swagger UI con el tag `escrow`, cubriendo el alta de wallet, la consulta de saldo de demostración y la actualización por identificador |
 
 
 ## Project Report Collaboration Insights
