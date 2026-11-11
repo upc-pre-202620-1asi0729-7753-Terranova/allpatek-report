@@ -1,4 +1,4 @@
-<div align="center">
+ <div align="center">
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" width="120"><br>
 </div>
 
@@ -3828,8 +3828,18 @@ En el Sprint 3 se implementó la primera versión de los Web Services en `allpat
 | allpatek-platform | feature/escrow-payments | a1fd848 | feat: build the wallet REST resource | Add WalletResource as the REST payload. | 2026-11-07 |
 | allpatek-platform | feature/escrow-payments | ba1d7c3 | feat: build wallet resource mapping | Add WalletResourceAssembler to map wallets to REST resources. | 2026-11-07 |
 | allpatek-platform | feature/escrow-payments | e401018 | feat: register wallet routes | Add WalletsController with GET/POST `/api/v1/wallets` and PUT `/wallets/{id}`. | 2026-11-07 |
-
-
+| allpatek-platform | feature/tracking-evidence | d1fa5c3 | feat: attach evidence routes under | Register REST controller endpoints and request mappings for evidence | 2026-11-08 |
+| allpatek-platform | feature/tracking-evidence | 7976d83 | feat: ship evidence resource mapping | Map domain entities to API resource DTOs and responses| 2026-11-08 |
+| allpatek-platform | feature/tracking-evidence | 006b15c | feat: ship the evidence REST payload |Define JSON request schemas and payload validation rules  | 2026-11-08 |
+| allpatek-platform | feature/tracking-evidence | d8b4142 | feat: orchestrate evidence listing queries | Implement query handlers for listing and filtering evidence records | 2026-11-08 |
+| allpatek-platform | feature/tracking-evidence | 776e192 | feat: orchestrate save-evidence command handling | Add command handlers and transaction flow for saving evidence | 2026-11-08 |
+| allpatek-platform | feature/tracking-evidence | 97f5a77 | feat: persist evidence through the JPA adapter | Connect domain repository to Spring Data JPA implementation | 2026-11-08 |
+| allpatek-platform | feature/tracking-evidence | 985b519 | feat: persist evidence mapping in the assembler |Add entity-to-domain mapping logic in the persistence layer  | 2026-11-08 |
+| allpatek-platform | feature/tracking-evidence | f03df4a | feat: persist evidence through the plataform evidence API store |Expose platform storage interface for evidence persistence  | 2026-11-08 |
+| allpatek-platform | feature/tracking-evidence | 4cd80d3 | feat: persist evidence files as an embeddable | Define JPA @Embeddable class for storing file metadata | 2026-11-08 |
+| allpatek-platform | feature/tracking-evidence | 4dbb13d | feat: persist evidence with a JPA entity | Create base JPA entity model and table mapping for evidence | 2026-11-08 |
+| allpatek-platform | feature/tracking-evidence | 48380dc | feat: orchestrate evidence reads in the application layer | Define JPA @Embeddable class for storing file metadata | 2026-11-08 |
+| allpatek-platform | feature/tracking-evidence | 4ae606e | feat: feat: orchestrate evidence writes in the application layer | Create base JPA entity model and table mapping for evidence | 2026-11-08 |
 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
