@@ -124,9 +124,9 @@
 | AV2 | 07/11/2026 | Atauje Barreto, Alexander Sebastián | Desarrollo de la capa de infraestructura: integración de la API Open-Meteo para obtener pronósticos meteorológicos y conexión con `parcel-management` mediante una Anti-Corruption Layer (ACL) |
 | AV2 | 08/11/2026 | Atauje Barreto, Alexander Sebastián | Implementación de coordenadas geográficas de parcelas, mapeo de códigos meteorológicos de Open-Meteo y procesamiento de información climática para generar advertencias |
 | AV2 | 08/11/2026 | Atauje Barreto, Alexander Sebastián | Implementación de la API REST del bounded context `alerts-management`, exponiendo alertas climáticas, lecturas meteorológicas y advertencias mediante el endpoint `/api/v1/alerts` |
-| AV2 | || |
-| AV2 | || |
-| AV2 | || |
+| AV2 | 08/11/2026 |Vera Solsol, Nayely Macarena | Diseño del modelo de evidencias por hito y definición de la arquitectura para el bounded context tracking-evidence.|
+| AV2 | 08/11/2026 |Vera Solsol, Nayely Macarena | Implementación de la capa de dominio y aplicación para la gestión de estados y validación de evidencias presentadas.|
+| AV2 | 08/11/2026 |Vera Solsol, Nayely Macarena | Desarrollo e implementación integral del bounded context tracking-evidence, incluyendo la capa de dominio, aplicación, infraestructura y exposición de los endpoints REST (/api/v1/evidence) para la gestión de evidencias por hito.
 | AV2 | || |
 | AV2 | || |
 | AV2 | || |
