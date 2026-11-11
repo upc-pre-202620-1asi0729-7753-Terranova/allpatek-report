@@ -3553,11 +3553,11 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
   </tr>
   <tr>
     <td colspan="5">Sprint 3 Velocity</td>
-    <td colspan="8">34 Story Points</td>
+    <td colspan="8">32 Story Points</td>
   </tr>
   <tr>
     <td colspan="5">Sum of Story Points</td>
-    <td colspan="8">32 Story Points</td>
+    <td colspan="8">20 Story Points</td>
   </tr>
 </table>
 
@@ -3632,142 +3632,54 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
 
 #### 5.2.3.3. Sprint Backlog 3
 
-<table>
-  <thead>
-    <tr style="background-color: #f2f2f2;">
-      <th style="border: 1px solid #dddddd; padding: 10px;">Sprint</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">User Story ID</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">Task ID</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">Task Title</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">Description</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">Estimation (Hours)</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">Assigned To</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 3</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-       <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 3</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-       <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 3</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-       <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 3</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-       <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 3</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-       <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 3</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-       <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 3</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-       <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 3</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-       <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 3</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-       <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 3</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-       <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 3</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-       <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 3</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-  </tbody>
-</table>
+El objetivo principal del **Sprint 3** es publicar la **primera versión de los Web Services** internos en `allpatek-platform` (Java / Spring Boot / MySQL). El alcance de este Sprint Backlog es solo el backend: endpoints REST y  persistencia JPA.
+
+
+<div align="center">
+
+| Story Id | Story Title (3.1) | Story Points (3.3) |
+| :---: | :---: | :---: |
+| **US06** | Publicación y geolocalización de lote agrícola | 3 |
+| **US08** | Aceptación de propuesta y firma de contrato digital Escrow | 3 |
+| **US16** | Registro de perfil corporativo y validación fiscal | 3 |
+| **US03** | Aprobación de hito y orden de liberación de fondos | 5 |
+| **US04** | Registro y carga de evidencias fotográficas por hito | 3 |
+| **US14** | Revisión y observación técnica de evidencias de hito | 3 |
+| **Total** | | **20** |
+
+</div>
+
+#### Tablero de Control del Sprint 3 (Sprint Board)
+
+<p align="center">
+  <img src="assets/chapter-05/trello-sprint-03.png" alt="Tablero del Sprint 3 en Trello - ALLPATEK" width="850" />
+</p>
+
+* **Figura 5.2.3.3.1.** Captura del tablero del Sprint 3 en la herramienta de control, con el estado de las tareas.
+* **URL pública del Board:** [Tablero Trello TerraNova](https://trello.com/invite/b/6af3adfe4e9931bf475e1cc0/ATTIa72fe0d2bbda469b2e799bd8388d45fc57634FE6/allpatek-sprint-03)
+
+### Tabla de Control de Estado del Sprint Backlog 3
+
+
+| Sprint | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
+| **Sprint 3** | **US06** | Publicación y geolocalización de lote agrícola | **T001** | Listar parcelas del catálogo | Implementar el listado de parcelas en Spring Boot y responder 200 OK con colección JSON, incluso vacía. | 6 | Raymundo Villarroel, Abigail Nadhim | Done |
+| **Sprint 3** | **US06** | Publicación y geolocalización de lote agrícola | **T002** | Registrar, editar y eliminar parcelas | Exponer alta, edición y borrado de parcela con características y ubicación (`201`, `409`, `200`, `204`, `404`). | 6 | Raymundo Villarroel, Abigail Nadhim | Done |
+| **Sprint 3** | **US06** | Publicación y geolocalización de lote agrícola | **T003** | Documentar el catálogo de parcelas | Publicar el tag `parcels` en Swagger UI con verbos, parámetros y ejemplos de respuesta 200. | 4 | Raymundo Villarroel, Abigail Nadhim | Done |
+| **Sprint 3** | **US08** | Aceptación de propuesta y firma de contrato digital Escrow | **T004** | Registrar la firma digital del contrato | Implementar GET/POST `/api/v1/agreements` y PUT `/agreements/{id}` para registrar la aceptación del productor y del comerciante. | 6 | Orellana Rodríguez, Mel Andree | Done |
+| **Sprint 3** | **US08** | Aceptación de propuesta y firma de contrato digital Escrow | **T005** | Documentar el API de acuerdos | Publicar el tag `agreements` en Swagger UI con el cuerpo del acuerdo y las respuestas 200/201. | 4 | Orellana Rodríguez, Mel Andree | Done |
+| **Sprint 3** | **US16** | Registro de perfil corporativo y validación fiscal | **T006** | Consultar y actualizar el perfil corporativo | Implementar consulta y actualización de perfil con datos de empresa (`CompanyDetails`) y correo (`EmailAddress`), más `/health` y `/v3/api-docs`. | 5 | Orellana Rodríguez, Mel Andree | Done |
+| **Sprint 3** | **US03** | Aprobación de hito y orden de liberación de fondos | **T007** | Consultar el estado de custodia Escrow | Implementar GET/POST `/api/v1/wallets` y PUT `/wallets/{id}` para consultar el monto de demostración retenido y la tarjeta enmascarada. | 6 | Egocheaga Suyo, Miguel Angel | Done |
+| **Sprint 3** | **US03** | Aprobación de hito y orden de liberación de fondos | **T008** | Liberar fondos al aprobar un hito | Actualizar el estado de custodia en `/api/v1/wallets/{id}` cuando se aprueba un hito, registrando el monto de demostración asociado a la liberación. | 5 | Egocheaga Suyo, Miguel Angel | Done |
+| **Sprint 3** | **US03** | Aprobación de hito y orden de liberación de fondos | **T009** | Documentar el API de custodia | Publicar el tag `escrow` en Swagger UI con consulta de saldo, alta de wallet y actualización por id. | 4 | Egocheaga Suyo, Miguel Angel | Done |
+| **Sprint 3** | **US04** | Registro y carga de evidencias fotográficas por hito | **T010** | Registrar evidencias fotográficas por hito | Implementar el alta de evidencia de hito (notas, archivo, estado inicial `review`). | 6 | Vera Solsol, Nayely Macarena | Done |
+| **Sprint 3** | **US14** | Revisión y observación técnica de evidencias de hito | **T011** | Revisar el estado de las evidencias | Permitir al comerciante actualizar el estado a `verified` o `accepted` y conservar el registro asociado a la parcela. | 5 | Vera Solsol, Nayely Macarena | Done |
+| **Sprint 3** | **US14** | Revisión y observación técnica de evidencias de hito | **T012** | Documentar el API de evidencias | Publicar el tag `tracking` en Swagger UI con GET/POST de evidencias y PUT por id, incluidos los estados de revisión. | 4 | Vera Solsol, Nayely Macarena | Done |
+| **Sprint 3** | **US05** | Recepción de alertas climáticas de riesgo | **T013** | Emitir alertas climáticas de las parcelas | Calcular lecturas climáticas a partir de las coordenadas de las parcelas contratadas y de Open-Meteo, con filtro opcional `ownerId`. | 6 | Atauje Barreto, Alexander Sebastián | Done |
+| **Sprint 3** | **US05** | Recepción de alertas climáticas de riesgo | **T014** | Documentar el API de alertas | Publicar el tag `alerts` en Swagger UI con el query `ownerId` y el ejemplo de respuesta de lecturas. | 4 | Atauje Barreto, Alexander Sebastián | Done |
+| **Sprint 3** | **US06** | Publicación y geolocalización de lote agrícola | **T015** | Publicar la primera versión de Web Services | Configurar perfil `prod`, variables de MySQL y comprobar `/health`, Swagger y una operación persistente de parcelas en el entorno de operación. | 6 | Raymundo Villarroel, Abigail Nadhim | Done |
+
+
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
