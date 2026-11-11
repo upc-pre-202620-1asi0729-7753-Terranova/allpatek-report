@@ -3809,10 +3809,25 @@ En el Sprint 3 se implementó la primera versión de los Web Services en `allpat
 | allpatek-platform | feature/parcel-management | 0c0cf31 | feat: define the parcel REST payload | Add the ParcelResource REST payload with validation on the id, owner id, name and location fields. | 2026-11-08 |
 | allpatek-platform | feature/parcel-management | 016ea54 | feat: render parcels as REST resources | Add the ParcelResourceAssembler that maps parcels to REST resources and REST resources to create and update commands. | 2026-11-08 |
 | allpatek-platform | feature/parcel-management | 864d4f7 | feat: mount parcel routes at /api/v1/parcels | Add the ParcelsController with GET, POST, PUT and DELETE endpoints under /api/v1/parcels. | 2026-11-08 |
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| allpatek-platform | feature/escrow-payments | 962ac4f | feat: introduce wallet identifiers | Add the WalletId value object used to identify a demonstration vault. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | 4380249 | feat: introduce money stored as cents | Add MoneyCents to store the opening balance in cents. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | 728a77b | feat: introduce payment card details | Add PaymentCard with holder, last 4 digits, expiry and brand. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | cdb81be | feat: introduce the wallet aggregate | Add the Wallet aggregate that groups the profile, the card and the opening balance. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | b3e5e4b | feat: connect save-wallet writes | Add SaveWalletCommand for creating or updating a wallet. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | 70ad0e8 | feat: connect wallet listing reads | Add GetAllWalletsQuery to list the stored wallets. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | 4ebc991 | feat: connect the wallet repository port | Add the WalletRepository domain port. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | e9a7760 | feat: implement wallet commands | Add WalletCommandService for save-wallet writes. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | f418bd2 | feat: implement wallet queries | Add WalletQueryService for wallet listing reads. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | bba6733 | feat: persist wallets with JPA | Add WalletPersistenceEntity mapped to the wallets table. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | 73e5c00 | feat: persist card fields on the wallet | Add PaymentCardPersistenceEmbeddable for the card columns. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | 303f589 | feat: persist wallets through Spring Data | Add the Spring Data JPA repository for wallets. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | d3785af | feat: build wallet persistence mapping | Add WalletPersistenceAssembler between the domain model and JPA. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | 938a52c | feat: build the JPA wallet adapter | Add WalletRepositoryImpl on top of Spring Data. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | 46ffee3 | feat: implement command handling for wallets | Implement WalletCommandService with a transactional save. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | 4f9bf28 | feat: implement query handling for wallets | Implement WalletQueryService with a read-only listing. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | a1fd848 | feat: build the wallet REST resource | Add WalletResource as the REST payload. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | ba1d7c3 | feat: build wallet resource mapping | Add WalletResourceAssembler to map wallets to REST resources. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | e401018 | feat: register wallet routes | Add WalletsController with GET/POST `/api/v1/wallets` and PUT `/wallets/{id}`. | 2026-11-07 |
 
 
 
