@@ -3815,9 +3815,50 @@ En el Sprint 3 se implementó la primera versión de los Web Services en `allpat
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
-En la verificación local del 6 de noviembre de 2026, el backend del ZIP compiló con Java 27 y arrancó contra una instancia aislada de MySQL 8.4. El empaquetado offline del JAR ejecutable no se completó por dependencias de Maven ausentes en caché; la prueba se ejecutó desde las clases compiladas y sus dependencias disponibles.
+
+ Estructura del repositorio de GitHub del proyecto `allpatek-platform` bajo la organización `upc-pre-202620-1asi0729-7753-TerraNova`, mostrando las carpetas fuente, commits recientes con estándares de Conventional Commits y la configuración de build con Maven.
 
 
+<p align="center">
+  <img src="assets/chapter-05/imgrepositorio.png" alt="imgrepositorio" width="850" />
+</p>
+
+
+Interfaz de documentación de API Swagger UI para `Allpatek Platform REST API`, detallando los endpoints disponibles agrupados por los módulos `escrow` y `parcels`.
+
+
+<p align="center">
+  <img src="assets/chapter-05/swagger.png" alt="swagger" width="850" />
+</p>
+
+
+Prueba del endpoint `POST /api/v1/parcels` en Swagger UI, donde se envía una solicitud JSON con la información necesaria para registrar una nueva parcela en el sistema.
+
+
+<p align="center">
+  <img src="assets/chapter-05/swagger02.png" alt="swagger" width="850" />
+</p>
+
+
+Ejecución del endpoint `GET /api/v1/wallets` en Swagger UI, mostrando una respuesta exitosa (`HTTP 200`) con la estructura del objeto JSON para las billeteras digitales registradas.
+
+<p align="center">
+  <img src="assets/chapter-05/swagger03.png" alt="swagger" width="850" />
+</p>
+
+
+Consulta al endpoint `GET /api/v1/alerts?ownerId=1` en Swagger UI, retornando un código de estado `HTTP 200` y la respuesta JSON con métricas climáticas y alertas generadas para la parcela.
+
+<p align="center">
+  <img src="assets/chapter-05/swagger04.png" alt="swagger" width="850" />
+</p>
+
+Vista del panel de phpMyAdmin mostrando la estructura de la base de datos `allpatek-os` con sus tablas correspondientes (`agreements`, `evidences`, `parcels`, `profiles` y `wallets`).
+
+
+<p align="center">
+  <img src="assets/chapter-05/mysql.png" alt="swagger" width="850" />
+</p>
 
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
