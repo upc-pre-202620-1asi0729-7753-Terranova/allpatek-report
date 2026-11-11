@@ -3637,7 +3637,7 @@ El objetivo principal del **Sprint 3** es publicar la **primera versión de los 
 
 <div align="center">
 
-| Story Id | Story Title (3.1) | Story Points (3.3) |
+| Story Id | Story Title  | Story Points  |
 | :---: | :---: | :---: |
 | **US06** | Publicación y geolocalización de lote agrícola | 3 |
 | **US08** | Aceptación de propuesta y firma de contrato digital Escrow | 3 |
@@ -3841,33 +3841,145 @@ En el Sprint 3 se implementó la primera versión de los Web Services en `allpat
 
 En la verificación local del 6 de noviembre de 2026, el backend del ZIP compiló con Java 27 y arrancó contra una instancia aislada de MySQL 8.4. El empaquetado offline del JAR ejecutable no se completó por dependencias de Maven ausentes en caché; la prueba se ejecutó desde las clases compiladas y sus dependencias disponibles.
 
-| Verificación | Resultado observado |
-|---|---|
-| Health, OpenAPI y Swagger UI | HTTP 200 en `/health`, `/v3/api-docs` y `/swagger-ui/index.html`. |
-| Crear y editar parcela ficticia | HTTP 201 al crear, 409 al repetir el ID y 200 al editar. |
-| Persistencia | Tras reiniciar Spring, la consulta devolvió el nombre actualizado. |
-| Borrar parcela de prueba | HTTP 204 al borrar y 404 al repetir el borrado. |
 
-El recorrido Angular se documentó a partir del código de la demo. Esta prueba no conectó Angular a Spring ni ejecutó pagos, webhooks o pronósticos externos.
+
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-OpenAPI y Swagger UI se verificaron localmente. Los recursos de negocio usan el prefijo `/api/v1`:
 
-| Ruta | Métodos | Alcance |
-|---|---|---|
-| `/parcels`, `/parcels/{id}` | GET y POST en colección; PUT y DELETE por ID | Listado y mantenimiento de parcelas. |
-| `/agreements`, `/agreements/{id}` | GET, POST; PUT por ID | Listado y guardado de acuerdos con indicadores de aceptación. |
-| `/evidence`, `/evidence/{id}` | GET, POST; PUT por ID | Evidencias y estado recibido; PUT sustituye el registro. |
-| `/wallets`, `/wallets/{id}` | GET, POST; PUT por ID | Wallets de prueba con monto inicial y tarjeta enmascarada. |
-| `/profiles`, `/profiles/{id}` | GET en colección y por ID; PUT por ID | Consulta y edición de un perfil existente. |
-| `/alerts?ownerId=` | GET | Pronóstico bajo demanda; filtro de propietario opcional. |
+En el Sprint 3 se documentó con **OpenAPI / Swagger UI** la primera versión de los Web Services internos (`allpatek-platform`, Java / Spring Boot).
 
-No existe `/users` en este backend. Los contratos del mock y de Spring deben comprobarse antes de cambiar la URL del frontend.
+
+### Entornos de servicio
+
+* **URL base local:** `http://localhost:8090/api/v1`
+* **Swagger UI:** `http://localhost:8090/swagger-ui/index.html`
+
+### 2. Repositorio y commits de documentación
+
+* **Repositorio de Web Services:** [allpatek-platform](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform)
+
+
+### 3. Matriz de endpoints del alcance del Sprint
+
+| US | Endpoint | Verbo | Parámetros | Acción | Ejemplo de respuesta |
+| :---: | :--- | :---: | :--- | :--- | :--- |
+| **US06** | `/parcels` | `GET` | Header `Accept-Language` (opcional) | Listar parcelas | Colección JSON, vacía `[]` si no hay ofertas · HTTP 200 |
+| **US06** | `/parcels` | `POST` | Body: `id`, `ownerId`, `name`, `location`, `area`, `soilType`, `campaignCost`, `crops` | Publicar parcela | Recurso creado · HTTP 201; `409` si el `id` ya existe |
+| **US06** | `/parcels/{id}` | `PUT` | Path `id`; mismo body | Editar parcela | Recurso actualizado · HTTP 200; `404` si no existe |
+| **US06** | `/parcels/{id}` | `DELETE` | Path `id` | Eliminar parcela | Sin cuerpo · HTTP 204; `404` al repetir el borrado |
+| **US08** | `/agreements` | `GET` | Header `Accept-Language` (opcional) | Listar contratos | Colección con `merchantSigned` y `farmerSigned` · HTTP 200 |
+| **US08** | `/agreements` | `POST` | Body: `parcelId`, `merchantProfileId`, `merchantName`, banderas de firma | Registrar acuerdo | Recurso creado · HTTP 201 |
+| **US08** | `/agreements/{id}` | `PUT` | Path `id`; body con `merchantSigned` / `farmerSigned` | Registrar aceptación | Recurso actualizado · HTTP 200 |
+| **US16** | `/profiles/{id}` | `GET` | Path `id` (Long) | Consultar un perfil | Recurso con `email` y datos de empresa · HTTP 200; `404` si no existe |
+| **US16** | `/profiles/{id}` | `PUT` | Path `id`; body `UpdateProfileResource` | Actualizar perfil corporativo | Recurso actualizado · HTTP 200 |
+| **US03** | `/wallets` | `POST` | Body: `profileId`, `holder`, `last4`, `expiry`, `brand`, `openingCents` | Registrar wallet de demostración | Recurso creado · HTTP 201 |
+| **US03** | `/wallets/{id}` | `PUT` | Path `id`; mismo body | Actualizar estado de custodia | Recurso actualizado · HTTP 200 |
+| **US04** | `/evidence` | `POST` | Body: `parcelId`, `milestone` (1–4), `notes`, `fileName`, `image` | Registrar evidencia de hito | Recurso con `status: review` · HTTP 201 |
+| **US14** | `/evidence/{id}` | `PUT` | Path `id`; body con `status` (`review`, `verified`, `accepted`) | Revisar evidencia | Recurso actualizado · HTTP 200 |
+| **US05** | `/alerts` | `GET` | Query `ownerId` (Long, opcional) | Lecturas climáticas de parcelas | Colección de lecturas · HTTP 200 |
+
+
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-Se dispone de verificación **local** de Spring con MySQL. No se comprobó una URL pública para esta versión del backend ni una demo Angular–Spring desplegada. Para cerrar la evidencia se debe registrar la URL del servicio, la versión publicada y una operación de escritura y lectura desde la aplicación. El procedimiento y sus prerrequisitos se describen en 5.1.4.
+En el Sprint 3 se puso en operación la **primera versión de los Web Services** internos (`allpatek-platform`: Java 27, Spring Boot 4, Spring Data JPA y MySQL.
+  <thead>
+    <tr>
+      <th style="text-align: center;">Producto</th>
+      <th style="text-align: center;">Tecnología</th>
+      <th style="text-align: center;">Repositorio</th>
+      <th style="text-align: center;">Versión en este Sprint</th>
+      <th style="text-align: center;">URL verificada</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center;"><strong>Web Services</strong></td>
+      <td style="text-align: center;">Java 27, Spring Boot 4, Spring Data JPA, MySQL </td>
+      <td style="text-align: center;"><a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform" target="_blank"><code>allpatek-platform</code></a></td>
+      <td style="text-align: center;">Primera versión del API RESTful interno</td>
+      <td style="text-align: center;"><code>http://localhost:8090</code></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+### Paso 1. Repositorio del backend
+
+El código del API está en GitHub, organización TerraNova, repositorio `allpatek-platform`. Las ramas de implementación son `feature/shared`, `feature/parcel-management`, `feature/agreements-management`, `feature/escrow-payments`, `feature/tracking-evidence` y `feature/alerts-management`, integradas en `develop`.
+
+<p align="center">
+  <img src="assets/chapter-05/sprint3-deploy-backend-01.png" alt="Repositorio allpatek-platform en GitHub" width="850" />
+</p>
+
+### Paso 2. Instancia MySQL
+
+El perfil `dev` usa el puerto **8090** y `ddl-auto=update`. El perfil `prod` usa el puerto **8080** y `ddl-auto=validate`. La conexión se toma de `DATABASE_URL`, `DATABASE_PORT`, `DATABASE_NAME`, `DATABASE_USER` y `DATABASE_PASSWORD`. Las credenciales no se guardan en Git.
+
+<p align="center">
+  <img src="assets/chapter-05/sprint3-deploy-backend-02.png" alt="Instancia MySQL 8.4 usada por allpatek-platform" width="850" />
+</p>
+
+### Paso 3. Arranque del servicio
+
+Se compiló con Java 27 y Maven Wrapper (`./mvnw clean package`) y se arrancó Spring Boot contra MySQL. En consola debe verse el contexto levantado en el puerto 8090.
+
+<p align="center">
+  <img src="assets/chapter-05/sprint3-deploy-backend-03.png" alt="Arranque de Spring Boot de allpatek-platform en el puerto 8090" width="850" />
+</p>
+
+
+### Paso 5. Operación persistente desde Swagger (US06)
+
+Desde Try it out se ejecutó el CRUD de parcelas contra MySQL: alta HTTP 201, repetición del mismo `id` HTTP 409, edición HTTP 200, borrado HTTP 204 y repetición del borrado HTTP 404. Tras reiniciar Spring, el GET devolvió el nombre actualizado.
+
+<p align="center">
+  <img src="assets/chapter-05/sprint3-deploy-swagger-03.png" alt="POST /api/v1/parcels en Swagger UI, HTTP 201" width="850" />
+</p>
+
+<p align="center">
+  <img src="assets/chapter-05/sprint3-deploy-swagger-04.png" alt="GET /api/v1/parcels en Swagger UI tras persistir en MySQL" width="850" />
+</p>
+
+### Paso 6. Resto de recursos del Sprint en Swagger
+
+Mismas pruebas Try it out sobre acuerdos, wallets, evidencias y alertas, alineadas con **US08**, **US03**, **US04**, **US14** y **US05**.
+
+<p align="center">
+  <img src="assets/chapter-05/sprint3-deploy-swagger-05.png" alt="Tag agreements en Swagger UI" width="850" />
+</p>
+
+<p align="center">
+  <img src="assets/chapter-05/sprint3-deploy-swagger-06.png" alt="Tag escrow en Swagger UI" width="850" />
+</p>
+
+<p align="center">
+  <img src="assets/chapter-05/sprint3-deploy-swagger-07.png" alt="Tag tracking en Swagger UI" width="850" />
+</p>
+
+<p align="center">
+  <img src="assets/chapter-05/sprint3-deploy-swagger-08.png" alt="Tag alerts en Swagger UI" width="850" />
+</p>
+
+| Verificación | Resultado observado |
+| :--- | :--- |
+| Contrato | HTTP 200 en `/v3/api-docs` y `/swagger-ui/index.html` |
+| Parcelas (US06) | HTTP 201 al crear, 409 al repetir el ID, 200 al editar, 204 al borrar |
+| Persistencia | Tras reiniciar Spring, el GET devolvió el dato actualizado |
+| Acuerdos, wallets, evidencias, alertas | Tags visibles en Swagger UI y Try it out ejecutado |
+
+* **URL local:** `http://localhost:8090` (`/api/v1`, Swagger UI)
+* El detalle de verbos, parámetros y ejemplos de response está en 5.2.3.6.
+
+
+
+
+
+
+
+
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 ### 5.2.4. Sprint 4
