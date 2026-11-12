@@ -7,10 +7,10 @@ skinparam shadowing false
 skinparam classAttributeIconSize 0
 skinparam ArrowColor #476050
 skinparam dpi 140
-title Allpatek | Implemented classes - Wallet Records
+title Allpatek | Implemented classes - Wallet
 top to bottom direction
 
-package "Escrow payments domain" {
+package "escrow" {
   class Wallet <<Aggregate Root>> {
     -id: WalletId
     -profileId: ProfileId
@@ -24,6 +24,8 @@ package "Escrow payments domain" {
 
   class PaymentCard <<Value Object>> {
     +holder: String
+    +number: String
+    +cvv: String
     +last4: String
     +expiry: String
     +brand: String
@@ -35,7 +37,9 @@ package "Escrow payments domain" {
 
   interface WalletRepository <<Repository Port>> {
     +save(wallet: Wallet): Wallet
+    +existsById(id: String): boolean
     +findAll(): List<Wallet>
+    +deleteById(id: String): void
   }
 
   Wallet *-- WalletId
@@ -45,7 +49,7 @@ package "Escrow payments domain" {
 }
 
 class WalletCommandServiceImpl <<Application Service>>
-WalletCommandServiceImpl ..> WalletRepository : save whole aggregate
+WalletCommandServiceImpl ..> WalletRepository : SaveWalletCommand / DeleteWalletCommand
 
 package "Persistence" {
   class WalletRepositoryImpl <<JPA Adapter>>
@@ -56,7 +60,8 @@ package "Persistence" {
 WalletRepositoryImpl ..|> WalletRepository
 
 legend bottom
-Each record holds masked card details and a positive opening amount in cents.
-No payment gateway, transaction ledger, escrow movement or actual release is implemented here.
+PaymentCard keeps holder, number, cvv, last4, expiry and brand.
+WalletResource exposes number and cvv; last4 is derived from the number.
+No payment gateway, movement ledger or actual release is implemented.
 endlegend
 @enduml
