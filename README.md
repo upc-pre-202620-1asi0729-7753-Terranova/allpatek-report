@@ -81,13 +81,13 @@
 | AV1 | 11/09/2026 | Egocheaga Suyo, Miguel Angel | Implementación y ajustes responsivos de Header/Navbar y Hero de la Landing Page, con HTML5, CSS3 y JavaScript. |
 | AV1 | 14/09/2026 | Vera Solsol, Nayely Macarena | Elaboración del Impact Mapping |
 | AV1 | 14/09/2026 | Vera Solsol, Nayely Macarena | Diseñar y actualizar los User Stories |
-| AV1 | 13/09/2026 | Vera Solsol, Nayely Macarena | Elaboracion del Product Backlog | 
-| TB1 | 03/10/2026 | Orellana Rodriguez, Mel Andree | Desarrollo del bounded context Shared | 
-| TB1 | 03/10/2026 | Orellana Rodriguez, Mel Andree | Desarrollo del bounded context agreements-management| 
-| TB1 | 03/10/2026 | Orellana Rodriguez, Mel Andree | Desarrollo de la estructura de Aplicación Web | 
-| TB1 | 04/10/2026 | Orellana Rodriguez, Mel Andree | Despliegue de la Frontend en Netlify | 
-| TB1 | 04/10/2026 | Orellana Rodriguez, Mel Andree | Despliegue del Mock APi en Azure | 
-| TB1 | 03/10/2026 | Orellana Rodriguez, Mel Andree | Correciones en el Product Backlog | 
+| AV1 | 13/09/2026 | Vera Solsol, Nayely Macarena | Elaboración del Product Backlog | 
+| TB1 | 03/10/2026 | Orellana Rodríguez, Mel Andree | Desarrollo del bounded context Shared | 
+| TB1 | 03/10/2026 | Orellana Rodríguez, Mel Andree | Desarrollo del bounded context agreements-management| 
+| TB1 | 03/10/2026 | Orellana Rodríguez, Mel Andree | Desarrollo de la estructura de Aplicación Web | 
+| TB1 | 04/10/2026 | Orellana Rodríguez, Mel Andree | Despliegue del Frontend en Netlify | 
+| TB1 | 04/10/2026 | Orellana Rodríguez, Mel Andree | Despliegue del Mock API en Azure | 
+| TB1 | 03/10/2026 | Orellana Rodríguez, Mel Andree | Correcciones en el Product Backlog | 
 | TB1 | 25/09/2026 | Atauje Barreto, Alexander Sebastián | Asignación y responsabilidad del bounded context / microservicio `alerts-management` en el repositorio de la organización |
 | TB1 | 25/09/2026 | Atauje Barreto, Alexander Sebastián | Implementación de las observaciones y correcciones indicadas en la retroalimentación de la entrega |
 | TB1 | 04/10/2026 | Raymundo Villarroel, Abigail Nadhim | Desarrollo del bounded context `parcel-management`: capa de dominio con la entidad Parcel y los helpers de costo de campaña (Money) |
@@ -97,9 +97,9 @@
 | TB1 | 04/10/2026 | Raymundo Villarroel, Abigail Nadhim | Configuración de las rutas de parcelas como ruta de entrada del workspace de la aplicación web |
 | TB1 | 05/10/2026 | Raymundo Villarroel, Abigail Nadhim | Corrección del Capítulo II: Empathy Mapping con los entrevistados reales, guías de entrevista con apertura y bloques de profundización, y análisis de entrevistas actualizado |
 | TB1 | 05/10/2026 | Raymundo Villarroel, Abigail Nadhim | Rediseño del Big Picture Event Storming en Mermaid por fases, con actores, sistemas externos y hotspots, y estandarización de la nomenclatura de assets |
-| AV2 | 30/10/2026| Orellana Rodriguez, Mel Andree | Realizando el About the product  |
-| AV2 | 30/10/2026| Orellana Rodriguez, Mel Andree | Realizando el About the Team de forma colaborativa y los testimonios  |
-| AV2 | 22/10/2026| Orellana Rodriguez, Mel Andree | Realizando las estructura de todo lo relacionado al Sprint 3  |
+| AV2 | 30/10/2026| Orellana Rodríguez, Mel Andree | Realizando el About the product  |
+| AV2 | 30/10/2026| Orellana Rodríguez, Mel Andree | Realizando el About the Team de forma colaborativa y los testimonios  |
+| AV2 | 22/10/2026 | Orellana Rodríguez, Mel Andree | Realizando la estructura de todo lo relacionado al Sprint 3 |
 | AV2 | 11/11/2026 | Orellana Rodríguez, Mel Andree | Actualización del Student Outcome 3 con las acciones de AV1, TB1 y AV2 |
 | AV2 | 06/11/2026 | Atauje Barreto, Alexander Sebastián | Implementación del modelo de alertas climáticas con niveles de severidad, identificación de parcelas y advertencias por heladas, inundaciones y vientos fuertes |
 | AV2 | 07/11/2026 | Atauje Barreto, Alexander Sebastián | Desarrollo de la capa de dominio del bounded context `alerts-management`: lecturas meteorológicas, métricas climáticas y generación de alertas por parcela |
@@ -121,7 +121,7 @@
 | AV2 | 03/11/2026 | Egocheaga Suyo, Miguel Angel | Implementación de la capa de aplicación de `escrow-payments`: comando de registro/actualización de wallet, consulta del listado y servicios de comandos y consultas |
 | AV2 | 04/11/2026 | Egocheaga Suyo, Miguel Angel | Desarrollo de la capa de infraestructura de `escrow-payments`: entidad JPA `wallets`, embeddable de tarjeta, repositorio Spring Data y adaptador del repositorio |
 | AV2 | 04/11/2026 | Egocheaga Suyo, Miguel Angel | Implementación de la API REST del bounded context `escrow-payments` mediante los endpoints GET/POST `/api/v1/wallets` y PUT `/api/v1/wallets/{id}` para consultar el monto de demostración y la tarjeta enmascarada |
-| AV2 | 07/11/2026 | Egocheaga Suyo, Miguel Angel | Documentación del API de custodia en Swagger UI con el tag `escrow`, cubriendo el alta de wallet, la consulta de saldo de demostración y la actualización por identificador |
+| AV2 | 07/11/2026 | Egocheaga Suyo, Miguel Angel | Documentación de la API de custodia en Swagger UI con el tag `escrow`, cubriendo el alta de wallet, la consulta de saldo de demostración y la actualización por identificador |
 
 
 ## Project Report Collaboration Insights
@@ -171,8 +171,8 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 |---|---|
 | Atauje Barreto, Alexander Sebastián | Capítulo I completo: Introduction, Startup Profile (Startup Description, Team Member Profiles), Solution Profile (Background & Problematic, Lean UX Process: Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas), Target Segments. Alineación del Alcance General del Proyecto (Contratación Digital, Seguimiento de Hitos/Trazabilidad y Conexión Directa entre Actores). Maquetación e implementación web de las secciones Services (HTML5 & CSS Grid Layout) y Milestones / How It Works (HTML5 & CSS Layout) de la Landing Page. Modularización de estilos, refactorización y gestión de ramas en GitHub (`feature/services`, `feature/how-it-works`). Responsable del área `alerts-management` en el desarrollo de la solución para la entrega TB1. Elaboración del material de exposición, grabación del video de presentación del equipo/producto y correcciones del informe. |
 | Egocheaga Suyo, Miguel Angel | Domain-Driven Software Architecture (Chapter 4.6), Design-Level EventStorming, Software Architecture Context, Container and Component Diagrams, Software Object-Oriented Design, Class Diagrams, Database Design and Database Diagrams; Landing Page Header/Navbar and Hero Section implementation, responsive styles and navigation behavior (HTML5, CSS3 and JavaScript). TB1: desarrollo del bounded context `escrow-payments` de la aplicación web (bóveda, depósito y seguimiento de desembolsos por hito). AV2: desarrollo de `escrow-payments` en el backend (`allpatek-platform`), con el agregado Wallet, persistencia JPA, endpoints GET/POST `/api/v1/wallets` y PUT `/api/v1/wallets/{id}`, y el tag `escrow` en Swagger. |
-| Orellana Rodríguez, Mel Andree | Style Guidelines, General Style Guidelines, Web Style Guidelines, Information Architecture, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Web Applications UX/UI Design, Web Applications Wireframes, Web Applications Wireflow Diagrams, Web Applications Mock-ups, Web Applications User Flow Diagrams, Web Applications Prototyping,  Desarrollo del bounded context Shared, Desarrollo del bounded context agreements-management, Desarrollo de la estructura de Aplicación We, Despliegue del Mock APi en Azure, Correciones en el Product Backlog, About the Product, About the Team, Sprint 3  |
-| Vera Solsol, Nayely Macarena | Impact Mapping, User Stories and Product Backlog (Chapter 3). Desarrollo del bounded context tracking-evidence de la aplicación web (capas de dominio, infraestructura, aplicación y presentación). Desarrollo e implementación integral del bounded context tracking-evidence en el backend (allpatek-platform), incluyendo sus capas de dominio, aplicación, infraestructura y la exposición de endpoints REST (/api/v1/evidence) para la gestión y trazabilidad de evidencias por hito. Documentación de la implementación del bounded context tracking-evidence en el backend y registro detallado de sus commits correspondientes al Sprint 3, elboración de entrevistas y correciones del report. |
+| Orellana Rodríguez, Mel Andree | Style Guidelines, General Style Guidelines, Web Style Guidelines, Information Architecture, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Web Applications UX/UI Design, Web Applications Wireframes, Web Applications Wireflow Diagrams, Web Applications Mock-ups, Web Applications User Flow Diagrams, Web Applications Prototyping,  Desarrollo del bounded context Shared, Desarrollo del bounded context agreements-management, Desarrollo de la estructura de Aplicación Web, Despliegue del Mock API en Azure, Correcciones en el Product Backlog, About the Product, About the Team, Sprint 3  |
+| Vera Solsol, Nayely Macarena | Impact Mapping, User Stories and Product Backlog (Chapter 3). Desarrollo del bounded context tracking-evidence de la aplicación web (capas de dominio, infraestructura, aplicación y presentación). Desarrollo e implementación integral del bounded context tracking-evidence en el backend (allpatek-platform), incluyendo sus capas de dominio, aplicación, infraestructura y la exposición de endpoints REST (/api/v1/evidence) para la gestión y trazabilidad de evidencias por hito. Documentación de la implementación del bounded context tracking-evidence en el backend y registro detallado de sus commits correspondientes al Sprint 3, elaboración de entrevistas y correcciones del report. |
 | Raymundo Villarroel, Abigail Nadhim | Requirements Elicitation & Analysis (Chapter 2): Competitors, Competitive Analysis Landscape & SWOT, Competitive Strategies and Tactics, Interviews (Design, Record and Analysis for both segments), User Personas, User Task Matrix, User Journey Mapping (As-Is), Empathy Mapping, Big Picture Event Storming (Mermaid), Ubiquitous Language; Landing Page Contact Section and Footer Section (HTML5 & CSS). TB1: desarrollo del bounded context `parcel-management` de la aplicación web (capas de dominio, infraestructura, aplicación y presentación) y correcciones del Capítulo II (Empathy Mapping, guías de entrevista, Event Storming y nomenclatura de assets). Desarrollo del bounded context parcel-management en el backend (allpatek-platform) y documentación de sus commits en Sprint 3. |
 
 <div align="center">
@@ -181,7 +181,7 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 | :--- | :--- | :--- |
 | **Landing** | allpatek-website | [Ver Repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website) |
 | **Frontend** | allpatek-webapp | [Ver Repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp) |
-| **MockApi** | allpatek-platform-mock | [Ver Repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock) |
+| **Mock API** | allpatek-platform-mock | [Ver Repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock) |
 | **Backend** | allpatek-platform | [Ver Repositorio](https://github.com/orgs/upc-pre-202620-1asi0729-7753-Terranova/repositories) |
     
 </div>
@@ -342,7 +342,7 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
             <li><b>AV1 - Atauje Barreto, Alexander Sebastián:</b> Exposición oral del Capítulo 1 (Introducción), sustentando la propuesta de valor de Allpatek, el problema del sector agrícola y los supuestos del Lean UX Canvas ante el equipo de evaluación, adaptando la explicación del modelo de negocio para perfiles técnicos y académicos.</li>
             <li><b>AV1 - Egocheaga Suyo, Miguel Angel:</b> Exposición oral de las secciones 4.6 a 4.8.1 del Capítulo IV, explicando el flujo de contratación, los pagos por hitos, la arquitectura de Allpatek y el diseño de datos mediante ejemplos comprensibles para evaluadores y perfiles no técnicos.</li>
             <li><b>AV1 - Raymundo Villarroel, Abigail Nadhim:</b> Exposición oral del avance del Capítulo II (Requirements Elicitation & Analysis), presentando el análisis competitivo frente a Agromercado, VeryAgro y Procesadora Perú, los hallazgos del proceso de needfinding (User Personas, User Journey Maps y Empathy Maps) y el modelado del Big Picture Event Storming, adaptando la explicación del dominio agrícola y del modelo Agro-as-a-Service para una audiencia evaluadora sin conocimiento previo del sector.</li>
-            <li><b>AV1 - Vera Solsol, Nayely Macarena:</b> Exposición oral del avance del Capítulo III (Requirement Specification), presentando la alineación estratégica del Impact Mapping, la definición de las User Stories con sus criterios de aceptación y la priorización del Product Backlog para la plataforma ALLPATEK, adaptando la explicación técnica del flujo de requisitos para una audiencia evaluadora académica y profesional.</li>
+            <li><b>AV1 - Vera Solsol, Nayely Macarena:</b> Exposición oral del avance del Capítulo III (Requirements Specification), presentando la alineación estratégica del Impact Mapping, la definición de las User Stories con sus criterios de aceptación y la priorización del Product Backlog para la plataforma ALLPATEK, adaptando la explicación técnica del flujo de requisitos para una audiencia evaluadora académica y profesional.</li>
             <li><b>TB1 - Orellana Rodríguez, Mel Andree:</b> En la sustentación expliqué la app, <code>shared</code> y <code>agreements-management</code>. Al profesor le hablé de Angular y Azure; al resto, de cómo se firma el contrato.</li>
             <li><b>TB1 - Atauje Barreto, Alexander Sebastián:</b> Exposición oral de la entrega TB1 del proyecto ALLPATEK, sustentando la arquitectura de la solución, la integración del módulo de alertas y el cumplimiento de las observaciones señaladas por la evaluación académica.</li>
             <li><b>TB1 - Raymundo Villarroel, Abigail Nadhim:</b> Exposición oral en video de la entrega TB1, explicando el desarrollo del bounded context <code>parcel-management</code> de la aplicación web (entidad Parcel, acceso a la API, store de estado y pantallas de tablero, formulario y detalle de parcelas) y las correcciones del Capítulo II (Empathy Mapping, guías de entrevista y Big Picture Event Storming), adaptando el vocabulario técnico para evaluadores académicos y el lenguaje del negocio para audiencias agrícolas y comerciales.</li>
@@ -372,7 +372,7 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
             <li><b>AV1 - Atauje Barreto, Alexander Sebastián:</b> Redacción y estructuración académica del Capítulo I bajo estándares APA 7, abarcando el perfil de la startup, la problemática del sector agrícola, el Lean UX Process y la caracterización de los segmentos objetivo. Asimismo, maqueté las secciones de Servicios e Hitos en la Landing Page garantizando claridad textual y coherencia visual para usuarios finales y revisores.</li>
             <li><b>AV1 - Egocheaga Suyo, Miguel Angel:</b> Redacción y diagramación de las secciones 4.6 a 4.8.1 del Capítulo IV: arquitectura guiada por dominio, EventStorming de diseño, diagramas C4, diseño orientado a objetos, clases y diseño de base de datos. Además, implementé Header/Navbar y Hero de la Landing Page con HTML5, CSS3 y JavaScript, incluyendo ajustes de navegación y adaptación a móviles.</li>
             <li><b>AV1 - Raymundo Villarroel, Abigail Nadhim:</b> Redacción del Capítulo II (Requirements Elicitation & Analysis) del informe, incluyendo el análisis competitivo y SWOT, el diseño y análisis de entrevistas para los segmentos de Agricultor Familiar y Comprador Urbano, la construcción de los User Personas, User Task Matrix, User Journey Maps y Empathy Maps, el modelado del Big Picture Event Storming y la elaboración del glosario de Ubiquitous Language, estructurando el contenido de forma clara y trazable para su revisión por el equipo docente y evaluador.</li>
-            <li><b>AV1 - Vera Solsol, Nayely Macarena:</b> Redacción y estructuración formal del Capítulo III: Requirement Specification, articulando con precisión técnica la elaboración del Impact Mapping para la alineación estratégica, la formulación detallada de User Stories con sus respectivos criterios de aceptación orientados al usuario final, y la priorización del Product Backlog de la plataforma ALLPATEK, empleando un lenguaje claro, profesional y adaptado tanto para perfiles técnicos como comerciales del sector agrícola.</li>
+            <li><b>AV1 - Vera Solsol, Nayely Macarena:</b> Redacción y estructuración formal del Capítulo III: Requirements Specification, articulando con precisión técnica la elaboración del Impact Mapping para la alineación estratégica, la formulación detallada de User Stories con sus respectivos criterios de aceptación orientados al usuario final, y la priorización del Product Backlog de la plataforma ALLPATEK, empleando un lenguaje claro, profesional y adaptado tanto para perfiles técnicos como comerciales del sector agrícola.</li>
             <li><b>TB1 - Orellana Rodríguez, Mel Andree:</b> Documenté <code>shared</code>, <code>agreements-management</code> y el mock en Azure en el informe para el curso, y dejé los commits claros para el equipo.</li>
             <li><b>TB1 - Atauje Barreto, Alexander Sebastián:</b> Documentación de la entrega TB1, incorporando las correcciones requeridas por el docente, la especificación de responsabilidad del bounded context de alertas (alerts-management) y el refinamiento de la estructura del informe.</li>
             <li><b>TB1 - Raymundo Villarroel, Abigail Nadhim:</b> Corrección y reestructuración del Capítulo II a partir de la retroalimentación de la entrega: reescritura del Empathy Mapping con los entrevistados reales, guías de entrevista con apertura y consentimiento, análisis de entrevistas actualizado con tres comerciantes, Big Picture Event Storming documentado por fases con su código fuente en Mermaid y estandarización de los nombres de archivos del informe. Además, documenté la estructura del bounded context <code>parcel-management</code> mediante commits descriptivos organizados por capas.</li>
@@ -381,7 +381,7 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
             <li><b>AV2 - Orellana Rodríguez, Mel Andree:</b> En el informe armé el Sprint 3 y documenté <code>agreements</code> y <code>shared</code> para la revisión del curso. About the Product lo escribí para visitantes de la landing; About the Team, para mostrar el trabajo del grupo.</li>
             <li><b>AV2 - Atauje Barreto, Alexander Sebastián:</b> Documentación de la implementación del bounded context <code>alerts-management</code> en el backend <code>allpatek-platform</code>, detallando los modelos de alertas y lecturas climáticas, las consultas por propietario, los niveles de severidad, la integración con Open-Meteo y la comunicación con <code>parcel-management</code> mediante una ACL. Asimismo, actualicé el Registro de Versiones y la sección 5.2.3.4 (Development Evidence for Sprint Review) del informe, consignando los commits del módulo con sus identificadores, mensajes y descripciones técnicas para facilitar la trazabilidad y revisión del trabajo realizado.</li>
             <li><b>AV2 - Raymundo Villarroel, Abigail Nadhim:</b> Documentación de la entrega AV2: actualización del informe con las tareas, el bounded context <code>parcel-management</code> y los commits de Sprint 3, redactados con descripciones claras para perfiles técnicos y de negocio.</li>
-            <li><b>AV2 - Vera Solsol, Nayely Macarena:</b> Documentación de la implementación del bounded context <code>tracking-evidence</code> en el backend, tambien realice los commits de Sprint 3 con sus respectivos datos.</li>
+            <li><b>AV2 - Vera Solsol, Nayely Macarena:</b> Documentación de la implementación del bounded context <code>tracking-evidence</code> en el backend, también realicé los commits de Sprint 3 con sus respectivos datos.</li>
             <li><b>AV2 - Egocheaga Suyo, Miguel Angel:</b> Documenté el bounded context <code>escrow-payments</code> en el backend. Dejé el agregado Wallet, la tabla <code>wallets</code> y los endpoints GET/POST <code>/api/v1/wallets</code> y PUT <code>/wallets/{id}</code> para consultar el monto de demostración y la tarjeta. También puse el tag <code>escrow</code> en Swagger y completé mis filas AV2 en el Registro de Versiones.</li>
           </ul>
         </td>
@@ -426,7 +426,7 @@ Desde el punto de vista teórico y sectorial, el modelo de Allpatek se fundament
 
 ## 1.2. Solution Profile
 
-En esta sección se fundamenta el diseño estratégico de Allpatek a partir del diagnóstico de las fricciones comerciales y los riesgos estructurales que afectan al agro peruano. Para ello, la arquitectura de la solución parte del marco conceptual de la literatura académica sobre acceso a mercados, modelos de agricultura por contrato y mitigación del riesgo climático en unidades de producción familiar. Sobre esta base analítica se implementa la metodología Lean UX, la cual permite articular las suposiciones del negocio, formular hipótesis de valor contrastables y estructurar el Canvas del producto. Este enfoque garantiza que las funcionalidades de la plataforma respondan directamente a los puntos de dolor detectados tanto en las familias agricultoras como en los comerciantes urbanos y corporativos.
+En esta sección se fundamenta el diseño estratégico de Allpatek a partir del diagnóstico de las fricciones comerciales y los riesgos estructurales que afectan al agro peruano. Para ello, la arquitectura de la solución parte del marco conceptual de la literatura académica sobre acceso a mercados, modelos de agricultura por contrato y mitigación del riesgo climático en unidades de producción familiar. Sobre esta base analítica se implementa el proceso Lean UX, el cual permite articular las suposiciones del negocio, formular hipótesis de valor contrastables y estructurar el Canvas del producto. Este enfoque garantiza que las funcionalidades de la plataforma respondan directamente a los puntos de dolor detectados tanto en las familias agricultoras como en los comerciantes urbanos y corporativos.
 
 **Product Description**
 
@@ -646,11 +646,11 @@ El análisis de Otsuka et al. (2016) sobre modelos de agricultura por contrato e
 
 ## 2.1. Competidores
 
-Comprender el entorno competitivo resulta clave para el posicionamiento de cualquier modelo de negocio digital. En esta sección se realiza un análisis de los competidores de Terranova, tanto directos como indirectos, evaluando las estrategias que aplican, así como sus principales fortalezas y debilidades frente a la propuesta de agricultura por contrato automatizada del negocio.
+Comprender el entorno competitivo resulta clave para el posicionamiento de cualquier modelo de negocio digital. En esta sección se realiza un análisis de los competidores de TerraNova, tanto directos como indirectos, evaluando las estrategias que aplican, así como sus principales fortalezas y debilidades frente a la propuesta de agricultura por contrato automatizada del negocio.
 
 ### 2.1.1. Análisis competitivo
 
-Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y riesgos en el mercado, así como para posicionar a Terranova de manera estratégica. Este análisis permite comprender cómo los competidores atienden las necesidades de los clientes, identificar vacíos en el mercado y destacar nuestra solución a través de ventajas diferenciadoras. También facilita la elaboración de estrategias más efectivas de marketing, precios y distribución, garantizando una propuesta de valor sólida y sostenible.
+Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y riesgos en el mercado, así como para posicionar a TerraNova de manera estratégica. Este análisis permite comprender cómo los competidores atienden las necesidades de los clientes, identificar vacíos en el mercado y destacar nuestra solución a través de ventajas diferenciadoras. También facilita la elaboración de estrategias más efectivas de marketing, precios y distribución, garantizando una propuesta de valor sólida y sostenible.
 
 <table>
     <tr>
@@ -661,7 +661,7 @@ Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y r
         <td colspan="4" class="sub"><h3>¿Quiénes son nuestros principales competidores?</h3></td>
     </tr>
     <tr>
-        <td colspan="4">Gracias al análisis de la competencia del mercado, se logra comprender el entorno competitivo en el que operará Terranova Esto permite identificar a los competidores directos e indirectos, evaluando su posicionamiento actual para trazar estrategias diferenciadas frente a la ausencia de una plataforma digital peruana que aplique íntegramente el modelo de agricultura por contrato automatizada.</td>
+        <td colspan="4">Gracias al análisis de la competencia del mercado, se logra comprender el entorno competitivo en el que operará TerraNova. Esto permite identificar a los competidores directos e indirectos, evaluando su posicionamiento actual para trazar estrategias diferenciadas frente a la ausencia de una plataforma digital peruana que aplique íntegramente el modelo de agricultura por contrato automatizada.</td>
     </tr>
     <tr>
     <td rowspan="3" class="sub">PERFIL</td>
@@ -855,7 +855,7 @@ Antes de la primera pregunta, el entrevistador sigue este orden:
     
 ### 2.2.2. Registro de entrevistas
 
-### A.Entrevistas al segmento de agricultores familiares
+### A. Entrevistas al segmento de agricultores familiares
 
 #### Entrevista 1: Rosa Flores
 
@@ -898,7 +898,7 @@ Antes de la primera pregunta, el entrevistador sigue este orden:
 
 
 
-### B.Entrevistas al segmento de comerciantes urbanos
+### B. Entrevistas al segmento de comerciantes urbanos
 
 #### Entrevista 1: Irma Barreto Castro
 
@@ -999,7 +999,7 @@ A continuación, se presentan los User Personas diseñados para representar a lo
 
 ![User-Persona Comprador urbano](./assets/chapter-02/user-persona-comprador.png)
 
-### 2.3.2. User Task Matrix.
+### 2.3.2. User Task Matrix
 
 A través de la User Task Matrix, es posible identificar y organizar las principales actividades que los usuarios realizan actualmente dentro de su contexto de trabajo, de forma independiente a la existencia de Allpatek. Al categorizar estas tareas según su frecuencia e importancia, se logra comprender cuáles representan mayores dificultades y necesidades para cada perfil de usuario, permitiendo detectar oportunidades de mejora en la relación comercial entre agricultores familiares y compradores urbanos.
 
@@ -1751,7 +1751,7 @@ En esta sección se presentan los diagramas de **Wireflow**, los cuales combinan
 
 Para garantizar consistencia en la arquitectura de información, se definieron previamente los *Task Flows* correspondientes a las rutas críticas de nuestros User Personas (**Agricultor** y **Comerciante**), modelando explícitamente cada cambio de estado visual (efecto de selección, apertura de modales o actualización de badges) como un paso independiente con su respectivo wireframe.
 
- **Link Wireflow:** [Link del Wireflow Diagramsl](https://www.figma.com/board/KAFi24QzlDrbm4DzuM1DgV/Untitled?node-id=0-1&t=xxM3mTqylB25csWf-1)
+ **Enlace Wireflow:** [Enlace del diagrama Wireflow](https://www.figma.com/board/KAFi24QzlDrbm4DzuM1DgV/Untitled?node-id=0-1&t=xxM3mTqylB25csWf-1)
 
 
 #### Wireflow 1: Registro de Usuario, Selección de Rol y Consulta de Perfil
@@ -2011,7 +2011,7 @@ A continuación, se presentan los enlaces y capturas de los videos explicativos 
   <img src="./assets/chapter-04/prototipo_desktop.png" alt="Descripción de la imagen" width="700">
 </p>
 
-* **Link del Prototipo:** [Link del Prototipo Web](https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=85-504&t=DTHiWfYH71axACfB-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=123%3A494&show-proto-sidebar=1)
+* **Enlace del prototipo:** [Enlace del prototipo web](https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=85-504&t=DTHiWfYH71axACfB-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=123%3A494&show-proto-sidebar=1)
 * **Enlace al Video:** [Ver Demostración](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQDF54TKL6PlS58DK7p4wuJAAQiikz0rs6edE33i_ATjpPk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7pTDmu)
 
 ##### 2. Prototipo Mobile Web Browser – Adaptabilidad y Monitoreo en Campo
@@ -2022,7 +2022,7 @@ A continuación, se presentan los enlaces y capturas de los videos explicativos 
   <img src="./assets/chapter-04/prototipo_movil.png" alt="Descripción de la imagen" width="700">
 </p>
 
-* **Link del Prototipo:** [Link del Prototipo Movil](https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=257-10099&t=g4J1J50GPL689wBS-1&scaling=scale-down&content-scaling=fixed&page-id=236%3A5996)
+* **Enlace del prototipo:** [Enlace del prototipo móvil](https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=257-10099&t=g4J1J50GPL689wBS-1&scaling=scale-down&content-scaling=fixed&page-id=236%3A5996)
 * **Enlace al Video:** [Ver Demostración](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQAF9cog3awORKq4HYfc7F9uAa-vd6s6V_oT3BiDwhjeADQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y3j1dP)
 
 
@@ -2241,9 +2241,9 @@ Para llevar un control claro de los cambios y trabajar en equipo de forma ordena
 
 Organizamos el proyecto en repositorios independientes según cada producto digital:
 
-* **Landing Page (HTML, CSS y JS):** [Link del Repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website)
-* **Web Services (Java / Spring Boot):** [Link del Repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform)
-* **Frontend Web Application (Angular):** [Link del Repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp)
+* **Landing Page (HTML, CSS y JS):** [Enlace del repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website)
+* **Web Services (Java / Spring Boot):** [Enlace del repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform)
+* **Frontend Web Application (Angular):** [Enlace del repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp)
 
 
 #### Estrategia de Trabajo: GitFlow
@@ -2329,7 +2329,7 @@ Se adoptan los principios de la **Google HTML/CSS Style Guide** y la **W3C HTML 
   * Indentación de 2 espacios sin tabulaciones.
 
 * **Estilos CSS:**
-  * Adoptar la metodología **BEM (Block Element Modifier)** para la nomenclatura de clases (`block__element--modifier`).
+  * Adoptar la convención **BEM (Block Element Modifier)** para la nomenclatura de clases (`block__element--modifier`).
   * Evitar la regla `!important` y limitar el anidamiento excesivo en preprocesadores.
   * Agrupar propiedades CSS en orden lógico (Posicionamiento, Box Model, Tipografía, Visuales).
 
@@ -2509,7 +2509,7 @@ El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de 
   </tr>
   <tr>
     <td colspan="5">Prepared By</td>
-    <td colspan="8">Orellana Rodriguez, Mel Andree</td>
+    <td colspan="8">Orellana Rodríguez, Mel Andree</td>
   </tr>
   <tr>
     <td colspan="5">Attendees (to planning meeting)</td>
@@ -2870,7 +2870,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
   </tr>
   <tr>
     <td colspan="5">Prepared By</td>
-    <td colspan="8">Orellana Rodriguez, Mel Andree</td>
+    <td colspan="8">Orellana Rodríguez, Mel Andree</td>
   </tr>
   <tr>
     <td colspan="5">Attendees (to planning meeting)</td>
@@ -3288,7 +3288,7 @@ En este Sprint se completó la especificación, documentación y despliegue del 
 
 ### 2. Repositorio y Commits de Documentación
 
-* **Repositorio de Web Services (GitHub):**  [Repositorio Web Mock Api](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock)
+* **Repositorio de Web Services (GitHub):**  [Repositorio Web Mock API](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock)
 
 ###  Commits Relacionados con el Contrato de Servicios
 | Commit Hash | Tipo / Mensaje de Commit | Descripción / Alcance |
@@ -3528,7 +3528,7 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
   </tr>
   <tr>
     <td colspan="5">Prepared By</td>
-    <td colspan="8">Orellana Rodriguez, Mel Andree</td>
+    <td colspan="8">Orellana Rodríguez, Mel Andree</td>
   </tr>
   <tr>
     <td colspan="5">Attendees (to planning meeting)</td>
@@ -3540,7 +3540,7 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
   </tr>
   <tr>
     <td colspan="5">Sprint 2 Retrospective Summary</td>
-    <td colspan="8">El equipo acordó corregir el versionado de los releases en GitHub aplicando Semantic Versioning 2.0.0 de forma consistente; pasar a Done las tareas del Sprint 2 que quedaron en To-Do y mantener el tablero Trello alineado con el estado real; equilibrar el número de commits entre los cinco integrantes en todos los repositorios; ajustar la carátula al formato institucional al 100% y actualizar el mes en cada entrega; reemplazar tipos primitivos por value objects relacionados, sin clases aisladas; reordenar diagramas e user stories presentando primero los bounded contexts core, luego los de soporte y al final los genéricos; rediseñar el diagrama de componentes del frontend; completar el Student Outcome con acciones de todos los integrantes en cada entrega; sustituir el vocabulario no admitido por «requisitos»; describir DDD como enfoque de diseño de software y no como metodología; y grabar y publicar el video de exposición.</td>
+    <td colspan="8">El equipo acordó corregir el versionado de los releases en GitHub aplicando Semantic Versioning 2.0.0 de forma consistente; pasar a Done las tareas del Sprint 2 que quedaron en To-Do y mantener el tablero Trello alineado con el estado real; equilibrar el número de commits entre los cinco integrantes en todos los repositorios; ajustar la carátula al formato institucional al 100% y actualizar el mes en cada entrega; reemplazar tipos primitivos por value objects relacionados, sin clases aisladas; reordenar diagramas y User Stories presentando primero los bounded contexts core, luego los de soporte y al final los genéricos; rediseñar el diagrama de componentes del frontend; completar el Student Outcome con acciones de todos los integrantes en cada entrega; sustituir el vocabulario no admitido por «requisitos»; describir DDD como enfoque de diseño de software y no como metodología; y grabar y publicar el video de exposición.</td>
   </tr>
   <tr>
     <td colspan="13"><strong>Sprint Goal & User Stories</strong></td>
@@ -3931,7 +3931,7 @@ Durante el Sprint 3 se desplegó la versión inicial del backend core (allpatek-
       <td style="text-align: center;"><strong>Web Services</strong></td>
       <td style="text-align: center;">Java 27, Spring Boot 4, Spring Data JPA, MySQL </td>
       <td style="text-align: center;"><a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform" target="_blank"><code>allpatek-platform</code></a></td>
-      <td style="text-align: center;">Primera versión del API RESTful interno</td>
+      <td style="text-align: center;">Primera versión de la API RESTful interna</td>
       <td style="text-align: center;"><code>http://localhost:8090</code></td>
     </tr>
   </tbody>
@@ -3987,14 +3987,14 @@ Desde Try it out se ejecutó el CRUD de parcelas contra MySQL: alta HTTP 201, re
 
 ## 5.3. Validation Interviews
 
-En esta sección, el equipo registra y explica las actividades de entrevistas de validación realizadas durante el proyecto Allpatek. Las pruebas se efectuaron con usuarios pertenecientes a los dos segmentos objetivo para evaluar el Landing Page y las aplicaciones web.
+En esta sección, el equipo registra y explica las actividades de entrevistas de validación realizadas durante el proyecto Allpatek. Las pruebas se efectuaron con usuarios pertenecientes a los dos segmentos objetivo para evaluar la Landing Page y las aplicaciones web.
 
 ### 5.3.1. Diseño de Entrevistas
 
 El proceso de validación se estructuró mediante entrevistas semiestructuradas divididas en cuatro bloques metodológicos:
 1. **Apertura y Consentimiento:** Presentación del equipo, explicación del propósito académico y solicitud de autorización para la grabación en video.
 2. **Preguntas Básicas de Perfilamiento:** Registro de datos demográficos y rol/ocupación de los participantes.
-3. **Tareas Guiadas / User Flows:** Interacción directa con el Landing Page y los prototipos interactivos.
+3. **Tareas Guiadas / User Flows:** Interacción directa con la Landing Page y los prototipos interactivos.
 4. **Cuestionario de Validación:** Evaluación de 12 preguntas por segmento orientadas a medir usabilidad, propuesta de valor y confianza.
 
 
@@ -4058,7 +4058,7 @@ El proceso de validación se estructuró mediante entrevistas semiestructuradas 
 #### 4. Cuestionario de Validación 
 
 ##### Landing Page y Propuesta de Valor
-1. Al explorar el Landing Page, ¿queda claro cómo funciona el modelo de alquiler de parcelas a costo directo de producción?
+1. Al explorar la Landing Page, ¿queda claro cómo funciona el modelo de alquiler de parcelas a costo directo de producción?
 2. ¿Qué nivel de confianza le transmite la explicación sobre la garantía de pagos retenidos y liberados por hitos (*Escrow*)?
 3. ¿La propuesta le parece atractiva para reducir costos en la cadena de suministro de su negocio frente a comprar a mayoristas?
 
@@ -4377,7 +4377,7 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
 
 En esta sección se evalúan las sesiones de validación del Sprint 3 según heurísticas de **usabilidad**, **arquitectura de información** y **diseño inclusivo**, con el formato del Anexo D del enunciado del trabajo final. El equipo TerraNova actuó como auditor. Los clientes de la sesión son los participantes de 5.3.2 que ya cuentan con resumen de validación: **Gustavo Adolfo Suyo** (agricultor familiar), **Irma Barreto Castro** y **César Hugo Egocheaga** (comerciantes urbanos). La ficha de Rosa Flores permanece pendiente de grabación; no se incluye como cliente de esta evaluación.
 
-Las tareas observadas coinciden con las guías de 5.3.1: exploración del Landing Page, registro de parcela y alertas climáticas (agricultor); garantía Escrow, firma digital y bóveda con evidencias (comerciante). Cada hallazgo se vincula a un testimonio de la sesión o a la inspección de la interfaz durante esa misma tarea.
+Las tareas observadas coinciden con las guías de 5.3.1: exploración de la Landing Page, registro de parcela y alertas climáticas (agricultor); garantía Escrow, firma digital y bóveda con evidencias (comerciante). Cada hallazgo se vincula a un testimonio de la sesión o a la inspección de la interfaz durante esa misma tarea.
 
 <div style="color:#1a365d;">
 
@@ -4404,7 +4404,7 @@ Landing Page de Allpatek (`allpatek-website`) y Web Application (`allpatek-webap
 
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
-1. Exploración del Landing Page y comprensión del modelo Agro-as-a-Service.
+1. Exploración de la Landing Page y comprensión del modelo Agro-as-a-Service.
 2. Publicación de una parcela (datos, ubicación y fotografías).
 3. Consulta del panel climático y de alertas.
 4. Revisión del catálogo y de la ficha de una parcela (El Tambo / equivalente).
