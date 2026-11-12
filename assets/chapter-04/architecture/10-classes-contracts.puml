@@ -18,6 +18,14 @@ package "Agreements management domain" {
     -merchantProfileId: ProfileId
     -signatures: ContractSignatures
     -createdAt: AgreementDate
+    +isFullySigned(): boolean
+    +onFullySigned(): void
+  }
+
+  class AgreementFullySignedEvent <<Domain Event>> {
+    +agreementId: String
+    +parcelId: String
+    +merchantProfileId: Long
   }
 
   class AgreementId <<Value Object>> {
@@ -41,6 +49,7 @@ package "Agreements management domain" {
   Agreement *-- AgreementId
   Agreement *-- ContractSignatures
   Agreement *-- AgreementDate
+  Agreement ..> AgreementFullySignedEvent : onFullySigned()
   AgreementRepository ..> Agreement
 }
 
@@ -56,7 +65,8 @@ package "Persistence" {
 AgreementRepositoryImpl ..|> AgreementRepository
 
 legend bottom
-The agreement refers to the parcel and merchant by ID.
-Signature flags come from the request; no signing workflow, payment confirmation or PDF in Spring.
+The agreement refers to Parcel and Merchant by ID.
+onFullySigned() registers AgreementFullySignedEvent when ContractSignatures is complete.
+No PDF, payment confirmation or identity check in Spring.
 endlegend
 @enduml
