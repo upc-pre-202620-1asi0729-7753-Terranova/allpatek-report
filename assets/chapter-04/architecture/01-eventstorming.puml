@@ -2,39 +2,104 @@
 !pragma layout smetana
 skinparam backgroundColor white
 skinparam defaultFontName SansSerif
-skinparam defaultFontSize 15
+skinparam defaultFontSize 13
 skinparam shadowing false
 skinparam ArrowColor #476050
-skinparam RectangleBorderColor #476050
+skinparam RectangleBorderColor #5D6D67
+skinparam wrapWidth 200
 skinparam dpi 135
 
-title Allpatek | Design-Level EventStorming: browser demo
+title Allpatek | Design-Level EventStorming (allpatek-platform)
 left to right direction
 
-rectangle "<b>Parcel management</b>\nFarmer\n<color:#175789>Command: Publish parcel</color>\n<color:#9B421D>Event: Parcel published</color>\n<color:#346334>Read model: Parcel catalog</color>" as plot #F7FAF8
+rectangle "Farmer" as farmer #F8BBD0
+rectangle "Merchant" as merchant #F8BBD0
 
-rectangle "<b>Agreements management</b>\nMerchant\n<color:#175789>Command: Accept terms and request</color>\n<color:#9B421D>Event: Merchant acceptance saved</color>\n<color:#346334>Read model: Pending agreements</color>" as request #F7FAF8
+package "parcels" #F7FAF8 {
+  rectangle "CreateParcelCommand\nUpdateParcelCommand\nDeleteParcelCommand" as parcelCmd #64B5F6
+  rectangle "Parcel" as parcelAgg #FFEE58
+  rectangle "GetAllParcelsQuery" as parcelQ #81C784
+  rectangle "MarkParcelInProductionCommand" as markCmd #64B5F6
+}
 
-rectangle "<b>Agreements management</b>\nFarmer\n<color:#175789>Command: Confirm agreement</color>\n<color:#9B421D>Event: Both acceptances saved</color>\n<color:#346334>Read model: Signed agreements</color>" as signed #F7FAF8
+package "agreements" #F7FAF8 {
+  rectangle "SaveAgreementCommand\nmerchantSigned\nfarmerSigned" as agrCmd #64B5F6
+  rectangle "DeleteAgreementCommand" as agrDel #64B5F6
+  rectangle "Agreement" as agrAgg #FFEE58
+  rectangle "AgreementFullySignedEvent" as agrEvt #FF9800
+  rectangle "AgreementFullySigned\nIntegrationEvent" as agrInt #FF9800
+  rectangle "Whenever AgreementFullySignedIntegrationEvent\nthen MarkParcelInProductionCommand" as policy #CE93D8
+  rectangle "GetAllAgreementsQuery" as agrQ #81C784
+}
 
-rectangle "<b>Tracking evidence</b>\nFarmer\n<color:#175789>Command: Submit milestone evidence</color>\n<color:#9B421D>Event: Evidence sent for review</color>\n<color:#346334>Read model: Evidence board (review)</color>" as submitted #F7FAF8
+package "tracking" #F7FAF8 {
+  rectangle "SaveEvidenceCommand\nstatus: review | verified | accepted" as evCmd #64B5F6
+  rectangle "DeleteEvidenceCommand" as evDel #64B5F6
+  rectangle "MilestoneEvidence" as evAgg #FFEE58
+  rectangle "GetAllEvidenceQuery" as evQ #81C784
+}
 
-rectangle "<b>Tracking evidence</b>\nMerchant\n<color:#175789>Command: Verify evidence</color>\n<color:#9B421D>Event: Evidence verified</color>\n<color:#346334>Read model: Evidence board (verified)</color>" as verified #F7FAF8
+package "escrow" #F7FAF8 {
+  rectangle "SaveWalletCommand" as wCmd #64B5F6
+  rectangle "DeleteWalletCommand" as wDel #64B5F6
+  rectangle "Wallet" as wAgg #FFEE58
+  rectangle "GetAllWalletsQuery" as wQ #81C784
+}
 
-rectangle "<b>Escrow payments (simulation)</b>\nMerchant\n<color:#175789>Command: Release milestone in vault</color>\n<color:#9B421D>Event: Release marked in demo</color>\n<color:#346334>Read model: Vault (accepted)</color>" as released #F7FAF8
+package "alerts" #F7FAF8 {
+  rectangle "GetClimateAlertsQuery" as alQ #81C784
+  rectangle "ClimateReading" as climate #FFEE58
+}
 
-plot -right-> request
-request -right-> signed
-request -down-> submitted : Board currently checks\nmerchant acceptance
-submitted -right-> verified
-verified -right-> released
-signed -down-> released : Vault requires\nboth acceptances
+package "shared" #F7FAF8 {
+  rectangle "UpdateProfileCommand" as pCmd #64B5F6
+  rectangle "Profile" as pAgg #FFEE58
+  rectangle "GetAllProfilesQuery\nGetProfileByIdQuery" as pQ #81C784
+}
+
+rectangle "Open-Meteo" as meteo #F48FB1
+
+farmer --> parcelCmd
+parcelCmd --> parcelAgg
+parcelAgg --> parcelQ
+
+farmer --> agrCmd
+merchant --> agrCmd
+agrCmd --> agrAgg
+agrDel --> agrAgg
+agrAgg --> agrEvt : onFullySigned()\nif signatures.isComplete()
+agrEvt --> agrInt : AgreementFullySignedEventHandler
+agrInt --> policy
+policy --> markCmd
+markCmd --> parcelAgg : markInProduction()\nParcelStatus.in_production
+agrAgg --> agrQ
+
+farmer --> evCmd
+merchant --> evCmd
+evCmd --> evAgg
+evDel --> evAgg
+evAgg --> evQ
+
+merchant --> wCmd
+wCmd --> wAgg
+wDel --> wAgg
+wAgg --> wQ
+
+farmer --> alQ
+alQ --> climate
+parcelAgg --> climate : ParcelsContextFacade
+climate --> meteo : WeatherForecastService
+
+farmer --> pCmd
+merchant --> pCmd
+pCmd --> pAgg
+pAgg --> pQ
 
 legend bottom
-  Blue: command | Orange: conceptual business event | Green: read model.
-  Events label business outcomes, not runtime messages or listeners.
-  This is the browser demo. Wallet opening balance is entered in the UI.
-  Release requests mark evidence as accepted. No funds are transferred.
-  The UI can show release success even when the write fails.
+  Pink actor = Farmer / Merchant (Angular demo role; Spring IAM is empty)
+  Blue = Command  |  Yellow = Aggregate / ClimateReading  |  Orange = event published in Spring
+  Lilac = Policy  |  Green = Query  |  Hot pink = external system
+  Tracking and escrow persist status fields; they do not publish domain events.
+  ClimateReading is computed on GET /api/v1/alerts and is not stored.
 endlegend
 @enduml
