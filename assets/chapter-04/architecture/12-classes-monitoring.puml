@@ -37,7 +37,9 @@ package "Tracking evidence" {
 
   interface EvidenceRepository <<Repository Port>> {
     +save(evidence: MilestoneEvidence): MilestoneEvidence
+    +existsById(id: String): boolean
     +findAll(): List<MilestoneEvidence>
+    +deleteById(id: String): void
   }
 
   class EvidenceRepositoryImpl <<JPA Adapter>>
