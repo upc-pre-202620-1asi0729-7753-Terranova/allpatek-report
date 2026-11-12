@@ -12,17 +12,17 @@ title Allpatek | C4 - Browser automation calls
 LAYOUT_TOP_DOWN()
 Container(landing, "Landing contact form", "Vanilla JavaScript", "Validates contact fields and checks HTTP result")
 Container_Boundary(web, "Angular web application") {
-  Component(contract, "Contract signature view", "agreements-management", "Sends contract details after farmer acceptance is saved")
-  Component(evidence, "Milestone evidence form", "tracking-evidence", "Sends evidence metadata before saving evidence")
-  Component(payout, "Vault view", "escrow-payments", "Requests notification after simulated release reports success")
+  Component(contract, "agreements-management", "agreements-management", "Sends notice after SaveAgreement with farmerSigned")
+  Component(evidence, "tracking-evidence", "tracking-evidence", "Sends MilestoneEvidence metadata before SaveEvidence")
+  Component(payout, "escrow-payments", "escrow-payments", "Requests notice after simulated release reports success")
 }
 
 System_Ext(automation, "n8n webhook service", "Configured browser destinations; workflow internals not verified")
 
 Rel(landing, automation, "Contact request", "HTTPS POST / JSON")
-Rel(contract, automation, "Contract notification request", "HTTPS POST / JSON")
-Rel(evidence, automation, "Evidence notification request", "HTTPS POST / form")
-Rel(payout, automation, "Simulated payout notice", "HTTPS POST / form")
+Rel(contract, automation, "n8nContractWebhookUrl", "HTTPS POST / JSON")
+Rel(evidence, automation, "n8nEvidenceWebhookUrl", "HTTPS POST / form")
+Rel(payout, automation, "n8nPayoutWebhookUrl", "HTTPS POST / form")
 
 footer Calls originate in the browser. The reviewed Spring ZIP contains no n8n or contract PDF implementation. Delivery was not verified.
 SHOW_LEGEND()
