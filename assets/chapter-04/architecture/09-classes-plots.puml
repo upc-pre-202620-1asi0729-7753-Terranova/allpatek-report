@@ -24,6 +24,7 @@ package "Parcel management domain" {
     -crops: Crops
     -media: ParcelMedia
     +update(command: UpdateParcelCommand): void
+    +markInProduction(): void
   }
 
   class CampaignSchedule <<Value Object>> {
@@ -69,7 +70,7 @@ package "Persistence" {
 ParcelRepositoryImpl ..|> ParcelRepository
 
 legend bottom
-Owner is a profile ID. Location, area and campaign cost are text values.
-The API exposes parcel status; it has no automatic reservation or contract activation.
+Owner is a ProfileId. Location, area and campaign cost are text values.
+markInProduction() sets ParcelStatus.in_production after AgreementFullySignedIntegrationEvent.
 endlegend
 @enduml
