@@ -15,9 +15,9 @@ Person(reviewer, "API reviewer", "Exercises endpoints locally.")
 
 System_Boundary(allpatek, "Allpatek") {
   Container(landing, "Landing page", "HTML / CSS / JavaScript", "Describes the service and captures inquiries.")
-  Container(web, "Web application (SPA)", "Angular / TypeScript", "Demo session by role, parcels, agreements, evidence, vault and weather.")
+  Container(web, "Web application (SPA)", "Angular / TypeScript", "Demo session by role: Parcel, Agreement, MilestoneEvidence, Wallet and ClimateReading.")
   Container(api, "REST API", "Java 27 / Spring Boot", "Standalone local API with OpenAPI / Swagger.")
-  ContainerDb(db, "Relational storage", "MySQL 8.4 (verified locally)", "Tables: profiles, parcels, agreements, wallets and evidences.")
+  ContainerDb(db, "Relational storage", "MySQL 8.4 (verified locally)", "Tables: profiles, parcels, agreements, wallets and evidence.")
 }
 
 System_Ext(mock, "Demo data API", "Azure Mock API; JSON Server for local frontend development.")
