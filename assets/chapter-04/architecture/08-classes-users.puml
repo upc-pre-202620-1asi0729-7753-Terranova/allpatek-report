@@ -20,7 +20,6 @@ package "Shared domain" {
     -emailAddress: EmailAddress
     -company: CompanyDetails
     +update(command: UpdateProfileCommand): void
-    +onCreated(): void
   }
 
   class ProfileId <<Value Object>> {
