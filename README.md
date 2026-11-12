@@ -4097,7 +4097,6 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
 
 #### A) Segmento Agricultor
 
-
 <table width="100%" align="center" style="margin: 0 auto;">
   <thead>
     <tr>
@@ -4108,11 +4107,11 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
   <tbody>
     <tr>
       <td align="center"><b>Título</b></td>
-      <td align="center"><b>Entrevista 1: Rosa Flores</b></td>
+      <td align="center"><b>Entrevista 3: Rosa Flores</b></td>
     </tr>
     <tr>
       <td align="center">Segmento</td>
-      <td align="center">Agricultor familiar</td>
+      <td align="center">Agricultor</td>
     </tr>
     <tr>
       <td align="center">Nombres y apellidos</td>
@@ -4120,7 +4119,7 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
     </tr>
     <tr>
       <td align="center">Edad</td>
-      <td align="center">45 años</td>
+      <td align="center">48 años</td>
     </tr>
     <tr>
       <td align="center">Distrito</td>
@@ -4128,43 +4127,45 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
     </tr>
     <tr>
       <td align="center">Ocupación</td>
-      <td align="center">Administradora y trabajadora agrícola a tiempo completo (Parcela de palta)</td>
+      <td align="center">Agricultora</td>
     </tr>
     <tr>
       <td align="center">Tipo de cultivo principal</td>
-      <td align="center">Palta (Paltos)</td>
+      <td align="center">Palta y hortalizas</td>
     </tr>
     <tr>
       <td align="center">Extensión aproximada de la parcela</td>
-      <td align="center">950 m²</td>
+      <td align="center"> 950 m²</td>
     </tr>
     <tr>
       <td align="center">Inicio de la entrevista</td>
-      <td align="center">Pendiente de verificar en la grabación de validación.</td>
+      <td align="center">00:00</td>
     </tr>
     <tr>
       <td align="center">Duración</td>
-      <td align="center">Pendiente de verificar en la grabación de validación.</td>
+      <td align="center">04:43</td>
     </tr>
     <tr>
       <td align="center">URL del video</td>
-      <td align="center">Pendiente de incorporar el enlace de la entrevista de validación.</td>
+      <td align="center"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQCXWmxVVzRyTKLNnMjuRh8cAanVcxuNzSX2roCt7lOrZm0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QWoAks" target="_blank">Ver entrevista de validación: Entrevista Agricultor 3</a></td>
     </tr>
     <tr>
       <td align="center"><b>Fotografía</b></td>
-      <td align="center">Pendiente de incorporar una captura de su entrevista de validación.</td>
+      <td align="center"><img src="./assets/chapter-05/agricultorentrevista.png" width="500" alt="Captura actual de la entrevista de validación de Rosa Flores"></td>
     </tr>
     <tr>
       <td align="center"><b>Resumen de la entrevista</b></td>
-      <td align="center">Pendiente de revisar las respuestas de validación sobre qué le pareció la plataforma Allpatek a la persona entrevistada.</td>
+      <td align="center">Tras evaluar la plataforma web de Allpatek, Rosa Flores comprendió que permite negociar directamente con comerciantes sin intermediarios y destacó el respaldo en los pagos y la transparencia de los acuerdos frente a cambios arbitrarios de precio. Señaló que el registro de terrenos, el mapa integrado y las alertas climáticas son claros e intuitivos. Sugirió incorporar compresión automática de imágenes para ahorrar datos móviles, aumentar el tamaño de la tipografía y el contraste de botones para facilitar la lectura bajo el sol, y priorizar la carga de textos y alertas ante conectividad intermitente. Asimismo, coincidió en que el envío periódico de fotografías genera confianza para asegurar el pago oportuno y expresó su disposición a registrar sus terrenos para próximas campañas.</td>
     </tr>
     <tr>
       <td align="center">Fuente del perfil</td>
-      <td align="center"><a href="#entrevista-1-rosa-flores">Entrevista inicial de Rosa Flores (sección 2.2.2)</a></td>
+      <td align="center"><a href="#entrevista-[N]-rosa-flores">Entrevista inicial de Rosa Flores</a></td>
     </tr>
   </tbody>
 </table>
 
+
+#### B) Segmento Agricultor
 
 
 <table width="100%" align="center" style="margin: 0 auto;">
@@ -4233,10 +4234,11 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
     </tr>
   </tbody>
 </table>
+
     
    
 
-#### B) Segmento Comerciante
+#### A) Segmento Comerciante
 
 <table width="100%" align="center" style="margin: 0 auto;">
   <thead>
@@ -4306,6 +4308,8 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
     </tr>
   </tbody>
 </table>
+
+#### B) Segmento Comerciante
 
 
 <table width="100%" align="center" style="margin: 0 auto;">
