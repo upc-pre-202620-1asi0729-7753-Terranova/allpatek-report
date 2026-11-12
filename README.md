@@ -1081,8 +1081,12 @@ En total se identificaron **20 domain events**, **2 actores**, **3 sistemas exte
 Los tres hotspots quedan como insumo para el Design-Level Event Storming del Capítulo IV, donde el equipo profundizará el modelado a nivel de Bounded Contexts, Commands y Policies.
 
 <p align="center">
-  <img src="./assets/chapter-02/big-picture-event-storming.png" width="900">
+  <img src="./assets/chapter-04/architecture/eventstormingudpate.png" width="900">
 </p>
+
+
+ **Enlace Event Storming:** [Enlace](https://miro.com/app/board/uXjVEOzTlmg=/?share_link_id=401600368120)
+
 
 ## 2.5. Ubiquitous Language
 
