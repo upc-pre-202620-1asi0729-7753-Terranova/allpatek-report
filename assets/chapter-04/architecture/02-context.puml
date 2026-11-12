@@ -10,18 +10,18 @@ skinparam dpi 140
 title Allpatek | C4 - System context
 LAYOUT_TOP_DOWN()
 
-Person(farmer, "Farmer", "Publishes parcels, accepts agreements and submits evidence.")
-Person(merchant, "Merchant", "Chooses a parcel, accepts an agreement and reviews milestones.")
+Person(farmer, "Farmer", "Creates Parcel records, signs Agreement and submits MilestoneEvidence.")
+Person(merchant, "Merchant", "Chooses a Parcel, signs Agreement, reviews MilestoneEvidence and saves Wallet.")
 
-System(allpatek, "Allpatek", "Seasonal agricultural agreements and crop tracking. Payments in the browser demo are simulated.")
+System(allpatek, "Allpatek", "Parcel, Agreement, MilestoneEvidence, Wallet, Profile and ClimateReading. Wallet release in the browser demo is simulated.")
 
 System_Ext(mock, "Azure Mock API", "Provides demo records and receives demo updates.")
 System_Ext(weather, "Open-Meteo", "Provides location-based weather forecasts.")
 System_Ext(maps, "OpenStreetMap", "Embedded parcel location map.")
 System_Ext(automation, "n8n", "Browser webhook targets; workflow execution was not verified.")
 
-Rel(farmer, allpatek, "Publishes parcels and submits evidence")
-Rel(merchant, allpatek, "Requests agreements and reviews milestones")
+Rel(farmer, allpatek, "CreateParcel and SaveEvidence")
+Rel(merchant, allpatek, "SaveAgreement, SaveEvidence and SaveWallet")
 Rel(allpatek, mock, "Reads and writes demo records")
 Rel(allpatek, weather, "Requests forecasts")
 Rel(allpatek, maps, "Loads map in parcel form")
