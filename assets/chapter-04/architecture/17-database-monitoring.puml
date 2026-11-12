@@ -9,9 +9,9 @@ skinparam ArrowColor #476050
 skinparam dpi 140
 hide methods
 hide circle
-title Allpatek | MySQL - Tracking Evidence
+title Allpatek | MySQL - Evidence
 left to right direction
-entity "evidences" as evidence {
+entity "evidence" as evidence {
   {field} * id: VARCHAR(160) <<PK>>
   {field} * parcel_id: VARCHAR(160)
   {field} * milestone: INT
@@ -27,10 +27,11 @@ entity "parcels" as parcel #EAF2EB {
 }
 evidence ..> parcel : parcel_id
 note bottom of evidence
-  milestone: 1 to 4 (domain validation)
+  @Table(name = "evidence")
+  milestone: 1 to 4 (MilestoneNumber)
   {field} status: accepted, review, verified
   REST path: /api/v1/evidence
-  Climate readings are calculated on demand; no alerts table.
+  ClimateReading is calculated on GET /api/v1/alerts; no alerts table.
 end note
 legend bottom
 PK: primary key | UQ: unique | *: NOT NULL
