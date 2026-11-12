@@ -29,32 +29,14 @@
 
 <h3 align="center">Integrantes</h3>
 
-<table align="center">
-  <tr>
-    <th align="left">Código</th>
-    <th align="left">Apellidos y Nombres</th>
-  </tr>
-  <tr>
-    <td align="left">u20241f246</td>
-    <td align="left">Atauje Barreto, Alexander Sebastián</td>
-  </tr>
-  <tr>
-    <td align="left">u202215188</td>
-    <td align="left">Egocheaga Suyo, Miguel Angel</td>
-  </tr>
-  <tr>
-    <td align="left">u202116018</td>
-    <td align="left">Orellana Rodríguez, Mel Andree</td>
-  </tr>
-  <tr>
-    <td align="left">u20231h171</td>
-    <td align="left">Vera Solsol, Nayely Macarena</td>
-  </tr>
-  <tr>
-    <td align="left">u202318001</td>
-    <td align="left">Raymundo Villarroel, Abigail Nadhim</td>
-  </tr>
-</table>
+<p align="center">
+  <b>Código</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Apellidos y Nombres</b><br>
+  u20241f246 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Atauje Barreto, Alexander Sebastián<br>
+  u202215188 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Egocheaga Suyo, Miguel Angel<br>
+  u202116018 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Orellana Rodríguez, Mel Andree<br>
+  U20231h171 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vera Solsol, Nayely Macarena<br>
+  u202318001 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Raymundo Villarroel, Abigail Nadhim
+</p>
 
 <p align="center">&nbsp;</p>
 
