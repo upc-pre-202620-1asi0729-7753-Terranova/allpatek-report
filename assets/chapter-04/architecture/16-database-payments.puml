@@ -9,13 +9,15 @@ skinparam ArrowColor #476050
 skinparam dpi 140
 hide methods
 hide circle
-title Allpatek | MySQL - Demo Wallets
+title Allpatek | MySQL - Wallets
 left to right direction
 entity "wallets" as wallet {
   {field} * id: VARCHAR(160) <<PK>>
   {field} * profile_id: BIGINT
   {field} * opening_cents: INT
   {field} * holder: VARCHAR(160)
+  {field} card_number: VARCHAR(16)
+  {field} cvv: VARCHAR(4)
   {field} * last4: VARCHAR(4)
   {field} * expiry: VARCHAR(5)
   {field} * brand: VARCHAR(40)
@@ -27,8 +29,9 @@ entity "profiles" as profile #EAF2EB {
 }
 wallet ..> profile : profile_id
 note bottom of wallet
-  Stores masked card metadata and an initial amount.
-  No full card number, security code or movement ledger.
+  PaymentCardPersistenceEmbeddable maps holder, card_number,
+  cvv, last4, expiry and brand.
+  No movement ledger or payment gateway table.
 end note
 legend bottom
 PK: primary key | UQ: unique | *: NOT NULL
