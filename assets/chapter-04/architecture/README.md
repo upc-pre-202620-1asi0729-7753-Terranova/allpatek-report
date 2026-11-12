@@ -15,7 +15,7 @@ java '-Djava.awt.headless=true' -jar '<ruta-plantuml.jar>' -charset UTF-8 -tsvg 
 
 | Fuentes | Qué representan |
 |---|---|
-| 01–04 | EventStorming de la demo, contexto, contenedores y componentes de Spring |
+| 01–04 | EventStorming del código Java, contexto, contenedores y componentes de Spring |
 | 05–07 | SPA Angular, landing e invocaciones a webhooks desde el navegador |
 | 08–12 | Agregados, value objects, servicios y persistencia del backend |
 | 13–17 | Esquema físico inspeccionado en MySQL 8.4; referencias por ID sin claves foráneas |
@@ -23,4 +23,4 @@ java '-Djava.awt.headless=true' -jar '<ruta-plantuml.jar>' -charset UTF-8 -tsvg 
 
 **Versiones revisadas:** Webapp `f635d7f` (develop) y `33bf377` (main); landing `ccc9d71` (develop) y `35fc7c0` (main); backend `allpatek-platform.zip` (SHA-256 `333cfcbafc94fecc7d6d3df8a0ab348e272ac0be2e339fa77b0805eed0608978`). Los C4 usan la biblioteca incluida en PlantUML; la generación no requiere descargar includes.
 
-El EventStorming describe resultados del negocio y de la UI; no acredita que Spring publique esos eventos ni reemplaza la evidencia de un taller. El PNG `05-web-components-update.png` se conserva como versión anterior de Sprint 3; la figura vigente es `05-web-components.png`.
+El EventStorming de `01-eventstorming` usa comandos, agregados, consultas y el único evento publicado en Spring (`AgreementFullySignedEvent`). No inventa eventos de evidencia ni de wallet. No reemplaza la evidencia de un taller colaborativo. El PNG `05-web-components-update.png` se conserva como versión anterior de Sprint 3; la figura vigente es `05-web-components.png`.

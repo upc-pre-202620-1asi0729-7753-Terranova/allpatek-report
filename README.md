@@ -2043,19 +2043,21 @@ Allpatek busca que el comerciante contrate una parcela y el trabajo de un agricu
 
 ### 4.6.1. Design-Level Event Storming
 
-El diagrama contrasta comandos, resultados y consultas con el flujo de la demo. Los eventos escritos en pasado describen lo que ocurrió en el negocio o la pantalla; **no implican que Spring publique esos eventos**. El Big Picture Event Storming del capítulo II conserva el ciclo de temporada planteado como diseño.
+El diagrama usa los nombres del código Java: paquetes `parcels`, `agreements`, `tracking`, `escrow`, `alerts` y `shared`; comandos y consultas de esas clases; agregados `Parcel`, `Agreement`, `MilestoneEvidence`, `Wallet` y `Profile`; y el registro `ClimateReading`. El único evento de dominio publicado en Spring es `AgreementFullySignedEvent`, traducido a `AgreementFullySignedIntegrationEvent`. La política resultante ejecuta `MarkParcelInProductionCommand` y deja la parcela en `ParcelStatus.in_production`. `tracking` y `escrow` persisten estados (`review`, `verified`, `accepted` en evidencia; saldo inicial en `Wallet`); **no publican eventos**. `ClimateReading` se calcula en `GET /api/v1/alerts` con Open-Meteo y no se guarda. Farmer y Merchant son el rol de la demo Angular; el paquete `iam` no autentica. El Big Picture del capítulo II sigue siendo el ciclo de temporada propuesto, no este recorte de implementación.
 
-| Actor y comando | Resultado en la demo | Regla o dato de lectura |
+| Actor y comando | Qué ocurre en Spring | Lectura |
 |---|---|---|
-| Agricultor · PublishParcel | Parcel published | El formulario asigna propietario y guarda `available`. El catálogo consulta parcelas. |
-| Comerciante · AcceptAgreement; agricultor · ConfirmAgreement | Merchant acceptance recorded → Farmer acceptance recorded | La bóveda lee acuerdos con ambas aceptaciones. La confirmación en la UI no verifica identidad ni dinero. |
-| Agricultor · SubmitEvidence | Evidence submitted (`review`) | El formulario exige un hito habilitado y una imagen. El tablero identifica acuerdos mediante la aceptación del comerciante. |
-| Comerciante · VerifyEvidence; ReleaseMilestone | Evidence verified (`verified`) → Release recorded (`accepted`) | Se verifica la evidencia en una pantalla y se marca la liberación simulada en la bóveda. |
-| Agricultor · ViewForecast | Forecast displayed | Consulta de parcelas con coordenadas y pronóstico; no crea una alerta persistente. |
+| Farmer · `CreateParcelCommand` / `UpdateParcelCommand` / `DeleteParcelCommand` | Persiste `Parcel` (`available`, `in_production` o `maintenance`) | `GetAllParcelsQuery` |
+| Merchant o Farmer · `SaveAgreementCommand` | Persiste `Agreement` con `merchantSigned` y `farmerSigned`. Si ambas firmas están completas, `onFullySigned()` registra `AgreementFullySignedEvent` | `GetAllAgreementsQuery` |
+| Política · `AgreementFullySignedIntegrationEvent` | `MarkParcelInProductionCommand` → `Parcel.markInProduction()` | Catálogo de parcelas |
+| Farmer o Merchant · `SaveEvidenceCommand` | Persiste `MilestoneEvidence` con `EvidenceStatus` | `GetAllEvidenceQuery` |
+| Merchant · `SaveWalletCommand` | Persiste `Wallet` con `PaymentCard` y `MoneyCents` | `GetAllWalletsQuery` |
+| Farmer · `GetClimateAlertsQuery` | Arma `ClimateReading` con `ParcelsContextFacade` y Open-Meteo | No hay tabla de alertas |
+| Farmer o Merchant · `UpdateProfileCommand` | Actualiza `Profile` | `GetAllProfilesQuery`, `GetProfileByIdQuery` |
 
-![Figura 4.6.1. Design-Level EventStorming del flujo de demostración](assets/chapter-04/architecture/01-eventstorming.png)
+![Figura 4.6.1. Design-Level EventStorming de allpatek-platform](assets/chapter-04/architecture/01-eventstorming.png)
 
-*Figura 4.6.1. Design-Level EventStorming del flujo de demostración.* [Fuente PlantUML](assets/chapter-04/architecture/01-eventstorming.puml) · [SVG](assets/chapter-04/architecture/01-eventstorming.svg).
+*Figura 4.6.1. Design-Level EventStorming de allpatek-platform.* [Fuente PlantUML](assets/chapter-04/architecture/01-eventstorming.puml) · [SVG](assets/chapter-04/architecture/01-eventstorming.svg).
 
 **Reglas aún por implementar.** El diseño objetivo requiere evitar reservas o temporadas activas superpuestas, validar las condiciones aceptadas por ambas partes y confirmar el abono antes de activar un contrato real. Aprobar un hito y confirmar su desembolso son decisiones distintas. El servidor todavía debe imponer las transiciones, verificar al actor, evitar duplicados y conservar las evidencias durante las actualizaciones. La entrega de un PDF o un aviso no debe confirmar un pago ni determinar su estado.
 
@@ -2088,13 +2090,13 @@ La SPA se descarga y ejecuta en el navegador. Su enrutador cambia de vista y sus
 
 ### 4.6.4. Software Architecture Components Diagrams
 
-**API Java.** Los controladores REST convierten los recursos HTTP en comandos o consultas. Los servicios de aplicación trabajan con agregados y repositorios del dominio. Los adaptadores JPA convierten esos objetos a entidades de persistencia. Clima consulta parcelas mediante `ParcelsContextFacade` y delega el pronóstico al adaptador Open-Meteo. No hay una conexión comprobada que ejecute automáticamente un desembolso al cambiar una evidencia.
+**API Java.** Los controladores REST convierten los recursos HTTP en comandos o consultas. Los paquetes coinciden con el código: `parcels`, `agreements`, `escrow`, `tracking`, `alerts` y `shared`. Tras `AgreementFullySignedEvent`, `AgreementFullySignedIntegrationEvent` dispara `MarkParcelInProductionCommand`. Clima consulta parcelas mediante `ParcelsContextFacade` y delega el pronóstico al adaptador Open-Meteo. No hay una conexión que ejecute un desembolso al cambiar una evidencia.
 
 ![Figura 4.6.4-A. Componentes de la API Spring](assets/chapter-04/architecture/04-api-components.png)
 
 *Figura 4.6.4-A. Componentes de la API Spring.* [Fuente PlantUML](assets/chapter-04/architecture/04-api-components.puml) · [SVG](assets/chapter-04/architecture/04-api-components.svg).
 
-**Aplicación web.** Las rutas organizan las pantallas por rol. Los stores usan Signals para exponer estado; los endpoints y assemblers traducen entre los modelos de Angular y el JSON de la demo. La UI permite ver acuerdos, wallet y evidencias; la selección de rol y los guardas de ruta operan en el cliente.
+**Aplicación web.** Las rutas (`/parcels`, `/agreements`, `/evidence`, `/escrow`, `/alerts`, `/profile`) coinciden con los módulos `parcel-management`, `agreements-management`, `tracking-evidence`, `escrow-payments`, `alerts-management` y `shared`. `/users` existe solo en el mock de Angular. La selección de rol y los guardas operan en el cliente.
 
 ![Figura 4.6.4-B. Componentes de la SPA Angular del equipo](assets/chapter-04/architecture/05-web-components.png)
 
@@ -2128,7 +2130,7 @@ Las figuras de clases corresponden a la API Java. Los agregados agrupan los dato
 
 #### Acuerdos de temporada
 
-`Agreement` relaciona una parcela con un comerciante mediante identificadores y encapsula los indicadores de aceptación en `ContractSignatures`. La API no conserva una reserva, una versión de cláusulas, un PDF ni una confirmación de pago.
+`Agreement` relaciona una `Parcel` con un comerciante mediante identificadores y encapsula las firmas en `ContractSignatures`. Si ambas están completas, `onFullySigned()` publica `AgreementFullySignedEvent`. La API no conserva una reserva, una versión de cláusulas, un PDF ni una confirmación de pago.
 
 ![Figura 4.7.1-B. Clases de acuerdos](assets/chapter-04/architecture/10-classes-contracts.png)
 
@@ -2136,7 +2138,7 @@ Las figuras de clases corresponden a la API Java. Los agregados agrupan los dato
 
 #### Bóveda de demostración
 
-`Wallet` asocia un perfil con `PaymentCard` y `MoneyCents`. El modelo guarda los últimos cuatro dígitos y otros metadatos de tarjeta, además del monto inicial. No hay un libro de movimientos ni un proveedor de pagos conectado.
+`Wallet` asocia un perfil con `PaymentCard` y `MoneyCents`. `PaymentCard` guarda `holder`, `number`, `cvv`, `last4`, `expiry` y `brand`; `WalletResource` expone número y CVV, y `last4` se deriva del número. No hay un libro de movimientos ni un proveedor de pagos conectado.
 
 ![Figura 4.7.1-C. Clases de wallets de demostración](assets/chapter-04/architecture/11-classes-payments.png)
 
@@ -2160,7 +2162,7 @@ Las figuras de clases corresponden a la API Java. Los agregados agrupan los dato
 
 ## 4.8. Database Design
 
-La API Java usa **MySQL**, con entidades de persistencia para `parcels`, `agreements`, `wallets`, `evidences` y `profiles`. Se contrastaron las anotaciones JPA con los metadatos del esquema de una instancia de prueba MySQL 8.4. El mock conserva colecciones JSON y no usa este esquema.
+La API Java usa **MySQL**, con entidades de persistencia para `parcels`, `agreements`, `wallets`, `evidence` y `profiles`. Se contrastaron las anotaciones JPA con los metadatos del esquema de una instancia de prueba MySQL 8.4. El mock conserva colecciones JSON y no usa este esquema.
 
 ### 4.8.1. Database Diagrams
 
@@ -2178,15 +2180,15 @@ La API Java usa **MySQL**, con entidades de persistencia para `parcels`, `agreem
 
 *Figura 4.8.1-C. Tabla wallets y referencia al perfil.* [Fuente PlantUML](assets/chapter-04/architecture/16-database-payments.puml) · [SVG](assets/chapter-04/architecture/16-database-payments.svg).
 
-![Figura 4.8.1-D. Tabla evidences y referencia a parcela](assets/chapter-04/architecture/17-database-monitoring.png)
+![Figura 4.8.1-D. Tabla evidence y referencia a parcela](assets/chapter-04/architecture/17-database-monitoring.png)
 
-*Figura 4.8.1-D. Tabla evidences y referencia a parcela.* [Fuente PlantUML](assets/chapter-04/architecture/17-database-monitoring.puml) · [SVG](assets/chapter-04/architecture/17-database-monitoring.svg).
+*Figura 4.8.1-D. Tabla evidence y referencia a parcela.* [Fuente PlantUML](assets/chapter-04/architecture/17-database-monitoring.puml) · [SVG](assets/chapter-04/architecture/17-database-monitoring.svg).
 
 ![Figura 4.8.1-E. Tabla profiles y datos de contacto](assets/chapter-04/architecture/13-database-users.png)
 
 *Figura 4.8.1-E. Tabla profiles y datos de contacto.* [Fuente PlantUML](assets/chapter-04/architecture/13-database-users.puml) · [SVG](assets/chapter-04/architecture/13-database-users.svg).
 
-`evidences` es el nombre físico en MySQL; `/api/v1/evidence` es la ruta HTTP. Las listas de cultivos e imágenes se serializan como texto JSON. Los archivos de evidencia se guardan como texto de imagen y nombre de archivo. No existen tablas de cuentas de acceso, reservas, hitos independientes, transacciones, reseñas ni alertas meteorológicas. Para el diseño objetivo quedan pendientes las restricciones entre registros, la protección de datos y la conservación de archivos al cambiar un estado.
+`evidence` es el nombre físico en MySQL (`@Table(name = "evidence")`); `/api/v1/evidence` es la ruta HTTP. Las listas de cultivos e imágenes se serializan como texto JSON. Los archivos de evidencia se guardan como texto de imagen y nombre de archivo. `wallets` persiste `card_number` y `cvv` además de `last4`. No existen tablas de cuentas de acceso, reservas, hitos independientes, transacciones, reseñas ni alertas meteorológicas. Para el diseño objetivo quedan pendientes las restricciones entre registros, la protección de datos y la conservación de archivos al cambiar un estado.
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -3868,7 +3870,7 @@ Consulta al endpoint `GET /api/v1/alerts?ownerId=1` en Swagger UI, retornando un
   <img src="assets/chapter-05/swagger04.png" alt="swagger" width="850" />
 </p>
 
-Vista del panel de phpMyAdmin mostrando la estructura de la base de datos `allpatek-os` con sus tablas correspondientes (`agreements`, `evidences`, `parcels`, `profiles` y `wallets`).
+Vista del panel de phpMyAdmin mostrando la estructura de la base de datos `allpatek-os` con sus tablas correspondientes (`agreements`, `evidence`, `parcels`, `profiles` y `wallets`).
 
 
 <p align="center">
