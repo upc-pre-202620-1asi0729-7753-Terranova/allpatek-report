@@ -3999,12 +3999,6 @@ En el Sprint 3 el trabajo pasó al backend: el repositorio allpatek-platform (Ja
 
 Los cinco salen en Insights del repositorio. El pico de commits cae entre finales de octubre y la primera semana de noviembre, que es cuando se armó el API y se fusionó a develop.
 
-#### Cómo se desarrolló la implementación
-
-1. Mel dejó el kernel shared en develop (perfiles, JPA, OpenAPI, CORS).
-2. Cada líder abrió su feature/*, armó dominio → aplicación → JPA → REST y pidió integración.
-3. Los contextos no se pisan: alerts pide coordenadas a parcels por la ACL; cuando firman agricultor y comerciante, la parcela pasa a in-production.
-4. Con develop compilando, se subió el contenedor a Render y se apuntó a MySQL 8.4 en Aiven.
 
 <p align="center">
   <img src="assets/chapter-05/insight03.png" alt="Contribuciones del Sprint 3 en GitHub Insights" width="65%" />
