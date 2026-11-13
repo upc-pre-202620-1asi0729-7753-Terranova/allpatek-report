@@ -3922,88 +3922,50 @@ En el Sprint 3 se documentó con **OpenAPI / Swagger UI** la primera versión de
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 3 se publicó la primera versión de los Web Services internos (`allpatek-platform`) en un servidor Ubuntu 24.04. El backend corre con Java 27, Spring Boot 4, Spring Data JPA y MySQL 8 Community Server. El dominio público `allpatek.proyectaconsultora.com` se resolvió por DNS A hacia la IP del servidor (`143.110.238.153`). El perfil `prod` escucha el puerto **8080** y usa `ddl-auto=validate`; las credenciales de base se inyectan por variables de entorno y no se versionan en Git.
 
-<table align="center" style="margin: 0 auto; text-align: center;">
-  <thead>
-    <tr>
-      <th style="text-align: center;">Producto</th>
-      <th style="text-align: center;">Tecnología</th>
-      <th style="text-align: center;">Repositorio</th>
-      <th style="text-align: center;">Versión en este Sprint</th>
-      <th style="text-align: center;">URL verificada</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center;"><strong>Web Services</strong></td>
-      <td style="text-align: center;">Java 27, Spring Boot 4, Spring Data JPA, MySQL 8</td>
-      <td style="text-align: center;"><a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform" target="_blank"><code>allpatek-platform</code></a></td>
-      <td style="text-align: center;">Primera versión de la API RESTful interna</td>
-      <td style="text-align: center;"><a href="http://allpatek.proyectaconsultora.com" target="_blank"><code>allpatek.proyectaconsultora.com</code></a></td>
-    </tr>
-  </tbody>
-</table>
+#### Paso 1: Aprovisionamiento de la Base de Datos MySQL en Aiven Cloud
 
+Se creó una instancia gestionada de **MySQL 8.4** (`mysql-9db0808`) en Aiven Cloud dentro de la región *North America* (1 CPU, 1 GB RAM y 8 GB de almacenamiento), esperando a que su estado pasara a *Running* y verificando la estabilidad de sus métricas de consumo. Desde el panel *Connection information* se obtuvieron los parámetros de enlace público: *Host* (`mysql-9db0808-mel-d917.c.aivencloud.com`), *Port* (`18036`), *Database name* (`defaultdb`), usuario (`avnadmin`) y la política de cifrado obligatorio (`SSL mode: REQUIRED`).
 
-### Paso 1. Repositorio del backend
-
-El código fuente desplegado corresponde al repositorio `allpatek-platform` de la organización TerraNova. Desde esa base se empaquetó el JAR con Maven Wrapper y se publicó en el servidor de producción.
 
 <p align="center">
-  <img src="assets/chapter-05/imgrepositorio.png" alt="Repositorio GitHub allpatek-platform usado para el despliegue del Sprint 3" width="850" />
+  <img src="assets/chapter-05/desplieguee01.png" alt="desplieguee01" width="750" />
 </p>
 
-* **Figura 5.2.3.7.1.** *Repositorio `allpatek-platform` en GitHub, origen del artefacto Java desplegado en el servidor Ubuntu.*
 
+#### Paso 2: Contenerización y Externalización de Configuración en GitHub
 
-### Paso 2. Servicio MySQL operativo en el servidor
-
-En el host `All-Fronteds` (Ubuntu 24.04) se instaló **MySQL Community Server 8.0.46**. `systemctl status mysql` confirma que la unidad `mysql.service` está `enabled` (arranca con el sistema) y `active (running)`, con estado *"Server is operational"*.
+En el repositorio del proyecto se incorporó un archivo `Dockerfile` multi-etapa para compilar el paquete `.jar` de Spring Boot utilizando Maven y ejecutarlo en un contenedor ligero exponiendo el puerto `8080`. Asimismo, se actualizó el archivo `application.properties` para leer las credenciales de base de datos mediante variables de entorno (`${DB_URL}`, `${DB_USERNAME}`, `${DB_PASSWORD}`), activar la generación automática de tablas (`spring.jpa.hibernate.ddl-auto=update`) y habilitar el acceso público a la interfaz de **Swagger UI** en producción, subiendo estos cambios a la rama `develop`.
 
 <p align="center">
-  <img src="assets/chapter-05/despliegue-mysql-status.png" alt="systemctl status mysql: MySQL 8 Community Server activo en el servidor Ubuntu All-Fronteds" width="850" />
+  <img src="assets/chapter-05/desplieguee02.png" alt="desplieguee01" width="750" />
 </p>
 
-* **Figura 5.2.3.7.2.** *Servicio `mysql.service` activo y habilitado en el servidor de despliegue, base persistente de `allpatek-platform`.*
+#### Paso 3: Creación y Configuración del Web Service en Render
 
-
-### Paso 3. Esquema persistente `allpatek_platform`
-
-Con el motor en ejecución se creó la base `allpatek_platform`. `SHOW TABLES` deja visibles las tablas JPA de los bounded contexts del Sprint 3: `agreements`, `evidences`, `parcels`, `profiles` y `wallets`. Hibernate no debe recrear el esquema en producción (`ddl-auto=validate`); las tablas ya existen antes del arranque del JAR.
+En la plataforma de Render se creó un nuevo **Web Service** denominado `allpatek-platform`, vinculado directamente al repositorio de GitHub en la rama `develop` y alojado en la región *Oregon (US West)* bajo el plan gratuito (`$0/month` - 512 MB RAM). Para la construcción del servicio se seleccionó **Docker** como entorno de ejecución (*Language*) y se configuró `./Dockerfile` como ruta de compilación.
 
 <p align="center">
-  <img src="assets/chapter-05/despliegue-mysql-schema.png" alt="SHOW DATABASES y SHOW TABLES de allpatek_platform: agreements, evidences, parcels, profiles y wallets" width="850" />
+  <img src="assets/chapter-05/desplieguee03.png" alt="desplieguee01" width="750" />
 </p>
 
-* **Figura 5.2.3.7.3.** *Base `allpatek_platform` en MySQL 8, con las tablas de acuerdos, evidencias, parcelas, perfiles y wallets.*
 
+#### Paso 4: Inyección de Variables de Entorno en Render
 
-### Paso 4. DNS público en HostGator
-
-En la zona DNS de HostGator se registró un registro **A** para `allpatek.proyectaconsultora.com` (clase `IN`, TTL 300) apuntando a **143.110.238.153**, la IPv4 del servidor Ubuntu. Con esa resolución el API y Swagger quedan accesibles por nombre de dominio, no solo por IP.
+Dentro de la sección *Environment Variables* del servicio en Render se registraron las credenciales de conexión hacia Aiven sin exponer información sensible en el código fuente, definiendo las claves `DB_URL` (`jdbc:mysql://mysql-9db0808-mel-d917.c.aivencloud.com:18036/defaultdb?sslMode=REQUIRED&serverTimezone=UTC`), `DB_USERNAME` (`avnadmin`), `DB_PASSWORD` y `PORT` (`8080`).
 
 <p align="center">
-  <img src="assets/chapter-05/despliegue-dns-hostgator.png" alt="Registro DNS A de allpatek.proyectaconsultora.com en HostGator apuntando a 143.110.238.153" width="850" />
+  <img src="assets/chapter-05/desplieguee04.png" alt="desplieguee01" width="750" />
 </p>
 
-* **Figura 5.2.3.7.4.** *Configuración DNS en HostGator: `allpatek.proyectaconsultora.com` → `143.110.238.153`.*
 
+#### Paso 5: Despliegue y Verificación Pública de Swagger UI
 
-### Paso 5. Swagger UI desplegado
-
-La documentación OpenAPI queda publicada en el mismo host. La captura confirma Swagger UI sirviendo los tags y endpoints del Sprint 3 (`/api/v1/parcels`, `/agreements`, `/wallets`, `/evidence`, `/alerts` y `/profiles`) sobre el dominio público.
-
-* **URL Swagger UI:** `http://allpatek.proyectaconsultora.com/swagger-ui/index.html`
+Tras lanzar el despliegue desde el último commit de la rama `develop`, el contenedor compiló la aplicación, estableció la conexión SSL con la base de datos MySQL en Aiven y levantó el servidor web en estado activo. Finalmente, se comprobó la disponibilidad operativa de la API accediendo a la interfaz interactiva de **Swagger UI** en la URL pública `https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html`, visualizando correctamente los endpoints expuestos del sistema.
 
 <p align="center">
-  <img src="assets/chapter-05/despliegue-swagger.png" alt="Swagger UI de allpatek-platform desplegado en allpatek.proyectaconsultora.com" width="850" />
+  <img src="assets/chapter-05/desplieguee05.png" alt="desplieguee01" width="750" />
 </p>
-
-* **Figura 5.2.3.7.5.** *Swagger UI de `allpatek-platform` publicado en `allpatek.proyectaconsultora.com`, con los endpoints REST del Sprint 3.*
-
-> **Pendiente de captura:** guardar la captura del Swagger en producción como `assets/chapter-05/despliegue-swagger.png`.
-
 
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
