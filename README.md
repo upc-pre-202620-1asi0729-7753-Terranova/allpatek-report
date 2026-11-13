@@ -3922,9 +3922,10 @@ En el Sprint 3 se documentó con **OpenAPI / Swagger UI** la primera versión de
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 3 se desplegó la versión inicial del backend core (allpatek-platform), construida sobre Java 27, Spring Boot 4, Spring Data JPA y MySQL.
+Durante el Sprint 3 se publicó la primera versión de los Web Services internos (`allpatek-platform`) en un servidor Ubuntu 24.04. El backend corre con Java 27, Spring Boot 4, Spring Data JPA y MySQL 8 Community Server. El dominio público `allpatek.proyectaconsultora.com` se resolvió por DNS A hacia la IP del servidor (`143.110.238.153`). El perfil `prod` escucha el puerto **8080** y usa `ddl-auto=validate`; las credenciales de base se inyectan por variables de entorno y no se versionan en Git.
 
-<thead>
+<table align="center" style="margin: 0 auto; text-align: center;">
+  <thead>
     <tr>
       <th style="text-align: center;">Producto</th>
       <th style="text-align: center;">Tecnología</th>
@@ -3936,48 +3937,72 @@ Durante el Sprint 3 se desplegó la versión inicial del backend core (allpatek-
   <tbody>
     <tr>
       <td style="text-align: center;"><strong>Web Services</strong></td>
-      <td style="text-align: center;">Java 27, Spring Boot 4, Spring Data JPA, MySQL </td>
+      <td style="text-align: center;">Java 27, Spring Boot 4, Spring Data JPA, MySQL 8</td>
       <td style="text-align: center;"><a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform" target="_blank"><code>allpatek-platform</code></a></td>
       <td style="text-align: center;">Primera versión de la API RESTful interna</td>
-      <td style="text-align: center;"><code>http://localhost:8090</code></td>
+      <td style="text-align: center;"><a href="http://allpatek.proyectaconsultora.com" target="_blank"><code>allpatek.proyectaconsultora.com</code></a></td>
     </tr>
   </tbody>
 </table>
 
 
-
 ### Paso 1. Repositorio del backend
 
-Durante el Sprint 3 se desplegó la versión inicial del backend core (allpatek-platform), construida sobre Java 27, Spring Boot 4, Spring Data JPA y MySQL.
+El código fuente desplegado corresponde al repositorio `allpatek-platform` de la organización TerraNova. Desde esa base se empaquetó el JAR con Maven Wrapper y se publicó en el servidor de producción.
 
 <p align="center">
-  <img src="assets/chapter-05/imgrepositorio.png" alt="imgrepositorio" width="850" />
+  <img src="assets/chapter-05/imgrepositorio.png" alt="Repositorio GitHub allpatek-platform usado para el despliegue del Sprint 3" width="850" />
 </p>
 
-### Paso 2. Instancia MySQL
+* **Figura 5.2.3.7.1.** *Repositorio `allpatek-platform` en GitHub, origen del artefacto Java desplegado en el servidor Ubuntu.*
 
-El perfil `dev` usa el puerto **8090** y `ddl-auto=update`. El perfil `prod` usa el puerto **8080** y `ddl-auto=validate`. La conexión se toma de `DATABASE_URL`, `DATABASE_PORT`, `DATABASE_NAME`, `DATABASE_USER` y `DATABASE_PASSWORD`. Las credenciales no se guardan en Git.
+
+### Paso 2. Servicio MySQL operativo en el servidor
+
+En el host `All-Fronteds` (Ubuntu 24.04) se instaló **MySQL Community Server 8.0.46**. `systemctl status mysql` confirma que la unidad `mysql.service` está `enabled` (arranca con el sistema) y `active (running)`, con estado *"Server is operational"*.
 
 <p align="center">
-  <img src="assets/chapter-05/mysql.png" alt="swagger" width="850" />
+  <img src="assets/chapter-05/despliegue-mysql-status.png" alt="systemctl status mysql: MySQL 8 Community Server activo en el servidor Ubuntu All-Fronteds" width="850" />
 </p>
 
-### Paso 3. Arranque del servicio
+* **Figura 5.2.3.7.2.** *Servicio `mysql.service` activo y habilitado en el servidor de despliegue, base persistente de `allpatek-platform`.*
 
-Se compiló con Java 27 y Maven Wrapper (`./mvnw clean package`) y se arrancó Spring Boot contra MySQL. En consola debe verse el contexto levantado en el puerto 8090.
+
+### Paso 3. Esquema persistente `allpatek_platform`
+
+Con el motor en ejecución se creó la base `allpatek_platform`. `SHOW TABLES` deja visibles las tablas JPA de los bounded contexts del Sprint 3: `agreements`, `evidences`, `parcels`, `profiles` y `wallets`. Hibernate no debe recrear el esquema en producción (`ddl-auto=validate`); las tablas ya existen antes del arranque del JAR.
 
 <p align="center">
-  <img src="assets/chapter-05/ejecucion.png" alt="Arranque de Spring Boot de allpatek-platform en el puerto 8090" width="850" />
+  <img src="assets/chapter-05/despliegue-mysql-schema.png" alt="SHOW DATABASES y SHOW TABLES de allpatek_platform: agreements, evidences, parcels, profiles y wallets" width="850" />
 </p>
 
+* **Figura 5.2.3.7.3.** *Base `allpatek_platform` en MySQL 8, con las tablas de acuerdos, evidencias, parcelas, perfiles y wallets.*
 
-### Paso 5. Operación persistente desde Swagger (US06)
 
-Desde Try it out se ejecutó el CRUD de parcelas contra MySQL: alta HTTP 201, repetición del mismo `id` HTTP 409, edición HTTP 200, borrado HTTP 204 y repetición del borrado HTTP 404. Tras reiniciar Spring, el GET devolvió el nombre actualizado.
+### Paso 4. DNS público en HostGator
+
+En la zona DNS de HostGator se registró un registro **A** para `allpatek.proyectaconsultora.com` (clase `IN`, TTL 300) apuntando a **143.110.238.153**, la IPv4 del servidor Ubuntu. Con esa resolución el API y Swagger quedan accesibles por nombre de dominio, no solo por IP.
 
 <p align="center">
-  <img src="assets/chapter-05/endpoints.png" alt="POST /api/v1/parcels en Swagger UI, HTTP 201" width="850" />
+  <img src="assets/chapter-05/despliegue-dns-hostgator.png" alt="Registro DNS A de allpatek.proyectaconsultora.com en HostGator apuntando a 143.110.238.153" width="850" />
 </p>
+
+* **Figura 5.2.3.7.4.** *Configuración DNS en HostGator: `allpatek.proyectaconsultora.com` → `143.110.238.153`.*
+
+
+### Paso 5. Swagger UI desplegado
+
+La documentación OpenAPI queda publicada en el mismo host. La captura confirma Swagger UI sirviendo los tags y endpoints del Sprint 3 (`/api/v1/parcels`, `/agreements`, `/wallets`, `/evidence`, `/alerts` y `/profiles`) sobre el dominio público.
+
+* **URL Swagger UI:** `http://allpatek.proyectaconsultora.com/swagger-ui/index.html`
+
+<p align="center">
+  <img src="assets/chapter-05/despliegue-swagger.png" alt="Swagger UI de allpatek-platform desplegado en allpatek.proyectaconsultora.com" width="850" />
+</p>
+
+* **Figura 5.2.3.7.5.** *Swagger UI de `allpatek-platform` publicado en `allpatek.proyectaconsultora.com`, con los endpoints REST del Sprint 3.*
+
+> **Pendiente de captura:** guardar la captura del Swagger en producción como `assets/chapter-05/despliegue-swagger.png`.
 
 
 
