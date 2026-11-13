@@ -7,79 +7,35 @@ skinparam shadowing false
 skinparam classAttributeIconSize 0
 skinparam ArrowColor #476050
 skinparam dpi 140
-title Allpatek | Database - Season Contracting
-top to bottom direction
 hide methods
-entity "proposals" as proposals {
- {field} * id: BIGINT <<PK>>
- {field} * plot_id: BIGINT <<FK plots>>
- {field} * merchant_id: BIGINT <<FK users>>
- {field} * farmer_id: BIGINT <<FK users>>
- {field} * requested_volume: DECIMAL(12,2)
- {field} * proposed_price: DECIMAL(12,2)
- {field} * currency: CHAR(3)
- {field} delivery_date: DATE
- {field} * terms: TEXT
- {field} * expires_at: TIMESTAMP
- {field} * status: VARCHAR(20)
+hide circle
+title Allpatek | MySQL - Agreements
+left to right direction
+entity "agreements" as agreement {
+  {field} * id: VARCHAR(160) <<PK>>
+  {field} * parcel_id: VARCHAR(160)
+  {field} merchant_profile_id: BIGINT
+  {field} merchant_name: VARCHAR(160)
+  {field} * merchant_signed: BIT(1)
+  {field} * farmer_signed: BIT(1)
+  {field} signed_on: VARCHAR(20)
+  {field} * created_at: DATETIME(6)
+  {field} * updated_at: DATETIME(6)
 }
-entity "reservations" as reservations {
- {field} * id: BIGINT <<PK>>
- {field} * plot_id: BIGINT <<FK plots>>
- {field} * proposal_id: BIGINT <<FK proposals>>
- {field} * merchant_id: BIGINT <<FK users>>
- {field} * expires_at: TIMESTAMP
- {field} * status: VARCHAR(20)
+entity "parcels" as parcel #EAF2EB {
+  {field} * id: VARCHAR(160) <<PK>>
 }
-entity "contracts" as contracts {
- {field} * id: BIGINT <<PK>>
- {field} * plot_id: BIGINT <<FK plots>>
- {field} * proposal_id: BIGINT <<FK proposals>>
- {field} reservation_id: BIGINT <<FK reservations>>
- {field} * merchant_id: BIGINT <<FK users>>
- {field} * farmer_id: BIGINT <<FK users>>
- {field} * start_date: DATE
- {field} * end_date: DATE
- {field} * total_amount: DECIMAL(12,2)
- {field} * currency: CHAR(3)
- {field} * terms: TEXT
- {field} merchant_accepted_at: TIMESTAMP
- {field} farmer_accepted_at: TIMESTAMP
- {field} * status: VARCHAR(30)
- {field} document_key: TEXT
- {field} document_sent_at: TIMESTAMP
+entity "profiles" as profile #EAF2EB {
+  {field} * id: BIGINT <<PK>>
 }
-entity "milestones" as milestones {
- {field} * id: BIGINT <<PK>>
- {field} * contract_id: BIGINT <<FK contracts>>
- {field} * sequence: INTEGER
- {field} * name: VARCHAR(120)
- {field} * criteria: TEXT
- {field} * amount: DECIMAL(12,2)
- {field} * status: VARCHAR(20)
- {field} reviewed_at: TIMESTAMP
- {field} review_note: TEXT
-}
-entity "users\n[Other module]" as users #EEEEEE {
- * id: BIGINT <<PK>>
-}
-entity "plots\n[Other module]" as plots #EEEEEE {
- * id: BIGINT <<PK>>
-}
-plots ||--o{ proposals : plot_id
-plots ||--o{ reservations : plot_id
-plots ||--o{ contracts : plot_id
-users ||--o{ proposals : merchant_id
-users ||--o{ proposals : farmer_id
-users ||--o{ reservations : merchant_id
-users ||--o{ contracts : merchant_id
-users ||--o{ contracts : farmer_id
-proposals ||--o{ reservations : proposal_id
-proposals ||--o{ contracts : proposal_id
-reservations ||--o{ contracts : reservation_id
-contracts ||--o{ milestones : contract_id
+agreement ..> parcel : parcel_id
+agreement ..> profile : merchant_profile_id
+note bottom of agreement
+  signed_on maps to API createdAt.
+  No reservation, PDF, payment status or milestones table.
+end note
 legend bottom
-PK: primary key | FK: foreign key | UQ: unique | *: required
-Gray tables belong to another module.
+PK: primary key | UQ: unique | *: NOT NULL
+Dashed arrows are logical references; MySQL has no foreign keys here.
 endlegend
 @enduml
