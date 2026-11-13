@@ -3990,6 +3990,8 @@ Tras lanzar el despliegue desde el último commit de la rama develop, el contene
   <img src="assets/chapter-05/desplieguee05.png" alt="Swagger UI de allpatek-platform en Render" width="750" />
 </p>
 
+> Importante : Como esta desplegado con Render, saldra una pantalla que se estara cargando, como es una prueba Gratuita pasa eso.
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 ### 5.2.4. Sprint 4
 #### 5.2.4.1. Sprint Planning 4
@@ -4395,9 +4397,8 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
 
 
 
-En esta sección se evalúan las sesiones de validación del Sprint 3 según heurísticas de **usabilidad**, **arquitectura de información** y **diseño inclusivo**, con el formato del Anexo D del enunciado del trabajo final. El equipo TerraNova actuó como auditor. Los clientes de la sesión son los participantes de 5.3.2 que ya cuentan con resumen de validación: **Gustavo Adolfo Suyo** (agricultor familiar), **Irma Barreto Castro** y **César Hugo Egocheaga** (comerciantes urbanos). La ficha de Rosa Flores permanece pendiente de grabación; no se incluye como cliente de esta evaluación.
+En esta sección se evalúan las sesiones de validación del Sprint 3 según heurísticas de **usabilidad**, **arquitectura de información** y **diseño inclusivo**, con el formato del Anexo D del enunciado del trabajo final. El equipo TerraNova actuó como auditor. Los clientes de la sesión son los participantes de 5.3.2 que ya cuentan con resumen de validación: **Gustavo Adolfo Suyo** (agricultor familiar), **Irma Barreto Castro** y **César Hugo Egocheaga** (comerciantes urbanos).
 
-Las tareas observadas coinciden con las guías de 5.3.1: exploración de la Landing Page, registro de parcela y alertas climáticas (agricultor); garantía Escrow, firma digital y bóveda con evidencias (comerciante). Cada hallazgo se vincula a un testimonio de la sesión o a la inspección de la interfaz durante esa misma tarea.
 
 <div style="color:#1a365d;">
 
@@ -4413,7 +4414,7 @@ Las tareas observadas coinciden con las guías de 5.3.1: exploración de la Land
 | **SECCIÓN** | 7753 |
 | **PROFESORES** | Todos |
 | **AUDITOR** | TerraNova |
-| **CLIENTE(S)** | Gustavo Adolfo Suyo; Irma Barreto Castro; César Hugo Egocheaga |
+| **CLIENTE(S)** | Gustavo Adolfo Suyo; Irma Barreto Castro; César Hugo Egocheaga, Rosa Flores |
 
 </div>
 
@@ -4585,6 +4586,7 @@ En esta sección se presenta el video "About-the-Product", una demostración aud
 | Tipo | Enlace del Video |
 | :--- | :--- |
 | **About the Product**  | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQC1ol8FG1iqRY-bGG2ue1M_AUxwB8p8jD8BnEUAGKaZdVA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=whZtiU" style="text-decoration: none;">Enlace About the Product</a> |
+| **About the Product (Youtube)**  | <a href="https://youtu.be/HzLCMS18Pqg" style="text-decoration: none;">Enlace About the Product</a> |
 
     
 </div>
@@ -4630,6 +4632,8 @@ En esta sección se presenta el video "About-the-Team", un recurso audiovisual q
 | Tipo | Enlace del Video |
 | :--- | :--- |
 | **About the Team**  | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBcbq4xfH8tQr_ZPnlJKrMLAXb2-topoxDPFkdP2Z097vs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PB8hMC" style="text-decoration: none;">Enlace About the Team</a> |
+| **About the Team (Youtube)**  | <a href="https://youtu.be/Fv-fpNivSHE">Enlace About the Team</a> |
+
 
     
 </div>
@@ -4702,6 +4706,9 @@ Seguimiento interactivo de tareas y planificación del Product Backlog / Sprint 
 | Artefacto de Gestión | Herramienta | Enlace Público al Tablero |
 | :--- | :---: | :---: |
 | **Product Backlog & Sprint 1 Board** | Trello | <a href="https://trello.com/b/A0csigUo/terranova" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a> |
+| **Product Backlog & Sprint 2 Board** | Trello | <a href="https://trello.com/b/A0csigUo/terranova" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a> |
+| **Product Backlog & Sprint 3 Board** | Trello | <a href="https://trello.com/b/PffylQcc" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a> |
+
 
 </div>
 
