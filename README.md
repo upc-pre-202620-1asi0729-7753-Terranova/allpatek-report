@@ -69,13 +69,13 @@
 | AV1 | 14/09/2026 | Atauje Barreto, Alexander Sebastián | Corrección y alineación del Alcance General del Proyecto: contratación digital (parcelas + reserva + pago + contrato), seguimiento de hitos/trazabilidad y conexión de actores |
 | AV1 | 14/09/2026 | Atauje Barreto, Alexander Sebastián | Maquetación HTML5 e implementación de estilos CSS Grid responsivos para la sección Servicios de la Landing Page |
 | AV1 | 14/09/2026 | Atauje Barreto, Alexander Sebastián | Maquetación HTML5 e implementación de estilos CSS para la sección Hitos / Cómo Funciona de la Landing Page |
-| AV1 | 14/09/2026 | Atauje Barreto, Alexander Sebastián | Modularización de código CSS, refactorización y gestión de control de versiones con Git/GitHub mediante las ramas `feature/services` y `feature/how-it-works` |
+| AV1 | 14/09/2026 | Atauje Barreto, Alexander Sebastián | Modularización de código CSS, refactorización y gestión de control de versiones con Git/GitHub mediante las ramas feature/services y feature/how-it-works |
 | AV1 | 14/09/2026 | Atauje Barreto, Alexander Sebastián | Participación en la grabación del video de exposición del producto/equipo y preparación de diapositivas de sustentación |
 | AV1 | 13/09/2026 | Raymundo Villarroel, Abigail Nadhim | Elaboración de Competidores: Análisis Competitivo, SWOT y Estrategias/Tácticas frente a Agromercado, VeryAgro y Procesadora Perú |
 | AV1 | 13/09/2026 | Raymundo Villarroel, Abigail Nadhim | Diseño, Registro y Análisis de Entrevistas para los segmentos de Agricultor Familiar y Comprador Urbano |
 | AV1 | 13/09/2026 | Raymundo Villarroel, Abigail Nadhim | Elaboración de Needfinding en UXPressia: User Personas, User Task Matrix, User Journey Mapping (As-Is) y Empathy Mapping |
 | AV1 | 13/09/2026 | Raymundo Villarroel, Abigail Nadhim | Modelado del Big Picture Event Storming (Mermaid) y redacción del glosario de Ubiquitous Language |
-| AV1 | 13/09/2026 | Raymundo Villarroel, Abigail Nadhim | Maquetación HTML5 y CSS de las secciones de Contacto y Footer de la Landing Page, con gestión de commits en ramas de GitHub (`feature/contact-form`, `feature/footer`) |
+| AV1 | 13/09/2026 | Raymundo Villarroel, Abigail Nadhim | Maquetación HTML5 y CSS de las secciones de Contacto y Footer de la Landing Page, con gestión de commits en ramas de GitHub (feature/contact-form, feature/footer) |
 | AV1 | 10/09/2026 | Egocheaga Suyo, Miguel Angel | Diseño de la arquitectura guiada por dominio, EventStorming de diseño y diagramas C4 de contexto, contenedores y componentes. |
 | AV1 | 10/09/2026 | Egocheaga Suyo, Miguel Angel | Diseño orientado a objetos, diagramas de clases, diseño de base de datos y diagramas de base de datos. |
 | AV1 | 11/09/2026 | Egocheaga Suyo, Miguel Angel | Implementación y ajustes responsivos de Header/Navbar y Hero de la Landing Page, con HTML5, CSS3 y JavaScript. |
@@ -88,12 +88,12 @@
 | TB1 | 04/10/2026 | Orellana Rodríguez, Mel Andree | Despliegue del Frontend en Netlify | 
 | TB1 | 04/10/2026 | Orellana Rodríguez, Mel Andree | Despliegue del Mock API en Azure | 
 | TB1 | 03/10/2026 | Orellana Rodríguez, Mel Andree | Correcciones en el Product Backlog | 
-| TB1 | 25/09/2026 | Atauje Barreto, Alexander Sebastián | Asignación y responsabilidad del bounded context / microservicio `alerts-management` en el repositorio de la organización |
+| TB1 | 25/09/2026 | Atauje Barreto, Alexander Sebastián | Asignación y responsabilidad del bounded context / microservicio alerts-management en el repositorio de la organización |
 | TB1 | 25/09/2026 | Atauje Barreto, Alexander Sebastián | Implementación de las observaciones y correcciones indicadas en la retroalimentación de la entrega |
-| TB1 | 04/10/2026 | Raymundo Villarroel, Abigail Nadhim | Desarrollo del bounded context `parcel-management`: capa de dominio con la entidad Parcel y los helpers de costo de campaña (Money) |
-| TB1 | 04/10/2026 | Raymundo Villarroel, Abigail Nadhim | Implementación de la capa de infraestructura de `parcel-management`: acceso a la API de la plataforma, assembler y endpoints de parcelas |
-| TB1 | 04/10/2026 | Raymundo Villarroel, Abigail Nadhim | Implementación de la capa de aplicación de `parcel-management`: store que coordina el estado del catálogo de parcelas |
-| TB1 | 04/10/2026 | Raymundo Villarroel, Abigail Nadhim | Desarrollo de la capa de presentación de `parcel-management`: tablero de parcelas, tarjeta, formulario y vista de detalle |
+| TB1 | 04/10/2026 | Raymundo Villarroel, Abigail Nadhim | Desarrollo del bounded context parcel-management: capa de dominio con la entidad Parcel y los helpers de costo de campaña (Money) |
+| TB1 | 04/10/2026 | Raymundo Villarroel, Abigail Nadhim | Implementación de la capa de infraestructura de parcel-management: acceso a la API de la plataforma, assembler y endpoints de parcelas |
+| TB1 | 04/10/2026 | Raymundo Villarroel, Abigail Nadhim | Implementación de la capa de aplicación de parcel-management: store que coordina el estado del catálogo de parcelas |
+| TB1 | 04/10/2026 | Raymundo Villarroel, Abigail Nadhim | Desarrollo de la capa de presentación de parcel-management: tablero de parcelas, tarjeta, formulario y vista de detalle |
 | TB1 | 04/10/2026 | Raymundo Villarroel, Abigail Nadhim | Configuración de las rutas de parcelas como ruta de entrada del workspace de la aplicación web |
 | TB1 | 05/10/2026 | Raymundo Villarroel, Abigail Nadhim | Corrección del Capítulo II: Empathy Mapping con los entrevistados reales, guías de entrevista con apertura y bloques de profundización, y análisis de entrevistas actualizado |
 | TB1 | 05/10/2026 | Raymundo Villarroel, Abigail Nadhim | Rediseño del Big Picture Event Storming en Mermaid por fases, con actores, sistemas externos y hotspots, y estandarización de la nomenclatura de assets |
@@ -102,26 +102,26 @@
 | AV2 | 22/10/2026 | Orellana Rodríguez, Mel Andree | Realizando la estructura de todo lo relacionado al Sprint 3 |
 | AV2 | 11/11/2026 | Orellana Rodríguez, Mel Andree | Actualización del Student Outcome 3 con las acciones de AV1, TB1 y AV2 |
 | AV2 | 06/11/2026 | Atauje Barreto, Alexander Sebastián | Implementación del modelo de alertas climáticas con niveles de severidad, identificación de parcelas y advertencias por heladas, inundaciones y vientos fuertes |
-| AV2 | 07/11/2026 | Atauje Barreto, Alexander Sebastián | Desarrollo de la capa de dominio del bounded context `alerts-management`: lecturas meteorológicas, métricas climáticas y generación de alertas por parcela |
+| AV2 | 07/11/2026 | Atauje Barreto, Alexander Sebastián | Desarrollo de la capa de dominio del bounded context alerts-management: lecturas meteorológicas, métricas climáticas y generación de alertas por parcela |
 | AV2 | 07/11/2026 | Atauje Barreto, Alexander Sebastián | Implementación de la capa de aplicación: consultas de alertas por propietario, servicio de consultas climáticas e integración mediante puertos de salida |
-| AV2 | 07/11/2026 | Atauje Barreto, Alexander Sebastián | Desarrollo de la capa de infraestructura: integración de la API Open-Meteo para obtener pronósticos meteorológicos y conexión con `parcel-management` mediante una Anti-Corruption Layer (ACL) |
+| AV2 | 07/11/2026 | Atauje Barreto, Alexander Sebastián | Desarrollo de la capa de infraestructura: integración de la API Open-Meteo para obtener pronósticos meteorológicos y conexión con parcel-management mediante una Anti-Corruption Layer (ACL) |
 | AV2 | 08/11/2026 | Atauje Barreto, Alexander Sebastián | Implementación de coordenadas geográficas de parcelas, mapeo de códigos meteorológicos de Open-Meteo y procesamiento de información climática para generar advertencias |
-| AV2 | 08/11/2026 | Atauje Barreto, Alexander Sebastián | Implementación de la API REST del bounded context `alerts-management`, exponiendo alertas climáticas, lecturas meteorológicas y advertencias mediante el endpoint `/api/v1/alerts` |
+| AV2 | 08/11/2026 | Atauje Barreto, Alexander Sebastián | Implementación de la API REST del bounded context alerts-management, exponiendo alertas climáticas, lecturas meteorológicas y advertencias mediante el endpoint /api/v1/alerts |
 | AV2 | 08/11/2026 |Vera Solsol, Nayely Macarena | Diseño del modelo de evidencias por hito y definición de la arquitectura para el bounded context tracking-evidence.|
 | AV2 | 08/11/2026 |Vera Solsol, Nayely Macarena | Implementación de la capa de dominio y aplicación para la gestión de estados y validación de evidencias presentadas.|
 | AV2 | 08/11/2026 |Vera Solsol, Nayely Macarena | Desarrollo e implementación integral del bounded context tracking-evidence, incluyendo la capa de dominio, aplicación, infraestructura y exposición de los endpoints REST (/api/v1/evidence) para la gestión de evidencias por hito.
-| AV2 | 08/11/2026 | Raymundo Villarroel, Abigail Nadhim | Desarrollo de la capa de dominio del bounded context `parcel-management` en el backend: agregado `Parcel` y value objects de nombre, estado, área, ubicación, tipo de suelo, costo y calendario de campaña, cultivos e imágenes |
-| AV2 | 08/11/2026 | Raymundo Villarroel, Abigail Nadhim | Implementación de la capa de aplicación de `parcel-management`: comandos de creación, actualización y eliminación de parcelas, consulta del catálogo y sus servicios de comandos y consultas |
-| AV2 | 08/11/2026 | Raymundo Villarroel, Abigail Nadhim | Desarrollo de la capa de infraestructura de `parcel-management`: entidad JPA `parcels`, embeddables de calendario de campaña e imágenes, repositorio Spring Data y adaptador del repositorio |
-| AV2 | 08/11/2026 | Raymundo Villarroel, Abigail Nadhim | Implementación de la Anti-Corruption Layer (ACL) de `parcel-management` para compartir la ubicación de las parcelas por propietario con otros bounded contexts |
-| AV2 | 08/11/2026 | Raymundo Villarroel, Abigail Nadhim | Implementación de la API REST del bounded context `parcel-management` mediante el endpoint `/api/v1/parcels` (GET, POST, PUT y DELETE) |
-| AV2 | 10/11/2026 | Raymundo Villarroel, Abigail Nadhim | Actualización del informe: tareas asignadas, entrada AV2 del Student Outcome 3 y commits de `parcel-management` en la sección 5.2.3.4 |
+| AV2 | 08/11/2026 | Raymundo Villarroel, Abigail Nadhim | Desarrollo de la capa de dominio del bounded context parcel-management en el backend: agregado Parcel y value objects de nombre, estado, área, ubicación, tipo de suelo, costo y calendario de campaña, cultivos e imágenes |
+| AV2 | 08/11/2026 | Raymundo Villarroel, Abigail Nadhim | Implementación de la capa de aplicación de parcel-management: comandos de creación, actualización y eliminación de parcelas, consulta del catálogo y sus servicios de comandos y consultas |
+| AV2 | 08/11/2026 | Raymundo Villarroel, Abigail Nadhim | Desarrollo de la capa de infraestructura de parcel-management: entidad JPA parcels, embeddables de calendario de campaña e imágenes, repositorio Spring Data y adaptador del repositorio |
+| AV2 | 08/11/2026 | Raymundo Villarroel, Abigail Nadhim | Implementación de la Anti-Corruption Layer (ACL) de parcel-management para compartir la ubicación de las parcelas por propietario con otros bounded contexts |
+| AV2 | 08/11/2026 | Raymundo Villarroel, Abigail Nadhim | Implementación de la API REST del bounded context parcel-management mediante el endpoint /api/v1/parcels (GET, POST, PUT y DELETE) |
+| AV2 | 10/11/2026 | Raymundo Villarroel, Abigail Nadhim | Actualización del informe: tareas asignadas, entrada AV2 del Student Outcome 3 y commits de parcel-management en la sección 5.2.3.4 |
 | AV2 | 11/11/2026 | Raymundo Villarroel, Abigail Nadhim | Registro de la contribución AV2 en el Registro de Versiones y depuración de la evidencia de desarrollo del Sprint 3 |
-| AV2 | 03/11/2026 | Egocheaga Suyo, Miguel Angel | Desarrollo de la capa de dominio del bounded context `escrow-payments`: agregado `Wallet` y value objects `WalletId`, `MoneyCents` y `PaymentCard` para la custodia de demostración |
-| AV2 | 03/11/2026 | Egocheaga Suyo, Miguel Angel | Implementación de la capa de aplicación de `escrow-payments`: comando de registro/actualización de wallet, consulta del listado y servicios de comandos y consultas |
-| AV2 | 04/11/2026 | Egocheaga Suyo, Miguel Angel | Desarrollo de la capa de infraestructura de `escrow-payments`: entidad JPA `wallets`, embeddable de tarjeta, repositorio Spring Data y adaptador del repositorio |
-| AV2 | 04/11/2026 | Egocheaga Suyo, Miguel Angel | Implementación de la API REST del bounded context `escrow-payments` mediante los endpoints GET/POST `/api/v1/wallets` y PUT `/api/v1/wallets/{id}` para consultar el monto de demostración y la tarjeta enmascarada |
-| AV2 | 07/11/2026 | Egocheaga Suyo, Miguel Angel | Documentación de la API de custodia en Swagger UI con el tag `escrow`, cubriendo el alta de wallet, la consulta de saldo de demostración y la actualización por identificador |
+| AV2 | 03/11/2026 | Egocheaga Suyo, Miguel Angel | Desarrollo de la capa de dominio del bounded context escrow-payments: agregado Wallet y value objects WalletId, MoneyCents y PaymentCard para la custodia de demostración |
+| AV2 | 03/11/2026 | Egocheaga Suyo, Miguel Angel | Implementación de la capa de aplicación de escrow-payments: comando de registro/actualización de wallet, consulta del listado y servicios de comandos y consultas |
+| AV2 | 04/11/2026 | Egocheaga Suyo, Miguel Angel | Desarrollo de la capa de infraestructura de escrow-payments: entidad JPA wallets, embeddable de tarjeta, repositorio Spring Data y adaptador del repositorio |
+| AV2 | 04/11/2026 | Egocheaga Suyo, Miguel Angel | Implementación de la API REST del bounded context escrow-payments mediante los endpoints GET/POST /api/v1/wallets y PUT /api/v1/wallets/{id} para consultar el monto de demostración y la tarjeta enmascarada |
+| AV2 | 07/11/2026 | Egocheaga Suyo, Miguel Angel | Documentación de la API de custodia en Swagger UI con el tag escrow, cubriendo el alta de wallet, la consulta de saldo de demostración y la actualización por identificador |
 
 
 ## Project Report Collaboration Insights
@@ -169,20 +169,20 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 | Integrante | Tareas Asignadas |
 |---|---|
-| Atauje Barreto, Alexander Sebastián | Capítulo I completo: Introduction, Startup Profile (Startup Description, Team Member Profiles), Solution Profile (Background & Problematic, Lean UX Process: Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas), Target Segments. Alineación del Alcance General del Proyecto (Contratación Digital, Seguimiento de Hitos/Trazabilidad y Conexión Directa entre Actores). Maquetación e implementación web de las secciones Services (HTML5 & CSS Grid Layout) y Milestones / How It Works (HTML5 & CSS Layout) de la Landing Page. Modularización de estilos, refactorización y gestión de ramas en GitHub (`feature/services`, `feature/how-it-works`). Responsable del área `alerts-management` en el desarrollo de la solución para la entrega TB1. Elaboración del material de exposición, grabación del video de presentación del equipo/producto y correcciones del informe. |
-| Egocheaga Suyo, Miguel Angel | Domain-Driven Software Architecture (Chapter 4.6), Design-Level EventStorming, Software Architecture Context, Container and Component Diagrams, Software Object-Oriented Design, Class Diagrams, Database Design and Database Diagrams; Landing Page Header/Navbar and Hero Section implementation, responsive styles and navigation behavior (HTML5, CSS3 and JavaScript). TB1: desarrollo del bounded context `escrow-payments` de la aplicación web (bóveda, depósito y seguimiento de desembolsos por hito). AV2: desarrollo de `escrow-payments` en el backend (`allpatek-platform`), con el agregado Wallet, persistencia JPA, endpoints GET/POST `/api/v1/wallets` y PUT `/api/v1/wallets/{id}`, y el tag `escrow` en Swagger. |
+| Atauje Barreto, Alexander Sebastián | Capítulo I completo: Introduction, Startup Profile (Startup Description, Team Member Profiles), Solution Profile (Background & Problematic, Lean UX Process: Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas), Target Segments. Alineación del Alcance General del Proyecto (Contratación Digital, Seguimiento de Hitos/Trazabilidad y Conexión Directa entre Actores). Maquetación e implementación web de las secciones Services (HTML5 & CSS Grid Layout) y Milestones / How It Works (HTML5 & CSS Layout) de la Landing Page. Modularización de estilos, refactorización y gestión de ramas en GitHub (feature/services, feature/how-it-works). Responsable del área alerts-management en el desarrollo de la solución para la entrega TB1. Elaboración del material de exposición, grabación del video de presentación del equipo/producto y correcciones del informe. |
+| Egocheaga Suyo, Miguel Angel | Domain-Driven Software Architecture (Chapter 4.6), Design-Level EventStorming, Software Architecture Context, Container and Component Diagrams, Software Object-Oriented Design, Class Diagrams, Database Design and Database Diagrams; Landing Page Header/Navbar and Hero Section implementation, responsive styles and navigation behavior (HTML5, CSS3 and JavaScript). TB1: desarrollo del bounded context escrow-payments de la aplicación web (bóveda, depósito y seguimiento de desembolsos por hito). AV2: desarrollo de escrow-payments en el backend (allpatek-platform), con el agregado Wallet, persistencia JPA, endpoints GET/POST /api/v1/wallets y PUT /api/v1/wallets/{id}, y el tag escrow en Swagger. |
 | Orellana Rodríguez, Mel Andree | Style Guidelines, General Style Guidelines, Web Style Guidelines, Information Architecture, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Web Applications UX/UI Design, Web Applications Wireframes, Web Applications Wireflow Diagrams, Web Applications Mock-ups, Web Applications User Flow Diagrams, Web Applications Prototyping,  Desarrollo del bounded context Shared, Desarrollo del bounded context agreements-management, Desarrollo de la estructura de Aplicación Web, Despliegue del Mock API en Azure, Correcciones en el Product Backlog, About the Product, About the Team, Sprint 3  |
 | Vera Solsol, Nayely Macarena | Impact Mapping, User Stories and Product Backlog (Chapter 3). Desarrollo del bounded context tracking-evidence de la aplicación web (capas de dominio, infraestructura, aplicación y presentación). Desarrollo e implementación integral del bounded context tracking-evidence en el backend (allpatek-platform), incluyendo sus capas de dominio, aplicación, infraestructura y la exposición de endpoints REST (/api/v1/evidence) para la gestión y trazabilidad de evidencias por hito. Documentación de la implementación del bounded context tracking-evidence en el backend y registro detallado de sus commits correspondientes al Sprint 3, elaboración de entrevistas y correcciones del report. |
-| Raymundo Villarroel, Abigail Nadhim | Requirements Elicitation & Analysis (Chapter 2): Competitors, Competitive Analysis Landscape & SWOT, Competitive Strategies and Tactics, Interviews (Design, Record and Analysis for both segments), User Personas, User Task Matrix, User Journey Mapping (As-Is), Empathy Mapping, Big Picture Event Storming (Mermaid), Ubiquitous Language; Landing Page Contact Section and Footer Section (HTML5 & CSS). TB1: desarrollo del bounded context `parcel-management` de la aplicación web (capas de dominio, infraestructura, aplicación y presentación) y correcciones del Capítulo II (Empathy Mapping, guías de entrevista, Event Storming y nomenclatura de assets). Desarrollo del bounded context parcel-management en el backend (allpatek-platform) y documentación de sus commits en Sprint 3. |
+| Raymundo Villarroel, Abigail Nadhim | Requirements Elicitation & Analysis (Chapter 2): Competitors, Competitive Analysis Landscape & SWOT, Competitive Strategies and Tactics, Interviews (Design, Record and Analysis for both segments), User Personas, User Task Matrix, User Journey Mapping (As-Is), Empathy Mapping, Big Picture Event Storming (Mermaid), Ubiquitous Language; Landing Page Contact Section and Footer Section (HTML5 & CSS). TB1: desarrollo del bounded context parcel-management de la aplicación web (capas de dominio, infraestructura, aplicación y presentación) y correcciones del Capítulo II (Empathy Mapping, guías de entrevista, Event Storming y nomenclatura de assets). Desarrollo del bounded context parcel-management en el backend (allpatek-platform) y documentación de sus commits en Sprint 3. |
 
 <div align="center">
     
 | Tipo | Repositorio | Enlace URL |
 | :--- | :--- | :--- |
-| **Landing** | allpatek-website | [Ver Repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website) |
-| **Frontend** | allpatek-webapp | [Ver Repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp) |
-| **Mock API** | allpatek-platform-mock | [Ver Repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock) |
-| **Backend** | allpatek-platform | [Ver Repositorio](https://github.com/orgs/upc-pre-202620-1asi0729-7753-Terranova/repositories) |
+| **Landing** | allpatek-website | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website" style="text-decoration: none;">Ver Repositorio</a> |
+| **Frontend** | allpatek-webapp | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp" style="text-decoration: none;">Ver Repositorio</a> |
+| **Mock API** | allpatek-platform-mock | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock" style="text-decoration: none;">Ver Repositorio</a> |
+| **Backend** | allpatek-platform | <a href="https://github.com/orgs/upc-pre-202620-1asi0729-7753-Terranova/repositories" style="text-decoration: none;">Ver Repositorio</a> |
     
 </div>
 
@@ -202,120 +202,120 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 ## Tabla de Contenidos
 
-* [Capítulo I: Introducción](#capítulo-i-introducción)
-  * [1.1. Startup Profile](#11-startup-profile)
-    * [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    * [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  * [1.2. Solution Profile](#12-solution-profile)
-    * [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    * [1.2.2. Lean UX Process](#122-lean-ux-process)
-      * [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-      * [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      * [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      * [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  * [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-* [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  * [2.1. Competidores](#21-competidores)
-    * [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    * [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  * [2.2. Entrevistas](#22-entrevistas)
-    * [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    * [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    * [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-  * [2.3. Needfinding](#23-needfinding)
-    * [2.3.1. User Personas](#231-user-personas)
-    * [2.3.2. User Task Matrix](#232-user-task-matrix)
-    * [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    * [2.3.4. Empathy Mapping](#234-empathy-mapping)
-  * [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
-  * [2.5. Ubiquitous Language](#25-ubiquitous-language)
-* [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-  * [3.1. User Stories](#31-user-stories)
-  * [3.2. Impact Mapping](#32-impact-mapping)
-  * [3.3. Product Backlog](#33-product-backlog)
-* [Capítulo IV: Product Design](#capítulo-iv-product-design)
-  * [4.1. Style Guidelines](#41-style-guidelines)
-    * [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-    * [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-  * [4.2. Information Architecture](#42-information-architecture)
-    * [4.2.1. Organization Systems](#421-organization-systems)
-    * [4.2.2. Labeling Systems](#422-labeling-systems)
-    * [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    * [4.2.4. Searching Systems](#424-searching-systems)
-    * [4.2.5. Navigation Systems](#425-navigation-systems)
-  * [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-    * [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-    * [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-  * [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-    * [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-    * [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-    * [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
-    * [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-  * [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-  * [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-    * [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
-    * [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
-    * [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
-    * [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
-  * [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-    * [4.7.1. Class Diagrams](#471-class-diagrams)
-  * [4.8. Database Design](#48-database-design)
-    * [4.8.1. Database Diagrams](#481-database-diagrams)
-* [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-  * [5.1. Software Configuration Management](#51-software-configuration-management)
-    * [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-    * [5.1.2. Source Code Management](#512-source-code-management)
-    * [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-    * [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-  * [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-    * [5.2.1. Sprint 1](#521-sprint-1)
-      * [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-      * [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-      * [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-      * [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-      * [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      * [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-      * [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-      * [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    * [5.2.2. Sprint 2](#522-sprint-2)
-      * [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
-      * [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
-      * [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
-      * [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
-      * [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
-      * [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
-      * [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
-      * [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
-    * [5.2.3. Sprint 3](#523-sprint-3)
-      * [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
-      * [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
-      * [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
-      * [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
-      * [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-      * [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
-      * [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
-      * [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-    * [5.2.4. Sprint 4](#524-sprint-4)
-      * [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
-      * [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
-      * [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
-      * [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
-      * [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
-      * [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
-      * [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
-      * [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
-  * [5.3. Validation Interviews](#53-validation-interviews)
-    * [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-    * [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-    * [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-  * [5.4. Video About-the-Product](#54-video-about-the-product)
-* [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
-* [Video App Validation](#video-app-validation)
-* [Video About the product](#video-about-the-product)
-* [Video About the team](#video-about-the-team)
-* [Glosario](#glosario)
-* [Bibliografía](#bibliografía)
-* [Anexos](#anexos)
+* <a href="#capítulo-i-introducción" style="text-decoration: none;">Capítulo I: Introducción</a>
+  * <a href="#11-startup-profile" style="text-decoration: none;">1.1. Startup Profile</a>
+    * <a href="#111-descripción-de-la-startup" style="text-decoration: none;">1.1.1. Descripción de la Startup</a>
+    * <a href="#112-perfiles-de-integrantes-del-equipo" style="text-decoration: none;">1.1.2. Perfiles de integrantes del equipo</a>
+  * <a href="#12-solution-profile" style="text-decoration: none;">1.2. Solution Profile</a>
+    * <a href="#121-antecedentes-y-problemática" style="text-decoration: none;">1.2.1. Antecedentes y problemática</a>
+    * <a href="#122-lean-ux-process" style="text-decoration: none;">1.2.2. Lean UX Process</a>
+      * <a href="#1221-lean-ux-problem-statements" style="text-decoration: none;">1.2.2.1. Lean UX Problem Statements</a>
+      * <a href="#1222-lean-ux-assumptions" style="text-decoration: none;">1.2.2.2. Lean UX Assumptions</a>
+      * <a href="#1223-lean-ux-hypothesis-statements" style="text-decoration: none;">1.2.2.3. Lean UX Hypothesis Statements</a>
+      * <a href="#1224-lean-ux-canvas" style="text-decoration: none;">1.2.2.4. Lean UX Canvas</a>
+  * <a href="#13-segmentos-objetivo" style="text-decoration: none;">1.3. Segmentos objetivo</a>
+* <a href="#capítulo-ii-requirements-elicitation--analysis" style="text-decoration: none;">Capítulo II: Requirements Elicitation & Analysis</a>
+  * <a href="#21-competidores" style="text-decoration: none;">2.1. Competidores</a>
+    * <a href="#211-análisis-competitivo" style="text-decoration: none;">2.1.1. Análisis competitivo</a>
+    * <a href="#212-estrategias-y-tácticas-frente-a-competidores" style="text-decoration: none;">2.1.2. Estrategias y tácticas frente a competidores</a>
+  * <a href="#22-entrevistas" style="text-decoration: none;">2.2. Entrevistas</a>
+    * <a href="#221-diseño-de-entrevistas" style="text-decoration: none;">2.2.1. Diseño de entrevistas</a>
+    * <a href="#222-registro-de-entrevistas" style="text-decoration: none;">2.2.2. Registro de entrevistas</a>
+    * <a href="#223-análisis-de-entrevistas" style="text-decoration: none;">2.2.3. Análisis de entrevistas</a>
+  * <a href="#23-needfinding" style="text-decoration: none;">2.3. Needfinding</a>
+    * <a href="#231-user-personas" style="text-decoration: none;">2.3.1. User Personas</a>
+    * <a href="#232-user-task-matrix" style="text-decoration: none;">2.3.2. User Task Matrix</a>
+    * <a href="#233-user-journey-mapping" style="text-decoration: none;">2.3.3. User Journey Mapping</a>
+    * <a href="#234-empathy-mapping" style="text-decoration: none;">2.3.4. Empathy Mapping</a>
+  * <a href="#24-big-picture-event-storming" style="text-decoration: none;">2.4. Big Picture Event Storming</a>
+  * <a href="#25-ubiquitous-language" style="text-decoration: none;">2.5. Ubiquitous Language</a>
+* <a href="#capítulo-iii-requirements-specification" style="text-decoration: none;">Capítulo III: Requirements Specification</a>
+  * <a href="#31-user-stories" style="text-decoration: none;">3.1. User Stories</a>
+  * <a href="#32-impact-mapping" style="text-decoration: none;">3.2. Impact Mapping</a>
+  * <a href="#33-product-backlog" style="text-decoration: none;">3.3. Product Backlog</a>
+* <a href="#capítulo-iv-product-design" style="text-decoration: none;">Capítulo IV: Product Design</a>
+  * <a href="#41-style-guidelines" style="text-decoration: none;">4.1. Style Guidelines</a>
+    * <a href="#411-general-style-guidelines" style="text-decoration: none;">4.1.1. General Style Guidelines</a>
+    * <a href="#412-web-style-guidelines" style="text-decoration: none;">4.1.2. Web Style Guidelines</a>
+  * <a href="#42-information-architecture" style="text-decoration: none;">4.2. Information Architecture</a>
+    * <a href="#421-organization-systems" style="text-decoration: none;">4.2.1. Organization Systems</a>
+    * <a href="#422-labeling-systems" style="text-decoration: none;">4.2.2. Labeling Systems</a>
+    * <a href="#423-seo-tags-and-meta-tags" style="text-decoration: none;">4.2.3. SEO Tags and Meta Tags</a>
+    * <a href="#424-searching-systems" style="text-decoration: none;">4.2.4. Searching Systems</a>
+    * <a href="#425-navigation-systems" style="text-decoration: none;">4.2.5. Navigation Systems</a>
+  * <a href="#43-landing-page-ui-design" style="text-decoration: none;">4.3. Landing Page UI Design</a>
+    * <a href="#431-landing-page-wireframe" style="text-decoration: none;">4.3.1. Landing Page Wireframe</a>
+    * <a href="#432-landing-page-mock-up" style="text-decoration: none;">4.3.2. Landing Page Mock-up</a>
+  * <a href="#44-web-applications-uxui-design" style="text-decoration: none;">4.4. Web Applications UX/UI Design</a>
+    * <a href="#441-web-applications-wireframes" style="text-decoration: none;">4.4.1. Web Applications Wireframes</a>
+    * <a href="#442-web-applications-wireflow-diagrams" style="text-decoration: none;">4.4.2. Web Applications Wireflow Diagrams</a>
+    * <a href="#443-web-applications-mock-ups" style="text-decoration: none;">4.4.3. Web Applications Mock-ups</a>
+    * <a href="#444-web-applications-user-flow-diagrams" style="text-decoration: none;">4.4.4. Web Applications User Flow Diagrams</a>
+  * <a href="#45-web-applications-prototyping" style="text-decoration: none;">4.5. Web Applications Prototyping</a>
+  * <a href="#46-domain-driven-software-architecture" style="text-decoration: none;">4.6. Domain-Driven Software Architecture</a>
+    * <a href="#461-design-level-event-storming" style="text-decoration: none;">4.6.1. Design-Level Event Storming</a>
+    * <a href="#462-software-architecture-context-diagram" style="text-decoration: none;">4.6.2. Software Architecture Context Diagram</a>
+    * <a href="#463-software-architecture-container-diagrams" style="text-decoration: none;">4.6.3. Software Architecture Container Diagrams</a>
+    * <a href="#464-software-architecture-components-diagrams" style="text-decoration: none;">4.6.4. Software Architecture Components Diagrams</a>
+  * <a href="#47-software-object-oriented-design" style="text-decoration: none;">4.7. Software Object-Oriented Design</a>
+    * <a href="#471-class-diagrams" style="text-decoration: none;">4.7.1. Class Diagrams</a>
+  * <a href="#48-database-design" style="text-decoration: none;">4.8. Database Design</a>
+    * <a href="#481-database-diagrams" style="text-decoration: none;">4.8.1. Database Diagrams</a>
+* <a href="#capítulo-v-product-implementation-validation--deployment" style="text-decoration: none;">Capítulo V: Product Implementation, Validation & Deployment</a>
+  * <a href="#51-software-configuration-management" style="text-decoration: none;">5.1. Software Configuration Management</a>
+    * <a href="#511-software-development-environment-configuration" style="text-decoration: none;">5.1.1. Software Development Environment Configuration</a>
+    * <a href="#512-source-code-management" style="text-decoration: none;">5.1.2. Source Code Management</a>
+    * <a href="#513-source-code-style-guide--conventions" style="text-decoration: none;">5.1.3. Source Code Style Guide & Conventions</a>
+    * <a href="#514-software-deployment-configuration" style="text-decoration: none;">5.1.4. Software Deployment Configuration</a>
+  * <a href="#52-landing-page-services--applications-implementation" style="text-decoration: none;">5.2. Landing Page, Services & Applications Implementation</a>
+    * <a href="#521-sprint-1" style="text-decoration: none;">5.2.1. Sprint 1</a>
+      * <a href="#5211-sprint-planning-1" style="text-decoration: none;">5.2.1.1. Sprint Planning 1</a>
+      * <a href="#5212-aspect-leaders-and-collaborators" style="text-decoration: none;">5.2.1.2. Aspect Leaders and Collaborators</a>
+      * <a href="#5213-sprint-backlog-1" style="text-decoration: none;">5.2.1.3. Sprint Backlog 1</a>
+      * <a href="#5214-development-evidence-for-sprint-review" style="text-decoration: none;">5.2.1.4. Development Evidence for Sprint Review</a>
+      * <a href="#5215-execution-evidence-for-sprint-review" style="text-decoration: none;">5.2.1.5. Execution Evidence for Sprint Review</a>
+      * <a href="#5216-services-documentation-evidence-for-sprint-review" style="text-decoration: none;">5.2.1.6. Services Documentation Evidence for Sprint Review</a>
+      * <a href="#5217-software-deployment-evidence-for-sprint-review" style="text-decoration: none;">5.2.1.7. Software Deployment Evidence for Sprint Review</a>
+      * <a href="#5218-team-collaboration-insights-during-sprint" style="text-decoration: none;">5.2.1.8. Team Collaboration Insights during Sprint</a>
+    * <a href="#522-sprint-2" style="text-decoration: none;">5.2.2. Sprint 2</a>
+      * <a href="#5221-sprint-planning-2" style="text-decoration: none;">5.2.2.1. Sprint Planning 2</a>
+      * <a href="#5222-aspect-leaders-and-collaborators" style="text-decoration: none;">5.2.2.2. Aspect Leaders and Collaborators</a>
+      * <a href="#5223-sprint-backlog-2" style="text-decoration: none;">5.2.2.3. Sprint Backlog 2</a>
+      * <a href="#5224-development-evidence-for-sprint-review" style="text-decoration: none;">5.2.2.4. Development Evidence for Sprint Review</a>
+      * <a href="#5225-execution-evidence-for-sprint-review" style="text-decoration: none;">5.2.2.5. Execution Evidence for Sprint Review</a>
+      * <a href="#5226-services-documentation-evidence-for-sprint-review" style="text-decoration: none;">5.2.2.6. Services Documentation Evidence for Sprint Review</a>
+      * <a href="#5227-software-deployment-evidence-for-sprint-review" style="text-decoration: none;">5.2.2.7. Software Deployment Evidence for Sprint Review</a>
+      * <a href="#5228-team-collaboration-insights-during-sprint" style="text-decoration: none;">5.2.2.8. Team Collaboration Insights during Sprint</a>
+    * <a href="#523-sprint-3" style="text-decoration: none;">5.2.3. Sprint 3</a>
+      * <a href="#5231-sprint-planning-3" style="text-decoration: none;">5.2.3.1. Sprint Planning 3</a>
+      * <a href="#5232-aspect-leaders-and-collaborators" style="text-decoration: none;">5.2.3.2. Aspect Leaders and Collaborators</a>
+      * <a href="#5233-sprint-backlog-3" style="text-decoration: none;">5.2.3.3. Sprint Backlog 3</a>
+      * <a href="#5234-development-evidence-for-sprint-review" style="text-decoration: none;">5.2.3.4. Development Evidence for Sprint Review</a>
+      * <a href="#5235-execution-evidence-for-sprint-review" style="text-decoration: none;">5.2.3.5. Execution Evidence for Sprint Review</a>
+      * <a href="#5236-services-documentation-evidence-for-sprint-review" style="text-decoration: none;">5.2.3.6. Services Documentation Evidence for Sprint Review</a>
+      * <a href="#5237-software-deployment-evidence-for-sprint-review" style="text-decoration: none;">5.2.3.7. Software Deployment Evidence for Sprint Review</a>
+      * <a href="#5238-team-collaboration-insights-during-sprint" style="text-decoration: none;">5.2.3.8. Team Collaboration Insights during Sprint</a>
+    * <a href="#524-sprint-4" style="text-decoration: none;">5.2.4. Sprint 4</a>
+      * <a href="#5241-sprint-planning-4" style="text-decoration: none;">5.2.4.1. Sprint Planning 4</a>
+      * <a href="#5242-aspect-leaders-and-collaborators" style="text-decoration: none;">5.2.4.2. Aspect Leaders and Collaborators</a>
+      * <a href="#5243-sprint-backlog-4" style="text-decoration: none;">5.2.4.3. Sprint Backlog 4</a>
+      * <a href="#5244-development-evidence-for-sprint-review" style="text-decoration: none;">5.2.4.4. Development Evidence for Sprint Review</a>
+      * <a href="#5245-execution-evidence-for-sprint-review" style="text-decoration: none;">5.2.4.5. Execution Evidence for Sprint Review</a>
+      * <a href="#5246-services-documentation-evidence-for-sprint-review" style="text-decoration: none;">5.2.4.6. Services Documentation Evidence for Sprint Review</a>
+      * <a href="#5247-software-deployment-evidence-for-sprint-review" style="text-decoration: none;">5.2.4.7. Software Deployment Evidence for Sprint Review</a>
+      * <a href="#5248-team-collaboration-insights-during-sprint" style="text-decoration: none;">5.2.4.8. Team Collaboration Insights during Sprint</a>
+  * <a href="#53-validation-interviews" style="text-decoration: none;">5.3. Validation Interviews</a>
+    * <a href="#531-diseño-de-entrevistas" style="text-decoration: none;">5.3.1. Diseño de Entrevistas</a>
+    * <a href="#532-registro-de-entrevistas" style="text-decoration: none;">5.3.2. Registro de Entrevistas</a>
+    * <a href="#533-evaluaciones-según-heurísticas" style="text-decoration: none;">5.3.3. Evaluaciones según heurísticas</a>
+  * <a href="#54-video-about-the-product" style="text-decoration: none;">5.4. Video About-the-Product</a>
+* <a href="#conclusiones-y-recomendaciones" style="text-decoration: none;">Conclusiones y Recomendaciones</a>
+* <a href="#video-app-validation" style="text-decoration: none;">Video App Validation</a>
+* <a href="#video-about-the-product" style="text-decoration: none;">Video About the product</a>
+* <a href="#video-about-the-team" style="text-decoration: none;">Video About the team</a>
+* <a href="#glosario" style="text-decoration: none;">Glosario</a>
+* <a href="#bibliografía" style="text-decoration: none;">Bibliografía</a>
+* <a href="#anexos" style="text-decoration: none;">Anexos</a>
 
 
 
@@ -343,23 +343,23 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
             <li><b>AV1 - Egocheaga Suyo, Miguel Angel:</b> Exposición oral de las secciones 4.6 a 4.8.1 del Capítulo IV, explicando el flujo de contratación, los pagos por hitos, la arquitectura de Allpatek y el diseño de datos mediante ejemplos comprensibles para evaluadores y perfiles no técnicos.</li>
             <li><b>AV1 - Raymundo Villarroel, Abigail Nadhim:</b> Exposición oral del avance del Capítulo II (Requirements Elicitation & Analysis), presentando el análisis competitivo frente a Agromercado, VeryAgro y Procesadora Perú, los hallazgos del proceso de needfinding (User Personas, User Journey Maps y Empathy Maps) y el modelado del Big Picture Event Storming, adaptando la explicación del dominio agrícola y del modelo Agro-as-a-Service para una audiencia evaluadora sin conocimiento previo del sector.</li>
             <li><b>AV1 - Vera Solsol, Nayely Macarena:</b> Exposición oral del avance del Capítulo III (Requirements Specification), presentando la alineación estratégica del Impact Mapping, la definición de las User Stories con sus criterios de aceptación y la priorización del Product Backlog para la plataforma ALLPATEK, adaptando la explicación técnica del flujo de requisitos para una audiencia evaluadora académica y profesional.</li>
-            <li><b>TB1 - Orellana Rodríguez, Mel Andree:</b> En la sustentación expliqué la app, <code>shared</code> y <code>agreements-management</code>. Al profesor le hablé de Angular y Azure; al resto, de cómo se firma el contrato.</li>
+            <li><b>TB1 - Orellana Rodríguez, Mel Andree:</b> En la sustentación expliqué la app, shared y agreements-management. Al profesor le hablé de Angular y Azure; al resto, de cómo se firma el contrato.</li>
             <li><b>TB1 - Atauje Barreto, Alexander Sebastián:</b> Exposición oral de la entrega TB1 del proyecto ALLPATEK, sustentando la arquitectura de la solución, la integración del módulo de alertas y el cumplimiento de las observaciones señaladas por la evaluación académica.</li>
-            <li><b>TB1 - Raymundo Villarroel, Abigail Nadhim:</b> Exposición oral en video de la entrega TB1, explicando el desarrollo del bounded context <code>parcel-management</code> de la aplicación web (entidad Parcel, acceso a la API, store de estado y pantallas de tablero, formulario y detalle de parcelas) y las correcciones del Capítulo II (Empathy Mapping, guías de entrevista y Big Picture Event Storming), adaptando el vocabulario técnico para evaluadores académicos y el lenguaje del negocio para audiencias agrícolas y comerciales.</li>
-            <li><b>TB1 - Egocheaga Suyo, Miguel Angel:</b> Exposición oral de la entrega TB1 del proyecto ALLPATEK, explicando el bounded context <code>escrow-payments</code> y las correcciones del Capítulo IV con un lenguaje adecuado para evaluadores académicos y audiencias comerciales.</li>
-            <li><b>TB1 - Vera Solsol, Nayely Macarena:</b> Exposición oral de la entrega TB1 del proyecto ALLPATEK, explicando el bounded context <code>tracking-evidence</code> y la actualización de las User Stories y del Product Backlog con un lenguaje adecuado para audiencias académicas, agrícolas y comerciales.</li>
-            <li><b>AV2 - Orellana Rodríguez, Mel Andree:</b> Expliqué <code>agreements-management</code> y <code>shared</code> en el backend. Al profesor le mostré los endpoints; a agricultor y comerciante, la firma del contrato. También presenté About the Product y About the Team.</li>
-            <li><b>AV2 - Atauje Barreto, Alexander Sebastián:</b> Preparación de la explicación oral del bounded context <code>alerts-management</code> para la sustentación del AV2, organizando una presentación comprensible de su arquitectura en Java y Spring Boot, la integración con la API Open-Meteo, el uso de una Anti-Corruption Layer (ACL) para consultar datos de parcelas y la exposición de alertas climáticas mediante el endpoint <code>/api/v1/alerts</code>. La explicación se orientó a relacionar las decisiones técnicas con la utilidad de las advertencias de heladas, inundaciones y vientos fuertes para los agricultores.</li>
-              <li><b>AV2 - Raymundo Villarroel, Abigail Nadhim:</b> Exposición oral de la entrega AV2, explicando el desarrollo del bounded context <code>parcel-management</code> en el backend (modelo de parcelas, casos de uso, endpoints REST y persistencia) y los avances de la documentación del Sprint 3, adaptando el lenguaje técnico para evaluadores académicos y el lenguaje del negocio para audiencias agrícolas y comerciales.</li>
-            <li><b>AV2 - Egocheaga Suyo, Miguel Angel:</b> Exposición oral de la entrega AV2, explicando el bounded context <code>escrow-payments</code> del backend: cómo quedó la wallet, cómo se consulta el saldo de demostración y para qué sirven los endpoints de <code>/api/v1/wallets</code>. Lo armé para que se entienda en la sustentación y también si alguien del lado comercial solo quiere saber dónde queda el dinero en custodia.</li>
-             <li><b>AV2 - Vera Solsol, Nayely Macarena:</b> Exposición oral de la entrega AV2, explicando el desarrollo integral del bounded context <code>tracking-evidence<code> tanto en el backend (allpatek-platform, detallando sus capas de dominio, aplicación, infraestructura y los endpoints REST <code>/api/v1/evidence<code>) como en la aplicación web..</li>
+            <li><b>TB1 - Raymundo Villarroel, Abigail Nadhim:</b> Exposición oral en video de la entrega TB1, explicando el desarrollo del bounded context parcel-management de la aplicación web (entidad Parcel, acceso a la API, store de estado y pantallas de tablero, formulario y detalle de parcelas) y las correcciones del Capítulo II (Empathy Mapping, guías de entrevista y Big Picture Event Storming), adaptando el vocabulario técnico para evaluadores académicos y el lenguaje del negocio para audiencias agrícolas y comerciales.</li>
+            <li><b>TB1 - Egocheaga Suyo, Miguel Angel:</b> Exposición oral de la entrega TB1 del proyecto ALLPATEK, explicando el bounded context escrow-payments y las correcciones del Capítulo IV con un lenguaje adecuado para evaluadores académicos y audiencias comerciales.</li>
+            <li><b>TB1 - Vera Solsol, Nayely Macarena:</b> Exposición oral de la entrega TB1 del proyecto ALLPATEK, explicando el bounded context tracking-evidence y la actualización de las User Stories y del Product Backlog con un lenguaje adecuado para audiencias académicas, agrícolas y comerciales.</li>
+            <li><b>AV2 - Orellana Rodríguez, Mel Andree:</b> Expliqué agreements-management y shared en el backend. Al profesor le mostré los endpoints; a agricultor y comerciante, la firma del contrato. También presenté About the Product y About the Team.</li>
+            <li><b>AV2 - Atauje Barreto, Alexander Sebastián:</b> Preparación de la explicación oral del bounded context alerts-management para la sustentación del AV2, organizando una presentación comprensible de su arquitectura en Java y Spring Boot, la integración con la API Open-Meteo, el uso de una Anti-Corruption Layer (ACL) para consultar datos de parcelas y la exposición de alertas climáticas mediante el endpoint /api/v1/alerts. La explicación se orientó a relacionar las decisiones técnicas con la utilidad de las advertencias de heladas, inundaciones y vientos fuertes para los agricultores.</li>
+              <li><b>AV2 - Raymundo Villarroel, Abigail Nadhim:</b> Exposición oral de la entrega AV2, explicando el desarrollo del bounded context parcel-management en el backend (modelo de parcelas, casos de uso, endpoints REST y persistencia) y los avances de la documentación del Sprint 3, adaptando el lenguaje técnico para evaluadores académicos y el lenguaje del negocio para audiencias agrícolas y comerciales.</li>
+            <li><b>AV2 - Egocheaga Suyo, Miguel Angel:</b> Exposición oral de la entrega AV2, explicando el bounded context escrow-payments del backend: cómo quedó la wallet, cómo se consulta el saldo de demostración y para qué sirven los endpoints de /api/v1/wallets. Lo armé para que se entienda en la sustentación y también si alguien del lado comercial solo quiere saber dónde queda el dinero en custodia.</li>
+             <li><b>AV2 - Vera Solsol, Nayely Macarena:</b> Exposición oral de la entrega AV2, explicando el desarrollo integral del bounded context tracking-evidence<code> tanto en el backend (allpatek-platform, detallando sus capas de dominio, aplicación, infraestructura y los endpoints REST <code>/api/v1/evidence<code>) como en la aplicación web..</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
           <ul>
             <li><b>AV1:</b> Se demostró capacidad para exponer de manera clara el avance de cada capítulo del informe, adaptando el lenguaje técnico al perfil de los interlocutores (evaluadores, agricultores y comerciantes).</li>
             <li><b>TB1:</b> Se sustentaron con claridad las soluciones implementadas y las correcciones realizadas tras la retroalimentación, defendiendo las decisiones del sistema ante audiencias académicas y de negocio.</li>
-            <li><b>AV2:</b> Se explicó el avance del backend del Sprint 3, incluyendo las alertas climáticas y la bóveda de demostración (<code>escrow-payments</code>), bajando el tecnicismo de Spring Boot cuando hacía falta para la sustentación.</li>
+            <li><b>AV2:</b> Se explicó el avance del backend del Sprint 3, incluyendo las alertas climáticas y la bóveda de demostración (<code>escrow-payments), bajando el tecnicismo de Spring Boot cuando hacía falta para la sustentación.</li>
           </ul>
         </td>
       </tr>
@@ -374,16 +374,16 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
             <li><b>AV1 - Egocheaga Suyo, Miguel Angel:</b> Redacción y diagramación de las secciones 4.6 a 4.8.1 del Capítulo IV: arquitectura guiada por dominio, EventStorming de diseño, diagramas C4, diseño orientado a objetos, clases y diseño de base de datos. Además, implementé Header/Navbar y Hero de la Landing Page con HTML5, CSS3 y JavaScript, incluyendo ajustes de navegación y adaptación a móviles.</li>
             <li><b>AV1 - Raymundo Villarroel, Abigail Nadhim:</b> Redacción del Capítulo II (Requirements Elicitation & Analysis) del informe, incluyendo el análisis competitivo y SWOT, el diseño y análisis de entrevistas para los segmentos de Agricultor Familiar y Comprador Urbano, la construcción de los User Personas, User Task Matrix, User Journey Maps y Empathy Maps, el modelado del Big Picture Event Storming y la elaboración del glosario de Ubiquitous Language, estructurando el contenido de forma clara y trazable para su revisión por el equipo docente y evaluador.</li>
             <li><b>AV1 - Vera Solsol, Nayely Macarena:</b> Redacción y estructuración formal del Capítulo III: Requirements Specification, articulando con precisión técnica la elaboración del Impact Mapping para la alineación estratégica, la formulación detallada de User Stories con sus respectivos criterios de aceptación orientados al usuario final, y la priorización del Product Backlog de la plataforma ALLPATEK, empleando un lenguaje claro, profesional y adaptado tanto para perfiles técnicos como comerciales del sector agrícola.</li>
-            <li><b>TB1 - Orellana Rodríguez, Mel Andree:</b> Documenté <code>shared</code>, <code>agreements-management</code> y el mock en Azure en el informe para el curso, y dejé los commits claros para el equipo.</li>
+            <li><b>TB1 - Orellana Rodríguez, Mel Andree:</b> Documenté shared, agreements-management y el mock en Azure en el informe para el curso, y dejé los commits claros para el equipo.</li>
             <li><b>TB1 - Atauje Barreto, Alexander Sebastián:</b> Documentación de la entrega TB1, incorporando las correcciones requeridas por el docente, la especificación de responsabilidad del bounded context de alertas (alerts-management) y el refinamiento de la estructura del informe.</li>
-            <li><b>TB1 - Raymundo Villarroel, Abigail Nadhim:</b> Corrección y reestructuración del Capítulo II a partir de la retroalimentación de la entrega: reescritura del Empathy Mapping con los entrevistados reales, guías de entrevista con apertura y consentimiento, análisis de entrevistas actualizado con tres comerciantes, Big Picture Event Storming documentado por fases con su código fuente en Mermaid y estandarización de los nombres de archivos del informe. Además, documenté la estructura del bounded context <code>parcel-management</code> mediante commits descriptivos organizados por capas.</li>
-            <li><b>TB1 - Egocheaga Suyo, Miguel Angel:</b> Redacción de las correcciones del Capítulo IV (diagramas de clases, EventStorming y modelos C4) y documentación mediante commits descriptivos del bounded context <code>escrow-payments</code>, con un lenguaje claro para perfiles técnicos y de negocio.</li>
-            <li><b>TB1 - Vera Solsol, Nayely Macarena:</b> Revisión y redacción de las User Stories y del Product Backlog del Capítulo III a partir de la retroalimentación recibida, y documentación mediante commits descriptivos del bounded context <code>tracking-evidence</code>, con un lenguaje claro para perfiles técnicos y de negocio.</li>
-            <li><b>AV2 - Orellana Rodríguez, Mel Andree:</b> En el informe armé el Sprint 3 y documenté <code>agreements</code> y <code>shared</code> para la revisión del curso. About the Product lo escribí para visitantes de la landing; About the Team, para mostrar el trabajo del grupo.</li>
-            <li><b>AV2 - Atauje Barreto, Alexander Sebastián:</b> Documentación de la implementación del bounded context <code>alerts-management</code> en el backend <code>allpatek-platform</code>, detallando los modelos de alertas y lecturas climáticas, las consultas por propietario, los niveles de severidad, la integración con Open-Meteo y la comunicación con <code>parcel-management</code> mediante una ACL. Asimismo, actualicé el Registro de Versiones y la sección 5.2.3.4 (Development Evidence for Sprint Review) del informe, consignando los commits del módulo con sus identificadores, mensajes y descripciones técnicas para facilitar la trazabilidad y revisión del trabajo realizado.</li>
-            <li><b>AV2 - Raymundo Villarroel, Abigail Nadhim:</b> Documentación de la entrega AV2: actualización del informe con las tareas, el bounded context <code>parcel-management</code> y los commits de Sprint 3, redactados con descripciones claras para perfiles técnicos y de negocio.</li>
+            <li><b>TB1 - Raymundo Villarroel, Abigail Nadhim:</b> Corrección y reestructuración del Capítulo II a partir de la retroalimentación de la entrega: reescritura del Empathy Mapping con los entrevistados reales, guías de entrevista con apertura y consentimiento, análisis de entrevistas actualizado con tres comerciantes, Big Picture Event Storming documentado por fases con su código fuente en Mermaid y estandarización de los nombres de archivos del informe. Además, documenté la estructura del bounded context parcel-management mediante commits descriptivos organizados por capas.</li>
+            <li><b>TB1 - Egocheaga Suyo, Miguel Angel:</b> Redacción de las correcciones del Capítulo IV (diagramas de clases, EventStorming y modelos C4) y documentación mediante commits descriptivos del bounded context escrow-payments, con un lenguaje claro para perfiles técnicos y de negocio.</li>
+            <li><b>TB1 - Vera Solsol, Nayely Macarena:</b> Revisión y redacción de las User Stories y del Product Backlog del Capítulo III a partir de la retroalimentación recibida, y documentación mediante commits descriptivos del bounded context tracking-evidence, con un lenguaje claro para perfiles técnicos y de negocio.</li>
+            <li><b>AV2 - Orellana Rodríguez, Mel Andree:</b> En el informe armé el Sprint 3 y documenté agreements y shared para la revisión del curso. About the Product lo escribí para visitantes de la landing; About the Team, para mostrar el trabajo del grupo.</li>
+            <li><b>AV2 - Atauje Barreto, Alexander Sebastián:</b> Documentación de la implementación del bounded context alerts-management en el backend allpatek-platform, detallando los modelos de alertas y lecturas climáticas, las consultas por propietario, los niveles de severidad, la integración con Open-Meteo y la comunicación con parcel-management mediante una ACL. Asimismo, actualicé el Registro de Versiones y la sección 5.2.3.4 (Development Evidence for Sprint Review) del informe, consignando los commits del módulo con sus identificadores, mensajes y descripciones técnicas para facilitar la trazabilidad y revisión del trabajo realizado.</li>
+            <li><b>AV2 - Raymundo Villarroel, Abigail Nadhim:</b> Documentación de la entrega AV2: actualización del informe con las tareas, el bounded context parcel-management y los commits de Sprint 3, redactados con descripciones claras para perfiles técnicos y de negocio.</li>
             <li><b>AV2 - Vera Solsol, Nayely Macarena:</b> Redacté los artefactos de gestión ágil (Capítulo 3: Impact Mapping, User Stories y Product Backlog) y la documentación técnica del bounded context tracking-evidence (frontend y backend en allpatek-platform, incluyendo los endpoints REST /api/v1/evidence), además de mantener el registro detallado de commits del Sprint 3 y las correcciones del reporte formal.</li>
-            <li><b>AV2 - Egocheaga Suyo, Miguel Angel:</b> Documenté el bounded context <code>escrow-payments</code> en el backend. Dejé el agregado Wallet, la tabla <code>wallets</code> y los endpoints GET/POST <code>/api/v1/wallets</code> y PUT <code>/wallets/{id}</code> para consultar el monto de demostración y la tarjeta. También puse el tag <code>escrow</code> en Swagger y completé mis filas AV2 en el Registro de Versiones.</li>
+            <li><b>AV2 - Egocheaga Suyo, Miguel Angel:</b> Documenté el bounded context escrow-payments en el backend. Dejé el agregado Wallet, la tabla wallets y los endpoints GET/POST /api/v1/wallets y PUT /wallets/{id} para consultar el monto de demostración y la tarjeta. También puse el tag escrow en Swagger y completé mis filas AV2 en el Registro de Versiones.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
@@ -594,7 +594,7 @@ El Lean UX Canvas es una herramienta ágil que sintetiza los elementos clave del
 </p>
 
 
-<p align="center"> Enlace público del Lean UX Canvas: (https://miro.com/app/board/uXjVHInt5w4=/) </p>
+<p align="center"> Enlace público del Lean UX Canvas: (<a href="https://miro.com/app/board/uXjVHInt5w4=/" style="text-decoration: none;">https://miro.com/app/board/uXjVHInt5w4=/</a>) </p>
 
 
 ## 1.3. Segmentos objetivo
@@ -872,7 +872,7 @@ Antes de la primera pregunta, el entrevistador sigue este orden:
 | Extensión aproximada de la parcela |  950 m² |
 | Inicio de la entrevista | 00:00 |
 | Duración | 06:09 |
-| URL del video | [Video evidencia](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBbQDY3p2SiRq-xBW2hRB-dARiTcCuKw4tJ7sUQ8oeVau8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iVsXEQ) |
+| URL del video | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBbQDY3p2SiRq-xBW2hRB-dARiTcCuKw4tJ7sUQ8oeVau8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iVsXEQ" style="text-decoration: none;">Video evidencia</a> |
 | **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-agricultor-1.jpeg" alt="Captura de la entrevista a Rosa Flores" width="300"></div> |
 | **Resumen de la entrevista** | Entrevista realizada a Rosa Flores, agricultora a tiempo completo encargada de la gestión, supervisión y trabajo diario en una parcela familiar de palta con más de 6 años de experiencia en el cultivo. Utiliza un dispositivo Android (Xiaomi Redmi Note 11) para coordinar las labores agrícolas, tomar evidencias fotográficas del calibre de la fruta y comunicarse vía WhatsApp con el dueño de la parcela y los compradores. Señala serios problemas de conectividad a internet en las partes altas del huerto, lo que retrasa la entrega de reportes y negociaciones. Asimismo, destaca la necesidad de un sistema automatizado de guardado y envío de fotos con geolocalización/fecha y un servicio de alertas climáticas tempranas para proteger la floración del palto. |
 
@@ -893,7 +893,7 @@ Antes de la primera pregunta, el entrevistador sigue este orden:
 | Extensión aproximada de la parcela | 1000 m² |
 | Inicio de la entrevista | 00:00 |
 | Duración | 09:28 |
-| URL del video | [Video Evidencia](https://upcedupe-my.sharepoint.com/:v:/r/personal/u20231h171_upc_edu_pe/Documents/Video%20Entrevista.mp4?d=w350e6ee8e89f44e3a0801080e03a5a37&csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vPTAoG) |
+| URL del video | <a href="https://upcedupe-my.sharepoint.com/:v:/r/personal/u20231h171_upc_edu_pe/Documents/Video%20Entrevista.mp4?d=w350e6ee8e89f44e3a0801080e03a5a37&csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vPTAoG" style="text-decoration: none;">Video Evidencia</a> |
 | **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-agricultor-2.png" alt="Captura de la entrevista a Gustavo Adolfo Suyo" width="300"></div> |
 | **Resumen de la entrevista** | Entrevista realizada a Gustavo Adolfo Suyo, agricultor de 48 años del distrito de Yauyos. Indicó que cultiva paltas en una parcela de aproximadamente 1000 m². El enlace del video se incorporará cuando esté disponible. |
 
@@ -915,7 +915,7 @@ Antes de la primera pregunta, el entrevistador sigue este orden:
 | Volumen de compra aproximado | 30-40kg por semana |
 | Inicio de la entrevista | 00:00 |
 | Duración | 7:27 |
-| URL del video | [Video evidencia](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQCadRcKNFI3QJCRvB7MCwswAakotnQDzxFR-FZchZomOuI?e=W8zn4F) |
+| URL del video | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQCadRcKNFI3QJCRvB7MCwswAakotnQDzxFR-FZchZomOuI?e=W8zn4F" style="text-decoration: none;">Video evidencia</a> |
 | **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-comprador-1.png" width="300"></div> |
 | **Resumen de la entrevista** | Irma Barreto, dueña y administradora de un pequeño restaurante familiar, comentó que actualmente compra frutas y verduras principalmente a proveedores conocidos, mercados mayoristas y mediante pedidos por WhatsApp. Sus principales dificultades son la variación frecuente de precios, la incertidumbre sobre la calidad y frescura de los productos y la falta de información sobre su origen. Mostró interés en conocer directamente al agricultor, la ubicación de la parcela y el avance de los cultivos antes de realizar una compra. También consideró atractiva la posibilidad de pagar por adelantado una temporada a un precio fijo, siempre que exista un contrato claro y garantías de cumplimiento. Para Irma, las notificaciones sobre el progreso de los cultivos y la fecha estimada de cosecha serían útiles, prefiriendo WhatsApp como principal medio de comunicación. Además, señaló que confiaría más en la plataforma si los agricultores estuvieran verificados, existieran calificaciones de otros comerciantes y se ofrecieran mecanismos de respaldo ante incumplimientos. En general, la entrevista evidencia que el comerciante busca reducir la incertidumbre en precio, calidad, origen y cumplimiento, además de contar con un proceso de compra directo, rápido y transparente. |
 
@@ -933,7 +933,7 @@ Antes de la primera pregunta, el entrevistador sigue este orden:
 | Volumen de compra aproximado | 400 kg por semana |
 | Inicio de la entrevista | 00:00 |
 | Duración | 10:33 |
-| URL del video | [Video evidencia](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQA2ALZ3uFutSaQ8ve7Nk7hqAXADf3-eTjCN6dlRHIPgDVI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MX0bNw) |
+| URL del video | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQA2ALZ3uFutSaQ8ve7Nk7hqAXADf3-eTjCN6dlRHIPgDVI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MX0bNw" style="text-decoration: none;">Video evidencia</a> |
 | **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-comprador-2.png" alt="Captura de la entrevista a César Hugo Egocheaga" width="300"></div> |
 | **Resumen de la entrevista** | Entrevista realizada a César Hugo Egocheaga, concesionario de un puesto en el Mercado Mayorista de Frutas. Explicó que no compra la mercadería, sino que los productores de ceja de selva (zona de Chanchamayo) llevan su fruta al mercado, él la vende al público y cobra una comisión acordada con el agricultor. Trabaja principalmente con papaya, mandarina, naranja y, en algunos casos, manzana. Señala como principales dificultades el clima en época de lluvias, que daña o retrasa el transporte por la carretera central, la estacionalidad de los productos y el costo del flete, que se duplicó por el aumento del combustible y encarece el producto final. Indicó que, cuando la fruta llega maltratada, debe bajar el precio para venderla. Su relación con los productores se basa en la confianza de años y en cobrar sin engañarse. Usa WhatsApp para comunicarse con ellos. Sobre comprar por adelantado a precio fijo, indicó que no es una práctica habitual, aunque algunos concesionarios con capital sí lo hacen, y que una aplicación le sería interesante solo si cuenta con capital y con bastante confianza, porque hoy los tratos se hacen presencialmente para ver la mercadería. Como mejora, propone ampliar los espacios de estacionamiento y las instalaciones del mercado para atender mejor a los clientes. |
 
@@ -952,7 +952,7 @@ Antes de la primera pregunta, el entrevistador sigue este orden:
 | Volumen de compra aproximado | 35-45 kg por semana |
 | Inicio de la entrevista | 00:00 |
 | Duración | 9:40 |
-| URL del video | [Video evidencia](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h171_upc_edu_pe/IQDobg41n-jjRKCAEIDgOlo3AfXMuQqEXkTp0vU3WnDO5Eg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Z15UJ ) |
+| URL del video | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h171_upc_edu_pe/IQDobg41n-jjRKCAEIDgOlo3AfXMuQqEXkTp0vU3WnDO5Eg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Z15UJ" style="text-decoration: none;">Video evidencia</a> |
 | **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-comprador-3.png" width="300"></div> |
 | **Resumen de la entrevista** | La entrevista realizada a Carolin, dueña de un restaurante familiar en Lima, revela que realiza sus compras de insumos agrícolas principalmente por WhatsApp con proveedores de confianza, valorando más la calidad y la seguridad que el costo más bajo. Sus principales dolores de cabeza son la inestabilidad semanal de los precios, la incertidumbre sobre la frescura y peso de la mercadería, y los retrasos en las entregas. Ante una posible aplicación de compra directa al agricultor o modelos de precios fijos por temporada, se mostraría interesada siempre y cuando la plataforma garantice transparencia, verificación de identidad de los productores, soporte ante problemas y un canal de comunicación ágil como WhatsApp. |
 
@@ -1086,7 +1086,7 @@ Los tres hotspots quedan como insumo para el Design-Level Event Storming del Cap
 </p>
 
 
- **Enlace Event Storming:** [Enlace](https://miro.com/app/board/uXjVEOzTlmg=/?share_link_id=401600368120)
+ **Enlace Event Storming:** <a href="https://miro.com/app/board/uXjVEOzTlmg=/?share_link_id=401600368120" style="text-decoration: none;">Enlace</a>
 
 
 ## 2.5. Ubiquitous Language
@@ -1255,7 +1255,7 @@ El Product Backlog agrupa y prioriza el conjunto de User Stories identificadas. 
 ### Referencia y Enlace Público
 
 * **Herramienta de gestión:** Trello
-* **URL Pública del Product Backlog:** `https://trello.com/b/A0csigUo/terranova` 
+* **URL Pública del Product Backlog:** <a href="https://trello.com/b/A0csigUo/terranova" style="text-decoration: none;">https://trello.com/b/A0csigUo/terranova</a> 
 
 ### Captura de Pantalla 
 <div align="center">
@@ -1282,11 +1282,11 @@ El sistema cromático se divide estratégicamente en dos entornos para responder
 #### A. Paleta de la Landing Page (Sitio Web Público)
 Diseñada para captar la atención, comunicar modernidad y guiar al usuario hacia la conversión.
 
-* **Verde Menta (`#34D399`):** Utilizado para acentos visuales, iconos destacados e insignias de valor.
-* **Amarillo Vivo (`#FACC15`):** Reservado para botones de llamada a la acción principal (CTA) y destacados de alta prioridad.
-* **Verde Profundo (`#0F2A1D`):** Funciona como tono base para tarjetas de servicios, contenedores y contraste con el fondo.
-* **Verde Oliva / Neutro (`#626751`):** Aplicado en bloques secundarios y delimitaciones de sección.
-* **Gris Claro (`#E4E4E4`):** Color neutro para fondos de contraste y lectura limpia de bloques extensos.
+* **Verde Menta (#34D399):** Utilizado para acentos visuales, iconos destacados e insignias de valor.
+* **Amarillo Vivo (#FACC15):** Reservado para botones de llamada a la acción principal (CTA) y destacados de alta prioridad.
+* **Verde Profundo (#0F2A1D):** Funciona como tono base para tarjetas de servicios, contenedores y contraste con el fondo.
+* **Verde Oliva / Neutro (#626751):** Aplicado en bloques secundarios y delimitaciones de sección.
+* **Gris Claro (#E4E4E4):** Color neutro para fondos de contraste y lectura limpia de bloques extensos.
 
 
 <p align="center">
@@ -1299,10 +1299,10 @@ Diseñada para captar la atención, comunicar modernidad y guiar al usuario haci
 #### B. Paleta de la Aplicación Web (Dashboard / App Interna)
 Optimizada para reducir la fatiga visual (*Dark Mode*), mantener una jerarquía financiera clara y facilitar el uso prolongado.
 
-* **Verde Bosque Oscuro (`#0F1E13`):** Fondo principal de la aplicación que proporciona una estética moderna y profesional.
-* **Verde Esmeralda (`#2D6A4F`):** Identifica el estado activo en la barra de navegación lateral (Sidebar), bordes de validación y botones secundarios.
-* **Dorado Maíz (`#E9C46A`):** Color de acento de alta jerarquía usado en montos retenidos en *Escrow*, botones de acción principal y aprobaciones.
-* **Gris Neutral (`#E4E4E4`):** Utilizado para la tipografía principal, etiquetas de formularios e íconos operativos.
+* **Verde Bosque Oscuro (#0F1E13):** Fondo principal de la aplicación que proporciona una estética moderna y profesional.
+* **Verde Esmeralda (#2D6A4F):** Identifica el estado activo en la barra de navegación lateral (Sidebar), bordes de validación y botones secundarios.
+* **Dorado Maíz (#E9C46A):** Color de acento de alta jerarquía usado en montos retenidos en *Escrow*, botones de acción principal y aprobaciones.
+* **Gris Neutral (#E4E4E4):** Utilizado para la tipografía principal, etiquetas de formularios e íconos operativos.
 
 
 
@@ -1318,7 +1318,7 @@ Optimizada para reducir la fatiga visual (*Dark Mode*), mantener una jerarquía 
 
 #### Espaciado y Rejilla (Spacing & Layout)
 * **Sistema de 8px:** Todos los márgenes internos (*padding*) y externos (*margin*) siguen múltiplos de 8px (8, 16, 24, 32, 48px) para mantener un ritmo visual armónico.
-* **Efecto Glassmorphism:** Implementación de tarjetas semi-transparentes (`rgba(255, 255, 255, 0.05)`) con bordes sutiles y desenfoque de fondo (`backdrop-blur-md`) para estructurar la información sin recargar la pantalla.
+* **Efecto Glassmorphism:** Implementación de tarjetas semi-transparentes (rgba(255, 255, 255, 0.05)) con bordes sutiles y desenfoque de fondo (backdrop-blur-md) para estructurar la información sin recargar la pantalla.
 
 
 <p align="center">
@@ -1756,7 +1756,7 @@ En esta sección se presentan los diagramas de **Wireflow**, los cuales combinan
 
 Para garantizar consistencia en la arquitectura de información, se definieron previamente los *Task Flows* correspondientes a las rutas críticas de nuestros User Personas (**Agricultor** y **Comerciante**), modelando explícitamente cada cambio de estado visual (efecto de selección, apertura de modales o actualización de badges) como un paso independiente con su respectivo wireframe.
 
- **Enlace Wireflow:** [Enlace del diagrama Wireflow](https://www.figma.com/board/KAFi24QzlDrbm4DzuM1DgV/Untitled?node-id=0-1&t=xxM3mTqylB25csWf-1)
+ **Enlace Wireflow:** <a href="https://www.figma.com/board/KAFi24QzlDrbm4DzuM1DgV/Untitled?node-id=0-1&t=xxM3mTqylB25csWf-1" style="text-decoration: none;">Enlace del diagrama Wireflow</a>
 
 
 #### Wireflow 1: Registro de Usuario, Selección de Rol y Consulta de Perfil
@@ -1768,10 +1768,10 @@ Para garantizar consistencia en la arquitectura de información, se definieron p
 </p>
 
 **Explicación del Flujo Paso a Paso:**
-1. **Paso 1 (Modal de Selección de Rol - Estado Inicial):** El usuario accede al flujo de alta. La interfaz despliega un contenedor modal centrado en modo oscuro con dos tarjetas interactivas: **Agricultor** y **Comerciante**. El usuario hace clic sobre la tarjeta de su perfil, la cual cambia visualmente de estado activando un borde destacado en tono dorado maiz (`#E9C46A`). Luego, presiona `Siguiente`.
-2. **Paso 2 (Formulario Progresivo de Registro):** La pantalla cambia al formulario de alta de datos. El usuario ingresa sus nombres completos, documento de identidad (DNI/RUC), correo electrónico y contraseña Al hacer clic en `Crear Cuenta`, el sistema valida las entradas y registra la cuenta.
-3. **Paso 3 (Pantalla de Inicio de Sesión - Login):** La interfaz muestra el formulario de ingreso de credenciales en un contenedor de columna única. El usuario introduce su correo y contraseña registrados y presiona el botón principal `Iniciar Sesión`. Tras validar el token JWT, el sistema otorga acceso al Dashboard, desde cuyo menú lateral el usuario selecciona `Mi Perfil`.
-4. **Paso 4 (Vista de Perfil de Usuario y Datos de Cuenta):** El Wireframe se actualiza mostrando la sección de Perfil de Usuario. Presenta el avatar del usuario, badge de rol activo (`Agricultor` o `Comerciante`), datos fiscales/personales en modo lectura y el botón de acción `Editar Perfil`.
+1. **Paso 1 (Modal de Selección de Rol - Estado Inicial):** El usuario accede al flujo de alta. La interfaz despliega un contenedor modal centrado en modo oscuro con dos tarjetas interactivas: **Agricultor** y **Comerciante**. El usuario hace clic sobre la tarjeta de su perfil, la cual cambia visualmente de estado activando un borde destacado en tono dorado maiz (#E9C46A). Luego, presiona Siguiente.
+2. **Paso 2 (Formulario Progresivo de Registro):** La pantalla cambia al formulario de alta de datos. El usuario ingresa sus nombres completos, documento de identidad (DNI/RUC), correo electrónico y contraseña Al hacer clic en Crear Cuenta, el sistema valida las entradas y registra la cuenta.
+3. **Paso 3 (Pantalla de Inicio de Sesión - Login):** La interfaz muestra el formulario de ingreso de credenciales en un contenedor de columna única. El usuario introduce su correo y contraseña registrados y presiona el botón principal Iniciar Sesión. Tras validar el token JWT, el sistema otorga acceso al Dashboard, desde cuyo menú lateral el usuario selecciona Mi Perfil.
+4. **Paso 4 (Vista de Perfil de Usuario y Datos de Cuenta):** El Wireframe se actualiza mostrando la sección de Perfil de Usuario. Presenta el avatar del usuario, badge de rol activo (Agricultor o Comerciante), datos fiscales/personales en modo lectura y el botón de acción Editar Perfil.
 
 
 #### Wireflow 2: Registro de Parcela y Publicación en la Plataforma Web
@@ -1783,11 +1783,11 @@ Para garantizar consistencia en la arquitectura de información, se definieron p
 </p>
 
 **Explicación del Flujo Paso a Paso:**
-1. **Paso 1 (Dashboard de Parcelas - Estado Inicial):** El agricultor navega al módulo *Gestión de Parcelas* en la barra lateral (Sidebar) y hace clic en el botón principal de acción (CTA) `Publicar Nueva Parcela`.
-2. **Paso 2 (Formulario Multipaso - Paso 1: Datos Generales):** Se despliega el Wireframe del formulario. El usuario completa los campos de entrada: nombre de la parcela, extensión en hectáreas (Ha), tipo de suelo y costo por campaña. Al completar, presiona `Siguiente`.
-3. **Paso 3 (Formulario Multipaso - Paso 2: Geolocalización):** La pantalla cambia a la vista de ubicación. El usuario selecciona departamento, provincia, distrito y presiona `Obtener Ubicación`, lo que actualiza la interfaz mostrando el pin de coordenadas GPS sobre el visor del mapa interactivo. Hace clic en `Siguiente`.
+1. **Paso 1 (Dashboard de Parcelas - Estado Inicial):** El agricultor navega al módulo *Gestión de Parcelas* en la barra lateral (Sidebar) y hace clic en el botón principal de acción (CTA) Publicar Nueva Parcela.
+2. **Paso 2 (Formulario Multipaso - Paso 1: Datos Generales):** Se despliega el Wireframe del formulario. El usuario completa los campos de entrada: nombre de la parcela, extensión en hectáreas (Ha), tipo de suelo y costo por campaña. Al completar, presiona Siguiente.
+3. **Paso 3 (Formulario Multipaso - Paso 2: Geolocalización):** La pantalla cambia a la vista de ubicación. El usuario selecciona departamento, provincia, distrito y presiona Obtener Ubicación, lo que actualiza la interfaz mostrando el pin de coordenadas GPS sobre el visor del mapa interactivo. Hace clic en Siguiente.
 4. **Paso 4 (Formulario Multipaso - Paso 3: Carga de Evidencia Visual):** La pantalla muestra la zona de arrastre (*Drag & Drop*). El usuario adjunta las imágenes del terreno; el Wireframe se actualiza mostrando las miniaturas de las fotos y permitiendo designar la Foto Principal.
-5. **Paso 5 (Confirmación y Actualización del Dashboard):** El agricultor hace clic en `Guardar y Publicar Parcela`. El sistema procesa la solicitud, cierra el asistente y retorna al Dashboard principal, mostrando la nueva tarjeta agregada con el badge en estado `Disponible`.
+5. **Paso 5 (Confirmación y Actualización del Dashboard):** El agricultor hace clic en Guardar y Publicar Parcela. El sistema procesa la solicitud, cierra el asistente y retorna al Dashboard principal, mostrando la nueva tarjeta agregada con el badge en estado Disponible.
 
 
 
@@ -1800,11 +1800,11 @@ Para garantizar consistencia en la arquitectura de información, se definieron p
 </p>
 
 **Explicación del Flujo Paso a Paso:**
-1. **Paso 1 (Módulo de Contratos y Alquileres - Estado Pendiente):** La compradora ingresa a la sección *Contratos* desde la navegación lateral y selecciona una propuesta en estado `Pendiente de Firma`.
+1. **Paso 1 (Módulo de Contratos y Alquileres - Estado Pendiente):** La compradora ingresa a la sección *Contratos* desde la navegación lateral y selecciona una propuesta en estado Pendiente de Firma.
 2. **Paso 2 (Lectura y Verificación de Cláusulas):** La pantalla muestra la vista dividida (*Split Screen*) con el visor del contrato legal, desglosando las partes involucradas, el área del terreno y el plan de desembolsos por hitos en la Bóveda Escrow.
 3. **Paso 3 (Captura de Firma Digital):** La compradora interactúa con el recuadro de firma (*Canvas*). Al dibujar su rúbrica táctil/mouse, el componente cambia de estado mostrando la firma renderizada y habilitando la casilla de verificación.
-4. **Paso 4 (Aceptación de Términos Escrow):** La usuaria marca el checkbox *"Acepto los términos y condiciones de custodia Escrow"*, activando visualmente el botón principal `Firmar y Activar Contrato`.
-5. **Paso 5 (Estado Final - Contrato Activo):** Tras procesar la firma, la pantalla cambia al estado de `Contrato Activo`, deshabilitando la edición y redirigiendo a la compradora al panel de la Bóveda de Pagos para realizar el depósito inicial.
+4. **Paso 4 (Aceptación de Términos Escrow):** La usuaria marca el checkbox *"Acepto los términos y condiciones de custodia Escrow"*, activando visualmente el botón principal Firmar y Activar Contrato.
+5. **Paso 5 (Estado Final - Contrato Activo):** Tras procesar la firma, la pantalla cambia al estado de Contrato Activo, deshabilitando la edición y redirigiendo a la compradora al panel de la Bóveda de Pagos para realizar el depósito inicial.
 
 
 ### 4.4.3. Web Applications Mock-ups
@@ -1893,8 +1893,8 @@ Las imágenes de Figma y los pasos siguientes describen la experiencia objetivo.
 
 En esta sección se presenta la propuesta formal de User Flows mapeados a partir de los diagramas de Wireflow previamente validados. Cada flujo integra los Mock-ups finales de alta fidelidad para representar la experiencia visual definitiva, definiendo con claridad tanto la ruta principal o esperada (Happy Path) como las decisiones y rutas de excepción (Unhappy Paths).
 
-* * **Link:** [Link de los User Flow](https://www.figma.com/board/qh5vL4xQoPmKWNJbFj7TGj/Untitled?node-id=0-1&t=gEVZUOH5xRFhc4Dp-1
-)
+* * **Link:** <a href="https://www.figma.com/board/qh5vL4xQoPmKWNJbFj7TGj/Untitled?node-id=0-1&t=gEVZUOH5xRFhc4Dp-1
+" style="text-decoration: none;">Link de los User Flow</a>
 
 #### **User Flow 1: Registro de Parcela Agrícola y Publicación en Plataforma**
 * **User Persona:** Alejandro Mendoza (Agricultor)
@@ -1907,14 +1907,14 @@ En esta sección se presenta la propuesta formal de User Flows mapeados a partir
 ##### **Explicación del Flujo y Condiciones:**
 
 * **Happy Path (Ruta Esperada):**
-  1. **Inicio:** El usuario ingresa a *Gestión de Parcelas* y presiona el CTA `"Publicar Nueva Parcela"`.
-  2. **Paso 1 (Datos Generales):** Completa exitosamente el nombre, área en hectáreas, tipo de suelo y costo/campaña. Presiona `"Siguiente"`.
-  3. **Paso 2 (Geolocalización):** Selecciona departamento, provincia, distrito y presiona `"Obtener Ubicación"`. El sistema valida las coordenadas GPS y renderiza el mapa.
-  4. **Paso 3 (Fotografías):** Adjunta al menos 3 imágenes mediante *Drag & Drop*, asigna la Foto Principal y selecciona `"Guardar y Publicar Parcela"`.
-  5. **Resultado:** El sistema valida los datos y redirige al Dashboard, mostrando la tarjeta en estado `Disponible`.
+  1. **Inicio:** El usuario ingresa a *Gestión de Parcelas* y presiona el CTA "Publicar Nueva Parcela".
+  2. **Paso 1 (Datos Generales):** Completa exitosamente el nombre, área en hectáreas, tipo de suelo y costo/campaña. Presiona "Siguiente".
+  3. **Paso 2 (Geolocalización):** Selecciona departamento, provincia, distrito y presiona "Obtener Ubicación". El sistema valida las coordenadas GPS y renderiza el mapa.
+  4. **Paso 3 (Fotografías):** Adjunta al menos 3 imágenes mediante *Drag & Drop*, asigna la Foto Principal y selecciona "Guardar y Publicar Parcela".
+  5. **Resultado:** El sistema valida los datos y redirige al Dashboard, mostrando la tarjeta en estado Disponible.
 
 * **Unhappy Paths (Rutas Alternativas y Excepciones):**
-  * **Datos Incompletos o Formato Inválido (Paso 1):** Si el usuario deja campos requeridos vacíos o ingresa un costo no numérico, el botón `"Siguiente"` permanece deshabilitado o el input genera un borde de error en rojo.
+  * **Datos Incompletos o Formato Inválido (Paso 1):** Si el usuario deja campos requeridos vacíos o ingresa un costo no numérico, el botón "Siguiente" permanece deshabilitado o el input genera un borde de error en rojo.
   * **Error de Geolocalización / Coordenadas Nulas (Paso 2):** Si el navegador o dispositivo no tiene permisos de GPS activados, la plataforma muestra un Banner de Advertencia solicitando la selección manual en el mapa o el reintento de la geolocalización.
   * **Formato o Peso de Imagen No Permitido (Paso 3):** Si se intenta subir un archivo distinto a JPG/PNG o que supere el tamaño máximo (5MB), el contenedor de carga muestra un mensaje de alerta y no procesa el archivo hasta ser reemplazado.
 
@@ -1931,15 +1931,15 @@ En esta sección se presenta la propuesta formal de User Flows mapeados a partir
 ##### **Explicación del Flujo y Condiciones:**
 
 * **Happy Path (Ruta Esperada):**
-  1. **Inicio:** La usuaria navega al módulo *Contratación* y hace clic en una propuesta con estado `Pendiente de Firma`.
+  1. **Inicio:** La usuaria navega al módulo *Contratación* y hace clic en una propuesta con estado Pendiente de Firma.
   2. **Revisión del Acuerdo:** Examina el visor de contrato (partes, cláusulas y plan de desembolsos por hitos Escrow).
   3. **Rúbrica Digital:** Dibuja su firma en el recuadro interactivo (*Canvas*).
-  4. **Aceptación y Confirmación:** Marca la casilla de verificación de términos Escrow y presiona el botón `"Firmar y Activar Contrato"`.
-  5. **Resultado:** El sistema registra la firma, cambia el estado a `Contrato Activo` y habilita la visualización de la línea de tiempo en la Bóveda de Pagos.
+  4. **Aceptación y Confirmación:** Marca la casilla de verificación de términos Escrow y presiona el botón "Firmar y Activar Contrato".
+  5. **Resultado:** El sistema registra la firma, cambia el estado a Contrato Activo y habilita la visualización de la línea de tiempo en la Bóveda de Pagos.
 
 * **Unhappy Paths (Rutas Alternativas y Excepciones):**
-  * **Firma No Realizada / Canvas Vacío:** Si la usuaria marca la casilla de términos pero no dibuja la firma en el recuadro, el botón `"Firmar y Activar Contrato"` se mantiene en estado deshabilitado.
-  * **Rechazo o Solicitud de Corrección:** Si la usuaria identifica un error en los montos o hectáreas del acuerdo, puede seleccionar la acción secundaria `"Rechazar / Solicitar Modificación"`, abriendo un modal para enviar observaciones al Agricultor y pausar el flujo.
+  * **Firma No Realizada / Canvas Vacío:** Si la usuaria marca la casilla de términos pero no dibuja la firma en el recuadro, el botón "Firmar y Activar Contrato" se mantiene en estado deshabilitado.
+  * **Rechazo o Solicitud de Corrección:** Si la usuaria identifica un error en los montos o hectáreas del acuerdo, puede seleccionar la acción secundaria "Rechazar / Solicitar Modificación", abriendo un modal para enviar observaciones al Agricultor y pausar el flujo.
 
 
 
@@ -1954,13 +1954,13 @@ En esta sección se presenta la propuesta formal de User Flows mapeados a partir
 ##### **Explicación del Flujo y Condiciones:**
 
 * **Happy Path (Ruta Esperada):**
-  1. **Inicio:** El usuario accede al menú lateral y selecciona `"Alertas Climáticas"`.
+  1. **Inicio:** El usuario accede al menú lateral y selecciona "Alertas Climáticas".
   2. **Lectura de Sensores:** Revisa los KPIs de Temperatura, Humedad, Precipitación y Viento.
   3. **Identificación de Alerta:** Selecciona la primera tarjeta del feed (*Alerta de Helada - Riesgo Crítico*).
   4. **Visualización de Recomendación:** La tarjeta expande su contenido, mostrando el diagnóstico técnico y el protocolo de acción sugerido.
 
 * **Unhappy Paths (Rutas Alternativas y Excepciones):**
-  * **Pérdida de Conexión de Sensores / Datos Desactualizados:** Si las estaciones meteorológicas no envían señal, las tarjetas de KPI muestran un estado `Offline` con la última hora de sincronización y un botón de `"Reintentar Lectura"`.
+  * **Pérdida de Conexión de Sensores / Datos Desactualizados:** Si las estaciones meteorológicas no envían señal, las tarjetas de KPI muestran un estado Offline con la última hora de sincronización y un botón de "Reintentar Lectura".
 
 
 
@@ -1969,22 +1969,22 @@ En esta sección se presenta la propuesta formal de User Flows mapeados a partir
 
 | Actor | Ruta | Qué ocurre |
 |---|---|---|
-| Ambos | `/login`, `/register`, `/profile` | La selección del rol carga un perfil ficticio. La sesión se conserva en el navegador; no hay verificación de contraseña. |
-| Agricultor | `/parcels/new`, `/parcels/:id/edit` | Ingresa datos, cultivos y coordenadas, que puede completar por departamento o GPS. Puede adjuntar fotos; hay una imagen por defecto. La pantalla vuelve al catálogo si la API confirma el guardado. |
-| Comerciante y agricultor | `/parcels/:id`, `/agreements`, `/agreements/merchant` | El comerciante abre el acuerdo desde el detalle de parcela. El agricultor revisa la solicitud en `/agreements/merchant` y confirma en `/agreements`. Se almacenan dos indicadores de aceptación. |
-| Agricultor y comerciante | `/evidence/new`, `/evidence/review`, `/escrow` | El agricultor adjunta una imagen. El comerciante verifica la evidencia y luego marca la liberación simulada en la bóveda. |
-| Comerciante | `/escrow/deposit` | Registra tarjeta enmascarada y un monto de demostración. No se carga una tarjeta ni se mueve dinero. |
-| Agricultor | `/alerts` | Consulta pronóstico para sus parcelas con coordenadas utilizables. La SPA usa Open-Meteo directamente, sin sensores propios ni un historial de alertas. |
+| Ambos | /login, /register, /profile | La selección del rol carga un perfil ficticio. La sesión se conserva en el navegador; no hay verificación de contraseña. |
+| Agricultor | /parcels/new, /parcels/:id/edit | Ingresa datos, cultivos y coordenadas, que puede completar por departamento o GPS. Puede adjuntar fotos; hay una imagen por defecto. La pantalla vuelve al catálogo si la API confirma el guardado. |
+| Comerciante y agricultor | /parcels/:id, /agreements, /agreements/merchant | El comerciante abre el acuerdo desde el detalle de parcela. El agricultor revisa la solicitud en /agreements/merchant y confirma en /agreements. Se almacenan dos indicadores de aceptación. |
+| Agricultor y comerciante | /evidence/new, /evidence/review, /escrow | El agricultor adjunta una imagen. El comerciante verifica la evidencia y luego marca la liberación simulada en la bóveda. |
+| Comerciante | /escrow/deposit | Registra tarjeta enmascarada y un monto de demostración. No se carga una tarjeta ni se mueve dinero. |
+| Agricultor | /alerts | Consulta pronóstico para sus parcelas con coordenadas utilizables. La SPA usa Open-Meteo directamente, sin sensores propios ni un historial de alertas. |
 
-En el flujo de evidencias, la UI usa `review → verified → accepted`. El acceso a evidencias se apoya en la aceptación del comerciante; la bóveda lista acuerdos con ambas aceptaciones y exige una tarjeta de demo y saldo disponible para marcar la liberación. El `PUT` reducido de liberación no incluye notas ni archivo, y el frontend transforma un error HTTP en un resultado exitoso. Esto puede provocar una falsa confirmación o perder información si se conecta al backend actual. La transición debería guardar solo el nuevo estado, preservar la evidencia y mostrar éxito únicamente tras una respuesta válida.
+En el flujo de evidencias, la UI usa review → verified → accepted. El acceso a evidencias se apoya en la aceptación del comerciante; la bóveda lista acuerdos con ambas aceptaciones y exige una tarjeta de demo y saldo disponible para marcar la liberación. El PUT reducido de liberación no incluye notas ni archivo, y el frontend transforma un error HTTP en un resultado exitoso. Esto puede provocar una falsa confirmación o perder información si se conecta al backend actual. La transición debería guardar solo el nuevo estado, preservar la evidencia y mostrar éxito únicamente tras una respuesta válida.
 
 ![Figura 4.4.4-A. Acuerdo, evidencia y liberación simulada](assets/chapter-04/architecture/18-flow-agreement-evidence.png)
 
-*Figura 4.4.4-A. Acuerdo, evidencia y liberación simulada.* [Fuente PlantUML](assets/chapter-04/architecture/18-flow-agreement-evidence.puml) · [SVG](assets/chapter-04/architecture/18-flow-agreement-evidence.svg).
+*Figura 4.4.4-A. Acuerdo, evidencia y liberación simulada.* <a href="assets/chapter-04/architecture/18-flow-agreement-evidence.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/18-flow-agreement-evidence.svg" style="text-decoration: none;">SVG</a>.
 
 ![Figura 4.4.4-B. Publicación de parcela y consulta del clima](assets/chapter-04/architecture/19-flow-parcels-climate.png)
 
-*Figura 4.4.4-B. Publicación de parcela y consulta del clima.* [Fuente PlantUML](assets/chapter-04/architecture/19-flow-parcels-climate.puml) · [SVG](assets/chapter-04/architecture/19-flow-parcels-climate.svg).
+*Figura 4.4.4-B. Publicación de parcela y consulta del clima.* <a href="assets/chapter-04/architecture/19-flow-parcels-climate.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/19-flow-parcels-climate.svg" style="text-decoration: none;">SVG</a>.
 
 ## 4.5. Web Applications Prototyping
 
@@ -2016,8 +2016,8 @@ A continuación, se presentan los enlaces y capturas de los videos explicativos 
   <img src="./assets/chapter-04/prototipo_desktop.png" alt="Descripción de la imagen" width="700">
 </p>
 
-* **Enlace del prototipo:** [Enlace del prototipo web](https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=85-504&t=DTHiWfYH71axACfB-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=123%3A494&show-proto-sidebar=1)
-* **Enlace al Video:** [Ver Demostración](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQDF54TKL6PlS58DK7p4wuJAAQiikz0rs6edE33i_ATjpPk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7pTDmu)
+* **Enlace del prototipo:** <a href="https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=85-504&t=DTHiWfYH71axACfB-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=123%3A494&show-proto-sidebar=1" style="text-decoration: none;">Enlace del prototipo web</a>
+* **Enlace al Video:** <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQDF54TKL6PlS58DK7p4wuJAAQiikz0rs6edE33i_ATjpPk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7pTDmu" style="text-decoration: none;">Ver Demostración</a>
 
 ##### 2. Prototipo Mobile Web Browser – Adaptabilidad y Monitoreo en Campo
 * **Descripción del Video:** Demostración de la respuesta adaptativa en navegadores móviles, enfocada en la facilidad de uso para agricultores en campo: consulta de alertas climáticas en tiempo real, navegación táctil y carga directa de fotografías.
@@ -2027,8 +2027,8 @@ A continuación, se presentan los enlaces y capturas de los videos explicativos 
   <img src="./assets/chapter-04/prototipo_movil.png" alt="Descripción de la imagen" width="700">
 </p>
 
-* **Enlace del prototipo:** [Enlace del prototipo móvil](https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=257-10099&t=g4J1J50GPL689wBS-1&scaling=scale-down&content-scaling=fixed&page-id=236%3A5996)
-* **Enlace al Video:** [Ver Demostración](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQAF9cog3awORKq4HYfc7F9uAa-vd6s6V_oT3BiDwhjeADQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y3j1dP)
+* **Enlace del prototipo:** <a href="https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=257-10099&t=g4J1J50GPL689wBS-1&scaling=scale-down&content-scaling=fixed&page-id=236%3A5996" style="text-decoration: none;">Enlace del prototipo móvil</a>
+* **Enlace al Video:** <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQAF9cog3awORKq4HYfc7F9uAa-vd6s6V_oT3BiDwhjeADQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y3j1dP" style="text-decoration: none;">Ver Demostración</a>
 
 
 ## 4.6. Domain-Driven Software Architecture
@@ -2037,32 +2037,32 @@ Allpatek busca que el comerciante contrate una parcela y el trabajo de un agricu
 
 | Área | Código Angular | Código Spring | Alcance observado |
 |---|---|---|---|
-| Gestión de parcelas | `parcel-management` | `parcelmanagement` | Alta, edición, listado y borrado de parcelas. La disponibilidad se registra como estado; no se reserva automáticamente al aceptar un acuerdo. |
-| Acuerdos | `agreements-management` | `agreementsmanagement` | Angular registra la aceptación del comerciante y luego la del agricultor. Spring guarda ambos indicadores, sin exigir una secuencia ni verificar al firmante. |
-| Bóveda de pagos | `escrow-payments` | `escrowpayments` | La UI muestra importes y liberaciones simuladas. Spring expone wallets con monto inicial y tarjeta enmascarada, sin depósitos ni transferencias. |
-| Evidencias | `tracking-evidence` | `trackingevidence` | Evidencia por parcela e hito; la UI diferencia revisión, verificación y aceptación. Spring guarda el estado que recibe. |
-| Clima | `alerts-management` | `alertsmanagement` | Angular consulta Open-Meteo directamente. Spring también ofrece una consulta independiente a partir de las parcelas guardadas. |
-| Perfiles y funciones comunes | `shared` | `shared`, `iam` | Angular selecciona perfiles de demo. Spring expone perfiles en `shared`; `iam` aún no implementa autenticación. |
+| Gestión de parcelas | parcel-management | parcelmanagement | Alta, edición, listado y borrado de parcelas. La disponibilidad se registra como estado; no se reserva automáticamente al aceptar un acuerdo. |
+| Acuerdos | agreements-management | agreementsmanagement | Angular registra la aceptación del comerciante y luego la del agricultor. Spring guarda ambos indicadores, sin exigir una secuencia ni verificar al firmante. |
+| Bóveda de pagos | escrow-payments | escrowpayments | La UI muestra importes y liberaciones simuladas. Spring expone wallets con monto inicial y tarjeta enmascarada, sin depósitos ni transferencias. |
+| Evidencias | tracking-evidence | trackingevidence | Evidencia por parcela e hito; la UI diferencia revisión, verificación y aceptación. Spring guarda el estado que recibe. |
+| Clima | alerts-management | alertsmanagement | Angular consulta Open-Meteo directamente. Spring también ofrece una consulta independiente a partir de las parcelas guardadas. |
+| Perfiles y funciones comunes | shared | shared, iam | Angular selecciona perfiles de demo. Spring expone perfiles en shared; iam aún no implementa autenticación. |
 
-**Versiones comparadas.** Webapp del equipo: `develop f635d7f` y `main 33bf377`. Landing: `develop ccc9d71` y `main 35fc7c0`; la incorporación de ambos videos se refleja en `develop`. Backend: `allpatek-platform.zip` (Java 27, Spring Boot 4.1.2, Spring Data JPA y MySQL 8.4 en la prueba). La versión publicada y una ejecución Angular–Spring de punta a punta requieren evidencia aparte.
+**Versiones comparadas.** Webapp del equipo: develop f635d7f y main 33bf377. Landing: develop ccc9d71 y main 35fc7c0; la incorporación de ambos videos se refleja en develop. Backend: allpatek-platform.zip (Java 27, Spring Boot 4.1.2, Spring Data JPA y MySQL 8.4 en la prueba). La versión publicada y una ejecución Angular–Spring de punta a punta requieren evidencia aparte.
 
 ### 4.6.1. Design-Level Event Storming
 
-El diagrama usa los nombres del código Java: paquetes `parcels`, `agreements`, `tracking`, `escrow`, `alerts` y `shared`; comandos y consultas de esas clases; agregados `Parcel`, `Agreement`, `MilestoneEvidence`, `Wallet` y `Profile`; y el registro `ClimateReading`. El único evento de dominio publicado en Spring es `AgreementFullySignedEvent`, traducido a `AgreementFullySignedIntegrationEvent`. La política resultante ejecuta `MarkParcelInProductionCommand` y deja la parcela en `ParcelStatus.in_production`. `tracking` y `escrow` persisten estados (`review`, `verified`, `accepted` en evidencia; saldo inicial en `Wallet`); **no publican eventos**. `ClimateReading` se calcula en `GET /api/v1/alerts` con Open-Meteo y no se guarda. Farmer y Merchant son el rol de la demo Angular; el paquete `iam` no autentica. El Big Picture del capítulo II sigue siendo el ciclo de temporada propuesto, no este recorte de implementación.
+El diagrama usa los nombres del código Java: paquetes parcels, agreements, tracking, escrow, alerts y shared; comandos y consultas de esas clases; agregados Parcel, Agreement, MilestoneEvidence, Wallet y Profile; y el registro ClimateReading. El único evento de dominio publicado en Spring es AgreementFullySignedEvent, traducido a AgreementFullySignedIntegrationEvent. La política resultante ejecuta MarkParcelInProductionCommand y deja la parcela en ParcelStatus.in_production. tracking y escrow persisten estados (review, verified, accepted en evidencia; saldo inicial en Wallet); **no publican eventos**. ClimateReading se calcula en GET /api/v1/alerts con Open-Meteo y no se guarda. Farmer y Merchant son el rol de la demo Angular; el paquete iam no autentica. El Big Picture del capítulo II sigue siendo el ciclo de temporada propuesto, no este recorte de implementación.
 
 | Actor y comando | Qué ocurre en Spring | Lectura |
 |---|---|---|
-| Farmer · `CreateParcelCommand` / `UpdateParcelCommand` / `DeleteParcelCommand` | Persiste `Parcel` (`available`, `in_production` o `maintenance`) | `GetAllParcelsQuery` |
-| Merchant o Farmer · `SaveAgreementCommand` | Persiste `Agreement` con `merchantSigned` y `farmerSigned`. Si ambas firmas están completas, `onFullySigned()` registra `AgreementFullySignedEvent` | `GetAllAgreementsQuery` |
-| Política · `AgreementFullySignedIntegrationEvent` | `MarkParcelInProductionCommand` → `Parcel.markInProduction()` | Catálogo de parcelas |
-| Farmer o Merchant · `SaveEvidenceCommand` | Persiste `MilestoneEvidence` con `EvidenceStatus` | `GetAllEvidenceQuery` |
-| Merchant · `SaveWalletCommand` | Persiste `Wallet` con `PaymentCard` y `MoneyCents` | `GetAllWalletsQuery` |
-| Farmer · `GetClimateAlertsQuery` | Arma `ClimateReading` con `ParcelsContextFacade` y Open-Meteo | No hay tabla de alertas |
-| Farmer o Merchant · `UpdateProfileCommand` | Actualiza `Profile` | `GetAllProfilesQuery`, `GetProfileByIdQuery` |
+| Farmer · CreateParcelCommand / UpdateParcelCommand / DeleteParcelCommand | Persiste Parcel (available, in_production o maintenance) | GetAllParcelsQuery |
+| Merchant o Farmer · SaveAgreementCommand | Persiste Agreement con merchantSigned y farmerSigned. Si ambas firmas están completas, onFullySigned() registra AgreementFullySignedEvent | GetAllAgreementsQuery |
+| Política · AgreementFullySignedIntegrationEvent | MarkParcelInProductionCommand → Parcel.markInProduction() | Catálogo de parcelas |
+| Farmer o Merchant · SaveEvidenceCommand | Persiste MilestoneEvidence con EvidenceStatus | GetAllEvidenceQuery |
+| Merchant · SaveWalletCommand | Persiste Wallet con PaymentCard y MoneyCents | GetAllWalletsQuery |
+| Farmer · GetClimateAlertsQuery | Arma ClimateReading con ParcelsContextFacade y Open-Meteo | No hay tabla de alertas |
+| Farmer o Merchant · UpdateProfileCommand | Actualiza Profile | GetAllProfilesQuery, GetProfileByIdQuery |
 
 ![Figura 4.6.1. Design-Level EventStorming de allpatek-platform](assets/chapter-04/architecture/01-eventstorming.png)
 
-*Figura 4.6.1. Design-Level EventStorming de allpatek-platform.* [Fuente PlantUML](assets/chapter-04/architecture/01-eventstorming.puml) · [SVG](assets/chapter-04/architecture/01-eventstorming.svg).
+*Figura 4.6.1. Design-Level EventStorming de allpatek-platform.* <a href="assets/chapter-04/architecture/01-eventstorming.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/01-eventstorming.svg" style="text-decoration: none;">SVG</a>.
 
 **Reglas aún por implementar.** El diseño objetivo requiere evitar reservas o temporadas activas superpuestas, validar las condiciones aceptadas por ambas partes y confirmar el abono antes de activar un contrato real. Aprobar un hito y confirmar su desembolso son decisiones distintas. El servidor todavía debe imponer las transiciones, verificar al actor, evitar duplicados y conservar las evidencias durante las actualizaciones. La entrega de un PDF o un aviso no debe confirmar un pago ni determinar su estado.
 
@@ -2074,7 +2074,7 @@ Los actores principales son el agricultor y el comerciante. La landing explica l
 
 ![Figura 4.6.2. Contexto de Allpatek y sistemas externos](assets/chapter-04/architecture/02-context.png)
 
-*Figura 4.6.2. Contexto de Allpatek y sistemas externos.* [Fuente PlantUML](assets/chapter-04/architecture/02-context.puml) · [SVG](assets/chapter-04/architecture/02-context.svg).
+*Figura 4.6.2. Contexto de Allpatek y sistemas externos.* <a href="assets/chapter-04/architecture/02-context.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/02-context.svg" style="text-decoration: none;">SVG</a>.
 
 ### 4.6.3. Software Architecture Container Diagrams
 
@@ -2082,42 +2082,42 @@ Los actores principales son el agricultor y el comerciante. La landing explica l
 |---|---|---|
 | Landing | HTML, CSS y JavaScript | Abre la SPA, enlaza recursos y envía solicitudes de contacto a un webhook configurado. |
 | Aplicación web | SPA Angular 22.2, CSS, Signals, HttpClient y ngx-translate | Usa JSON Server local o Azure Mock API según el entorno. Consulta Open-Meteo y muestra un mapa de OpenStreetMap desde el navegador. |
-| API simulada | JSON Server / Azure Mock API | Colecciones `parcels`, `agreements`, `wallets`, `evidence`, `profiles` y `users` usadas por la demo. |
-| API de servicios | Java 27, Spring Boot 4.1.2, JPA, OpenAPI | REST `/api/v1`; verificada localmente con MySQL. También puede consultar Open-Meteo en `/api/v1/alerts`. |
+| API simulada | JSON Server / Azure Mock API | Colecciones parcels, agreements, wallets, evidence, profiles y users usadas por la demo. |
+| API de servicios | Java 27, Spring Boot 4.1.2, JPA, OpenAPI | REST /api/v1; verificada localmente con MySQL. También puede consultar Open-Meteo en /api/v1/alerts. |
 | Base de datos | MySQL | Guarda perfiles, parcelas, acuerdos, wallets y evidencias de la API Java. |
 | Automatización externa | n8n | Recibe solicitudes desde el navegador. El ZIP no incluye los workflows ni un generador de PDF en Spring. |
 
 ![Figura 4.6.3. Contenedores de la demo y de los servicios Java](assets/chapter-04/architecture/03-containers.png)
 
-*Figura 4.6.3. Contenedores de la demo y de los servicios Java.* [Fuente PlantUML](assets/chapter-04/architecture/03-containers.puml) · [SVG](assets/chapter-04/architecture/03-containers.svg).
+*Figura 4.6.3. Contenedores de la demo y de los servicios Java.* <a href="assets/chapter-04/architecture/03-containers.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/03-containers.svg" style="text-decoration: none;">SVG</a>.
 
 La SPA se descarga y ejecuta en el navegador. Su enrutador cambia de vista y sus servicios de datos cargan o actualizan los registros. La configuración revisada todavía separa la API simulada de la API Java: cambiar una URL no resuelve por sí solo los contratos, el acceso ni los datos iniciales.
 
 ### 4.6.4. Software Architecture Components Diagrams
 
-**API Java.** Los controladores REST convierten los recursos HTTP en comandos o consultas. Los paquetes coinciden con el código: `parcels`, `agreements`, `escrow`, `tracking`, `alerts` y `shared`. Tras `AgreementFullySignedEvent`, `AgreementFullySignedIntegrationEvent` dispara `MarkParcelInProductionCommand`. Clima consulta parcelas mediante `ParcelsContextFacade` y delega el pronóstico al adaptador Open-Meteo. No hay una conexión que ejecute un desembolso al cambiar una evidencia.
+**API Java.** Los controladores REST convierten los recursos HTTP en comandos o consultas. Los paquetes coinciden con el código: parcels, agreements, escrow, tracking, alerts y shared. Tras AgreementFullySignedEvent, AgreementFullySignedIntegrationEvent dispara MarkParcelInProductionCommand. Clima consulta parcelas mediante ParcelsContextFacade y delega el pronóstico al adaptador Open-Meteo. No hay una conexión que ejecute un desembolso al cambiar una evidencia.
 
 ![Figura 4.6.4-A. Componentes de la API Spring](assets/chapter-04/architecture/04-api-components.png)
 
-*Figura 4.6.4-A. Componentes de la API Spring.* [Fuente PlantUML](assets/chapter-04/architecture/04-api-components.puml) · [SVG](assets/chapter-04/architecture/04-api-components.svg).
+*Figura 4.6.4-A. Componentes de la API Spring.* <a href="assets/chapter-04/architecture/04-api-components.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/04-api-components.svg" style="text-decoration: none;">SVG</a>.
 
-**Aplicación web.** Las rutas (`/parcels`, `/agreements`, `/evidence`, `/escrow`, `/alerts`, `/profile`) coinciden con los módulos `parcel-management`, `agreements-management`, `tracking-evidence`, `escrow-payments`, `alerts-management` y `shared`. `/users` existe solo en el mock de Angular. La selección de rol y los guardas operan en el cliente.
+**Aplicación web.** Las rutas (/parcels, /agreements, /evidence, /escrow, /alerts, /profile) coinciden con los módulos parcel-management, agreements-management, tracking-evidence, escrow-payments, alerts-management y shared. /users existe solo en el mock de Angular. La selección de rol y los guardas operan en el cliente.
 
 ![Figura 4.6.4-B. Componentes de la SPA Angular del equipo](assets/chapter-04/architecture/05-web-components.png)
 
-*Figura 4.6.4-B. Componentes de la SPA Angular del equipo.* [Fuente PlantUML](assets/chapter-04/architecture/05-web-components.puml) · [SVG](assets/chapter-04/architecture/05-web-components.svg).
+*Figura 4.6.4-B. Componentes de la SPA Angular del equipo.* <a href="assets/chapter-04/architecture/05-web-components.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/05-web-components.svg" style="text-decoration: none;">SVG</a>.
 
 **Landing.** El header, las secciones informativas, los planes y el contacto son componentes de una página estática. JavaScript gestiona navegación móvil, idioma y formulario. La rama de desarrollo incorpora los videos del producto y del equipo.
 
 ![Figura 4.6.4-C. Componentes de la landing](assets/chapter-04/architecture/06-landing-components.png)
 
-*Figura 4.6.4-C. Componentes de la landing.* [Fuente PlantUML](assets/chapter-04/architecture/06-landing-components.puml) · [SVG](assets/chapter-04/architecture/06-landing-components.svg).
+*Figura 4.6.4-C. Componentes de la landing.* <a href="assets/chapter-04/architecture/06-landing-components.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/06-landing-components.svg" style="text-decoration: none;">SVG</a>.
 
 **Automatización.** El navegador solicita notificaciones para contacto, acuerdo, evidencia y liberación simulada. En la SPA, la llamada de acuerdo se intenta después de guardar la segunda aceptación; la de evidencia se inicia antes del guardado, y la de liberación depende del resultado que informa la UI. El código revisado no confirma la generación de PDF ni la entrega del correo. Spring no dispara estos webhooks en el ZIP.
 
 ![Figura 4.6.4-D. Invocaciones de webhooks desde el navegador](assets/chapter-04/architecture/07-n8n-components.png)
 
-*Figura 4.6.4-D. Invocaciones de webhooks desde el navegador.* [Fuente PlantUML](assets/chapter-04/architecture/07-n8n-components.puml) · [SVG](assets/chapter-04/architecture/07-n8n-components.svg).
+*Figura 4.6.4-D. Invocaciones de webhooks desde el navegador.* <a href="assets/chapter-04/architecture/07-n8n-components.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/07-n8n-components.svg" style="text-decoration: none;">SVG</a>.
 
 ## 4.7. Software Object-Oriented Design
 
@@ -2127,47 +2127,47 @@ Las figuras de clases corresponden a la API Java. Los agregados agrupan los dato
 
 #### Gestión de parcelas
 
-`Parcel` reúne ubicación, área, costo, cronograma, cultivos e imágenes. En el ZIP, `ParcelLocation` y `CampaignCost` encapsulan texto; todavía no constituyen un servicio de geolocalización ni un monto monetario transaccional.
+Parcel reúne ubicación, área, costo, cronograma, cultivos e imágenes. En el ZIP, ParcelLocation y CampaignCost encapsulan texto; todavía no constituyen un servicio de geolocalización ni un monto monetario transaccional.
 
 ![Figura 4.7.1-A. Clases de gestión de parcelas](assets/chapter-04/architecture/09-classes-plots.png)
 
-*Figura 4.7.1-A. Clases de gestión de parcelas.* [Fuente PlantUML](assets/chapter-04/architecture/09-classes-plots.puml) · [SVG](assets/chapter-04/architecture/09-classes-plots.svg).
+*Figura 4.7.1-A. Clases de gestión de parcelas.* <a href="assets/chapter-04/architecture/09-classes-plots.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/09-classes-plots.svg" style="text-decoration: none;">SVG</a>.
 
 #### Acuerdos de temporada
 
-`Agreement` relaciona una `Parcel` con un comerciante mediante identificadores y encapsula las firmas en `ContractSignatures`. Si ambas están completas, `onFullySigned()` publica `AgreementFullySignedEvent`. La API no conserva una reserva, una versión de cláusulas, un PDF ni una confirmación de pago.
+Agreement relaciona una Parcel con un comerciante mediante identificadores y encapsula las firmas en ContractSignatures. Si ambas están completas, onFullySigned() publica AgreementFullySignedEvent. La API no conserva una reserva, una versión de cláusulas, un PDF ni una confirmación de pago.
 
 ![Figura 4.7.1-B. Clases de acuerdos](assets/chapter-04/architecture/10-classes-contracts.png)
 
-*Figura 4.7.1-B. Clases de acuerdos.* [Fuente PlantUML](assets/chapter-04/architecture/10-classes-contracts.puml) · [SVG](assets/chapter-04/architecture/10-classes-contracts.svg).
+*Figura 4.7.1-B. Clases de acuerdos.* <a href="assets/chapter-04/architecture/10-classes-contracts.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/10-classes-contracts.svg" style="text-decoration: none;">SVG</a>.
 
 #### Bóveda de demostración
 
-`Wallet` asocia un perfil con `PaymentCard` y `MoneyCents`. `PaymentCard` guarda `holder`, `number`, `cvv`, `last4`, `expiry` y `brand`; `WalletResource` expone número y CVV, y `last4` se deriva del número. No hay un libro de movimientos ni un proveedor de pagos conectado.
+Wallet asocia un perfil con PaymentCard y MoneyCents. PaymentCard guarda holder, number, cvv, last4, expiry y brand; WalletResource expone número y CVV, y last4 se deriva del número. No hay un libro de movimientos ni un proveedor de pagos conectado.
 
 ![Figura 4.7.1-C. Clases de wallets de demostración](assets/chapter-04/architecture/11-classes-payments.png)
 
-*Figura 4.7.1-C. Clases de wallets de demostración.* [Fuente PlantUML](assets/chapter-04/architecture/11-classes-payments.puml) · [SVG](assets/chapter-04/architecture/11-classes-payments.svg).
+*Figura 4.7.1-C. Clases de wallets de demostración.* <a href="assets/chapter-04/architecture/11-classes-payments.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/11-classes-payments.svg" style="text-decoration: none;">SVG</a>.
 
 #### Evidencias y clima
 
-`MilestoneEvidence` relaciona una parcela con un número de hito del 1 al 4, un estado, notas y archivo. El estado pertenece al modelo, pero el servidor aún no exige pasar de `review` a `verified` y luego a `accepted`. `ClimateReading` se calcula al consultar un pronóstico y no se persiste.
+MilestoneEvidence relaciona una parcela con un número de hito del 1 al 4, un estado, notas y archivo. El estado pertenece al modelo, pero el servidor aún no exige pasar de review a verified y luego a accepted. ClimateReading se calcula al consultar un pronóstico y no se persiste.
 
 ![Figura 4.7.1-D. Clases de evidencias y consulta climática](assets/chapter-04/architecture/12-classes-monitoring.png)
 
-*Figura 4.7.1-D. Clases de evidencias y consulta climática.* [Fuente PlantUML](assets/chapter-04/architecture/12-classes-monitoring.puml) · [SVG](assets/chapter-04/architecture/12-classes-monitoring.svg).
+*Figura 4.7.1-D. Clases de evidencias y consulta climática.* <a href="assets/chapter-04/architecture/12-classes-monitoring.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/12-classes-monitoring.svg" style="text-decoration: none;">SVG</a>.
 
 #### Perfiles compartidos
 
-`Profile` encapsula `EmailAddress` y `CompanyDetails`. La API permite consultar y actualizar perfiles; el alta interna del repositorio no tiene un endpoint público de registro. No hay gestión de credenciales en `iam`.
+Profile encapsula EmailAddress y CompanyDetails. La API permite consultar y actualizar perfiles; el alta interna del repositorio no tiene un endpoint público de registro. No hay gestión de credenciales en iam.
 
 ![Figura 4.7.1-E. Clases de perfiles compartidos](assets/chapter-04/architecture/08-classes-users.png)
 
-*Figura 4.7.1-E. Clases de perfiles compartidos.* [Fuente PlantUML](assets/chapter-04/architecture/08-classes-users.puml) · [SVG](assets/chapter-04/architecture/08-classes-users.svg).
+*Figura 4.7.1-E. Clases de perfiles compartidos.* <a href="assets/chapter-04/architecture/08-classes-users.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/08-classes-users.svg" style="text-decoration: none;">SVG</a>.
 
 ## 4.8. Database Design
 
-La API Java usa **MySQL**, con entidades de persistencia para `parcels`, `agreements`, `wallets`, `evidence` y `profiles`. Se contrastaron las anotaciones JPA con los metadatos del esquema de una instancia de prueba MySQL 8.4. El mock conserva colecciones JSON y no usa este esquema.
+La API Java usa **MySQL**, con entidades de persistencia para parcels, agreements, wallets, evidence y profiles. Se contrastaron las anotaciones JPA con los metadatos del esquema de una instancia de prueba MySQL 8.4. El mock conserva colecciones JSON y no usa este esquema.
 
 ### 4.8.1. Database Diagrams
 
@@ -2175,25 +2175,25 @@ La API Java usa **MySQL**, con entidades de persistencia para `parcels`, `agreem
 
 ![Figura 4.8.1-A. Tabla parcels y referencia a su propietario](assets/chapter-04/architecture/14-database-plots.png)
 
-*Figura 4.8.1-A. Tabla parcels y referencia a su propietario.* [Fuente PlantUML](assets/chapter-04/architecture/14-database-plots.puml) · [SVG](assets/chapter-04/architecture/14-database-plots.svg).
+*Figura 4.8.1-A. Tabla parcels y referencia a su propietario.* <a href="assets/chapter-04/architecture/14-database-plots.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/14-database-plots.svg" style="text-decoration: none;">SVG</a>.
 
 ![Figura 4.8.1-B. Tabla agreements y referencias a parcela y comerciante](assets/chapter-04/architecture/15-database-contracts.png)
 
-*Figura 4.8.1-B. Tabla agreements y referencias a parcela y comerciante.* [Fuente PlantUML](assets/chapter-04/architecture/15-database-contracts.puml) · [SVG](assets/chapter-04/architecture/15-database-contracts.svg).
+*Figura 4.8.1-B. Tabla agreements y referencias a parcela y comerciante.* <a href="assets/chapter-04/architecture/15-database-contracts.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/15-database-contracts.svg" style="text-decoration: none;">SVG</a>.
 
 ![Figura 4.8.1-C. Tabla wallets y referencia al perfil](assets/chapter-04/architecture/16-database-payments.png)
 
-*Figura 4.8.1-C. Tabla wallets y referencia al perfil.* [Fuente PlantUML](assets/chapter-04/architecture/16-database-payments.puml) · [SVG](assets/chapter-04/architecture/16-database-payments.svg).
+*Figura 4.8.1-C. Tabla wallets y referencia al perfil.* <a href="assets/chapter-04/architecture/16-database-payments.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/16-database-payments.svg" style="text-decoration: none;">SVG</a>.
 
 ![Figura 4.8.1-D. Tabla evidence y referencia a parcela](assets/chapter-04/architecture/17-database-monitoring.png)
 
-*Figura 4.8.1-D. Tabla evidence y referencia a parcela.* [Fuente PlantUML](assets/chapter-04/architecture/17-database-monitoring.puml) · [SVG](assets/chapter-04/architecture/17-database-monitoring.svg).
+*Figura 4.8.1-D. Tabla evidence y referencia a parcela.* <a href="assets/chapter-04/architecture/17-database-monitoring.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/17-database-monitoring.svg" style="text-decoration: none;">SVG</a>.
 
 ![Figura 4.8.1-E. Tabla profiles y datos de contacto](assets/chapter-04/architecture/13-database-users.png)
 
-*Figura 4.8.1-E. Tabla profiles y datos de contacto.* [Fuente PlantUML](assets/chapter-04/architecture/13-database-users.puml) · [SVG](assets/chapter-04/architecture/13-database-users.svg).
+*Figura 4.8.1-E. Tabla profiles y datos de contacto.* <a href="assets/chapter-04/architecture/13-database-users.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/13-database-users.svg" style="text-decoration: none;">SVG</a>.
 
-`evidence` es el nombre físico en MySQL (`@Table(name = "evidence")`); `/api/v1/evidence` es la ruta HTTP. Las listas de cultivos e imágenes se serializan como texto JSON. Los archivos de evidencia se guardan como texto de imagen y nombre de archivo. `wallets` persiste `card_number` y `cvv` además de `last4`. No existen tablas de cuentas de acceso, reservas, hitos independientes, transacciones, reseñas ni alertas meteorológicas. Para el diseño objetivo quedan pendientes las restricciones entre registros, la protección de datos y la conservación de archivos al cambiar un estado.
+evidence es el nombre físico en MySQL (@Table(name = "evidence")); /api/v1/evidence es la ruta HTTP. Las listas de cultivos e imágenes se serializan como texto JSON. Los archivos de evidencia se guardan como texto de imagen y nombre de archivo. wallets persiste card_number y cvv además de last4. No existen tablas de cuentas de acceso, reservas, hitos independientes, transacciones, reseñas ni alertas meteorológicas. Para el diseño objetivo quedan pendientes las restricciones entre registros, la protección de datos y la conservación de archivos al cambiar un estado.
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -2248,9 +2248,9 @@ Para llevar un control claro de los cambios y trabajar en equipo de forma ordena
 
 Organizamos el proyecto en repositorios independientes según cada producto digital:
 
-* **Landing Page (HTML, CSS y JS):** [Enlace del repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website)
-* **Web Services (Java / Spring Boot):** [Enlace del repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform)
-* **Frontend Web Application (Angular):** [Enlace del repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp)
+* **Landing Page (HTML, CSS y JS):** <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website" style="text-decoration: none;">Enlace del repositorio</a>
+* **Web Services (Java / Spring Boot):** <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform" style="text-decoration: none;">Enlace del repositorio</a>
+* **Frontend Web Application (Angular):** <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp" style="text-decoration: none;">Enlace del repositorio</a>
 
 
 #### Estrategia de Trabajo: GitFlow
@@ -2258,24 +2258,24 @@ Organizamos el proyecto en repositorios independientes según cada producto digi
 Adoptamos el flujo de trabajo **GitFlow** para organizar el desarrollo en diferentes ramas según el propósito de cada cambio:
 
 1. **Ramas Principales**
-   * `main`: Mantiene únicamente el código estable y probado que está listo para producción.
-   * `develop`: Funciona como la rama de integración continua donde se consolidan las funcionalidades listas para la próxima entrega.
+   * main: Mantiene únicamente el código estable y probado que está listo para producción.
+   * develop: Funciona como la rama de integración continua donde se consolidan las funcionalidades listas para la próxima entrega.
 
 2. **Ramas Temporales**
-   * **Feature Branches (`feature/*`):** Las creamos a partir de `develop` para construir nuevas funcionalidades o historias de usuario asociadas a un contexto delimitado (*Bounded Context*).
-     * **Convención:** `feature/<bounded-context>-<descripcion-corta>`
-     * *Ejemplo:* `feature/iam-user-authentication`
-   * **Release Branches (`release/*`):** Se generan desde `develop` cuando tenemos un grupo de funcionalidades listas para publicar. Las usamos para realizar pruebas finales y ajustes menores antes de pasar a producción.
-     * **Convención:** `release/vX.Y.Z`
-     * *Ejemplo:* `release/v1.0.0`
-   * **Hotfix Branches (`hotfix/*`):** Nacen directamente de `main` para corregir errores urgentes detectados en producción. Una vez resuelto el problema, la rama se integra tanto en `main` como en `develop`.
-     * **Convención:** `hotfix/vX.Y.Z-<descripcion-corta>`
-     * *Ejemplo:* `hotfix/v1.0.1-fix-login-error`
+   * **Feature Branches (feature/*):** Las creamos a partir de develop para construir nuevas funcionalidades o historias de usuario asociadas a un contexto delimitado (*Bounded Context*).
+     * **Convención:** feature/<bounded-context>-<descripcion-corta>
+     * *Ejemplo:* feature/iam-user-authentication
+   * **Release Branches (release/*):** Se generan desde develop cuando tenemos un grupo de funcionalidades listas para publicar. Las usamos para realizar pruebas finales y ajustes menores antes de pasar a producción.
+     * **Convención:** release/vX.Y.Z
+     * *Ejemplo:* release/v1.0.0
+   * **Hotfix Branches (hotfix/*):** Nacen directamente de main para corregir errores urgentes detectados en producción. Una vez resuelto el problema, la rama se integra tanto en main como en develop.
+     * **Convención:** hotfix/vX.Y.Z-<descripcion-corta>
+     * *Ejemplo:* hotfix/v1.0.1-fix-login-error
 
 
 #### Versionado Semántico (Semantic Versioning 2.0.0)
 
-Para etiquetar los lanzamientos (*Releases*) en la rama `main`, seguimos la regla `vX.Y.Z` (`vMAJOR.MINOR.PATCH`):
+Para etiquetar los lanzamientos (*Releases*) en la rama main, seguimos la regla vX.Y.Z (vMAJOR.MINOR.PATCH):
 
 * **MAJOR (X):** Se incrementa cuando introducimos cambios grandes que rompen la compatibilidad con versiones anteriores.
 * **MINOR (Y):** Se incrementa al añadir nuevas funcionalidades de manera retrocompatible.
@@ -2287,23 +2287,23 @@ Para etiquetar los lanzamientos (*Releases*) en la rama `main`, seguimos la regl
 
 Escribimos los mensajes de commit de forma clara y uniforme para que cualquier miembro del equipo entienda qué se cambió de un vistazo:
 
-`<tipo>(<alcance>): <descripción corta>`
+<tipo>(<alcance>): <descripción corta>
 
 * **Tipos comunes:**
-  * `feat`: Nueva funcionalidad.
-  * `fix`: Corrección de un error.
-  * `docs`: Cambios en la documentación.
-  * `style`: Ajustes estéticos o de formato sin cambios en la lógica (CSS, espacios, comas).
-  * `refactor`: Mejoras al código que no cambian su comportamiento ni arreglan errores.
-  * `test`: Creación o modificación de pruebas.
-  * `chore`: Mantenimiento de configuraciones, dependencias o herramientas.
+  * feat: Nueva funcionalidad.
+  * fix: Corrección de un error.
+  * docs: Cambios en la documentación.
+  * style: Ajustes estéticos o de formato sin cambios en la lógica (CSS, espacios, comas).
+  * refactor: Mejoras al código que no cambian su comportamiento ni arreglan errores.
+  * test: Creación o modificación de pruebas.
+  * chore: Mantenimiento de configuraciones, dependencias o herramientas.
 
 * **Ejemplos prácticos:**
-  * `feat(iam): add user registration service in Java backend`
-  * `fix(landing): resolve responsive navigation bar overflow`
-  * `refactor(shared): optimize Angular HTTP interceptor handling`
-  * `test(iam): add unit tests for authentication aggregate`
-  * `docs(scm): update GitFlow branching strategy documentation`
+  * feat(iam): add user registration service in Java backend
+  * fix(landing): resolve responsive navigation bar overflow
+  * refactor(shared): optimize Angular HTTP interceptor handling
+  * test(iam): add unit tests for authentication aggregate
+  * docs(scm): update GitFlow branching strategy documentation
 
 
 
@@ -2319,10 +2319,10 @@ Para garantizar la mantenibilidad, legibilidad y consistencia del código a lo l
 
 Independientemente del lenguaje de programación, se aplican las siguientes reglas generales para la nomenclatura de elementos:
 
-* **CamelCase (`camelCase`):** Utilizado para variables, atributos, parámetros de métodos y nombres de funciones en JavaScript, TypeScript y Java.
-* **PascalCase (`PascalCase`):** Utilizado para nombres de clases, interfaces, enums, componentes de Angular, anotaciones y tipos personalizados.
-* **Kebab-Case (`kebab-case`):** Utilizado para nombres de archivos, carpetas, selectores de componentes de Angular, clases CSS y atributos personalizados de HTML.
-* **Screaming Snake Case (`UPPER_SNAKE_CASE`):** Utilizado para constantes y valores inmutables en Java y TypeScript.
+* **CamelCase (camelCase):** Utilizado para variables, atributos, parámetros de métodos y nombres de funciones en JavaScript, TypeScript y Java.
+* **PascalCase (PascalCase):** Utilizado para nombres de clases, interfaces, enums, componentes de Angular, anotaciones y tipos personalizados.
+* **Kebab-Case (kebab-case):** Utilizado para nombres de archivos, carpetas, selectores de componentes de Angular, clases CSS y atributos personalizados de HTML.
+* **Screaming Snake Case (UPPER_SNAKE_CASE):** Utilizado para constantes y valores inmutables en Java y TypeScript.
 
 
 #### 2. HTML & CSS Style Guide
@@ -2330,14 +2330,14 @@ Independientemente del lenguaje de programación, se aplican las siguientes regl
 Se adoptan los principios de la **Google HTML/CSS Style Guide** y la **W3C HTML Style Guide**:
 
 * **Sintaxis y Estructura HTML:**
-  * Uso obligatorio de HTML5 semántico (`<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`).
+  * Uso obligatorio de HTML5 semántico (<header>, <nav>, <main>, <section>, <footer>).
   * Nombres de etiquetas, atributos y valores en minúsculas.
-  * Uso de comillas dobles (`"..."`) en todos los valores de los atributos.
+  * Uso de comillas dobles ("...") en todos los valores de los atributos.
   * Indentación de 2 espacios sin tabulaciones.
 
 * **Estilos CSS:**
-  * Adoptar la convención **BEM (Block Element Modifier)** para la nomenclatura de clases (`block__element--modifier`).
-  * Evitar la regla `!important` y limitar el anidamiento excesivo en preprocesadores.
+  * Adoptar la convención **BEM (Block Element Modifier)** para la nomenclatura de clases (block__element--modifier).
+  * Evitar la regla !important y limitar el anidamiento excesivo en preprocesadores.
   * Agrupar propiedades CSS en orden lógico (Posicionamiento, Box Model, Tipografía, Visuales).
 
 
@@ -2347,13 +2347,13 @@ Se adoptan los principios de la **Google HTML/CSS Style Guide** y la **W3C HTML 
 Se aplican la **Google TypeScript Style Guide** y la guía oficial **Angular Coding Style Guide**:
 
 * **Naming Conventions:**
-  * **Interfaces:** Denominadas en `PascalCase` sin prefijo `I` (ejemplo: `User`, no `IUser`).
-  * **Componentes y Servicios:** Sufijos explícitos en el nombre de la clase y archivo (ejemplo: `user-profile.component.ts` -> `UserProfileComponent`).
-  * **Observables:** Sufijo `$` al final de la variable (ejemplo: `userData$`).
+  * **Interfaces:** Denominadas en PascalCase sin prefijo I (ejemplo: User, no IUser).
+  * **Componentes y Servicios:** Sufijos explícitos en el nombre de la clase y archivo (ejemplo: user-profile.component.ts -> UserProfileComponent).
+  * **Observables:** Sufijo $ al final de la variable (ejemplo: userData$).
 
 * **Buenas Prácticas:**
-  * Declarar tipos explícitos para variables, parámetros de funciones y retornos, evitando el uso de `any`.
-  * Mantener inmutabilidad mediante el uso preferente de `const` sobre `let` (evitando `var`).
+  * Declarar tipos explícitos para variables, parámetros de funciones y retornos, evitando el uso de any.
+  * Mantener inmutabilidad mediante el uso preferente de const sobre let (evitando var).
   * Estructura de archivos modular basada en componentes y lógica orientada a *Bounded Contexts*.
 
 
@@ -2363,14 +2363,14 @@ Se aplican la **Google TypeScript Style Guide** y la guía oficial **Angular Cod
 Se adoptan la **Google Java Style Guide** y los estándares recomendados en **Spring Boot Features**:
 
 * **Naming Conventions:**
-  * **Clases:** `PascalCase` representando sustantivos en inglés (ejemplo: `UserRepository`, `AuthenticationService`).
-  * **Métodos:** `camelCase` representando verbos u acciones (ejemplo: `findUserById`, `calculateTotalAmount`).
-  * **Paquetes:** Nombres en minúsculas en singular (ejemplo: `com.company.project.domain.model`).
+  * **Clases:** PascalCase representando sustantivos en inglés (ejemplo: UserRepository, AuthenticationService).
+  * **Métodos:** camelCase representando verbos u acciones (ejemplo: findUserById, calculateTotalAmount).
+  * **Paquetes:** Nombres en minúsculas en singular (ejemplo: com.company.project.domain.model).
 
 * **Estructura Arquitectónica con DDD:**
-  * **Layered Packages:** Organización por capas respetando DDD (`domain`, `application`, `infrastructure`, `interfaces`).
+  * **Layered Packages:** Organización por capas respetando DDD (domain, application, infrastructure, interfaces).
   * **Entidades y Agregados:** Modelado de objetos de dominio encapsulados sin exponer la lógica interna directamente mediante setters indiscriminados.
-  * **Spring Annotations:** Uso explícito de estereotipos de Spring (`@RestController`, `@Service`, `@Repository`) y constructor injection mediante `final` fields o Lombok (`@RequiredArgsConstructor`).
+  * **Spring Annotations:** Uso explícito de estereotipos de Spring (@RestController, @Service, @Repository) y constructor injection mediante final fields o Lombok (@RequiredArgsConstructor).
 
 
 
@@ -2393,10 +2393,10 @@ La solución se encuentra estructurada bajo una arquitectura desacoplada, donde 
 El proyecto utiliza **Git** como sistema de control de versiones y **GitHub** como plataforma para la gestión de repositorios independientes por cada producto digital.
 
 **Estrategia de ramas (GitFlow):**
-* `main`: contiene la versión estable lista para producción.
-* `develop`: integra las funcionalidades en desarrollo.
-* `feature/*`: ramas destinadas al desarrollo de nuevas funcionalidades por contexto delimitado.
-* `hotfix/*`: ramas destinadas a correcciones críticas en producción.
+* main: contiene la versión estable lista para producción.
+* develop: integra las funcionalidades en desarrollo.
+* feature/*: ramas destinadas al desarrollo de nuevas funcionalidades por contexto delimitado.
+* hotfix/*: ramas destinadas a correcciones críticas en producción.
 
 
 #### 2. Despliegue de Landing Page (GitHub Pages)
@@ -2414,7 +2414,7 @@ La Landing Page es una solución web estática desarrollada con HTML, CSS y Java
 2. **Conectar el repositorio con GitHub**
     ```bash
     git branch -M main
-    git remote add origin [https://github.com/TuOrganizacion/landing-page.git](https://github.com/TuOrganizacion/landing-page.git)
+    git remote add origin <a href="https://github.com/TuOrganizacion/landing-page.git" style="text-decoration: none;">https://github.com/TuOrganizacion/landing-page.git</a>
     git push -u origin main
     ```
 3. **Configurar GitHub Pages**
@@ -2422,9 +2422,9 @@ La Landing Page es una solución web estática desarrollada con HTML, CSS y Java
     * Acceder a la sección **Pages**.
     * Seleccionar:
         * **Source:** Deploy from a branch
-        * **Branch:** `main`
-        * **Folder:** `/ (root)`
-    * **Resultado público:** `https://TuOrganizacion.github.io/landing-page/`
+        * **Branch:** main
+        * **Folder:** / (root)
+    * **Resultado público:** <a href="https://TuOrganizacion.github.io/landing-page/" style="text-decoration: none;">https://TuOrganizacion.github.io/landing-page/</a>
 
 
 
@@ -2441,40 +2441,40 @@ El frontend está desarrollado con Angular y se despliega en Netlify mediante in
     git push origin main
     ```
 2. **Configurar en Netlify**
-    * Acceder a: [https://www.netlify.com/](https://www.netlify.com/)
+    * Acceder a: <a href="https://www.netlify.com/" style="text-decoration: none;">https://www.netlify.com/</a>
     * Seleccionar **Add new site** → **Import an existing project**.
     * Conectar con la cuenta de GitHub.
     * Seleccionar el repositorio correspondiente al frontend en Angular.
 3. **Configurar el build**
-    * **Branch to deploy:** `main`
-    * **Build command:** `npm run build` *(o `ng build --configuration production`)*
-    * **Publish directory:** `dist/<nombre-proyecto>/browser`
+    * **Branch to deploy:** main
+    * **Build command:** npm run build *(o ng build --configuration production)*
+    * **Publish directory:** dist/<nombre-proyecto>/browser
 4. **Configurar la regla de redirección (SPA Rewrites)**
-    * Incluir un archivo `_redirects` en la carpeta de activos de Angular con la regla:
+    * Incluir un archivo _redirects en la carpeta de activos de Angular con la regla:
         ```text
         /*    /index.html   200
         ```
 5. **Configurar variables de entorno**
     * En el panel de Netlify (*Site configuration* → *Environment variables*):
-        * La configuración publicada revisada toma la URL del mock de `src/environments/environment.ts`. Una variable del panel solo surtirá efecto si el proceso de build la incorpora.
+        * La configuración publicada revisada toma la URL del mock de src/environments/environment.ts. Una variable del panel solo surtirá efecto si el proceso de build la incorpora.
 6. **Despliegue**
-    * Netlify ejecuta el proceso de build automáticamente tras cada push a `main`.
+    * Netlify ejecuta el proceso de build automáticamente tras cada push a main.
     * Se genera una URL pública accesible para los usuarios finales.
 
 
 
 #### 4. Preparación de MySQL para los Web Services
 
-La configuración de este backend usa **MySQL**. El perfil local `dev` usa el puerto 8090 por defecto y permite que Hibernate actualice el esquema. Para producción, `prod` usa el puerto 8080 por defecto y `ddl-auto=validate`: la base debe existir con el esquema aplicado antes del arranque. El ZIP no incluye migraciones ni datos iniciales de perfiles.
+La configuración de este backend usa **MySQL**. El perfil local dev usa el puerto 8090 por defecto y permite que Hibernate actualice el esquema. Para producción, prod usa el puerto 8080 por defecto y ddl-auto=validate: la base debe existir con el esquema aplicado antes del arranque. El ZIP no incluye migraciones ni datos iniciales de perfiles.
 
-Configurar `DATABASE_URL` con el host de MySQL, `DATABASE_PORT`, `DATABASE_NAME`, `DATABASE_USER` y `DATABASE_PASSWORD`. Se recomienda una cuenta de base con permisos limitados y datos de demostración independientes. No guardar credenciales en Git.
+Configurar DATABASE_URL con el host de MySQL, DATABASE_PORT, DATABASE_NAME, DATABASE_USER y DATABASE_PASSWORD. Se recomienda una cuenta de base con permisos limitados y datos de demostración independientes. No guardar credenciales en Git.
 
 #### 5. Configuración de Web Services (Java / Spring Boot)
 
-1. Preparar Java 27 y el Maven Wrapper. Compilar con `./mvnw clean package` con las dependencias y una instancia MySQL de prueba configurada para el test de arranque; ejecutar el JAR con `java -jar <archivo.jar>`.
-2. Para un entorno publicado, configurar `SPRING_PROFILES_ACTIVE=prod` y `PORT`, aplicar el esquema en MySQL y cargar datos de prueba.
-3. Antes de conectar Angular, permitir su origen HTTPS en CORS y ajustar el servidor de Swagger, configurado en el ZIP como `http://localhost:8090`.
-4. Comprobar `/health`, OpenAPI y una operación persistente. `/health` informa que la aplicación responde; la prueba de parcelas comprueba además la base.
+1. Preparar Java 27 y el Maven Wrapper. Compilar con ./mvnw clean package con las dependencias y una instancia MySQL de prueba configurada para el test de arranque; ejecutar el JAR con java -jar <archivo.jar>.
+2. Para un entorno publicado, configurar SPRING_PROFILES_ACTIVE=prod y PORT, aplicar el esquema en MySQL y cargar datos de prueba.
+3. Antes de conectar Angular, permitir su origen HTTPS en CORS y ajustar el servidor de Swagger, configurado en el ZIP como <a href="http://localhost:8090" style="text-decoration: none;">http://localhost:8090</a>.
+4. Comprobar /health, OpenAPI y una operación persistente. /health informa que la aplicación responde; la prueba de parcelas comprueba además la base.
 
 #### 6. Integración y evidencia
 
@@ -2482,8 +2482,8 @@ La landing enlaza la SPA. Los entornos Angular revisados apuntan al mock: JSON S
 
 #### 7. Consideraciones de Despliegue
 
-- Separar configuración con `application-dev.properties` y `application-prod.properties`.
-- Verificar identidad y acceso por recurso antes de publicar datos reales. En la versión revisada `iam` no implementa autenticación.
+- Separar configuración con application-dev.properties y application-prod.properties.
+- Verificar identidad y acceso por recurso antes de publicar datos reales. En la versión revisada iam no implementa autenticación.
 - Conservar las URLs públicas, la versión desplegada y la evidencia de ejecución en 5.2.3.7 cuando estén verificadas.
 
 ## 5.2. Landing Page, Services & Applications Implementation
@@ -2657,7 +2657,7 @@ Para la gestión y control del flujo de trabajo, las tareas se organizaron y mon
 
 * **Figura 5.2.1.3.1.** *Captura del tablero del Sprint 1 en la herramienta de control mostrando el estado de desarrollo.*
 
-* **URL Pública del Board del Sprint 1:** [Enlace de Trello Sprint 1](https://trello.com/invite/b/6aa216c035a4a46c6bd2f3f0/ATTI885bbe2f06b7915f27146102eb51b6dfDBBD1DE6/terranova)
+* **URL Pública del Board del Sprint 1:** <a href="https://trello.com/invite/b/6aa216c035a4a46c6bd2f3f0/ATTI885bbe2f06b7915f27146102eb51b6dfDBBD1DE6/terranova" style="text-decoration: none;">Enlace de Trello Sprint 1</a>
 
 
 ### Tabla de Control de Estado del Sprint Backlog 1
@@ -2768,7 +2768,7 @@ A continuación se presenta la evidencia gráfica con las capturas de las princi
 
 Para profundizar en la revisión de la ejecución de este Sprint, el equipo preparó una presentación en video donde se ilustra y explica en detalle el recorrido interactivo, las transacciones visuales (*smooth scroll*), las animaciones de componentes y la navegación fluida lograda en la Landing Page:
 
-* **Enlace al Video de Evidencia:** [Ver Demostración de Navegación del Sprint 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQApudu7-aW0R6zofbarn9-pAd96aUTXm_GwyTKAwac5l90?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7oUJHv)
+* **Enlace al Video de Evidencia:** <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQApudu7-aW0R6zofbarn9-pAd96aUTXm_GwyTKAwac5l90?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7oUJHv" style="text-decoration: none;">Ver Demostración de Navegación del Sprint 1</a>
 * **Duración:** ~03:30 min.
 * **Contenido:** Recorrido por la Landing Page, validación de diseño *responsive* en vista de escritorio y móvil, interacción con botones CTA y prueba de captura del formulario de contacto.
 
@@ -2792,7 +2792,7 @@ A continuación, se describen los pasos de configuración ejecutados en el repos
 
 #### 1. Resumen del Proceso de Despliegue en GitHub Pages
 
-1. **Configuración de la Rama de Publicación:** Se configuró el repositorio oficial de la organización para realizar el despliegue automático (*Deploy from a branch*) tomando como fuente la rama principal `main` y asignando el directorio raíz (`/root`) para la compilación de los archivos estáticos (`index.html`, hojas de estilo CSS e imágenes del proyecto).
+1. **Configuración de la Rama de Publicación:** Se configuró el repositorio oficial de la organización para realizar el despliegue automático (*Deploy from a branch*) tomando como fuente la rama principal main y asignando el directorio raíz (/root) para la compilación de los archivos estáticos (index.html, hojas de estilo CSS e imágenes del proyecto).
 2. **Generación de Dominio y Certificación SSL:** Se verificó la generación del certificado de seguridad de capa de transporte (HTTPS/TLS) y la asignación del nombre de dominio público provisto por la infraestructura de GitHub.
 
 
@@ -2808,12 +2808,12 @@ A continuación se presenta la captura de pantalla que confirma la ejecución ex
 
 | Producto Digital | Entorno / Hosting | Fuente de Despliegue | Estado de Publicación | Dirección URL de Acceso Público |
 | :--- | :--- | :---: | :---: | :--- |
-| **Landing Page** | GitHub Pages | Rama `main` (`/root`) | **Active / Live** | [https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-report/](https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-report/) |
+| **Landing Page** | GitHub Pages | Rama main (/root) | **Active / Live** | <a href="https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-report/" style="text-decoration: none;">https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-report/</a> |
 
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
-Durante el desarrollo del **Sprint 1**, el equipo **TerraNova** estableció una dinámica de trabajo colaborativa, inclusiva y altamente distribuida para cumplir con la implementación y publicación de la Landing Page estática e informativa de la plataforma **ALLPATEK**. El proceso de desarrollo se gestionó mediante la plataforma **GitHub**, adoptando una estrategia de ramificación por aspectos de la interfaz web (`feature/header-navbar`, `feature/hero`, `feature/services`, `feature/how-it-works`, `feature/testimonials`, `feature/team`, `feature/contact-form`, `feature/footer`, `feature/plans`) para permitir el trabajo en paralelo de todos los miembros del equipo.
+Durante el desarrollo del **Sprint 1**, el equipo **TerraNova** estableció una dinámica de trabajo colaborativa, inclusiva y altamente distribuida para cumplir con la implementación y publicación de la Landing Page estática e informativa de la plataforma **ALLPATEK**. El proceso de desarrollo se gestionó mediante la plataforma **GitHub**, adoptando una estrategia de ramificación por aspectos de la interfaz web (feature/header-navbar, feature/hero, feature/services, feature/how-it-works, feature/testimonials, feature/team, feature/contact-form, feature/footer, feature/plans) para permitir el trabajo en paralelo de todos los miembros del equipo.
 
 Para asegurar la trazabilidad del código fuente y el control de cambios, se aplicó la guía de trabajo basada en el estándar **Conventional Commits** con mensajes redactados estrictamente en inglés. La consolidación del progreso se realizó mediante la revisión continua y la integración de ramas hacia la rama principal de integración, garantizando una participación activa y equitativa de todos los integrantes.
 
@@ -3245,7 +3245,7 @@ Es una vista resumida que consolida las especificaciones técnicas y la galería
 
 
 #### Vista 6: Emisión y Firma Digital de Contrato
-Muestra el documento de arrendamiento con sus cláusulas legales, los datos de las partes firmantes y el desglose de pagos estructurado en cuatro hitos equivalentes al 25% cada uno. Incluye un identificador único con formato `CTR-YYYY-NNNN` y un panel de firma digital para que el agricultor pueda aceptar y validar formalmente el acuerdo emitido por el comerciante.
+Muestra el documento de arrendamiento con sus cláusulas legales, los datos de las partes firmantes y el desglose de pagos estructurado en cuatro hitos equivalentes al 25% cada uno. Incluye un identificador único con formato CTR-YYYY-NNNN y un panel de firma digital para que el agricultor pueda aceptar y validar formalmente el acuerdo emitido por el comerciante.
 
 <p align="center">
   <img src="assets/chapter-05/vista06.png" alt="Pantalla de Login" width="850" />
@@ -3276,62 +3276,62 @@ Corresponde al tablero desde el cual el agricultor administra los entregables co
 
 ### 1. Introducción
 
-En este Sprint se completó la especificación, documentación y despliegue del contrato REST de la **Fake API de Allpatek** (`allpatek-platform-mock`). El servicio fue desarrollado sobre Node.js utilizando `json-server` (v0.17.4), exponiendo sus recursos bajo la ruta base de versión `/api/v1`.
+En este Sprint se completó la especificación, documentación y despliegue del contrato REST de la **Fake API de Allpatek** (allpatek-platform-mock). El servicio fue desarrollado sobre Node.js utilizando json-server (v0.17.4), exponiendo sus recursos bajo la ruta base de versión /api/v1.
 
 ###  Logros Alcanzados en Web Services
 * **Definición de Contrato REST:** Especificación de los recursos requeridos por los distintos Bounded Contexts del sistema Allpatek.
-* **Estandarización de Rutas:** Implementación del prefijo de versión `/api/v1` y disponibilidad de un endpoint de verificación de estado (`/api/v1/health`).
+* **Estandarización de Rutas:** Implementación del prefijo de versión /api/v1 y disponibilidad de un endpoint de verificación de estado (/api/v1/health).
 * **Despliegue Cloud en Azure:** Publicación del servicio en **Azure App Service** (Región Chile Central).
-* **Consumo Dinámico:** Integración transparente desde la aplicación Web Angular a través del archivo de configuración `environment.ts`.
+* **Consumo Dinámico:** Integración transparente desde la aplicación Web Angular a través del archivo de configuración environment.ts.
 
 ###  Entornos de Servicio
 
 * **URL Base Desplegada (Producción/Staging):**  
-  `https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1`
+  <a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1" style="text-decoration: none;">https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1</a>
 
 * **URL Base Local (Entorno de Desarrollo):**  
-  `http://localhost:3000/api/v1`
+  <a href="http://localhost:3000/api/v1" style="text-decoration: none;">http://localhost:3000/api/v1</a>
 
 
 ### 2. Repositorio y Commits de Documentación
 
-* **Repositorio de Web Services (GitHub):**  [Repositorio Web Mock API](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock)
+* **Repositorio de Web Services (GitHub):**  <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock" style="text-decoration: none;">Repositorio Web Mock API</a>
 
 ###  Commits Relacionados con el Contrato de Servicios
 | Commit Hash | Tipo / Mensaje de Commit | Descripción / Alcance |
 | :---: | :--- | :--- |
-| `7f27faa` | `feat(api): add Allpatek mock API` | Implementación inicial del contrato de la Fake API y esquemas de datos. |
-| `0b22df8` | `chore(merge): resolve conflict in README.md` | Resolución de conflictos y documentación del contrato en el README. |
-| `49fd999` | `Initial commit` | Inicialización de la estructura del repositorio de Web Services. |
+| 7f27faa | feat(api): add Allpatek mock API | Implementación inicial del contrato de la Fake API y esquemas de datos. |
+| 0b22df8 | chore(merge): resolve conflict in README.md | Resolución de conflictos y documentación del contrato en el README. |
+| 49fd999 | Initial commit | Inicialización de la estructura del repositorio de Web Services. |
 
 
 
 ### 3. Matriz de Endpoints del Alcance del Sprint
 
-> **Ruta Base (`BASE`):** `https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1`
+> **Ruta Base (BASE):** <a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1" style="text-decoration: none;">https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1</a>
 
 | Endpoint | Verbo HTTP | Bounded Context | Descripción de Acción | URL Documentada / Desplegada |
 | :---: | :---: | :---: | :---: | :---: |
-| `/health` | `GET` | Plataforma / Core | Verificar disponibilidad del servicio | `BASE/health` |
-| `/profiles` | `GET` | Shared Context | Obtener lista o detalle de perfiles | `BASE/profiles` |
-| `/profiles/{id}` | `PUT` | Shared Context | Actualizar perfil de usuario | `BASE/profiles/{id}` |
-| `/users` | `GET` | Shared Context | Consultar usuarios por rol o id | `BASE/users` |
-| `/users/{id}` | `PUT` | Shared Context | Actualizar datos de usuario | `BASE/users/{id}` |
-| `/parcels` | `GET` | Parcel Management | Consultar catálogo de parcelas | `BASE/parcels` |
-| `/parcels` | `POST` | Parcel Management | Registrar nueva parcela | `BASE/parcels` |
-| `/parcels/{id}` | `PUT` | Parcel Management | Actualizar datos de parcela | `BASE/parcels/{id}` |
-| `/parcels/{id}` | `DELETE` | Parcel Management | Eliminar parcela existente | `BASE/parcels/{id}` |
-| `/agreements` | `GET` | Agreements Management | Consultar contratos de arrendamiento | `BASE/agreements` |
-| `/agreements` | `POST` | Agreements Management | Crear solicitud de contrato | `BASE/agreements` |
-| `/agreements/{id}` | `PUT` | Agreements Management | Registrar firma de agricultor/comerciante | `BASE/agreements/{id}` |
-| `/evidence` | `GET` | Tracking Evidence | Consultar evidencias registradas | `BASE/evidence` |
-| `/evidence` | `POST` | Tracking Evidence | Cargar evidencia por hito (agricultor) | `BASE/evidence` |
-| `/evidence/{id}` | `PUT` | Tracking Evidence | Validar evidencia (comerciante/bóveda) | `BASE/evidence/{id}` |
-| `/wallets` | `GET` | Escrow Payments | Consultar datos de fondeo de bóveda | `BASE/wallets` |
-| `/wallets` | `POST` | Escrow Payments | Registrar fondeo de bóveda con tarjeta | `BASE/wallets` |
-| `/wallets/{id}` | `PUT` | Escrow Payments | Actualizar información de tarjeta/bóveda | `BASE/wallets/{id}` |
-| `/escrow` | `GET` | Escrow Payments | Colección reservada *(sin escritura)* | `BASE/escrow` |
-| `/alerts` | `GET` | Alerts Management | Colección reservada *(sin escritura)* | `BASE/alerts` |
+| /health | GET | Plataforma / Core | Verificar disponibilidad del servicio | BASE/health |
+| /profiles | GET | Shared Context | Obtener lista o detalle de perfiles | BASE/profiles |
+| /profiles/{id} | PUT | Shared Context | Actualizar perfil de usuario | BASE/profiles/{id} |
+| /users | GET | Shared Context | Consultar usuarios por rol o id | BASE/users |
+| /users/{id} | PUT | Shared Context | Actualizar datos de usuario | BASE/users/{id} |
+| /parcels | GET | Parcel Management | Consultar catálogo de parcelas | BASE/parcels |
+| /parcels | POST | Parcel Management | Registrar nueva parcela | BASE/parcels |
+| /parcels/{id} | PUT | Parcel Management | Actualizar datos de parcela | BASE/parcels/{id} |
+| /parcels/{id} | DELETE | Parcel Management | Eliminar parcela existente | BASE/parcels/{id} |
+| /agreements | GET | Agreements Management | Consultar contratos de arrendamiento | BASE/agreements |
+| /agreements | POST | Agreements Management | Crear solicitud de contrato | BASE/agreements |
+| /agreements/{id} | PUT | Agreements Management | Registrar firma de agricultor/comerciante | BASE/agreements/{id} |
+| /evidence | GET | Tracking Evidence | Consultar evidencias registradas | BASE/evidence |
+| /evidence | POST | Tracking Evidence | Cargar evidencia por hito (agricultor) | BASE/evidence |
+| /evidence/{id} | PUT | Tracking Evidence | Validar evidencia (comerciante/bóveda) | BASE/evidence/{id} |
+| /wallets | GET | Escrow Payments | Consultar datos de fondeo de bóveda | BASE/wallets |
+| /wallets | POST | Escrow Payments | Registrar fondeo de bóveda con tarjeta | BASE/wallets |
+| /wallets/{id} | PUT | Escrow Payments | Actualizar información de tarjeta/bóveda | BASE/wallets/{id} |
+| /escrow | GET | Escrow Payments | Colección reservada *(sin escritura)* | BASE/escrow |
+| /alerts | GET | Alerts Management | Colección reservada *(sin escritura)* | BASE/alerts |
 
 
 
@@ -3354,34 +3354,34 @@ Este documento detalla el procedimiento técnico, las configuraciones y las evid
   <tbody>
     <tr>
       <td style="text-align: center;"><strong>Fake API</strong></td>
-      <td style="text-align: center;">Node.js (<code>json-server</code>)</td>
+      <td style="text-align: center;">Node.js (json-server)</td>
       <td style="text-align: center;">Azure App Service</td>
-      <td style="text-align: center;"><code>allpatek-platform-mock</code></td>
-      <td style="text-align: center;"><a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/" target="_blank">Ver API</a></td>
+      <td style="text-align: center;">allpatek-platform-mock</td>
+      <td style="text-align: center;"><a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/" target="_blank" style="text-decoration: none;">Ver API</a></td>
     </tr>
     <tr>
       <td style="text-align: center;"><strong>Frontend</strong></td>
       <td style="text-align: center;">Angular 22</td>
       <td style="text-align: center;">Netlify</td>
-      <td style="text-align: center;"><code>allpatek-webapp</code></td>
-      <td style="text-align: center;"><a href="https://terranova-allpatek.netlify.app/" target="_blank">Ver Web App</a></td>
+      <td style="text-align: center;">allpatek-webapp</td>
+      <td style="text-align: center;"><a href="https://terranova-allpatek.netlify.app/" target="_blank" style="text-decoration: none;">Ver Web App</a></td>
     </tr>
   </tbody>
 </table>
 
 
 
-## 1. Despliegue del Backend / Fake API (`allpatek-mockapi`)
+## 1. Despliegue del Backend / Fake API (allpatek-mockapi)
 
 ### Paso 1: Aprovisionamiento del Recurso en Azure
-Se configuró y creó una instancia de **Azure Web App** optimizada para ejecutar un servicio de API simulada basado en Node.js y `json-server`.
+Se configuró y creó una instancia de **Azure Web App** optimizada para ejecutar un servicio de API simulada basado en Node.js y json-server.
 
 * **Suscripción:** Azure for Students
-* **Grupo de Recursos:** `allpatek-mockapi_group`
-* **Nombre de App Service:** `allpatek-mockapi`
-* **Región:** Chile Central (`chilecentral-01`)
-* **Plan de App Service:** `ASP-allpatekmockapigrou`
-* **Entorno de Ejecución:** Node.js (Servidor ejecuta `node server.js` con `json-server 0.17.4`)
+* **Grupo de Recursos:** allpatek-mockapi_group
+* **Nombre de App Service:** allpatek-mockapi
+* **Región:** Chile Central (chilecentral-01)
+* **Plan de App Service:** ASP-allpatekmockapigrou
+* **Entorno de Ejecución:** Node.js (Servidor ejecuta node server.js con json-server 0.17.4)
 
 
 <p align="center">
@@ -3392,8 +3392,8 @@ Se configuró y creó una instancia de **Azure Web App** optimizada para ejecuta
 ### Paso 2: Confirmación de Infraestructura Activa
 Azure completó exitosamente el aprovisionamiento de los recursos cloud. El endpoint base quedó activo y listo para recibir publicaciones de código.
 
-* **Endpoint Base API:** `https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1`
-* **Estado de Infraestructura:** `OK` / `Se completó la implementación`
+* **Endpoint Base API:** <a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1" style="text-decoration: none;">https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1</a>
+* **Estado de Infraestructura:** OK / Se completó la implementación
 
 
 <p align="center">
@@ -3403,13 +3403,13 @@ Azure completó exitosamente el aprovisionamiento de los recursos cloud. El endp
 ### Paso 3: Pipeline de CI/CD con GitHub Actions
 Se automatizó el flujo de integración y despliegue continuo (CI/CD) para la API desde GitHub.
 
-* **Repositorio:** `upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock`
-* **Workflow:** `.github/workflows/main_allpatek-mockapi.yml`
-* **Triggers:** `push` a la rama `main` y ejecución manual (`workflow_dispatch`).
+* **Repositorio:** upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock
+* **Workflow:** .github/workflows/main_allpatek-mockapi.yml
+* **Triggers:** push a la rama main y ejecución manual (workflow_dispatch).
 * **Etapas del Workflow:**
-  1. **Job `build` (9s):** Checkout del código, configuración de Node.js v24, instalación de dependencias (`npm install`) y compilación (`npm run build`).
-  2. **Job `deploy` (1m 06s):** Autenticación segura en Azure mediante secretos en GitHub (`AZUREAPPSERVICE_CLIENTID`, `AZUREAPPSERVICE_TENANTID`, `AZUREAPPSERVICE_SUBSCRIPTIONID`) y publicación en el slot de producción de `allpatek-mockapi`.
-* **Estado Final:** `Success`  (Duración total: 1m 22s)
+  1. **Job build (9s):** Checkout del código, configuración de Node.js v24, instalación de dependencias (npm install) y compilación (npm run build).
+  2. **Job deploy (1m 06s):** Autenticación segura en Azure mediante secretos en GitHub (AZUREAPPSERVICE_CLIENTID, AZUREAPPSERVICE_TENANTID, AZUREAPPSERVICE_SUBSCRIPTIONID) y publicación en el slot de producción de allpatek-mockapi.
+* **Estado Final:** Success  (Duración total: 1m 22s)
 
 
 <p align="center">
@@ -3417,14 +3417,14 @@ Se automatizó el flujo de integración y despliegue continuo (CI/CD) para la AP
 </p>
 
 
-## 2. Despliegue del Frontend Angular en Netlify (`terranova-allpatek`)
+## 2. Despliegue del Frontend Angular en Netlify (terranova-allpatek)
 
 ### Paso 1: Vinculación del Repositorio en Netlify
 Se conectó la plataforma de hosting Netlify con la organización de GitHub del proyecto para habilitar el despliegue automático del cliente Web.
 
-* **Cuenta / Equipo:** `Allpatek`
-* **Organización Git:** `upc-pre-202620-1asi0729-7753-Terranova`
-* **Repositorio Seleccionado:** `allpatek-webapp` (Público)
+* **Cuenta / Equipo:** Allpatek
+* **Organización Git:** upc-pre-202620-1asi0729-7753-Terranova
+* **Repositorio Seleccionado:** allpatek-webapp (Público)
 
 
 <p align="center">
@@ -3438,11 +3438,11 @@ Se definieron los parámetros técnicos requeridos por Angular 22 para su compil
 
 | Parámetro | Valor Configurado | Notas Técnicas |
 | :---: | :---: | :---: |
-| **Nombre del Proyecto** | `terranova-allpatek` | Asigna la URL `terranova-allpatek.netlify.app` |
-| **Rama de Despliegue** | `develop` | Monitorea cambios en desarrollo |
-| **Comando de Build** | `npm run build` | Ejecuta el compilador CLI de Angular |
-| **Directorio de Publicación** | `dist/allpatek-webapp/browser` | Angular 22 ubica el `index.html` en `/browser` |
-| **Variables de Entorno** | *Ninguna* | URLs de Azure precargadas en `src/environments/environment.ts` |
+| **Nombre del Proyecto** | terranova-allpatek | Asigna la URL terranova-allpatek.netlify.app |
+| **Rama de Despliegue** | develop | Monitorea cambios en desarrollo |
+| **Comando de Build** | npm run build | Ejecuta el compilador CLI de Angular |
+| **Directorio de Publicación** | dist/allpatek-webapp/browser | Angular 22 ubica el index.html en /browser |
+| **Variables de Entorno** | *Ninguna* | URLs de Azure precargadas en src/environments/environment.ts |
 
 
 <p align="center">
@@ -3454,8 +3454,8 @@ Se definieron los parámetros técnicos requeridos por Angular 22 para su compil
 ### Paso 3: Publicación del Frontend en Netlify
 Netlify procesó el pipeline de construcción de Angular y publicó el cliente web en su red global de distribución (CDN).
 
-* **Estrategia CD:** Despliegue automático disparado tras cada `push` a la rama `develop`.
-* **Estado del Sitio:** `Published` ✅
+* **Estrategia CD:** Despliegue automático disparado tras cada push a la rama develop.
+* **Estado del Sitio:** Published ✅
 
 
 <p align="center">
@@ -3467,7 +3467,7 @@ Netlify procesó el pipeline de construcción de Angular y publicó el cliente w
 ### Paso 4: Verificación del Frontend desplegado en Producción
 Se realizó la comprobación final de acceso en vivo a la aplicación web, verificando la carga correcta de la interfaz Angular comunicándose con el entorno de backend.
 
-* **URL de Producción:** [Ver App Web](https://terranova-allpatek.netlify.app)
+* **URL de Producción:** <a href="https://terranova-allpatek.netlify.app" style="text-decoration: none;">Ver App Web</a>
 * **Resultado:** Carga interactiva correcta en navegador sin errores de renderizado.
 
 
@@ -3479,27 +3479,27 @@ Se realizó la comprobación final de acceso en vivo a la aplicación web, verif
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
 
-Durante el **Sprint 2** el equipo TerraNova implementó la **Web Application** (SPA Angular, repositorio `allpatek-webapp`) y el **Web Service / Fake API** (repositorio `allpatek-platform-mock`). La Landing Page quedó cerrada en el Sprint 1; en este sprint no se reabrió como producto, salvo el consumo de la misma organización de GitHub.
+Durante el **Sprint 2** el equipo TerraNova implementó la **Web Application** (SPA Angular, repositorio allpatek-webapp) y el **Web Service / Fake API** (repositorio allpatek-platform-mock). La Landing Page quedó cerrada en el Sprint 1; en este sprint no se reabrió como producto, salvo el consumo de la misma organización de GitHub.
 
 
 
-| Integrante | Usuario GitHub | Web Application (`allpatek-webapp`) | Web Services (`allpatek-platform-mock`) |
+| Integrante | Usuario GitHub | Web Application (allpatek-webapp) | Web Services (allpatek-platform-mock) |
 | :--- | :--- | :--- | :--- |
-| Atauje Barreto, Alexander Sebastián | Alexander1Alexander2 | Líder de `feature/alerts-management`: modelo climático, cliente Open-Meteo, climate board y rutas farmer-only. | Consumo de parcelas/perfiles por id y contrato REST `/api/v1` documentado en la matriz de endpoints. |
-| Egocheaga Suyo, Miguel Angel | MiguelAngel0107 | Líder de `feature/escrow-payments`: entidades de wallet/escrow, bóveda, depósito y liberación por hito. | Uso de `/wallets` y recursos de contrato/evidencia para el estado de la bóveda. |
-| Orellana Rodríguez, Mel Andree | melandree8 | Shared kernel (sesión, perfiles, shell, i18n) y líder de `feature/agreements-management`; integración en `develop`, `release/v1.0.0` y `main`; despliegue Netlify. | Contrato mock, `db.json`, rewriter `/api/v1`, health check y pipeline Azure (`allpatek-mockapi`). |
-| Raymundo Villarroel, Abigail Nadhim | AbigailRV | Líder de `feature/parcel-management`: entidad parcela, API, store, board/form/detail y ruta de aterrizaje del workspace. | CRUD sobre `/parcels` (GET, POST, PUT, DELETE) contra el mock desplegado. |
-| Vera Solsol, Nayely Macarena | Macaxprogram29 | Líder de `feature/tracking-evidence`: evidencias por hito, carga del agricultor, revisión del comerciante y transiciones de estado. | Persistencia en `/evidence` (GET, POST, PUT) usada por la bóveda al aceptar un hito. |
+| Atauje Barreto, Alexander Sebastián | Alexander1Alexander2 | Líder de feature/alerts-management: modelo climático, cliente Open-Meteo, climate board y rutas farmer-only. | Consumo de parcelas/perfiles por id y contrato REST /api/v1 documentado en la matriz de endpoints. |
+| Egocheaga Suyo, Miguel Angel | MiguelAngel0107 | Líder de feature/escrow-payments: entidades de wallet/escrow, bóveda, depósito y liberación por hito. | Uso de /wallets y recursos de contrato/evidencia para el estado de la bóveda. |
+| Orellana Rodríguez, Mel Andree | melandree8 | Shared kernel (sesión, perfiles, shell, i18n) y líder de feature/agreements-management; integración en develop, release/v1.0.0 y main; despliegue Netlify. | Contrato mock, db.json, rewriter /api/v1, health check y pipeline Azure (allpatek-mockapi). |
+| Raymundo Villarroel, Abigail Nadhim | AbigailRV | Líder de feature/parcel-management: entidad parcela, API, store, board/form/detail y ruta de aterrizaje del workspace. | CRUD sobre /parcels (GET, POST, PUT, DELETE) contra el mock desplegado. |
+| Vera Solsol, Nayely Macarena | Macaxprogram29 | Líder de feature/tracking-evidence: evidencias por hito, carga del agricultor, revisión del comerciante y transiciones de estado. | Persistencia en /evidence (GET, POST, PUT) usada por la bóveda al aceptar un hito. |
 
-Todos los miembros del equipo tienen commits de implementación en la **Web Application**. El **Web Service** es un único mock compartido: Mel lideró el repositorio y el deploy; el resto participa al implementar el cliente HTTP de su contexto sobre el mismo contrato `/api/v1` .
+Todos los miembros del equipo tienen commits de implementación en la **Web Application**. El **Web Service** es un único mock compartido: Mel lideró el repositorio y el deploy; el resto participa al implementar el cliente HTTP de su contexto sobre el mismo contrato /api/v1 .
 
 
 ####  Cómo se desarrolló la implementación
 
-1. Se partió `develop` con el kernel compartido (entornos, sesión, perfiles, carpetas DDD vacías).
-2. Cada líder abrió su `feature/*`, implementó dominio → infraestructura → application store → vistas → rutas, y abrió integración a `develop`.
-3. Los contextos no importan stores ajenos: consultan el mock por `parcelId` / `profileId`.
-4. Los conflictos de `app.routes.ts` se resolvieron en rebase para dejar todos los `loadChildren`.
+1. Se partió develop con el kernel compartido (entornos, sesión, perfiles, carpetas DDD vacías).
+2. Cada líder abrió su feature/*, implementó dominio → infraestructura → application store → vistas → rutas, y abrió integración a develop.
+3. Los contextos no importan stores ajenos: consultan el mock por parcelId / profileId.
+4. Los conflictos de app.routes.ts se resolvieron en rebase para dejar todos los loadChildren.
 5. Pruebas de ejecución sobre Netlify + Azure; n8n se usó para avisos de contrato, evidencia y pago, sin sustituir el contrato REST del mock.
 
 
@@ -3543,7 +3543,7 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
   </tr>
   <tr>
     <td colspan="5">Sprint 2 Review Summary</td>
-    <td colspan="8">Se implementaron y desplegaron la aplicación web Angular (<code>allpatek-webapp</code>) y el mock de servicios (<code>allpatek-platform-mock</code>) en Netlify y Azure, cubriendo los bounded contexts de parcelas, acuerdos, custodia Escrow, evidencias y alertas. La revisión docente de TB1/Sprint 2, no obstante, identificó brechas de proceso, modelado y evidencia que deben cerrarse en este sprint: versiones incorrectas en los releases de GitHub; tareas del Sprint 2 que permanecían en To-Do; distribución desigual de commits entre los cinco integrantes; carátula aún incompleta respecto al formato institucional y mes de entrega desactualizado; persistencia de tipos de datos primitivos en los diagramas de clases, con clases y value objects aislados sin relación; orden de exposición que no parte de los bounded contexts core, luego los de soporte y al final los genéricos; diagrama de componentes del frontend insuficiente; Student Outcome incompleto, porque no todos los integrantes registran acciones realizadas por cada entrega; uso de un término no admitido por la guía en lugar de «requisitos»; tratamiento de Domain-Driven Design (DDD) como metodología en lugar de enfoque de diseño de software; y ausencia del video de exposición de la entrega.</td>
+    <td colspan="8">Se implementaron y desplegaron la aplicación web Angular (allpatek-webapp) y el mock de servicios (allpatek-platform-mock) en Netlify y Azure, cubriendo los bounded contexts de parcelas, acuerdos, custodia Escrow, evidencias y alertas. La revisión docente de TB1/Sprint 2, no obstante, identificó brechas de proceso, modelado y evidencia que deben cerrarse en este sprint: versiones incorrectas en los releases de GitHub; tareas del Sprint 2 que permanecían en To-Do; distribución desigual de commits entre los cinco integrantes; carátula aún incompleta respecto al formato institucional y mes de entrega desactualizado; persistencia de tipos de datos primitivos en los diagramas de clases, con clases y value objects aislados sin relación; orden de exposición que no parte de los bounded contexts core, luego los de soporte y al final los genéricos; diagrama de componentes del frontend insuficiente; Student Outcome incompleto, porque no todos los integrantes registran acciones realizadas por cada entrega; uso de un término no admitido por la guía en lugar de «requisitos»; tratamiento de Domain-Driven Design (DDD) como metodología en lugar de enfoque de diseño de software; y ausencia del video de exposición de la entrega.</td>
   </tr>
   <tr>
     <td colspan="5">Sprint 2 Retrospective Summary</td>
@@ -3637,7 +3637,7 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
 
 #### 5.2.3.3. Sprint Backlog 3
 
-El objetivo principal del **Sprint 3** es publicar la **primera versión de los Web Services** internos en `allpatek-platform` (Java / Spring Boot / MySQL). El alcance de este Sprint Backlog es solo el backend: endpoints REST y  persistencia JPA.
+El objetivo principal del **Sprint 3** es publicar la **primera versión de los Web Services** internos en allpatek-platform (Java / Spring Boot / MySQL). El alcance de este Sprint Backlog es solo el backend: endpoints REST y  persistencia JPA.
 
 
 <div align="center">
@@ -3661,7 +3661,7 @@ El objetivo principal del **Sprint 3** es publicar la **primera versión de los 
 </p>
 
 * **Figura 5.2.3.3.1.** Captura del tablero del Sprint 3 en la herramienta de control, con el estado de las tareas.
-* **URL pública del Board:** [Tablero Trello TerraNova](https://trello.com/invite/b/6af3adfe4e9931bf475e1cc0/ATTIa72fe0d2bbda469b2e799bd8388d45fc57634FE6/allpatek-sprint-03)
+* **URL pública del Board:** <a href="https://trello.com/invite/b/6af3adfe4e9931bf475e1cc0/ATTIa72fe0d2bbda469b2e799bd8388d45fc57634FE6/allpatek-sprint-03" style="text-decoration: none;">Tablero Trello TerraNova</a>
 
 ### Tabla de Control de Estado del Sprint Backlog 3
 
@@ -3669,26 +3669,26 @@ El objetivo principal del **Sprint 3** es publicar la **primera versión de los 
 | Sprint | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
 | **Sprint 3** | **US06** | Publicación y geolocalización de lote agrícola | **T001** | Listar parcelas del catálogo | Implementar el listado de parcelas en Spring Boot y responder 200 OK con colección JSON, incluso vacía. | 6 | Raymundo Villarroel, Abigail Nadhim | Done |
-| **Sprint 3** | **US06** | Publicación y geolocalización de lote agrícola | **T002** | Registrar, editar y eliminar parcelas | Exponer alta, edición y borrado de parcela con características y ubicación (`201`, `409`, `200`, `204`, `404`). | 6 | Raymundo Villarroel, Abigail Nadhim | Done |
-| **Sprint 3** | **US06** | Publicación y geolocalización de lote agrícola | **T003** | Documentar el catálogo de parcelas | Publicar el tag `parcels` en Swagger UI con verbos, parámetros y ejemplos de respuesta 200. | 4 | Raymundo Villarroel, Abigail Nadhim | Done |
-| **Sprint 3** | **US08** | Aceptación de propuesta y firma de contrato digital Escrow | **T004** | Registrar la firma digital del contrato | Implementar GET/POST `/api/v1/agreements` y PUT `/agreements/{id}` para registrar la aceptación del productor y del comerciante. | 6 | Orellana Rodríguez, Mel Andree | Done |
-| **Sprint 3** | **US08** | Aceptación de propuesta y firma de contrato digital Escrow | **T005** | Documentar el API de acuerdos | Publicar el tag `agreements` en Swagger UI con el cuerpo del acuerdo y las respuestas 200/201. | 4 | Orellana Rodríguez, Mel Andree | Done |
-| **Sprint 3** | **US16** | Registro de perfil corporativo y validación fiscal | **T006** | Consultar y actualizar el perfil corporativo | Implementar consulta y actualización de perfil con datos de empresa (`CompanyDetails`) y correo (`EmailAddress`), más `/health` y `/v3/api-docs`. | 5 | Orellana Rodríguez, Mel Andree | Done |
-| **Sprint 3** | **US03** | Aprobación de hito y orden de liberación de fondos | **T007** | Consultar el estado de custodia Escrow | Implementar GET/POST `/api/v1/wallets` y PUT `/wallets/{id}` para consultar el monto de demostración retenido y la tarjeta enmascarada. | 6 | Egocheaga Suyo, Miguel Angel | Done |
-| **Sprint 3** | **US03** | Aprobación de hito y orden de liberación de fondos | **T008** | Liberar fondos al aprobar un hito | Actualizar el estado de custodia en `/api/v1/wallets/{id}` cuando se aprueba un hito, registrando el monto de demostración asociado a la liberación. | 5 | Egocheaga Suyo, Miguel Angel | Done |
-| **Sprint 3** | **US03** | Aprobación de hito y orden de liberación de fondos | **T009** | Documentar el API de custodia | Publicar el tag `escrow` en Swagger UI con consulta de saldo, alta de wallet y actualización por id. | 4 | Egocheaga Suyo, Miguel Angel | Done |
-| **Sprint 3** | **US04** | Registro y carga de evidencias fotográficas por hito | **T010** | Registrar evidencias fotográficas por hito | Implementar el alta de evidencia de hito (notas, archivo, estado inicial `review`). | 6 | Vera Solsol, Nayely Macarena | Done |
-| **Sprint 3** | **US14** | Revisión y observación técnica de evidencias de hito | **T011** | Revisar el estado de las evidencias | Permitir al comerciante actualizar el estado a `verified` o `accepted` y conservar el registro asociado a la parcela. | 5 | Vera Solsol, Nayely Macarena | Done |
-| **Sprint 3** | **US14** | Revisión y observación técnica de evidencias de hito | **T012** | Documentar el API de evidencias | Publicar el tag `tracking` en Swagger UI con GET/POST de evidencias y PUT por id, incluidos los estados de revisión. | 4 | Vera Solsol, Nayely Macarena | Done |
-| **Sprint 3** | **US05** | Recepción de alertas climáticas de riesgo | **T013** | Emitir alertas climáticas de las parcelas | Calcular lecturas climáticas a partir de las coordenadas de las parcelas contratadas y de Open-Meteo, con filtro opcional `ownerId`. | 6 | Atauje Barreto, Alexander Sebastián | Done |
-| **Sprint 3** | **US05** | Recepción de alertas climáticas de riesgo | **T014** | Documentar el API de alertas | Publicar el tag `alerts` en Swagger UI con el query `ownerId` y el ejemplo de respuesta de lecturas. | 4 | Atauje Barreto, Alexander Sebastián | Done |
-| **Sprint 3** | **US06** | Publicación y geolocalización de lote agrícola | **T015** | Publicar la primera versión de Web Services | Configurar perfil `prod`, variables de MySQL y comprobar `/health`, Swagger y una operación persistente de parcelas en el entorno de operación. | 6 | Raymundo Villarroel, Abigail Nadhim | Done |
+| **Sprint 3** | **US06** | Publicación y geolocalización de lote agrícola | **T002** | Registrar, editar y eliminar parcelas | Exponer alta, edición y borrado de parcela con características y ubicación (201, 409, 200, 204, 404). | 6 | Raymundo Villarroel, Abigail Nadhim | Done |
+| **Sprint 3** | **US06** | Publicación y geolocalización de lote agrícola | **T003** | Documentar el catálogo de parcelas | Publicar el tag parcels en Swagger UI con verbos, parámetros y ejemplos de respuesta 200. | 4 | Raymundo Villarroel, Abigail Nadhim | Done |
+| **Sprint 3** | **US08** | Aceptación de propuesta y firma de contrato digital Escrow | **T004** | Registrar la firma digital del contrato | Implementar GET/POST /api/v1/agreements y PUT /agreements/{id} para registrar la aceptación del productor y del comerciante. | 6 | Orellana Rodríguez, Mel Andree | Done |
+| **Sprint 3** | **US08** | Aceptación de propuesta y firma de contrato digital Escrow | **T005** | Documentar el API de acuerdos | Publicar el tag agreements en Swagger UI con el cuerpo del acuerdo y las respuestas 200/201. | 4 | Orellana Rodríguez, Mel Andree | Done |
+| **Sprint 3** | **US16** | Registro de perfil corporativo y validación fiscal | **T006** | Consultar y actualizar el perfil corporativo | Implementar consulta y actualización de perfil con datos de empresa (CompanyDetails) y correo (EmailAddress), más /health y /v3/api-docs. | 5 | Orellana Rodríguez, Mel Andree | Done |
+| **Sprint 3** | **US03** | Aprobación de hito y orden de liberación de fondos | **T007** | Consultar el estado de custodia Escrow | Implementar GET/POST /api/v1/wallets y PUT /wallets/{id} para consultar el monto de demostración retenido y la tarjeta enmascarada. | 6 | Egocheaga Suyo, Miguel Angel | Done |
+| **Sprint 3** | **US03** | Aprobación de hito y orden de liberación de fondos | **T008** | Liberar fondos al aprobar un hito | Actualizar el estado de custodia en /api/v1/wallets/{id} cuando se aprueba un hito, registrando el monto de demostración asociado a la liberación. | 5 | Egocheaga Suyo, Miguel Angel | Done |
+| **Sprint 3** | **US03** | Aprobación de hito y orden de liberación de fondos | **T009** | Documentar el API de custodia | Publicar el tag escrow en Swagger UI con consulta de saldo, alta de wallet y actualización por id. | 4 | Egocheaga Suyo, Miguel Angel | Done |
+| **Sprint 3** | **US04** | Registro y carga de evidencias fotográficas por hito | **T010** | Registrar evidencias fotográficas por hito | Implementar el alta de evidencia de hito (notas, archivo, estado inicial review). | 6 | Vera Solsol, Nayely Macarena | Done |
+| **Sprint 3** | **US14** | Revisión y observación técnica de evidencias de hito | **T011** | Revisar el estado de las evidencias | Permitir al comerciante actualizar el estado a verified o accepted y conservar el registro asociado a la parcela. | 5 | Vera Solsol, Nayely Macarena | Done |
+| **Sprint 3** | **US14** | Revisión y observación técnica de evidencias de hito | **T012** | Documentar el API de evidencias | Publicar el tag tracking en Swagger UI con GET/POST de evidencias y PUT por id, incluidos los estados de revisión. | 4 | Vera Solsol, Nayely Macarena | Done |
+| **Sprint 3** | **US05** | Recepción de alertas climáticas de riesgo | **T013** | Emitir alertas climáticas de las parcelas | Calcular lecturas climáticas a partir de las coordenadas de las parcelas contratadas y de Open-Meteo, con filtro opcional ownerId. | 6 | Atauje Barreto, Alexander Sebastián | Done |
+| **Sprint 3** | **US05** | Recepción de alertas climáticas de riesgo | **T014** | Documentar el API de alertas | Publicar el tag alerts en Swagger UI con el query ownerId y el ejemplo de respuesta de lecturas. | 4 | Atauje Barreto, Alexander Sebastián | Done |
+| **Sprint 3** | **US06** | Publicación y geolocalización de lote agrícola | **T015** | Publicar la primera versión de Web Services | Configurar perfil prod, variables de MySQL y comprobar /health, Swagger y una operación persistente de parcelas en el entorno de operación. | 6 | Raymundo Villarroel, Abigail Nadhim | Done |
 
 
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
-En el Sprint 3 se implementó la primera versión de los Web Services en `allpatek-platform` (Java / Spring Boot). Cada bounded context del Sprint Backlog 3 tiene su rama `feature/*`; abajo se listan los commits de implementación de ese repositorio.
+En el Sprint 3 se implementó la primera versión de los Web Services en allpatek-platform (Java / Spring Boot). Cada bounded context del Sprint Backlog 3 tiene su rama feature/*; abajo se listan los commits de implementación de ese repositorio.
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 | --- | --- | --- | --- | --- | --- |
@@ -3820,7 +3820,7 @@ En el Sprint 3 se implementó la primera versión de los Web Services en `allpat
 | allpatek-platform | feature/escrow-payments | 4f9bf28 | feat: implement query handling for wallets | Implement WalletQueryService with a read-only listing. | 2026-11-07 |
 | allpatek-platform | feature/escrow-payments | a1fd848 | feat: build the wallet REST resource | Add WalletResource as the REST payload. | 2026-11-07 |
 | allpatek-platform | feature/escrow-payments | ba1d7c3 | feat: build wallet resource mapping | Add WalletResourceAssembler to map wallets to REST resources. | 2026-11-07 |
-| allpatek-platform | feature/escrow-payments | e401018 | feat: register wallet routes | Add WalletsController with GET/POST `/api/v1/wallets` and PUT `/wallets/{id}`. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | e401018 | feat: register wallet routes | Add WalletsController with GET/POST /api/v1/wallets and PUT /wallets/{id}. | 2026-11-07 |
 | allpatek-platform | feature/tracking-evidence | d1fa5c3 | feat: attach evidence routes under | Register REST controller endpoints and request mappings for evidence | 2026-11-08 |
 | allpatek-platform | feature/tracking-evidence | 7976d83 | feat: ship evidence resource mapping | Map domain entities to API resource DTOs and responses| 2026-11-08 |
 | allpatek-platform | feature/tracking-evidence | 006b15c | feat: ship the evidence REST payload |Define JSON request schemas and payload validation rules  | 2026-11-08 |
@@ -3838,7 +3838,7 @@ En el Sprint 3 se implementó la primera versión de los Web Services en `allpat
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
 
- Estructura del repositorio de GitHub del proyecto `allpatek-platform` bajo la organización `upc-pre-202620-1asi0729-7753-TerraNova`, mostrando las carpetas fuente, commits recientes con estándares de Conventional Commits y la configuración de build con Maven.
+ Estructura del repositorio de GitHub del proyecto allpatek-platform bajo la organización upc-pre-202620-1asi0729-7753-TerraNova, mostrando las carpetas fuente, commits recientes con estándares de Conventional Commits y la configuración de build con Maven.
 
 
 <p align="center">
@@ -3846,7 +3846,7 @@ En el Sprint 3 se implementó la primera versión de los Web Services en `allpat
 </p>
 
 
-Interfaz de documentación de API Swagger UI para `Allpatek Platform REST API`, detallando los endpoints disponibles agrupados por los módulos `escrow` y `parcels`.
+Interfaz de documentación de API Swagger UI para Allpatek Platform REST API, detallando los endpoints disponibles agrupados por los módulos escrow y parcels.
 
 
 <p align="center">
@@ -3854,7 +3854,7 @@ Interfaz de documentación de API Swagger UI para `Allpatek Platform REST API`, 
 </p>
 
 
-Prueba del endpoint `POST /api/v1/parcels` en Swagger UI, donde se envía una solicitud JSON con la información necesaria para registrar una nueva parcela en el sistema.
+Prueba del endpoint POST /api/v1/parcels en Swagger UI, donde se envía una solicitud JSON con la información necesaria para registrar una nueva parcela en el sistema.
 
 
 <p align="center">
@@ -3862,20 +3862,20 @@ Prueba del endpoint `POST /api/v1/parcels` en Swagger UI, donde se envía una so
 </p>
 
 
-Ejecución del endpoint `GET /api/v1/wallets` en Swagger UI, mostrando una respuesta exitosa (`HTTP 200`) con la estructura del objeto JSON para las billeteras digitales registradas.
+Ejecución del endpoint GET /api/v1/wallets en Swagger UI, mostrando una respuesta exitosa (HTTP 200) con la estructura del objeto JSON para las billeteras digitales registradas.
 
 <p align="center">
   <img src="assets/chapter-05/swagger03.png" alt="swagger" width="850" />
 </p>
 
 
-Consulta al endpoint `GET /api/v1/alerts?ownerId=1` en Swagger UI, retornando un código de estado `HTTP 200` y la respuesta JSON con métricas climáticas y alertas generadas para la parcela.
+Consulta al endpoint GET /api/v1/alerts?ownerId=1 en Swagger UI, retornando un código de estado HTTP 200 y la respuesta JSON con métricas climáticas y alertas generadas para la parcela.
 
 <p align="center">
   <img src="assets/chapter-05/swagger04.png" alt="swagger" width="850" />
 </p>
 
-Vista del panel de phpMyAdmin mostrando la estructura de la base de datos `allpatek-os` con sus tablas correspondientes (`agreements`, `evidence`, `parcels`, `profiles` y `wallets`).
+Vista del panel de phpMyAdmin mostrando la estructura de la base de datos allpatek-os con sus tablas correspondientes (agreements, evidence, parcels, profiles y wallets).
 
 
 <p align="center">
@@ -3885,57 +3885,79 @@ Vista del panel de phpMyAdmin mostrando la estructura de la base de datos `allpa
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-
-En el Sprint 3 se documentó con **OpenAPI / Swagger UI** la primera versión de los Web Services internos (`allpatek-platform`, Java / Spring Boot).
-
+Los Web Services de este sprint (allpatek-platform) se documentaron con springdoc. La spec OpenAPI es la misma en local y en Render: si un endpoint aparece en Swagger, está en la API. Lo que cubre el sprint está en la matriz de abajo.
 
 ### Entornos de servicio
 
-* **URL base local:** `http://localhost:8090/api/v1`
-* **Swagger UI:** `http://localhost:8090/swagger-ui/index.html`
+* **Swagger UI (publicado):** <a href="https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html" style="text-decoration: none;">https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html</a>
+* **URL base publicada:** <a href="https://allpatek-platform.onrender.com/api/v1" style="text-decoration: none;">https://allpatek-platform.onrender.com/api/v1</a>
+* **URL base local:** <a href="http://localhost:8090/api/v1" style="text-decoration: none;">http://localhost:8090/api/v1</a>
+* **Swagger UI local:** <a href="http://localhost:8090/swagger-ui/index.html" style="text-decoration: none;">http://localhost:8090/swagger-ui/index.html</a>
 
 ### 2. Repositorio y commits de documentación
 
-* **Repositorio de Web Services:** [allpatek-platform](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform)
+* **Repositorio de Web Services:** <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform" style="text-decoration: none;">allpatek-platform</a>
 
 
 ### 3. Matriz de endpoints del alcance del Sprint
 
+> **Ruta base (BASE):** <a href="https://allpatek-platform.onrender.com/api/v1" style="text-decoration: none;">https://allpatek-platform.onrender.com/api/v1</a>
+
 | US | Endpoint | Verbo | Parámetros | Acción | Ejemplo de respuesta |
 | :---: | :--- | :---: | :--- | :--- | :--- |
-| **US06** | `/parcels` | `GET` | Header `Accept-Language` (opcional) | Listar parcelas | Colección JSON, vacía `[]` si no hay ofertas · HTTP 200 |
-| **US06** | `/parcels` | `POST` | Body: `id`, `ownerId`, `name`, `location`, `area`, `soilType`, `campaignCost`, `crops` | Publicar parcela | Recurso creado · HTTP 201; `409` si el `id` ya existe |
-| **US06** | `/parcels/{id}` | `PUT` | Path `id`; mismo body | Editar parcela | Recurso actualizado · HTTP 200; `404` si no existe |
-| **US06** | `/parcels/{id}` | `DELETE` | Path `id` | Eliminar parcela | Sin cuerpo · HTTP 204; `404` al repetir el borrado |
-| **US08** | `/agreements` | `GET` | Header `Accept-Language` (opcional) | Listar contratos | Colección con `merchantSigned` y `farmerSigned` · HTTP 200 |
-| **US08** | `/agreements` | `POST` | Body: `parcelId`, `merchantProfileId`, `merchantName`, banderas de firma | Registrar acuerdo | Recurso creado · HTTP 201 |
-| **US08** | `/agreements/{id}` | `PUT` | Path `id`; body con `merchantSigned` / `farmerSigned` | Registrar aceptación | Recurso actualizado · HTTP 200 |
-| **US16** | `/profiles/{id}` | `GET` | Path `id` (Long) | Consultar un perfil | Recurso con `email` y datos de empresa · HTTP 200; `404` si no existe |
-| **US16** | `/profiles/{id}` | `PUT` | Path `id`; body `UpdateProfileResource` | Actualizar perfil corporativo | Recurso actualizado · HTTP 200 |
-| **US03** | `/wallets` | `POST` | Body: `profileId`, `holder`, `last4`, `expiry`, `brand`, `openingCents` | Registrar wallet de demostración | Recurso creado · HTTP 201 |
-| **US03** | `/wallets/{id}` | `PUT` | Path `id`; mismo body | Actualizar estado de custodia | Recurso actualizado · HTTP 200 |
-| **US04** | `/evidence` | `POST` | Body: `parcelId`, `milestone` (1–4), `notes`, `fileName`, `image` | Registrar evidencia de hito | Recurso con `status: review` · HTTP 201 |
-| **US14** | `/evidence/{id}` | `PUT` | Path `id`; body con `status` (`review`, `verified`, `accepted`) | Revisar evidencia | Recurso actualizado · HTTP 200 |
-| **US05** | `/alerts` | `GET` | Query `ownerId` (Long, opcional) | Lecturas climáticas de parcelas | Colección de lecturas · HTTP 200 |
+| **US06** | /parcels | GET | Header Accept-Language (opcional) | Listar parcelas | Colección JSON, vacía [] si no hay ofertas · HTTP 200 |
+| **US06** | /parcels | POST | Body: id, ownerId, name, location, area, soilType, campaignCost, crops | Publicar parcela | Recurso creado · HTTP 201; 409 si el id ya existe |
+| **US06** | /parcels/{id} | PUT | Path id; mismo body | Editar parcela | Recurso actualizado · HTTP 200; 404 si no existe |
+| **US06** | /parcels/{id} | DELETE | Path id | Eliminar parcela | Sin cuerpo · HTTP 204; 404 al repetir el borrado |
+| **US08** | /agreements | GET | Header Accept-Language (opcional) | Listar contratos | Colección con merchantSigned y farmerSigned · HTTP 200 |
+| **US08** | /agreements | POST | Body: parcelId, merchantProfileId, merchantName, banderas de firma | Registrar acuerdo | Recurso creado · HTTP 201 |
+| **US08** | /agreements/{id} | PUT | Path id; body con merchantSigned / farmerSigned | Registrar aceptación | Recurso actualizado · HTTP 200 |
+| **US16** | /profiles/{id} | GET | Path id (Long) | Consultar un perfil | Recurso con email y datos de empresa · HTTP 200; 404 si no existe |
+| **US16** | /profiles/{id} | PUT | Path id; body UpdateProfileResource | Actualizar perfil corporativo | Recurso actualizado · HTTP 200 |
+| **US03** | /wallets | POST | Body: profileId, holder, last4, expiry, brand, openingCents | Registrar wallet de demostración | Recurso creado · HTTP 201 |
+| **US03** | /wallets/{id} | PUT | Path id; mismo body | Actualizar estado de custodia | Recurso actualizado · HTTP 200 |
+| **US04** | /evidence | POST | Body: parcelId, milestone (1–4), notes, fileName, image | Registrar evidencia de hito | Recurso con status: review · HTTP 201 |
+| **US14** | /evidence/{id} | PUT | Path id; body con status (review, verified, accepted) | Revisar evidencia | Recurso actualizado · HTTP 200 |
+| **US05** | /alerts | GET | Query ownerId (Long, opcional) | Lecturas climáticas de parcelas | Colección de lecturas · HTTP 200 |
 
 
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+El backend del Sprint 3 ya corría en local, pero para la revisión hacía falta una URL que no dependiera de localhost. Lo subimos a Render con Docker, desde la rama develop, y lo conectamos a MySQL 8.4. El chequeo público es Swagger: si esa página carga, la API está arriba.
+
+<table align="center" style="margin: 0 auto; text-align: center;">
+  <thead>
+    <tr>
+      <th style="text-align: center;">Producto</th>
+      <th style="text-align: center;">Tecnología</th>
+      <th style="text-align: center;">Repositorio</th>
+      <th style="text-align: center;">Versión en este Sprint</th>
+      <th style="text-align: center;">URL verificada</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center;"><strong>Web Services</strong></td>
+      <td style="text-align: center;">Java 27, Spring Boot 4, Spring Data JPA, MySQL 8.4</td>
+      <td style="text-align: center;"><a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform" target="_blank" style="text-decoration: none;">allpatek-platform</a></td>
+      <td style="text-align: center;">Primera versión de la API RESTful interna</td>
+      <td style="text-align: center;"><a href="https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html" target="_blank" style="text-decoration: none;">Swagger UI (Render)</a></td>
+    </tr>
+  </tbody>
+</table>
 
 #### Paso 1: Aprovisionamiento de la Base de Datos MySQL en Aiven Cloud
 
-Se creó una instancia gestionada de **MySQL 8.4** (`mysql-9db0808`) en Aiven Cloud dentro de la región *North America* (1 CPU, 1 GB RAM y 8 GB de almacenamiento), esperando a que su estado pasara a *Running* y verificando la estabilidad de sus métricas de consumo. Desde el panel *Connection information* se obtuvieron los parámetros de enlace público: *Host* (`mysql-9db0808-mel-d917.c.aivencloud.com`), *Port* (`18036`), *Database name* (`defaultdb`), usuario (`avnadmin`) y la política de cifrado obligatorio (`SSL mode: REQUIRED`).
-
+Se creó una instancia gestionada de **MySQL 8.4** (mysql-9db0808) en Aiven Cloud dentro de la región *North America* (1 CPU, 1 GB RAM y 8 GB de almacenamiento), esperando a que su estado pasara a *Running* y verificando la estabilidad de sus métricas de consumo. Desde el panel *Connection information* se obtuvieron los parámetros de enlace público: *Host* (mysql-9db0808-mel-d917.c.aivencloud.com), *Port* (18036), *Database name* (defaultdb), usuario (avnadmin) y la política de cifrado obligatorio (SSL mode: REQUIRED).
 
 <p align="center">
   <img src="assets/chapter-05/desplieguee01.png" alt="desplieguee01" width="750" />
 </p>
 
-
 #### Paso 2: Contenerización y Externalización de Configuración en GitHub
 
-En el repositorio del proyecto se incorporó un archivo `Dockerfile` multi-etapa para compilar el paquete `.jar` de Spring Boot utilizando Maven y ejecutarlo en un contenedor ligero exponiendo el puerto `8080`. Asimismo, se actualizó el archivo `application.properties` para leer las credenciales de base de datos mediante variables de entorno (`${DB_URL}`, `${DB_USERNAME}`, `${DB_PASSWORD}`), activar la generación automática de tablas (`spring.jpa.hibernate.ddl-auto=update`) y habilitar el acceso público a la interfaz de **Swagger UI** en producción, subiendo estos cambios a la rama `develop`.
+En el repositorio del proyecto se incorporó un archivo Dockerfile multi-etapa para compilar el paquete .jar de Spring Boot utilizando Maven y ejecutarlo en un contenedor ligero exponiendo el puerto 8080. Asimismo, se actualizó el archivo application.properties para leer las credenciales de base de datos mediante variables de entorno (DB_URL, DB_USERNAME, DB_PASSWORD), activar la generación automática de tablas (spring.jpa.hibernate.ddl-auto=update) y habilitar el acceso público a la interfaz de **Swagger UI** en producción, subiendo estos cambios a la rama develop.
 
 <p align="center">
   <img src="assets/chapter-05/desplieguee02.png" alt="desplieguee01" width="750" />
@@ -3943,30 +3965,30 @@ En el repositorio del proyecto se incorporó un archivo `Dockerfile` multi-etapa
 
 #### Paso 3: Creación y Configuración del Web Service en Render
 
-En la plataforma de Render se creó un nuevo **Web Service** denominado `allpatek-platform`, vinculado directamente al repositorio de GitHub en la rama `develop` y alojado en la región *Oregon (US West)* bajo el plan gratuito (`$0/month` - 512 MB RAM). Para la construcción del servicio se seleccionó **Docker** como entorno de ejecución (*Language*) y se configuró `./Dockerfile` como ruta de compilación.
+En la plataforma de Render se creó un nuevo **Web Service** denominado allpatek-platform, vinculado directamente al repositorio de GitHub en la rama develop y alojado en la región *Oregon (US West)* bajo el plan gratuito ($0/month - 512 MB RAM). Para la construcción del servicio se seleccionó **Docker** como entorno de ejecución (*Language*) y se configuró ./Dockerfile como ruta de compilación.
 
 <p align="center">
   <img src="assets/chapter-05/desplieguee03.png" alt="desplieguee01" width="750" />
 </p>
 
-
 #### Paso 4: Inyección de Variables de Entorno en Render
 
-Dentro de la sección *Environment Variables* del servicio en Render se registraron las credenciales de conexión hacia Aiven sin exponer información sensible en el código fuente, definiendo las claves `DB_URL` (`jdbc:mysql://mysql-9db0808-mel-d917.c.aivencloud.com:18036/defaultdb?sslMode=REQUIRED&serverTimezone=UTC`), `DB_USERNAME` (`avnadmin`), `DB_PASSWORD` y `PORT` (`8080`).
+Dentro de la sección *Environment Variables* del servicio en Render se registraron las credenciales de conexión hacia Aiven sin exponer información sensible en el código fuente, definiendo las claves DB_URL, DB_USERNAME, DB_PASSWORD y PORT (8080).
 
 <p align="center">
   <img src="assets/chapter-05/desplieguee04.png" alt="desplieguee01" width="750" />
 </p>
 
-
 #### Paso 5: Despliegue y Verificación Pública de Swagger UI
 
-Tras lanzar el despliegue desde el último commit de la rama `develop`, el contenedor compiló la aplicación, estableció la conexión SSL con la base de datos MySQL en Aiven y levantó el servidor web en estado activo. Finalmente, se comprobó la disponibilidad operativa de la API accediendo a la interfaz interactiva de **Swagger UI** en la URL pública `https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html`, visualizando correctamente los endpoints expuestos del sistema.
+Tras lanzar el despliegue desde el último commit de la rama develop, el contenedor compiló la aplicación, estableció la conexión SSL con la base de datos MySQL en Aiven y levantó el servidor web en estado activo. Finalmente, se comprobó la disponibilidad operativa de la API accediendo a la interfaz interactiva de **Swagger UI**.
+
+* **Swagger UI:** <a href="https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html" style="text-decoration: none;">https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html</a>
+* **API:** <a href="https://allpatek-platform.onrender.com/api/v1" style="text-decoration: none;">https://allpatek-platform.onrender.com/api/v1</a>
 
 <p align="center">
-  <img src="assets/chapter-05/desplieguee05.png" alt="desplieguee01" width="750" />
+  <img src="assets/chapter-05/desplieguee05.png" alt="Swagger UI de allpatek-platform en Render" width="750" />
 </p>
-
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 ### 5.2.4. Sprint 4
@@ -4135,7 +4157,7 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
     </tr>
     <tr>
       <td align="center">URL del video</td>
-      <td align="center"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQCXWmxVVzRyTKLNnMjuRh8cAanVcxuNzSX2roCt7lOrZm0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QWoAks" target="_blank">Ver entrevista de validación: Entrevista Agricultor 3</a></td>
+      <td align="center"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQCXWmxVVzRyTKLNnMjuRh8cAanVcxuNzSX2roCt7lOrZm0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QWoAks" target="_blank" style="text-decoration: none;">Ver entrevista de validación: Entrevista Agricultor 3</a></td>
     </tr>
     <tr>
       <td align="center"><b>Fotografía</b></td>
@@ -4147,7 +4169,7 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
     </tr>
     <tr>
       <td align="center">Fuente del perfil</td>
-      <td align="center"><a href="#entrevista-[N]-rosa-flores">Entrevista inicial de Rosa Flores</a></td>
+      <td align="center"><a href="#entrevista-[N]-rosa-flores" style="text-decoration: none;">Entrevista inicial de Rosa Flores</a></td>
     </tr>
   </tbody>
 </table>
@@ -4206,7 +4228,7 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
     </tr>
     <tr>
       <td align="center">URL del video</td>
-      <td align="center"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQDhDCYqAhxbSKhg92qWZNqhAYT4gneD9GoPPK-jzUowbr8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;e=vkukAa" target="_blank">Ver entrevista de validación: Entrevista Agricultor Dos</a></td>
+      <td align="center"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQDhDCYqAhxbSKhg92qWZNqhAYT4gneD9GoPPK-jzUowbr8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;e=vkukAa" target="_blank" style="text-decoration: none;">Ver entrevista de validación: Entrevista Agricultor Dos</a></td>
     </tr>
     <tr>
       <td align="center"><b>Fotografía</b></td>
@@ -4218,7 +4240,7 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
     </tr>
     <tr>
       <td align="center">Fuente del perfil</td>
-      <td align="center"><a href="#entrevista-2-gustavo-adolfo-suyo">Entrevista inicial de Gustavo Adolfo Suyo (sección 2.2.2)</a></td>
+      <td align="center"><a href="#entrevista-2-gustavo-adolfo-suyo" style="text-decoration: none;">Entrevista inicial de Gustavo Adolfo Suyo (sección 2.2.2)</a></td>
     </tr>
   </tbody>
 </table>
@@ -4279,7 +4301,7 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
     <tr>
       <td align="center">URL del video</td>
       <td align="center">
-        <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQA3Ki7VhhDdQIWWQzMUBKdlAX8OWAtP6xUPKwXCyBXh3w0?e=9NLXS5" target="_blank">Video evidencia</a>
+        <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQA3Ki7VhhDdQIWWQzMUBKdlAX8OWAtP6xUPKwXCyBXh3w0?e=9NLXS5" target="_blank" style="text-decoration: none;">Video evidencia</a>
       </td>
     </tr>
     <tr>
@@ -4350,7 +4372,7 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
     </tr>
     <tr>
       <td align="center">URL del video</td>
-      <td align="center">Archivo local verificado: <code>Segunda Entrevista COmerciante.mp4</code>. Pendiente de incorporar el enlace compartido de esta grabación; el segundo enlace recibido repite el video del agricultor.</td>
+      <td align="center">Archivo local verificado: Segunda Entrevista COmerciante.mp4. Pendiente de incorporar el enlace compartido de esta grabación; el segundo enlace recibido repite el video del agricultor.</td>
     </tr>
     <tr>
       <td align="center"><b>Fotografía</b></td>
@@ -4362,7 +4384,7 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
     </tr>
     <tr>
       <td align="center">Fuente del perfil</td>
-      <td align="center"><a href="#entrevista-2-césar-hugo-egocheaga">Entrevista inicial de César Hugo Egocheaga (sección 2.2.2)</a></td>
+      <td align="center"><a href="#entrevista-2-césar-hugo-egocheaga" style="text-decoration: none;">Entrevista inicial de César Hugo Egocheaga (sección 2.2.2)</a></td>
     </tr>
   </tbody>
 </table>
@@ -4396,7 +4418,7 @@ Las tareas observadas coinciden con las guías de 5.3.1: exploración de la Land
 </div>
 
 **SITE o APP A EVALUAR:**  
-Landing Page de Allpatek (`allpatek-website`) y Web Application (`allpatek-webapp`), en conjunto con el recorrido de demostración publicado.
+Landing Page de Allpatek (allpatek-website) y Web Application (allpatek-webapp), en conjunto con el recorrido de demostración publicado.
 
 **TAREAS A EVALUAR:**
 
@@ -4523,7 +4545,7 @@ Mostrar antes de firmar un recuadro de condiciones mínimas (fecha de inicio, lu
 **Origen:** Tarea 6 (bóveda y evidencias). Testimonio de Irma Barreto Castro.
 
 **Problema:**  
-Irma consideró útiles las fotografías para comprobar el avance, pero indicó que le faltaban la fecha exacta de captura, la ubicación GPS y el estado del cultivo. La vista de revisión muestra la imagen y un estado (`review` / `verified` / `accepted`); el comerciante debe recordar o preguntar por WhatsApp cuándo y dónde se tomó la foto. Eso debilita la decisión de liberar un hito.
+Irma consideró útiles las fotografías para comprobar el avance, pero indicó que le faltaban la fecha exacta de captura, la ubicación GPS y el estado del cultivo. La vista de revisión muestra la imagen y un estado (review / verified / accepted); el comerciante debe recordar o preguntar por WhatsApp cuándo y dónde se tomó la foto. Eso debilita la decisión de liberar un hito.
 
 <p align="center">
   <img src="assets/chapter-05/heuristica05.png" alt="heuristica05" width="850" />
@@ -4562,7 +4584,7 @@ En esta sección se presenta el video "About-the-Product", una demostración aud
     
 | Tipo | Enlace del Video |
 | :--- | :--- |
-| **About the Product**  | [Enlace About the Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQC1ol8FG1iqRY-bGG2ue1M_AUxwB8p8jD8BnEUAGKaZdVA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=whZtiU) |
+| **About the Product**  | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQC1ol8FG1iqRY-bGG2ue1M_AUxwB8p8jD8BnEUAGKaZdVA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=whZtiU" style="text-decoration: none;">Enlace About the Product</a> |
 
     
 </div>
@@ -4607,7 +4629,7 @@ En esta sección se presenta el video "About-the-Team", un recurso audiovisual q
     
 | Tipo | Enlace del Video |
 | :--- | :--- |
-| **About the Team**  | [Enlace About the Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBcbq4xfH8tQr_ZPnlJKrMLAXb2-topoxDPFkdP2Z097vs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PB8hMC) |
+| **About the Team**  | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBcbq4xfH8tQr_ZPnlJKrMLAXb2-topoxDPFkdP2Z097vs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PB8hMC" style="text-decoration: none;">Enlace About the Team</a> |
 
     
 </div>
@@ -4621,15 +4643,15 @@ En esta sección se presenta el video "About-the-Team", un recurso audiovisual q
 
 
 # Bibliografía
-Fan, Q., & Salas Garcia, V. B. (2018). Information access and smallholder farmers' market participation in Peru. Journal of Agricultural Economics, 69(2), 476–494. https://doi.org/10.1111/1477-9552.12243
+Fan, Q., & Salas Garcia, V. B. (2018). Information access and smallholder farmers' market participation in Peru. Journal of Agricultural Economics, 69(2), 476–494. <a href="https://doi.org/10.1111/1477-9552.12243" style="text-decoration: none;">https://doi.org/10.1111/1477-9552.12243</a>
 
-Heikkinen, A. M. (2021). Climate change, power, and vulnerabilities in the Peruvian Highlands. Regional Environmental Change, 21(3), 82. https://doi.org/10.1007/s10113-021-01825-8
+Heikkinen, A. M. (2021). Climate change, power, and vulnerabilities in the Peruvian Highlands. Regional Environmental Change, 21(3), 82. <a href="https://doi.org/10.1007/s10113-021-01825-8" style="text-decoration: none;">https://doi.org/10.1007/s10113-021-01825-8</a>
 
-Heros, C., & De la Torre Ugarte, D. (2022). Política para el impulso de la Pequeña Agricultura Familiar. Consorcio de Investigación Económica y Social. https://cies.org.pe/investigacion/politica-para-el-impulso-de-la-pequena-agricultura-familiar/
+Heros, C., & De la Torre Ugarte, D. (2022). Política para el impulso de la Pequeña Agricultura Familiar. Consorcio de Investigación Económica y Social. <a href="https://cies.org.pe/investigacion/politica-para-el-impulso-de-la-pequena-agricultura-familiar/" style="text-decoration: none;">https://cies.org.pe/investigacion/politica-para-el-impulso-de-la-pequena-agricultura-familiar/</a>
 
-Otsuka, K., Nakano, Y., & Takahashi, K. (2016). Contract farming in developed and developing countries. Annual Review of Resource Economics, 8(1), 353–376. https://doi.org/10.1146/annurev-resource-100815-095459
+Otsuka, K., Nakano, Y., & Takahashi, K. (2016). Contract farming in developed and developing countries. Annual Review of Resource Economics, 8(1), 353–376. <a href="https://doi.org/10.1146/annurev-resource-100815-095459" style="text-decoration: none;">https://doi.org/10.1146/annurev-resource-100815-095459</a>
 
-Tambet, H., & Stopnitzky, Y. (2021). Climate adaptation and conservation agriculture among Peruvian farmers. American Journal of Agricultural Economics, 103(3), 900–922. https://doi.org/10.1111/ajae.12177
+Tambet, H., & Stopnitzky, Y. (2021). Climate adaptation and conservation agriculture among Peruvian farmers. American Journal of Agricultural Economics, 103(3), 900–922. <a href="https://doi.org/10.1111/ajae.12177" style="text-decoration: none;">https://doi.org/10.1111/ajae.12177</a>
 
 
 
@@ -4641,7 +4663,7 @@ Evidencia del desempeño individual del equipo **TerraNova** evaluado para el hi
 
 | Entrega | Documento de Rendimiento | Archivos Adjuntos |
 | :---: | :--- | :---: |
-| **AV1** | `upc-pre-202620-1asi0729-7753-terranova-performance-av1` | `upc-pre-202620-1asi0729-7753-terranova-performance-av1.docx`<br>`upc-pre-202620-1asi0729-7753-terranova-performance-av1.pdf` |
+| **AV1** | upc-pre-202620-1asi0729-7753-terranova-performance-av1 | upc-pre-202620-1asi0729-7753-terranova-performance-av1.docx<br>upc-pre-202620-1asi0729-7753-terranova-performance-av1.pdf |
 
 ---
 
@@ -4654,8 +4676,8 @@ Repositorios oficiales en la organización pública de **GitHub** para el hito *
 
 | Producto / Artefacto | Repositorio Oficial | Rama Principal | Estado | Enlace al Repositorio |
 | :--- | :--- | :---: | :---: | :---: |
-| **Project Report** | `allpatek-report` | `main` | Active | [Ver Repositorio del Informe](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-report) |
-| **Landing Page** | `allpatek-website` | `main` | Deployed | [Ver Repositorio Landing Page](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website) |
+| **Project Report** | allpatek-report | main | Active | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-report" style="text-decoration: none;">Ver Repositorio del Informe</a> |
+| **Landing Page** | allpatek-website | main | Deployed | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website" style="text-decoration: none;">Ver Repositorio Landing Page</a> |
 
 </div>
 
@@ -4667,7 +4689,7 @@ Acceso al sitio web estático (Landing Page) desplegado públicamente para la en
 
 | Producto Digital | Entorno / Provider | Estado | Dirección URL de Acceso Público |
 | :--- | :---: | :---: | :---: |
-| **Landing Page (ALLPATEK)** | GitHub Pages | Live | [https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/](https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/) |
+| **Landing Page (ALLPATEK)** | GitHub Pages | Live | <a href="https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/" style="text-decoration: none;">https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/</a> |
 
 ---
 
@@ -4679,7 +4701,7 @@ Seguimiento interactivo de tareas y planificación del Product Backlog / Sprint 
 
 | Artefacto de Gestión | Herramienta | Enlace Público al Tablero |
 | :--- | :---: | :---: |
-| **Product Backlog & Sprint 1 Board** | Trello | [Ver Tablero Trello - TerraNova ALLPATEK](https://trello.com/b/A0csigUo/terranova) |
+| **Product Backlog & Sprint 1 Board** | Trello | <a href="https://trello.com/b/A0csigUo/terranova" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a> |
 
 </div>
 
