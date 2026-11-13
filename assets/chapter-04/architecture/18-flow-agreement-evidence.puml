@@ -1,0 +1,35 @@
+@startuml
+title Allpatek | Agreement and Milestone Flow - Angular Demo
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 15
+skinparam dpi 140
+hide footbox
+actor Merchant
+actor Farmer
+participant "Angular SPA" as Web
+database "JSON Server /\nAzure Mock API" as Mock
+participant "n8n webhook\n(external)" as N8n
+
+Merchant -> Web : Open parcel and accept terms
+Web -> Mock : Save agreement with merchantSigned
+Farmer -> Web : Open request and confirm on /agreements
+Web -> Mock : Save farmerSigned
+Web -> N8n : Request agreement notice after save
+note over Web,Mock : Vault lists agreements with both flags.\nNo bank confirmation or Spring connection.
+Farmer -> Web : Attach photo to an open milestone
+Web -> N8n : Request evidence notice before save
+Web -> Mock : Save evidence as review
+Merchant -> Web : Verify evidence on /evidence/review
+Web -> Mock : Update review to verified
+Merchant -> Web : Release milestone on /escrow
+note right of Web : Demo card and sufficient\nremaining balance required.
+Web -> Mock : PUT reduced evidence as accepted
+Web -> N8n : Request payout notice if UI reports success
+note over Web,Mock
+  Release is a status change, not a funds transfer.
+  The reduced PUT omits notes and file data;
+  its HTTP error can be reported as success.
+end note
+@enduml

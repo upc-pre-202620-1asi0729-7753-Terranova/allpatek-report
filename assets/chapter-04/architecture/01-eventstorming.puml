@@ -2,112 +2,104 @@
 !pragma layout smetana
 skinparam backgroundColor white
 skinparam defaultFontName SansSerif
-skinparam defaultFontSize 14
+skinparam defaultFontSize 13
 skinparam shadowing false
 skinparam ArrowColor #476050
-skinparam dpi 140
-title Allpatek | Design-Level EventStorming by bounded context
+skinparam RectangleBorderColor #5D6D67
+skinparam wrapWidth 200
+skinparam dpi 135
 
+title Allpatek | Design-Level EventStorming (allpatek-platform)
 left to right direction
 
-rectangle "Farmer\n[Actor]" as farmer #FFF2CC
-rectangle "Merchant\n[Actor]" as merchant #FFF2CC
-rectangle "Payment provider\n[External actor]" as provider #FFF2CC
+rectangle "Farmer" as farmer #F8BBD0
+rectangle "Merchant" as merchant #F8BBD0
 
-package "Land Management" {
-  rectangle "PublishPlot\n[Command]" as publish #D9EAF7
-  rectangle "Plot\n[Aggregate root]" as plot #FFF2CC
-  rectangle "PlotPublished\n[Domain event]" as published #F8CBAD
-  rectangle "AvailablePlots\n[Read model]" as catalog #E2F0D9
-  rectangle "ReservePlot\n[Command]" as reserve #D9EAF7
-  rectangle "PlotReserved\n[Domain event]" as reserved #F8CBAD
+package "parcels" #F7FAF8 {
+  rectangle "CreateParcelCommand\nUpdateParcelCommand\nDeleteParcelCommand" as parcelCmd #64B5F6
+  rectangle "Parcel" as parcelAgg #FFEE58
+  rectangle "GetAllParcelsQuery" as parcelQ #81C784
+  rectangle "MarkParcelInProductionCommand" as markCmd #64B5F6
 }
 
-package "Season Contracting" {
-  rectangle "SubmitProposal\n[Command | US07]" as propose #D9EAF7
-  rectangle "Proposal\n[Aggregate root]" as proposal #FFF2CC
-  rectangle "ProposalSubmitted\n[Domain event]" as proposed #F8CBAD
-  rectangle "AcceptOrCounterProposal\n[Command | US21]" as negotiate #D9EAF7
-  rectangle "TermsAgreed\n[Domain event]" as agreed #F8CBAD
-  rectangle "CreateTemporaryReservation\n[Policy]" as hold #E4DFEC
-  rectangle "AcceptContract\n[Command | US08]" as accept #D9EAF7
-  rectangle "Contract\n[Aggregate root]" as contract #FFF2CC
-  rectangle "ContractAccepted\n[Domain event]" as accepted #F8CBAD
-  rectangle "ActivateContract\n[Command]" as activate #D9EAF7
-  rectangle "ContractActivated\n[Domain event]" as activated #F8CBAD
-  rectangle "ApproveMilestone\n[Command]" as approve #D9EAF7
-  rectangle "MilestoneApproved\n[Domain event]" as approved #F8CBAD
+package "agreements" #F7FAF8 {
+  rectangle "SaveAgreementCommand\nmerchantSigned\nfarmerSigned" as agrCmd #64B5F6
+  rectangle "DeleteAgreementCommand" as agrDel #64B5F6
+  rectangle "Agreement" as agrAgg #FFEE58
+  rectangle "AgreementFullySignedEvent" as agrEvt #FF9800
+  rectangle "AgreementFullySigned\nIntegrationEvent" as agrInt #FF9800
+  rectangle "Whenever AgreementFullySignedIntegrationEvent\nthen MarkParcelInProductionCommand" as policy #CE93D8
+  rectangle "GetAllAgreementsQuery" as agrQ #81C784
 }
 
-package "Payments and Plans" {
-  rectangle "ConfirmPayment\n[Command]" as pay #D9EAF7
-  rectangle "Payment\n[Aggregate root]" as payment #FFF2CC
-  rectangle "PaymentConfirmed\n[Domain event]" as confirmed #F8CBAD
-  rectangle "RequestPaymentRelease\n[Policy]" as release #E4DFEC
-  rectangle "PaymentReleaseRequested\n[Domain event]" as releaseRequested #F8CBAD
+package "tracking" #F7FAF8 {
+  rectangle "SaveEvidenceCommand\nstatus: review | verified | accepted" as evCmd #64B5F6
+  rectangle "DeleteEvidenceCommand" as evDel #64B5F6
+  rectangle "MilestoneEvidence" as evAgg #FFEE58
+  rectangle "GetAllEvidenceQuery" as evQ #81C784
 }
 
-package "Crop Monitoring" {
-  rectangle "RecordProgress\n[Command | US04]" as record #D9EAF7
-  rectangle "ProgressUpdate\n[Aggregate root]" as update #FFF2CC
-  rectangle "ProgressRecorded\n[Domain event]" as recorded #F8CBAD
-  rectangle "MilestoneEvidence\n[Read model]" as evidence #E2F0D9
+package "escrow" #F7FAF8 {
+  rectangle "SaveWalletCommand" as wCmd #64B5F6
+  rectangle "DeleteWalletCommand" as wDel #64B5F6
+  rectangle "Wallet" as wAgg #FFEE58
+  rectangle "GetAllWalletsQuery" as wQ #81C784
 }
 
-package "Contract Automation (n8n)" {
-  rectangle "GenerateContractPdf\n[Policy / command]" as generatePdf #E4DFEC
-  rectangle "ContractPdfGenerated\n[Integration event]" as pdfGenerated #F8CBAD
-  rectangle "SendContractNotification\n[Policy / command]" as notify #E4DFEC
-  rectangle "ContractNotificationSent\n[Integration event]" as notified #F8CBAD
-  rectangle "NotifyProgressUpdate\n[Policy / command]" as notifyProgress #E4DFEC
-  rectangle "ProgressNotificationSent\n[Integration event]" as progressNotified #F8CBAD
+package "alerts" #F7FAF8 {
+  rectangle "GetClimateAlertsQuery" as alQ #81C784
+  rectangle "ClimateReading" as climate #FFEE58
 }
 
-farmer --> publish
-publish --> plot
-plot --> published
-published --> catalog
-merchant --> catalog
-merchant --> propose
-propose --> proposal
-proposal --> proposed
-farmer --> negotiate
-proposed --> negotiate
-negotiate --> agreed
-agreed --> hold
-hold --> reserve
-reserve --> reserved
-reserved --> accept
-merchant --> accept
-farmer --> accept
-accept --> contract
-contract --> accepted
-provider --> pay
-accepted --> pay
-pay --> payment
-payment --> confirmed
-confirmed --> activate
-activate --> activated
-activated --> generatePdf
-generatePdf --> pdfGenerated
-pdfGenerated --> notify
-notify --> notified
-farmer --> record
-record --> update
-update --> recorded
-recorded --> evidence
-recorded --> notifyProgress
-notifyProgress --> progressNotified
-merchant --> approve
-evidence --> approve
-approve --> approved
-approved --> release
-release --> releaseRequested
+package "shared" #F7FAF8 {
+  rectangle "UpdateProfileCommand" as pCmd #64B5F6
+  rectangle "Profile" as pAgg #FFEE58
+  rectangle "GetAllProfilesQuery\nGetProfileByIdQuery" as pQ #81C784
+}
+
+rectangle "Open-Meteo" as meteo #F48FB1
+
+farmer --> parcelCmd
+parcelCmd --> parcelAgg
+parcelAgg --> parcelQ
+
+farmer --> agrCmd
+merchant --> agrCmd
+agrCmd --> agrAgg
+agrDel --> agrAgg
+agrAgg --> agrEvt : onFullySigned()\nif signatures.isComplete()
+agrEvt --> agrInt : AgreementFullySignedEventHandler
+agrInt --> policy
+policy --> markCmd
+markCmd --> parcelAgg : markInProduction()\nParcelStatus.in_production
+agrAgg --> agrQ
+
+farmer --> evCmd
+merchant --> evCmd
+evCmd --> evAgg
+evDel --> evAgg
+evAgg --> evQ
+
+merchant --> wCmd
+wCmd --> wAgg
+wDel --> wAgg
+wAgg --> wQ
+
+farmer --> alQ
+alQ --> climate
+parcelAgg --> climate : ParcelsContextFacade
+climate --> meteo : WeatherForecastService
+
+farmer --> pCmd
+merchant --> pCmd
+pCmd --> pAgg
+pAgg --> pQ
 
 legend bottom
-Blue: command | Yellow: actor or aggregate root | Orange: domain/integration event
-Green: read model | Purple: policy or automated reaction
-Each package represents a bounded context. Cross-context arrows are explicit event reactions.
+  Pink actor = Farmer / Merchant (Angular demo role; Spring IAM is empty)
+  Blue = Command  |  Yellow = Aggregate / ClimateReading  |  Orange = event published in Spring
+  Lilac = Policy  |  Green = Query  |  Hot pink = external system
+  Tracking and escrow persist status fields; they do not publish domain events.
+  ClimateReading is computed on GET /api/v1/alerts and is not stored.
 endlegend
-
 @enduml

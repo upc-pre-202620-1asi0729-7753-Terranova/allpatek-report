@@ -3,27 +3,43 @@
 !include <C4/C4_Component>
 skinparam backgroundColor white
 skinparam defaultFontName SansSerif
-skinparam defaultFontSize 15
+skinparam defaultFontSize 14
 skinparam shadowing false
-skinparam classAttributeIconSize 0
 skinparam ArrowColor #476050
 skinparam dpi 140
-title Allpatek | C4 - Web application components
+title Allpatek | C4 - Angular web application components
 
 LAYOUT_TOP_DOWN()
-Person(user,"Farmer / Merchant","Access according to account role")
-Container_Boundary(web,"Angular web application") {
- Component(nav,"Navigation and session","Angular Router","Chooses routes and keeps the signed-in session")
- Component(views,"Feature screens","Angular / Material","Users, plots, contracts, payments and monitoring")
- Component(services,"Application services","TypeScript / HttpClient","Loads data, submits actions and displays results")
- Component(local,"Local draft storage","Browser IndexedDB","Proposed recovery of unsent progress during connection loss")
-}
-Container(api,"REST API","Spring Boot","Validates and stores information")
-Rel(user,nav,"Navigates", "Browser")
-Rel(nav,views,"Opens", "Router")
-Rel(views,services,"Requests data or action", "TypeScript")
-Rel(services,local,"Keeps unsent drafts", "Browser API")
-Rel(services,api,"Sends requests", "HTTPS / JSON")
-SHOW_LEGEND()
+Person(user, "Farmer / Merchant", "Selects a role in the demo")
 
+Container_Boundary(web, "Angular web application") {
+  Component(shared, "shared", "shared", "Shell, routing, demo session, Profile, User and language")
+  Component(parcels, "parcel-management", "parcel-management", "Parcel catalog, detail, create and edit")
+  Component(agreements, "agreements-management", "agreements-management", "SaveAgreement with merchantSigned and farmerSigned")
+  Component(evidence, "tracking-evidence", "tracking-evidence", "MilestoneEvidence upload and review")
+  Component(escrow, "escrow-payments", "escrow-payments", "Wallet card, opening balance and simulated release")
+  Component(alerts, "alerts-management", "alerts-management", "ClimateReading board for the farmer")
+}
+
+Container(mock, "Mock Data API", "JSON Server / Azure Mock API", "Local or deployed mock selected by environment")
+System_Ext(weather, "Open-Meteo", "Weather forecast service")
+System_Ext(maps, "OpenStreetMap", "Embedded parcel map")
+
+Rel(user, shared, "Enters /login or /register and navigates", "Browser")
+Rel(shared, parcels, "/parcels", "Angular Router")
+Rel(shared, agreements, "/agreements", "Angular Router")
+Rel(shared, evidence, "/evidence", "Angular Router")
+Rel(shared, escrow, "/escrow", "Angular Router")
+Rel(shared, alerts, "/alerts", "Angular Router")
+Rel(shared, mock, "/profiles, /users", "HTTP / JSON")
+Rel(parcels, mock, "/parcels", "HTTP / JSON")
+Rel(parcels, maps, "Displays location in the form", "HTTPS / iframe")
+Rel(agreements, mock, "/agreements, /parcels", "HTTP / JSON")
+Rel(evidence, mock, "/evidence, /agreements, /parcels", "HTTP / JSON")
+Rel(escrow, mock, "/wallets, /evidence, /agreements, /parcels", "HTTP / JSON")
+Rel(alerts, mock, "Reads Parcel location from /parcels", "HTTP / JSON")
+Rel(alerts, weather, "Reads forecast directly", "HTTPS / JSON")
+
+footer /users exists in the Angular mock, not in Spring. Spring Boot is reviewed in diagram 04. Browser webhooks are shown in diagram 07.
+SHOW_LEGEND()
 @enduml

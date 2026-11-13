@@ -7,189 +7,66 @@ skinparam shadowing false
 skinparam classAttributeIconSize 0
 skinparam ArrowColor #476050
 skinparam dpi 140
-title Allpatek | DDD classes - Season Contracting
+title Allpatek | Implemented classes - Agreements Management
 top to bottom direction
 
-class Proposal <<Aggregate Root>> {
- -id: ProposalId
- -plotId: PlotId
- -merchantId: UserId
- -farmerId: UserId
- -requestedVolume: Quantity
- -proposedPrice: Money
- -deliveryDate: LocalDate
- -terms: ContractTerms
- -expiresAt: Instant
- -status: ProposalStatus
- --
- +submit(): void
- +counter(price: Money, terms: ContractTerms): void
- +accept(): void
- +expire(): void
+package "Agreements management domain" {
+  class Agreement <<Aggregate Root>> {
+    -id: AgreementId
+    -parcelId: ParcelId
+    -merchantName: MerchantName
+    -merchantProfileId: ProfileId
+    -signatures: ContractSignatures
+    -createdAt: AgreementDate
+    +isFullySigned(): boolean
+    +onFullySigned(): void
+  }
+
+  class AgreementFullySignedEvent <<Domain Event>> {
+    +agreementId: String
+    +parcelId: String
+    +merchantProfileId: Long
+  }
+
+  class AgreementId <<Value Object>> {
+    +value: String
+  }
+
+  class ContractSignatures <<Value Object>> {
+    +merchantSigned: boolean
+    +farmerSigned: boolean
+  }
+
+  class AgreementDate <<Value Object>> {
+    +value: String
+  }
+
+  interface AgreementRepository <<Repository Port>> {
+    +save(agreement: Agreement): Agreement
+    +findAll(): List<Agreement>
+  }
+
+  Agreement *-- AgreementId
+  Agreement *-- ContractSignatures
+  Agreement *-- AgreementDate
+  Agreement ..> AgreementFullySignedEvent : onFullySigned()
+  AgreementRepository ..> Agreement
 }
 
-class Reservation <<Aggregate Root>> {
- -id: ReservationId
- -plotId: PlotId
- -proposalId: ProposalId
- -merchantId: UserId
- -expiresAt: Instant
- -status: ReservationStatus
- --
- +hold(): void
- +confirm(): void
- +release(): void
- +expire(): void
-}
+class AgreementCommandServiceImpl <<Application Service>>
+AgreementCommandServiceImpl ..> AgreementRepository : save whole aggregate
 
-class Contract <<Aggregate Root>> {
- -id: ContractId
- -plotId: PlotId
- -proposalId: ProposalId
- -reservationId: ReservationId
- -merchantId: UserId
- -farmerId: UserId
- -season: DateRange
- -totalAmount: Money
- -terms: ContractTerms
- -acceptance: ContractAcceptance
- -status: ContractStatus
- -document: StorageKey
- -milestones: List<Milestone>
- --
- +accept(partyId: UserId): void
- +activate(paymentConfirmed: Boolean): void
- +addMilestone(milestone: Milestone): void
- +complete(): void
-}
+package "Persistence" {
+  class AgreementRepositoryImpl <<JPA Adapter>>
+  class AgreementPersistenceEntity <<JPA Entity>>
 
-class Milestone <<Entity>> {
- -id: MilestoneId
- -sequence: Integer
- -name: String
- -criteria: MilestoneCriteria
- -amount: Money
- -status: MilestoneStatus
- -reviewedAt: Instant
- -reviewNote: String
- --
- +submit(): void
- +approve(): void
- +reject(reason: String): void
+  AgreementRepositoryImpl ..> AgreementPersistenceEntity : maps via assembler
 }
-
-class ProposalId <<Value Object>> {
- +value: Long
-}
-class ReservationId <<Value Object>> {
- +value: Long
-}
-class ContractId <<Value Object>> {
- +value: Long
-}
-class MilestoneId <<Value Object>> {
- +value: Long
-}
-class PlotId <<Value Object>> {
- +value: Long
-}
-class UserId <<Value Object>> {
- +value: Long
-}
-class Quantity <<Value Object>> {
- +value: BigDecimal
- +unit: String
-}
-class Money <<Value Object>> {
- +amount: BigDecimal
- +currency: String
-}
-class DateRange <<Value Object>> {
- +start: LocalDate
- +end: LocalDate
- +overlaps(other: DateRange): Boolean
-}
-class ContractTerms <<Value Object>> {
- +text: String
- +version: Integer
-}
-class ContractAcceptance <<Value Object>> {
- +merchantAcceptedAt: Instant
- +farmerAcceptedAt: Instant
- +matchesTermsVersion: Boolean
-}
-class MilestoneCriteria <<Value Object>> {
- +description: String
-}
-class StorageKey <<Value Object>> {
- +value: String
-}
-
-enum ProposalStatus {
- PENDING
- COUNTERED
- ACCEPTED
- REJECTED
- EXPIRED
-}
-enum ReservationStatus {
- PENDING_PAYMENT
- CONFIRMED
- RELEASED
- EXPIRED
-}
-enum ContractStatus {
- PENDING_ACCEPTANCE
- PENDING_PAYMENT
- ACTIVE
- COMPLETED
- CANCELLED
-}
-enum MilestoneStatus {
- PENDING
- SUBMITTED
- APPROVED
- REJECTED
- PAID
-}
-
-interface ProposalRepository <<Repository Port>> {
- +findById(id: ProposalId): Optional<Proposal>
- +save(proposal: Proposal): Proposal
-}
-interface ReservationRepository <<Repository Port>> {
- +findById(id: ReservationId): Optional<Reservation>
- +save(reservation: Reservation): Reservation
-}
-interface ContractRepository <<Repository Port>> {
- +findById(id: ContractId): Optional<Contract>
- +save(contract: Contract): Contract
-}
-
-Proposal *-- ProposalId
-Proposal *-- Money
-Proposal *-- Quantity
-Proposal *-- ContractTerms
-Reservation *-- ReservationId
-Contract *-- ContractId
-Contract *-- DateRange
-Contract *-- Money
-Contract *-- ContractTerms
-Contract *-- ContractAcceptance
-Contract *-- "1..*" Milestone
-Milestone *-- MilestoneId
-Milestone *-- MilestoneCriteria
-Milestone *-- Money
-Proposal ..> ProposalStatus
-Reservation ..> ReservationStatus
-Contract ..> ContractStatus
-Milestone ..> MilestoneStatus
-ProposalRepository ..> Proposal
-ReservationRepository ..> Reservation
-ContractRepository ..> Contract
+AgreementRepositoryImpl ..|> AgreementRepository
 
 legend bottom
-Proposal, Reservation and Contract define separate consistency boundaries.
-Milestone is owned by Contract. Value Objects contain validation and comparison rules.
+The agreement refers to Parcel and Merchant by ID.
+onFullySigned() registers AgreementFullySignedEvent when ContractSignatures is complete.
+No PDF, payment confirmation or identity check in Spring.
 endlegend
 @enduml
