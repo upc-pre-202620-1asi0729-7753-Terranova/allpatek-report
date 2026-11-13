@@ -187,16 +187,22 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 </div>
 
 
-#### Contribuciones Sprint 1
+#### Contribuciones Sprint 1 ( Landing )
 
 <p align="center">
   <img src="./assets/chapter-05/insight-spint-01.png" alt="Sprint01" width="65%" />
 </p>
 
-#### Contribuciones Sprint 2
+#### Contribuciones Sprint 2 ( Frontend )
 
 <p align="center">
   <img src="./assets/chapter-05/sprint2-image-ins.jpeg" alt="Sprint02" width="65%" />
+</p>
+
+#### Contribuciones Sprint 3 ( Backend )
+
+<p align="center">
+  <img src="./assets/chapter-05/insight03.png" alt="Sprint03" width="65%" />
 </p>
 
 
@@ -3993,6 +3999,12 @@ Tras lanzar el despliegue desde el último commit de la rama develop, el contene
 > Importante : Como esta desplegado con Render, saldra una pantalla que se estara cargando, como es una prueba Gratuita pasa eso.
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
+
+<p align="center">
+  <img src="./assets/chapter-05/insight03.png" alt="Sprint03" width="65%" />
+</p>
+
+
 ### 5.2.4. Sprint 4
 #### 5.2.4.1. Sprint Planning 4
 #### 5.2.4.2. Aspect Leaders and Collaborators
