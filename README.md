@@ -126,11 +126,9 @@
 
 ## Project Report Collaboration Insights
 
-A lo largo del desarrollo del trabajo, se ha evidenciado una participación activa, coordinada y progresiva por parte de todos los integrantes del equipo. Cada fase fue abordada de manera estructurada, siguiendo las buenas prácticas de trabajo colaborativo con control de versiones en GitHub, planificación por entregables, y asignación clara de responsabilidades según las competencias de cada integrante.
+El informe y el código están en GitHub. Cada integrante trabaja en el repositorio que le toca (landing, frontend, mock o backend) y el avance se ve por sprint, con ramas por entregable.
 
-El uso de repositorios específicos por subcomponente también contribuyó a mantener una mejor trazabilidad del trabajo colaborativo, integrando ramas por entregables y controlando versiones según el avance de cada sprint.
-
-A continuación, se detallan los repositorios utilizados a lo largo del proyecto:
+Repositorios del proyecto:
 
 <div align="center">
   <table style="border-collapse: collapse; margin: 0 auto; text-align: left;">
@@ -1433,7 +1431,7 @@ Para optimizar la visibilidad en motores de búsqueda (SEO) y asegurar una prese
 | **Web Application** | Registrar Nueva Parcela | Registro de Parcela | Formula y da de alta un nuevo terreno ingresando datos técnicos, geolocalización BPO y evidencias fotográficas. | registrar parcela, geolocalizacion, alta de terreno | **Robots:** noindex, nofollow<br>**Author:** Equipo ALLPATEK |
 | **Web Application** | Mis Contratos | Contratos y Alquileres | Gestión integral de tus acuerdos de arrendamiento, montos custodiados y fechas de vigencia de servicios. | acuerdos de alquiler, valor custodiado, contratos activos | **Robots:** noindex, nofollow<br>**Author:** Equipo ALLPATEK |
 | **Web Application** | Firma de Contrato | Firma Digital Escrow | Revisa las cláusulas del acuerdo, valida el plan de pagos e ingresa tu firma digital para activar la custodia. | firma de contrato, autenticacion digital, cláusulas | **Robots:** noindex, nofollow<br>**Author:** Equipo ALLPATEK |
-| **Web Application** | Monitoreo Climático | Alertas en Tiempo Real | Panel de seguimiento ambiental con datos de temperatura, humedad, viento y recomendaciones asistidas por inteligencia artificial. | monitoreo climatico, alertas agronómicas, riesgo de heladas | **Robots:** noindex, nofollow<br>**Author:** Equipo ALLPATEK |
+| **Web Application** | Monitoreo Climático | Alertas en Tiempo Real | Panel de seguimiento ambiental con temperatura, humedad, viento y avisos de helada, inundación o viento a partir de Open-Meteo. | monitoreo climatico, alertas agronómicas, riesgo de heladas | **Robots:** noindex, nofollow<br>**Author:** Equipo ALLPATEK |
 | **Web Application** | Perfil de Usuario | Perfil y Datos | Revisa, valida y actualiza tus datos personales, documento de identidad, teléfono y rol activo en la plataforma. | perfil de usuario, datos personales, cuenta | **Robots:** noindex, nofollow<br>**Author:** Equipo ALLPATEK |
 
 
@@ -2791,20 +2789,18 @@ La implementación de los servicios web backend (*RESTful Web Services* en Java 
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-Durante el desarrollo del **Sprint 1**, el equipo llevó a cabo la configuración del entorno de despliegue y la publicación pública de la **Landing Page estática de ALLPATEK**, la cual constituye el sitio web informativo y de adquisición inicial para potenciales Comercializadores y productores agrícolas. Para esta iteración, el proceso de despliegue se gestionó en su totalidad a través del servicio de almacenamiento estático **GitHub Pages**, garantizando un acceso público continuo y seguro mediante certificado TLS/SSL.
-
-A continuación, se describen los pasos de configuración ejecutados en el repositorio, la evidencia visual del estado activo del servicio y la matriz con la dirección de acceso al sitio web.
+En el Sprint 1 la **Landing Page** de ALLPATEK se publicó en **GitHub Pages**, desde la rama main y la carpeta raíz. GitHub asigna el dominio y el certificado HTTPS.
 
 
 #### 1. Resumen del Proceso de Despliegue en GitHub Pages
 
-1. **Configuración de la Rama de Publicación:** Se configuró el repositorio oficial de la organización para realizar el despliegue automático (*Deploy from a branch*) tomando como fuente la rama principal main y asignando el directorio raíz (/root) para la compilación de los archivos estáticos (index.html, hojas de estilo CSS e imágenes del proyecto).
-2. **Generación de Dominio y Certificación SSL:** Se verificó la generación del certificado de seguridad de capa de transporte (HTTPS/TLS) y la asignación del nombre de dominio público provisto por la infraestructura de GitHub.
+1. **Rama de publicación:** Deploy from a branch, fuente `main`, directorio raíz (`index.html`, CSS e imágenes).
+2. **Dominio y HTTPS:** GitHub asignó la URL pública y el certificado TLS.
 
 
 #### 2. Evidencia Gráfica del Despliegue
 
-A continuación se presenta la captura de pantalla que confirma la ejecución exitosa del flujo de publicación de GitHub Pages dentro del panel de administración del repositorio:
+Captura del panel de GitHub Pages con el sitio ya publicado:
 
 <p align="center">
   <img src="assets/chapter-05/configuration_github.png" alt="Configuración de GitHub Pages para la Landing Page de ALLPATEK" width="850" />
@@ -2819,28 +2815,28 @@ A continuación se presenta la captura de pantalla que confirma la ejecución ex
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
-Durante el desarrollo del **Sprint 1**, el equipo **TerraNova** estableció una dinámica de trabajo colaborativa, inclusiva y altamente distribuida para cumplir con la implementación y publicación de la Landing Page estática e informativa de la plataforma **ALLPATEK**. El proceso de desarrollo se gestionó mediante la plataforma **GitHub**, adoptando una estrategia de ramificación por aspectos de la interfaz web (feature/header-navbar, feature/hero, feature/services, feature/how-it-works, feature/testimonials, feature/team, feature/contact-form, feature/footer, feature/plans) para permitir el trabajo en paralelo de todos los miembros del equipo.
+En el Sprint 1 el equipo TerraNova armó la Landing Page estática de ALLPATEK. Cada bloque de la página (header, hero, servicios, cómo funciona, testimonios, equipo, contacto, footer y planes) se hizo en su propia rama feature/* para poder avanzar en paralelo.
 
-Para asegurar la trazabilidad del código fuente y el control de cambios, se aplicó la guía de trabajo basada en el estándar **Conventional Commits** con mensajes redactados estrictamente en inglés. La consolidación del progreso se realizó mediante la revisión continua y la integración de ramas hacia la rama principal de integración, garantizando una participación activa y equitativa de todos los integrantes.
+Los commits siguen Conventional Commits, en inglés. Las ramas se iban integrando a main cuando cada sección quedaba lista.
 
 
 
 #### 1. Evidencia Analítica de Colaboración en GitHub (Analytics & Contributors)
 
 
-A continuación, se presentan las capturas de los analíticos extraídos de la pestaña *Insights / Contributors* y *Commits* del repositorio oficial, los cuales evidencian la distribución del trabajo, la frecuencia de commits y las adiciones de código realizadas por cada estudiante:
+Capturas de Insights / Contributors y Commits del repositorio. Ahí se ve quién committeó, con qué frecuencia y cuánto código sumó cada uno:
 
 <p align="center">
   <img src="assets/chapter-05/insight-spint-01.png" alt="Analíticos de Colaboración e Insights de GitHub - Sprint 1" width="850" />
 </p>
 
-* **Figura 5.2.1.8.1.** *Métricas de contribuciones por usuario en GitHub Insights, mostrando la participación activa y constante de todos los miembros del equipo durante el desarrollo del Sprint 1.*
+* **Figura 5.2.1.8.1.** *Contribuciones por usuario en GitHub Insights durante el Sprint 1.*
 
 <p align="center">
   <img src="assets/chapter-05/historial_commit.png" alt="Historial y Grafo de Ramas en GitHub" width="850" />
 </p>
 
-* **Figura 5.2.1.8.2.** *Grafo de red y flujo de commits en GitHub, evidenciando el uso de ramas de funcionalidades por componente y la integración hacia la rama de desarrollo.*
+* **Figura 5.2.1.8.2.** *Grafo de ramas y commits en GitHub: una feature por componente, luego merge a la rama de integración.*
 
 
 #### 2. Resumen de Contribuciones por Integrante
@@ -3843,49 +3839,40 @@ En el Sprint 3 se implementó la primera versión de los Web Services en allpate
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
-
- Estructura del repositorio de GitHub del proyecto allpatek-platform bajo la organización upc-pre-202620-1asi0729-7753-TerraNova, mostrando las carpetas fuente, commits recientes con estándares de Conventional Commits y la configuración de build con Maven.
-
+Repositorio allpatek-platform en GitHub: código fuente, commits y build con Maven.
 
 <p align="center">
-  <img src="assets/chapter-05/imgrepositorio.png" alt="imgrepositorio" width="850" />
+  <img src="assets/chapter-05/imgrepositorio.png" alt="Repositorio allpatek-platform en GitHub" width="850" />
 </p>
 
-
-Interfaz de documentación de API Swagger UI para Allpatek Platform REST API, detallando los endpoints disponibles agrupados por los módulos escrow y parcels.
-
+Swagger UI del API, con los tags de cada bounded context.
 
 <p align="center">
-  <img src="assets/chapter-05/swagger.png" alt="swagger" width="850" />
+  <img src="assets/chapter-05/swagger.png" alt="Swagger UI de allpatek-platform" width="850" />
 </p>
 
-
-Prueba del endpoint POST /api/v1/parcels en Swagger UI, donde se envía una solicitud JSON con la información necesaria para registrar una nueva parcela en el sistema.
-
+POST /api/v1/parcels: alta de una parcela.
 
 <p align="center">
-  <img src="assets/chapter-05/swagger02.png" alt="swagger" width="850" />
+  <img src="assets/chapter-05/swagger02.png" alt="POST /api/v1/parcels en Swagger" width="850" />
 </p>
 
-
-Ejecución del endpoint GET /api/v1/wallets en Swagger UI, mostrando una respuesta exitosa (HTTP 200) con la estructura del objeto JSON para las billeteras digitales registradas.
+GET /api/v1/wallets: HTTP 200 y el JSON de las wallets.
 
 <p align="center">
-  <img src="assets/chapter-05/swagger03.png" alt="swagger" width="850" />
+  <img src="assets/chapter-05/swagger03.png" alt="GET /api/v1/wallets en Swagger" width="850" />
 </p>
 
-
-Consulta al endpoint GET /api/v1/alerts?ownerId=1 en Swagger UI, retornando un código de estado HTTP 200 y la respuesta JSON con métricas climáticas y alertas generadas para la parcela.
+GET /api/v1/alerts?ownerId=1: HTTP 200 con lecturas y avisos de la parcela.
 
 <p align="center">
-  <img src="assets/chapter-05/swagger04.png" alt="swagger" width="850" />
+  <img src="assets/chapter-05/swagger04.png" alt="GET /api/v1/alerts en Swagger" width="850" />
 </p>
 
-Vista del panel de phpMyAdmin mostrando la estructura de la base de datos allpatek-os con sus tablas correspondientes (agreements, evidence, parcels, profiles y wallets).
-
+phpMyAdmin sobre allpatek-os: tablas agreements, evidence, parcels, profiles y wallets.
 
 <p align="center">
-  <img src="assets/chapter-05/mysql.png" alt="swagger" width="850" />
+  <img src="assets/chapter-05/mysql.png" alt="Tablas MySQL de allpatek-platform" width="850" />
 </p>
 
 
@@ -3955,7 +3942,7 @@ El backend del Sprint 3 ya corría en local, pero para la revisión hacía falta
 
 #### Paso 1: Aprovisionamiento de la Base de Datos MySQL en Aiven Cloud
 
-Se creó una instancia gestionada de **MySQL 8.4** (mysql-9db0808) en Aiven Cloud dentro de la región *North America* (1 CPU, 1 GB RAM y 8 GB de almacenamiento), esperando a que su estado pasara a *Running* y verificando la estabilidad de sus métricas de consumo. Desde el panel *Connection information* se obtuvieron los parámetros de enlace público: *Host* (mysql-9db0808-mel-d917.c.aivencloud.com), *Port* (18036), *Database name* (defaultdb), usuario (avnadmin) y la política de cifrado obligatorio (SSL mode: REQUIRED).
+En Aiven se levantó un **MySQL 8.4** (mysql-9db0808) en *North America*: 1 CPU, 1 GB RAM y 8 GB de disco. Cuando el servicio pasó a *Running*, del panel *Connection information* se copiaron host (mysql-9db0808-mel-d917.c.aivencloud.com), puerto 18036, base defaultdb, usuario avnadmin y SSL mode REQUIRED.
 
 <p align="center">
   <img src="assets/chapter-05/desplieguee01.png" alt="desplieguee01" width="750" />
@@ -3963,7 +3950,7 @@ Se creó una instancia gestionada de **MySQL 8.4** (mysql-9db0808) en Aiven Clou
 
 #### Paso 2: Contenerización y Externalización de Configuración en GitHub
 
-En el repositorio del proyecto se incorporó un archivo Dockerfile multi-etapa para compilar el paquete .jar de Spring Boot utilizando Maven y ejecutarlo en un contenedor ligero exponiendo el puerto 8080. Asimismo, se actualizó el archivo application.properties para leer las credenciales de base de datos mediante variables de entorno (DB_URL, DB_USERNAME, DB_PASSWORD), activar la generación automática de tablas (spring.jpa.hibernate.ddl-auto=update) y habilitar el acceso público a la interfaz de **Swagger UI** en producción, subiendo estos cambios a la rama develop.
+En allpatek-platform se agregó un Dockerfile de dos etapas: Maven arma el .jar y el contenedor lo corre en el puerto 8080. Las credenciales de MySQL salen de DB_URL, DB_USERNAME y DB_PASSWORD; ddl-auto queda en update y Swagger queda abierto en prod. Eso se subió a develop.
 
 <p align="center">
   <img src="assets/chapter-05/desplieguee02.png" alt="desplieguee01" width="750" />
@@ -3971,7 +3958,7 @@ En el repositorio del proyecto se incorporó un archivo Dockerfile multi-etapa p
 
 #### Paso 3: Creación y Configuración del Web Service en Render
 
-En la plataforma de Render se creó un nuevo **Web Service** denominado allpatek-platform, vinculado directamente al repositorio de GitHub en la rama develop y alojado en la región *Oregon (US West)* bajo el plan gratuito ($0/month - 512 MB RAM). Para la construcción del servicio se seleccionó **Docker** como entorno de ejecución (*Language*) y se configuró ./Dockerfile como ruta de compilación.
+En Render se creó el **Web Service** allpatek-platform, pegado al repositorio de GitHub, rama develop, región *Oregon (US West)* y plan gratuito (512 MB RAM). Runtime: **Docker**, archivo ./Dockerfile.
 
 <p align="center">
   <img src="assets/chapter-05/desplieguee03.png" alt="desplieguee01" width="750" />
@@ -3979,7 +3966,7 @@ En la plataforma de Render se creó un nuevo **Web Service** denominado allpatek
 
 #### Paso 4: Inyección de Variables de Entorno en Render
 
-Dentro de la sección *Environment Variables* del servicio en Render se registraron las credenciales de conexión hacia Aiven sin exponer información sensible en el código fuente, definiendo las claves DB_URL, DB_USERNAME, DB_PASSWORD y PORT (8080).
+En *Environment Variables* se cargaron DB_URL, DB_USERNAME, DB_PASSWORD y PORT=8080. Las claves no van en el código.
 
 <p align="center">
   <img src="assets/chapter-05/desplieguee04.png" alt="desplieguee01" width="750" />
@@ -3987,7 +3974,7 @@ Dentro de la sección *Environment Variables* del servicio en Render se registra
 
 #### Paso 5: Despliegue y Verificación Pública de Swagger UI
 
-Tras lanzar el despliegue desde el último commit de la rama develop, el contenedor compiló la aplicación, estableció la conexión SSL con la base de datos MySQL en Aiven y levantó el servidor web en estado activo. Finalmente, se comprobó la disponibilidad operativa de la API accediendo a la interfaz interactiva de **Swagger UI**.
+El último commit de develop compiló la imagen, conectó a MySQL en Aiven por SSL y dejó el servicio arriba. Se comprobó abriendo **Swagger UI**.
 
 * **Swagger UI:** <a href="https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html" style="text-decoration: none;">https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html</a>
 * **API:** <a href="https://allpatek-platform.onrender.com/api/v1" style="text-decoration: none;">https://allpatek-platform.onrender.com/api/v1</a>
@@ -3996,13 +3983,34 @@ Tras lanzar el despliegue desde el último commit de la rama develop, el contene
   <img src="assets/chapter-05/desplieguee05.png" alt="Swagger UI de allpatek-platform en Render" width="750" />
 </p>
 
-> Importante : Como esta desplegado con Render, saldra una pantalla que se estara cargando, como es una prueba Gratuita pasa eso.
+> Importante: como está en el plan gratuito de Render, la primera carga puede tardar; es normal que salga una pantalla esperando.
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
+En el Sprint 3 el trabajo pasó al backend: el repositorio allpatek-platform (Java, Spring Boot y MySQL). Cada integrante llevó su bounded context en una rama feature/* y, al cerrar, se integró a develop. Los commits siguen Conventional Commits en inglés, igual que en los sprints anteriores.
+
+| Integrante | Usuario GitHub | allpatek-platform |
+| :--- | :--- | :--- |
+| Atauje Barreto, Alexander Sebastián | Alexander1Alexander2 | Líder de feature/alerts-management: lecturas climáticas, avisos de helada / inundación / viento, cliente Open-Meteo y GET /api/v1/alerts. |
+| Egocheaga Suyo, Miguel Angel | MiguelAngel0107 | Líder de feature/escrow-payments: agregado Wallet, persistencia de la tarjeta y GET/POST/PUT /api/v1/wallets. |
+| Orellana Rodríguez, Mel Andree | melandree8 | Kernel shared (perfiles, CORS, Swagger, i18n) y líder de feature/agreements-management; Dockerfile, variables de entorno y despliegue en Render + Aiven. |
+| Raymundo Villarroel, Abigail Nadhim | AbigailRV | Líder de feature/parcel-management: agregado Parcel, ACL de ubicación, CRUD /api/v1/parcels y publicación del servicio. |
+| Vera Solsol, Nayely Macarena | Macaxprogram29 | Líder de feature/tracking-evidence: evidencias por hito, archivo adjunto, estados de revisión y /api/v1/evidence. |
+
+Los cinco salen en Insights del repositorio. El pico de commits cae entre finales de octubre y la primera semana de noviembre, que es cuando se armó el API y se fusionó a develop.
+
+#### Cómo se desarrolló la implementación
+
+1. Mel dejó el kernel shared en develop (perfiles, JPA, OpenAPI, CORS).
+2. Cada líder abrió su feature/*, armó dominio → aplicación → JPA → REST y pidió integración.
+3. Los contextos no se pisan: alerts pide coordenadas a parcels por la ACL; cuando firman agricultor y comerciante, la parcela pasa a in-production.
+4. Con develop compilando, se subió el contenedor a Render y se apuntó a MySQL 8.4 en Aiven.
+
 <p align="center">
-  <img src="./assets/chapter-05/insight03.png" alt="Sprint03" width="65%" />
+  <img src="assets/chapter-05/insight03.png" alt="Contribuciones del Sprint 3 en GitHub Insights" width="65%" />
 </p>
+
+* **Figura 5.2.3.8.1.** *Contribuciones por usuario en GitHub Insights (allpatek-platform) durante el Sprint 3.*
 
 
 ### 5.2.4. Sprint 4
@@ -4017,7 +4025,7 @@ Tras lanzar el despliegue desde el último commit de la rama develop, el contene
 
 ## 5.3. Validation Interviews
 
-En esta sección, el equipo registra y explica las actividades de entrevistas de validación realizadas durante el proyecto Allpatek. Las pruebas se efectuaron con usuarios pertenecientes a los dos segmentos objetivo para evaluar la Landing Page y las aplicaciones web.
+Entrevistas de validación con los dos segmentos (agricultor familiar y comerciante urbano), sobre la Landing Page y la aplicación web.
 
 ### 5.3.1. Diseño de Entrevistas
 
@@ -4590,7 +4598,7 @@ Marcar en el catálogo el estado de verificación del agricultor y, cuando exist
 
 ## 5.4. Video About-the-Product
 
-En esta sección se presenta el video "About-the-Product", una demostración audiovisual diseñada para exponer la propuesta de valor, la arquitectura y el funcionamiento en vivo de la plataforma **Allpatek**. La presentación evidencia cómo nuestra solución aborda la problemática de la agricultura familiar y la incertidumbre en el abastecimiento agrícola mediante el uso de tecnología automatizada. El recorrido muestra la experiencia de la demo: catálogo de parcelas, pronóstico, aceptaciones y bóveda de pagos simulados. El video presenta la propuesta de custodia y automatización; la integración productiva y los envíos requieren evidencia por separado.
+Video **About-the-Product**: demo de Allpatek (catálogo de parcelas, clima, aceptaciones y bóveda de pagos). La custodia que se ve es de demostración; pagos reales y envíos van aparte.
 
 
 <div align="center">
@@ -4617,27 +4625,28 @@ En esta sección se presenta el video "About-the-Product", una demostración aud
 
 
 
-El desarrollo y despliegue de la Landing Page informativa representó el hito inicial del proyecto, logrando establecer un canal de contacto directo para comunicar la propuesta de valor del modelo Agro-as-a-Service. Este hito permitió evaluar la respuesta del mercado frente a la incertidumbre económica y la falta de previsibilidad en el suministro que afectan al sector agrícola. A través de una arquitectura web limpia y responsiva, desplegada mediante integración continua en GitHub Pages, se estructuró la presentación de los servicios clave del sistema. Entre ellos destacan la selección de parcelas con geolocalización, la protección de capital mediante la Bóveda Escrow con pagos por hitos y la asistencia climática preventiva.
+La landing en GitHub Pages quedó como puerta de entrada: modelo Agro-as-a-Service, catálogo, bóveda Escrow y avisos de clima. En el Sprint 2 se publicó la web Angular (Netlify) y el mock. En el Sprint 3 el API Java (allpatek-platform) quedó en Render, con MySQL 8.4 en Aiven y Swagger público.
 
-Asimismo, las validaciones de interfaz alineadas a las pautas de accesibilidad  y los resultados obtenidos en las fases iniciales de Lean UX permitieron contrastar los supuestos del comportamiento de los usuarios y validar las hipótesis del servicio. Las pruebas realizadas con comerciantes y productores agrícolas confirman que la solución no solo resulta visualmente accesible y clara en su propuesta, sino que además sienta bases sólidas para las siguientes etapas del proyecto. Esta preparación facilita la futura integración de la aplicación web y los servicios de backend, garantizando un modelo de negocio técnicamente rentable y con capacidad de brindar estabilidad a los agricultores.
+Las entrevistas con agricultores y comerciantes sirvieron para ver si se entiende el flujo de parcela, contrato, evidencias y clima. Lo que pidieron (letra más grande, menos datos móviles, WhatsApp) queda para el siguiente sprint. Cada bounded context lo llevó un integrante; los cinco aparecen en Insights de GitHub.
 
 
 
 ## Recomendaciones
 
 
-* Evolución del Roadmap hacia la Web Application: Se recomienda iniciar la transición del desarrollo desde la Landing Page informativa hacia los módulos interactivos del entorno autenticado de la Web Application. Esto permitirá habilitar el registro de usuarios con validación de identidad y la publicación del catálogo dinámico de parcelas.
+* Autenticación: el API todavía no valida identidad. Hay que cerrar eso antes de datos reales.
 
-* Implementación Operativa de la Bóveda Escrow: Se sugiere integrar la pasarela de pagos con el motor de reglas de custodia financiera para formalizar el flujo de depósito de capital por parte del comerciante y automatizar la liberación de desembolsos parciales (25% por hito) tras la aprobación de evidencias.
+* Bóveda: hoy el wallet es de demostración. Falta pasarela de pago y liberar el 25% por hito cuando el comerciante acepta la evidencia.
 
+* Render free se duerme a los 15 minutos. Para una demo hay que avisar del cold start o pasar a un plan que no se apague.
 
-* Estrategia de Adquisición y Trabajo en Campo: Se sugiere continuar con el plan de captación directa mediante alianzas estratégicas con cooperativas agrarias y talleres presenciales para agricultores, utilizando la oferta de asistencia climática gratuita como incentivo de entrada para incrementar la oferta de tierras en la plataforma.
+* Campo: seguir con cooperativas y talleres; el clima y las fotos de hito son el gancho que pidieron los agricultores.
 
 
 
 # Video About-the-Team
 
-En esta sección se presenta el video "About-the-Team", un recurso audiovisual que expone las competencias técnicas y la dinámica de trabajo del equipo **TerraNova**, creadores de **Allpatek**. La presentación muestra la integración de nuestras capacidades en desarrollo web, diseño de arquitectura orientada al dominio (DDD) y automatización de procesos con n8n para la construcción de una plataforma agrícola escalable y accesible. A través de la intervención de cada integrante, se detallan los roles estratégicos, el compromiso técnico y la visión compartida que guiaron la ejecución del proyecto, respaldando cómo la fortaleza del producto se apoya en la solidez del equipo de desarrollo.
+Video **About-the-Team**: el equipo TerraNova cuenta quién hizo qué en Allpatek (web, DDD, n8n) y cómo se repartió el trabajo.
 
 <div align="center">
     
