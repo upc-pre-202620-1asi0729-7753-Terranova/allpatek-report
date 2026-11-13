@@ -180,7 +180,7 @@ Repositorios del proyecto:
 | **Landing** | allpatek-website | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website" style="text-decoration: none;">Ver Repositorio</a> |
 | **Frontend** | allpatek-webapp | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp" style="text-decoration: none;">Ver Repositorio</a> |
 | **Mock API** | allpatek-platform-mock | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock" style="text-decoration: none;">Ver Repositorio</a> |
-| **Backend** | allpatek-platform | <a href="https://github.com/orgs/upc-pre-202620-1asi0729-7753-Terranova/repositories" style="text-decoration: none;">Ver Repositorio</a> |
+| **Backend** | allpatek-platform | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform" style="text-decoration: none;">Ver Repositorio</a> |
     
 </div>
 
