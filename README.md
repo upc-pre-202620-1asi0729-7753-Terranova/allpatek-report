@@ -592,7 +592,7 @@ Estos indicadores constituyen metas de negocio sujetas a validación durante la 
 
 5. Creemos que ambos segmentos requieren contratos claros, transparencia en los pagos y mecanismos que permitan verificar el cumplimiento de los acuerdos agrícolas.
 
-**Feature Assumptions**
+**Supuestos sobre las funcionalidades**
 
 1. Creemos que un catálogo digital de parcelas que incluya ubicación, tipo de cultivo, duración de la temporada y desglose de costos permitirá al comerciante comparar alternativas y seleccionar una parcela de manera autónoma.
 
