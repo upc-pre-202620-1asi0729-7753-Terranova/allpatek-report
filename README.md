@@ -592,15 +592,13 @@ Estos indicadores constituyen metas de negocio sujetas a validación durante la 
 
 5. Creemos que ambos segmentos requieren contratos claros, transparencia en los pagos y mecanismos que permitan verificar el cumplimiento de los acuerdos agrícolas.
 
-**Feature Assumptions**
-1. Creemos que un catálogo de parcelas con ubicación, tipo de cultivo, duración de la temporada y desglose de costos directos permitirá al comerciante evaluar y decidir su reserva de forma autónoma.
-2. Creemos que un módulo de contratación con pasarela de pagos digitales aumentará la tasa de conversión de reservas frente a la negociación presencial e informal.
-3. Creemos que la generación y el envío del contrato en PDF mediante n8n tras la confirmación del pago eliminará la redacción manual de documentos para ambas partes.
-4. Creemos que las notificaciones automatizadas por hitos (preparación del terreno, siembra, riego y fecha estimada de cosecha) reducirán en al menos 50 % las consultas directas del comerciante al agricultor.
-5. Creemos que un panel móvil ligero para el agricultor, usable en Android de gama baja, permitirá su adopción sin programas extensos de capacitación, considerando que el uso de tecnologías móviles ya muestra un impacto favorable en los resultados comerciales de la agricultura familiar (Fan & Salas Garcia, 2018).
-6. Creemos que un sistema bidireccional de reputación y calificaciones fortalecerá la confianza entre las partes e impulsará la renovación de acuerdos entre temporadas.
-7. Creemos que un calendario de pagos garantizado, visible desde la firma del contrato, dará al agricultor la certeza de ingreso que busca.
-8. Creemos que un registro de trazabilidad por temporada (parcela, agricultor, hitos y fecha de cosecha) dará al comerciante la verificación de origen que necesita.
+**Supuestos sobre las funcionalidades**
+1. Creemos que un catálogo digital de parcelas que incluya ubicación, tipo de cultivo, duración de la temporada y desglose de costos permitirá al comerciante comparar alternativas y seleccionar una parcela de manera autónoma.
+
+2. Creemos que un módulo de contratación digital que integre mecanismos de pago y custodia Escrow incrementará la confianza de los comerciantes y favorecerá la conversión de reservas frente a la negociación informal.
+
+3. Creemos que la generación y el envío automatizado de contratos en PDF mediante n8n, después de la confirmación del pago correspondiente, reducirán la necesidad de redactar documentos manualmente.
+
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
