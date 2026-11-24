@@ -532,7 +532,15 @@ La solución contempla las siguientes restricciones:
 4. El alcance geográfico inicial estará limitado al valle del Mantaro y a los comerciantes urbanos objetivo.
 5. La liberación de fondos estará asociada al cumplimiento de los hitos agrícolas establecidos en el contrato.
 
-**We will know we are successful when we see** at least 150 seasonal contracts formalized through the platform within the first 8 months of operation; a farmer income predictability rate of 100% (share of contracted farmers receiving their full agreed payment regardless of yield outcome); a buyer saving of at least 25% compared to the equivalent retail price of the same produce; a formalization time under 5 minutes per transaction; and a season-to-season contract renewal rate above 60%.
+**Sabremos que hemos alcanzado el éxito cuando logremos** los siguientes resultados:
+
+- Formalizar al menos 150 contratos agrícolas durante los primeros ocho meses de operación.
+- Alcanzar una tasa de previsibilidad de ingresos del 100 % para los agricultores que cumplan las labores acordadas.
+- Conseguir un ahorro de al menos el 25 % para los comerciantes respecto al precio minorista equivalente.
+- Reducir el tiempo de formalización administrativa a menos de cinco minutos por transacción.
+- Alcanzar una tasa de renovación de contratos superior al 60 % entre temporadas consecutivas.
+
+Estos indicadores constituyen metas de negocio sujetas a validación durante la operación de la plataforma.
 
 #### 1.2.2.2. Lean UX Assumptions
 
