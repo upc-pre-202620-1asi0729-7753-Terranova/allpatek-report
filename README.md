@@ -556,12 +556,17 @@ Estos indicadores constituyen metas de negocio sujetas a validación durante la 
 
 5. Creemos que es técnicamente viable desarrollar una plataforma que integre contratación digital, automatización mediante n8n, notificaciones y mecanismos de seguimiento de pagos dentro del alcance del proyecto.
 
-**Business Outcome Assumptions**
-1. Creemos que la plataforma logrará formalizar al menos 150 contratos de temporada en sus primeros 8 meses de operación.
-2. Creemos que más del 60 % de los usuarios registrados renovará su contrato en temporadas consecutivas.
-3. Creemos que la formalización automatizada reducirá el tiempo administrativo a menos de 5 minutos por transacción.
-4. Creemos que las comisiones por servicio permitirán alcanzar el punto de equilibrio operativo durante el primer año de despliegue.
-5. Creemos que los contratos cumplidos y las calificaciones acumuladas generarán confianza y atraerán a nuevos agricultores y comerciantes por recomendación.
+**Supuestos sobre los resultados de negocio**
+
+1. Creemos que la plataforma logrará formalizar al menos 150 contratos agrícolas durante sus primeros ocho meses de operación.
+
+2. Creemos que más del 60 % de los usuarios que hayan contratado una temporada renovará sus acuerdos en temporadas consecutivas.
+
+3. Creemos que la automatización de contratos reducirá el tiempo de formalización administrativa a menos de cinco minutos por transacción.
+
+4. Creemos que los ingresos obtenidos mediante las comisiones por servicio permitirán alcanzar el punto de equilibrio operativo durante el primer año.
+
+5. Creemos que el cumplimiento de los contratos, la transparencia de los pagos y las calificaciones de los usuarios fortalecerán la confianza y favorecerán la incorporación de nuevos agricultores y comerciantes.
 
 **User Assumptions**
 1. Creemos que el primer segmento de usuarios está conformado por familias agricultoras de parcelas pequeñas en valles andinos con alta exposición climática, como el Mantaro.
