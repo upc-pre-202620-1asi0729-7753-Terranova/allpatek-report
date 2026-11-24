@@ -575,8 +575,9 @@ Creemos que lograremos reducir el tiempo de formalización administrativa a meno
 
 Creemos que lograremos reducir en al menos un 50 % las consultas directas de los comerciantes hacia los agricultores si los comerciantes urbanos reciben información oportuna sobre el avance de la siembra, el desarrollo del cultivo, los hitos agrícolas y la fecha estimada de cosecha, mediante un sistema de notificaciones automatizadas por correo electrónico y WhatsApp.
 
-**Hypothesis 5: Lightweight Mobile Panel for Farmers**
-We believe we will achieve a weekly progress logging rate above 70% if farmers with low digital literacy and limited connectivity (Fan & Salas Garcia, 2018) attain a simple, low-data interface usable on low-end Android devices without extensive training with a Lightweight mobile panel for logging agricultural milestones.
+**Hipótesis 5: Panel móvil accesible para agricultores**
+
+Creemos que lograremos una tasa semanal de registro de avances agrícolas superior al 70 % si los agricultores familiares con conocimientos digitales limitados y conectividad intermitente disponen de una interfaz sencilla, adaptable a dispositivos Android de gama baja y optimizada para el consumo reducido de datos, mediante un panel que facilite el registro de hitos y evidencias del trabajo agrícola.
 
 **Hypothesis 6: Bidirectional Reputation and Ratings**
 We believe we will achieve a season-to-season contract renewal rate above 60% if urban buyers and farmers attain mutual visibility into historical performance prior to committing mitigating the risk of excluding less-connected producers (Otsuka et al., 2016) with a Bidirectional reputation and ratings module.
