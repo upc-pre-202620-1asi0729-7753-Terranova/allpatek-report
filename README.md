@@ -583,8 +583,9 @@ Creemos que lograremos una tasa semanal de registro de avances agrícolas superi
 
 Creemos que lograremos una tasa de renovación de contratos superior al 60 % entre temporadas consecutivas si los comerciantes urbanos y los agricultores familiares pueden consultar el historial de cumplimiento y las experiencias de otros usuarios antes de establecer nuevos acuerdos, mediante un sistema bidireccional de reputación y calificaciones que fortalezca la confianza entre ambas partes.
 
-**Hypothesis 7: Guaranteed Payment Schedule**
-We believe we will achieve a 100% income predictability rate (full agreed payout regardless of harvest yield) if family farmers attain predictable compensation for labor performed, independent of market price fluctuations and climate events, with a Guaranteed payment schedule visible from contract signing that releases milestone-based disbursements.
+**Hipótesis 7: Previsibilidad de ingresos mediante pagos por hitos**
+
+Creemos que lograremos que el 100 % de los agricultores que cumplan las labores pactadas reciban la remuneración acordada si disponen de un calendario de pagos transparente desde la formalización del contrato, mediante un sistema de custodia Escrow que contemple la liberación progresiva de fondos conforme se presenten y aprueben las evidencias correspondientes a cada hito agrícola.
 
 **Hypothesis 8: Cost Transparency and Buyer Savings**
 We believe we will achieve buyer savings of at least 25% compared to equivalent retail prices if urban buyers attain a fixed, itemized direct cost breakdown before committing to a season with a Direct-cost-to-retail price comparison tool integrated into the catalog.
