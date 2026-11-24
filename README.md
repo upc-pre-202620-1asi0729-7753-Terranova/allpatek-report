@@ -511,7 +511,9 @@ El enunciado del problema se deriva directamente del análisis 5W2H. El estado a
 
 Asimismo, asumen directamente los riesgos asociados a la variación de precios y a fenómenos climáticos como sequías, heladas y lluvias intensas (Heikkinen, 2021; Tambet & Stopnitzky, 2021). Por otro lado, los comerciantes urbanos dependen de intermediarios y presentan dificultades para anticipar el costo final de los productos y verificar su procedencia.
 
-**What existing products and services fail to address is** a formal, digital, season-based contracting model (contract farming; Otsuka et al., 2016) that lets a buyer secure a parcel and farmer labor in advance at direct production cost, while guaranteeing the farmer a predictable income for labor performed rather than for harvest or price outcomes. Such a model must be automated end to end, without manual legal paperwork, and designed inclusively so that less-connected producers are not excluded (Otsuka et al., 2016).
+**Lo que los productos y servicios existentes no logran resolver es** la ausencia de un modelo formal y digital de agricultura por contrato (Otsuka et al., 2016), que permita a los comerciantes reservar anticipadamente una parcela y contratar la mano de obra del agricultor a costos directos de producción.
+
+Este modelo busca proporcionar al agricultor una remuneración predecible por las labores realizadas, independientemente del rendimiento de la cosecha y de las fluctuaciones de precios. Asimismo, debe automatizar los procesos administrativos y facilitar la participación de productores con acceso limitado a tecnologías digitales.
 
 **Our product, Allpatek, will address this gap by** offering a web platform where buyers browse and reserve parcels and farmer labor for a season, pay digitally, and automatically receive a legally structured PDF contract and crop-progress notifications through an n8n workflow. Farmers, in turn, receive a guaranteed payment schedule and a lightweight mobile panel to log seasonal progress, and buyers gain a traceability record of the origin of their produce.
 
