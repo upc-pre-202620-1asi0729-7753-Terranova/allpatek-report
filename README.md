@@ -567,8 +567,9 @@ Creemos que lograremos un incremento del 25 % en la tasa de conversión de visit
 
 Creemos que lograremos formalizar al menos 150 contratos agrícolas durante los primeros ocho meses de operación si los comerciantes urbanos y los agricultores familiares disponen de un mecanismo digital para establecer acuerdos comerciales, formalizar la contratación de parcelas y gestionar los pagos correspondientes a cada temporada mediante un sistema de custodia Escrow.
 
-**Hypothesis 3: Automated Contract Generation (n8n)**
-We believe we will achieve a reduction in administrative processing time to under 5 minutes per transaction if farmers and urban buyers attain an instantly generated legal contract sent via email without manual drafting with an Automated n8n workflow that generates and delivers the PDF contract upon payment verification.
+**Hipótesis 3: Generación automatizada de contratos mediante n8n**
+
+Creemos que lograremos reducir el tiempo de formalización administrativa a menos de cinco minutos por transacción si los agricultores familiares y los comerciantes urbanos pueden recibir sus contratos digitales en formato PDF sin necesidad de realizar trámites manuales, mediante un flujo de automatización con n8n encargado de generar y enviar los documentos una vez confirmado el pago correspondiente.
 
 **Hypothesis 4: Crop Progress Notifications**
 We believe we will achieve at least a 50% reduction in direct buyer-to-farmer inquiries if urban buyers attain automated progress tracking for planting, irrigation milestones, and estimated harvest dates with an Automated crop progress notification system via email and WhatsApp.
