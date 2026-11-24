@@ -580,12 +580,17 @@ Estos indicadores constituyen metas de negocio sujetas a validación durante la 
 
 5. Creemos que los agricultores con menor acceso a información de mercado presentan una capacidad de negociación y comercialización limitada (Fan & Salas Garcia, 2018).
 
-**User Outcome and Benefit Assumptions**
-1. Creemos que los agricultores buscan un ingreso predecible por su trabajo, desvinculado del precio de mercado en la cosecha y de los eventos climáticos.
-2. Creemos que los agricultores quieren acceder a compradores directos sin intermediarios ni trámites legales manuales.
-3. Creemos que los comerciantes necesitan conocer y fijar su costo desde el inicio de la temporada, con un ahorro frente al precio minorista.
-4. Creemos que los comerciantes necesitan seguir el avance del cultivo y verificar el origen del producto sin tener que consultar directamente al agricultor.
-5. Creemos que ambos perfiles necesitan un contrato formal inmediato tras el pago para confiar en el acuerdo.
+**Supuestos sobre los resultados y beneficios para los usuarios**
+
+1. Creemos que los agricultores buscan obtener ingresos predecibles por su trabajo, independientemente de las fluctuaciones de precios y del rendimiento de la cosecha.
+
+2. Creemos que los agricultores necesitan acceder directamente a compradores y reducir los trámites administrativos asociados a los acuerdos comerciales.
+
+3. Creemos que los comerciantes necesitan conocer y establecer sus costos de abastecimiento desde el inicio de la temporada agrícola.
+
+4. Creemos que los comerciantes necesitan consultar el progreso de los cultivos y verificar el origen de los productos mediante evidencias digitales, sin depender exclusivamente de consultas directas al agricultor.
+
+5. Creemos que ambos segmentos requieren contratos claros, transparencia en los pagos y mecanismos que permitan verificar el cumplimiento de los acuerdos agrícolas.
 
 **Feature Assumptions**
 1. Creemos que un catálogo de parcelas con ubicación, tipo de cultivo, duración de la temporada y desglose de costos directos permitirá al comerciante evaluar y decidir su reserva de forma autónoma.
