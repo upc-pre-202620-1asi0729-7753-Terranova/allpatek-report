@@ -587,8 +587,9 @@ Creemos que lograremos una tasa de renovación de contratos superior al 60 % ent
 
 Creemos que lograremos que el 100 % de los agricultores que cumplan las labores pactadas reciban la remuneración acordada si disponen de un calendario de pagos transparente desde la formalización del contrato, mediante un sistema de custodia Escrow que contemple la liberación progresiva de fondos conforme se presenten y aprueben las evidencias correspondientes a cada hito agrícola.
 
-**Hypothesis 8: Cost Transparency and Buyer Savings**
-We believe we will achieve buyer savings of at least 25% compared to equivalent retail prices if urban buyers attain a fixed, itemized direct cost breakdown before committing to a season with a Direct-cost-to-retail price comparison tool integrated into the catalog.
+**Hipótesis 8: Transparencia de costos y ahorro para comerciantes**
+
+Creemos que lograremos un ahorro de al menos el 25 % para los comerciantes urbanos respecto al precio minorista de productos agrícolas equivalentes si pueden conocer anticipadamente el desglose de los costos directos de producción y las condiciones económicas de cada temporada, mediante una herramienta de comparación de costos integrada al catálogo de parcelas.
 
 **Hypothesis 9: Origin Traceability Record**
 We believe we will achieve complete traceability records in at least 80% of completed seasons if urban buyers attain verifiable information regarding the origin and progress of their produce with a Seasonal traceability record (parcel, farmer, milestones, and harvest date) accessible directly from the contract view.
