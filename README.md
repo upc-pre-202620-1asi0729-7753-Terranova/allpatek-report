@@ -433,7 +433,7 @@ Desde el punto de vista teórico y sectorial, el modelo de Allpatek se fundament
 
 En esta sección se fundamenta el diseño estratégico de Allpatek a partir del diagnóstico de las fricciones comerciales y los riesgos estructurales que afectan al agro peruano. Para ello, la arquitectura de la solución parte del marco conceptual de la literatura académica sobre acceso a mercados, modelos de agricultura por contrato y mitigación del riesgo climático en unidades de producción familiar. Sobre esta base analítica se implementa el proceso Lean UX, el cual permite articular las suposiciones del negocio, formular hipótesis de valor contrastables y estructurar el Canvas del producto. Este enfoque garantiza que las funcionalidades de la plataforma respondan directamente a los puntos de dolor detectados tanto en las familias agricultoras como en los comerciantes urbanos y corporativos.
 
-**Product Description**
+**Descripción del producto**
 
 Allpatek propone una plataforma web para que comerciantes contraten por temporada parcelas y la labor de agricultores familiares bajo el modelo *Agro-as-a-Service*. El alcance objetivo incluye reserva, pago, contrato en PDF, seguimiento, trazabilidad y reputación. La demo actual muestra el catálogo, aceptaciones, evidencias, clima y una bóveda simulada. El registro con verificación de identidad, la custodia real, la reputación y el funcionamiento sin conexión siguen pendientes.
 
