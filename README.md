@@ -568,12 +568,17 @@ Estos indicadores constituyen metas de negocio sujetas a validación durante la 
 
 5. Creemos que el cumplimiento de los contratos, la transparencia de los pagos y las calificaciones de los usuarios fortalecerán la confianza y favorecerán la incorporación de nuevos agricultores y comerciantes.
 
-**User Assumptions**
-1. Creemos que el primer segmento de usuarios está conformado por familias agricultoras de parcelas pequeñas en valles andinos con alta exposición climática, como el Mantaro.
-2. Creemos que estos agricultores usan teléfonos Android de gama baja con datos móviles intermitentes, tienen a WhatsApp como su canal digital principal y poca experiencia con software de gestión agrícola.
-3. Creemos que el segundo segmento está conformado por hogares, restaurantes y pymes de alimentos urbanos, habituados al comercio electrónico, las billeteras digitales y las reservas en línea.
-4. Creemos que estos comerciantes valoran conocer el origen de sus alimentos y prefieren gestionar sus compras en un entorno digital unificado.
-5. Creemos que los agricultores con menor acceso a información de mercado tienen menor capacidad de negociación y de venta (Fan & Salas Garcia, 2018).
+**Supuestos sobre los usuarios**
+
+1. Creemos que el primer segmento está conformado por familias agricultoras que trabajan pequeñas parcelas en valles andinos con exposición a riesgos climáticos, como el valle del Mantaro.
+
+2. Creemos que estos agricultores utilizan principalmente teléfonos Android de gama baja, presentan conectividad intermitente y emplean WhatsApp como uno de sus principales canales de comunicación digital.
+
+3. Creemos que el segundo segmento está conformado por comerciantes urbanos, propietarios de restaurantes y pequeñas empresas de alimentos familiarizados con herramientas de comercio electrónico y pagos digitales.
+
+4. Creemos que los comerciantes valoran conocer el origen, la calidad y el progreso de los productos agrícolas contratados.
+
+5. Creemos que los agricultores con menor acceso a información de mercado presentan una capacidad de negociación y comercialización limitada (Fan & Salas Garcia, 2018).
 
 **User Outcome and Benefit Assumptions**
 1. Creemos que los agricultores buscan un ingreso predecible por su trabajo, desvinculado del precio de mercado en la cosecha y de los eventos climáticos.
