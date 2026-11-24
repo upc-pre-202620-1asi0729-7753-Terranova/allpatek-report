@@ -591,8 +591,9 @@ Creemos que lograremos que el 100 % de los agricultores que cumplan las labores 
 
 Creemos que lograremos un ahorro de al menos el 25 % para los comerciantes urbanos respecto al precio minorista de productos agrícolas equivalentes si pueden conocer anticipadamente el desglose de los costos directos de producción y las condiciones económicas de cada temporada, mediante una herramienta de comparación de costos integrada al catálogo de parcelas.
 
-**Hypothesis 9: Origin Traceability Record**
-We believe we will achieve complete traceability records in at least 80% of completed seasons if urban buyers attain verifiable information regarding the origin and progress of their produce with a Seasonal traceability record (parcel, farmer, milestones, and harvest date) accessible directly from the contract view.
+**Hipótesis 9: Registro de trazabilidad del origen agrícola**
+
+Creemos que lograremos disponer de registros completos de trazabilidad en al menos el 80 % de las temporadas agrícolas finalizadas si los comerciantes urbanos pueden consultar información verificable sobre el origen y desarrollo de los productos contratados, mediante un registro digital que integre los datos de la parcela, el agricultor responsable, las evidencias de los hitos agrícolas y la fecha de cosecha.
 
 #### 1.2.2.4. Lean UX Canvas
 
