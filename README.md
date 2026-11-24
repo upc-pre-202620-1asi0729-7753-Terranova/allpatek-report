@@ -593,11 +593,19 @@ Estos indicadores constituyen metas de negocio sujetas a validación durante la 
 5. Creemos que ambos segmentos requieren contratos claros, transparencia en los pagos y mecanismos que permitan verificar el cumplimiento de los acuerdos agrícolas.
 
 **Supuestos sobre las funcionalidades**
+
 1. Creemos que un catálogo digital de parcelas que incluya ubicación, tipo de cultivo, duración de la temporada y desglose de costos permitirá al comerciante comparar alternativas y seleccionar una parcela de manera autónoma.
 
 2. Creemos que un módulo de contratación digital que integre mecanismos de pago y custodia Escrow incrementará la confianza de los comerciantes y favorecerá la conversión de reservas frente a la negociación informal.
 
 3. Creemos que la generación y el envío automatizado de contratos en PDF mediante n8n, después de la confirmación del pago correspondiente, reducirán la necesidad de redactar documentos manualmente.
+
+4. Creemos que las notificaciones automatizadas sobre los hitos agrícolas, como la preparación del terreno, la siembra, el riego y la fecha estimada de cosecha, reducirán en al menos un 50 % las consultas directas de los comerciantes hacia los agricultores.
+
+5. Creemos que un panel móvil ligero, compatible con dispositivos Android de gama baja y optimizado para conectividad limitada, facilitará la adopción de la plataforma y el registro de evidencias agrícolas sin requerir procesos extensos de capacitación (Fan & Salas Garcia, 2018).
+
+6. Creemos que un sistema bidireccional de reputación y calificaciones fortalecerá la confianza entre agricultores y comerciantes, favoreciendo la renovación de contratos entre temporadas.
+
 
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
