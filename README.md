@@ -544,12 +544,17 @@ Estos indicadores constituyen metas de negocio sujetas a validación durante la 
 
 #### 1.2.2.2. Lean UX Assumptions
 
-**Business Assumptions**
-1. Creemos que existen comerciantes urbanos (hogares, restaurantes y pymes de alimentos) dispuestos a pagar por adelantado el costo de una temporada agrícola a cambio de costo directo de producción y trazabilidad del origen.
-2. Creemos que las familias agricultoras de valles como el Mantaro aceptarán pasar de la venta a intermediarios a una retribución fija por labor de temporada, en línea con los mecanismos de *contract farming* (Otsuka et al., 2016).
-3. Creemos que un modelo de comisión por servicio sobre cada contrato es aceptable tanto para agricultores como para comerciantes.
-4. Creemos que vender a costo directo permite ofrecer al comerciante un ahorro de al menos 25 % frente al precio minorista, sin reducir el pago pactado al agricultor.
-5. Creemos que la plataforma es técnicamente factible mediante n8n, una pasarela de pagos digitales y notificaciones por correo y WhatsApp, dentro del alcance del proyecto y del ciclo académico.
+**Supuestos de negocio**
+
+1. Creemos que existen comerciantes urbanos dispuestos a financiar anticipadamente una temporada agrícola a cambio de costos directos de producción, transparencia y trazabilidad.
+
+2. Creemos que las familias agricultoras de valles como el Mantaro aceptarán pasar de la venta tradicional a intermediarios a un modelo de remuneración por labores agrícolas realizadas durante la temporada (Otsuka et al., 2016).
+
+3. Creemos que un modelo de comisión por servicio aplicado a cada contrato será aceptable tanto para agricultores como para comerciantes urbanos.
+
+4. Creemos que la comercialización a costos directos permitirá ofrecer al comerciante un ahorro de al menos el 25 % respecto al precio minorista, sin reducir la remuneración acordada con el agricultor.
+
+5. Creemos que es técnicamente viable desarrollar una plataforma que integre contratación digital, automatización mediante n8n, notificaciones y mecanismos de seguimiento de pagos dentro del alcance del proyecto.
 
 **Business Outcome Assumptions**
 1. Creemos que la plataforma logrará formalizar al menos 150 contratos de temporada en sus primeros 8 meses de operación.
