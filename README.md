@@ -559,8 +559,9 @@ El Problem Statement se deriva directamente del análisis 5W2H: el estado actual
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-**Hypothesis 1: Parcel and Season Catalog**
-We believe we will achieve a 25% increase in conversion from visitor to reserved parcel if urban buyers attain transparent and comparable information regarding land parcels, crops, season duration, and direct costs with a Parcel catalog featuring search options, location maps, crop calendars, and detailed pricing.
+**Hipótesis 1: Catálogo de parcelas y temporadas**
+
+Creemos que lograremos un incremento del 25 % en la tasa de conversión de visitantes a reservas de parcelas si los comerciantes urbanos pueden acceder a información transparente y comparable sobre la ubicación de las parcelas, los tipos de cultivo, la duración de las temporadas y los costos de producción, mediante un catálogo digital que facilite la búsqueda y evaluación de las alternativas disponibles.
 
 **Hypothesis 2: Digital Contracting and Seasonal Payment**
 We believe we will achieve at least 150 seasonal contracts formalized within the first 8 months of operation if urban buyers and smallholder farmers attain a digital, contactless mechanism to agree upon and pay for parcel leasing and agricultural labor addressing market access barriers identified by Fan & Salas Garcia (2018) with a Digital contracting and payment module that locks the reservation upon payment confirmation.
