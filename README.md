@@ -505,7 +505,7 @@ El desarrollo de Allpatek está sujeto a las siguientes restricciones tecnológi
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-El Problem Statement se deriva directamente del análisis 5W2H: el estado actual del mercado recoge el *Who*, el *What*, el *Where*, el *When* y el *Why*; la brecha que las soluciones existentes no cubren resume el *How*; y los criterios de éxito se anclan en el *How Much*.
+El enunciado del problema se deriva directamente del análisis 5W2H. El estado actual del mercado responde a las preguntas quién, qué, dónde, cuándo y por qué; las limitaciones de las soluciones existentes permiten identificar cómo abordar la problemática; y los indicadores de éxito establecen los resultados cuantitativos que se esperan alcanzar con Allpatek.
 
 **The current state of** agricultural commercialization in Peru has focused mainly on fragmented, information-asymmetric channels in which smallholder family farmers with limited internet and phone access are less likely to reach profitable markets and sell smaller volumes (Fan & Salas Garcia, 2018), while absorbing on their own both the market-price risk and a growing climate risk of droughts, frosts and heavy rains (Heikkinen, 2021; Tambet & Stopnitzky, 2021). On the other side of the chain, urban buyers depend on intermediaries and cannot anticipate the final cost of their produce or trace its origin.
 
