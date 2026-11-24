@@ -518,9 +518,19 @@ Este modelo busca proporcionar al agricultor una remuneración predecible por la
 **Nuestro producto, Allpatek, abordará esta problemática mediante** una plataforma web que permitirá a los comerciantes explorar y reservar parcelas agrícolas, contratar la mano de obra necesaria para una temporada y gestionar pagos digitales.
 
 La solución contempla la generación automatizada de contratos en PDF mediante n8n, un mecanismo de custodia Escrow, un calendario de pagos por hitos agrícolas y un panel móvil para registrar evidencias del progreso de los cultivos.
-
 Los comerciantes podrán consultar dichas evidencias, verificar el origen de los productos y autorizar la liberación de fondos conforme al cumplimiento de las condiciones contractuales.
-**Our initial focus will be** smallholder farming families operating small parcels in agricultural valleys with documented climate exposure, such as the Mantaro river valley in central Peru (Heikkinen, 2021; Tambet & Stopnitzky, 2021), and urban buyers (households, restaurants and small food businesses) seeking predictable-cost, traceable produce directly from the source. The solution operates under the following constraints: (1) the farmer interface must work on low-end Android devices with intermittent connectivity; (2) contracts and notifications must be generated automatically after payment confirmation through n8n; (3) farmers are paid for labor performed per season, not for yield; and (4) the initial scope is limited to the Mantaro valley and its urban buyers.
+
+**Nuestro enfoque inicial estará dirigido a** las familias agricultoras que trabajan en pequeñas parcelas ubicadas en valles agrícolas con exposición documentada a riesgos climáticos, como el valle del Mantaro, en la región central del Perú (Heikkinen, 2021; Tambet & Stopnitzky, 2021).
+
+Asimismo, estará dirigido a comerciantes urbanos, propietarios de restaurantes y pequeños negocios de alimentos que buscan costos predecibles y productos agrícolas con trazabilidad desde su origen.
+
+La solución contempla las siguientes restricciones:
+
+1. La interfaz del agricultor deberá funcionar en dispositivos Android de gama baja y en condiciones de conectividad intermitente.
+2. Los contratos y las notificaciones deberán generarse automáticamente mediante n8n tras la confirmación del pago correspondiente.
+3. Los agricultores recibirán una remuneración por las labores realizadas durante la temporada, independientemente del rendimiento de la cosecha.
+4. El alcance geográfico inicial estará limitado al valle del Mantaro y a los comerciantes urbanos objetivo.
+5. La liberación de fondos estará asociada al cumplimiento de los hitos agrícolas establecidos en el contrato.
 
 **We will know we are successful when we see** at least 150 seasonal contracts formalized through the platform within the first 8 months of operation; a farmer income predictability rate of 100% (share of contracted farmers receiving their full agreed payment regardless of yield outcome); a buyer saving of at least 25% compared to the equivalent retail price of the same produce; a formalization time under 5 minutes per transaction; and a season-to-season contract renewal rate above 60%.
 
