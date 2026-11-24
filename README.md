@@ -563,8 +563,9 @@ El Problem Statement se deriva directamente del análisis 5W2H: el estado actual
 
 Creemos que lograremos un incremento del 25 % en la tasa de conversión de visitantes a reservas de parcelas si los comerciantes urbanos pueden acceder a información transparente y comparable sobre la ubicación de las parcelas, los tipos de cultivo, la duración de las temporadas y los costos de producción, mediante un catálogo digital que facilite la búsqueda y evaluación de las alternativas disponibles.
 
-**Hypothesis 2: Digital Contracting and Seasonal Payment**
-We believe we will achieve at least 150 seasonal contracts formalized within the first 8 months of operation if urban buyers and smallholder farmers attain a digital, contactless mechanism to agree upon and pay for parcel leasing and agricultural labor addressing market access barriers identified by Fan & Salas Garcia (2018) with a Digital contracting and payment module that locks the reservation upon payment confirmation.
+**Hipótesis 2: Contratación digital y pagos por temporada**
+
+Creemos que lograremos formalizar al menos 150 contratos agrícolas durante los primeros ocho meses de operación si los comerciantes urbanos y los agricultores familiares disponen de un mecanismo digital para establecer acuerdos comerciales, formalizar la contratación de parcelas y gestionar los pagos correspondientes a cada temporada mediante un sistema de custodia Escrow.
 
 **Hypothesis 3: Automated Contract Generation (n8n)**
 We believe we will achieve a reduction in administrative processing time to under 5 minutes per transaction if farmers and urban buyers attain an instantly generated legal contract sent via email without manual drafting with an Automated n8n workflow that generates and delivers the PDF contract upon payment verification.
