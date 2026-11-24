@@ -579,8 +579,9 @@ Creemos que lograremos reducir en al menos un 50 % las consultas directas de los
 
 Creemos que lograremos una tasa semanal de registro de avances agrícolas superior al 70 % si los agricultores familiares con conocimientos digitales limitados y conectividad intermitente disponen de una interfaz sencilla, adaptable a dispositivos Android de gama baja y optimizada para el consumo reducido de datos, mediante un panel que facilite el registro de hitos y evidencias del trabajo agrícola.
 
-**Hypothesis 6: Bidirectional Reputation and Ratings**
-We believe we will achieve a season-to-season contract renewal rate above 60% if urban buyers and farmers attain mutual visibility into historical performance prior to committing mitigating the risk of excluding less-connected producers (Otsuka et al., 2016) with a Bidirectional reputation and ratings module.
+**Hipótesis 6: Sistema bidireccional de reputación y calificaciones**
+
+Creemos que lograremos una tasa de renovación de contratos superior al 60 % entre temporadas consecutivas si los comerciantes urbanos y los agricultores familiares pueden consultar el historial de cumplimiento y las experiencias de otros usuarios antes de establecer nuevos acuerdos, mediante un sistema bidireccional de reputación y calificaciones que fortalezca la confianza entre ambas partes.
 
 **Hypothesis 7: Guaranteed Payment Schedule**
 We believe we will achieve a 100% income predictability rate (full agreed payout regardless of harvest yield) if family farmers attain predictable compensation for labor performed, independent of market price fluctuations and climate events, with a Guaranteed payment schedule visible from contract signing that releases milestone-based disbursements.
