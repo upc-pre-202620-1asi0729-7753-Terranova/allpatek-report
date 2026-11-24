@@ -571,8 +571,9 @@ Creemos que lograremos formalizar al menos 150 contratos agrícolas durante los 
 
 Creemos que lograremos reducir el tiempo de formalización administrativa a menos de cinco minutos por transacción si los agricultores familiares y los comerciantes urbanos pueden recibir sus contratos digitales en formato PDF sin necesidad de realizar trámites manuales, mediante un flujo de automatización con n8n encargado de generar y enviar los documentos una vez confirmado el pago correspondiente.
 
-**Hypothesis 4: Crop Progress Notifications**
-We believe we will achieve at least a 50% reduction in direct buyer-to-farmer inquiries if urban buyers attain automated progress tracking for planting, irrigation milestones, and estimated harvest dates with an Automated crop progress notification system via email and WhatsApp.
+**Hipótesis 4: Notificaciones de progreso agrícola**
+
+Creemos que lograremos reducir en al menos un 50 % las consultas directas de los comerciantes hacia los agricultores si los comerciantes urbanos reciben información oportuna sobre el avance de la siembra, el desarrollo del cultivo, los hitos agrícolas y la fecha estimada de cosecha, mediante un sistema de notificaciones automatizadas por correo electrónico y WhatsApp.
 
 **Hypothesis 5: Lightweight Mobile Panel for Farmers**
 We believe we will achieve a weekly progress logging rate above 70% if farmers with low digital literacy and limited connectivity (Fan & Salas Garcia, 2018) attain a simple, low-data interface usable on low-end Android devices without extensive training with a Lightweight mobile panel for logging agricultural milestones.
