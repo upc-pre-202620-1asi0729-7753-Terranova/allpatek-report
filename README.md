@@ -592,7 +592,7 @@ Estos indicadores constituyen metas de negocio sujetas a validación durante la 
 
 5. Creemos que ambos segmentos requieren contratos claros, transparencia en los pagos y mecanismos que permitan verificar el cumplimiento de los acuerdos agrícolas.
 
-**Supuestos sobre las funcionalidades**
+**Feature Assumptions**
 
 1. Creemos que un catálogo digital de parcelas que incluya ubicación, tipo de cultivo, duración de la temporada y desglose de costos permitirá al comerciante comparar alternativas y seleccionar una parcela de manera autónoma.
 
@@ -606,7 +606,13 @@ Estos indicadores constituyen metas de negocio sujetas a validación durante la 
 
 6. Creemos que un sistema bidireccional de reputación y calificaciones fortalecerá la confianza entre agricultores y comerciantes, favoreciendo la renovación de contratos entre temporadas.
 
+7. Creemos que un calendario de pagos visible desde la formalización del contrato, acompañado de un mecanismo de custodia Escrow y liberación de fondos por hitos validados, proporcionará al agricultor mayor previsibilidad sobre sus ingresos.
 
+8. Creemos que un registro digital de trazabilidad por temporada, que incluya la parcela, el agricultor responsable, los hitos agrícolas y la fecha de cosecha, permitirá al comerciante verificar el origen de los productos contratados.
+
+9. Creemos que un sistema de alertas climáticas basado en información meteorológica permitirá a los agricultores identificar condiciones adversas y tomar decisiones preventivas durante la temporada agrícola.
+
+10. Creemos que un mecanismo de presentación, revisión y validación de evidencias agrícolas incrementará la confianza de los comerciantes y facilitará la autorización de desembolsos asociados al cumplimiento de los hitos contractuales.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
