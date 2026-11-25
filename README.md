@@ -5045,3 +5045,5 @@ Cuentas ficticias creadas para las pruebas y validaciones de la plataforma **ALL
 | **Comerciante Urbano** | Irma Barreto Castro | Comerciante | irma.barreto23@gmail.com |
 | **Comerciante Urbano** | César Hugo Egocheaga | Comerciante | cesar.egocheaga23@gmail.com |
 | **Comerciante Urbano** | Carolin Solsol | Comerciante | carolin.solsol23@gmail.com |
+
+</div>
