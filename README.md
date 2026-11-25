@@ -4163,6 +4163,7 @@ El objetivo principal del **Sprint 4** es .
 | **Sprint 4** |  | | **T004** | | | | | |
 | **Sprint 4** |  | | **T005** | | | | | |
 | **Sprint 4** |  | | **T006** | | | | | |
+| **Sprint 4** |  | | **T007** | | | | | |
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 #### 5.2.4.5. Execution Evidence for Sprint Review
