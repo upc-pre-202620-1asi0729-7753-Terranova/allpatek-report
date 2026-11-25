@@ -4789,7 +4789,7 @@ Acceso a los productos digitales de **ALLPATEK** desplegados públicamente en en
 
 ## Anexo D. Gestión del Proyecto y Product Backlog (Trello)
 
-Seguimiento interactivo de tareas y planificación del Product Backlog / Sprint 1:
+Seguimiento interactivo de tareas y planificación del Product Backlog y de los Sprints 1, 2 y 3:
 
 <div align="center">
 
