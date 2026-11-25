@@ -4172,6 +4172,7 @@ En el Sprint 4 se implementó . Cada bounded context del Sprint Backlog 4 tiene 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 | --- | --- | --- | --- | --- | --- |
 |  |  |  |  |  |  |
+|  |  |  |  |  |  |
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
