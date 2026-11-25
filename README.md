@@ -2189,11 +2189,17 @@ Cada contexto incluye una figura del backend y otra de la webapp. Se muestran lo
 
 #### Gestión de parcelas
 
-Parcel reúne ubicación, área, costo, cronograma, cultivos e imágenes. En el ZIP, ParcelLocation y CampaignCost encapsulan texto; todavía no constituyen un servicio de geolocalización ni un monto monetario transaccional.
+**Backend.** `Parcel` conserva el cronograma de campaña y el estado de la parcela. Una edición entra por `ParcelsController`, pasa a `ParcelCommandService` y se persiste a través del puerto `ParcelRepository`. La transición `markInProduction()` asigna `in_production` y la solicita el manejador de parcelas cuando recibe la notificación de acuerdo firmado.
 
-![Figura 4.7.1-A. Clases de gestión de parcelas](assets/chapter-04/architecture/09-classes-plots.png)
+![Figura 4.7.1-A1. Parcelas en Spring](assets/chapter-04/architecture/09-classes-plots.png)
 
-*Figura 4.7.1-A. Clases de gestión de parcelas.* <a href="assets/chapter-04/architecture/09-classes-plots.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/09-classes-plots.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.7.1-A1. Parcelas en Spring.* [Ampliar en SVG](assets/chapter-04/architecture/09-classes-plots.svg) · [Fuente PlantUML](assets/chapter-04/architecture/09-classes-plots.puml).
+
+**Webapp.** La entidad `Parcel` representa el lote que consulta el agricultor o el comerciante. `ParcelBoard` observa la colección del `ParcelStore` y delega en él el borrado. `ParcelApi` y `ParcelsApiEndpoint` transportan las operaciones HTTP, mientras que `ParcelAssembler` convierte la respuesta en objetos del dominio. El estado de una parcela se expresa con una unión de literales en TypeScript.
+
+![Figura 4.7.1-A2. Parcelas en Angular](assets/chapter-04/architecture/web-classes-parcels.png)
+
+*Figura 4.7.1-A2. Parcelas en Angular.* [Ampliar en SVG](assets/chapter-04/architecture/web-classes-parcels.svg) · [Fuente PlantUML](assets/chapter-04/architecture/web-classes-parcels.puml).
 
 #### Acuerdos de temporada
 
