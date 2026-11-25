@@ -4153,6 +4153,8 @@ El objetivo principal del **Sprint 4** es .
 </p>
 * **Figura 5.2.4.3.1.** Captura del tablero del Sprint 4 en la herramienta de control, con el estado de las tareas.
 * **URL pública del Board:** <a href="" style="text-decoration: none;">Tablero Trello TerraNova</a>
+### Tabla de Control de Estado del Sprint Backlog 4
+
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 #### 5.2.4.5. Execution Evidence for Sprint Review
