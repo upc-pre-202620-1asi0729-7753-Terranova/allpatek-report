@@ -4752,6 +4752,7 @@ Evidencia del desempeño individual del equipo **TerraNova** evaluado para el hi
 | :---: | :--- | :---: |
 | **AV1** | upc-pre-202620-1asi0729-7753-terranova-performance-av1 | upc-pre-202620-1asi0729-7753-terranova-performance-av1.docx<br>upc-pre-202620-1asi0729-7753-terranova-performance-av1.pdf |
 | **TB1** | upc-pre-202620-1asi0729-7753-terranova-performance-tb1 | upc-pre-202620-1asi0729-7753-terranova-performance-tb1.docx<br>upc-pre-202620-1asi0729-7753-terranova-performance-tb1.pdf |
+| **AV2** | upc-pre-202620-1asi0729-7753-terranova-performance-av2 | upc-pre-202620-1asi0729-7753-terranova-performance-av2.docx<br>upc-pre-202620-1asi0729-7753-terranova-performance-av2.pdf |
 
 ---
 
