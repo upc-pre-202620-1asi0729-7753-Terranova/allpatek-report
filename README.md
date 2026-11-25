@@ -4756,7 +4756,7 @@ Evidencia del desempeño individual del equipo **TerraNova** evaluado para el hi
 
 ## Anexo B. Repositorios de Código Fuente y Control de Versiones
 
-Repositorios oficiales en la organización pública de **GitHub** para el hito **AV1**:
+Repositorios oficiales en la organización pública de **GitHub** del equipo **TerraNova** para las entregas del proyecto **ALLPATEK**:
 
 
 <div align="center">
