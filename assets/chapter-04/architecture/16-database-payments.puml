@@ -13,6 +13,7 @@ title Allpatek | MySQL - Wallets
 left to right direction
 entity "wallets" as wallet {
   {field} * id: VARCHAR(160) <<PK>>
+  --
   {field} * profile_id: BIGINT
   {field} * opening_cents: INT
   {field} * holder: VARCHAR(160)
@@ -27,14 +28,13 @@ entity "wallets" as wallet {
 entity "profiles" as profile #EAF2EB {
   {field} * id: BIGINT <<PK>>
 }
-wallet ..> profile : profile_id
+profile ||..o{ wallet : profile_id
 note bottom of wallet
-  PaymentCardPersistenceEmbeddable maps holder, card_number,
-  cvv, last4, expiry and brand.
-  No movement ledger or payment gateway table.
+  profile_id has no unique constraint.
+  The mapping allows multiple wallets per profile.
 end note
 legend bottom
-PK: primary key | UQ: unique | *: NOT NULL
-Dashed arrows are logical references; MySQL has no foreign keys here.
+PK = primary key     * = NOT NULL
+Crow's feet describe logical cardinalities. The schema declares no foreign keys for these IDs.
 endlegend
 @enduml

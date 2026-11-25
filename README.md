@@ -2295,9 +2295,11 @@ Cada acuerdo guarda una referencia de parcela obligatoria y una referencia de co
 
 *Figura 4.8.1-B. Tabla agreements, parcela y comerciante.* [Ampliar en SVG](assets/chapter-04/architecture/15-database-contracts.svg) · [Fuente PlantUML](assets/chapter-04/architecture/15-database-contracts.puml).
 
-![Figura 4.8.1-C. Tabla wallets y referencia al perfil](assets/chapter-04/architecture/16-database-payments.png)
+El identificador del perfil es obligatorio y carece de restricción de unicidad. Por eso el esquema admite varias billeteras para el mismo perfil.
 
-*Figura 4.8.1-C. Tabla wallets y referencia al perfil.* <a href="assets/chapter-04/architecture/16-database-payments.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/16-database-payments.svg" style="text-decoration: none;">SVG</a>.
+![Figura 4.8.1-C. Tabla wallets y perfil](assets/chapter-04/architecture/16-database-payments.png)
+
+*Figura 4.8.1-C. Tabla wallets y perfil.* [Ampliar en SVG](assets/chapter-04/architecture/16-database-payments.svg) · [Fuente PlantUML](assets/chapter-04/architecture/16-database-payments.puml).
 
 ![Figura 4.8.1-D. Tabla evidence y referencia a parcela](assets/chapter-04/architecture/17-database-monitoring.png)
 
