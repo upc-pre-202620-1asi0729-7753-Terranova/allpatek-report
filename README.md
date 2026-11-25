@@ -4746,7 +4746,7 @@ Tambet, H., & Stopnitzky, Y. (2021). Climate adaptation and conservation agricul
 
 ## Anexo A. Registros de Participación del Equipo (Participant Performance Report)
 
-Evidencia del desempeño individual del equipo **TerraNova** evaluado para el hito **AV1**:
+Evidencia del desempeño individual del equipo **TerraNova** evaluado en las entregas **AV1**, **TB1**, **AV2** y **TB2**:
 
 | Entrega | Documento de Rendimiento | Archivos Adjuntos |
 | :---: | :--- | :---: |
