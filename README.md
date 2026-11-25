@@ -4804,5 +4804,21 @@ Seguimiento interactivo de tareas y planificación del Product Backlog y de los 
 
 </div>
 
+---
 
+## Anexo E. Artefactos de Descubrimiento y Diseño (Miro y Figma)
 
+Enlaces a los tableros y prototipos utilizados en las etapas de descubrimiento, modelado y diseño de la solución:
+
+<div align="center">
+
+| Artefacto | Herramienta | Enlace |
+| :--- | :---: | :---: |
+| **Lean UX Canvas** | Miro | <a href="https://miro.com/app/board/uXjVHInt5w4=/" style="text-decoration: none;">Ver Tablero</a> |
+| **Event Storming** | Miro | <a href="https://miro.com/app/board/uXjVEOzTlmg=/?share_link_id=401600368120" style="text-decoration: none;">Ver Tablero</a> |
+| **Wireflow** | Figma | <a href="https://www.figma.com/board/KAFi24QzlDrbm4DzuM1DgV/Untitled?node-id=0-1&t=xxM3mTqylB25csWf-1" style="text-decoration: none;">Ver Wireflow</a> |
+| **User Flow** | Figma | <a href="https://www.figma.com/board/qh5vL4xQoPmKWNJbFj7TGj/Untitled?node-id=0-1&t=gEVZUOH5xRFhc4Dp-1" style="text-decoration: none;">Ver User Flow</a> |
+| **Prototipo Desktop (Web App)** | Figma | <a href="https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=85-504&t=DTHiWfYH71axACfB-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=123%3A494&show-proto-sidebar=1" style="text-decoration: none;">Ver Prototipo Desktop</a> |
+| **Prototipo Mobile (Web App)** | Figma | <a href="https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=257-10099&t=g4J1J50GPL689wBS-1&scaling=scale-down&content-scaling=fixed&page-id=236%3A5996" style="text-decoration: none;">Ver Prototipo Mobile</a> |
+
+</div>
