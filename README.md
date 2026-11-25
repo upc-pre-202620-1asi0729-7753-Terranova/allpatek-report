@@ -4293,6 +4293,12 @@ Descripción de la colaboración del equipo durante el Sprint 4.
 | Raymundo Villarroel, Abigail Nadhim | AbigailRV |  |
 | Vera Solsol, Nayely Macarena | Macaxprogram29 |  |
 
+<p align="center">
+  <img src="assets/chapter-05/insight04.png" alt="Contribuciones del Sprint 4 en GitHub Insights" width="65%" />
+</p>
+
+* **Figura 5.2.4.8.1.** *Contribuciones por usuario en GitHub Insights durante el Sprint 4.*
+
 ## 5.3. Validation Interviews
 
 Entrevistas de validación con los dos segmentos (agricultor familiar y comerciante urbano), sobre la Landing Page y la aplicación web.
