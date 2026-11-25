@@ -2229,13 +2229,19 @@ Cada contexto incluye una figura del backend y otra de la webapp. Se muestran lo
 
 *Figura 4.7.1-C2. Bóveda en Angular.* [Ampliar en SVG](assets/chapter-04/architecture/web-classes-escrow.svg) · [Fuente PlantUML](assets/chapter-04/architecture/web-classes-escrow.puml).
 
-#### Evidencias y clima
+#### Evidencias por hito
 
-MilestoneEvidence relaciona una parcela con un número de hito del 1 al 4, un estado, notas y archivo. El estado pertenece al modelo, pero el servidor aún no exige pasar de review a verified y luego a accepted. ClimateReading se calcula al consultar un pronóstico y no se persiste.
+**Backend.** `MilestoneEvidence` identifica la parcela, el hito, el archivo y el estado de revisión. `EvidenceController` convierte la petición en un comando y `EvidenceCommandServiceImpl` guarda el agregado mediante `EvidenceRepository`. `MilestoneNumber` admite los valores de 1 a 4. El backend almacena el estado enviado sin exigir una secuencia entre `review`, `verified` y `accepted`.
 
-![Figura 4.7.1-D. Clases de evidencias y consulta climática](assets/chapter-04/architecture/12-classes-monitoring.png)
+![Figura 4.7.1-D1. Seguimiento en Spring](assets/chapter-04/architecture/12-classes-monitoring.png)
 
-*Figura 4.7.1-D. Clases de evidencias y consulta climática.* <a href="assets/chapter-04/architecture/12-classes-monitoring.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/12-classes-monitoring.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.7.1-D1. Seguimiento en Spring.* [Ampliar en SVG](assets/chapter-04/architecture/12-classes-monitoring.svg) · [Fuente PlantUML](assets/chapter-04/architecture/12-classes-monitoring.puml).
+
+**Webapp.** `MilestoneEvidence` reúne la identificación de la parcela, el número de hito, el archivo y el estado de revisión. `EvidenceForm` presenta la evidencia y `EvidenceReview` confirma el hito mediante `EvidenceStore`. `EvidenceApi` se encarga del registro o actualización. `EvidenceLookupApi` consulta las parcelas y los acuerdos que el formulario necesita como referencia.
+
+![Figura 4.7.1-D2. Seguimiento en Angular](assets/chapter-04/architecture/web-classes-tracking.png)
+
+*Figura 4.7.1-D2. Seguimiento en Angular.* [Ampliar en SVG](assets/chapter-04/architecture/web-classes-tracking.svg) · [Fuente PlantUML](assets/chapter-04/architecture/web-classes-tracking.puml).
 
 #### Perfiles compartidos
 
