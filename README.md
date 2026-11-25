@@ -4155,6 +4155,8 @@ El objetivo principal del **Sprint 4** es .
 * **URL pública del Board:** <a href="" style="text-decoration: none;">Tablero Trello TerraNova</a>
 ### Tabla de Control de Estado del Sprint Backlog 4
 
+| Sprint | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 #### 5.2.4.5. Execution Evidence for Sprint Review
