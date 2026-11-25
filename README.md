@@ -2074,6 +2074,14 @@ En el diseño del negocio, el comerciante solicita una temporada y ambas partes 
 
 *Figura 4.6.1-B. Modelo propuesto para reserva, aceptación y activación.* [Ampliar en SVG](assets/chapter-04/architecture/01a-season-agreement.svg) · [Fuente PlantUML](assets/chapter-04/architecture/01a-season-agreement.puml).
 
+#### Seguimiento de hitos y desembolso
+
+El agricultor presenta la evidencia y el comerciante la aprueba o pide una corrección. Aprobar autoriza solicitar un desembolso. El historial de pagos solo debe mostrarlo como realizado cuando el proveedor confirma la transferencia. Un rechazo permite revisar la solicitud y reintentar sin duplicar el pago. El capítulo II deja abiertas las decisiones sobre el plazo de revisión, cómo resolver una discrepancia de calidad y quién asume una pérdida por clima. También queda por conciliar el calendario de cinco liberaciones del Big Picture con los hitos del 1 al 4 que acepta el backend. Esas decisiones necesitan validación de los participantes.
+
+![Figura 4.6.1-C. Modelo propuesto para evidencia, revisión y desembolso](assets/chapter-04/architecture/01b-milestone-payout.png)
+
+*Figura 4.6.1-C. Modelo propuesto para evidencia, revisión y desembolso.* [Ampliar en SVG](assets/chapter-04/architecture/01b-milestone-payout.svg) · [Fuente PlantUML](assets/chapter-04/architecture/01b-milestone-payout.puml).
+
 ### 4.6.2. Software Architecture Context Diagram
 
 Los actores principales son el agricultor y el comerciante. La landing explica la propuesta y abre la aplicación. Angular proporciona las pantallas de la demo y usa una API simulada. Los navegadores llaman a n8n desde ciertos formularios; Open-Meteo proporciona el pronóstico y OpenStreetMap, el mapa del formulario de parcela. Una pasarela de pagos, la firma verificable y el almacenamiento documental quedan como integraciones propuestas.
