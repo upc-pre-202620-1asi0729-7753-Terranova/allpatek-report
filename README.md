@@ -2307,9 +2307,11 @@ Cada evidencia contiene el identificador de parcela, número de hito, estado y, 
 
 *Figura 4.8.1-D. Tabla evidences y parcela.* [Ampliar en SVG](assets/chapter-04/architecture/17-database-monitoring.svg) · [Fuente PlantUML](assets/chapter-04/architecture/17-database-monitoring.puml).
 
+El sistema asigna el identificador del perfil. El correo es obligatorio y único. Las tablas que guardan ese identificador como referencia se muestran en la vista general.
+
 ![Figura 4.8.1-E. Tabla profiles y datos de contacto](assets/chapter-04/architecture/13-database-users.png)
 
-*Figura 4.8.1-E. Tabla profiles y datos de contacto.* <a href="assets/chapter-04/architecture/13-database-users.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/13-database-users.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.8.1-E. Tabla profiles y datos de contacto.* [Ampliar en SVG](assets/chapter-04/architecture/13-database-users.svg) · [Fuente PlantUML](assets/chapter-04/architecture/13-database-users.puml).
 
 La estrategia de nombres físicos transforma la anotación `@Table(name = "evidence")` en `evidences`. La ruta HTTP conserva el singular `/api/v1/evidence`. Las listas de cultivos e imágenes se serializan como texto JSON. Los archivos de evidencia se guardan como texto de imagen y nombre de archivo. wallets persiste card_number y cvv además de last4. No existen tablas de cuentas de acceso, reservas, hitos independientes, transacciones, reseñas ni alertas meteorológicas. Para el diseño objetivo quedan pendientes las restricciones entre registros, la protección de datos y la conservación de archivos al cambiar un estado.
 

@@ -9,9 +9,10 @@ skinparam ArrowColor #476050
 skinparam dpi 140
 hide methods
 hide circle
-title Allpatek | MySQL - Profiles
+title Allpatek | MySQL: profile columns
 entity "profiles" as profile {
   {field} * id: BIGINT <<PK, AUTO>>
+  --
   {field} * full_name: VARCHAR(160)
   {field} * email_address: VARCHAR(160) <<UQ>>
   {field} phone: VARCHAR(40)
@@ -24,10 +25,10 @@ entity "profiles" as profile {
   {field} * updated_at: DATETIME(6)
 }
 note right of profile
-  Company details are embedded.
-  No separate account, role or review table.
+  Company details share the profile row.
+  A unique constraint protects email_address.
 end note
 legend bottom
-PK: primary key | AUTO: auto-increment | UQ: unique | *: NOT NULL
+PK = primary key | AUTO = auto-increment | UQ = unique | * = NOT NULL
 endlegend
 @enduml
