@@ -4203,7 +4203,12 @@ Descripción de la captura 4.
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
 Descripción de la documentación de los servicios de este sprint.
+### Entornos de servicio
 
+* **Swagger UI (publicado):** <a href="" style="text-decoration: none;"></a>
+* **URL base publicada:** <a href="" style="text-decoration: none;"></a>
+* **URL base local:** <a href="" style="text-decoration: none;"></a>
+* **Swagger UI local:** <a href="" style="text-decoration: none;"></a>
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 #### 5.2.4.8. Team Collaboration Insights during Sprint
