@@ -4209,6 +4209,10 @@ Descripción de la documentación de los servicios de este sprint.
 * **URL base publicada:** <a href="" style="text-decoration: none;"></a>
 * **URL base local:** <a href="" style="text-decoration: none;"></a>
 * **Swagger UI local:** <a href="" style="text-decoration: none;"></a>
+### 2. Repositorio y commits de documentación
+
+* **Repositorio de Web Services:** <a href="" style="text-decoration: none;"></a>
+
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 #### 5.2.4.8. Team Collaboration Insights during Sprint
