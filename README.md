@@ -2037,18 +2037,18 @@ A continuación, se presentan los enlaces y capturas de los videos explicativos 
 
 ## 4.6. Domain-Driven Software Architecture
 
-Allpatek busca que el comerciante contrate una parcela y el trabajo de un agricultor durante una temporada. El diseño usa **Domain-Driven Design (DDD)** para separar áreas con responsabilidades y reglas propias. En la implementación hay dos recorridos: la **SPA Angular de demostración** consume una API simulada; la **API Java/Spring Boot** del backend compartido funciona con MySQL y se verificó de forma independiente.
+En Allpatek, el comerciante alquila una parcela por temporada y contrata el trabajo del agricultor. El diseño organiza el software según las decisiones que toma cada parte. Una parcela puede ponerse en producción, un acuerdo puede reunir las dos aceptaciones y una evidencia puede revisarse. Cada regla tiene un contexto responsable.
 
-| Área | Código Angular | Código Spring | Alcance observado |
+| Contexto | Módulo Angular | Paquete Spring | Responsabilidad |
 |---|---|---|---|
-| Gestión de parcelas | parcel-management | parcelmanagement | Alta, edición, listado y borrado de parcelas. La disponibilidad se registra como estado; no se reserva automáticamente al aceptar un acuerdo. |
-| Acuerdos | agreements-management | agreementsmanagement | Angular registra la aceptación del comerciante y luego la del agricultor. Spring guarda ambos indicadores, sin exigir una secuencia ni verificar al firmante. |
-| Bóveda de pagos | escrow-payments | escrowpayments | La UI muestra importes y liberaciones simuladas. Spring expone wallets con monto inicial y tarjeta enmascarada, sin depósitos ni transferencias. |
-| Evidencias | tracking-evidence | trackingevidence | Evidencia por parcela e hito; la UI diferencia revisión, verificación y aceptación. Spring guarda el estado que recibe. |
-| Clima | alerts-management | alertsmanagement | Angular consulta Open-Meteo directamente. Spring también ofrece una consulta independiente a partir de las parcelas guardadas. |
-| Perfiles y funciones comunes | shared | shared, iam | Angular selecciona perfiles de demo. Spring expone perfiles en shared; iam aún no implementa autenticación. |
+| Parcelas | `parcel-management` | `parcels` | Publicar la parcela, editarla y actualizar su estado. |
+| Acuerdos | `agreements-management` | `agreements` | Guardar las dos aceptaciones y comunicar la primera transición a acuerdo firmado por ambas partes. |
+| Bóveda | `escrow-payments` | `escrow` | Conservar la billetera de demostración y su saldo inicial. La interfaz simula la liberación por hito. |
+| Seguimiento | `tracking-evidence` | `tracking` | Asociar archivos y observaciones a un hito de la parcela y guardar su estado de revisión. |
+| Clima | `alerts-management` | `alerts` | Calcular lecturas de pronóstico para parcelas con coordenadas. |
+| Perfiles | `shared` | `shared` | Consultar y actualizar perfiles. El navegador conserva la sesión de demostración. |
 
-**Versiones comparadas.** Webapp del equipo: develop f635d7f y main 33bf377. Landing: develop ccc9d71 y main 35fc7c0; la incorporación de ambos videos se refleja en develop. Backend: allpatek-platform.zip (Java 27, Spring Boot 4.1.2, Spring Data JPA y MySQL 8.4 en la prueba). La versión publicada y una ejecución Angular–Spring de punta a punta requieren evidencia aparte.
+**Base de la revisión.** Se cotejaron el frontend Angular (`1c92b1a`), la plataforma Spring (`a2b0269`) y la landing (`ccc9d71`) en las referencias locales. Los dos archivos de entorno de Angular configuran la API Spring en Render bajo `/api/v1`. JSON Server pertenece a una configuración anterior. Las figuras describen el código de esas revisiones.
 
 ### 4.6.1. Design-Level Event Storming
 
