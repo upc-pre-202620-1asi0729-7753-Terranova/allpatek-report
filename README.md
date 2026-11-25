@@ -371,7 +371,7 @@ Repositorios del proyecto:
             <li><b>AV1:</b> Se demostró capacidad para exponer de manera clara el avance de cada capítulo del informe, adaptando el lenguaje técnico al perfil de los interlocutores (evaluadores, agricultores y comerciantes).</li>
             <li><b>TB1:</b> Se sustentaron con claridad las soluciones implementadas y las correcciones realizadas tras la retroalimentación, defendiendo las decisiones del sistema ante audiencias académicas y de negocio.</li>
             <li><b>AV2:</b> Se explicó el avance del backend del Sprint 3, incluyendo las alertas climáticas y la bóveda de demostración (<code>escrow-payments</code>), bajando el tecnicismo de Spring Boot cuando hacía falta para la sustentación.</li>
-            <li><b>TB2:</b> Se preparó la explicación de los aportes de la entrega, priorizando una presentación breve y comprensible de lo implementado en la landing y en el informe.</li>
+            <li><b>TB2:</b> En el Release Review se presentó la versión final del proyecto: el informe con todos sus capítulos y la sección 5.2.4 (Sprint 4), los artefactos corregidos y mejorados, los videos About the Product y About the Team, y los productos digitales desplegados. La explicación se mantuvo breve y comprensible para evaluadores y audiencias no técnicas.</li>
           </ul>
         </td>
       </tr>
