@@ -3,27 +3,22 @@
 !include <C4/C4_Component>
 skinparam backgroundColor white
 skinparam defaultFontName SansSerif
-skinparam defaultFontSize 14
 skinparam shadowing false
-skinparam ArrowColor #476050
-skinparam dpi 140
-title Allpatek | C4 - Browser automation calls
-
+skinparam dpi 125
+title Allpatek | Browser calls to n8n
 LAYOUT_TOP_DOWN()
-Container(landing, "Landing contact form", "Vanilla JavaScript", "Validates contact fields and checks HTTP result")
-Container_Boundary(web, "Angular web application") {
-  Component(contract, "agreements-management", "agreements-management", "Sends notice after SaveAgreement with farmerSigned")
-  Component(evidence, "tracking-evidence", "tracking-evidence", "Sends MilestoneEvidence metadata before SaveEvidence")
-  Component(payout, "escrow-payments", "escrow-payments", "Requests notice after simulated release reports success")
+
+Container(landing, "Landing page", "HTML / JavaScript", "Contact form validates inputs and checks response.ok.")
+Container_Boundary(web, "Angular Webapp") {
+  Component(contract, "ContractSign", "Angular / HttpClient", "Requests a notice on successful farmer signature save.")
+  Component(evidence, "EvidenceForm", "Angular / fetch", "Starts a notice before sending the evidence save request.")
+  Component(payout, "EscrowBoard", "Angular / fetch", "Requests a notice when the UI reports a release.")
 }
-
-System_Ext(automation, "n8n webhook service", "Configured browser destinations; workflow internals not verified")
-
-Rel(landing, automation, "Contact request", "HTTPS POST / JSON")
-Rel(contract, automation, "n8nContractWebhookUrl", "HTTPS POST / JSON")
-Rel(evidence, automation, "n8nEvidenceWebhookUrl", "HTTPS POST / form")
-Rel(payout, automation, "n8nPayoutWebhookUrl", "HTTPS POST / form")
-
-footer Calls originate in the browser. The reviewed Spring ZIP contains no n8n or contract PDF implementation. Delivery was not verified.
+System_Ext(automation, "n8n", "Configured webhook targets")
+Rel(landing, automation, "POST contact; shows HTTP success or failure", "JSON")
+Rel(contract, automation, "POST agreement notice; request errors ignored", "JSON")
+Rel(evidence, automation, "POST evidence notice; save proceeds independently", "Form URL-encoded")
+Rel(payout, automation, "POST payout notice; evidence PUT failure can still trigger it", "Form URL-encoded")
+footer Implementation records browser requests. Actual workflow execution, contract PDF and email delivery require separate evidence.
 SHOW_LEGEND()
 @enduml

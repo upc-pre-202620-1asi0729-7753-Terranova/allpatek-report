@@ -2125,11 +2125,11 @@ Cada recuadro dentro del límite de Allpatek representa una unidad que se puede 
 
 *Figura 4.6.4-C. Componentes de la landing.* <a href="assets/chapter-04/architecture/06-landing-components.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/06-landing-components.svg" style="text-decoration: none;">SVG</a>.
 
-**Automatización.** El navegador solicita notificaciones para contacto, acuerdo, evidencia y liberación simulada. En la SPA, la llamada de acuerdo se intenta después de guardar la segunda aceptación; la de evidencia se inicia antes del guardado, y la de liberación depende del resultado que informa la UI. El código revisado no confirma la generación de PDF ni la entrega del correo. Spring no dispara estos webhooks en el ZIP.
+**Automatización.** La landing comprueba la respuesta HTTP al enviar el contacto. En la SPA, la notificación de acuerdo se solicita tras guardar la segunda aceptación. El aviso de evidencia se inicia antes de conocer el resultado del guardado. En la bóveda, un error al guardar la liberación se puede convertir en éxito local y disparar el aviso. La figura identifica los puntos de llamada. El resultado del workflow, la entrega del correo y el PDF requieren evidencia independiente.
 
-![Figura 4.6.4-D. Invocaciones de webhooks desde el navegador](assets/chapter-04/architecture/07-n8n-components.png)
+![Figura 4.6.4-D. Puntos de llamada a n8n desde las aplicaciones](assets/chapter-04/architecture/07-n8n-components.png)
 
-*Figura 4.6.4-D. Invocaciones de webhooks desde el navegador.* <a href="assets/chapter-04/architecture/07-n8n-components.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/07-n8n-components.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.6.4-D. Puntos de llamada a n8n desde las aplicaciones.* [Ampliar en SVG](assets/chapter-04/architecture/07-n8n-components.svg) · [Fuente PlantUML](assets/chapter-04/architecture/07-n8n-components.puml).
 
 ## 4.7. Software Object-Oriented Design
 
