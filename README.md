@@ -4064,6 +4064,22 @@ Los cinco salen en Insights del repositorio. El pico de commits cae entre finale
 </table>
 
 #### 5.2.4.2. Aspect Leaders and Collaborators
+
+<table>
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #dddddd; padding: 10px;">Team Member</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">agreements-management</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">alerts-management</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">escrow-payments</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">parcel-management</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">tracking-evidence</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">shared</th>
+    </tr>
+  </thead>
+  <tbody>
+
 #### 5.2.4.3. Sprint Backlog 4
 #### 5.2.4.4. Development Evidence for Sprint Review
 #### 5.2.4.5. Execution Evidence for Sprint Review
