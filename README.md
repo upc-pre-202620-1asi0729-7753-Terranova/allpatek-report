@@ -2092,20 +2092,18 @@ El agricultor ofrece la parcela y registra el trabajo. El comerciante contrata l
 
 ### 4.6.3. Software Architecture Container Diagrams
 
-| Contenedor | Tecnología | Conexión observada |
+Cada recuadro dentro del límite de Allpatek representa una unidad que se puede desplegar por separado. El enlace de la landing abre la webapp y el navegador carga la SPA. Desde allí salen las solicitudes a la API, a los pronósticos y a los webhooks.
+
+| Contenedor | Tecnología | Responsabilidad y conexión |
 |---|---|---|
-| Landing | HTML, CSS y JavaScript | Abre la SPA, enlaza recursos y envía solicitudes de contacto a un webhook configurado. |
-| Aplicación web | SPA Angular 22.2, CSS, Signals, HttpClient y ngx-translate | Usa JSON Server local o Azure Mock API según el entorno. Consulta Open-Meteo y muestra un mapa de OpenStreetMap desde el navegador. |
-| API simulada | JSON Server / Azure Mock API | Colecciones parcels, agreements, wallets, evidence, profiles y users usadas por la demo. |
-| API de servicios | Java 27, Spring Boot 4.1.2, JPA, OpenAPI | REST /api/v1; verificada localmente con MySQL. También puede consultar Open-Meteo en /api/v1/alerts. |
-| Base de datos | MySQL | Guarda perfiles, parcelas, acuerdos, wallets y evidencias de la API Java. |
-| Automatización externa | n8n | Recibe solicitudes desde el navegador. El ZIP no incluye los workflows ni un generador de PDF en Spring. |
+| Landing page | HTML, CSS y JavaScript | Presenta el servicio, abre la SPA, incorpora dos videos de YouTube y envía el contacto a n8n. |
+| Allpatek Webapp | Angular, TypeScript y HttpClient | Ejecuta las pantallas en el navegador, consume la API por HTTPS e incorpora el mapa de OpenStreetMap. La vista de clima pide pronósticos directamente a Open-Meteo. |
+| Platform REST API | Java y Spring Boot | Expone recursos bajo `/api/v1`, utiliza JPA para acceder a MySQL y ofrece su propia consulta de clima. |
+| Base de datos | MySQL | Persiste perfiles, parcelas, acuerdos, billeteras y evidencias. |
 
-![Figura 4.6.3. Contenedores de la demo y de los servicios Java](assets/chapter-04/architecture/03-containers.png)
+![Figura 4.6.3. Contenedores desplegables y comunicación de la webapp](assets/chapter-04/architecture/03-containers.png)
 
-*Figura 4.6.3. Contenedores de la demo y de los servicios Java.* <a href="assets/chapter-04/architecture/03-containers.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/03-containers.svg" style="text-decoration: none;">SVG</a>.
-
-La SPA se descarga y ejecuta en el navegador. Su enrutador cambia de vista y sus servicios de datos cargan o actualizan los registros. La configuración revisada todavía separa la API simulada de la API Java: cambiar una URL no resuelve por sí solo los contratos, el acceso ni los datos iniciales.
+*Figura 4.6.3. Contenedores desplegables y comunicación de la webapp.* [Ampliar en SVG](assets/chapter-04/architecture/03-containers.svg) · [Fuente PlantUML](assets/chapter-04/architecture/03-containers.puml).
 
 ### 4.6.4. Software Architecture Components Diagrams
 
