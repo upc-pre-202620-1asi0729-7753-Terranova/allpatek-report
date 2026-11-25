@@ -4284,6 +4284,9 @@ Descripción del paso 5.
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
+Descripción de la colaboración del equipo durante el Sprint 4.
+
+
 ## 5.3. Validation Interviews
 
 Entrevistas de validación con los dos segmentos (agricultor familiar y comerciante urbano), sobre la Landing Page y la aplicación web.
