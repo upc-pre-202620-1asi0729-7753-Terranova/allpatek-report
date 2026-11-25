@@ -2171,6 +2171,14 @@ La consulta reúne las coordenadas de Parcelas y el pronóstico de Open-Meteo. C
 
 *Figura 4.6.4-E5. Componentes de clima.* [Ampliar en SVG](assets/chapter-04/architecture/c4-alerts.svg) · [Fuente PlantUML](assets/chapter-04/architecture/c4-alerts.puml).
 
+#### Perfiles en la API
+
+El controlador y los servicios consultan o editan el perfil. El repositorio JPA conserva los datos personales y de empresa. El paquete de identidad carece de un flujo de autenticación implementado.
+
+![Figura 4.6.4-E6. Componentes de perfiles](assets/chapter-04/architecture/c4-shared-profiles.png)
+
+*Figura 4.6.4-E6. Componentes de perfiles.* [Ampliar en SVG](assets/chapter-04/architecture/c4-shared-profiles.svg) · [Fuente PlantUML](assets/chapter-04/architecture/c4-shared-profiles.puml).
+
 ## 4.7. Software Object-Oriented Design
 
 Las figuras de clases corresponden a la API Java. Los agregados agrupan los datos del negocio; los value objects expresan conceptos como una firma, una tarjeta enmascarada o el cronograma de campaña. Las entidades JPA y los assemblers mantienen el almacenamiento separado del modelo de dominio. Angular se documenta en la figura 4.6.4-B.
