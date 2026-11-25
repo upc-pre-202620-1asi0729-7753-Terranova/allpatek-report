@@ -1,0 +1,64 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 14
+skinparam shadowing false
+skinparam ArrowColor #405560
+skinparam rectangleBorderColor #526574
+skinparam packageStyle rectangle
+top to bottom direction
+!define ACT #FDEFA1
+!define CMD #B8DDFB
+!define FACT #FFCD9D
+!define POLICY #DACCF1
+!define READ #C8E8C9
+!define OPEN #F9CED5
+
+title Allpatek | Season lifecycle from the Chapter II Big Picture
+package "1. Publication and reservation" {
+  rectangle "Family farmer / Merchant" as who1 ACT
+  rectangle "Parcel published\nProduction plan recorded" as f1 FACT
+  rectangle "Reservation requested [target]\nParcel reserved [target]" as f2 FACT
+  who1 --> f1
+  f1 --> f2
+}
+package "2. Seasonal agreement" {
+  rectangle "Merchant and farmer accept" as a2 CMD
+  rectangle "Merchant acceptance saved\nFarmer acceptance saved" as s2 FACT
+  rectangle "Both accepted + deposit confirmed\n→ activate agreement [target]" as p2 POLICY
+  f2 --> a2
+  a2 --> s2
+  s2 --> p2
+}
+package "3. Cultivation and follow-up" {
+  rectangle "Submit progress evidence\nReview milestone" as c3 CMD
+  rectangle "Evidence submitted\nMilestone reviewed" as e3 FACT
+  rectangle "Current evidence status\nClimate forecast by parcel" as q3 READ
+  p2 --> c3
+  c3 --> e3
+  e3 --> q3
+}
+package "4. Harvest and closure" {
+  rectangle "Harvest validated [target]\nFinal delivery confirmed [target]" as e4 FACT
+  rectangle "Final payout confirmed [target]\nSeason renewed [target]" as e5 FACT
+  rectangle "Late milestone? Harvest quality criteria?\nWho bears a weather-related loss?" as h OPEN
+  e4 --> e5
+  e5 --> h
+}
+q3 ..> e4 : later in the season
+note right of f1
+The Angular catalog and Spring parcel API represent publication.
+Planning data belongs to the parcel record.
+Reservation as a distinct business state is proposed.
+end note
+note right of e3
+The demo stores milestone statuses. A forecast is read on request.
+[Target] marks proposed business outcomes in this overview.
+The detailed boards identify the event types implemented in Spring.
+end note
+legend bottom
+  Yellow: actor   Blue: command   Orange: past-tense fact
+  Purple: decision or policy   Green: query or read model   Pink: open question
+endlegend
+@enduml

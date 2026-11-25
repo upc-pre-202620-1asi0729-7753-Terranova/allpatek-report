@@ -2052,25 +2052,19 @@ En Allpatek, el comerciante alquila una parcela por temporada y contrata el trab
 
 ### 4.6.1. Design-Level Event Storming
 
-El diagrama usa los nombres del código Java: paquetes parcels, agreements, tracking, escrow, alerts y shared; comandos y consultas de esas clases; agregados Parcel, Agreement, MilestoneEvidence, Wallet y Profile; y el registro ClimateReading. El único evento de dominio publicado en Spring es AgreementFullySignedEvent, traducido a AgreementFullySignedIntegrationEvent. La política resultante ejecuta MarkParcelInProductionCommand y deja la parcela en ParcelStatus.in_production. tracking y escrow persisten estados (review, verified, accepted en evidencia; saldo inicial en Wallet); **no publican eventos**. ClimateReading se calcula en GET /api/v1/alerts con Open-Meteo y no se guarda. Farmer y Merchant son el rol de la demo Angular; el paquete iam no autentica. El Big Picture del capítulo II sigue siendo el ciclo de temporada propuesto, no este recorte de implementación.
+El [Big Picture del capítulo II](#24-big-picture-event-storming) sigue la temporada desde la oferta de la parcela hasta el pago por el trabajo. Para pasar al nivel de diseño se descompuso el recorrido en decisiones. El **comando** pide hacer algo, el **agregado** comprueba la regla, el **evento** cuenta lo que ocurrió y la **consulta** muestra el resultado al usuario. Una **política** decide el siguiente paso al recibir un evento.
 
-| Actor y comando | Qué ocurre en Spring | Lectura |
-|---|---|---|
-| Farmer · CreateParcelCommand / UpdateParcelCommand / DeleteParcelCommand | Persiste Parcel (available, in_production o maintenance) | GetAllParcelsQuery |
-| Merchant o Farmer · SaveAgreementCommand | Persiste Agreement con merchantSigned y farmerSigned. Si ambas firmas están completas, onFullySigned() registra AgreementFullySignedEvent | GetAllAgreementsQuery |
-| Política · AgreementFullySignedIntegrationEvent | MarkParcelInProductionCommand → Parcel.markInProduction() | Catálogo de parcelas |
-| Farmer o Merchant · SaveEvidenceCommand | Persiste MilestoneEvidence con EvidenceStatus | GetAllEvidenceQuery |
-| Merchant · SaveWalletCommand | Persiste Wallet con PaymentCard y MoneyCents | GetAllWalletsQuery |
-| Farmer · GetClimateAlertsQuery | Arma ClimateReading con ParcelsContextFacade y Open-Meteo | No hay tabla de alertas |
-| Farmer o Merchant · UpdateProfileCommand | Actualiza Profile | GetAllProfilesQuery, GetProfileByIdQuery |
+![Figura 4.6.1. El ciclo de temporada del Big Picture y las decisiones que se detallan en este capítulo](assets/chapter-04/architecture/01c-season-lifecycle.png)
 
-![Figura 4.6.1. Design-Level EventStorming de allpatek-platform](assets/chapter-04/architecture/01-eventstorming.png)
+*Figura 4.6.1. El ciclo de temporada del Big Picture y las decisiones que se detallan en este capítulo.* [Ampliar en SVG](assets/chapter-04/architecture/01c-season-lifecycle.svg) · [Fuente PlantUML](assets/chapter-04/architecture/01c-season-lifecycle.puml).
 
-*Figura 4.6.1. Design-Level EventStorming de allpatek-platform.* <a href="assets/chapter-04/architecture/01-eventstorming.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/01-eventstorming.svg" style="text-decoration: none;">SVG</a>.
+**Comportamiento en Spring.** Al guardar el acuerdo, el adaptador compara las aceptaciones anteriores con las actuales. En la primera transición a dos aceptaciones, el agregado registra `AgreementFullySignedEvent`. La aplicación publica un evento de integración y Parcelas intenta marcar la parcela como `in_production`. Un identificador de parcela sin coincidencia se registra en el log. La confirmación bancaria y la emisión de un PDF quedan fuera de este recorrido. Seguimiento y Bóveda guardan datos sin publicar eventos de desembolso.
 
-**Reglas aún por implementar.** El diseño objetivo requiere evitar reservas o temporadas activas superpuestas, validar las condiciones aceptadas por ambas partes y confirmar el abono antes de activar un contrato real. Aprobar un hito y confirmar su desembolso son decisiones distintas. El servidor todavía debe imponer las transiciones, verificar al actor, evitar duplicados y conservar las evidencias durante las actualizaciones. La entrega de un PDF o un aviso no debe confirmar un pago ni determinar su estado.
+![Figura 4.6.1-A. Comandos, eventos y consultas presentes en Spring](assets/chapter-04/architecture/01-eventstorming.png)
 
-Este diagrama se cotejó con el código. Una sesión colaborativa de validación se debe respaldar aparte con fecha, participantes, tablero y decisiones.
+*Figura 4.6.1-A. Comandos, eventos y consultas presentes en Spring.* [Ampliar en SVG](assets/chapter-04/architecture/01-eventstorming.svg) · [Fuente PlantUML](assets/chapter-04/architecture/01-eventstorming.puml).
+
+**Evidencia del proceso.** El tablero general está enlazado en la sección 2.4. Para acreditar una sesión específica de Design-Level EventStorming queda pendiente incorporar su fecha, participantes, enlace al tablero, captura y decisiones tomadas.
 
 ### 4.6.2. Software Architecture Context Diagram
 
