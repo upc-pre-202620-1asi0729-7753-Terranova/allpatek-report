@@ -2163,6 +2163,14 @@ El servicio guarda la billetera con un monto inicial y una tarjeta de demostraci
 
 *Figura 4.6.4-E4. Componentes de bóveda.* [Ampliar en SVG](assets/chapter-04/architecture/c4-escrow.svg) · [Fuente PlantUML](assets/chapter-04/architecture/c4-escrow.puml).
 
+#### Clima en la API
+
+La consulta reúne las coordenadas de Parcelas y el pronóstico de Open-Meteo. Calcula el resultado bajo demanda y lo devuelve al cliente.
+
+![Figura 4.6.4-E5. Componentes de clima](assets/chapter-04/architecture/c4-alerts.png)
+
+*Figura 4.6.4-E5. Componentes de clima.* [Ampliar en SVG](assets/chapter-04/architecture/c4-alerts.svg) · [Fuente PlantUML](assets/chapter-04/architecture/c4-alerts.puml).
+
 ## 4.7. Software Object-Oriented Design
 
 Las figuras de clases corresponden a la API Java. Los agregados agrupan los datos del negocio; los value objects expresan conceptos como una firma, una tarjeta enmascarada o el cronograma de campaña. Las entidades JPA y los assemblers mantienen el almacenamiento separado del modelo de dominio. Angular se documenta en la figura 4.6.4-B.
