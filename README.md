@@ -4212,6 +4212,9 @@ Descripción de la documentación de los servicios de este sprint.
 ### 2. Repositorio y commits de documentación
 
 * **Repositorio de Web Services:** <a href="" style="text-decoration: none;"></a>
+### 3. Matriz de endpoints del alcance del Sprint
+
+> **Ruta base (BASE):** <a href="" style="text-decoration: none;"></a>
 
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
