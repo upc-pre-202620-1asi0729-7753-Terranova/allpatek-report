@@ -4285,7 +4285,8 @@ Descripción del paso 5.
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
 Descripción de la colaboración del equipo durante el Sprint 4.
-
+| Integrante | Usuario GitHub | Repositorio |
+| :--- | :--- | :--- |
 
 ## 5.3. Validation Interviews
 
