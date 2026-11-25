@@ -405,6 +405,7 @@ Repositorios del proyecto:
             <li><b>AV1:</b> Se evidenció rigor y claridad en la redacción de los capítulos del informe, con contenido estructurado y comprensible para supervisores académicos y perfiles técnicos y de negocio.</li>
             <li><b>TB1:</b> Se corrigió y amplió la documentación a partir de la retroalimentación, y los commits descriptivos de cada bounded context dejaron un registro organizado y entendible para desarrolladores y supervisores.</li>
             <li><b>AV2:</b> Con la documentación del backend (alertas, parcelas, evidencias y la wallet de custodia) se puede seguir el Sprint 3 sin perderse entre repositorios, tanto en lo técnico como en lo de negocio.</li>
+            <li><b>TB2:</b> Los anexos y los documentos legales dejan reunidos los enlaces del proyecto y las condiciones de uso de la plataforma, de modo que cualquier lector puede ubicarlos sin revisar cada repositorio.</li>
           </ul>
         </td>
       </tr>
