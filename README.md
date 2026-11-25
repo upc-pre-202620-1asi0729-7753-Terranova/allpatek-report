@@ -4775,7 +4775,7 @@ Repositorios oficiales en la organización pública de **GitHub** del equipo **T
 
 ## Anexo C. Enlaces de Despliegue en Entornos de Operación (Cloud Deployments)
 
-Acceso al sitio web estático (Landing Page) desplegado públicamente para la entrega **AV1**:
+Acceso a los productos digitales de **ALLPATEK** desplegados públicamente en entornos de operación (Landing Page, Web App, Web Services y Fake API):
 
 | Producto Digital | Entorno / Provider | Estado | Dirección URL de Acceso Público |
 | :--- | :---: | :---: | :---: |
