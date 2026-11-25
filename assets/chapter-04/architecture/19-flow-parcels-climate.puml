@@ -1,39 +1,41 @@
 @startuml
-title Allpatek | Parcels and On-demand Weather
-skinparam backgroundColor white
+title Allpatek | Parcel registration and weather forecasts
 skinparam shadowing false
 skinparam defaultFontName SansSerif
-skinparam defaultFontSize 15
-skinparam dpi 140
+skinparam defaultFontSize 14
+skinparam dpi 120
 hide footbox
 actor Farmer
-participant "Angular SPA" as Web
-database "Mock API" as Mock
+participant "Angular Webapp" as Web
+participant "Spring REST API" as Api
+participant "OpenStreetMap" as Maps
 participant "Open-Meteo" as Weather
 
-Farmer -> Web : Select demo farmer role
-Farmer -> Web : Open /parcels/new and fill in details
-note right of Web
-  Choose coordinates manually, by department or GPS.
-  Add crops and optional photos.
-end note
-Web -> Mock : POST /parcels (status available)
-Mock --> Web : Saved parcel
-Web --> Farmer : Return to /parcels on success
-Farmer -> Web : Open /alerts
-Web -> Mock : Read parcel references
-Mock --> Web : Parcels
-Web -> Web : Keep owner's parcels with valid coordinates
-alt Coordinates available
-  Web -> Weather : GET forecasts for the owner's parcels
-  Weather --> Web : Current, hourly and daily forecast
-  Web --> Farmer : Show readings and estimated risk
-else No usable coordinates
-  Web --> Farmer : No readings
+Farmer -> Web : Open /parcels/new with a local farmer profile
+Web -> Maps : Embed selected coordinates in the map
+Farmer -> Web : Save parcel details
+Web -> Api : POST /api/v1/parcels
+alt Parcel saved
+  Api --> Web : Parcel resource
+  Web --> Farmer : Return to /parcels
+else Save fails
+  Web --> Farmer : Keep the form visible and report failure
 end
-note over Web,Weather
-  The browser calls Open-Meteo directly.
-  The separate Spring GET /api/v1/alerts reads MySQL parcels
-  and calls Open-Meteo independently; Angular does not call it.
-end note
+
+Farmer -> Web : Open /alerts
+Web -> Api : GET /api/v1/parcels
+Api --> Web : Parcel records
+Web -> Web : Select owner's parcels with usable coordinates
+alt Coordinates available
+  Web -> Weather : GET forecast directly from the browser
+  alt Forecast returned
+    Weather --> Web : Current, hourly and daily data
+    Web --> Farmer : Display readings and estimated risk
+  else Forecast request fails
+    Web --> Farmer : Display the weather error state
+  end
+else No eligible parcel, or parcel lookup failed
+  Web --> Farmer : No forecast readings for this query
+end
+note over Web,Weather : Spring also exposes GET /api/v1/alerts and its own weather adapter.\nThe Angular alerts screen uses the direct Open-Meteo path shown above.
 @enduml
