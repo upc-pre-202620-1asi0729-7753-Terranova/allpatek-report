@@ -4783,6 +4783,7 @@ Acceso a los productos digitales de **ALLPATEK** desplegados públicamente en en
 | **Web App (ALLPATEK)** | Netlify | Live | <a href="https://terranova-allpatek.netlify.app/" style="text-decoration: none;">https://terranova-allpatek.netlify.app/</a> |
 | **Web Services (API REST base)** | Render | Live | <a href="https://allpatek-platform.onrender.com/api/v1" style="text-decoration: none;">https://allpatek-platform.onrender.com/api/v1</a> |
 | **Documentación OpenAPI (Swagger UI)** | Render | Live | <a href="https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html" style="text-decoration: none;">https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html</a> |
+| **Fake API (Mock API)** | Azure App Service | Live | <a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/" style="text-decoration: none;">https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/</a> |
 
 ---
 
