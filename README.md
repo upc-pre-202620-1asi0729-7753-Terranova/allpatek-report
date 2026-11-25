@@ -4135,7 +4135,18 @@ Los cinco salen en Insights del repositorio. El pico de commits cae entre finale
 #### 5.2.4.3. Sprint Backlog 4
 
 El objetivo principal del **Sprint 4** es .
+<div align="center">
 
+| Story Id | Story Title  | Story Points  |
+| :---: | :---: | :---: |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+| **Total** | | **** |
+
+</div>
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 #### 5.2.4.5. Execution Evidence for Sprint Review
