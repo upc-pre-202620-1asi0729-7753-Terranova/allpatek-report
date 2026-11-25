@@ -1,0 +1,66 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 14
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam packageStyle rectangle
+hide empty members
+title Allpatek Angular SPA | Profiles and session
+package "Domain" #EAF4EA {
+interface BaseEntity {
+  +id: number
+}
+class UserProfile {
+  +id: number
+  +fullName: string
+  +email: string
+  +company: string
+}
+class AccountUser {
+  +id: number
+  +profileId: number
+  +role: AccountRole
+}
+class AccountRole <<type alias>> {
+  {field} agricultor | comerciante
+}
+}
+package "Application" #EDF3F9 {
+class ProfileStore {
+  -session: SessionStore
+  +reload(): void
+  +updateProfile(updated: UserProfile): void
+}
+class SessionStore {
+  +enter(role: AccountRole, name: string, profileId: number): void
+  +clear(): void
+}
+}
+package "Infrastructure" #FFF6E2 {
+class ProfileApi {
+  +getProfiles(): Observable<UserProfile[]>
+  +updateProfile(profile: UserProfile): Observable<UserProfile>
+}
+class UserApi {
+  +findByRole(role: AccountRole): Observable<AccountUser | null>
+}
+}
+package "Presentation" #F4EEFB {
+class Login {
+  -session: SessionStore
+  -profiles: ProfileStore
+  #onSubmit(event: Event): void
+}
+}
+BaseEntity <|.. AccountUser
+BaseEntity <|.. UserProfile
+AccountUser ..> AccountRole : uses
+ProfileStore -up-> "0..*" UserProfile : holds profiles
+ProfileStore --> "1" ProfileApi : updates profile
+ProfileStore --> "1" UserApi : syncs changes
+ProfileStore --> "1" SessionStore : selects profile
+Login -up-> "1" SessionStore : opens demo session
+Login -up-> "1" ProfileStore : reloads
+@enduml

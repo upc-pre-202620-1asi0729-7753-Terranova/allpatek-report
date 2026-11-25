@@ -2245,11 +2245,17 @@ Cada contexto incluye una figura del backend y otra de la webapp. Se muestran lo
 
 #### Perfiles compartidos
 
-Profile encapsula EmailAddress y CompanyDetails. La API permite consultar y actualizar perfiles; el alta interna del repositorio no tiene un endpoint público de registro. No hay gestión de credenciales en iam.
+**Backend.** En `shared`, `Profile` reúne los datos personales y los de la empresa. Al editar un perfil, `ProfilesController` entrega el comando a `ProfileCommandService`; su implementación busca el perfil, llama a `Profile.update` y guarda el cambio mediante `ProfileRepository`. El adaptador JPA transforma el agregado para persistirlo. El correo pertenece al perfil; la autenticación queda fuera de este flujo.
 
-![Figura 4.7.1-E. Clases de perfiles compartidos](assets/chapter-04/architecture/08-classes-users.png)
+![Figura 4.7.1-E1. Perfiles en Spring](assets/chapter-04/architecture/08-classes-users.png)
 
-*Figura 4.7.1-E. Clases de perfiles compartidos.* <a href="assets/chapter-04/architecture/08-classes-users.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/08-classes-users.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.7.1-E1. Perfiles en Spring.* [Ampliar en SVG](assets/chapter-04/architecture/08-classes-users.svg) · [Fuente PlantUML](assets/chapter-04/architecture/08-classes-users.puml).
+
+**Webapp.** En el módulo compartido, `UserProfile` y `AccountUser` implementan `BaseEntity`. `AccountRole` es un alias de TypeScript con los dos roles de la aplicación. `Login` abre la sesión de agricultor de demostración y pide actualizar el perfil en pantalla. `SessionStore` conserva rol e identificador en el navegador. `ProfileStore` usa `ProfileApi` para los datos del perfil y `UserApi` para sincronizar nombre y correo. La sincronización con `/users` carece de un endpoint equivalente en Spring.
+
+![Figura 4.7.1-E2. Perfiles en Angular](assets/chapter-04/architecture/web-classes-profiles.png)
+
+*Figura 4.7.1-E2. Perfiles en Angular.* [Ampliar en SVG](assets/chapter-04/architecture/web-classes-profiles.svg) · [Fuente PlantUML](assets/chapter-04/architecture/web-classes-profiles.puml).
 
 ## 4.8. Database Design
 
