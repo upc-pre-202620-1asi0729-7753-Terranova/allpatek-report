@@ -2107,11 +2107,11 @@ Cada recuadro dentro del límite de Allpatek representa una unidad que se puede 
 
 ### 4.6.4. Software Architecture Components Diagrams
 
-**API Java.** Los controladores REST convierten los recursos HTTP en comandos o consultas. Los paquetes coinciden con el código: parcels, agreements, escrow, tracking, alerts y shared. Tras AgreementFullySignedEvent, AgreementFullySignedIntegrationEvent dispara MarkParcelInProductionCommand. Clima consulta parcelas mediante ParcelsContextFacade y delega el pronóstico al adaptador Open-Meteo. No hay una conexión que ejecute un desembolso al cambiar una evidencia.
+**API Java.** Los controladores REST reciben solicitudes y las delegan a los servicios de cada contexto. Los adaptadores JPA guardan sus resultados. Dos interacciones cruzan límites de negocio: Acuerdos notifica a Parcelas al completarse ambas aceptaciones y Clima consulta las ubicaciones de las parcelas. La ruta `/health` permite consultar el estado del servicio.
 
-![Figura 4.6.4-A. Componentes de la API Spring](assets/chapter-04/architecture/04-api-components.png)
+![Figura 4.6.4-A. Componentes y colaboraciones de la API Spring](assets/chapter-04/architecture/04-api-components.png)
 
-*Figura 4.6.4-A. Componentes de la API Spring.* <a href="assets/chapter-04/architecture/04-api-components.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/04-api-components.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.6.4-A. Componentes y colaboraciones de la API Spring.* [Ampliar en SVG](assets/chapter-04/architecture/04-api-components.svg) · [Fuente PlantUML](assets/chapter-04/architecture/04-api-components.puml).
 
 **Aplicación web.** Las rutas (/parcels, /agreements, /evidence, /escrow, /alerts, /profile) coinciden con los módulos parcel-management, agreements-management, tracking-evidence, escrow-payments, alerts-management y shared. /users existe solo en el mock de Angular. La selección de rol y los guardas operan en el cliente.
 
