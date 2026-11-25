@@ -2084,11 +2084,11 @@ El agricultor presenta la evidencia y el comerciante la aprueba o pide una corre
 
 ### 4.6.2. Software Architecture Context Diagram
 
-Los actores principales son el agricultor y el comerciante. La landing explica la propuesta y abre la aplicación. Angular proporciona las pantallas de la demo y usa una API simulada. Los navegadores llaman a n8n desde ciertos formularios; Open-Meteo proporciona el pronóstico y OpenStreetMap, el mapa del formulario de parcela. Una pasarela de pagos, la firma verificable y el almacenamiento documental quedan como integraciones propuestas.
+El agricultor ofrece la parcela y registra el trabajo. El comerciante contrata la temporada y revisa los hitos. En el centro del diagrama está Allpatek. A su alrededor aparecen los sistemas que aportan el pronóstico, el mapa, los videos y los destinos de notificación. La transferencia bancaria pertenece al diseño de negocio y sigue simulada en la aplicación.
 
-![Figura 4.6.2. Contexto de Allpatek y sistemas externos](assets/chapter-04/architecture/02-context.png)
+![Figura 4.6.2. Allpatek, sus usuarios y los sistemas con los que interactúa](assets/chapter-04/architecture/02-context.png)
 
-*Figura 4.6.2. Contexto de Allpatek y sistemas externos.* <a href="assets/chapter-04/architecture/02-context.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/02-context.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.6.2. Allpatek, sus usuarios y los sistemas con los que interactúa.* [Ampliar en SVG](assets/chapter-04/architecture/02-context.svg) · [Fuente PlantUML](assets/chapter-04/architecture/02-context.puml).
 
 ### 4.6.3. Software Architecture Container Diagrams
 
