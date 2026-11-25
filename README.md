@@ -4148,7 +4148,9 @@ El objetivo principal del **Sprint 4** es .
 
 </div>
 #### Tablero de Control del Sprint 4 (Sprint Board)
-
+<p align="center">
+  <img src="assets/chapter-05/trello-sprint-04.png" alt="Tablero del Sprint 4 en Trello - ALLPATEK" width="850" />
+</p>
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 #### 5.2.4.5. Execution Evidence for Sprint Review
