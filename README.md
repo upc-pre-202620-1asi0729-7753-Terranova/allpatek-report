@@ -4158,6 +4158,7 @@ El objetivo principal del **Sprint 4** es .
 | Sprint | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
 | **Sprint 4** |  | | **T001** | | | | | |
+| **Sprint 4** |  | | **T002** | | | | | |
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 #### 5.2.4.5. Execution Evidence for Sprint Review
