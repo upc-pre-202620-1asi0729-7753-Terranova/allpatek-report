@@ -4042,6 +4042,10 @@ Los cinco salen en Insights del repositorio. El pico de commits cae entre finale
     <td colspan="5">Sprint 3 Review Summary</td>
     <td colspan="8"></td>
   </tr>
+  <tr>
+    <td colspan="5">Sprint 3 Retrospective Summary</td>
+    <td colspan="8"></td>
+  </tr>
 
 #### 5.2.4.2. Aspect Leaders and Collaborators
 #### 5.2.4.3. Sprint Backlog 4
