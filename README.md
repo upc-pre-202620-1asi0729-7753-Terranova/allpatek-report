@@ -4287,6 +4287,7 @@ Descripción del paso 5.
 Descripción de la colaboración del equipo durante el Sprint 4.
 | Integrante | Usuario GitHub | Repositorio |
 | :--- | :--- | :--- |
+| Atauje Barreto, Alexander Sebastián | Alexander1Alexander2 |  |
 
 ## 5.3. Validation Interviews
 
