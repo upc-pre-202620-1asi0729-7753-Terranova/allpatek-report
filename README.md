@@ -5036,3 +5036,7 @@ Seguimiento interactivo de tareas y planificación del Product Backlog / Sprint 
 ## Anexo I. Usuarios de Prueba
 
 Cuentas ficticias creadas para las pruebas y validaciones de la plataforma **ALLPATEK**, nombradas según los entrevistados del Anexo F y el segmento al que pertenecen (Agricultor Familiar y Comerciante Urbano). Los correos son de ejemplo y no corresponden a personas reales.
+<div align="center">
+
+| Segmento | Usuario de Prueba | Rol en la Plataforma | Correo Electrónico |
+| :---: | :--- | :---: | :--- |
