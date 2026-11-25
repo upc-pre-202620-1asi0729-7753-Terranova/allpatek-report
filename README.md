@@ -122,6 +122,7 @@
 | AV2 | 04/11/2026 | Egocheaga Suyo, Miguel Angel | Desarrollo de la capa de infraestructura de escrow-payments: entidad JPA wallets, embeddable de tarjeta, repositorio Spring Data y adaptador del repositorio |
 | AV2 | 04/11/2026 | Egocheaga Suyo, Miguel Angel | Implementación de la API REST del bounded context escrow-payments mediante los endpoints GET/POST /api/v1/wallets y PUT /api/v1/wallets/{id} para consultar el monto de demostración y la tarjeta enmascarada |
 | AV2 | 07/11/2026 | Egocheaga Suyo, Miguel Angel | Documentación de la API de custodia en Swagger UI con el tag escrow, cubriendo el alta de wallet, la consulta de saldo de demostración y la actualización por identificador |
+| TB2 | 25/11/2026 | Raymundo Villarroel, Abigail Nadhim | Creación de la estructura de la sección 5.2.4 (Sprint 4) con las tablas de planificación, backlog, evidencias y colaboración para completar |
 | TB2 | 25/11/2026 | Raymundo Villarroel, Abigail Nadhim | Registro de los reportes de participación de AV1, TB1, AV2 y TB2 en el Anexo A |
 | TB2 | 25/11/2026 | Raymundo Villarroel, Abigail Nadhim | Implementación de la sección de Anexos: repositorios, enlaces de despliegue, tableros de Trello, artefactos de diseño y videos del proyecto |
 | TB2 | 25/11/2026 | Raymundo Villarroel, Abigail Nadhim | Redacción de los Términos y Condiciones y la Política de Privacidad en español e inglés, con descarga en PDF desde el footer según el idioma activo |
