@@ -5041,7 +5041,7 @@ Cuentas de prueba para ingresar a la Web App de **ALLPATEK** (https://terranova-
 
 | Segmento | Entrevistado | Rol en la Plataforma | Usuario (Correo) | Contraseña |
 | :---: | :--- | :---: | :--- | :--- |
-| **Agricultor Familiar** | Agricultor | gustavo.suyo23@gmail.com | Gustavo2026 |
+| **Agricultor Familiar** | Gustavo Adolfo Suyo | Agricultor | gustavo.suyo23@gmail.com | Gustavo2026 |
 | **Comerciante Urbano** | Comerciante | irma.barreto23@gmail.com | Irma2026 |
 
 </div>
