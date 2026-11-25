@@ -4129,6 +4129,8 @@ Los cinco salen en Insights del repositorio. El pico de commits cae entre finale
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
       <td style="border: 1px solid #dddddd; padding: 8px;"></td>
     </tr>
+  </tbody>
+</table>
 
 #### 5.2.4.3. Sprint Backlog 4
 #### 5.2.4.4. Development Evidence for Sprint Review
