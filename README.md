@@ -2181,7 +2181,9 @@ El controlador y los servicios consultan o editan el perfil. El repositorio JPA 
 
 ## 4.7. Software Object-Oriented Design
 
-Las figuras de clases corresponden a la API Java. Los agregados agrupan los datos del negocio; los value objects expresan conceptos como una firma, una tarjeta enmascarada o el cronograma de campaña. Las entidades JPA y los assemblers mantienen el almacenamiento separado del modelo de dominio. Angular se documenta en la figura 4.6.4-B.
+Los diagramas se leen desde el **dominio**. Allí aparecen la parcela, el acuerdo o la evidencia y las reglas que les pertenecen. La capa de **aplicación** coordina cada operación, **interfaces** recibe la solicitud e **infraestructura** conecta el modelo con HTTP o la base de datos. En Angular, la pantalla delega el trabajo al store y el servicio HTTP adapta los datos de la API.
+
+Cada contexto incluye una figura del backend y otra de la webapp. Se muestran los miembros que intervienen en el recorrido y su visibilidad (`+` público, `-` privado, `#` protegido). Las relaciones indican qué objeto conoce o utiliza al otro y cuántas instancias admite cuando existe una asociación. Las interfaces y uniones de tipos de TypeScript aparecen según su representación en el código. La landing utiliza HTML, CSS y funciones JavaScript; su estructura se presenta en 4.6.4-C.
 
 ### 4.7.1. Class Diagrams
 
