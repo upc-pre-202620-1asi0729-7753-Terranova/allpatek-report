@@ -4009,6 +4009,13 @@ Los cinco salen en Insights del repositorio. El pico de commits cae entre finale
 
 ### 5.2.4. Sprint 4
 #### 5.2.4.1. Sprint Planning 4
+
+<table>
+  <tr>
+    <th colspan="5">Sprint #</th>
+    <th colspan="8">Sprint 4</th>
+  </tr>
+
 #### 5.2.4.2. Aspect Leaders and Collaborators
 #### 5.2.4.3. Sprint Backlog 4
 #### 5.2.4.4. Development Evidence for Sprint Review
