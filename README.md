@@ -4877,19 +4877,3 @@ Videos de validación de la aplicación y videos institucionales sobre el produc
 | **About the Team** | About the team | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBcbq4xfH8tQr_ZPnlJKrMLAXb2-topoxDPFkdP2Z097vs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PB8hMC" style="text-decoration: none;">Ver en SharePoint</a> · <a href="https://youtu.be/Fv-fpNivSHE" style="text-decoration: none;">Ver en YouTube</a> |
 
 </div>
-
----
-
-## Anexo I. Videos de Exposiciones
-
-Videos de las exposiciones grupales por entrega, siguiendo la convención `upc-pre-202620-1asi0729-7753-terranova-<tipo>-sprint-<n>`:
-
-<div align="center">
-
-| Entrega | Nombre del Video | Enlace |
-| :---: | :--- | :---: |
-| **AV1** | upc-pre-202620-1asi0729-7753-terranova-exposition-av1 | _Pendiente de publicación_ |
-| **TB1** | upc-pre-202620-1asi0729-7753-terranova-exposition-tb1 | _Pendiente de publicación_ |
-| **AV2** | upc-pre-202620-1asi0729-7753-terranova-exposition-av2 | _Pendiente de publicación_ |
-
-</div>
