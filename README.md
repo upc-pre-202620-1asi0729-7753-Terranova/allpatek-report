@@ -4765,6 +4765,7 @@ Repositorios oficiales en la organización pública de **GitHub** del equipo **T
 | :--- | :--- | :---: | :---: | :---: |
 | **Project Report** | allpatek-report | main | Active | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-report" style="text-decoration: none;">Ver Repositorio del Informe</a> |
 | **Landing Page** | allpatek-website | main | Deployed | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website" style="text-decoration: none;">Ver Repositorio Landing Page</a> |
+| **Web App** | allpatek-webapp | main | Active | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp" style="text-decoration: none;">Ver Repositorio Web App</a> |
 
 </div>
 
