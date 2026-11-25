@@ -4782,6 +4782,7 @@ Acceso a los productos digitales de **ALLPATEK** desplegados públicamente en en
 | **Landing Page (ALLPATEK)** | GitHub Pages | Live | <a href="https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/" style="text-decoration: none;">https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/</a> |
 | **Web App (ALLPATEK)** | Netlify | Live | <a href="https://terranova-allpatek.netlify.app/" style="text-decoration: none;">https://terranova-allpatek.netlify.app/</a> |
 | **Web Services (API REST base)** | Render | Live | <a href="https://allpatek-platform.onrender.com/api/v1" style="text-decoration: none;">https://allpatek-platform.onrender.com/api/v1</a> |
+| **Documentación OpenAPI (Swagger UI)** | Render | Live | <a href="https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html" style="text-decoration: none;">https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html</a> |
 
 ---
 
