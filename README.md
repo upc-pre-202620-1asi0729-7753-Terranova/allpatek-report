@@ -4290,6 +4290,7 @@ Descripción de la colaboración del equipo durante el Sprint 4.
 | Atauje Barreto, Alexander Sebastián | Alexander1Alexander2 |  |
 | Egocheaga Suyo, Miguel Angel | MiguelAngel0107 |  |
 | Orellana Rodríguez, Mel Andree | melandree8 |  |
+| Raymundo Villarroel, Abigail Nadhim | AbigailRV |  |
 
 ## 5.3. Validation Interviews
 
