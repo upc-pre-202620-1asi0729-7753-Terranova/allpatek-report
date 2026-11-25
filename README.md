@@ -5038,12 +5038,9 @@ Seguimiento interactivo de tareas y planificación del Product Backlog / Sprint 
 Cuentas ficticias creadas para las pruebas y validaciones de la plataforma **ALLPATEK**, nombradas según los entrevistados del Anexo F y el segmento al que pertenecen (Agricultor Familiar y Comerciante Urbano). Los correos son de ejemplo y no corresponden a personas reales.
 <div align="center">
 
-| Segmento | Usuario de Prueba | Rol en la Plataforma | Correo Electrónico |
-| :---: | :--- | :---: | :--- |
-| **Agricultor Familiar** | Rosa Flores | Agricultor | rosa.flores23@gmail.com |
-| **Agricultor Familiar** | Gustavo Adolfo Suyo | Agricultor | gustavo.suyo23@gmail.com |
-| **Comerciante Urbano** | Irma Barreto Castro | Comerciante | irma.barreto23@gmail.com |
-| **Comerciante Urbano** | César Hugo Egocheaga | Comerciante | cesar.egocheaga23@gmail.com |
-| **Comerciante Urbano** | Carolin Solsol | Comerciante | carolin.solsol23@gmail.com |
+| Segmento | Rol en la Plataforma | Usuario (Correo) | Contraseña |
+| :---: | :---: | :--- | :--- |
+| **Agricultor Familiar** | Agricultor | mel.andres097@gmail.com | allpatek123 |
+| **Comerciante Urbano** | Comerciante | u202116018@upc.edu.pe | allpatek123 |
 
 </div>
