@@ -4151,6 +4151,8 @@ El objetivo principal del **Sprint 4** es .
 <p align="center">
   <img src="assets/chapter-05/trello-sprint-04.png" alt="Tablero del Sprint 4 en Trello - ALLPATEK" width="850" />
 </p>
+* **Figura 5.2.4.3.1.** Captura del tablero del Sprint 4 en la herramienta de control, con el estado de las tareas.
+* **URL pública del Board:** <a href="" style="text-decoration: none;">Tablero Trello TerraNova</a>
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 #### 5.2.4.5. Execution Evidence for Sprint Review
