@@ -2155,6 +2155,14 @@ El servicio registra o actualiza una evidencia por parcela e hito. El repositori
 
 *Figura 4.6.4-E3. Componentes de seguimiento.* [Ampliar en SVG](assets/chapter-04/architecture/c4-tracking.svg) · [Fuente PlantUML](assets/chapter-04/architecture/c4-tracking.puml).
 
+#### Bóveda en la API
+
+El servicio guarda la billetera con un monto inicial y una tarjeta de demostración. La API expone operaciones sobre billeteras; la liberación visible en Angular modifica una evidencia.
+
+![Figura 4.6.4-E4. Componentes de bóveda](assets/chapter-04/architecture/c4-escrow.png)
+
+*Figura 4.6.4-E4. Componentes de bóveda.* [Ampliar en SVG](assets/chapter-04/architecture/c4-escrow.svg) · [Fuente PlantUML](assets/chapter-04/architecture/c4-escrow.puml).
+
 ## 4.7. Software Object-Oriented Design
 
 Las figuras de clases corresponden a la API Java. Los agregados agrupan los datos del negocio; los value objects expresan conceptos como una firma, una tarjeta enmascarada o el cronograma de campaña. Las entidades JPA y los assemblers mantienen el almacenamiento separado del modelo de dominio. Angular se documenta en la figura 4.6.4-B.

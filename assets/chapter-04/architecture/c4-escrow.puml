@@ -1,0 +1,24 @@
+@startuml
+!pragma layout smetana
+!include <C4/C4_Component>
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam shadowing false
+skinparam dpi 120
+LAYOUT_TOP_DOWN()
+
+title Allpatek | C4 components - Demo wallets
+Container_Boundary(api, "Spring REST API / escrow") {
+  Component(rest, "WalletsController", "Spring MVC", "/api/v1/wallets")
+  Component(cmd, "WalletCommandServiceImpl", "Application service", "Saves or deletes a demo wallet.")
+  Component(query, "WalletQueryServiceImpl", "Application service", "Returns the opening amount and stored card details.")
+  Component(repo, "WalletRepositoryImpl", "JPA adapter", "Implements WalletRepository and maps persisted records.")
+}
+
+ContainerDb(db, "MySQL", "Relational database", "wallets table")
+Rel(rest, cmd, "POST, PUT, DELETE")
+Rel(rest, query, "GET")
+Rel(cmd, repo, "Writes via WalletRepository")
+Rel(query, repo, "Reads via WalletRepository")
+Rel(repo, db, "Uses WalletPersistenceRepository", "JPA")
+@enduml
