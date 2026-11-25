@@ -5040,3 +5040,4 @@ Cuentas ficticias creadas para las pruebas y validaciones de la plataforma **ALL
 
 | Segmento | Usuario de Prueba | Rol en la Plataforma | Correo Electrónico |
 | :---: | :--- | :---: | :--- |
+| **Agricultor Familiar** | Rosa Flores | Agricultor | rosa.flores23@gmail.com |
