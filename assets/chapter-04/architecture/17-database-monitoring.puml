@@ -11,8 +11,9 @@ hide methods
 hide circle
 title Allpatek | MySQL - Evidence
 left to right direction
-entity "evidence" as evidence {
+entity "evidences" as evidence {
   {field} * id: VARCHAR(160) <<PK>>
+  --
   {field} * parcel_id: VARCHAR(160)
   {field} * milestone: INT
   {field} * status: ENUM
@@ -25,16 +26,16 @@ entity "evidence" as evidence {
 entity "parcels" as parcel #EAF2EB {
   {field} * id: VARCHAR(160) <<PK>>
 }
-evidence ..> parcel : parcel_id
+parcel ||..o{ evidence : parcel_id
 note bottom of evidence
-  @Table(name = "evidence")
-  milestone: 1 to 4 (MilestoneNumber)
-  {field} status: accepted, review, verified
-  REST path: /api/v1/evidence
-  ClimateReading is calculated on GET /api/v1/alerts; no alerts table.
+  The physical naming strategy pluralizes evidence to evidences.
+  The REST resource is /api/v1/evidence.
+  status = review, verified or accepted.
+  The domain checks milestone 1 to 4; this column is an integer.
+  Climate readings are calculated on request.
 end note
 legend bottom
-PK: primary key | UQ: unique | *: NOT NULL
-Dashed arrows are logical references; MySQL has no foreign keys here.
+PK = primary key     * = NOT NULL
+Crow's feet describe logical cardinalities. The schema declares no foreign keys for these IDs.
 endlegend
 @enduml

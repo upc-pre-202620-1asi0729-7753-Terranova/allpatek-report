@@ -2301,9 +2301,11 @@ El identificador del perfil es obligatorio y carece de restricción de unicidad.
 
 *Figura 4.8.1-C. Tabla wallets y perfil.* [Ampliar en SVG](assets/chapter-04/architecture/16-database-payments.svg) · [Fuente PlantUML](assets/chapter-04/architecture/16-database-payments.puml).
 
-![Figura 4.8.1-D. Tabla evidence y referencia a parcela](assets/chapter-04/architecture/17-database-monitoring.png)
+Cada evidencia contiene el identificador de parcela, número de hito, estado y, cuando se adjuntan, notas y archivo. El pronóstico se calcula al consultar y carece de tabla propia.
 
-*Figura 4.8.1-D. Tabla evidence y referencia a parcela.* <a href="assets/chapter-04/architecture/17-database-monitoring.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/17-database-monitoring.svg" style="text-decoration: none;">SVG</a>.
+![Figura 4.8.1-D. Tabla evidences y parcela](assets/chapter-04/architecture/17-database-monitoring.png)
+
+*Figura 4.8.1-D. Tabla evidences y parcela.* [Ampliar en SVG](assets/chapter-04/architecture/17-database-monitoring.svg) · [Fuente PlantUML](assets/chapter-04/architecture/17-database-monitoring.puml).
 
 ![Figura 4.8.1-E. Tabla profiles y datos de contacto](assets/chapter-04/architecture/13-database-users.png)
 
