@@ -356,15 +356,14 @@ Repositorios del proyecto:
             <li><b>AV2 - Atauje Barreto, Alexander Sebastián:</b> Preparación de la explicación oral del bounded context alerts-management para la sustentación del AV2, organizando una presentación comprensible de su arquitectura en Java y Spring Boot, la integración con la API Open-Meteo, el uso de una Anti-Corruption Layer (ACL) para consultar datos de parcelas y la exposición de alertas climáticas mediante el endpoint /api/v1/alerts. La explicación se orientó a relacionar las decisiones técnicas con la utilidad de las advertencias de heladas, inundaciones y vientos fuertes para los agricultores.</li>
               <li><b>AV2 - Raymundo Villarroel, Abigail Nadhim:</b> Exposición oral de la entrega AV2, explicando el desarrollo del bounded context parcel-management en el backend (modelo de parcelas, casos de uso, endpoints REST y persistencia) y los avances de la documentación del Sprint 3, adaptando el lenguaje técnico para evaluadores académicos y el lenguaje del negocio para audiencias agrícolas y comerciales.</li>
             <li><b>AV2 - Egocheaga Suyo, Miguel Angel:</b> Exposición oral de la entrega AV2, explicando el bounded context escrow-payments del backend: cómo quedó la wallet, cómo se consulta el saldo de demostración y para qué sirven los endpoints de /api/v1/wallets. Lo armé para que se entienda en la sustentación y también si alguien del lado comercial solo quiere saber dónde queda el dinero en custodia.</li>
-             <li><b>AV2 - Vera Solsol, Nayely Macarena:</b> Exposición oral de la entrega AV2, explicando el desarrollo integral del bounded context tracking-evidence<code> tanto en el backend (allpatek-platform, detallando sus capas de dominio, aplicación, infraestructura y los endpoints REST <code>/api/v1/evidence<code>) como en la aplicación web..</li>
-              <li><b>TB2 - Atauje Barreto, Alexander Sebastián:</b> Traducción al español de los Problem Statements e Hypothesis Statements, mejora de los supuestos Lean UX y ampliación de la información sobre pagos por hitos, evidencias agrícolas y alertas climáticas, según la retroalimentación del docente.</li>
+             <li><b>AV2 - Vera Solsol, Nayely Macarena:</b> Exposición oral de la entrega AV2, explicando el desarrollo integral del bounded context <code>tracking-evidence</code> tanto en el backend (allpatek-platform, detallando sus capas de dominio, aplicación, infraestructura y los endpoints REST <code>/api/v1/evidence</code>) como en la aplicación web.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
           <ul>
             <li><b>AV1:</b> Se demostró capacidad para exponer de manera clara el avance de cada capítulo del informe, adaptando el lenguaje técnico al perfil de los interlocutores (evaluadores, agricultores y comerciantes).</li>
             <li><b>TB1:</b> Se sustentaron con claridad las soluciones implementadas y las correcciones realizadas tras la retroalimentación, defendiendo las decisiones del sistema ante audiencias académicas y de negocio.</li>
-            <li><b>AV2:</b> Se explicó el avance del backend del Sprint 3, incluyendo las alertas climáticas y la bóveda de demostración (<code>escrow-payments), bajando el tecnicismo de Spring Boot cuando hacía falta para la sustentación.</li>
+            <li><b>AV2:</b> Se explicó el avance del backend del Sprint 3, incluyendo las alertas climáticas y la bóveda de demostración (<code>escrow-payments</code>), bajando el tecnicismo de Spring Boot cuando hacía falta para la sustentación.</li>
           </ul>
         </td>
       </tr>
@@ -402,7 +401,6 @@ Repositorios del proyecto:
     </tbody>
   </table>
 </div>
-
 
 
 # Capítulo I: Introducción
