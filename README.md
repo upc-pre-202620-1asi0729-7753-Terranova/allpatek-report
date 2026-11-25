@@ -4188,6 +4188,11 @@ Descripción de la captura 2.
 <p align="center">
   <img src="assets/chapter-05/sprint-04-execution-02.png" alt="Evidencia de ejecución 2 del Sprint 4" width="850" />
 </p>
+Descripción de la captura 3.
+
+<p align="center">
+  <img src="assets/chapter-05/sprint-04-execution-03.png" alt="Evidencia de ejecución 3 del Sprint 4" width="850" />
+</p>
 
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
