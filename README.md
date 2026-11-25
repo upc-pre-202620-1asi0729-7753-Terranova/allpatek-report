@@ -4291,6 +4291,7 @@ Descripción de la colaboración del equipo durante el Sprint 4.
 | Egocheaga Suyo, Miguel Angel | MiguelAngel0107 |  |
 | Orellana Rodríguez, Mel Andree | melandree8 |  |
 | Raymundo Villarroel, Abigail Nadhim | AbigailRV |  |
+| Vera Solsol, Nayely Macarena | Macaxprogram29 |  |
 
 ## 5.3. Validation Interviews
 
