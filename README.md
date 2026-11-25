@@ -2745,26 +2745,30 @@ Para la gestión y control del flujo de trabajo, las tareas se organizaron y mon
 A continuación se detalla la descomposición de las Historias de Usuario de la Landing Page asignadas al Sprint 1 en sus respectivas tareas técnicas (*Engineering Tasks / Work-items*), distribuidas según las componentes de la interfaz, lógica de validación e integración con n8n para la captura de solicitudes:
 
 | Sprint | User Story ID | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Sprint 1** | **US24** | **T001** | Inicialización del repositorio y estructura base | Configurar el repositorio oficial, convención de commits y estructura de carpetas HTML/CSS/JS inicial. | 3 | Mel Andree | Done |
-| **Sprint 1** | **US31** | **T002** | Maquetación HTML del Header y Navbar | Construir la estructura semántica en HTML5 del logo, menú de navegación principal y contenedor superior. | 4 | Miguel Angel | Done |
-| **Sprint 1** | **US38** | **T003** | Estilos CSS y responsive design para Header/Navbar | Aplicar paleta de colores, tipografía y adaptabilidad móvil para el menú desplegable y navegación. | 4 | Miguel Angel | Done |
-| **Sprint 1** | **US24** | **T004** | Maquetación HTML de la sección Hero | Construir la estructura semántica del Hero Section con propuesta de valor y botones CTA. | 4 | Miguel Angel | Done |
-| **Sprint 1** | **US24** | **T005** | Estilos CSS y métricas clave para la sección Hero | Diseñar el estilo visual de la sección principal, fondo responsivo e insignias de métricas clave. | 4 | Miguel Angel | Done |
-| **Sprint 1** | **US32** | **T006** | Maquetación HTML de la sección Servicios | Crear la estructura de cuadrícula para las tarjetas explicativas del modelo de custodia financiera Escrow. | 4 | Alexander Sebastián | Done |
-| **Sprint 1** | **US40** | **T007** | Estilos CSS para el grid de Servicios | Aplicar sombras, bordes y estilos de contraste visual para las tarjetas de servicios de la plataforma. | 4 | Alexander Sebastián | Done |
-| **Sprint 1** | **US33** | **T008** | Maquetación HTML de la sección Hitos / Cómo Funciona | Construir la secuencia del flujo de trabajo por hitos y desembolsos progresivos. | 4 | Alexander Sebastián | Done |
-| **Sprint 1** | **US41** | **T009** | Estilos CSS para la línea de tiempo de Hitos | Diseñar la línea de tiempo visual y los conectores gráficos entre los pasos del proceso Escrow. | 3 | Alexander Sebastián | Done |
-| **Sprint 1** | **US34** | **T010** | Maquetación HTML y estilos de Testimonios | Diseñar las tarjetas de reseñas y valoraciones de compradores y productores agrícolas. | 4 | Nayely Macarena | Done |
-| **Sprint 1** | **US35** | **T011** | Maquetación HTML de la sección Planes | Estructurar las tarjetas comparativas de planes de producción y suscripción agrícola. | 3 | Nayely Macarena | Done |
-| **Sprint 1** | **US35** | **T012** | Estilos CSS y destacado del plan recomendado | Resaltar el plan principal mediante etiquetas, bordes especiales e indicadores de precio. | 3 | Nayely Macarena | Done |
-| **Sprint 1** | **US36** | **T013** | Maquetación HTML y estilos de la sección Equipo | Estructurar la cuadrícula de perfiles del equipo técnico con sus tarjetas y enlaces. | 3 | Mel Andree | Done |
-| **Sprint 1** | **US25** | **T014** | Maquetación HTML del Formulario de Contacto | Construir los campos de captura para datos de contacto, empresa y requisito de propuesta técnica. | 3 | Abigail Nadhim | Done |
-| **Sprint 1** | **US39** | **T015** | Estilos CSS y lógica JS para validación de formulario | Diseñar estados hover/focus y programar la validación visual en cliente para campos obligatorios. | 4 | Abigail Nadhim | Done |
-| **Sprint 1** | **US42** | **T016** | Consumo del Webhook de n8n desde el Formulario | Implementar la petición asíncrona JS (fetch) para enviar los datos ingresados en el formulario al Webhook de n8n al hacer clic en "Quiero conocer más información". | 5 | Mel Andree | Done |
-| **Sprint 1** | **US42** | **T017** | Configuración del flujo en n8n para envío de correo y dossier | Configurar el workflow en n8n para recibir el webhook de la Landing Page y despachar automáticamente el correo electrónico con la propuesta técnica en PDF. | 6 | Mel Andree | Done |
-| **Sprint 1** | **US37** | **T018** | Maquetación HTML y estilos CSS del Footer | Construir el pie de página en columnas con datos institucionales, enlaces secundarios y copyright. | 3 | Abigail Nadhim | Done |
-| **Sprint 1** | **US38** | **T019** | Optimización responsive y media queries globales | Ajustar estilos globales CSS para adaptar todas las secciones de la Landing Page a pantallas móviles y tabletas. | 4 | Mel Andree | Done |
+| :--- | :--- | :--- | :--- | :---: | :--- | :--- | :--- |
+| Sprint 1 | US24 | T001 | Inicialización del repositorio y estructura base | Configurar el repositorio oficial, convención de commits y la estructura inicial HTML/CSS/JS con carpeta de assets. | 2 | Mel Andree | Done |
+| Sprint 1 | US24 | T002 | Maquetación HTML de la sección Hero | Construir la estructura semántica del Hero con propuesta de valor, CTA y bloque de métricas. | 2 | Miguel Angel | Done |
+| Sprint 1 | US24 | T003 | Estilos CSS y métricas clave del Hero | Aplicar fondo, tipografía, contraste y el grid de insignias (custodia, fraude, hectáreas, ahorro) en desktop y móvil. | 3 | Miguel Angel | Done |
+| Sprint 1 | US31 | T004 | Maquetación HTML del Header y Navbar | Construir logo, menú de anclas (servicios, hitos, testimonios, planes, equipo, contacto) y CTA de acceso. | 2 | Miguel Angel | Done |
+| Sprint 1 | US31 | T005 | Navegación por anclas y estado activo del menú | Implementar desplazamiento suave entre secciones y resaltar el enlace activo según el scroll. | 2 | Miguel Angel | Done |
+| Sprint 1 | US38 | T006 | Menú hamburguesa y estilos del Header | Estilizar paleta, tipografía y menú desplegable en pantallas pequeñas, con cierre al elegir una sección. | 3 | Miguel Angel | Done |
+| Sprint 1 | US38 | T007 | Media queries globales de la Landing Page | Ajustar tipografía, grillas y espaciado de todas las secciones para móvil y tablet, verificando que CTAs y formulario sigan usables. | 4 | Miguel Angel | Done |
+| Sprint 1 | US32 | T008 | Maquetación HTML e iconografía de Servicios | Estructurar las tarjetas de parcela, trazabilidad, custodia Escrow y clima, con iconos SVG y textos por segmento. | 3 | Alexander Sebastián | Done |
+| Sprint 1 | US40 | T009 | Estilos, hover y apilamiento responsive de Servicios | Aplicar contraste, sombras y microinteracciones; apilar las tarjetas en móvil para dejar clara la custodia de fondos. | 4 | Alexander Sebastián | Done |
+| Sprint 1 | US33 | T010 | Maquetación y contenido de Hitos / Cómo funciona | Construir la secuencia de cinco etapas (firma y bloqueo, siembra, desarrollo, cosecha, entrega) con su texto de desembolso. | 3 | Alexander Sebastián | Done |
+| Sprint 1 | US41 | T011 | Línea de tiempo CSS e indicadores móviles | Diseñar conectores, insignias numeradas y el cambio de orientación de la línea de tiempo en móvil. | 4 | Alexander Sebastián | Done |
+| Sprint 1 | US34 | T012 | Maquetación y estilos de Testimonios | Estructurar tarjetas de comerciante y productor con cita, rol y valoración, más el estilo visual de cada reseña. | 4 | Nayely Macarena | Done |
+| Sprint 1 | US35 | T013 | Maquetación HTML de la sección Planes | Estructurar las tarjetas comparativas Básico, Pro y Empresarial con alcance y tarifa. | 3 | Nayely Macarena | Done |
+| Sprint 1 | US35 | T014 | Estilos y destacado del plan recomendado | Resaltar el plan Pro (badge, borde e indicador de precio) y alinear las tres tarjetas en desktop y móvil. | 3 | Nayely Macarena | Done |
+| Sprint 1 | US39 | T015 | CTAs de cotización hacia el formulario | Enlazar los botones del Hero y de cada plan a la sección de contacto para iniciar la solicitud en un paso. | 2 | Nayely Macarena | Done |
+| Sprint 1 | US36 | T016 | Maquetación y estilos de la sección Equipo | Estructurar perfiles con foto, nombre, rol y enlaces, y aplicar el estilo de tarjetas. | 3 | Mel Andree | Done |
+| Sprint 1 | US25 | T017 | Maquetación HTML del formulario de contacto | Construir los campos obligatorios de nombres, apellidos, correo y teléfono, más el contenedor de confirmación. | 3 | Abigail Nadhim | Done |
+| Sprint 1 | US25 | T018 | Estilos y estados visuales del formulario | Diseñar inputs, hover/focus, errores y mensaje de éxito o datos inválidos. | 3 | Abigail Nadhim | Done |
+| Sprint 1 | US25 | T019 | Validación JS de campos obligatorios | Validar en cliente correo, teléfono y vacíos, e impedir el envío si los datos no cumplen el formato. | 3 | Abigail Nadhim | Done |
+| Sprint 1 | US42 | T020 | Consumo del webhook n8n desde el formulario | Enviar por fetch los datos válidos al webhook al pulsar el CTA de solicitud de información. | 4 | Mel Andree | Done |
+| Sprint 1 | US42 | T021 | Flujo n8n de correo y dossier PDF | Configurar el workflow que recibe el webhook y despacha el correo con la propuesta técnica en PDF. | 5 | Mel Andree | Done |
+| Sprint 1 | US37 | T022 | Maquetación y estilos del Footer | Construir columnas de contacto, enlaces rápidos y copyright, con fondo de contraste y apilamiento en móvil. | 4 | Abigail Nadhim | Done |
+| Sprint 1 | US38 | T023 | Despliegue de la Landing en GitHub Pages | Publicar el sitio estático desde la rama principal, verificar HTTPS y comprobar la navegación en desktop y móvil. | 1 | Mel Andree | Done |
 
 
 
