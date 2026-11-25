@@ -356,14 +356,16 @@ Repositorios del proyecto:
             <li><b>AV2 - Atauje Barreto, Alexander Sebastián:</b> Preparación de la explicación oral del bounded context alerts-management para la sustentación del AV2, organizando una presentación comprensible de su arquitectura en Java y Spring Boot, la integración con la API Open-Meteo, el uso de una Anti-Corruption Layer (ACL) para consultar datos de parcelas y la exposición de alertas climáticas mediante el endpoint /api/v1/alerts. La explicación se orientó a relacionar las decisiones técnicas con la utilidad de las advertencias de heladas, inundaciones y vientos fuertes para los agricultores.</li>
               <li><b>AV2 - Raymundo Villarroel, Abigail Nadhim:</b> Exposición oral de la entrega AV2, explicando el desarrollo del bounded context parcel-management en el backend (modelo de parcelas, casos de uso, endpoints REST y persistencia) y los avances de la documentación del Sprint 3, adaptando el lenguaje técnico para evaluadores académicos y el lenguaje del negocio para audiencias agrícolas y comerciales.</li>
             <li><b>AV2 - Egocheaga Suyo, Miguel Angel:</b> Exposición oral de la entrega AV2, explicando el bounded context escrow-payments del backend: cómo quedó la wallet, cómo se consulta el saldo de demostración y para qué sirven los endpoints de /api/v1/wallets. Lo armé para que se entienda en la sustentación y también si alguien del lado comercial solo quiere saber dónde queda el dinero en custodia.</li>
-             <li><b>AV2 - Vera Solsol, Nayely Macarena:</b> Exposición oral de la entrega AV2, explicando el desarrollo integral del bounded context tracking-evidence<code> tanto en el backend (allpatek-platform, detallando sus capas de dominio, aplicación, infraestructura y los endpoints REST <code>/api/v1/evidence<code>) como en la aplicación web..</li>
+             <li><b>AV2 - Vera Solsol, Nayely Macarena:</b> Exposición oral de la entrega AV2, explicando el desarrollo integral del bounded context <code>tracking-evidence</code> tanto en el backend (allpatek-platform, detallando sus capas de dominio, aplicación, infraestructura y los endpoints REST <code>/api/v1/evidence</code>) como en la aplicación web.</li>
+           <li><b>TB2 - Atauje Barreto, Alexander Sebastián:</b> Preparación de la sustentación de las correcciones del Capítulo I, explicando las mejoras del proceso Lean UX y su alineación con la propuesta de valor de Allpatek, utilizando un lenguaje claro para diferentes audiencias.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
           <ul>
             <li><b>AV1:</b> Se demostró capacidad para exponer de manera clara el avance de cada capítulo del informe, adaptando el lenguaje técnico al perfil de los interlocutores (evaluadores, agricultores y comerciantes).</li>
             <li><b>TB1:</b> Se sustentaron con claridad las soluciones implementadas y las correcciones realizadas tras la retroalimentación, defendiendo las decisiones del sistema ante audiencias académicas y de negocio.</li>
-            <li><b>AV2:</b> Se explicó el avance del backend del Sprint 3, incluyendo las alertas climáticas y la bóveda de demostración (<code>escrow-payments), bajando el tecnicismo de Spring Boot cuando hacía falta para la sustentación.</li>
+            <li><b>AV2:</b> Se explicó el avance del backend del Sprint 3, incluyendo las alertas climáticas y la bóveda de demostración (<code>escrow-payments</code>), adaptando el lenguaje técnico de Spring Boot a las diferentes audiencias durante la sustentación.</li>
+           <li><b>TB2:</b> Se preparó la explicación de las correcciones del informe, priorizando la claridad y comprensión de la propuesta de negocio.</li>
           </ul>
         </td>
       </tr>
@@ -388,6 +390,7 @@ Repositorios del proyecto:
             <li><b>AV2 - Raymundo Villarroel, Abigail Nadhim:</b> Documentación de la entrega AV2: actualización del informe con las tareas, el bounded context parcel-management y los commits de Sprint 3, redactados con descripciones claras para perfiles técnicos y de negocio.</li>
             <li><b>AV2 - Vera Solsol, Nayely Macarena:</b> Redacté los artefactos de gestión ágil (Capítulo 3: Impact Mapping, User Stories y Product Backlog) y la documentación técnica del bounded context tracking-evidence (frontend y backend en allpatek-platform, incluyendo los endpoints REST /api/v1/evidence), además de mantener el registro detallado de commits del Sprint 3 y las correcciones del reporte formal.</li>
             <li><b>AV2 - Egocheaga Suyo, Miguel Angel:</b> Documenté el bounded context escrow-payments en el backend. Dejé el agregado Wallet, la tabla wallets y los endpoints GET/POST /api/v1/wallets y PUT /wallets/{id} para consultar el monto de demostración y la tarjeta. También puse el tag escrow en Swagger y completé mis filas AV2 en el Registro de Versiones.</li>
+            <li><b>TB2 - Atauje Barreto, Alexander Sebastián:</b> Corrección y actualización del Capítulo I según la retroalimentación del docente, incluyendo la traducción al español de los enunciados del problema y las nueve hipótesis, la mejora de los supuestos Lean UX y la ampliación de información sobre la custodia Escrow, los pagos por hitos, las evidencias agrícolas, las alertas climáticas y la trazabilidad. Asimismo, se mejoró la redacción y coherencia del informe, registrando los cambios mediante commits descriptivos en GitHub.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
@@ -395,14 +398,13 @@ Repositorios del proyecto:
             <li><b>AV1:</b> Se evidenció rigor y claridad en la redacción de los capítulos del informe, con contenido estructurado y comprensible para supervisores académicos y perfiles técnicos y de negocio.</li>
             <li><b>TB1:</b> Se corrigió y amplió la documentación a partir de la retroalimentación, y los commits descriptivos de cada bounded context dejaron un registro organizado y entendible para desarrolladores y supervisores.</li>
             <li><b>AV2:</b> Con la documentación del backend (alertas, parcelas, evidencias y la wallet de custodia) se puede seguir el Sprint 3 sin perderse entre repositorios, tanto en lo técnico como en lo de negocio.</li>
+            <li><b>TB2:</b> Se fortaleció la claridad y coherencia del informe mediante la traducción, corrección y ampliación del proceso Lean UX, facilitando la comprensión de la propuesta de valor de Allpatek para diferentes audiencias.</li>
           </ul>
         </td>
       </tr>
     </tbody>
   </table>
 </div>
-
-
 
 # Capítulo I: Introducción
 
@@ -433,7 +435,7 @@ Desde el punto de vista teórico y sectorial, el modelo de Allpatek se fundament
 
 En esta sección se fundamenta el diseño estratégico de Allpatek a partir del diagnóstico de las fricciones comerciales y los riesgos estructurales que afectan al agro peruano. Para ello, la arquitectura de la solución parte del marco conceptual de la literatura académica sobre acceso a mercados, modelos de agricultura por contrato y mitigación del riesgo climático en unidades de producción familiar. Sobre esta base analítica se implementa el proceso Lean UX, el cual permite articular las suposiciones del negocio, formular hipótesis de valor contrastables y estructurar el Canvas del producto. Este enfoque garantiza que las funcionalidades de la plataforma respondan directamente a los puntos de dolor detectados tanto en las familias agricultoras como en los comerciantes urbanos y corporativos.
 
-**Product Description**
+**Descripción del producto**
 
 Allpatek propone una plataforma web para que comerciantes contraten por temporada parcelas y la labor de agricultores familiares bajo el modelo *Agro-as-a-Service*. El alcance objetivo incluye reserva, pago, contrato en PDF, seguimiento, trazabilidad y reputación. La demo actual muestra el catálogo, aceptaciones, evidencias, clima y una bóveda simulada. El registro con verificación de identidad, la custodia real, la reputación y el funcionamiento sin conexión siguen pendientes.
 
@@ -505,86 +507,152 @@ El desarrollo de Allpatek está sujeto a las siguientes restricciones tecnológi
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-El Problem Statement se deriva directamente del análisis 5W2H: el estado actual del mercado recoge el *Who*, el *What*, el *Where*, el *When* y el *Why*; la brecha que las soluciones existentes no cubren resume el *How*; y los criterios de éxito se anclan en el *How Much*.
+El enunciado del problema se deriva directamente del análisis 5W2H. El estado actual del mercado responde a las preguntas quién, qué, dónde, cuándo y por qué; las limitaciones de las soluciones existentes permiten identificar cómo abordar la problemática; y los indicadores de éxito establecen los resultados cuantitativos que se esperan alcanzar con Allpatek.
 
-**The current state of** agricultural commercialization in Peru has focused mainly on fragmented, information-asymmetric channels in which smallholder family farmers with limited internet and phone access are less likely to reach profitable markets and sell smaller volumes (Fan & Salas Garcia, 2018), while absorbing on their own both the market-price risk and a growing climate risk of droughts, frosts and heavy rains (Heikkinen, 2021; Tambet & Stopnitzky, 2021). On the other side of the chain, urban buyers depend on intermediaries and cannot anticipate the final cost of their produce or trace its origin.
+**El estado actual de** la comercialización agrícola en el Perú se caracteriza por canales fragmentados y con asimetría de información. Los pequeños agricultores familiares con acceso limitado a internet y telefonía tienen menores posibilidades de acceder a mercados rentables y comercializar mayores volúmenes de producción (Fan & Salas Garcia, 2018).
 
-**What existing products and services fail to address is** a formal, digital, season-based contracting model (contract farming; Otsuka et al., 2016) that lets a buyer secure a parcel and farmer labor in advance at direct production cost, while guaranteeing the farmer a predictable income for labor performed rather than for harvest or price outcomes. Such a model must be automated end to end, without manual legal paperwork, and designed inclusively so that less-connected producers are not excluded (Otsuka et al., 2016).
+Asimismo, asumen directamente los riesgos asociados a la variación de precios y a fenómenos climáticos como sequías, heladas y lluvias intensas (Heikkinen, 2021; Tambet & Stopnitzky, 2021). Por otro lado, los comerciantes urbanos dependen de intermediarios y presentan dificultades para anticipar el costo final de los productos y verificar su procedencia.
 
-**Our product, Allpatek, will address this gap by** offering a web platform where buyers browse and reserve parcels and farmer labor for a season, pay digitally, and automatically receive a legally structured PDF contract and crop-progress notifications through an n8n workflow. Farmers, in turn, receive a guaranteed payment schedule and a lightweight mobile panel to log seasonal progress, and buyers gain a traceability record of the origin of their produce.
+**Lo que los productos y servicios existentes no logran resolver es** la ausencia de un modelo formal y digital de agricultura por contrato (Otsuka et al., 2016), que permita a los comerciantes reservar anticipadamente una parcela y contratar la mano de obra del agricultor a costos directos de producción.
 
-**Our initial focus will be** smallholder farming families operating small parcels in agricultural valleys with documented climate exposure, such as the Mantaro river valley in central Peru (Heikkinen, 2021; Tambet & Stopnitzky, 2021), and urban buyers (households, restaurants and small food businesses) seeking predictable-cost, traceable produce directly from the source. The solution operates under the following constraints: (1) the farmer interface must work on low-end Android devices with intermittent connectivity; (2) contracts and notifications must be generated automatically after payment confirmation through n8n; (3) farmers are paid for labor performed per season, not for yield; and (4) the initial scope is limited to the Mantaro valley and its urban buyers.
+Este modelo busca proporcionar al agricultor una remuneración predecible por las labores realizadas, independientemente del rendimiento de la cosecha y de las fluctuaciones de precios. Asimismo, debe automatizar los procesos administrativos y facilitar la participación de productores con acceso limitado a tecnologías digitales.
 
-**We will know we are successful when we see** at least 150 seasonal contracts formalized through the platform within the first 8 months of operation; a farmer income predictability rate of 100% (share of contracted farmers receiving their full agreed payment regardless of yield outcome); a buyer saving of at least 25% compared to the equivalent retail price of the same produce; a formalization time under 5 minutes per transaction; and a season-to-season contract renewal rate above 60%.
+**Nuestro producto, Allpatek, abordará esta problemática mediante** una plataforma web que permitirá a los comerciantes explorar y reservar parcelas agrícolas, contratar la mano de obra necesaria para una temporada y gestionar pagos digitales.
+
+La solución contempla la generación automatizada de contratos en PDF mediante n8n, un mecanismo de custodia Escrow, un calendario de pagos por hitos agrícolas y un panel móvil para registrar evidencias del progreso de los cultivos.
+Los comerciantes podrán consultar dichas evidencias, verificar el origen de los productos y autorizar la liberación de fondos conforme al cumplimiento de las condiciones contractuales.
+
+**Nuestro enfoque inicial estará dirigido a** las familias agricultoras que trabajan en pequeñas parcelas ubicadas en valles agrícolas con exposición documentada a riesgos climáticos, como el valle del Mantaro, en la región central del Perú (Heikkinen, 2021; Tambet & Stopnitzky, 2021).
+
+Asimismo, estará dirigido a comerciantes urbanos, propietarios de restaurantes y pequeños negocios de alimentos que buscan costos predecibles y productos agrícolas con trazabilidad desde su origen.
+
+La solución contempla las siguientes restricciones:
+
+1. La interfaz del agricultor deberá funcionar en dispositivos Android de gama baja y en condiciones de conectividad intermitente.
+2. Los contratos y las notificaciones deberán generarse automáticamente mediante n8n tras la confirmación del pago correspondiente.
+3. Los agricultores recibirán una remuneración por las labores realizadas durante la temporada, independientemente del rendimiento de la cosecha.
+4. El alcance geográfico inicial estará limitado al valle del Mantaro y a los comerciantes urbanos objetivo.
+5. La liberación de fondos estará asociada al cumplimiento de los hitos agrícolas establecidos en el contrato.
+
+**Sabremos que hemos alcanzado el éxito cuando logremos** los siguientes resultados:
+
+- Formalizar al menos 150 contratos agrícolas durante los primeros ocho meses de operación.
+- Alcanzar una tasa de previsibilidad de ingresos del 100 % para los agricultores que cumplan las labores acordadas.
+- Conseguir un ahorro de al menos el 25 % para los comerciantes respecto al precio minorista equivalente.
+- Reducir el tiempo de formalización administrativa a menos de cinco minutos por transacción.
+- Alcanzar una tasa de renovación de contratos superior al 60 % entre temporadas consecutivas.
+
+Estos indicadores constituyen metas de negocio sujetas a validación durante la operación de la plataforma.
 
 #### 1.2.2.2. Lean UX Assumptions
 
-**Business Assumptions**
-1. Creemos que existen comerciantes urbanos (hogares, restaurantes y pymes de alimentos) dispuestos a pagar por adelantado el costo de una temporada agrícola a cambio de costo directo de producción y trazabilidad del origen.
-2. Creemos que las familias agricultoras de valles como el Mantaro aceptarán pasar de la venta a intermediarios a una retribución fija por labor de temporada, en línea con los mecanismos de *contract farming* (Otsuka et al., 2016).
-3. Creemos que un modelo de comisión por servicio sobre cada contrato es aceptable tanto para agricultores como para comerciantes.
-4. Creemos que vender a costo directo permite ofrecer al comerciante un ahorro de al menos 25 % frente al precio minorista, sin reducir el pago pactado al agricultor.
-5. Creemos que la plataforma es técnicamente factible mediante n8n, una pasarela de pagos digitales y notificaciones por correo y WhatsApp, dentro del alcance del proyecto y del ciclo académico.
+**Supuestos de negocio**
 
-**Business Outcome Assumptions**
-1. Creemos que la plataforma logrará formalizar al menos 150 contratos de temporada en sus primeros 8 meses de operación.
-2. Creemos que más del 60 % de los usuarios registrados renovará su contrato en temporadas consecutivas.
-3. Creemos que la formalización automatizada reducirá el tiempo administrativo a menos de 5 minutos por transacción.
-4. Creemos que las comisiones por servicio permitirán alcanzar el punto de equilibrio operativo durante el primer año de despliegue.
-5. Creemos que los contratos cumplidos y las calificaciones acumuladas generarán confianza y atraerán a nuevos agricultores y comerciantes por recomendación.
+1. Creemos que existen comerciantes urbanos dispuestos a financiar anticipadamente una temporada agrícola a cambio de costos directos de producción, transparencia y trazabilidad.
 
-**User Assumptions**
-1. Creemos que el primer segmento de usuarios está conformado por familias agricultoras de parcelas pequeñas en valles andinos con alta exposición climática, como el Mantaro.
-2. Creemos que estos agricultores usan teléfonos Android de gama baja con datos móviles intermitentes, tienen a WhatsApp como su canal digital principal y poca experiencia con software de gestión agrícola.
-3. Creemos que el segundo segmento está conformado por hogares, restaurantes y pymes de alimentos urbanos, habituados al comercio electrónico, las billeteras digitales y las reservas en línea.
-4. Creemos que estos comerciantes valoran conocer el origen de sus alimentos y prefieren gestionar sus compras en un entorno digital unificado.
-5. Creemos que los agricultores con menor acceso a información de mercado tienen menor capacidad de negociación y de venta (Fan & Salas Garcia, 2018).
+2. Creemos que las familias agricultoras de valles como el Mantaro aceptarán pasar de la venta tradicional a intermediarios a un modelo de remuneración por labores agrícolas realizadas durante la temporada (Otsuka et al., 2016).
 
-**User Outcome and Benefit Assumptions**
-1. Creemos que los agricultores buscan un ingreso predecible por su trabajo, desvinculado del precio de mercado en la cosecha y de los eventos climáticos.
-2. Creemos que los agricultores quieren acceder a compradores directos sin intermediarios ni trámites legales manuales.
-3. Creemos que los comerciantes necesitan conocer y fijar su costo desde el inicio de la temporada, con un ahorro frente al precio minorista.
-4. Creemos que los comerciantes necesitan seguir el avance del cultivo y verificar el origen del producto sin tener que consultar directamente al agricultor.
-5. Creemos que ambos perfiles necesitan un contrato formal inmediato tras el pago para confiar en el acuerdo.
+3. Creemos que un modelo de comisión por servicio aplicado a cada contrato será aceptable tanto para agricultores como para comerciantes urbanos.
 
-**Feature Assumptions**
-1. Creemos que un catálogo de parcelas con ubicación, tipo de cultivo, duración de la temporada y desglose de costos directos permitirá al comerciante evaluar y decidir su reserva de forma autónoma.
-2. Creemos que un módulo de contratación con pasarela de pagos digitales aumentará la tasa de conversión de reservas frente a la negociación presencial e informal.
-3. Creemos que la generación y el envío del contrato en PDF mediante n8n tras la confirmación del pago eliminará la redacción manual de documentos para ambas partes.
-4. Creemos que las notificaciones automatizadas por hitos (preparación del terreno, siembra, riego y fecha estimada de cosecha) reducirán en al menos 50 % las consultas directas del comerciante al agricultor.
-5. Creemos que un panel móvil ligero para el agricultor, usable en Android de gama baja, permitirá su adopción sin programas extensos de capacitación, considerando que el uso de tecnologías móviles ya muestra un impacto favorable en los resultados comerciales de la agricultura familiar (Fan & Salas Garcia, 2018).
-6. Creemos que un sistema bidireccional de reputación y calificaciones fortalecerá la confianza entre las partes e impulsará la renovación de acuerdos entre temporadas.
-7. Creemos que un calendario de pagos garantizado, visible desde la firma del contrato, dará al agricultor la certeza de ingreso que busca.
-8. Creemos que un registro de trazabilidad por temporada (parcela, agricultor, hitos y fecha de cosecha) dará al comerciante la verificación de origen que necesita.
+4. Creemos que la comercialización a costos directos permitirá ofrecer al comerciante un ahorro de al menos el 25 % respecto al precio minorista, sin reducir la remuneración acordada con el agricultor.
+
+5. Creemos que es técnicamente viable desarrollar una plataforma que integre contratación digital, automatización mediante n8n, notificaciones y mecanismos de seguimiento de pagos dentro del alcance del proyecto.
+
+**Supuestos sobre los resultados de negocio**
+
+1. Creemos que la plataforma logrará formalizar al menos 150 contratos agrícolas durante sus primeros ocho meses de operación.
+
+2. Creemos que más del 60 % de los usuarios que hayan contratado una temporada renovará sus acuerdos en temporadas consecutivas.
+
+3. Creemos que la automatización de contratos reducirá el tiempo de formalización administrativa a menos de cinco minutos por transacción.
+
+4. Creemos que los ingresos obtenidos mediante las comisiones por servicio permitirán alcanzar el punto de equilibrio operativo durante el primer año.
+
+5. Creemos que el cumplimiento de los contratos, la transparencia de los pagos y las calificaciones de los usuarios fortalecerán la confianza y favorecerán la incorporación de nuevos agricultores y comerciantes.
+
+**Supuestos sobre los usuarios**
+
+1. Creemos que el primer segmento está conformado por familias agricultoras que trabajan pequeñas parcelas en valles andinos con exposición a riesgos climáticos, como el valle del Mantaro.
+
+2. Creemos que estos agricultores utilizan principalmente teléfonos Android de gama baja, presentan conectividad intermitente y emplean WhatsApp como uno de sus principales canales de comunicación digital.
+
+3. Creemos que el segundo segmento está conformado por comerciantes urbanos, propietarios de restaurantes y pequeñas empresas de alimentos familiarizados con herramientas de comercio electrónico y pagos digitales.
+
+4. Creemos que los comerciantes valoran conocer el origen, la calidad y el progreso de los productos agrícolas contratados.
+
+5. Creemos que los agricultores con menor acceso a información de mercado presentan una capacidad de negociación y comercialización limitada (Fan & Salas Garcia, 2018).
+
+**Supuestos sobre los resultados y beneficios para los usuarios**
+
+1. Creemos que los agricultores buscan obtener ingresos predecibles por su trabajo, independientemente de las fluctuaciones de precios y del rendimiento de la cosecha.
+
+2. Creemos que los agricultores necesitan acceder directamente a compradores y reducir los trámites administrativos asociados a los acuerdos comerciales.
+
+3. Creemos que los comerciantes necesitan conocer y establecer sus costos de abastecimiento desde el inicio de la temporada agrícola.
+
+4. Creemos que los comerciantes necesitan consultar el progreso de los cultivos y verificar el origen de los productos mediante evidencias digitales, sin depender exclusivamente de consultas directas al agricultor.
+
+5. Creemos que ambos segmentos requieren contratos claros, transparencia en los pagos y mecanismos que permitan verificar el cumplimiento de los acuerdos agrícolas.
+
+**Supuestos sobre las funcionalidades**
+
+1. Creemos que un catálogo digital de parcelas que incluya ubicación, tipo de cultivo, duración de la temporada y desglose de costos permitirá al comerciante comparar alternativas y seleccionar una parcela de manera autónoma.
+
+2. Creemos que un módulo de contratación digital que integre mecanismos de pago y custodia Escrow incrementará la confianza de los comerciantes y favorecerá la conversión de reservas frente a la negociación informal.
+
+3. Creemos que la generación y el envío automatizado de contratos en PDF mediante n8n, después de la confirmación del pago correspondiente, reducirán la necesidad de redactar documentos manualmente.
+
+4. Creemos que las notificaciones automatizadas sobre los hitos agrícolas, como la preparación del terreno, la siembra, el riego y la fecha estimada de cosecha, reducirán en al menos un 50 % las consultas directas de los comerciantes hacia los agricultores.
+
+5. Creemos que un panel móvil ligero, compatible con dispositivos Android de gama baja y optimizado para conectividad limitada, facilitará la adopción de la plataforma y el registro de evidencias agrícolas sin requerir procesos extensos de capacitación (Fan & Salas Garcia, 2018).
+
+6. Creemos que un sistema bidireccional de reputación y calificaciones fortalecerá la confianza entre agricultores y comerciantes, favoreciendo la renovación de contratos entre temporadas.
+
+7. Creemos que un calendario de pagos visible desde la formalización del contrato, acompañado de un mecanismo de custodia Escrow y liberación de fondos por hitos validados, proporcionará al agricultor mayor previsibilidad sobre sus ingresos.
+
+8. Creemos que un registro digital de trazabilidad por temporada, que incluya la parcela, el agricultor responsable, los hitos agrícolas y la fecha de cosecha, permitirá al comerciante verificar el origen de los productos contratados.
+
+9. Creemos que un sistema de alertas climáticas basado en información meteorológica permitirá a los agricultores identificar condiciones adversas y tomar decisiones preventivas durante la temporada agrícola.
+
+10. Creemos que un mecanismo de presentación, revisión y validación de evidencias agrícolas incrementará la confianza de los comerciantes y facilitará la autorización de desembolsos asociados al cumplimiento de los hitos contractuales.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-**Hypothesis 1: Parcel and Season Catalog**
-We believe we will achieve a 25% increase in conversion from visitor to reserved parcel if urban buyers attain transparent and comparable information regarding land parcels, crops, season duration, and direct costs with a Parcel catalog featuring search options, location maps, crop calendars, and detailed pricing.
+**Hipótesis 1: Catálogo de parcelas y temporadas**
 
-**Hypothesis 2: Digital Contracting and Seasonal Payment**
-We believe we will achieve at least 150 seasonal contracts formalized within the first 8 months of operation if urban buyers and smallholder farmers attain a digital, contactless mechanism to agree upon and pay for parcel leasing and agricultural labor addressing market access barriers identified by Fan & Salas Garcia (2018) with a Digital contracting and payment module that locks the reservation upon payment confirmation.
+Creemos que lograremos un incremento del 25 % en la tasa de conversión de visitantes a reservas de parcelas si los comerciantes urbanos pueden acceder a información transparente y comparable sobre la ubicación de las parcelas, los tipos de cultivo, la duración de las temporadas y los costos de producción, mediante un catálogo digital que facilite la búsqueda y evaluación de las alternativas disponibles.
 
-**Hypothesis 3: Automated Contract Generation (n8n)**
-We believe we will achieve a reduction in administrative processing time to under 5 minutes per transaction if farmers and urban buyers attain an instantly generated legal contract sent via email without manual drafting with an Automated n8n workflow that generates and delivers the PDF contract upon payment verification.
+**Hipótesis 2: Contratación digital y pagos por temporada**
 
-**Hypothesis 4: Crop Progress Notifications**
-We believe we will achieve at least a 50% reduction in direct buyer-to-farmer inquiries if urban buyers attain automated progress tracking for planting, irrigation milestones, and estimated harvest dates with an Automated crop progress notification system via email and WhatsApp.
+Creemos que lograremos formalizar al menos 150 contratos agrícolas durante los primeros ocho meses de operación si los comerciantes urbanos y los agricultores familiares disponen de un mecanismo digital para establecer acuerdos comerciales, formalizar la contratación de parcelas y gestionar los pagos correspondientes a cada temporada mediante un sistema de custodia Escrow.
 
-**Hypothesis 5: Lightweight Mobile Panel for Farmers**
-We believe we will achieve a weekly progress logging rate above 70% if farmers with low digital literacy and limited connectivity (Fan & Salas Garcia, 2018) attain a simple, low-data interface usable on low-end Android devices without extensive training with a Lightweight mobile panel for logging agricultural milestones.
+**Hipótesis 3: Generación automatizada de contratos mediante n8n**
 
-**Hypothesis 6: Bidirectional Reputation and Ratings**
-We believe we will achieve a season-to-season contract renewal rate above 60% if urban buyers and farmers attain mutual visibility into historical performance prior to committing mitigating the risk of excluding less-connected producers (Otsuka et al., 2016) with a Bidirectional reputation and ratings module.
+Creemos que lograremos reducir el tiempo de formalización administrativa a menos de cinco minutos por transacción si los agricultores familiares y los comerciantes urbanos pueden recibir sus contratos digitales en formato PDF sin necesidad de realizar trámites manuales, mediante un flujo de automatización con n8n encargado de generar y enviar los documentos una vez confirmado el pago correspondiente.
 
-**Hypothesis 7: Guaranteed Payment Schedule**
-We believe we will achieve a 100% income predictability rate (full agreed payout regardless of harvest yield) if family farmers attain predictable compensation for labor performed, independent of market price fluctuations and climate events, with a Guaranteed payment schedule visible from contract signing that releases milestone-based disbursements.
+**Hipótesis 4: Notificaciones de progreso agrícola**
 
-**Hypothesis 8: Cost Transparency and Buyer Savings**
-We believe we will achieve buyer savings of at least 25% compared to equivalent retail prices if urban buyers attain a fixed, itemized direct cost breakdown before committing to a season with a Direct-cost-to-retail price comparison tool integrated into the catalog.
+Creemos que lograremos reducir en al menos un 50 % las consultas directas de los comerciantes hacia los agricultores si los comerciantes urbanos reciben información oportuna sobre el avance de la siembra, el desarrollo del cultivo, los hitos agrícolas y la fecha estimada de cosecha, mediante un sistema de notificaciones automatizadas por correo electrónico y WhatsApp.
 
-**Hypothesis 9: Origin Traceability Record**
-We believe we will achieve complete traceability records in at least 80% of completed seasons if urban buyers attain verifiable information regarding the origin and progress of their produce with a Seasonal traceability record (parcel, farmer, milestones, and harvest date) accessible directly from the contract view.
+**Hipótesis 5: Panel móvil accesible para agricultores**
+
+Creemos que lograremos una tasa semanal de registro de avances agrícolas superior al 70 % si los agricultores familiares con conocimientos digitales limitados y conectividad intermitente disponen de una interfaz sencilla, adaptable a dispositivos Android de gama baja y optimizada para el consumo reducido de datos, mediante un panel que facilite el registro de hitos y evidencias del trabajo agrícola.
+
+**Hipótesis 6: Sistema bidireccional de reputación y calificaciones**
+
+Creemos que lograremos una tasa de renovación de contratos superior al 60 % entre temporadas consecutivas si los comerciantes urbanos y los agricultores familiares pueden consultar el historial de cumplimiento y las experiencias de otros usuarios antes de establecer nuevos acuerdos, mediante un sistema bidireccional de reputación y calificaciones que fortalezca la confianza entre ambas partes.
+
+**Hipótesis 7: Previsibilidad de ingresos mediante pagos por hitos**
+
+Creemos que lograremos que el 100 % de los agricultores que cumplan las labores pactadas reciban la remuneración acordada si disponen de un calendario de pagos transparente desde la formalización del contrato, mediante un sistema de custodia Escrow que contemple la liberación progresiva de fondos conforme se presenten y aprueben las evidencias correspondientes a cada hito agrícola.
+
+**Hipótesis 8: Transparencia de costos y ahorro para comerciantes**
+
+Creemos que lograremos un ahorro de al menos el 25 % para los comerciantes urbanos respecto al precio minorista de productos agrícolas equivalentes si pueden conocer anticipadamente el desglose de los costos directos de producción y las condiciones económicas de cada temporada, mediante una herramienta de comparación de costos integrada al catálogo de parcelas.
+
+**Hipótesis 9: Registro de trazabilidad del origen agrícola**
+
+Creemos que lograremos disponer de registros completos de trazabilidad en al menos el 80 % de las temporadas agrícolas finalizadas si los comerciantes urbanos pueden consultar información verificable sobre el origen y desarrollo de los productos contratados, mediante un registro digital que integre los datos de la parcela, el agricultor responsable, las evidencias de los hitos agrícolas y la fecha de cosecha.
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -4678,17 +4746,20 @@ Tambet, H., & Stopnitzky, Y. (2021). Climate adaptation and conservation agricul
 
 ## Anexo A. Registros de Participación del Equipo (Participant Performance Report)
 
-Evidencia del desempeño individual del equipo **TerraNova** evaluado para el hito **AV1**:
+Evidencia del desempeño individual del equipo **TerraNova** evaluado en las entregas **AV1**, **TB1**, **AV2** y **TB2**:
 
 | Entrega | Documento de Rendimiento | Archivos Adjuntos |
 | :---: | :--- | :---: |
 | **AV1** | upc-pre-202620-1asi0729-7753-terranova-performance-av1 | upc-pre-202620-1asi0729-7753-terranova-performance-av1.docx<br>upc-pre-202620-1asi0729-7753-terranova-performance-av1.pdf |
+| **TB1** | upc-pre-202620-1asi0729-7753-terranova-performance-tb1 | upc-pre-202620-1asi0729-7753-terranova-performance-tb1.docx<br>upc-pre-202620-1asi0729-7753-terranova-performance-tb1.pdf |
+| **AV2** | upc-pre-202620-1asi0729-7753-terranova-performance-av2 | upc-pre-202620-1asi0729-7753-terranova-performance-av2.docx<br>upc-pre-202620-1asi0729-7753-terranova-performance-av2.pdf |
+| **TB2** | upc-pre-202620-1asi0729-7753-terranova-performance-tb2 | upc-pre-202620-1asi0729-7753-terranova-performance-tb2.docx<br>upc-pre-202620-1asi0729-7753-terranova-performance-tb2.pdf |
 
 ---
 
 ## Anexo B. Repositorios de Código Fuente y Control de Versiones
 
-Repositorios oficiales en la organización pública de **GitHub** para el hito **AV1**:
+Repositorios oficiales en la organización pública de **GitHub** del equipo **TerraNova** para las entregas del proyecto **ALLPATEK**:
 
 
 <div align="center">
@@ -4697,6 +4768,9 @@ Repositorios oficiales en la organización pública de **GitHub** para el hito *
 | :--- | :--- | :---: | :---: | :---: |
 | **Project Report** | allpatek-report | main | Active | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-report" style="text-decoration: none;">Ver Repositorio del Informe</a> |
 | **Landing Page** | allpatek-website | main | Deployed | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website" style="text-decoration: none;">Ver Repositorio Landing Page</a> |
+| **Web App** | allpatek-webapp | main | Active | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp" style="text-decoration: none;">Ver Repositorio Web App</a> |
+| **Backend (Web Services)** | allpatek-platform | main | Active | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform" style="text-decoration: none;">Ver Repositorio Backend</a> |
+| **Fake API (Mock)** | allpatek-platform-mock | main | Active | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock" style="text-decoration: none;">Ver Repositorio Fake API</a> |
 
 </div>
 
@@ -4704,17 +4778,21 @@ Repositorios oficiales en la organización pública de **GitHub** para el hito *
 
 ## Anexo C. Enlaces de Despliegue en Entornos de Operación (Cloud Deployments)
 
-Acceso al sitio web estático (Landing Page) desplegado públicamente para la entrega **AV1**:
+Acceso a los productos digitales de **ALLPATEK** desplegados públicamente en entornos de operación (Landing Page, Web App, Web Services y Fake API):
 
 | Producto Digital | Entorno / Provider | Estado | Dirección URL de Acceso Público |
 | :--- | :---: | :---: | :---: |
 | **Landing Page (ALLPATEK)** | GitHub Pages | Live | <a href="https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/" style="text-decoration: none;">https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/</a> |
+| **Web App (ALLPATEK)** | Netlify | Live | <a href="https://terranova-allpatek.netlify.app/" style="text-decoration: none;">https://terranova-allpatek.netlify.app/</a> |
+| **Web Services (API REST base)** | Render | Live | <a href="https://allpatek-platform.onrender.com/api/v1" style="text-decoration: none;">https://allpatek-platform.onrender.com/api/v1</a> |
+| **Documentación OpenAPI (Swagger UI)** | Render | Live | <a href="https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html" style="text-decoration: none;">https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html</a> |
+| **Fake API (Mock API)** | Azure App Service | Live | <a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/" style="text-decoration: none;">https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/</a> |
 
 ---
 
 ## Anexo D. Gestión del Proyecto y Product Backlog (Trello)
 
-Seguimiento interactivo de tareas y planificación del Product Backlog / Sprint 1:
+Seguimiento interactivo de tareas y planificación del Product Backlog y de los Sprints 1, 2 y 3:
 
 <div align="center">
 
@@ -4723,9 +4801,79 @@ Seguimiento interactivo de tareas y planificación del Product Backlog / Sprint 
 | **Product Backlog & Sprint 1 Board** | Trello | <a href="https://trello.com/b/A0csigUo/terranova" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a> |
 | **Product Backlog & Sprint 2 Board** | Trello | <a href="https://trello.com/b/A0csigUo/terranova" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a> |
 | **Product Backlog & Sprint 3 Board** | Trello | <a href="https://trello.com/b/PffylQcc" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a> |
+| **Invitación al tablero Sprint 1** | Trello | <a href="https://trello.com/invite/b/6aa216c035a4a46c6bd2f3f0/ATTI885bbe2f06b7915f27146102eb51b6dfDBBD1DE6/terranova" style="text-decoration: none;">Unirse al tablero</a> |
+| **Invitación al tablero Sprint 3** | Trello | <a href="https://trello.com/invite/b/6af3adfe4e9931bf475e1cc0/ATTIa72fe0d2bbda469b2e799bd8388d45fc57634FE6/allpatek-sprint-03" style="text-decoration: none;">Unirse al tablero</a> |
 
 
 </div>
 
+---
 
+## Anexo E. Artefactos de Descubrimiento y Diseño (Miro y Figma)
 
+Enlaces a los tableros y prototipos utilizados en las etapas de descubrimiento, modelado y diseño de la solución:
+
+<div align="center">
+
+| Artefacto | Herramienta | Enlace |
+| :--- | :---: | :---: |
+| **Lean UX Canvas** | Miro | <a href="https://miro.com/app/board/uXjVHInt5w4=/" style="text-decoration: none;">Ver Tablero</a> |
+| **Event Storming** | Miro | <a href="https://miro.com/app/board/uXjVEOzTlmg=/?share_link_id=401600368120" style="text-decoration: none;">Ver Tablero</a> |
+| **Wireflow** | Figma | <a href="https://www.figma.com/board/KAFi24QzlDrbm4DzuM1DgV/Untitled?node-id=0-1&t=xxM3mTqylB25csWf-1" style="text-decoration: none;">Ver Wireflow</a> |
+| **User Flow** | Figma | <a href="https://www.figma.com/board/qh5vL4xQoPmKWNJbFj7TGj/Untitled?node-id=0-1&t=gEVZUOH5xRFhc4Dp-1" style="text-decoration: none;">Ver User Flow</a> |
+| **Prototipo Desktop (Web App)** | Figma | <a href="https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=85-504&t=DTHiWfYH71axACfB-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=123%3A494&show-proto-sidebar=1" style="text-decoration: none;">Ver Prototipo Desktop</a> |
+| **Prototipo Mobile (Web App)** | Figma | <a href="https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=257-10099&t=g4J1J50GPL689wBS-1&scaling=scale-down&content-scaling=fixed&page-id=236%3A5996" style="text-decoration: none;">Ver Prototipo Mobile</a> |
+
+</div>
+
+---
+
+## Anexo F. Videos de Entrevistas (Needfinding)
+
+Registros en video de las entrevistas realizadas a los segmentos objetivo durante la etapa de Needfinding:
+
+<div align="center">
+
+| Entrevistado | Tipo de Video | Enlace |
+| :--- | :---: | :---: |
+| **Rosa Flores** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBbQDY3p2SiRq-xBW2hRB-dARiTcCuKw4tJ7sUQ8oeVau8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iVsXEQ" style="text-decoration: none;">Ver Video</a> |
+| **Gustavo Adolfo Suyo** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/r/personal/u20231h171_upc_edu_pe/Documents/Video%20Entrevista.mp4?d=w350e6ee8e89f44e3a0801080e03a5a37&csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vPTAoG" style="text-decoration: none;">Ver Video</a> |
+| **Irma Barreto Castro** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQCadRcKNFI3QJCRvB7MCwswAakotnQDzxFR-FZchZomOuI?e=W8zn4F" style="text-decoration: none;">Ver Video</a> |
+| **César Hugo Egocheaga** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQA2ALZ3uFutSaQ8ve7Nk7hqAXADf3-eTjCN6dlRHIPgDVI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MX0bNw" style="text-decoration: none;">Ver Video</a> |
+| **Carolin Solsol** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h171_upc_edu_pe/IQDobg41n-jjRKCAEIDgOlo3AfXMuQqEXkTp0vU3WnDO5Eg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Z15UJ" style="text-decoration: none;">Ver Video</a> |
+
+</div>
+
+---
+
+## Anexo G. Videos de Prototipos y Evidencias de Sprint
+
+Videos de navegación de los prototipos y evidencia de ejecución del Sprint 1:
+
+<div align="center">
+
+| Video | Tipo | Enlace |
+| :--- | :---: | :---: |
+| **Navegación del prototipo Desktop** | Prototypes | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQDF54TKL6PlS58DK7p4wuJAAQiikz0rs6edE33i_ATjpPk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7pTDmu" style="text-decoration: none;">Ver Video</a> |
+| **Navegación del prototipo Mobile** | Prototypes | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQAF9cog3awORKq4HYfc7F9uAa-vd6s6V_oT3BiDwhjeADQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y3j1dP" style="text-decoration: none;">Ver Video</a> |
+| **Evidencia de ejecución del Sprint 1** | Sprint | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQApudu7-aW0R6zofbarn9-pAd96aUTXm_GwyTKAwac5l90?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7oUJHv" style="text-decoration: none;">Ver Video</a> |
+
+</div>
+
+---
+
+## Anexo H. Videos de Validación, Producto y Equipo
+
+Videos de validación de la aplicación y videos institucionales sobre el producto y el equipo:
+
+<div align="center">
+
+| Video | Tipo | Enlace |
+| :--- | :---: | :---: |
+| **App Validation (1)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQCXWmxVVzRyTKLNnMjuRh8cAanVcxuNzSX2roCt7lOrZm0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QWoAks" style="text-decoration: none;">Ver Video</a> |
+| **App Validation (2)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQDhDCYqAhxbSKhg92qWZNqhAYT4gneD9GoPPK-jzUowbr8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vkukAa" style="text-decoration: none;">Ver Video</a> |
+| **App Validation (3)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQA3Ki7VhhDdQIWWQzMUBKdlAX8OWAtP6xUPKwXCyBXh3w0?e=9NLXS5" style="text-decoration: none;">Ver Video</a> |
+| **About the Product** | About the product | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQC1ol8FG1iqRY-bGG2ue1M_AUxwB8p8jD8BnEUAGKaZdVA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=whZtiU" style="text-decoration: none;">Ver en SharePoint</a> · <a href="https://youtu.be/HzLCMS18Pqg" style="text-decoration: none;">Ver en YouTube</a> |
+| **About the Team** | About the team | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBcbq4xfH8tQr_ZPnlJKrMLAXb2-topoxDPFkdP2Z097vs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PB8hMC" style="text-decoration: none;">Ver en SharePoint</a> · <a href="https://youtu.be/Fv-fpNivSHE" style="text-decoration: none;">Ver en YouTube</a> |
+
+</div>
