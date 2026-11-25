@@ -5035,7 +5035,7 @@ Seguimiento interactivo de tareas y planificación del Product Backlog / Sprint 
 
 ## Anexo I. Usuarios de Prueba
 
-Cuentas ficticias creadas para las pruebas y validaciones de la plataforma **ALLPATEK**, nombradas según los entrevistados del Anexo F y el segmento al que pertenecen (Agricultor Familiar y Comerciante Urbano). Los correos son de ejemplo y no corresponden a personas reales.
+Cuentas de prueba para ingresar a la Web App de **ALLPATEK** (https://terranova-allpatek.netlify.app/), una por cada segmento validado: Agricultor Familiar y Comerciante Urbano.
 <div align="center">
 
 | Segmento | Rol en la Plataforma | Usuario (Correo) | Contraseña |
