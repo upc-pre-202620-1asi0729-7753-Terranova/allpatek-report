@@ -2289,9 +2289,11 @@ Una parcela guarda el identificador del propietario. Un perfil puede estar asoci
 
 *Figura 4.8.1-A. Tabla parcels y su propietario.* [Ampliar en SVG](assets/chapter-04/architecture/14-database-plots.svg) · [Fuente PlantUML](assets/chapter-04/architecture/14-database-plots.puml).
 
-![Figura 4.8.1-B. Tabla agreements y referencias a parcela y comerciante](assets/chapter-04/architecture/15-database-contracts.png)
+Cada acuerdo guarda una referencia de parcela obligatoria y una referencia de comerciante opcional. Las aceptaciones se conservan en el mismo registro.
 
-*Figura 4.8.1-B. Tabla agreements y referencias a parcela y comerciante.* <a href="assets/chapter-04/architecture/15-database-contracts.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/15-database-contracts.svg" style="text-decoration: none;">SVG</a>.
+![Figura 4.8.1-B. Tabla agreements, parcela y comerciante](assets/chapter-04/architecture/15-database-contracts.png)
+
+*Figura 4.8.1-B. Tabla agreements, parcela y comerciante.* [Ampliar en SVG](assets/chapter-04/architecture/15-database-contracts.svg) · [Fuente PlantUML](assets/chapter-04/architecture/15-database-contracts.puml).
 
 ![Figura 4.8.1-C. Tabla wallets y referencia al perfil](assets/chapter-04/architecture/16-database-payments.png)
 
