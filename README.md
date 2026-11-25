@@ -3069,172 +3069,41 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
 #### 5.2.2.3. Sprint Backlog 2
 
 
-<table>
-  <thead>
-    <tr style="background-color: #f2f2f2;">
-      <th style="border: 1px solid #dddddd; padding: 10px;">Sprint</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">User Story ID</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">Task ID</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">Task Title</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">Description</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">Estimation (Hours)</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">Assigned To</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US08</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T001</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Interfaz de vista previa de cláusulas del contrato digital</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Maquetar la pantalla Contract Signature desplegando las cláusulas de arrendamiento, plan de pagos e hitos Escrow.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US08</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T002</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Componente de firma digital y aceptación de términos</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Implementar el panel lateral de carga de imagen de firma, checkbox de aceptación y botón de envío de contrato.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US16</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T003</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Vista de datos personales del perfil de usuario</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Construir la sección Personal Data en User Profile con campos para nombre completo, DNI, teléfono, dirección y correo.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US16</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T004</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Vista de información comercial de la empresa</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Desarrollar la sección Commercial Details mostrando razón social de la empresa, RUC y rubro comercial.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">4</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US04</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T005</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Línea de tiempo para selección de hitos de cultivo</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Diseñar el componente Milestone Timeline con estados habilitados y bloqueados para las 4 etapas del proyecto agrícola.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US04</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T006</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Formulario de carga de archivos de evidencia fotográfica</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Implementar la zona interactiva de arrastre de archivos (JPG, PNG, PDF) y campo de observaciones para el hito.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US04</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T007</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Tabla de registro e historial de evidencias enviadas</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Construir la tabla Traceability and Evidence con contadores de evidencias totales, tipo de evidencia y estado de auditoría.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US05</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T008</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Panel de métricas climáticas en tiempo real</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Diseñar las tarjetas métricas de Climate Alerts mostrando temperatura actual, humedad relativa, precipitación y velocidad del viento.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US05</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T009</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Componente de alertas de riesgo agronómico activo</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Implementar la tarjeta de estado Active Risk Alerts con indicador de nivel de severidad y descripción del evento.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US03</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T010</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Dashboard de saldos en la bóveda de custodia Escrow</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Maquetar la vista Payment Vault desplegando las tarjetas de monto total retenido y avance de porcentaje liberado.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US03</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T011</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Sección de contratos activos y seguimiento de desembolsos por hito</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Construir el panel Active Contract con datos de las partes, parcela vinculada y avance de desbloqueo de fondos de las 4 etapas.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US09</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T012</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Formulario interactivo para vinculación de tarjeta bancaria</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Construir la pantalla Add card con el diseño gráfico de tarjeta de débito/crédito y campos de número, titular, expiración y CVV.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US06</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T013</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Tarjeta interactiva de resumen de parcela agrícola</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Diseñar la tarjeta informativa del lote en My Parcels mostrando imagen, extensión en hectáreas, coordenadas GPS, tipo de suelo y costo.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US06</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T014</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Formulario de registro de especificaciones de nueva parcela</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Implementar la pantalla Register New Parcel con campos para nombre, hectáreas, tipo de suelo, costo por campaña y cultivos ideales.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US08</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T015</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Estructura de navegación lateral y selector de idioma en SPA</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Maquetar el menú lateral principal con accesos a módulos, tarjeta de perfil de usuario logueado y selector de idioma EN/ES.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-  </tbody>
-</table>
+| Sprint | User Story ID | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
+| Sprint 2 | US01 | T001 | Modelo de sesión y perfiles en Shared | Definir entidades de usuario, rol (agricultor/comerciante) y perfil en el kernel shared. | 4 | Mel Andree | Done |
+| Sprint 2 | US01 | T002 | Cliente HTTP de autenticación hacia Fake API | Conectar login/registro con los recursos users y profiles de json-server (/api/v1). | 4 | Mel Andree | Done |
+| Sprint 2 | US01 | T003 | Pantallas de login y registro por rol | Construir las vistas Sign in / Register con selector de rol y validación de campos. | 5 | Mel Andree | Done |
+| Sprint 2 | US01 | T004 | Shell, rutas protegidas e i18n EN/ES | Maquetar sidebar, tarjeta de sesión, selector de idioma y redirección según rol. | 5 | Mel Andree | Done |
+| Sprint 2 | US16 | T005 | Sección de datos personales del perfil | Mostrar nombre, DNI, teléfono, dirección y correo en User Profile. | 4 | Mel Andree | Done |
+| Sprint 2 | US16 | T006 | Sección de datos comerciales de la empresa | Mostrar razón social, RUC y rubro para el perfil comerciante. | 4 | Mel Andree | Done |
+| Sprint 2 | US16 | T007 | Persistencia del perfil en Fake API | Guardar cambios de perfil con PUT al recurso profiles y refrescar la sesión. | 4 | Mel Andree | Done |
+| Sprint 2 | US08 | T008 | Modelo de dominio de agreements-management | Definir acuerdo, código de contrato, montos e hitos Escrow en la capa de dominio. | 4 | Mel Andree | Done |
+| Sprint 2 | US08 | T009 | Infraestructura y store de contratos | Consumir GET/POST/PUT /agreements en Fake API y coordinar listado, borrador y firma. | 5 | Mel Andree | Done |
+| Sprint 2 | US08 | T010 | Vista previa de cláusulas del contrato | Maquetar Contract Signature con partes, cláusulas y plan de desembolsos por hito. | 5 | Mel Andree | Done |
+| Sprint 2 | US08 | T011 | Panel de firma y aceptación de términos | Implementar carga de firma, confirmación de términos y envío de aceptación. | 4 | Mel Andree | Done |
+| Sprint 2 | US06 | T012 | Modelo de dominio de parcel-management | Definir parcela, área, suelo, costo de campaña y medios en la capa de dominio. | 4 | Abigail Nadhim | Done |
+| Sprint 2 | US06 | T013 | Cliente HTTP y store del catálogo de parcelas | Consumir GET/POST/PUT/DELETE /parcels de Fake API y coordinar el catálogo. | 5 | Abigail Nadhim | Done |
+| Sprint 2 | US06 | T014 | Tablero y tarjeta de resumen de parcela | Diseñar My Parcels con imagen, hectáreas, GPS, suelo y costo. | 5 | Abigail Nadhim | Done |
+| Sprint 2 | US06 | T015 | Formulario de alta/edición con GPS y fotos | Implementar Register New Parcel (datos, coordenadas/mapa y carga de fotografías). | 5 | Abigail Nadhim | Done |
+| Sprint 2 | US04 | T016 | Modelo de dominio de tracking-evidence | Definir evidencia de hito, archivo adjunto y estados review / verified / accepted. | 4 | Nayely Macarena | Done |
+| Sprint 2 | US04 | T017 | Cliente HTTP y store de evidencias | Consumir POST/GET /evidence de Fake API y orquestar la carga del agricultor. | 4 | Nayely Macarena | Done |
+| Sprint 2 | US04 | T018 | Línea de tiempo de hitos y dropzone de fotos | Construir Milestone Timeline y la zona de arrastre JPG/PNG con observaciones. | 5 | Nayely Macarena | Done |
+| Sprint 2 | US04 | T019 | Historial de evidencias enviadas | Mostrar tabla/tablero con contadores, tipo de evidencia y estado de auditoría. | 4 | Nayely Macarena | Done |
+| Sprint 2 | US14 | T020 | Vista de revisión técnica para el comerciante | Implementar Evidence Review con la foto, notas y hito asociado. | 4 | Nayely Macarena | Done |
+| Sprint 2 | US14 | T021 | Transición de estados de evidencia | Permitir verified / accepted (y devolución a corrección) vía PUT /evidence/{id}. | 4 | Nayely Macarena | Done |
+| Sprint 2 | US14 | T022 | Bloqueo de revisión en hito ya cerrado | Impedir cambiar una evidencia si el hito ya liberó fondos. | 4 | Nayely Macarena | Done |
+| Sprint 2 | US03 | T023 | Modelo de dominio de escrow-payments | Definir wallet, monto en custodia y tarjeta enmascarada en la capa de dominio. | 4 | Miguel Angel | Done |
+| Sprint 2 | US03 | T024 | Cliente HTTP y store de la bóveda | Consumir GET/POST/PUT /wallets de Fake API y calcular retenido vs liberado. | 5 | Miguel Angel | Done |
+| Sprint 2 | US03 | T025 | Dashboard de saldos Escrow | Maquetar Payment Vault con total retenido y porcentaje liberado. | 5 | Miguel Angel | Done |
+| Sprint 2 | US03 | T026 | Seguimiento de desembolsos por hito | Mostrar contrato activo, parcela y avance de las 4 etapas. | 4 | Miguel Angel | Done |
+| Sprint 2 | US09 | T027 | Recurso de depósito en Fake API | Modelar el alta de wallet con titular, last4, expiración y marca. | 4 | Miguel Angel | Done |
+| Sprint 2 | US09 | T028 | Formulario de vinculación de tarjeta | Construir Add card (número, titular, expiración y CVV de demostración). | 5 | Miguel Angel | Done |
+| Sprint 2 | US09 | T029 | Confirmación de fondos en custodia | Registrar el depósito simulado y dejar el contrato en estado En Custodia. | 4 | Miguel Angel | Done |
+| Sprint 2 | US05 | T030 | Modelo de lecturas y alertas climáticas | Definir métricas (temperatura, humedad, precipitación, viento) y nivel de severidad. | 4 | Alexander Sebastián | Done |
+| Sprint 2 | US05 | T031 | Cliente Open-Meteo y Fake API de alertas | Integrar el forecast por coordenadas de parcela y el recurso /alerts. | 5 | Alexander Sebastián | Done |
+| Sprint 2 | US05 | T032 | Panel de métricas climáticas | Diseñar las tarjetas de Climate Alerts con los KPIs en tiempo real. | 5 | Alexander Sebastián | Done |
+| Sprint 2 | US05 | T033 | Feed de alertas de riesgo agronómico | Mostrar Active Risk Alerts con severidad y descripción del evento. | 4 | Alexander Sebastián | Done |
 
 
 
