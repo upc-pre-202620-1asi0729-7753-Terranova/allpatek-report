@@ -2066,6 +2066,14 @@ El [Big Picture del capítulo II](#24-big-picture-event-storming) sigue la tempo
 
 **Evidencia del proceso.** El tablero general está enlazado en la sección 2.4. Para acreditar una sesión específica de Design-Level EventStorming queda pendiente incorporar su fecha, participantes, enlace al tablero, captura y decisiones tomadas.
 
+#### Contratación de la temporada
+
+En el diseño del negocio, el comerciante solicita una temporada y ambas partes aceptan las mismas condiciones. La disponibilidad de la parcela se comprueba antes de reservar. El contrato se activa cuando coinciden las dos aceptaciones y el depósito confirmado para ese acuerdo. A partir de la activación se propone generar el PDF y coordinar su distribución mediante n8n. Si falla el envío, se puede reintentar sin repetir el cobro. La pantalla actual muestra las dos aceptaciones. El depósito y el estado de activación pertenecen al diseño propuesto.
+
+![Figura 4.6.1-B. Modelo propuesto para reserva, aceptación y activación](assets/chapter-04/architecture/01a-season-agreement.png)
+
+*Figura 4.6.1-B. Modelo propuesto para reserva, aceptación y activación.* [Ampliar en SVG](assets/chapter-04/architecture/01a-season-agreement.svg) · [Fuente PlantUML](assets/chapter-04/architecture/01a-season-agreement.puml).
+
 ### 4.6.2. Software Architecture Context Diagram
 
 Los actores principales son el agricultor y el comerciante. La landing explica la propuesta y abre la aplicación. Angular proporciona las pantallas de la demo y usa una API simulada. Los navegadores llaman a n8n desde ciertos formularios; Open-Meteo proporciona el pronóstico y OpenStreetMap, el mapa del formulario de parcela. Una pasarela de pagos, la firma verificable y el almacenamiento documental quedan como integraciones propuestas.

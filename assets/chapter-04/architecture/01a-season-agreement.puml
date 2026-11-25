@@ -1,0 +1,30 @@
+@startuml
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 15
+skinparam LegendBackgroundColor white
+skinparam LegendBorderColor #576965
+skinparam LegendFontSize 15
+skinparam dpi 126
+title Allpatek | Season agreement and activation\n<size:14>Design-Level EventStorming · target business flow · US06 / US07 / US21 / US08 / US09 / TS05</size>
+legend center
+|= Step |<#FFE0E9> **Actor or trigger** |<#D9EBFF> **Command** |<#FFF0B6> **Aggregate** |<#FFD4AC> **Business event** |<#E8D8F5> **Policy** |<#E4F2E3> **Query / read model** |
+| **1** |<#FFE0E9> Farmer |<#D9EBFF> Publish parcel |<#FFF0B6> Parcel |<#FFD4AC> Parcel published |<#E8D8F5> Offer the available parcel. |<#E4F2E3> Available parcel catalog |
+| **2** |<#FFE0E9> Merchant |<#D9EBFF> Request a seasonal agreement |<#FFF0B6> Proposal |<#FFD4AC> Proposal submitted |<#E8D8F5> Notify the farmer of the request. |<#E4F2E3> Farmer proposal inbox |
+| **3** |<#FFE0E9> Farmer and merchant |<#D9EBFF> Agree on the terms |<#FFF0B6> Proposal |<#FFD4AC> Terms agreed |<#E8D8F5> Hold only an available parcel. |<#E4F2E3> Agreed seasonal terms |
+| **4** |<#FFE0E9> Reservation policy |<#D9EBFF> Hold the available parcel |<#FFF0B6> Reservation |<#FFD4AC> Parcel reserved |<#E8D8F5> Request acceptance from both parties. |<#E4F2E3> Season availability |
+| **5** |<#FFE0E9> Merchant / farmer |<#D9EBFF> Accept the agreed terms |<#FFF0B6> Agreement |<#FFD4AC> Party acceptance recorded |<#E8D8F5> Wait for the other acceptance. |<#E4F2E3> Acceptance status by party |
+| **6** |<#FFE0E9> Signature policy |<#D9EBFF> Record the completed agreement |<#FFF0B6> Agreement |<#FFD4AC> Agreement fully signed |<#E8D8F5> Record both parties as signed. |<#E4F2E3> Agreement signature summary |
+| **7** |<#FFE0E9> Payment provider |<#D9EBFF> Confirm the custody deposit |<#FFF0B6> Deposit |<#FFD4AC> Deposit confirmed |<#E8D8F5> Record deposit once per confirmation. |<#E4F2E3> Deposit status by agreement |
+| **8** |<#FFE0E9> Activation policy |<#D9EBFF> Activate the season |<#FFF0B6> Agreement |<#FFD4AC> Season contract activated |<#E8D8F5> Require both signatures and deposit. |<#E4F2E3> Active seasons |
+| **9** |<#FFE0E9> Document service |<#D9EBFF> Generate the contract PDF |<#FFF0B6> Contract document |<#FFD4AC> Contract PDF generated |<#E8D8F5> Queue a copy for each party. |<#E4F2E3> Document reference |
+| **10** |<#FFE0E9> Delivery service |<#D9EBFF> Send the document |<#FFF0B6> Delivery |<#FFD4AC> Contract copy delivered |<#E8D8F5> Retry only undelivered copies. |<#E4F2E3> Delivery status by recipient |
+
+Activation requires both signatures and a confirmed deposit for the same agreement.
+An occupied parcel cannot be held. A failed delivery leaves the contract active and can be retried.
+
+In Spring, the first transition to two signatures publishes AgreementFullySignedEvent and marks the parcel in production.
+The Angular demo attempts a webhook after a successful farmer signature. A confirmed deposit, PDF or delivery needs separate evidence.
+endlegend
+@enduml
