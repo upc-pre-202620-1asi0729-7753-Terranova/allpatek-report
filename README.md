@@ -4008,6 +4008,7 @@ Los cinco salen en Insights del repositorio. El pico de commits cae entre finale
 
 
 ### 5.2.4. Sprint 4
+
 #### 5.2.4.1. Sprint Planning 4
 
 <table>
@@ -4135,6 +4136,7 @@ Los cinco salen en Insights del repositorio. El pico de commits cae entre finale
 #### 5.2.4.3. Sprint Backlog 4
 
 El objetivo principal del **Sprint 4** es .
+
 <div align="center">
 
 | Story Id | Story Title  | Story Points  |
@@ -4147,12 +4149,16 @@ El objetivo principal del **Sprint 4** es .
 | **Total** | | **** |
 
 </div>
+
 #### Tablero de Control del Sprint 4 (Sprint Board)
+
 <p align="center">
   <img src="assets/chapter-05/trello-sprint-04.png" alt="Tablero del Sprint 4 en Trello - ALLPATEK" width="850" />
 </p>
+
 * **Figura 5.2.4.3.1.** Captura del tablero del Sprint 4 en la herramienta de control, con el estado de las tareas.
 * **URL pública del Board:** <a href="" style="text-decoration: none;">Tablero Trello TerraNova</a>
+
 ### Tabla de Control de Estado del Sprint Backlog 4
 
 | Sprint | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
@@ -4169,6 +4175,7 @@ El objetivo principal del **Sprint 4** es .
 #### 5.2.4.4. Development Evidence for Sprint Review
 
 En el Sprint 4 se implementó . Cada bounded context del Sprint Backlog 4 tiene su rama feature/*; abajo se listan los commits de implementación.
+
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 | --- | --- | --- | --- | --- | --- |
 |  |  |  |  |  |  |
@@ -4178,21 +4185,25 @@ En el Sprint 4 se implementó . Cada bounded context del Sprint Backlog 4 tiene 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
 Descripción de la evidencia de ejecución.
+
 Descripción de la captura 1.
 
 <p align="center">
   <img src="assets/chapter-05/sprint-04-execution-01.png" alt="Evidencia de ejecución 1 del Sprint 4" width="850" />
 </p>
+
 Descripción de la captura 2.
 
 <p align="center">
   <img src="assets/chapter-05/sprint-04-execution-02.png" alt="Evidencia de ejecución 2 del Sprint 4" width="850" />
 </p>
+
 Descripción de la captura 3.
 
 <p align="center">
   <img src="assets/chapter-05/sprint-04-execution-03.png" alt="Evidencia de ejecución 3 del Sprint 4" width="850" />
 </p>
+
 Descripción de la captura 4.
 
 <p align="center">
@@ -4203,18 +4214,22 @@ Descripción de la captura 4.
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
 Descripción de la documentación de los servicios de este sprint.
+
 ### Entornos de servicio
 
 * **Swagger UI (publicado):** <a href="" style="text-decoration: none;"></a>
 * **URL base publicada:** <a href="" style="text-decoration: none;"></a>
 * **URL base local:** <a href="" style="text-decoration: none;"></a>
 * **Swagger UI local:** <a href="" style="text-decoration: none;"></a>
+
 ### 2. Repositorio y commits de documentación
 
 * **Repositorio de Web Services:** <a href="" style="text-decoration: none;"></a>
+
 ### 3. Matriz de endpoints del alcance del Sprint
 
 > **Ruta base (BASE):** <a href="" style="text-decoration: none;"></a>
+
 | US | Endpoint | Verbo | Parámetros | Acción | Ejemplo de respuesta |
 | :---: | :--- | :---: | :--- | :--- | :--- |
 |  |  |  |  |  |  |
@@ -4225,6 +4240,7 @@ Descripción de la documentación de los servicios de este sprint.
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
 Descripción del despliegue de este sprint.
+
 <table align="center" style="margin: 0 auto; text-align: center;">
   <thead>
     <tr>
@@ -4245,6 +4261,7 @@ Descripción del despliegue de este sprint.
     </tr>
   </tbody>
 </table>
+
 #### Paso 1: 
 
 Descripción del paso 1.
@@ -4252,6 +4269,7 @@ Descripción del paso 1.
 <p align="center">
   <img src="assets/chapter-05/sprint-04-deploy-01.png" alt="Paso 1 del despliegue del Sprint 4" width="750" />
 </p>
+
 #### Paso 2: 
 
 Descripción del paso 2.
@@ -4259,6 +4277,7 @@ Descripción del paso 2.
 <p align="center">
   <img src="assets/chapter-05/sprint-04-deploy-02.png" alt="Paso 2 del despliegue del Sprint 4" width="750" />
 </p>
+
 #### Paso 3: 
 
 Descripción del paso 3.
@@ -4266,6 +4285,7 @@ Descripción del paso 3.
 <p align="center">
   <img src="assets/chapter-05/sprint-04-deploy-03.png" alt="Paso 3 del despliegue del Sprint 4" width="750" />
 </p>
+
 #### Paso 4: 
 
 Descripción del paso 4.
@@ -4273,6 +4293,7 @@ Descripción del paso 4.
 <p align="center">
   <img src="assets/chapter-05/sprint-04-deploy-04.png" alt="Paso 4 del despliegue del Sprint 4" width="750" />
 </p>
+
 #### Paso 5: 
 
 Descripción del paso 5.
@@ -4285,6 +4306,7 @@ Descripción del paso 5.
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
 Descripción de la colaboración del equipo durante el Sprint 4.
+
 | Integrante | Usuario GitHub | Repositorio |
 | :--- | :--- | :--- |
 | Atauje Barreto, Alexander Sebastián | Alexander1Alexander2 |  |
