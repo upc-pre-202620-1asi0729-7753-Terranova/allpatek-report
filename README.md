@@ -1973,14 +1973,14 @@ En esta sección se presenta la propuesta formal de User Flows mapeados a partir
 
 | Actor | Ruta | Qué ocurre |
 |---|---|---|
-| Ambos | /login, /register, /profile | La selección del rol carga un perfil ficticio. La sesión se conserva en el navegador; no hay verificación de contraseña. |
+| Ambos | /login, /register, /profile | El inicio de sesión carga el perfil de agricultor de demostración. En el registro se selecciona el rol. La sesión se conserva en el navegador. |
 | Agricultor | /parcels/new, /parcels/:id/edit | Ingresa datos, cultivos y coordenadas, que puede completar por departamento o GPS. Puede adjuntar fotos; hay una imagen por defecto. La pantalla vuelve al catálogo si la API confirma el guardado. |
 | Comerciante y agricultor | /parcels/:id, /agreements, /agreements/merchant | El comerciante abre el acuerdo desde el detalle de parcela. El agricultor revisa la solicitud en /agreements/merchant y confirma en /agreements. Se almacenan dos indicadores de aceptación. |
 | Agricultor y comerciante | /evidence/new, /evidence/review, /escrow | El agricultor adjunta una imagen. El comerciante verifica la evidencia y luego marca la liberación simulada en la bóveda. |
-| Comerciante | /escrow/deposit | Registra tarjeta enmascarada y un monto de demostración. No se carga una tarjeta ni se mueve dinero. |
+| Comerciante | /escrow/deposit | Registra una tarjeta ficticia y un monto de demostración. La interfaz abrevia el número al mostrarlo. La API conserva los datos de prueba. |
 | Agricultor | /alerts | Consulta pronóstico para sus parcelas con coordenadas utilizables. La SPA usa Open-Meteo directamente, sin sensores propios ni un historial de alertas. |
 
-En el flujo de evidencias, la UI usa review → verified → accepted. El acceso a evidencias se apoya en la aceptación del comerciante; la bóveda lista acuerdos con ambas aceptaciones y exige una tarjeta de demo y saldo disponible para marcar la liberación. El PUT reducido de liberación no incluye notas ni archivo, y el frontend transforma un error HTTP en un resultado exitoso. Esto puede provocar una falsa confirmación o perder información si se conecta al backend actual. La transición debería guardar solo el nuevo estado, preservar la evidencia y mostrar éxito únicamente tras una respuesta válida.
+En el flujo de evidencias, la UI usa review → verified → accepted. El acceso a evidencias se apoya en la aceptación del comerciante; la bóveda lista acuerdos con ambas aceptaciones y exige una tarjeta de demo y saldo disponible para marcar la liberación. El PUT reducido de liberación no incluye notas ni archivo, y el frontend transforma un error HTTP en un resultado exitoso. Con la API Spring configurada, el aviso puede indicar éxito aunque falle la escritura. Si el servidor acepta el reemplazo, se pueden perder las observaciones o el archivo omitidos. La transición debería guardar solo el nuevo estado, preservar la evidencia y mostrar éxito únicamente tras una respuesta válida.
 
 ![Figura 4.4.4-A. Acuerdo, evidencia y liberación simulada](assets/chapter-04/architecture/18-flow-agreement-evidence.png)
 
