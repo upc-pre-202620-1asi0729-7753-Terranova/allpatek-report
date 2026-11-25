@@ -2139,6 +2139,14 @@ ParcelsController delega la escritura y la consulta. El adaptador JPA guarda la 
 
 *Figura 4.6.4-E1. Componentes de parcelas.* [Ampliar en SVG](assets/chapter-04/architecture/c4-parcels.svg) · [Fuente PlantUML](assets/chapter-04/architecture/c4-parcels.puml).
 
+#### Acuerdos en la API
+
+El controlador guarda las aceptaciones. El adaptador compara las firmas con el estado anterior y el manejador del evento comunica a Parcelas que ambas partes aceptaron.
+
+![Figura 4.6.4-E2. Componentes de acuerdos](assets/chapter-04/architecture/c4-agreements.png)
+
+*Figura 4.6.4-E2. Componentes de acuerdos.* [Ampliar en SVG](assets/chapter-04/architecture/c4-agreements.svg) · [Fuente PlantUML](assets/chapter-04/architecture/c4-agreements.puml).
+
 ## 4.7. Software Object-Oriented Design
 
 Las figuras de clases corresponden a la API Java. Los agregados agrupan los datos del negocio; los value objects expresan conceptos como una firma, una tarjeta enmascarada o el cronograma de campaña. Las entidades JPA y los assemblers mantienen el almacenamiento separado del modelo de dominio. Angular se documenta en la figura 4.6.4-B.
