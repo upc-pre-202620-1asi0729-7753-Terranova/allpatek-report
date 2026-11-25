@@ -2113,11 +2113,11 @@ Cada recuadro dentro del límite de Allpatek representa una unidad que se puede 
 
 *Figura 4.6.4-A. Componentes y colaboraciones de la API Spring.* [Ampliar en SVG](assets/chapter-04/architecture/04-api-components.svg) · [Fuente PlantUML](assets/chapter-04/architecture/04-api-components.puml).
 
-**Aplicación web.** Las rutas (/parcels, /agreements, /evidence, /escrow, /alerts, /profile) coinciden con los módulos parcel-management, agreements-management, tracking-evidence, escrow-payments, alerts-management y shared. /users existe solo en el mock de Angular. La selección de rol y los guardas operan en el cliente.
+**Aplicación web.** El enrutador de Angular organiza las pantallas por dominio. Los servicios consultan perfiles, parcelas, acuerdos, billeteras y evidencias en Spring. Los guardas y la selección de rol dependen del navegador. La sincronización adicional del perfil intenta usar `/users`, recurso sin controlador en esta versión de Spring.
 
-![Figura 4.6.4-B. Componentes de la SPA Angular del equipo](assets/chapter-04/architecture/05-web-components.png)
+![Figura 4.6.4-B. Módulos y dependencias de la SPA Angular](assets/chapter-04/architecture/05-web-components.png)
 
-*Figura 4.6.4-B. Componentes de la SPA Angular del equipo.* <a href="assets/chapter-04/architecture/05-web-components.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/05-web-components.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.6.4-B. Módulos y dependencias de la SPA Angular.* [Ampliar en SVG](assets/chapter-04/architecture/05-web-components.svg) · [Fuente PlantUML](assets/chapter-04/architecture/05-web-components.puml).
 
 **Landing.** El header, las secciones informativas, los planes y el contacto son componentes de una página estática. JavaScript gestiona navegación móvil, idioma y formulario. La rama de desarrollo incorpora los videos del producto y del equipo.
 
