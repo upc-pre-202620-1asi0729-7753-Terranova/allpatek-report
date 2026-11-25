@@ -2257,6 +2257,20 @@ Cada contexto incluye una figura del backend y otra de la webapp. Se muestran lo
 
 *Figura 4.7.1-E2. Perfiles en Angular.* [Ampliar en SVG](assets/chapter-04/architecture/web-classes-profiles.svg) · [Fuente PlantUML](assets/chapter-04/architecture/web-classes-profiles.puml).
 
+#### Alertas climáticas
+
+**Backend.** `ClimateReading` usa las mediciones del pronóstico para calcular las alertas de una parcela. `AlertsController` delega la lectura en `ClimateQueryServiceImpl`, que obtiene las ubicaciones a través de `ParcelsContextFacade` y pide los pronósticos mediante `WeatherForecastService`. El adaptador de Open-Meteo los consulta por HTTP y el controlador devuelve los resultados al cliente. Este flujo se resuelve en la consulta, sin una tabla de clima.
+
+![Figura 4.7.1-F1. Clima en Spring](assets/chapter-04/architecture/12b-classes-alerts.png)
+
+*Figura 4.7.1-F1. Clima en Spring.* [Ampliar en SVG](assets/chapter-04/architecture/12b-classes-alerts.svg) · [Fuente PlantUML](assets/chapter-04/architecture/12b-classes-alerts.puml).
+
+**Webapp.** `WeatherReading` describe la lectura de una parcela. Cada lectura incorpora cuatro gráficos de temperatura, humedad, lluvia y viento definidos por `WeatherChart`. `ClimateBoard` cambia la parcela seleccionada en `ClimateStore`. El store carga las parcelas y envía sus coordenadas a `WeatherApi`, que consulta Open-Meteo directamente desde el navegador.
+
+![Figura 4.7.1-F2. Clima en Angular](assets/chapter-04/architecture/web-classes-alerts.png)
+
+*Figura 4.7.1-F2. Clima en Angular.* [Ampliar en SVG](assets/chapter-04/architecture/web-classes-alerts.svg) · [Fuente PlantUML](assets/chapter-04/architecture/web-classes-alerts.puml).
+
 ## 4.8. Database Design
 
 La API Java usa **MySQL**, con entidades de persistencia para parcels, agreements, wallets, evidence y profiles. Se contrastaron las anotaciones JPA con los metadatos del esquema de una instancia de prueba MySQL 8.4. El mock conserva colecciones JSON y no usa este esquema.
