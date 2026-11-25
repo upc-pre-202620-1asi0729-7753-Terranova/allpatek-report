@@ -5042,3 +5042,4 @@ Cuentas ficticias creadas para las pruebas y validaciones de la plataforma **ALL
 | :---: | :--- | :---: | :--- |
 | **Agricultor Familiar** | Rosa Flores | Agricultor | rosa.flores23@gmail.com |
 | **Agricultor Familiar** | Gustavo Adolfo Suyo | Agricultor | gustavo.suyo23@gmail.com |
+| **Comerciante Urbano** | Irma Barreto Castro | Comerciante | irma.barreto23@gmail.com |
