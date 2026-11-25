@@ -30,12 +30,12 @@
 <h3 align="center">Integrantes</h3>
 
 <p align="center">
-  <b>Código</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Apellidos y Nombres</b><br>
-  u20241f246 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Atauje Barreto, Alexander Sebastián<br>
-  u202215188 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Egocheaga Suyo, Miguel Angel<br>
-  u202116018 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Orellana Rodríguez, Mel Andree<br>
-  U20231h171 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vera Solsol, Nayely Macarena<br>
-  u202318001 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Raymundo Villarroel, Abigail Nadhim
+  &nbsp;&nbsp;&nbsp;&nbsp;<b>Código</b> &emsp;&emsp;&emsp;&emsp; <b>Apellidos y Nombres</b> &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<br>
+  <code>u20241f246</code> &emsp;&emsp; Atauje Barreto, Alexander Sebastián<br>
+  <code>u202215188</code> &emsp;&emsp; Egocheaga Suyo, Miguel Angel &emsp;&emsp;&nbsp;<br>
+  <code>u202116018</code> &emsp;&emsp; Orellana Rodríguez, Mel Andree &emsp;&nbsp;&nbsp;<br>
+  <code>u20231h171</code> &emsp;&emsp; Vera Solsol, Nayely Macarena &emsp;&emsp;&nbsp;&nbsp;<br>
+  <code>u202318001</code> &emsp;&emsp; Raymundo Villarroel, Abigail Nadhim
 </p>
 
 <p align="center">&nbsp;</p>
@@ -2615,7 +2615,7 @@ El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de 
   </tr>
   <tr>
     <td colspan="5">Sprint 1 Goal</td>
-    <td colspan="8"><strong>Our focus is on</strong> presenting ALLPATEK’s guaranteed agricultural production model, fee-by-milestone structure, and service offerings through a responsive static landing page with lead capture capabilities. <strong>We believe it delivers</strong> initial market reach, brand credibility, and clear commercial orientation <strong>to</strong> prospective agricultural producers and grain merchants. <strong>This will be confirmed when</strong> visitors can navigate through all service overview sections, compare commercial plans, and submit a technical proposal request in under 3 steps with zero UI validation errors.</td>
+    <td colspan="8"><strong>Nuestro enfoque está en dar a conocer la propuesta de producción agrícola garantizada de Allpatek y sus planes comerciales. Creemos que esto aporta credibilidad y claridad comercial a agricultores y comerciantes urbanos. Esto se confirmará cuando el 100 % de los visitantes puedan comparar los planes y solicitar una propuesta en menos de 3 pasos.</td>
   </tr>
   <tr>
     <td colspan="5">Sprint 1 Velocity</td>
@@ -2974,7 +2974,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
   </tr>
   <tr>
     <td colspan="5">Sprint 2 Goal</td>
-    <td colspan="8">Our focus is on automating contract delivery workflows via n8n and providing real-time crop progress notifications to agricultural investors.<br><br>We believe it delivers transparency, legal assurance, and continuous visibility of agricultural investments to investors and farmers.<br><br>This will be confirmed when 100% of signed agreements automatically generate and deliver PDF contracts to user inboxes within 1 minute, and investors receive real-time status updates in the SPA for every crop milestone updated by farmers.</td>
+    <td colspan="8">Nuestro enfoque está en dar a conocer la propuesta de producción agrícola garantizada de Allpatek y sus planes comerciales. Creemos que esto aporta credibilidad y claridad comercial a agricultores y comerciantes urbanos. Esto se confirmará cuando el 100 % de los visitantes puedan comparar los planes y solicitar una propuesta en menos de 3 pasos</td>
   </tr>
   <tr>
     <td colspan="5">Sprint 2 Velocity</td>
@@ -3632,7 +3632,7 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
   </tr>
   <tr>
     <td colspan="5">Sprint 3 Goal</td>
-    <td colspan="8"><strong>Our focus is on</strong> closing the TB1 review observations, documenting the core bounded-context services with OpenAPI, and validating the web application with farmers and urban merchants.<br><br><strong>We believe it delivers</strong> a consistent domain model, balanced team contribution, and evidence that both target segments can complete the parcel, contract, escrow and climate flows with confidence.<br><br><strong>This will be confirmed when</strong> GitHub releases follow Semantic Versioning 2.0.0, Sprint 2 tasks are marked Done, class diagrams use related value objects with no primitive types or isolated classes, Student Outcome lists actions for every member in each delivery, the exposition videos are published, and validation interviews with both segments are recorded.</td>
+    <td colspan="8">Nuestro enfoque está en consolidar las operaciones de parcelas, contratos, evidencias y custodia de pagos, validando su uso con usuarios reales. Creemos que esto aporta confianza comercial y certeza de utilidad a agricultores familiares y comerciantes urbanos. Esto se confirmará cuando al menos el 80 % de los participantes en las pruebas de validación completen los flujos principales sin asistencia.</td>
   </tr>
   <tr>
     <td colspan="5">Sprint 3 Velocity</td>
@@ -5113,9 +5113,7 @@ Seguimiento interactivo de tareas y planificación del Product Backlog y de los 
 | **Product Backlog & Sprint 1 Board** | Trello | <a href="https://trello.com/b/A0csigUo/terranova" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a> |
 | **Product Backlog & Sprint 2 Board** | Trello | <a href="https://trello.com/b/A0csigUo/terranova" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a> |
 | **Product Backlog & Sprint 3 Board** | Trello | <a href="https://trello.com/b/PffylQcc" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a> |
-| **Invitación al tablero Sprint 1** | Trello | <a href="https://trello.com/invite/b/6aa216c035a4a46c6bd2f3f0/ATTI885bbe2f06b7915f27146102eb51b6dfDBBD1DE6/terranova" style="text-decoration: none;">Unirse al tablero</a> |
-| **Invitación al tablero Sprint 3** | Trello | <a href="https://trello.com/invite/b/6af3adfe4e9931bf475e1cc0/ATTIa72fe0d2bbda469b2e799bd8388d45fc57634FE6/allpatek-sprint-03" style="text-decoration: none;">Unirse al tablero</a> |
-
+| **Product Backlog & Sprint 4 Board** | Trello | <a href="https://trello.com/b/PffylQcc" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a> |
 
 </div>
 
