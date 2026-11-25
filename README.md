@@ -4266,6 +4266,13 @@ Descripción del paso 3.
 <p align="center">
   <img src="assets/chapter-05/sprint-04-deploy-03.png" alt="Paso 3 del despliegue del Sprint 4" width="750" />
 </p>
+#### Paso 4: 
+
+Descripción del paso 4.
+
+<p align="center">
+  <img src="assets/chapter-05/sprint-04-deploy-04.png" alt="Paso 4 del despliegue del Sprint 4" width="750" />
+</p>
 
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
