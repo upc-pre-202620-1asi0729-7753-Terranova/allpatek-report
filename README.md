@@ -4751,6 +4751,7 @@ Evidencia del desempeño individual del equipo **TerraNova** evaluado para el hi
 | Entrega | Documento de Rendimiento | Archivos Adjuntos |
 | :---: | :--- | :---: |
 | **AV1** | upc-pre-202620-1asi0729-7753-terranova-performance-av1 | upc-pre-202620-1asi0729-7753-terranova-performance-av1.docx<br>upc-pre-202620-1asi0729-7753-terranova-performance-av1.pdf |
+| **TB1** | upc-pre-202620-1asi0729-7753-terranova-performance-tb1 | upc-pre-202620-1asi0729-7753-terranova-performance-tb1.docx<br>upc-pre-202620-1asi0729-7753-terranova-performance-tb1.pdf |
 
 ---
 
