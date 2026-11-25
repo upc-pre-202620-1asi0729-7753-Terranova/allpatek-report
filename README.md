@@ -122,6 +122,12 @@
 | AV2 | 04/11/2026 | Egocheaga Suyo, Miguel Angel | Desarrollo de la capa de infraestructura de escrow-payments: entidad JPA wallets, embeddable de tarjeta, repositorio Spring Data y adaptador del repositorio |
 | AV2 | 04/11/2026 | Egocheaga Suyo, Miguel Angel | Implementación de la API REST del bounded context escrow-payments mediante los endpoints GET/POST /api/v1/wallets y PUT /api/v1/wallets/{id} para consultar el monto de demostración y la tarjeta enmascarada |
 | AV2 | 07/11/2026 | Egocheaga Suyo, Miguel Angel | Documentación de la API de custodia en Swagger UI con el tag escrow, cubriendo el alta de wallet, la consulta de saldo de demostración y la actualización por identificador |
+| TB2 | 25/11/2026 | Raymundo Villarroel, Abigail Nadhim | Implementación de los iconos de redes sociales (Facebook, Instagram, LinkedIn y YouTube) en el footer de la Landing Page, con enlaces a las páginas oficiales |
+| TB2 | 25/11/2026 | Raymundo Villarroel, Abigail Nadhim | Redacción de los Términos y Condiciones y la Política de Privacidad en español e inglés, con descarga en PDF desde el footer según el idioma activo |
+| TB2 | 25/11/2026 | Raymundo Villarroel, Abigail Nadhim | Implementación de la sección de Anexos: repositorios, enlaces de despliegue, tableros de Trello, artefactos de diseño y videos del proyecto |
+| TB2 | 25/11/2026 | Raymundo Villarroel, Abigail Nadhim | Registro de los reportes de participación de AV1, TB1, AV2 y TB2 en el Anexo A |
+| TB2 | 25/11/2026 | Raymundo Villarroel, Abigail Nadhim | Creación de la estructura de la sección 5.2.4 (Sprint 4) con las tablas de planificación, backlog, evidencias y colaboración para completar |
+| TB2 | 25/11/2026 | Raymundo Villarroel, Abigail Nadhim | Registro de los usuarios de prueba de la aplicación web (agricultor y comerciante) en el Anexo I |
 
 
 ## Project Report Collaboration Insights
@@ -171,7 +177,7 @@ Repositorios del proyecto:
 | Egocheaga Suyo, Miguel Angel | Domain-Driven Software Architecture (Chapter 4.6), Design-Level EventStorming, Software Architecture Context, Container and Component Diagrams, Software Object-Oriented Design, Class Diagrams, Database Design and Database Diagrams; Landing Page Header/Navbar and Hero Section implementation, responsive styles and navigation behavior (HTML5, CSS3 and JavaScript). TB1: desarrollo del bounded context escrow-payments de la aplicación web (bóveda, depósito y seguimiento de desembolsos por hito). AV2: desarrollo de escrow-payments en el backend (allpatek-platform), con el agregado Wallet, persistencia JPA, endpoints GET/POST /api/v1/wallets y PUT /api/v1/wallets/{id}, y el tag escrow en Swagger. |
 | Orellana Rodríguez, Mel Andree | Style Guidelines, General Style Guidelines, Web Style Guidelines, Information Architecture, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Web Applications UX/UI Design, Web Applications Wireframes, Web Applications Wireflow Diagrams, Web Applications Mock-ups, Web Applications User Flow Diagrams, Web Applications Prototyping,  Desarrollo del bounded context Shared, Desarrollo del bounded context agreements-management, Desarrollo de la estructura de Aplicación Web, Despliegue del Mock API en Azure, Correcciones en el Product Backlog, About the Product, About the Team, Sprint 3  |
 | Vera Solsol, Nayely Macarena | Impact Mapping, User Stories and Product Backlog (Chapter 3). Desarrollo del bounded context tracking-evidence de la aplicación web (capas de dominio, infraestructura, aplicación y presentación). Desarrollo e implementación integral del bounded context tracking-evidence en el backend (allpatek-platform), incluyendo sus capas de dominio, aplicación, infraestructura y la exposición de endpoints REST (/api/v1/evidence) para la gestión y trazabilidad de evidencias por hito. Documentación de la implementación del bounded context tracking-evidence en el backend y registro detallado de sus commits correspondientes al Sprint 3, elaboración de entrevistas y correcciones del report. |
-| Raymundo Villarroel, Abigail Nadhim | Requirements Elicitation & Analysis (Chapter 2): Competitors, Competitive Analysis Landscape & SWOT, Competitive Strategies and Tactics, Interviews (Design, Record and Analysis for both segments), User Personas, User Task Matrix, User Journey Mapping (As-Is), Empathy Mapping, Big Picture Event Storming (Mermaid), Ubiquitous Language; Landing Page Contact Section and Footer Section (HTML5 & CSS). TB1: desarrollo del bounded context parcel-management de la aplicación web (capas de dominio, infraestructura, aplicación y presentación) y correcciones del Capítulo II (Empathy Mapping, guías de entrevista, Event Storming y nomenclatura de assets). Desarrollo del bounded context parcel-management en el backend (allpatek-platform) y documentación de sus commits en Sprint 3. |
+| Raymundo Villarroel, Abigail Nadhim | Requirements Elicitation & Analysis (Chapter 2): Competitors, Competitive Analysis Landscape & SWOT, Competitive Strategies and Tactics, Interviews (Design, Record and Analysis for both segments), User Personas, User Task Matrix, User Journey Mapping (As-Is), Empathy Mapping, Big Picture Event Storming (Mermaid), Ubiquitous Language; Landing Page Contact Section and Footer Section (HTML5 & CSS). TB1: desarrollo del bounded context parcel-management de la aplicación web (capas de dominio, infraestructura, aplicación y presentación) y correcciones del Capítulo II (Empathy Mapping, guías de entrevista, Event Storming y nomenclatura de assets). Desarrollo del bounded context parcel-management en el backend (allpatek-platform) y documentación de sus commits en Sprint 3. TB2: implementación de redes sociales y documentos legales (Términos y Condiciones y Política de Privacidad en PDF) en la Landing Page, sección de Anexos del informe (repositorios, despliegues, Trello, artefactos, videos, reportes de participación y usuarios de prueba) y estructura del Sprint 4 (5.2.4). |
 
 <div align="center">
     
@@ -358,6 +364,7 @@ Repositorios del proyecto:
             <li><b>AV2 - Egocheaga Suyo, Miguel Angel:</b> Exposición oral de la entrega AV2, explicando el bounded context escrow-payments del backend: cómo quedó la wallet, cómo se consulta el saldo de demostración y para qué sirven los endpoints de /api/v1/wallets. Lo armé para que se entienda en la sustentación y también si alguien del lado comercial solo quiere saber dónde queda el dinero en custodia.</li>
              <li><b>AV2 - Vera Solsol, Nayely Macarena:</b> Exposición oral de la entrega AV2, explicando el desarrollo integral del bounded context <code>tracking-evidence</code> tanto en el backend (allpatek-platform, detallando sus capas de dominio, aplicación, infraestructura y los endpoints REST <code>/api/v1/evidence</code>) como en la aplicación web.</li>
            <li><b>TB2 - Atauje Barreto, Alexander Sebastián:</b> Preparación de la sustentación de las correcciones del Capítulo I, explicando las mejoras del proceso Lean UX y su alineación con la propuesta de valor de Allpatek, utilizando un lenguaje claro para diferentes audiencias.</li>
+            <li><b>TB2 - Raymundo Villarroel, Abigail Nadhim:</b> Exposición oral de la entrega TB2, explicando mis avances y aportes: los iconos de redes sociales y los documentos legales de la Landing Page, los anexos del informe y la estructura del Sprint 4, con un lenguaje claro para evaluadores y audiencias no técnicas.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
@@ -365,7 +372,7 @@ Repositorios del proyecto:
             <li><b>AV1:</b> Se demostró capacidad para exponer de manera clara el avance de cada capítulo del informe, adaptando el lenguaje técnico al perfil de los interlocutores (evaluadores, agricultores y comerciantes).</li>
             <li><b>TB1:</b> Se sustentaron con claridad las soluciones implementadas y las correcciones realizadas tras la retroalimentación, defendiendo las decisiones del sistema ante audiencias académicas y de negocio.</li>
             <li><b>AV2:</b> Se explicó el avance del backend del Sprint 3, incluyendo las alertas climáticas y la bóveda de demostración (<code>escrow-payments</code>), adaptando el lenguaje técnico de Spring Boot a las diferentes audiencias durante la sustentación.</li>
-           <li><b>TB2:</b> Se preparó la explicación de las correcciones del informe, priorizando la claridad y comprensión de la propuesta de negocio.</li>
+            <li><b>TB2:</b> En el Release Review se presentó la versión final del proyecto: el informe con todos sus capítulos y la sección 5.2.4 (Sprint 4), los artefactos corregidos y mejorados, los videos About the Product y About the Team, y los productos digitales desplegados. También se explicó las correcciones del Capítulo I y del proceso Lean UX, con un lenguaje breve y comprensible para evaluadores y audiencias no técnicas.</li>
           </ul>
         </td>
       </tr>
@@ -391,6 +398,7 @@ Repositorios del proyecto:
             <li><b>AV2 - Vera Solsol, Nayely Macarena:</b> Redacté los artefactos de gestión ágil (Capítulo 3: Impact Mapping, User Stories y Product Backlog) y la documentación técnica del bounded context tracking-evidence (frontend y backend en allpatek-platform, incluyendo los endpoints REST /api/v1/evidence), además de mantener el registro detallado de commits del Sprint 3 y las correcciones del reporte formal.</li>
             <li><b>AV2 - Egocheaga Suyo, Miguel Angel:</b> Documenté el bounded context escrow-payments en el backend. Dejé el agregado Wallet, la tabla wallets y los endpoints GET/POST /api/v1/wallets y PUT /wallets/{id} para consultar el monto de demostración y la tarjeta. También puse el tag escrow en Swagger y completé mis filas AV2 en el Registro de Versiones.</li>
             <li><b>TB2 - Atauje Barreto, Alexander Sebastián:</b> Corrección y actualización del Capítulo I según la retroalimentación del docente, incluyendo la traducción al español de los enunciados del problema y las nueve hipótesis, la mejora de los supuestos Lean UX y la ampliación de información sobre la custodia Escrow, los pagos por hitos, las evidencias agrícolas, las alertas climáticas y la trazabilidad. Asimismo, se mejoró la redacción y coherencia del informe, registrando los cambios mediante commits descriptivos en GitHub.</li>
+            <li><b>TB2 - Raymundo Villarroel, Abigail Nadhim:</b> Redacción de los Términos y Condiciones y la Política de Privacidad de la Landing Page en español e inglés, y de la sección de Anexos del informe (repositorios, enlaces de despliegue, Trello, artefactos, videos y usuarios de prueba), además de la estructura del Sprint 4, con commits descriptivos para perfiles técnicos y de negocio.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
@@ -398,7 +406,7 @@ Repositorios del proyecto:
             <li><b>AV1:</b> Se evidenció rigor y claridad en la redacción de los capítulos del informe, con contenido estructurado y comprensible para supervisores académicos y perfiles técnicos y de negocio.</li>
             <li><b>TB1:</b> Se corrigió y amplió la documentación a partir de la retroalimentación, y los commits descriptivos de cada bounded context dejaron un registro organizado y entendible para desarrolladores y supervisores.</li>
             <li><b>AV2:</b> Con la documentación del backend (alertas, parcelas, evidencias y la wallet de custodia) se puede seguir el Sprint 3 sin perderse entre repositorios, tanto en lo técnico como en lo de negocio.</li>
-            <li><b>TB2:</b> Se fortaleció la claridad y coherencia del informe mediante la traducción, corrección y ampliación del proceso Lean UX, facilitando la comprensión de la propuesta de valor de Allpatek para diferentes audiencias.</li>
+            <li><b>TB2:</b> El informe quedó en su versión final, con todos los capítulos, la sección 5.2.4 (Sprint 4), las conclusiones, la bibliografía y los anexos, además del Registro de Versiones, el Project Report Collaboration Insights y este Student Outcome actualizados. Se fortaleció la claridad del proceso Lean UX (traducción, corrección y ampliación) y los anexos y documentos legales reúnen los enlaces del proyecto y las condiciones de uso de la plataforma.</li>
           </ul>
         </td>
       </tr>
@@ -4076,14 +4084,318 @@ Los cinco salen en Insights del repositorio. El pico de commits cae entre finale
 
 
 ### 5.2.4. Sprint 4
+
 #### 5.2.4.1. Sprint Planning 4
+
+<table>
+  <tr>
+    <th colspan="5">Sprint #</th>
+    <th colspan="8">Sprint 4</th>
+  </tr>
+  <tr>
+    <td colspan="13"><strong>Sprint Planning Background</strong></td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Attendees (to planning meeting)</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 3 Review Summary</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 3 Retrospective Summary</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="13"><strong>Sprint Goal & User Stories</strong></td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 4 Goal</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Sprint 4 Velocity</td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="8"></td>
+  </tr>
+</table>
+
 #### 5.2.4.2. Aspect Leaders and Collaborators
+
+<table>
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #dddddd; padding: 10px;">Team Member</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">agreements-management</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">alerts-management</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">escrow-payments</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">parcel-management</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">tracking-evidence</th>
+      <th style="border: 1px solid #dddddd; padding: 10px;">shared</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Alexander1Alexander2</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">MiguelAngel0107</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">melandree8</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">AbigailRV</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;">Macaxprogram29</td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+    </tr>
+  </tbody>
+</table>
+
 #### 5.2.4.3. Sprint Backlog 4
+
+El objetivo principal del **Sprint 4** es .
+
+<div align="center">
+
+| Story Id | Story Title  | Story Points  |
+| :---: | :---: | :---: |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+| **Total** | | **** |
+
+</div>
+
+#### Tablero de Control del Sprint 4 (Sprint Board)
+
+<p align="center">
+  <img src="assets/chapter-05/trello-sprint-04.png" alt="Tablero del Sprint 4 en Trello - ALLPATEK" width="850" />
+</p>
+
+* **Figura 5.2.4.3.1.** Captura del tablero del Sprint 4 en la herramienta de control, con el estado de las tareas.
+* **URL pública del Board:** <a href="" style="text-decoration: none;">Tablero Trello TerraNova</a>
+
+### Tabla de Control de Estado del Sprint Backlog 4
+
+| Sprint | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
+| **Sprint 4** |  | | **T001** | | | | | |
+| **Sprint 4** |  | | **T002** | | | | | |
+| **Sprint 4** |  | | **T003** | | | | | |
+| **Sprint 4** |  | | **T004** | | | | | |
+| **Sprint 4** |  | | **T005** | | | | | |
+| **Sprint 4** |  | | **T006** | | | | | |
+| **Sprint 4** |  | | **T007** | | | | | |
+| **Sprint 4** |  | | **T008** | | | | | |
+
 #### 5.2.4.4. Development Evidence for Sprint Review
+
+En el Sprint 4 se implementó . Cada bounded context del Sprint Backlog 4 tiene su rama feature/*; abajo se listan los commits de implementación.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| --- | --- | --- | --- | --- | --- |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+
 #### 5.2.4.5. Execution Evidence for Sprint Review
+
+Descripción de la evidencia de ejecución.
+
+Descripción de la captura 1.
+
+<p align="center">
+  <img src="assets/chapter-05/sprint-04-execution-01.png" alt="Evidencia de ejecución 1 del Sprint 4" width="850" />
+</p>
+
+Descripción de la captura 2.
+
+<p align="center">
+  <img src="assets/chapter-05/sprint-04-execution-02.png" alt="Evidencia de ejecución 2 del Sprint 4" width="850" />
+</p>
+
+Descripción de la captura 3.
+
+<p align="center">
+  <img src="assets/chapter-05/sprint-04-execution-03.png" alt="Evidencia de ejecución 3 del Sprint 4" width="850" />
+</p>
+
+Descripción de la captura 4.
+
+<p align="center">
+  <img src="assets/chapter-05/sprint-04-execution-04.png" alt="Evidencia de ejecución 4 del Sprint 4" width="850" />
+</p>
+
+
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Descripción de la documentación de los servicios de este sprint.
+
+### Entornos de servicio
+
+* **Swagger UI (publicado):** <a href="" style="text-decoration: none;"></a>
+* **URL base publicada:** <a href="" style="text-decoration: none;"></a>
+* **URL base local:** <a href="" style="text-decoration: none;"></a>
+* **Swagger UI local:** <a href="" style="text-decoration: none;"></a>
+
+### 2. Repositorio y commits de documentación
+
+* **Repositorio de Web Services:** <a href="" style="text-decoration: none;"></a>
+
+### 3. Matriz de endpoints del alcance del Sprint
+
+> **Ruta base (BASE):** <a href="" style="text-decoration: none;"></a>
+
+| US | Endpoint | Verbo | Parámetros | Acción | Ejemplo de respuesta |
+| :---: | :--- | :---: | :--- | :--- | :--- |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+Descripción del despliegue de este sprint.
+
+<table align="center" style="margin: 0 auto; text-align: center;">
+  <thead>
+    <tr>
+      <th style="text-align: center;">Producto</th>
+      <th style="text-align: center;">Tecnología</th>
+      <th style="text-align: center;">Repositorio</th>
+      <th style="text-align: center;">Versión en este Sprint</th>
+      <th style="text-align: center;">URL verificada</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center;"></td>
+      <td style="text-align: center;"></td>
+      <td style="text-align: center;"></td>
+      <td style="text-align: center;"></td>
+      <td style="text-align: center;"></td>
+    </tr>
+  </tbody>
+</table>
+
+#### Paso 1: 
+
+Descripción del paso 1.
+
+<p align="center">
+  <img src="assets/chapter-05/sprint-04-deploy-01.png" alt="Paso 1 del despliegue del Sprint 4" width="750" />
+</p>
+
+#### Paso 2: 
+
+Descripción del paso 2.
+
+<p align="center">
+  <img src="assets/chapter-05/sprint-04-deploy-02.png" alt="Paso 2 del despliegue del Sprint 4" width="750" />
+</p>
+
+#### Paso 3: 
+
+Descripción del paso 3.
+
+<p align="center">
+  <img src="assets/chapter-05/sprint-04-deploy-03.png" alt="Paso 3 del despliegue del Sprint 4" width="750" />
+</p>
+
+#### Paso 4: 
+
+Descripción del paso 4.
+
+<p align="center">
+  <img src="assets/chapter-05/sprint-04-deploy-04.png" alt="Paso 4 del despliegue del Sprint 4" width="750" />
+</p>
+
+#### Paso 5: 
+
+Descripción del paso 5.
+
+<p align="center">
+  <img src="assets/chapter-05/sprint-04-deploy-05.png" alt="Paso 5 del despliegue del Sprint 4" width="750" />
+</p>
+
+
 #### 5.2.4.8. Team Collaboration Insights during Sprint
+
+Descripción de la colaboración del equipo durante el Sprint 4.
+
+| Integrante | Usuario GitHub | Repositorio |
+| :--- | :--- | :--- |
+| Atauje Barreto, Alexander Sebastián | Alexander1Alexander2 |  |
+| Egocheaga Suyo, Miguel Angel | MiguelAngel0107 |  |
+| Orellana Rodríguez, Mel Andree | melandree8 |  |
+| Raymundo Villarroel, Abigail Nadhim | AbigailRV |  |
+| Vera Solsol, Nayely Macarena | Macaxprogram29 |  |
+
+<p align="center">
+  <img src="assets/chapter-05/insight04.png" alt="Contribuciones del Sprint 4 en GitHub Insights" width="65%" />
+</p>
+
+* **Figura 5.2.4.8.1.** *Contribuciones por usuario en GitHub Insights durante el Sprint 4.*
 
 ## 5.3. Validation Interviews
 
@@ -4875,5 +5187,20 @@ Videos de validación de la aplicación y videos institucionales sobre el produc
 | **App Validation (3)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQA3Ki7VhhDdQIWWQzMUBKdlAX8OWAtP6xUPKwXCyBXh3w0?e=9NLXS5" style="text-decoration: none;">Ver Video</a> |
 | **About the Product** | About the product | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQC1ol8FG1iqRY-bGG2ue1M_AUxwB8p8jD8BnEUAGKaZdVA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=whZtiU" style="text-decoration: none;">Ver en SharePoint</a> · <a href="https://youtu.be/HzLCMS18Pqg" style="text-decoration: none;">Ver en YouTube</a> |
 | **About the Team** | About the team | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBcbq4xfH8tQr_ZPnlJKrMLAXb2-topoxDPFkdP2Z097vs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PB8hMC" style="text-decoration: none;">Ver en SharePoint</a> · <a href="https://youtu.be/Fv-fpNivSHE" style="text-decoration: none;">Ver en YouTube</a> |
+
+</div>
+
+---
+
+## Anexo I. Usuarios de Prueba
+
+Cuentas de prueba para ingresar a la Web App de **ALLPATEK** (https://terranova-allpatek.netlify.app/), una por cada segmento validado: Agricultor Familiar y Comerciante Urbano.
+
+<div align="center">
+
+| Segmento | Entrevistado | Rol en la Plataforma | Usuario (Correo) | Contraseña |
+| :---: | :--- | :---: | :--- | :--- |
+| **Agricultor Familiar** | Gustavo Adolfo Suyo | Agricultor | gustavo.suyo23@gmail.com | Gustavo2026 |
+| **Comerciante Urbano** | Irma Barreto Castro | Comerciante | irma.barreto23@gmail.com | Irma2026 |
 
 </div>
