@@ -4288,6 +4288,7 @@ Descripción de la colaboración del equipo durante el Sprint 4.
 | Integrante | Usuario GitHub | Repositorio |
 | :--- | :--- | :--- |
 | Atauje Barreto, Alexander Sebastián | Alexander1Alexander2 |  |
+| Egocheaga Suyo, Miguel Angel | MiguelAngel0107 |  |
 
 ## 5.3. Validation Interviews
 
