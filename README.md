@@ -4061,6 +4061,7 @@ Los cinco salen en Insights del repositorio. El pico de commits cae entre finale
     <td colspan="5">Sum of Story Points</td>
     <td colspan="8"></td>
   </tr>
+</table>
 
 #### 5.2.4.2. Aspect Leaders and Collaborators
 #### 5.2.4.3. Sprint Backlog 4
