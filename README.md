@@ -2283,9 +2283,11 @@ La plataforma conserva perfiles, parcelas, acuerdos, billeteras y evidencias en 
 
 *Figura 4.8.1. Relaciones entre las cinco tablas del modelo MySQL.* [Ampliar en SVG](assets/chapter-04/architecture/20-database-overview.svg) · [Fuente PlantUML](assets/chapter-04/architecture/20-database-overview.puml).
 
-![Figura 4.8.1-A. Tabla parcels y referencia a su propietario](assets/chapter-04/architecture/14-database-plots.png)
+Una parcela guarda el identificador del propietario. Un perfil puede estar asociado a varias parcelas. Las listas de cultivos e imágenes se serializan como texto JSON.
 
-*Figura 4.8.1-A. Tabla parcels y referencia a su propietario.* <a href="assets/chapter-04/architecture/14-database-plots.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/14-database-plots.svg" style="text-decoration: none;">SVG</a>.
+![Figura 4.8.1-A. Tabla parcels y su propietario](assets/chapter-04/architecture/14-database-plots.png)
+
+*Figura 4.8.1-A. Tabla parcels y su propietario.* [Ampliar en SVG](assets/chapter-04/architecture/14-database-plots.svg) · [Fuente PlantUML](assets/chapter-04/architecture/14-database-plots.puml).
 
 ![Figura 4.8.1-B. Tabla agreements y referencias a parcela y comerciante](assets/chapter-04/architecture/15-database-contracts.png)
 
