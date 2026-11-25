@@ -128,7 +128,6 @@
 | TB2 | 25/11/2026 | Raymundo Villarroel, Abigail Nadhim | Registro de los reportes de participación de AV1, TB1, AV2 y TB2 en el Anexo A |
 | TB2 | 25/11/2026 | Raymundo Villarroel, Abigail Nadhim | Creación de la estructura de la sección 5.2.4 (Sprint 4) con las tablas de planificación, backlog, evidencias y colaboración para completar |
 | TB2 | 25/11/2026 | Raymundo Villarroel, Abigail Nadhim | Registro de los usuarios de prueba de la aplicación web (agricultor y comerciante) en el Anexo I |
-| TB2 | 25/11/2026 | Raymundo Villarroel, Abigail Nadhim | Documentación de los cambios y avances de TB2 en el Registro de Versiones, Project Report Collaboration Insights y Student Outcome 3 |
 
 
 ## Project Report Collaboration Insights
