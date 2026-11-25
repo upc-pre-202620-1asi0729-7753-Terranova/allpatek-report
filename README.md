@@ -3616,24 +3616,42 @@ El objetivo principal del **Sprint 3** es publicar la **primera versión de los 
 
 ### Tabla de Control de Estado del Sprint Backlog 3
 
-
-| Sprint | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
-| :--- | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
-| **Sprint 3** | **US06** | Publicación y geolocalización de lote agrícola | **T001** | Listar parcelas del catálogo | Implementar el listado de parcelas en Spring Boot y responder 200 OK con colección JSON, incluso vacía. | 6 | Raymundo Villarroel, Abigail Nadhim | Done |
-| **Sprint 3** | **US06** | Publicación y geolocalización de lote agrícola | **T002** | Registrar, editar y eliminar parcelas | Exponer alta, edición y borrado de parcela con características y ubicación (201, 409, 200, 204, 404). | 6 | Raymundo Villarroel, Abigail Nadhim | Done |
-| **Sprint 3** | **US06** | Publicación y geolocalización de lote agrícola | **T003** | Documentar el catálogo de parcelas | Publicar el tag parcels en Swagger UI con verbos, parámetros y ejemplos de respuesta 200. | 4 | Raymundo Villarroel, Abigail Nadhim | Done |
-| **Sprint 3** | **US08** | Aceptación de propuesta y firma de contrato digital Escrow | **T004** | Registrar la firma digital del contrato | Implementar GET/POST /api/v1/agreements y PUT /agreements/{id} para registrar la aceptación del productor y del comerciante. | 6 | Orellana Rodríguez, Mel Andree | Done |
-| **Sprint 3** | **US08** | Aceptación de propuesta y firma de contrato digital Escrow | **T005** | Documentar el API de acuerdos | Publicar el tag agreements en Swagger UI con el cuerpo del acuerdo y las respuestas 200/201. | 4 | Orellana Rodríguez, Mel Andree | Done |
-| **Sprint 3** | **US16** | Registro de perfil corporativo y validación fiscal | **T006** | Consultar y actualizar el perfil corporativo | Implementar consulta y actualización de perfil con datos de empresa (CompanyDetails) y correo (EmailAddress), más /health y /v3/api-docs. | 5 | Orellana Rodríguez, Mel Andree | Done |
-| **Sprint 3** | **US03** | Aprobación de hito y orden de liberación de fondos | **T007** | Consultar el estado de custodia Escrow | Implementar GET/POST /api/v1/wallets y PUT /wallets/{id} para consultar el monto de demostración retenido y la tarjeta enmascarada. | 6 | Egocheaga Suyo, Miguel Angel | Done |
-| **Sprint 3** | **US03** | Aprobación de hito y orden de liberación de fondos | **T008** | Liberar fondos al aprobar un hito | Actualizar el estado de custodia en /api/v1/wallets/{id} cuando se aprueba un hito, registrando el monto de demostración asociado a la liberación. | 5 | Egocheaga Suyo, Miguel Angel | Done |
-| **Sprint 3** | **US03** | Aprobación de hito y orden de liberación de fondos | **T009** | Documentar el API de custodia | Publicar el tag escrow en Swagger UI con consulta de saldo, alta de wallet y actualización por id. | 4 | Egocheaga Suyo, Miguel Angel | Done |
-| **Sprint 3** | **US04** | Registro y carga de evidencias fotográficas por hito | **T010** | Registrar evidencias fotográficas por hito | Implementar el alta de evidencia de hito (notas, archivo, estado inicial review). | 6 | Vera Solsol, Nayely Macarena | Done |
-| **Sprint 3** | **US14** | Revisión y observación técnica de evidencias de hito | **T011** | Revisar el estado de las evidencias | Permitir al comerciante actualizar el estado a verified o accepted y conservar el registro asociado a la parcela. | 5 | Vera Solsol, Nayely Macarena | Done |
-| **Sprint 3** | **US14** | Revisión y observación técnica de evidencias de hito | **T012** | Documentar el API de evidencias | Publicar el tag tracking en Swagger UI con GET/POST de evidencias y PUT por id, incluidos los estados de revisión. | 4 | Vera Solsol, Nayely Macarena | Done |
-| **Sprint 3** | **US05** | Recepción de alertas climáticas de riesgo | **T013** | Emitir alertas climáticas de las parcelas | Calcular lecturas climáticas a partir de las coordenadas de las parcelas contratadas y de Open-Meteo, con filtro opcional ownerId. | 6 | Atauje Barreto, Alexander Sebastián | Done |
-| **Sprint 3** | **US05** | Recepción de alertas climáticas de riesgo | **T014** | Documentar el API de alertas | Publicar el tag alerts en Swagger UI con el query ownerId y el ejemplo de respuesta de lecturas. | 4 | Atauje Barreto, Alexander Sebastián | Done |
-| **Sprint 3** | **US06** | Publicación y geolocalización de lote agrícola | **T015** | Publicar la primera versión de Web Services | Configurar perfil prod, variables de MySQL y comprobar /health, Swagger y una operación persistente de parcelas en el entorno de operación. | 6 | Raymundo Villarroel, Abigail Nadhim | Done |
+| Sprint | User Story ID | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
+| Sprint 3 | US06 | T001 | Value objects y agregado Parcel | Modelar nombre, área, ubicación, suelo, costo, cultivos y media sin tipos primitivos sueltos. | 5 | Abigail Nadhim | Done |
+| Sprint 3 | US06 | T002 | Persistencia JPA del catálogo de parcelas | Mapear entidad, embeddables y repositorio Spring Data sobre la tabla parcels. | 5 | Abigail Nadhim | Done |
+| Sprint 3 | US06 | T003 | Servicios de aplicación de parcelas | Implementar comandos de alta/edición/borrado y query de listado con Result. | 4 | Abigail Nadhim | Done |
+| Sprint 3 | US06 | T004 | API REST /api/v1/parcels | Exponer GET, POST, PUT y DELETE (200, 201, 204, 404, 409). | 5 | Abigail Nadhim | Done |
+| Sprint 3 | US06 | T005 | Documentar el tag parcels en Swagger | Publicar verbos, parámetros y ejemplos de respuesta en springdoc. | 4 | Abigail Nadhim | Done |
+| Sprint 3 | US16 | T006 | Value objects de perfil corporativo | Definir EmailAddress, CompanyDetails y el agregado Profile. | 4 | Mel Andree | Done |
+| Sprint 3 | US16 | T007 | Persistencia JPA de profiles | Implementar entidad, converters y adaptador del repositorio. | 5 | Mel Andree | Done |
+| Sprint 3 | US16 | T008 | API REST de perfiles y kernel HTTP | Exponer GET/PUT /profiles/{id}, /health, CORS e i18n Accept-Language. | 5 | Mel Andree | Done |
+| Sprint 3 | US16 | T009 | OpenAPI / Swagger del kernel | Cablear springdoc y comprobar /v3/api-docs en local. | 4 | Mel Andree | Done |
+| Sprint 3 | US08 | T010 | Agregado Agreement y firmas embebidas | Modelar contrato, ids y banderas farmerSigned / merchantSigned. | 4 | Mel Andree | Done |
+| Sprint 3 | US08 | T011 | Persistencia JPA de agreements | Mapear entidad, assembler y repositorio Spring Data. | 5 | Mel Andree | Done |
+| Sprint 3 | US08 | T012 | API REST /api/v1/agreements | Exponer GET/POST y PUT /{id} para registrar la aceptación de ambas partes. | 5 | Mel Andree | Done |
+| Sprint 3 | US08 | T013 | Documentar el tag agreements en Swagger | Publicar cuerpo del acuerdo y respuestas 200/201. | 4 | Mel Andree | Done |
+| Sprint 3 | US03 | T014 | Agregado Wallet y MoneyCents | Modelar identificador, saldo en céntimos y tarjeta de demostración. | 4 | Miguel Angel | Done |
+| Sprint 3 | US03 | T015 | Persistencia JPA de wallets | Mapear wallet, embeddable de tarjeta y adaptador JPA. | 5 | Miguel Angel | Done |
+| Sprint 3 | US03 | T016 | Consulta y actualización de custodia | Exponer GET/POST /wallets y PUT /{id} con monto retenido y tarjeta enmascarada. | 5 | Miguel Angel | Done |
+| Sprint 3 | US03 | T017 | Liberación de fondos al aprobar hito | Actualizar el estado de custodia al aprobar un hito y registrar el monto de demostración. | 4 | Miguel Angel | Done |
+| Sprint 3 | US03 | T018 | Documentar el tag escrow en Swagger | Publicar alta, consulta de saldo y actualización por id. | 4 | Miguel Angel | Done |
+| Sprint 3 | US09 | T019 | Value object PaymentCard | Modelar titular, last4, expiración y marca, sin guardar el PAN completo. | 4 | Miguel Angel | Done |
+| Sprint 3 | US09 | T020 | Alta de wallet con tarjeta de demostración | Implementar POST /wallets para el depósito inicial simulado. | 4 | Miguel Angel | Done |
+| Sprint 3 | US09 | T021 | Enmascaramiento y validación de tarjeta | Devolver last4/brand en el recurso y rechazar un body incompleto. | 4 | Miguel Angel | Done |
+| Sprint 3 | US04 | T022 | Agregado Evidence y archivo embebido | Modelar hito (1–4), notas, fileName, imagen y estado inicial review. | 4 | Nayely Macarena | Done |
+| Sprint 3 | US04 | T023 | Persistencia JPA de evidencias | Mapear entidad, embeddable de archivo y repositorio Spring Data. | 5 | Nayely Macarena | Done |
+| Sprint 3 | US04 | T024 | API REST POST /api/v1/evidence | Registrar la evidencia fotográfica del agricultor (201, estado review). | 5 | Nayely Macarena | Done |
+| Sprint 3 | US14 | T025 | Transiciones de revisión técnica | Permitir PUT a verified / accepted y conservar el vínculo con la parcela. | 5 | Nayely Macarena | Done |
+| Sprint 3 | US14 | T026 | Rechazo de cambio en hito cerrado | No actualizar una evidencia si el desembolso asociado ya se ejecutó. | 4 | Nayely Macarena | Done |
+| Sprint 3 | US14 | T027 | Documentar el tag tracking en Swagger | Publicar GET/POST de evidencias y PUT por id con los estados de revisión. | 4 | Nayely Macarena | Done |
+| Sprint 3 | US05 | T028 | Modelo de lecturas y avisos climáticos | Definir ClimateReading, ClimateWarning y tonos de severidad (helada, inundación, viento). | 4 | Alexander Sebastián | Done |
+| Sprint 3 | US05 | T029 | Cliente Open-Meteo y ACL de parcelas | Obtener coordenadas vía ParcelsContextFacade y consultar el forecast. | 5 | Alexander Sebastián | Done |
+| Sprint 3 | US05 | T030 | API REST GET /api/v1/alerts | Devolver lecturas y avisos con filtro opcional ownerId. | 5 | Alexander Sebastián | Done |
+| Sprint 3 | US05 | T031 | Documentar el tag alerts en Swagger | Publicar query ownerId y ejemplo de respuesta de lecturas. | 4 | Alexander Sebastián | Done |
+| Sprint 3 | US06 | T032 | Dockerfile y perfil de producción | Contenerizar Spring Boot, puerto 8080 y variables DB_URL / DB_USERNAME / DB_PASSWORD. | 4 | Abigail Nadhim | Done |
+| Sprint 3 | US06 | T033 | MySQL 8.4 en Aiven | Aprovisionar la base, SSL y comprobar tablas parcels, profiles, agreements, wallets, evidence. | 4 | Mel Andree | Done |
+| Sprint 3 | US06 | T034 | Despliegue en Render y verificación | Publicar el Web Service, inyectar env vars y comprobar /health, Swagger y POST de parcelas. | 5 | Mel Andree | Done |
 
 
 
