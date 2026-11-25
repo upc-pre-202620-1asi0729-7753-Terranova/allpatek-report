@@ -4225,7 +4225,26 @@ Descripción de la documentación de los servicios de este sprint.
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
 Descripción del despliegue de este sprint.
-
+<table align="center" style="margin: 0 auto; text-align: center;">
+  <thead>
+    <tr>
+      <th style="text-align: center;">Producto</th>
+      <th style="text-align: center;">Tecnología</th>
+      <th style="text-align: center;">Repositorio</th>
+      <th style="text-align: center;">Versión en este Sprint</th>
+      <th style="text-align: center;">URL verificada</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center;"></td>
+      <td style="text-align: center;"></td>
+      <td style="text-align: center;"></td>
+      <td style="text-align: center;"></td>
+      <td style="text-align: center;"></td>
+    </tr>
+  </tbody>
+</table>
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
