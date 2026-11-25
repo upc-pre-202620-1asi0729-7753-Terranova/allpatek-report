@@ -6,62 +6,69 @@ skinparam defaultFontSize 14
 skinparam shadowing false
 skinparam classAttributeIconSize 0
 skinparam ArrowColor #476050
+skinparam packageStyle rectangle
 skinparam dpi 140
-title Allpatek | Implemented classes - Wallet
+hide empty members
 top to bottom direction
+title Allpatek | Escrow wallets - write path
 
-package "escrow" {
+package "1. Domain" as Domain #ECF6EF {
   class Wallet <<Aggregate Root>> {
     -id: WalletId
     -profileId: ProfileId
-    -card: PaymentCard
     -openingBalance: MoneyCents
+    +getOpeningBalance(): MoneyCents
   }
-
-  class WalletId <<Value Object>> {
-    +value: String
-  }
-
   class PaymentCard <<Value Object>> {
-    +holder: String
-    +number: String
-    +cvv: String
-    +last4: String
-    +expiry: String
-    +brand: String
+    -holder: String
+    -last4: String
+    +last4(): String
   }
-
-  class MoneyCents <<Value Object>> {
-    +value: int
-  }
-
   interface WalletRepository <<Repository Port>> {
-    +save(wallet: Wallet): Wallet
-    +existsById(id: String): boolean
+    +save(Wallet): Wallet
     +findAll(): List<Wallet>
-    +deleteById(id: String): void
   }
-
-  Wallet *-- WalletId
-  Wallet *-- PaymentCard
-  Wallet *-- MoneyCents
-  WalletRepository ..> Wallet
+  Wallet *-right-> "1" PaymentCard : card
+  WalletRepository ..> Wallet : saves and returns
 }
-
-class WalletCommandServiceImpl <<Application Service>>
-WalletCommandServiceImpl ..> WalletRepository : SaveWalletCommand / DeleteWalletCommand
-
-package "Persistence" {
-  class WalletRepositoryImpl <<JPA Adapter>>
-  class WalletPersistenceEntity <<JPA Entity>>
-
-  WalletRepositoryImpl ..> WalletPersistenceEntity : maps via assembler
+package "2. Application" as Application #F3F6FA {
+  interface WalletCommandService {
+    +handle(SaveWalletCommand): Result<Wallet, ApplicationError>
+  }
+  class WalletCommandServiceImpl {
+    +handle(SaveWalletCommand): Result<Wallet, ApplicationError>
+  }
+  WalletCommandService <|.. WalletCommandServiceImpl
 }
-WalletRepositoryImpl ..|> WalletRepository
+package "3. Interfaces (REST)" as Interfaces #FDF4E8 {
+  class WalletsController <<REST Controller>> {
+    +createWallet(WalletResource, String): ResponseEntity<?>
+  }
+}
+package "4. Infrastructure (JPA)" as Infrastructure #F6F1F8 {
+  class WalletRepositoryImpl <<Adapter>> {
+    -persistenceRepository: WalletPersistenceRepository
+    +save(Wallet): Wallet
+  }
+  class WalletPersistenceAssembler <<Mapper>> {
+    {static} +toDomainFromPersistence(WalletPersistenceEntity): Wallet
+  }
+  class WalletPersistenceEntity <<JPA Entity>> {
+    -profileId: Long
+    -openingCents: Integer
+    +getOpeningCents(): Integer
+  }
+  WalletRepositoryImpl ..> WalletPersistenceAssembler : converts before and after save
+  WalletPersistenceAssembler ..> WalletPersistenceEntity : maps
+}
+WalletRepository "1" <-- WalletCommandServiceImpl : walletRepository
+WalletRepository <|.. WalletRepositoryImpl
+WalletCommandService "1" <-- WalletsController : walletCommandService
+Domain -[hidden]down-> Application
+Application -[hidden]down-> Interfaces
 
 legend bottom
-PaymentCard keeps holder, number, cvv, last4, expiry and brand.
-WalletResource exposes number and cvv; last4 is derived from the number.
-No payment gateway, movement ledger or actual release is implemented.
++ public  |  - private
+Multiplicities label stored references. Dashed arrows show use or interface realization.
 endlegend
 @enduml

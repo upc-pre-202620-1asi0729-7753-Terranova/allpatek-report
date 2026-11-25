@@ -2217,11 +2217,17 @@ Cada contexto incluye una figura del backend y otra de la webapp. Se muestran lo
 
 #### Bóveda de demostración
 
-Wallet asocia un perfil con PaymentCard y MoneyCents. PaymentCard guarda holder, number, cvv, last4, expiry y brand; WalletResource expone número y CVV, y last4 se deriva del número. No hay un libro de movimientos ni un proveedor de pagos conectado.
+**Backend.** `Wallet` asocia un perfil con una tarjeta y un saldo inicial expresado en centavos mediante `MoneyCents`. `WalletsController` delega el registro en `WalletCommandService`. El adaptador JPA conserva la billetera y los atributos de `PaymentCard`; esta operación guarda datos de la demo y el backend carece de un servicio de desembolso. El recurso expone el número de tarjeta y el CVV, y el modelo de persistencia los conserva. Para la demo corresponden datos ficticios.
 
-![Figura 4.7.1-C. Clases de wallets de demostración](assets/chapter-04/architecture/11-classes-payments.png)
+![Figura 4.7.1-C1. Bóveda en Spring](assets/chapter-04/architecture/11-classes-payments.png)
 
-*Figura 4.7.1-C. Clases de wallets de demostración.* <a href="assets/chapter-04/architecture/11-classes-payments.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/11-classes-payments.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.7.1-C1. Bóveda en Spring.* [Ampliar en SVG](assets/chapter-04/architecture/11-classes-payments.svg) · [Fuente PlantUML](assets/chapter-04/architecture/11-classes-payments.puml).
+
+**Webapp.** `PaymentCard` representa la tarjeta del perfil en la demo y `EscrowEvidenceRef` vincula el hito a la parcela. `EscrowBoard` usa `WalletStore` para la bóveda y `EscrowStore` para la aprobación. En este frontend, `release` selecciona una evidencia verificada y solicita a `EscrowLookupApi` que la guarde como aceptada. Ese cambio de estado representa un desembolso simulado.
+
+![Figura 4.7.1-C2. Bóveda en Angular](assets/chapter-04/architecture/web-classes-escrow.png)
+
+*Figura 4.7.1-C2. Bóveda en Angular.* [Ampliar en SVG](assets/chapter-04/architecture/web-classes-escrow.svg) · [Fuente PlantUML](assets/chapter-04/architecture/web-classes-escrow.puml).
 
 #### Evidencias y clima
 

@@ -1,0 +1,59 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 14
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam packageStyle rectangle
+hide empty members
+title Allpatek Angular SPA | Escrow and wallet
+package "Domain" #EAF4EA {
+class PaymentCard {
+  +id: string
+  +profileId: number
+  +last4: string
+  +openingCents: number
+}
+class EscrowEvidenceRef {
+  +id: string
+  +parcelId: string
+  +milestone: number
+  +status: 'review' | 'verified' | 'accepted'
+}
+}
+package "Application" #EDF3F9 {
+class WalletStore {
+  -walletApi: WalletApi
+  +save(card: PaymentCard, onDone: (saved: boolean) => void): void
+}
+class EscrowStore {
+  -lookup: EscrowLookupApi
+  +forParcel(parcelId: string): EscrowEvidenceRef[]
+  +release(parcelId: string, milestone: number, onDone: (saved: boolean) => void): void
+}
+}
+package "Infrastructure" #FFF6E2 {
+class WalletApi {
+  +getWallets(): Observable<PaymentCard[]>
+  +updateWallet(card: PaymentCard): Observable<PaymentCard>
+}
+class EscrowLookupApi {
+  +getEvidence(): Observable<EscrowEvidenceRef[]>
+  +updateEvidence(evidence: EscrowEvidenceRef): Observable<EscrowEvidenceRef>
+}
+}
+package "Presentation" #F4EEFB {
+class EscrowBoard {
+  -escrow: EscrowStore
+  -wallet: WalletStore
+  #approve(contract: EscrowContract): void
+}
+}
+WalletStore -up-> "0..*" PaymentCard : holds cards
+EscrowStore -up-> "0..*" EscrowEvidenceRef : holds evidence
+WalletStore --> "1" WalletApi : reads and saves
+EscrowStore --> "1" EscrowLookupApi : updates milestone
+EscrowBoard -up-> "1" WalletStore : reads card
+EscrowBoard -up-> "1" EscrowStore : approves milestone
+@enduml
