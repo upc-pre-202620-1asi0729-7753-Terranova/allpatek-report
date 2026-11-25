@@ -2273,11 +2273,15 @@ Cada contexto incluye una figura del backend y otra de la webapp. Se muestran lo
 
 ## 4.8. Database Design
 
-La API Java usa **MySQL**, con entidades de persistencia para parcels, agreements, wallets, evidence y profiles. Se contrastaron las anotaciones JPA con los metadatos del esquema de una instancia de prueba MySQL 8.4. El mock conserva colecciones JSON y no usa este esquema.
+La plataforma conserva perfiles, parcelas, acuerdos, billeteras y evidencias en MySQL. Los modelos físicos se deducen de las entidades JPA de `a2b0269`, sus atributos embebidos y la estrategia que convierte los nombres a plural. Las lecturas de clima se calculan al consultar el pronóstico. La sesión de demostración se conserva en el navegador.
 
 ### 4.8.1. Database Diagrams
 
-**Lectura.** PK identifica la fila; UQ indica un valor único; el asterisco indica NOT NULL. Las flechas discontinuas representan referencias por identificador. El esquema local inspeccionado **no declara claves foráneas** entre estas tablas. Se muestran de forma abreviada las tablas que solo aparecen como referencia.
+**Cómo leer el modelo.** La pata de cuervo significa «muchos», el círculo permite cero y la barra indica uno. `PK` identifica la clave primaria, `UQ` un valor único y el asterisco una columna obligatoria. Las líneas discontinuas representan asociaciones por identificador. El mapeo guarda estos valores como columnas simples, por lo que MySQL no comprueba la existencia del registro asociado mediante una FK. La cardinalidad muestra la relación esperada entre registros válidos.
+
+![Figura 4.8.1. Relaciones entre las cinco tablas del modelo MySQL](assets/chapter-04/architecture/20-database-overview.png)
+
+*Figura 4.8.1. Relaciones entre las cinco tablas del modelo MySQL.* [Ampliar en SVG](assets/chapter-04/architecture/20-database-overview.svg) · [Fuente PlantUML](assets/chapter-04/architecture/20-database-overview.puml).
 
 ![Figura 4.8.1-A. Tabla parcels y referencia a su propietario](assets/chapter-04/architecture/14-database-plots.png)
 
@@ -2299,7 +2303,7 @@ La API Java usa **MySQL**, con entidades de persistencia para parcels, agreement
 
 *Figura 4.8.1-E. Tabla profiles y datos de contacto.* <a href="assets/chapter-04/architecture/13-database-users.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/13-database-users.svg" style="text-decoration: none;">SVG</a>.
 
-evidence es el nombre físico en MySQL (@Table(name = "evidence")); /api/v1/evidence es la ruta HTTP. Las listas de cultivos e imágenes se serializan como texto JSON. Los archivos de evidencia se guardan como texto de imagen y nombre de archivo. wallets persiste card_number y cvv además de last4. No existen tablas de cuentas de acceso, reservas, hitos independientes, transacciones, reseñas ni alertas meteorológicas. Para el diseño objetivo quedan pendientes las restricciones entre registros, la protección de datos y la conservación de archivos al cambiar un estado.
+La estrategia de nombres físicos transforma la anotación `@Table(name = "evidence")` en `evidences`. La ruta HTTP conserva el singular `/api/v1/evidence`. Las listas de cultivos e imágenes se serializan como texto JSON. Los archivos de evidencia se guardan como texto de imagen y nombre de archivo. wallets persiste card_number y cvv además de last4. No existen tablas de cuentas de acceso, reservas, hitos independientes, transacciones, reseñas ni alertas meteorológicas. Para el diseño objetivo quedan pendientes las restricciones entre registros, la protección de datos y la conservación de archivos al cambiar un estado.
 
 # Capítulo V: Product Implementation, Validation & Deployment
 

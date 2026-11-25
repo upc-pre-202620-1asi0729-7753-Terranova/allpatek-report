@@ -1,0 +1,55 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 15
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam ArrowColor #476050
+skinparam dpi 140
+hide methods
+hide circle
+top to bottom direction
+title Allpatek | MySQL - stored identifiers and logical relationships
+
+entity "profiles" as profile {
+  {field} * id: BIGINT <<PK>>
+  --
+  {field} * email_address: VARCHAR(160) <<UQ>>
+}
+entity "parcels" as parcel {
+  {field} * id: VARCHAR(160) <<PK>>
+  --
+  {field} * owner_id: BIGINT
+}
+entity "agreements" as agreement {
+  {field} * id: VARCHAR(160) <<PK>>
+  --
+  {field} * parcel_id: VARCHAR(160)
+  {field} merchant_profile_id: BIGINT
+}
+entity "wallets" as wallet {
+  {field} * id: VARCHAR(160) <<PK>>
+  --
+  {field} * profile_id: BIGINT
+}
+entity "evidences" as evidence {
+  {field} * id: VARCHAR(160) <<PK>>
+  --
+  {field} * parcel_id: VARCHAR(160)
+}
+
+profile ||..o{ parcel : parcels.owner_id
+profile |o..o{ agreement : agreements.merchant_profile_id
+profile ||..o{ wallet : wallets.profile_id
+parcel ||..o{ agreement : agreements.parcel_id
+parcel ||..o{ evidence : evidences.parcel_id
+
+legend bottom
+  PK = primary key     UQ = unique     * = NOT NULL
+  Two bars = exactly one. A circle allows zero. A crow's foot means many.
+  Dashed links are logical references stored as scalar IDs, without a declared FK.
+  Cardinalities describe intended matches. The database can store unmatched IDs.
+  Only keys and reference columns are shown.
+endlegend
+@enduml
