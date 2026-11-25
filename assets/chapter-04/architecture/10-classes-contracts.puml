@@ -6,67 +6,81 @@ skinparam defaultFontSize 14
 skinparam shadowing false
 skinparam classAttributeIconSize 0
 skinparam ArrowColor #476050
+skinparam packageStyle rectangle
 skinparam dpi 140
-title Allpatek | Implemented classes - Agreements Management
+hide empty members
 top to bottom direction
+title Allpatek | Agreements - write path
 
-package "Agreements management domain" {
+package "1. Domain" as Domain #ECF6EF {
   class Agreement <<Aggregate Root>> {
     -id: AgreementId
     -parcelId: ParcelId
-    -merchantName: MerchantName
     -merchantProfileId: ProfileId
-    -signatures: ContractSignatures
-    -createdAt: AgreementDate
     +isFullySigned(): boolean
     +onFullySigned(): void
   }
-
-  class AgreementFullySignedEvent <<Domain Event>> {
-    +agreementId: String
-    +parcelId: String
-    +merchantProfileId: Long
-  }
-
-  class AgreementId <<Value Object>> {
-    +value: String
-  }
-
   class ContractSignatures <<Value Object>> {
-    +merchantSigned: boolean
-    +farmerSigned: boolean
+    -merchantSigned: boolean
+    -farmerSigned: boolean
+    +isComplete(): boolean
   }
-
-  class AgreementDate <<Value Object>> {
-    +value: String
-  }
-
   interface AgreementRepository <<Repository Port>> {
-    +save(agreement: Agreement): Agreement
+    +save(Agreement): Agreement
     +findAll(): List<Agreement>
   }
-
-  Agreement *-- AgreementId
-  Agreement *-- ContractSignatures
-  Agreement *-- AgreementDate
-  Agreement ..> AgreementFullySignedEvent : onFullySigned()
-  AgreementRepository ..> Agreement
+  Agreement *-right-> "1" ContractSignatures : signatures
+  AgreementRepository ..> Agreement : saves and returns
+  abstract class AbstractDomainAggregateRoot <<Shared>> {
+    #registerDomainEvent(Object): void
+    +domainEvents(): Collection<Object>
+  }
+  class AgreementFullySignedEvent <<Domain Event>> {
+    -agreementId: String
+    -parcelId: String
+    +parcelId(): String
+  }
+  AbstractDomainAggregateRoot <|-- Agreement
+  Agreement ..> AgreementFullySignedEvent : registers
 }
-
-class AgreementCommandServiceImpl <<Application Service>>
-AgreementCommandServiceImpl ..> AgreementRepository : save whole aggregate
-
-package "Persistence" {
-  class AgreementRepositoryImpl <<JPA Adapter>>
-  class AgreementPersistenceEntity <<JPA Entity>>
-
-  AgreementRepositoryImpl ..> AgreementPersistenceEntity : maps via assembler
+package "2. Application" as Application #F3F6FA {
+  interface AgreementCommandService {
+    +handle(SaveAgreementCommand): Result<Agreement, ApplicationError>
+  }
+  class AgreementCommandServiceImpl {
+    +handle(SaveAgreementCommand): Result<Agreement, ApplicationError>
+  }
+  AgreementCommandService <|.. AgreementCommandServiceImpl
 }
-AgreementRepositoryImpl ..|> AgreementRepository
+package "3. Interfaces (REST)" as Interfaces #FDF4E8 {
+  class AgreementsController <<REST Controller>> {
+    +createAgreement(AgreementResource, String): ResponseEntity<?>
+  }
+}
+package "4. Infrastructure (JPA)" as Infrastructure #F6F1F8 {
+  class AgreementRepositoryImpl <<Adapter>> {
+    -persistenceRepository: AgreementPersistenceRepository
+    +save(Agreement): Agreement
+  }
+  class AgreementPersistenceAssembler <<Mapper>> {
+    {static} +toDomainFromPersistence(AgreementPersistenceEntity): Agreement
+  }
+  class AgreementPersistenceEntity <<JPA Entity>> {
+    -parcelId: String
+    -merchantProfileId: Long
+    +getParcelId(): String
+  }
+  AgreementRepositoryImpl ..> AgreementPersistenceAssembler : converts before and after save
+  AgreementPersistenceAssembler ..> AgreementPersistenceEntity : maps
+}
+AgreementRepository "1" <-- AgreementCommandServiceImpl : agreementRepository
+AgreementRepository <|.. AgreementRepositoryImpl
+AgreementCommandService "1" <-- AgreementsController : agreementCommandService
+Domain -[hidden]down-> Application
+Application -[hidden]down-> Interfaces
 
 legend bottom
-The agreement refers to Parcel and Merchant by ID.
-onFullySigned() registers AgreementFullySignedEvent when ContractSignatures is complete.
-No PDF, payment confirmation or identity check in Spring.
++ public  |  - private  |  # protected
+Multiplicities label stored references. Dashed arrows show use or interface realization.
 endlegend
 @enduml

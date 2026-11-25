@@ -2203,11 +2203,17 @@ Cada contexto incluye una figura del backend y otra de la webapp. Se muestran lo
 
 #### Acuerdos de temporada
 
-Agreement relaciona una Parcel con un comerciante mediante identificadores y encapsula las firmas en ContractSignatures. Si ambas están completas, onFullySigned() publica AgreementFullySignedEvent. La API no conserva una reserva, una versión de cláusulas, un PDF ni una confirmación de pago.
+**Backend.** `Agreement` concentra las dos aceptaciones en `ContractSignatures`. Al guardar, `AgreementRepositoryImpl` compara el estado previo con el nuevo. Cuando el acuerdo pasa a estar firmado por ambas partes, invoca `onFullySigned()`, que registra `AgreementFullySignedEvent`; el publicador lo despacha y la capa de aplicación lo traduce en un evento de integración para Parcelas. Este cambio de estado puede ocurrir sin confirmar un abono.
 
-![Figura 4.7.1-B. Clases de acuerdos](assets/chapter-04/architecture/10-classes-contracts.png)
+![Figura 4.7.1-B1. Acuerdos en Spring](assets/chapter-04/architecture/10-classes-contracts.png)
 
-*Figura 4.7.1-B. Clases de acuerdos.* <a href="assets/chapter-04/architecture/10-classes-contracts.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/10-classes-contracts.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.7.1-B1. Acuerdos en Spring.* [Ampliar en SVG](assets/chapter-04/architecture/10-classes-contracts.svg) · [Fuente PlantUML](assets/chapter-04/architecture/10-classes-contracts.puml).
+
+**Webapp.** `Agreement` guarda la parcela y los indicadores de firma del comerciante y del agricultor. `ContractSign` solicita el registro de la firma al `AgreementStore`. Para registrar la del agricultor, el store comprueba que exista la del comerciante. `AgreementApi` guarda el acuerdo y `ParcelRefApi` recupera los datos de parcela que necesita esta pantalla.
+
+![Figura 4.7.1-B2. Acuerdos en Angular](assets/chapter-04/architecture/web-classes-agreements.png)
+
+*Figura 4.7.1-B2. Acuerdos en Angular.* [Ampliar en SVG](assets/chapter-04/architecture/web-classes-agreements.svg) · [Fuente PlantUML](assets/chapter-04/architecture/web-classes-agreements.puml).
 
 #### Bóveda de demostración
 
