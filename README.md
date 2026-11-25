@@ -4147,6 +4147,8 @@ El objetivo principal del **Sprint 4** es .
 | **Total** | | **** |
 
 </div>
+#### Tablero de Control del Sprint 4 (Sprint Board)
+
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 #### 5.2.4.5. Execution Evidence for Sprint Review
