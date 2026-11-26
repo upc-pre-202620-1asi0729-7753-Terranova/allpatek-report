@@ -4342,13 +4342,21 @@ No se dispone del enlace confirmado ni de la captura original del tablero del Sp
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 
-En el Sprint 4 se implementó . Cada bounded context del Sprint Backlog 4 tiene su rama feature/*; abajo se listan los commits de implementación.
+Se registran referencias a aportes preexistentes de Alexander1Alexander2 en los historiales consultados. Esta revisión trabaja únicamente en el informe; no implementa cambios en los repositorios de producto. La ejecución se comprueba por separado en 5.2.4.5.
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
-| --- | --- | --- | --- | --- | --- |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
+| Repositorio | Rama de referencia | Commit | Mensaje original | Fecha de autor, Lima |
+| :--- | :--- | :--- | :--- | :---: |
+| allpatek-report | feature/report-corrections | [f90ffd8](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-report/commit/f90ffd8785bb1d68b2b0f82c81eecd82d9b2353d) | docs: finalize updated video references | 2026-11-26 |
+| allpatek-website | feature/report-corrections | [a59d68a](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website/commit/a59d68a00f632fc70c601bc8f2d216631d6f7439) | fix: finalize landing video sources | 2026-11-26 |
+| allpatek-webapp | develop | [111b04a](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/111b04a5ed982a0e248407a6a1ca5eb22ae867ce) | feat: load climate alerts from the platform API | 2026-11-25 |
+| allpatek-webapp | develop | [5aa1b84](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/5aa1b84b54e5579d292513f1f3eb8d30d376afee) | feat: persist user profiles through the platform API | 2026-11-25 |
+| allpatek-webapp | develop | [87d09c2](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/87d09c2969545ff2d6b692b42765395075c488f6) | feat: attach a bearer token interceptor to workspace requests | 2026-11-25 |
+| allpatek-webapp | develop | [1bd6da4](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/1bd6da4739cc17ec461fb0a6f723a61994c8a465) | feat: add identity field validators for profiles | 2026-11-25 |
+| allpatek-platform | develop | [4bafca5](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/4bafca5532a8f92777b31a10bdd5c9439305c2b9) | feat(iam): configure JWT authentication and Spring Security | 2026-11-25 |
+| allpatek-platform | develop | [0ff1486](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/0ff1486651ae5ddfe0748ec33746973630706677) | feat(iam): persist users and roles with JPA | 2026-11-25 |
+| allpatek-platform | develop | [4c4d5dc](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/4c4d5dc4aea7553d635f126d69804e6872d6ddaf) | feat(iam): add the user and role domain model | 2026-11-25 |
+
+Las ramas identifican los historiales de referencia, no una afirmación de despliegue de cada commit. Los mensajes se conservan literalmente, incluidos sus prefijos originales. El historial de esta revisión documental puede consultarse en la rama `feature/report-corrections` de allpatek-report.
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
@@ -4400,21 +4408,17 @@ Los procedimientos de despliegue históricos se documentan en [5.2.2.7](#5227-so
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
-Descripción de la colaboración del equipo durante el Sprint 4.
+La revisión documental de Alexander reúne verificación de enlaces, clasificación de evidencias, referencias a commits y preparación de la exposición. Los aportes de código preexistentes se identifican en [5.2.4.4](#5244-development-evidence-for-sprint-review).
 
-| Integrante | Usuario GitHub | Repositorio |
+| Integrante | Usuario GitHub | Evidencia consolidada en esta revisión |
 | :--- | :--- | :--- |
-| Atauje Barreto, Alexander Sebastián | Alexander1Alexander2 |  |
-| Egocheaga Suyo, Miguel Angel | MiguelAngel0107 |  |
-| Orellana Rodríguez, Mel Andree | melandree8 |  |
-| Raymundo Villarroel, Abigail Nadhim | AbigailRV |  |
-| Vera Solsol, Nayely Macarena | Macaxprogram29 |  |
+| Atauje Barreto, Alexander Sebastián | Alexander1Alexander2 | Correcciones del informe, comprobaciones HTTP, revisión de anexos y guion del Anexo J. |
+| Egocheaga Suyo, Miguel Angel | MiguelAngel0107 | Pendiente de consolidar por el equipo en esta sección. |
+| Orellana Rodríguez, Mel Andree | melandree8 | Pendiente de consolidar por el equipo en esta sección. |
+| Raymundo Villarroel, Abigail Nadhim | AbigailRV | Pendiente de consolidar por el equipo en esta sección. |
+| Vera Solsol, Nayely Macarena | Macaxprogram29 | Pendiente de consolidar por el equipo en esta sección. |
 
-<p align="center">
-  <img src="assets/chapter-05/insight04.png" alt="Contribuciones del Sprint 4 en GitHub Insights" width="65%" />
-</p>
-
-* **Figura 5.2.4.8.1.** *Contribuciones por usuario en GitHub Insights durante el Sprint 4.*
+La ausencia de una relación consolidada no significa ausencia de trabajo. No se dispone de una captura actual de GitHub Contributors para el Sprint 4; las cifras de contribución deben obtenerse del historial o de una captura real antes de incorporarlas.
 
 ## 5.3. Validation Interviews
 
