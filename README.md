@@ -5067,7 +5067,7 @@ Video **About-the-Product**: demo de Allpatek (catálogo de parcelas, clima, ace
 | Tipo | Enlace del Video |
 | :--- | :--- |
 | **About the Product**  | <a href="https://youtu.be/se1KsUnUtml" style="text-decoration: none;">Enlace About the Product</a> |
-| **About the Product (Youtube)**  | <a href="https://youtu.be/HzLCMS18Pqg" style="text-decoration: none;">Enlace About the Product</a> |
+| **About the Product (Youtube)**  | <a href="https://youtu.be/se1KsUnUtml" style="text-decoration: none;">Enlace About the Product</a> |
 
     
 </div>
