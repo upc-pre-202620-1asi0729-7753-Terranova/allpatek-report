@@ -4344,6 +4344,18 @@ El objetivo y las historias del Sprint 4 requieren completar los registros de pl
 
 * **Figura 5.2.4.3.2.** Continuación de la columna Done. Complementa la vista general y permite leer T004, T011 y T006; T016 aparece en ambas capturas para relacionar las vistas. Las tarjetas compartidas se cuentan una sola vez.
 
+**Resumen de columnas del tablero**
+
+| Columna visible | Tarjetas |
+| :--- | :---: |
+| Sprint 04 | 3 |
+| To-Do | 2 |
+| In-Progress | 4 |
+| Done | 7 |
+| **Total** | **16** |
+
+Se conservan los nombres de las columnas. La etiqueta **Sprint 04** agrupa tres tarjetas y no se interpreta automáticamente como To-Do o In-Progress. Los conteos corresponden a las dos capturas aportadas; las siete tarjetas en Done no acreditan por sí solas un recorrido funcional de la aplicación.
+
 ### Tabla de Control de Estado del Sprint Backlog 4
 
 | Sprint | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
