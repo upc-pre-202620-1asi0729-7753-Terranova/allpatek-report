@@ -5113,7 +5113,7 @@ Video **About-the-Team**: el equipo TerraNova cuenta quién hizo qué en Allpate
     
 | Tipo | Enlace del Video |
 | :--- | :--- |
-| **About the Team**  | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBcbq4xfH8tQr_ZPnlJKrMLAXb2-topoxDPFkdP2Z097vs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PB8hMC" style="text-decoration: none;">Enlace About the Team</a> |
+| **About the Team**  | <a href="https://youtu.be/HGon8P2sQRE" style="text-decoration: none;">Enlace About the Team</a> |
 | **About the Team (Youtube)**  | <a href="https://youtu.be/Fv-fpNivSHE">Enlace About the Team</a> |
 
 
