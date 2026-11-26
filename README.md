@@ -5141,8 +5141,6 @@ Registros en video de las entrevistas realizadas a los segmentos objetivo durant
 
 </div>
 
-Estos videos corresponden al [Registro de entrevistas de Needfinding](#222-registro-de-entrevistas). En la comprobación del 26/11/2026 los cinco enlaces redirigieron al inicio de sesión de Microsoft; se conservan sus destinos, pero el contenido y los permisos de reproducción no se declaran verificados.
-
 ---
 
 ## Anexo G. Videos de Prototipos y Evidencias de Sprint
@@ -5158,8 +5156,6 @@ Videos de navegación de los prototipos y evidencia de ejecución del Sprint 1:
 | **Evidencia de ejecución del Sprint 1** | Sprint | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQApudu7-aW0R6zofbarn9-pAd96aUTXm_GwyTKAwac5l90?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7oUJHv">Ver ejecución histórica del Sprint 1</a> |
 
 </div>
-
-Los recorridos de prototipos complementan [4.5. Web Applications Prototyping](#45-web-applications-prototyping); el video del Sprint 1 se relaciona con [5.2.1.5](#5215-execution-evidence-for-sprint-review). Estos materiales no se identifican como ejecución del Sprint 4. Los tres enlaces de Microsoft solicitaron iniciar sesión en la comprobación del 26/11/2026.
 
 ---
 
