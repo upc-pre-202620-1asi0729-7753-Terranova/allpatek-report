@@ -3619,7 +3619,7 @@ El objetivo principal del **Sprint 3** es publicar la **primera versión de los 
 </p>
 
 * **Figura 5.2.3.3.1.** Captura del tablero del Sprint 3 en la herramienta de control, con el estado de las tareas.
-* **URL pública del Board:** <a href="https://trello.com/invite/b/6af3adfe4e9931bf475e1cc0/ATTIa72fe0d2bbda469b2e799bd8388d45fc57634FE6/allpatek-sprint-03" style="text-decoration: none;">Tablero Trello TerraNova</a>
+* **URL del Board del Sprint 3:** <a href="https://trello.com/b/PffylQcc/allpatek-sprint-03" style="text-decoration: none;">Ver tablero Trello - ALLPATEK Sprint 3</a>
 
 ### Tabla de Control de Estado del Sprint Backlog 3
 
@@ -5010,7 +5010,7 @@ Seguimiento interactivo de tareas y planificación del Product Backlog y de los 
 | :--- | :---: | :---: |
 | **Product Backlog & Sprint 1 Board** | Trello | <a href="https://trello.com/b/A0csigUo/terranova" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a> |
 | **Product Backlog & Sprint 2 Board** | Trello | <a href="https://trello.com/b/wg5hoQwD/allpatek-sprint-02" style="text-decoration: none;">Ver tablero Trello - ALLPATEK Sprint 2</a> |
-| **Product Backlog & Sprint 3 Board** | Trello | <a href="https://trello.com/b/PffylQcc" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a> |
+| **Product Backlog & Sprint 3 Board** | Trello | <a href="https://trello.com/b/PffylQcc/allpatek-sprint-03" style="text-decoration: none;">Ver tablero Trello - ALLPATEK Sprint 3</a> |
 | **Product Backlog & Sprint 4 Board** | Trello | <a href="https://trello.com/b/PffylQcc" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a> |
 
 </div>
