@@ -4312,7 +4312,7 @@ Los cinco salen en Insights del repositorio. El pico de commits cae entre finale
 
 #### Tablero de Control del Sprint 4 (Sprint Board)
 
-* **URL del tablero del Sprint 4:** <a href="https://trello.com/b/Rowl4alL">Ver tablero Trello - Allpatek-Sprint-04</a>
+* **URL del tablero del Sprint 4:** <a href="https://trello.com/b/Rowl4alL/allpatek-sprint-04">Ver tablero Trello - Allpatek-Sprint-04</a>
 
 <p align="center">
   <a href="assets/chapter-05/trello-sprint-04.png">
@@ -5089,7 +5089,7 @@ Enlaces de los productos digitales de **ALLPATEK**:
 
 ## Anexo D. Gestión del Proyecto y Product Backlog (Trello)
 
-Seguimiento de tareas y planificación del Product Backlog y de los Sprints 1, 2, 3 y 4. Las referencias se detallan en [Sprint Backlog 1](#5213-sprint-backlog-1), [Sprint Backlog 2](#5223-sprint-backlog-2), [Sprint Backlog 3](#5233-sprint-backlog-3) y [Sprint Backlog 4](#5243-sprint-backlog-4). Las capturas son archivos históricos del informe y los enlaces de Trello permiten consultar los tableros correspondientes:
+Tableros del Product Backlog y de los Sprints 1, 2, 3 y 4:
 
 <div align="center">
 
@@ -5098,11 +5098,9 @@ Seguimiento de tareas y planificación del Product Backlog y de los Sprints 1, 2
 | **Product Backlog & Sprint 1 Board** | Trello | <a href="https://trello.com/b/A0csigUo/terranova">Ver Tablero Trello - TerraNova ALLPATEK</a><br />[Captura](assets/chapter-05/trello-sprint-01.png) |
 | **Product Backlog & Sprint 2 Board** | Trello | <a href="https://trello.com/b/wg5hoQwD/allpatek-sprint-02">Ver tablero Trello - ALLPATEK Sprint 2</a><br />[Captura](assets/chapter-05/trello-sprint-02.png) |
 | **Product Backlog & Sprint 3 Board** | Trello | <a href="https://trello.com/b/PffylQcc/allpatek-sprint-03">Ver tablero Trello - ALLPATEK Sprint 3</a><br />[Captura](assets/chapter-05/trello-sprint-03.png) |
-| **Product Backlog & Sprint 4 Board** | Trello | <a href="https://trello.com/b/Rowl4alL">Ver tablero Trello - ALLPATEK Sprint 4</a><br />[Captura](assets/chapter-05/trello-sprint-04.png) |
+| **Product Backlog & Sprint 4 Board** | Trello | <a href="https://trello.com/b/Rowl4alL/allpatek-sprint-04">Ver tablero Trello - ALLPATEK Sprint 4</a><br />[Captura](assets/chapter-05/trello-sprint-04.png) |
 
 </div>
-
-Los enlaces de los Sprints 1, 2 y 3 se consultaron en la revisión anterior, sin verificar su contenido autenticado. Para el Sprint 4, el equipo proporcionó el enlace normal del tablero y dos capturas complementarias; los estados documentados proceden de esas imágenes y no de una consulta en vivo autenticada.
 
 ---
 
