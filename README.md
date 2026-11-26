@@ -3068,6 +3068,13 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
 
 #### 5.2.2.3. Sprint Backlog 2
 
+El objetivo principal del **Sprint 2** es implementar la primera versión de la aplicación web de **ALLPATEK**, con autenticación y perfiles, gestión de parcelas y contratos, evidencias de hitos, pagos Escrow y alertas climáticas. Las tareas de esta iteración integran el frontend con la Fake API y, para los datos climáticos, con Open-Meteo.
+
+**Tablero de Control del Sprint 2 (Sprint Board)**
+
+* **URL pública del Board del Sprint 2:** <a href="https://trello.com/b/wg5hoQwD/allpatek-sprint-02" style="text-decoration: none;">Ver tablero Trello - ALLPATEK Sprint 2</a>
+
+### Tabla de Control de Estado del Sprint Backlog 2
 
 | Sprint | User Story ID | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
@@ -5002,7 +5009,7 @@ Seguimiento interactivo de tareas y planificación del Product Backlog y de los 
 | Artefacto de Gestión | Herramienta | Enlace Público al Tablero |
 | :--- | :---: | :---: |
 | **Product Backlog & Sprint 1 Board** | Trello | <a href="https://trello.com/b/A0csigUo/terranova" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a> |
-| **Product Backlog & Sprint 2 Board** | Trello | <a href="https://trello.com/b/A0csigUo/terranova" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a> |
+| **Product Backlog & Sprint 2 Board** | Trello | <a href="https://trello.com/b/wg5hoQwD/allpatek-sprint-02" style="text-decoration: none;">Ver tablero Trello - ALLPATEK Sprint 2</a> |
 | **Product Backlog & Sprint 3 Board** | Trello | <a href="https://trello.com/b/PffylQcc" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a> |
 | **Product Backlog & Sprint 4 Board** | Trello | <a href="https://trello.com/b/PffylQcc" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a> |
 
