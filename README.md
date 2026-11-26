@@ -3126,6 +3126,15 @@ Los puntos se toman del Product Backlog (3.3). US05 aparece en las tareas de ale
 
 * **URL pública del Board del Sprint 2:** <a href="https://trello.com/b/wg5hoQwD/allpatek-sprint-02" style="text-decoration: none;">Ver tablero Trello - ALLPATEK Sprint 2</a>
 
+**Estado observado y diferencia de conteo**
+
+| Fuente | Total | Done | En proceso |
+| :--- | :---: | :---: | :---: |
+| Trello, Figura 5.2.2.3.1 | 32 tarjetas | 31 | 1 (T020) |
+| Tabla del informe | 33 tareas | 32 | 1 (T020) |
+
+Task y To-Do muestran cero tarjetas. La diferencia de una tarea entre ambas fuentes se conserva explícitamente: esta vista no permite identificar su correspondencia ni verificar individualmente las 31 tarjetas Done. Las 33 tareas y sus estimaciones permanecen documentadas en la tabla.
+
 **Distribución de tareas y esfuerzo estimado**
 
 | Integrante | Tareas | Estimación total (horas) |
