@@ -3095,6 +3095,14 @@ Los puntos se toman del Product Backlog (3.3). US05 aparece en las tareas de ale
 
 **Tablero de Control del Sprint 2 (Sprint Board)**
 
+<p align="center">
+  <a href="assets/chapter-05/sprint-02-backlog-summary.svg">
+    <img src="assets/chapter-05/sprint-02-backlog-summary.svg" alt="Resumen del Sprint 2: 33 tareas, 9 historias y 145 horas estimadas, con distribución por integrante" width="900" />
+  </a>
+</p>
+
+* **Figura 5.2.2.3.1.** Resumen visual elaborado a partir de la tabla de tareas de esta sección. No corresponde a una captura de Trello. La captura original del tablero queda pendiente de incorporar: su consulta solicitó iniciar sesión.
+
 * **URL pública del Board del Sprint 2:** <a href="https://trello.com/b/wg5hoQwD/allpatek-sprint-02" style="text-decoration: none;">Ver tablero Trello - ALLPATEK Sprint 2</a>
 
 **Distribución de tareas y esfuerzo estimado**
