@@ -4311,18 +4311,7 @@ Los cinco salen en Insights del repositorio. El pico de commits cae entre finale
 
 El objetivo y las historias del Sprint 4 requieren completar los registros de planificación del equipo. Las verificaciones documentadas en 5.2.4.5 no se presentan como una planificación retrospectiva.
 
-<div align="center">
-
-| Story Id | Story Title  | Story Points  |
-| :---: | :---: | :---: |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-| **Total** | | **** |
-
-</div>
+Las capturas permiten transcribir las tareas T001 a T016, sus columnas y las iniciales de los avatares. No muestran Story IDs, títulos de historias, Story Points, estimaciones en horas ni descripciones ampliadas; esos datos no se deducen del identificador de la tarea.
 
 #### Tablero de Control del Sprint 4 (Sprint Board)
 
@@ -4358,16 +4347,26 @@ Se conservan los nombres de las columnas. La etiqueta **Sprint 04** agrupa tres 
 
 ### Tabla de Control de Estado del Sprint Backlog 4
 
+La tabla transcribe los títulos y las columnas de las Figuras 5.2.4.3.1 y 5.2.4.3.2. **Assigned To** reproduce las iniciales visibles del avatar, sin atribuirles un nombre completo. El símbolo **-** indica un campo no visible en las capturas.
+
 | Sprint | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
-| **Sprint 4** |  | | **T001** | | | | | |
-| **Sprint 4** |  | | **T002** | | | | | |
-| **Sprint 4** |  | | **T003** | | | | | |
-| **Sprint 4** |  | | **T004** | | | | | |
-| **Sprint 4** |  | | **T005** | | | | | |
-| **Sprint 4** |  | | **T006** | | | | | |
-| **Sprint 4** |  | | **T007** | | | | | |
-| **Sprint 4** |  | | **T008** | | | | | |
+| Sprint 4 | - | - | T001 | Modelar usuarios y roles de IAM | - | - | AB | Sprint 04 |
+| Sprint 4 | - | - | T002 | Configurar la autenticación JWT | - | - | AB | Sprint 04 |
+| Sprint 4 | - | - | T003 | Exponer registro e inicio de sesión | - | - | ME | In-Progress |
+| Sprint 4 | - | - | T004 | Extraer el bounded context Profile | - | - | A | Done |
+| Sprint 4 | - | - | T005 | Documentar la seguridad JWT en OpenAPI | - | - | A | In-Progress |
+| Sprint 4 | - | - | T006 | Iniciar sesión desde la Web App | - | - | ME | Done |
+| Sprint 4 | - | - | T007 | Validar identidad y persistir perfiles | - | - | AB | In-Progress |
+| Sprint 4 | - | - | T008 | Registrar y editar datos personales y comerciales | - | - | NV | Sprint 04 |
+| Sprint 4 | - | - | T009 | Filtrar el catálogo por agricultor autenticado | - | - | NV | To-Do |
+| Sprint 4 | - | - | T010 | Firmar el contrato como agricultor | - | - | ME | To-Do |
+| Sprint 4 | - | - | T011 | Acreditar fondos al liberar un hito | - | - | ME | Done |
+| Sprint 4 | - | - | T012 | Verificar y liberar evidencias de hito | - | - | NV | In-Progress |
+| Sprint 4 | - | - | T013 | Emitir alertas con parcelas por ACL | - | - | AB | Done |
+| Sprint 4 | - | - | T014 | Conectar la Web App al API publicado | - | - | NV | Done |
+| Sprint 4 | - | - | T015 | Pulir la interfaz de parcelas y navegación | - | - | A | Done |
+| Sprint 4 | - | - | T016 | Integrar las ramas del Sprint 4 en develop | - | - | AR | Done |
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 
