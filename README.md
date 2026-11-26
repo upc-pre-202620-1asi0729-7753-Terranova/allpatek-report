@@ -194,7 +194,9 @@ Repositorios del proyecto:
 #### Contribuciones Sprint 1 ( Landing )
 
 <p align="center">
-  <img src="./assets/chapter-05/insight-spint-01.png" alt="Sprint01" width="65%" />
+  <a href="assets/chapter-05/insight-spint-01.png">
+    <img src="assets/chapter-05/insight-spint-01.png" alt="GitHub Contributors de la Landing Page ALLPATEK con las contribuciones de los cinco integrantes" width="900" />
+  </a>
 </p>
 
 #### Contribuciones Sprint 2 ( Frontend )
@@ -2917,16 +2919,20 @@ Los commits siguen Conventional Commits, en inglés. Las ramas se iban integrand
 Capturas de Insights / Contributors y Commits del repositorio. Ahí se ve quién committeó, con qué frecuencia y cuánto código sumó cada uno:
 
 <p align="center">
-  <img src="assets/chapter-05/insight-spint-01.png" alt="Analíticos de Colaboración e Insights de GitHub - Sprint 1" width="850" />
+  <a href="assets/chapter-05/insight-spint-01.png">
+    <img src="assets/chapter-05/insight-spint-01.png" alt="GitHub Contributors de la Landing Page ALLPATEK con las contribuciones de los cinco integrantes" width="900" />
+  </a>
 </p>
 
-* **Figura 5.2.1.8.1.** *Contribuciones por usuario en GitHub Insights durante el Sprint 1.*
+* **Figura 5.2.1.8.1.** Contribuciones por usuario de la Landing Page en el intervalo visible de la captura. La imagen se puede ampliar y el historial se consulta en [GitHub Contributors](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website/graphs/contributors).
 
 <p align="center">
-  <img src="assets/chapter-05/historial_commit.png" alt="Historial y Grafo de Ramas en GitHub" width="850" />
+  <a href="assets/chapter-05/historial_commit.png">
+    <img src="assets/chapter-05/historial_commit.png" alt="Listado de commits e integraciones de las ramas de la Landing Page en GitHub" width="900" />
+  </a>
 </p>
 
-* **Figura 5.2.1.8.2.** *Grafo de ramas y commits en GitHub: una feature por componente, luego merge a la rama de integración.*
+* **Figura 5.2.1.8.2.** Historial de commits e integraciones de la Landing Page. La captura presenta una lista de commits; seleccionar la imagen permite leer los mensajes originales.
 
 
 #### 2. Resumen de Contribuciones por Integrante
