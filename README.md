@@ -4375,29 +4375,16 @@ El [registro de comprobaciones](assets/chapter-05/sprint-04-link-checks.json) co
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
-Descripción de la documentación de los servicios de este sprint.
+La documentación publicada del backend se referencia en el [Anexo C](#anexo-c-enlaces-de-despliegue-en-entornos-de-operación-cloud-deployments). En la comprobación del 26/11/2026 no se obtuvo respuesta de Render dentro de los plazos de espera; no se presenta una especificación OpenAPI anterior como si fuera una extracción actual del Sprint 4.
 
-### Entornos de servicio
+| Recurso documentado | Método de consulta | Resultado de la revisión |
+| :--- | :---: | :--- |
+| [Swagger UI](https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html) | GET | Tiempo de espera agotado; interfaz no comprobada. |
+| [OpenAPI JSON](https://allpatek-platform.onrender.com/v3/api-docs) | GET | Tiempo de espera agotado; esquema actual no recuperado. |
+| [Health](https://allpatek-platform.onrender.com/health) | GET | Tiempo de espera agotado; estado no confirmado. |
+| [Alertas](https://allpatek-platform.onrender.com/api/v1/alerts) | GET sin credenciales | Tiempo de espera agotado; no se infiere respuesta funcional ni requisito de autenticación a partir del fallo. |
 
-* **Swagger UI (publicado):** <a href=""></a>
-* **URL base publicada:** <a href=""></a>
-* **URL base local:** <a href=""></a>
-* **Swagger UI local:** <a href=""></a>
-
-### 2. Repositorio y commits de documentación
-
-* **Repositorio de Web Services:** <a href=""></a>
-
-### 3. Matriz de endpoints del alcance del Sprint
-
-> **Ruta base (BASE):** <a href=""></a>
-
-| US | Endpoint | Verbo | Parámetros | Acción | Ejemplo de respuesta |
-| :---: | :--- | :---: | :--- | :--- | :--- |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
+El [registro HTTP](assets/chapter-05/sprint-04-link-checks.json) contiene ambos intentos. La matriz histórica de endpoints se mantiene en [5.2.3.6](#5236-services-documentation-evidence-for-sprint-review). Para cerrar esta evidencia debe recuperarse el esquema vigente y contrastarse con las operaciones incluidas realmente en el Sprint 4; las rutas anteriores son destinos de consulta y no resultados funcionales aprobados.
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
