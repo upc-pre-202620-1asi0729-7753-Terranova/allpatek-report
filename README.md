@@ -208,7 +208,9 @@ Repositorios del proyecto:
 #### Contribuciones Sprint 3 ( Backend )
 
 <p align="center">
-  <img src="./assets/chapter-05/insight03.png" alt="Sprint03" width="65%" />
+  <a href="assets/chapter-05/insight03.png">
+    <img src="assets/chapter-05/insight03.png" alt="GitHub Contributors de allpatek-platform: contribuciones de los cinco integrantes hasta noviembre" width="900" />
+  </a>
 </p>
 
 
@@ -4054,10 +4056,12 @@ Los cinco salen en Insights del repositorio. El pico de commits cae entre finale
 
 
 <p align="center">
-  <img src="assets/chapter-05/insight03.png" alt="Contribuciones del Sprint 3 en GitHub Insights" width="65%" />
+  <a href="assets/chapter-05/insight03.png">
+    <img src="assets/chapter-05/insight03.png" alt="GitHub Contributors de allpatek-platform: contribuciones de los cinco integrantes hasta noviembre" width="900" />
+  </a>
 </p>
 
-* **Figura 5.2.3.8.1.** *Contribuciones por usuario en GitHub Insights (allpatek-platform) durante el Sprint 3.*
+* **Figura 5.2.3.8.1.** Contribuciones por usuario de allpatek-platform en el intervalo visible de la captura. La imagen se puede ampliar; el historial se consulta en [GitHub Contributors](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/graphs/contributors) y los commits documentados en [5.2.3.4](#5234-development-evidence-for-sprint-review).
 
 
 ### 5.2.4. Sprint 4
