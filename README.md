@@ -5114,7 +5114,7 @@ Video **About-the-Team**: el equipo TerraNova cuenta quién hizo qué en Allpate
 | Tipo | Enlace del Video |
 | :--- | :--- |
 | **About the Team**  | <a href="https://youtu.be/HGon8P2sQRE" style="text-decoration: none;">Enlace About the Team</a> |
-| **About the Team (Youtube)**  | <a href="https://youtu.be/Fv-fpNivSHE">Enlace About the Team</a> |
+| **About the Team (Youtube)**  | <a href="https://youtu.be/HGon8P2sQRE">Enlace About the Team</a> |
 
 
     
