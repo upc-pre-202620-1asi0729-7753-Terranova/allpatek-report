@@ -5186,6 +5186,10 @@ Enlaces a los tableros y prototipos utilizados en las etapas de descubrimiento, 
 
 </div>
 
+Referencias dentro del informe: [Lean UX Canvas](#1224-lean-ux-canvas), [Big Picture Event Storming](#24-big-picture-event-storming), [Wireflow](#442-web-applications-wireflow-diagrams), [User Flow](#444-web-applications-user-flow-diagrams) y [Prototyping](#45-web-applications-prototyping).
+
+El 26/11/2026 los seis enlaces entregaron una página web, pero no se comprobó el contenido editable de Miro o Figma. La respuesta HTTP 200 no acredita que el evaluador pueda abrir el artefacto completo con sus permisos.
+
 ---
 
 ## Anexo F. Videos de Entrevistas (Needfinding)
