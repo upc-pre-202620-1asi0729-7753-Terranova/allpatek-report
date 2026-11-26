@@ -5076,11 +5076,12 @@ Video **About-the-Product**: demo de Allpatek (catálogo de parcelas, clima, ace
     
 | Tipo | Enlace del Video |
 | :--- | :--- |
-| **About the Product**  | <a href="https://youtu.be/se1KsUnUtmI">Enlace About the Product</a> |
-| **About the Product (Youtube)**  | <a href="https://youtu.be/se1KsUnUtmI">Enlace About the Product</a> |
+| **About the Product (YouTube)** | <a href="https://youtu.be/se1KsUnUtmI">Ver About the Product</a> |
 
     
 </div>
+
+Referencia de video comprobada el 26/11/2026 mediante los metadatos públicos de YouTube: **About The Product**. El enlace coincide con el Anexo H; la disponibilidad del video no acredita por sí sola la ejecución de los flujos del Sprint 4.
 
 <p align="center">
   <img src="assets/chapter-05/imgAboutTheProduct.png" alt="About the Product" width="800" />
