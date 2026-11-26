@@ -3220,19 +3220,27 @@ Los identificadores enlazan a los commits del repositorio correspondiente. Los m
 
 
 #### Vista 1: Pantalla de Inicio de Sesión (*Login*)
-Esta interfaz ofrece un acceso unificado a la plataforma mediante la autenticación de credenciales. La pantalla incluye un selector dinámico de rol (Agricultor o Comerciante) que permite redirigir al usuario hacia su espacio de trabajo personalizado. Al validar los campos de correo electrónico y contraseña, el sistema procesa el inicio de sesión y da paso a las funciones correspondientes.
+La captura presenta los campos de correo electrónico y contraseña, los enlaces de recuperación y registro, y el selector de idioma EN/ES. La selección del rol Agricultor o Comerciante se muestra en el formulario de registro de la Vista 2. Esta evidencia corresponde a la interfaz publicada para el Sprint 2 con la Fake API.
 
 <p align="center">
-  <img src="assets/chapter-05/vista01.png" alt="Pantalla de Login" width="850" />
+  <a href="assets/chapter-05/vista01.png">
+    <img src="assets/chapter-05/vista01.png" alt="Inicio de sesión de ALLPATEK: campos de correo y contraseña, enlace de registro y selector EN/ES" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.5.1.** Pantalla de acceso de la aplicación web publicada en Netlify. Seleccionar la imagen permite ampliarla.
 
 
 #### Vista 2: Registro de Cuenta de Usuario
-Se trata de un formulario de alta adaptativo diseñado para incorporar nuevos usuarios al sistema. La interfaz ajusta dinámicamente sus campos en función del perfil seleccionado, solicitando información personal en el caso del agricultor o datos fiscales y corporativos cuando se trata de un comerciante. Tras aceptar los términos y completar el registro, la cuenta queda activa en la base de datos para ingresar de inmediato.
+El formulario de registro muestra la selección del rol Agricultor o Comerciante, el nombre completo, el correo electrónico, la contraseña y su confirmación. La captura documenta la pantalla inicial de alta; las tareas de perfiles personales y comerciales se detallan en el Sprint Backlog 2.
 
 <p align="center">
-  <img src="assets/chapter-05/vista02.png" alt="Pantalla de Login" width="850" />
+  <a href="assets/chapter-05/vista02.png">
+    <img src="assets/chapter-05/vista02.png" alt="Registro de ALLPATEK: selección de agricultor o comerciante, nombre, correo y contraseña" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.5.2.** Formulario de creación de cuenta con selección de rol. Seleccionar la imagen permite ampliarla.
 
 
 
