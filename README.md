@@ -130,7 +130,7 @@
 | TB2 | 25/11/2026 | Raymundo Villarroel, Abigail Nadhim | Registro de los usuarios de prueba de la aplicación web (agricultor y comerciante) en el Anexo I |
 | TB2 | 25/11/2026 | Atauje Barreto, Alexander Sebastián | Corrección de referencias Trello de los Sprints 1, 2 y 3; incorporación del resumen visual del Sprint 2; revisión de figuras, leyendas y capturas ampliables; conciliación de historias, tareas y estimaciones; y verificación de identificadores, mensajes y fechas de commits contra GitHub |
 | TB2 | 25/11/2026 | Atauje Barreto, Alexander Sebastián | Incorporación de la captura original de Trello del Sprint 2, actualización de T020 a In-Process, registro de la diferencia entre 32 tarjetas y 33 tareas, y enlaces a las capturas en el Anexo D |
-| TB2 | 26/11/2026 | Atauje Barreto, Alexander Sebastián | Revisión documental del Sprint 4 y anexos; registro de comprobaciones HTTP, accesos restringidos y adjuntos faltantes; referencias a contribuciones existentes; guion de exposición del Anexo J y actualización del Student Outcome. Cambios limitados a allpatek-report en feature/report-corrections; las capturas y pruebas autenticadas pendientes se identifican en 5.2.4.5 |
+| TB2 | 26/11/2026 | Atauje Barreto, Alexander Sebastián | Revisión documental del Sprint 4 y anexos; registro de comprobaciones HTTP, accesos restringidos y adjuntos faltantes; referencias a contribuciones existentes; actualización del Student Outcome. Cambios limitados a allpatek-report en feature/report-corrections; las capturas y pruebas autenticadas pendientes se identifican en 5.2.4.5 |
 
 ## Project Report Collaboration Insights
 
@@ -175,7 +175,7 @@ Repositorios del proyecto:
 
 | Integrante | Tareas Asignadas |
 |---|---|
-| Atauje Barreto, Alexander Sebastián | Capítulo I completo: Introduction, Startup Profile (Startup Description, Team Member Profiles), Solution Profile (Background & Problematic, Lean UX Process: Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas), Target Segments. Alineación del Alcance General del Proyecto (Contratación Digital, Seguimiento de Hitos/Trazabilidad y Conexión Directa entre Actores). Maquetación e implementación web de las secciones Services (HTML5 & CSS Grid Layout) y Milestones / How It Works (HTML5 & CSS Layout) de la Landing Page. Modularización de estilos, refactorización y gestión de ramas en GitHub (feature/services, feature/how-it-works). Responsable del área alerts-management en el desarrollo de la solución para la entrega TB1. Elaboración del material de exposición, grabación del video de presentación del equipo/producto y correcciones del informe. TB2: corrección de los enlaces de Trello y de la evidencia visual de los Sprints 1, 2 y 3, revisión de la trazabilidad entre historias y tareas, y verificación de los commits documentados en frontend y backend. Cierre documental TB2: revisión de evidencias y anexos, registro HTTP y preparación del guion de exposición, sin cambios en los repositorios de producto. |
+| Atauje Barreto, Alexander Sebastián | Capítulo I completo: Introduction, Startup Profile (Startup Description, Team Member Profiles), Solution Profile (Background & Problematic, Lean UX Process: Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas), Target Segments. Alineación del Alcance General del Proyecto (Contratación Digital, Seguimiento de Hitos/Trazabilidad y Conexión Directa entre Actores). Maquetación e implementación web de las secciones Services (HTML5 & CSS Grid Layout) y Milestones / How It Works (HTML5 & CSS Layout) de la Landing Page. Modularización de estilos, refactorización y gestión de ramas en GitHub (feature/services, feature/how-it-works). Responsable del área alerts-management en el desarrollo de la solución para la entrega TB1. Elaboración del material de exposición, grabación del video de presentación del equipo/producto y correcciones del informe. TB2: corrección de los enlaces de Trello y de la evidencia visual de los Sprints 1, 2 y 3, revisión de la trazabilidad entre historias y tareas, y verificación de los commits documentados en frontend y backend. Cierre documental TB2: revisión de evidencias y anexos y registro HTTP, sin cambios en los repositorios de producto. |
 | Egocheaga Suyo, Miguel Angel | Domain-Driven Software Architecture (Chapter 4.6), Design-Level EventStorming, Software Architecture Context, Container and Component Diagrams, Software Object-Oriented Design, Class Diagrams, Database Design and Database Diagrams; Landing Page Header/Navbar and Hero Section implementation, responsive styles and navigation behavior (HTML5, CSS3 and JavaScript). TB1: desarrollo del bounded context escrow-payments de la aplicación web (bóveda, depósito y seguimiento de desembolsos por hito). AV2: desarrollo de escrow-payments en el backend (allpatek-platform), con el agregado Wallet, persistencia JPA, endpoints GET/POST /api/v1/wallets y PUT /api/v1/wallets/{id}, y el tag escrow en Swagger. |
 | Orellana Rodríguez, Mel Andree | Style Guidelines, General Style Guidelines, Web Style Guidelines, Information Architecture, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Web Applications UX/UI Design, Web Applications Wireframes, Web Applications Wireflow Diagrams, Web Applications Mock-ups, Web Applications User Flow Diagrams, Web Applications Prototyping,  Desarrollo del bounded context Shared, Desarrollo del bounded context agreements-management, Desarrollo de la estructura de Aplicación Web, Despliegue del Mock API en Azure, Correcciones en el Product Backlog, About the Product, About the Team, Sprint 3  |
 | Vera Solsol, Nayely Macarena | Impact Mapping, User Stories and Product Backlog (Chapter 3). Desarrollo del bounded context tracking-evidence de la aplicación web (capas de dominio, infraestructura, aplicación y presentación). Desarrollo e implementación integral del bounded context tracking-evidence en el backend (allpatek-platform), incluyendo sus capas de dominio, aplicación, infraestructura y la exposición de endpoints REST (/api/v1/evidence) para la gestión y trazabilidad de evidencias por hito. Documentación de la implementación del bounded context tracking-evidence en el backend y registro detallado de sus commits correspondientes al Sprint 3, elaboración de entrevistas y correcciones del report. |
@@ -337,7 +337,6 @@ Repositorios del proyecto:
 
 
 
-* [Guion de exposición de Alexander](#anexo-j-guion-de-exposición-de-alexander)
 * [Anexos](#anexos)
   * [A. Registros de Participación del Equipo (Participant Performance Report)](#anexo-a-registros-de-participación-del-equipo-participant-performance-report)
   * [B. Repositorios de Código Fuente y Control de Versiones](#anexo-b-repositorios-de-código-fuente-y-control-de-versiones)
@@ -382,7 +381,7 @@ Repositorios del proyecto:
               <li><b>AV2 - Raymundo Villarroel, Abigail Nadhim:</b> Exposición oral de la entrega AV2, explicando el desarrollo del bounded context parcel-management en el backend (modelo de parcelas, casos de uso, endpoints REST y persistencia) y los avances de la documentación del Sprint 3, adaptando el lenguaje técnico para evaluadores académicos y el lenguaje del negocio para audiencias agrícolas y comerciales.</li>
             <li><b>AV2 - Egocheaga Suyo, Miguel Angel:</b> Exposición oral de la entrega AV2, explicando el bounded context escrow-payments del backend: cómo quedó la wallet, cómo se consulta el saldo de demostración y para qué sirven los endpoints de /api/v1/wallets. Lo armé para que se entienda en la sustentación y también si alguien del lado comercial solo quiere saber dónde queda el dinero en custodia.</li>
              <li><b>AV2 - Vera Solsol, Nayely Macarena:</b> Exposición oral de la entrega AV2, explicando el desarrollo integral del bounded context <code>tracking-evidence</code> tanto en el backend (allpatek-platform, detallando sus capas de dominio, aplicación, infraestructura y los endpoints REST <code>/api/v1/evidence</code>) como en la aplicación web.</li>
-           <li><b>TB2 - Atauje Barreto, Alexander Sebastián:</b> Preparación de la sustentación de las correcciones del Capítulo I, explicando las mejoras del proceso Lean UX y su alineación con la propuesta de valor de Allpatek, utilizando un lenguaje claro para diferentes audiencias. Elaboración del guion del Anexo J para presentar al equipo, introducir el problema, explicar la propuesta de solución y delimitar el alcance de la entrega.</li>
+           <li><b>TB2 - Atauje Barreto, Alexander Sebastián:</b> Preparación de la sustentación de las correcciones del Capítulo I, explicando las mejoras del proceso Lean UX y su alineación con la propuesta de valor de Allpatek, utilizando un lenguaje claro para diferentes audiencias.</li>
             <li><b>TB2 - Raymundo Villarroel, Abigail Nadhim:</b> Exposición oral de la entrega TB2, explicando mis avances y aportes: los iconos de redes sociales y los documentos legales de la Landing Page, los anexos del informe y la estructura del Sprint 4, con un lenguaje claro para evaluadores y audiencias no técnicas.</li>
           </ul>
         </td>
@@ -4410,11 +4409,11 @@ Los procedimientos de despliegue históricos se documentan en [5.2.2.7](#5227-so
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
-La revisión documental de Alexander reúne verificación de enlaces, clasificación de evidencias, referencias a commits y preparación de la exposición. Los aportes de código preexistentes se identifican en [5.2.4.4](#5244-development-evidence-for-sprint-review).
+La revisión documental de Alexander reúne verificación de enlaces, clasificación de evidencias y referencias a commits. Los aportes de código preexistentes se identifican en [5.2.4.4](#5244-development-evidence-for-sprint-review).
 
 | Integrante | Usuario GitHub | Evidencia consolidada en esta revisión |
 | :--- | :--- | :--- |
-| Atauje Barreto, Alexander Sebastián | Alexander1Alexander2 | Correcciones del informe, comprobaciones HTTP, revisión de anexos y guion del Anexo J. |
+| Atauje Barreto, Alexander Sebastián | Alexander1Alexander2 | Correcciones del informe, comprobaciones HTTP y revisión de anexos. |
 | Egocheaga Suyo, Miguel Angel | MiguelAngel0107 | Pendiente de consolidar por el equipo en esta sección. |
 | Orellana Rodríguez, Mel Andree | melandree8 | Pendiente de consolidar por el equipo en esta sección. |
 | Raymundo Villarroel, Abigail Nadhim | AbigailRV | Pendiente de consolidar por el equipo en esta sección. |
@@ -5253,31 +5252,3 @@ Identidades de prueba consignadas por el equipo para la Web App de **ALLPATEK** 
 </div>
 
 El acceso con estas identidades no se confirmó durante la revisión del 26/11/2026. Para ejecutar los casos de [5.2.4.5](#5245-execution-evidence-for-sprint-review), debe comprobarse primero que la cuenta ingresa, conserva el rol esperado y permite consultar sus datos. La disponibilidad del HTML de la aplicación no acredita la validez de las credenciales.
-
----
-
-## Anexo J. Guion de Exposición de Alexander
-
-Guion propuesto de 2 a 3 minutos para la introducción de la sustentación. Este texto es material de preparación, no evidencia de una exposición ya realizada.
-
-### J.1. Presentación del equipo
-
-«Buenos días. Soy Alexander Sebastián Atauje Barreto y represento a TerraNova. Nuestro equipo está integrado por Miguel Angel Egocheaga Suyo, Mel Andree Orellana Rodríguez, Nayely Macarena Vera Solsol, Abigail Nadhim Raymundo Villarroel y quien les habla. Presentamos ALLPATEK, una propuesta de Agro-as-a-Service para conectar a agricultores familiares con comerciantes y compradores urbanos».
-
-### J.2. Introducción al problema
-
-«El problema que abordamos es la incertidumbre en la relación comercial entre quien produce y quien compra. El agricultor necesita acordar condiciones para su campaña y dar visibilidad al trabajo realizado. El comerciante necesita conocer la parcela, las condiciones pactadas y el avance del cultivo. La falta de información compartida dificulta el seguimiento y la confianza entre ambas partes».
-
-Apoyo: [antecedentes y problemática](#121-antecedentes-y-problemática) y [segmentos objetivo](#13-segmentos-objetivo). Evitar atribuir resultados de validación o porcentajes que no estén sustentados en el informe.
-
-### J.3. Propuesta de solución
-
-«ALLPATEK organiza esa relación mediante parcelas publicadas, acuerdos entre las partes y seguimiento de hitos con evidencias. El comerciante puede consultar las condiciones de la parcela y el acuerdo; el agricultor puede presentar evidencias de avance. El monitoreo climático aporta lecturas y avisos que ayudan a contextualizar la situación de la parcela. La bóveda muestra la custodia y liberación por hitos con montos de demostración».
-
-Apoyo: presentar el recorrido a partir de los bounded contexts documentados: parcelas, acuerdos, evidencias, custodia y alertas climáticas.
-
-### J.4. Alcance de la entrega y transición
-
-«El alcance documentado incluye una landing informativa, una aplicación web y servicios del backend, junto con los artefactos de análisis y diseño. En la revisión final distinguimos el código disponible, los entornos publicados y la evidencia de ejecución que efectivamente pudo comprobarse. Los resultados de disponibilidad y las comprobaciones pendientes se encuentran en el Sprint 4. A continuación, mis compañeros explicarán los componentes y mostrarán las evidencias disponibles de cada flujo».
-
-Antes de exponer, revisar el [Anexo C](#anexo-c-enlaces-de-despliegue-en-entornos-de-operación-cloud-deployments), los [videos vigentes](#anexo-h-videos-de-validación-producto-y-equipo) y el estado de los casos [E4-01 a E4-04](#5245-execution-evidence-for-sprint-review), para que el relato coincida con lo que se mostrará.
