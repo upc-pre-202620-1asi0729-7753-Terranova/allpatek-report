@@ -2992,7 +2992,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
   </tr>
   <tr>
     <td colspan="5">Sum of Story Points</td>
-    <td colspan="8">28 Story Points</td>
+    <td colspan="8">30 Story Points documentados + US05 pendiente de estimar</td>
   </tr>
 </table>
 
@@ -3075,6 +3075,23 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
 #### 5.2.2.3. Sprint Backlog 2
 
 El objetivo principal del **Sprint 2** es implementar la primera versión de la aplicación web de **ALLPATEK**, con autenticación y perfiles, gestión de parcelas y contratos, evidencias de hitos, pagos Escrow y alertas climáticas. Las tareas de esta iteración integran el frontend con la Fake API y, para los datos climáticos, con Open-Meteo.
+
+**Historias cubiertas por las tareas del Sprint**
+
+| Story ID | Story Title | Story Points | Tareas del informe |
+| :---: | :--- | :---: | :--- |
+| US01 | Registro de perfil y verificación de identidad | 5 | T001, T002, T003, T004 |
+| US16 | Registro de perfil corporativo y validación fiscal | 3 | T005, T006, T007 |
+| US08 | Aceptación de propuesta y firma de contrato digital Escrow | 3 | T008, T009, T010, T011 |
+| US06 | Publicación y geolocalización de lote agrícola | 3 | T012, T013, T014, T015 |
+| US04 | Registro y carga de evidencias fotográficas por hito | 3 | T016, T017, T018, T019 |
+| US14 | Revisión y observación técnica de evidencias de hito | 3 | T020, T021, T022 |
+| US03 | Aprobación de hito y orden de liberación de fondos | 5 | T023, T024, T025, T026 |
+| US09 | Depósito de fondos iniciales en custodia | 5 | T027, T028, T029 |
+| US05 | Consulta de lecturas y alertas climáticas por parcela | Pendiente de registrar | T030, T031, T032, T033 |
+| **Total documentado** | **9 historias** | **30 SP + US05 pendiente** | **33 tareas** |
+
+Los puntos se toman del Product Backlog (3.3). US05 aparece en las tareas de alertas climáticas, pero no tiene una estimación registrada en ese Product Backlog; se mantiene pendiente para evitar asignar puntos sin evidencia. Las horas de las tareas se presentan por separado.
 
 **Tablero de Control del Sprint 2 (Sprint Board)**
 
