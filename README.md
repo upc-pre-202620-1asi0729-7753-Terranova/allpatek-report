@@ -3621,10 +3621,12 @@ El objetivo principal del **Sprint 3** es publicar la **primera versión de los 
 #### Tablero de Control del Sprint 3 (Sprint Board)
 
 <p align="center">
-  <img src="assets/chapter-05/trello-sprint-03.png" alt="Tablero del Sprint 3 en Trello - ALLPATEK" width="850" />
+  <a href="assets/chapter-05/trello-sprint-03.png">
+    <img src="assets/chapter-05/trello-sprint-03.png" alt="Tablero Allpatek-Sprint-03 en Trello, con tarjetas en Task, To-Do, In Progress y Done" width="900" />
+  </a>
 </p>
 
-* **Figura 5.2.3.3.1.** Captura del tablero del Sprint 3 en la herramienta de control, con el estado de las tareas.
+* **Figura 5.2.3.3.1.** Captura histórica del tablero Allpatek-Sprint-03 en Trello. Muestra las tareas y sus estados al momento de la captura; seleccionar la imagen permite ampliarla.
 * **URL del Board del Sprint 3:** <a href="https://trello.com/b/PffylQcc/allpatek-sprint-03" style="text-decoration: none;">Ver tablero Trello - ALLPATEK Sprint 3</a>
 
 ### Tabla de Control de Estado del Sprint Backlog 3
