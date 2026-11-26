@@ -2984,7 +2984,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
   </tr>
   <tr>
     <td colspan="5">Sprint 2 Goal</td>
-    <td colspan="8">Nuestro enfoque está en dar a conocer la propuesta de producción agrícola garantizada de Allpatek y sus planes comerciales. Creemos que esto aporta credibilidad y claridad comercial a agricultores y comerciantes urbanos. Esto se confirmará cuando el 100 % de los visitantes puedan comparar los planes y solicitar una propuesta en menos de 3 pasos</td>
+    <td colspan="8">Implementar la primera versión de la aplicación web ALLPATEK para agricultores y comerciantes, cubriendo sesión y perfiles, parcelas, acuerdos, custodia de demostración, evidencias por hito y alertas climáticas. El criterio de revisión es recorrer las funcionalidades del Sprint Backlog 2 contra la Fake API y presentar las evidencias de ejecución y despliegue de las secciones 5.2.2.5 y 5.2.2.7.</td>
   </tr>
   <tr>
     <td colspan="5">Sprint 2 Velocity</td>
