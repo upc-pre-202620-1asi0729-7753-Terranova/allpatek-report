@@ -5177,15 +5177,17 @@ Repositorios oficiales en la organización pública de **GitHub** del equipo **T
 
 <div align="center">
 
-| Producto / Artefacto | Repositorio Oficial | Rama Principal | Estado | Enlace al Repositorio |
+| Producto / Artefacto | Repositorio Oficial | Referencia de rama | Estado | Enlace al Repositorio |
 | :--- | :--- | :---: | :---: | :---: |
-| **Project Report** | allpatek-report | main | Active | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-report">Ver Repositorio del Informe</a> |
-| **Landing Page** | allpatek-website | main | Deployed | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website">Ver Repositorio Landing Page</a> |
-| **Web App** | allpatek-webapp | main | Active | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp">Ver Repositorio Web App</a> |
-| **Backend (Web Services)** | allpatek-platform | main | Active | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform">Ver Repositorio Backend</a> |
-| **Fake API (Mock)** | allpatek-platform-mock | main | Active | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock">Ver Repositorio Fake API</a> |
+| **Project Report** | allpatek-report | feature/report-corrections | HTTP 200 al consultar el repositorio | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-report">Ver Repositorio del Informe</a> |
+| **Landing Page** | allpatek-website | main | HTTP 200 al consultar el repositorio | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website">Ver Repositorio Landing Page</a> |
+| **Web App** | allpatek-webapp | main | HTTP 200 al consultar el repositorio | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp">Ver Repositorio Web App</a> |
+| **Backend (Web Services)** | allpatek-platform | main | HTTP 200 al consultar el repositorio | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform">Ver Repositorio Backend</a> |
+| **Fake API (Mock)** | allpatek-platform-mock | main | HTTP 200 al consultar el repositorio | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock">Ver Repositorio Fake API</a> |
 
 </div>
+
+Comprobación del 26/11/2026: los cinco repositorios respondieron HTTP 200. Las ramas citadas son referencias de código; la publicación de cambios en una rama de trabajo debe distinguirse de su integración y despliegue. Esta revisión modifica únicamente `allpatek-report`, en `feature/report-corrections`.
 
 ---
 
