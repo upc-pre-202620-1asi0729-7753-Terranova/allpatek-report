@@ -130,8 +130,7 @@
 | TB2 | 25/11/2026 | Raymundo Villarroel, Abigail Nadhim | Registro de los usuarios de prueba de la aplicación web (agricultor y comerciante) en el Anexo I |
 | TB2 | 25/11/2026 | Atauje Barreto, Alexander Sebastián | Corrección de referencias Trello de los Sprints 1, 2 y 3; incorporación del resumen visual del Sprint 2; revisión de figuras, leyendas y capturas ampliables; conciliación de historias, tareas y estimaciones; y verificación de identificadores, mensajes y fechas de commits contra GitHub |
 | TB2 | 25/11/2026 | Atauje Barreto, Alexander Sebastián | Incorporación de la captura original de Trello del Sprint 2, actualización de T020 a In-Process, registro de la diferencia entre 32 tarjetas y 33 tareas, y enlaces a las capturas en el Anexo D |
-| TB2 | 26/11/2026 | Atauje Barreto, Alexander Sebastián | Revisión documental del Sprint 4 y anexos; registro de comprobaciones HTTP, accesos restringidos y adjuntos faltantes; referencias a contribuciones existentes; actualización del Student Outcome. Cambios limitados a allpatek-report en feature/report-corrections; las capturas y pruebas autenticadas pendientes se identifican en 5.2.4.5 |
-| TB2 | 26/11/2026 | Atauje Barreto, Alexander Sebastián | Incorporación de las dos capturas originales del tablero del Sprint 4 y su enlace normal; transcripción de las 16 tareas con columnas e iniciales visibles, resumen de conteos y actualización del Anexo D. Los campos no visibles no se completan por inferencia |
+| TB2 | 26/11/2026 | Atauje Barreto, Alexander Sebastián | Actualización de 5.2.4.5 con los resultados de 45 pruebas del backend; corrección de enlaces de anexos y videos; retiro de anotaciones fuera del alcance asignado y de la captura duplicada del Sprint 4. |
 
 ## Project Report Collaboration Insights
 
@@ -5185,4 +5184,3 @@ Cuentas de prueba para los segmentos Agricultor Familiar y Comerciante Urbano de
 | **Comerciante Urbano** | Irma Barreto Castro | Comerciante | irma.barreto23@gmail.com | Irma2026 |
 
 </div>
-
