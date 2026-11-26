@@ -5200,13 +5200,15 @@ Registros en video de las entrevistas realizadas a los segmentos objetivo durant
 
 | Entrevistado | Tipo de Video | Enlace |
 | :--- | :---: | :---: |
-| **Rosa Flores** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBbQDY3p2SiRq-xBW2hRB-dARiTcCuKw4tJ7sUQ8oeVau8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iVsXEQ">Ver Video</a> |
-| **Gustavo Adolfo Suyo** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/r/personal/u20231h171_upc_edu_pe/Documents/Video%20Entrevista.mp4?d=w350e6ee8e89f44e3a0801080e03a5a37&csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vPTAoG">Ver Video</a> |
-| **Irma Barreto Castro** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQCadRcKNFI3QJCRvB7MCwswAakotnQDzxFR-FZchZomOuI?e=W8zn4F">Ver Video</a> |
-| **César Hugo Egocheaga** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQA2ALZ3uFutSaQ8ve7Nk7hqAXADf3-eTjCN6dlRHIPgDVI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MX0bNw">Ver Video</a> |
-| **Carolin Solsol** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h171_upc_edu_pe/IQDobg41n-jjRKCAEIDgOlo3AfXMuQqEXkTp0vU3WnDO5Eg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Z15UJ">Ver Video</a> |
+| **Rosa Flores** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBbQDY3p2SiRq-xBW2hRB-dARiTcCuKw4tJ7sUQ8oeVau8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iVsXEQ">Ver entrevista de Rosa Flores</a> |
+| **Gustavo Adolfo Suyo** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/r/personal/u20231h171_upc_edu_pe/Documents/Video%20Entrevista.mp4?d=w350e6ee8e89f44e3a0801080e03a5a37&csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vPTAoG">Ver entrevista de Gustavo Adolfo Suyo</a> |
+| **Irma Barreto Castro** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQCadRcKNFI3QJCRvB7MCwswAakotnQDzxFR-FZchZomOuI?e=W8zn4F">Ver entrevista de Irma Barreto Castro</a> |
+| **César Hugo Egocheaga** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQA2ALZ3uFutSaQ8ve7Nk7hqAXADf3-eTjCN6dlRHIPgDVI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MX0bNw">Ver entrevista de César Hugo Egocheaga</a> |
+| **Carolin Solsol** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h171_upc_edu_pe/IQDobg41n-jjRKCAEIDgOlo3AfXMuQqEXkTp0vU3WnDO5Eg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Z15UJ">Ver entrevista de Carolin Solsol</a> |
 
 </div>
+
+Estos videos corresponden al [Registro de entrevistas de Needfinding](#222-registro-de-entrevistas). En la comprobación del 26/11/2026 los cinco enlaces redirigieron al inicio de sesión de Microsoft; se conservan sus destinos, pero el contenido y los permisos de reproducción no se declaran verificados.
 
 ---
 
