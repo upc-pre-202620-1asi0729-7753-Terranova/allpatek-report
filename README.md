@@ -5066,8 +5066,8 @@ Video **About-the-Product**: demo de Allpatek (catálogo de parcelas, clima, ace
     
 | Tipo | Enlace del Video |
 | :--- | :--- |
-| **About the Product**  | <a href="https://youtu.be/se1KsUnUtml" style="text-decoration: none;">Enlace About the Product</a> |
-| **About the Product (Youtube)**  | <a href="https://youtu.be/se1KsUnUtml" style="text-decoration: none;">Enlace About the Product</a> |
+| **About the Product**  | <a href="https://youtu.be/se1KsUnUtmI" style="text-decoration: none;">Enlace About the Product</a> |
+| **About the Product (Youtube)**  | <a href="https://youtu.be/se1KsUnUtmI" style="text-decoration: none;">Enlace About the Product</a> |
 
     
 </div>
@@ -5270,8 +5270,8 @@ Videos de validación de la aplicación y videos institucionales sobre el produc
 | **App Validation (1)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQCXWmxVVzRyTKLNnMjuRh8cAanVcxuNzSX2roCt7lOrZm0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QWoAks" style="text-decoration: none;">Ver Video</a> |
 | **App Validation (2)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQDhDCYqAhxbSKhg92qWZNqhAYT4gneD9GoPPK-jzUowbr8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vkukAa" style="text-decoration: none;">Ver Video</a> |
 | **App Validation (3)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQA3Ki7VhhDdQIWWQzMUBKdlAX8OWAtP6xUPKwXCyBXh3w0?e=9NLXS5" style="text-decoration: none;">Ver Video</a> |
-| **About the Product** | About the product | <a href="https://youtu.be/se1KsUnUtml" style="text-decoration: none;">Ver en YouTube</a> |
-| **About the Team** | About the team | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBcbq4xfH8tQr_ZPnlJKrMLAXb2-topoxDPFkdP2Z097vs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PB8hMC" style="text-decoration: none;">Ver en SharePoint</a> · <a href="https://youtu.be/Fv-fpNivSHE" style="text-decoration: none;">Ver en YouTube</a> |
+| **About the Product** | About the product | <a href="https://youtu.be/se1KsUnUtmI" style="text-decoration: none;">Ver en YouTube</a> |
+| **About the Team** | About the team | <a href="https://youtu.be/HGon8P2sQRE" style="text-decoration: none;">Ver en YouTube</a> |
 
 </div>
 
