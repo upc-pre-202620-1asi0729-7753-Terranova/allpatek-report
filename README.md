@@ -3141,7 +3141,7 @@ Estos valores se calculan a partir de las tareas detalladas a continuación. Las
 
 ### Tabla de Control de Estado del Sprint Backlog 2
 
-Los identificadores T001, T002, etc. son locales a este Sprint. Los estados de seguimiento son **To-Do** (pendiente), **In-Process** (en ejecución), **To-Review** (en revisión) y **Done** (finalizada). La tabla conserva el estado documentado del informe y las capturas conservan el estado histórico visible en Trello; el enlace al tablero permite consultar su evolución.
+Los identificadores de tareas son locales a este Sprint. Estados: **To-Do** (pendiente), **In-Process** (en ejecución), **To-Review** (en revisión) y **Done** (finalizada). La columna In-Progress de Trello se registra como In-Process en esta tabla. T020 se actualiza según la captura; los demás estados se conservan del informe previo.
 
 | Sprint | User Story ID | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
@@ -3164,7 +3164,7 @@ Los identificadores T001, T002, etc. son locales a este Sprint. Los estados de s
 | Sprint 2 | US04 | T017 | Cliente HTTP y store de evidencias | Consumir POST/GET /evidence de Fake API y orquestar la carga del agricultor. | 4 | Nayely Macarena | Done |
 | Sprint 2 | US04 | T018 | Línea de tiempo de hitos y dropzone de fotos | Construir Milestone Timeline y la zona de arrastre JPG/PNG con observaciones. | 5 | Nayely Macarena | Done |
 | Sprint 2 | US04 | T019 | Historial de evidencias enviadas | Mostrar tabla/tablero con contadores, tipo de evidencia y estado de auditoría. | 4 | Nayely Macarena | Done |
-| Sprint 2 | US14 | T020 | Vista de revisión técnica para el comerciante | Implementar Evidence Review con la foto, notas y hito asociado. | 4 | Nayely Macarena | Done |
+| Sprint 2 | US14 | T020 | Vista de revisión técnica para el comerciante | Implementar Evidence Review con la foto, notas y hito asociado. | 4 | Nayely Macarena | In-Process |
 | Sprint 2 | US14 | T021 | Transición de estados de evidencia | Permitir verified / accepted (y devolución a corrección) vía PUT /evidence/{id}. | 4 | Nayely Macarena | Done |
 | Sprint 2 | US14 | T022 | Bloqueo de revisión en hito ya cerrado | Impedir cambiar una evidencia si el hito ya liberó fondos. | 4 | Nayely Macarena | Done |
 | Sprint 2 | US03 | T023 | Modelo de dominio de escrow-payments | Definir wallet, monto en custodia y tarjeta enmascarada en la capa de dominio. | 4 | Miguel Angel | Done |
