@@ -4417,15 +4417,7 @@ El [registro de comprobaciones](assets/chapter-05/sprint-04-link-checks.json) co
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
-Se consultaron los entornos existentes el 26/11/2026. Esta revisión del informe no realizó un nuevo despliegue.
 
-| Producto | Consulta | Resultado observado |
-| :--- | :--- | :--- |
-| Landing Page | URL del Anexo C | HTTP 200; conserva los identificadores de video anteriores en su HTML. |
-| Web App | URL del Anexo C | HTTP 200; se obtuvo el HTML inicial, sin comprobar una sesión de usuario. |
-| Web Services y Swagger | URLs del Anexo C | Tiempo de espera agotado en dos intentos. |
-
-Los procedimientos de despliegue históricos se documentan en [5.2.2.7](#5227-software-deployment-evidence-for-sprint-review) y [5.2.3.7](#5237-software-deployment-evidence-for-sprint-review). Para acreditar un nuevo despliegue del Sprint 4 se requieren su versión, entorno y evidencia real; no se incorporan imágenes inexistentes como si fueran capturas realizadas.
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
