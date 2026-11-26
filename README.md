@@ -3490,8 +3490,12 @@ Se conectó la plataforma de hosting Netlify con la organización de GitHub del 
 
 
 <p align="center">
-  <img src="assets/chapter-05/desplieguefront01.png" alt="Vinculación de repositorio allpatek-webapp en Netlify" width="850" />
+  <a href="assets/chapter-05/desplieguefront01.png">
+    <img src="assets/chapter-05/desplieguefront01.png" alt="Selección del repositorio allpatek-webapp en Netlify" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.7.4.** Vinculación del repositorio del frontend con Netlify. Seleccionar la imagen permite ampliarla.
 
 
 
@@ -3508,8 +3512,12 @@ Se definieron los parámetros técnicos requeridos por Angular 22 para su compil
 
 
 <p align="center">
-  <img src="assets/chapter-05/desplieguefront02.png" alt="Configuración de parámetros de build en Netlify" width="850" />
+  <a href="assets/chapter-05/desplieguefront02.png">
+    <img src="assets/chapter-05/desplieguefront02.png" alt="Configuración de rama, comando de build y directorio de publicación del frontend en Netlify" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.7.5.** Parámetros de compilación y publicación del frontend. Seleccionar la imagen permite ampliarla.
 
 
 
@@ -3521,8 +3529,12 @@ Netlify procesó el pipeline de construcción de Angular y publicó el cliente w
 
 
 <p align="center">
-  <img src="assets/chapter-05/desplieguefront03.png" alt="Confirmación de sitio publicado en Netlify Dashboard" width="850" />
+  <a href="assets/chapter-05/desplieguefront03.png">
+    <img src="assets/chapter-05/desplieguefront03.png" alt="Panel de Netlify con el frontend ALLPATEK publicado" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.7.6.** Estado de publicación del sitio en Netlify. Seleccionar la imagen permite ampliarla.
 
 
 
@@ -3534,8 +3546,12 @@ Se realizó la comprobación final de acceso en vivo a la aplicación web, verif
 
 
 <p align="center">
-  <img src="assets/chapter-05/desplieguefront04.png" alt="Vista del cliente Frontend Angular desplegado y en ejecución" width="850" />
+  <a href="assets/chapter-05/desplieguefront04.png">
+    <img src="assets/chapter-05/desplieguefront04.png" alt="Aplicación Angular ALLPATEK abierta desde su dirección de Netlify" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.7.7.** Acceso a la interfaz web desplegada. Seleccionar la imagen permite ampliarla.
 
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
