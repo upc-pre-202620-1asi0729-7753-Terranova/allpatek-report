@@ -4352,32 +4352,16 @@ En el Sprint 4 se implementó . Cada bounded context del Sprint Backlog 4 tiene 
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
-Descripción de la evidencia de ejecución.
+Esta sección distingue las comprobaciones de disponibilidad de los recorridos funcionales del Sprint 4. La revisión documental del 26/11/2026 no obtuvo nuevas capturas de la interfaz ni ejecutó sesiones autenticadas; por ello, los siguientes casos conservan el estado **Pendiente de ejecución y captura**.
 
-Descripción de la captura 1.
+| Caso | Preparación y acción | Resultado que debe comprobarse | Evidencia requerida |
+| :--- | :--- | :--- | :--- |
+| E4-01: acceso | Ingresar con una identidad vigente del Anexo I. | Apertura del espacio de trabajo y rol correcto. | Captura de la sesión iniciada, sin mostrar contraseña ni token. |
+| E4-02: parcelas | Consultar el catálogo con el agricultor autenticado. | Parcelas correspondientes al usuario y detalle consultable. | Captura del catálogo y referencia al usuario de prueba. |
+| E4-03: clima | Abrir el panel climático de una parcela del agricultor. | Parcela identificada, métricas y avisos disponibles, o mensaje de ausencia/error observado. | Captura legible del panel con el resultado real y entorno. |
+| E4-04: perfil | Consultar el perfil de la sesión de prueba. | Datos personales y rol coherentes con esa sesión. | Captura del perfil y descripción del resultado observado. |
 
-<p align="center">
-  <img src="assets/chapter-05/sprint-04-execution-01.png" alt="Evidencia de ejecución 1 del Sprint 4" width="850" />
-</p>
-
-Descripción de la captura 2.
-
-<p align="center">
-  <img src="assets/chapter-05/sprint-04-execution-02.png" alt="Evidencia de ejecución 2 del Sprint 4" width="850" />
-</p>
-
-Descripción de la captura 3.
-
-<p align="center">
-  <img src="assets/chapter-05/sprint-04-execution-03.png" alt="Evidencia de ejecución 3 del Sprint 4" width="850" />
-</p>
-
-Descripción de la captura 4.
-
-<p align="center">
-  <img src="assets/chapter-05/sprint-04-execution-04.png" alt="Evidencia de ejecución 4 del Sprint 4" width="850" />
-</p>
-
+Los identificadores E4-01 a E4-04 son casos de comprobación documental, no nuevas historias del Product Backlog. Cada evidencia futura debe indicar fecha, entorno, acción, resultado observado y relación con el caso. Las capturas históricas de los Sprints 2 y 3 se conservan en sus secciones originales y no se presentan como ejecución nueva del Sprint 4.
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
