@@ -5124,12 +5124,13 @@ Video **About-the-Team**: el equipo TerraNova cuenta quién hizo qué en Allpate
     
 | Tipo | Enlace del Video |
 | :--- | :--- |
-| **About the Team**  | <a href="https://youtu.be/HGon8P2sQRE">Enlace About the Team</a> |
-| **About the Team (Youtube)**  | <a href="https://youtu.be/HGon8P2sQRE">Enlace About the Team</a> |
+| **About the Team (YouTube)** | <a href="https://youtu.be/HGon8P2sQRE">Ver About the Team</a> |
 
 
     
 </div>
+
+Referencia de video comprobada el 26/11/2026 mediante los metadatos públicos de YouTube: **About the Team**. El enlace coincide con el Anexo H; la disponibilidad del video no acredita por sí sola la ejecución de los flujos del Sprint 4.
 
 <p align="center">
   <img src="assets/chapter-05/imgAboutTheTeam.png" alt="About the Team" width="800" />
