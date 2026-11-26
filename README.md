@@ -3120,6 +3120,8 @@ Estos valores se calculan a partir de las tareas detalladas a continuación. Las
 
 ### Tabla de Control de Estado del Sprint Backlog 2
 
+Los identificadores T001, T002, etc. son locales a este Sprint. Los estados de seguimiento son **To-Do** (pendiente), **In-Process** (en ejecución), **To-Review** (en revisión) y **Done** (finalizada). La tabla conserva el estado documentado del informe y las capturas conservan el estado histórico visible en Trello; el enlace al tablero permite consultar su evolución.
+
 | Sprint | User Story ID | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
 | Sprint 2 | US01 | T001 | Modelo de sesión y perfiles en Shared | Definir entidades de usuario, rol (agricultor/comerciante) y perfil en el kernel shared. | 4 | Mel Andree | Done |
@@ -3683,6 +3685,8 @@ Los puntos se toman del Product Backlog (3.3). US05 aparece en las tareas de ale
 Estos valores se calculan a partir de las tareas detalladas a continuación. Las horas corresponden a estimaciones de trabajo; no representan horas efectivamente consumidas ni equivalen a Story Points.
 
 ### Tabla de Control de Estado del Sprint Backlog 3
+
+Los identificadores T001, T002, etc. son locales a este Sprint. Los estados de seguimiento son **To-Do** (pendiente), **In-Process** (en ejecución), **To-Review** (en revisión) y **Done** (finalizada). La tabla conserva el estado documentado del informe y las capturas conservan el estado histórico visible en Trello; el enlace al tablero permite consultar su evolución.
 
 | Sprint | User Story ID | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
