@@ -147,23 +147,23 @@ Repositorios del proyecto:
     </thead>
     <tbody>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Orellana Rodríguez, Mel Andree</strong></td>
+        <td><strong>Orellana Rodríguez, Mel Andree</strong></td>
         <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">melandree08</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Egocheaga Suyo, Miguel Angel</strong></td>
+        <td><strong>Egocheaga Suyo, Miguel Angel</strong></td>
         <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">MiguelAngel0107</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Atauje Barreto, Alexander Sebastián</strong></td>
+        <td><strong>Atauje Barreto, Alexander Sebastián</strong></td>
         <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Alexander1Alexander2</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Vera Solsol, Nayely Macarena</strong></td>
+        <td><strong>Vera Solsol, Nayely Macarena</strong></td>
         <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Macaxprogram29</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Raymundo Villarroel, Abigail Nadhim</strong></td>
+        <td><strong>Raymundo Villarroel, Abigail Nadhim</strong></td>
         <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">AbigailRV</td>
       </tr>
     </tbody>
@@ -184,10 +184,10 @@ Repositorios del proyecto:
     
 | Tipo | Repositorio | Enlace URL |
 | :--- | :--- | :--- |
-| **Landing** | allpatek-website | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website" style="text-decoration: none;">Ver Repositorio</a> |
-| **Frontend** | allpatek-webapp | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp" style="text-decoration: none;">Ver Repositorio</a> |
-| **Mock API** | allpatek-platform-mock | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock" style="text-decoration: none;">Ver Repositorio</a> |
-| **Backend** | allpatek-platform | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform" style="text-decoration: none;">Ver Repositorio</a> |
+| **Landing** | allpatek-website | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website">Ver Repositorio</a> |
+| **Frontend** | allpatek-webapp | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp">Ver Repositorio</a> |
+| **Mock API** | allpatek-platform-mock | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock">Ver Repositorio</a> |
+| **Backend** | allpatek-platform | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform">Ver Repositorio</a> |
     
 </div>
 
@@ -219,120 +219,120 @@ Repositorios del proyecto:
 
 ## Tabla de Contenidos
 
-* <a href="#capítulo-i-introducción" style="text-decoration: none;">Capítulo I: Introducción</a>
-  * <a href="#11-startup-profile" style="text-decoration: none;">1.1. Startup Profile</a>
-    * <a href="#111-descripción-de-la-startup" style="text-decoration: none;">1.1.1. Descripción de la Startup</a>
-    * <a href="#112-perfiles-de-integrantes-del-equipo" style="text-decoration: none;">1.1.2. Perfiles de integrantes del equipo</a>
-  * <a href="#12-solution-profile" style="text-decoration: none;">1.2. Solution Profile</a>
-    * <a href="#121-antecedentes-y-problemática" style="text-decoration: none;">1.2.1. Antecedentes y problemática</a>
-    * <a href="#122-lean-ux-process" style="text-decoration: none;">1.2.2. Lean UX Process</a>
-      * <a href="#1221-lean-ux-problem-statements" style="text-decoration: none;">1.2.2.1. Lean UX Problem Statements</a>
-      * <a href="#1222-lean-ux-assumptions" style="text-decoration: none;">1.2.2.2. Lean UX Assumptions</a>
-      * <a href="#1223-lean-ux-hypothesis-statements" style="text-decoration: none;">1.2.2.3. Lean UX Hypothesis Statements</a>
-      * <a href="#1224-lean-ux-canvas" style="text-decoration: none;">1.2.2.4. Lean UX Canvas</a>
-  * <a href="#13-segmentos-objetivo" style="text-decoration: none;">1.3. Segmentos objetivo</a>
-* <a href="#capítulo-ii-requirements-elicitation--analysis" style="text-decoration: none;">Capítulo II: Requirements Elicitation & Analysis</a>
-  * <a href="#21-competidores" style="text-decoration: none;">2.1. Competidores</a>
-    * <a href="#211-análisis-competitivo" style="text-decoration: none;">2.1.1. Análisis competitivo</a>
-    * <a href="#212-estrategias-y-tácticas-frente-a-competidores" style="text-decoration: none;">2.1.2. Estrategias y tácticas frente a competidores</a>
-  * <a href="#22-entrevistas" style="text-decoration: none;">2.2. Entrevistas</a>
-    * <a href="#221-diseño-de-entrevistas" style="text-decoration: none;">2.2.1. Diseño de entrevistas</a>
-    * <a href="#222-registro-de-entrevistas" style="text-decoration: none;">2.2.2. Registro de entrevistas</a>
-    * <a href="#223-análisis-de-entrevistas" style="text-decoration: none;">2.2.3. Análisis de entrevistas</a>
-  * <a href="#23-needfinding" style="text-decoration: none;">2.3. Needfinding</a>
-    * <a href="#231-user-personas" style="text-decoration: none;">2.3.1. User Personas</a>
-    * <a href="#232-user-task-matrix" style="text-decoration: none;">2.3.2. User Task Matrix</a>
-    * <a href="#233-user-journey-mapping" style="text-decoration: none;">2.3.3. User Journey Mapping</a>
-    * <a href="#234-empathy-mapping" style="text-decoration: none;">2.3.4. Empathy Mapping</a>
-  * <a href="#24-big-picture-event-storming" style="text-decoration: none;">2.4. Big Picture Event Storming</a>
-  * <a href="#25-ubiquitous-language" style="text-decoration: none;">2.5. Ubiquitous Language</a>
-* <a href="#capítulo-iii-requirements-specification" style="text-decoration: none;">Capítulo III: Requirements Specification</a>
-  * <a href="#31-user-stories" style="text-decoration: none;">3.1. User Stories</a>
-  * <a href="#32-impact-mapping" style="text-decoration: none;">3.2. Impact Mapping</a>
-  * <a href="#33-product-backlog" style="text-decoration: none;">3.3. Product Backlog</a>
-* <a href="#capítulo-iv-product-design" style="text-decoration: none;">Capítulo IV: Product Design</a>
-  * <a href="#41-style-guidelines" style="text-decoration: none;">4.1. Style Guidelines</a>
-    * <a href="#411-general-style-guidelines" style="text-decoration: none;">4.1.1. General Style Guidelines</a>
-    * <a href="#412-web-style-guidelines" style="text-decoration: none;">4.1.2. Web Style Guidelines</a>
-  * <a href="#42-information-architecture" style="text-decoration: none;">4.2. Information Architecture</a>
-    * <a href="#421-organization-systems" style="text-decoration: none;">4.2.1. Organization Systems</a>
-    * <a href="#422-labeling-systems" style="text-decoration: none;">4.2.2. Labeling Systems</a>
-    * <a href="#423-seo-tags-and-meta-tags" style="text-decoration: none;">4.2.3. SEO Tags and Meta Tags</a>
-    * <a href="#424-searching-systems" style="text-decoration: none;">4.2.4. Searching Systems</a>
-    * <a href="#425-navigation-systems" style="text-decoration: none;">4.2.5. Navigation Systems</a>
-  * <a href="#43-landing-page-ui-design" style="text-decoration: none;">4.3. Landing Page UI Design</a>
-    * <a href="#431-landing-page-wireframe" style="text-decoration: none;">4.3.1. Landing Page Wireframe</a>
-    * <a href="#432-landing-page-mock-up" style="text-decoration: none;">4.3.2. Landing Page Mock-up</a>
-  * <a href="#44-web-applications-uxui-design" style="text-decoration: none;">4.4. Web Applications UX/UI Design</a>
-    * <a href="#441-web-applications-wireframes" style="text-decoration: none;">4.4.1. Web Applications Wireframes</a>
-    * <a href="#442-web-applications-wireflow-diagrams" style="text-decoration: none;">4.4.2. Web Applications Wireflow Diagrams</a>
-    * <a href="#443-web-applications-mock-ups" style="text-decoration: none;">4.4.3. Web Applications Mock-ups</a>
-    * <a href="#444-web-applications-user-flow-diagrams" style="text-decoration: none;">4.4.4. Web Applications User Flow Diagrams</a>
-  * <a href="#45-web-applications-prototyping" style="text-decoration: none;">4.5. Web Applications Prototyping</a>
-  * <a href="#46-domain-driven-software-architecture" style="text-decoration: none;">4.6. Domain-Driven Software Architecture</a>
-    * <a href="#461-design-level-event-storming" style="text-decoration: none;">4.6.1. Design-Level Event Storming</a>
-    * <a href="#462-software-architecture-context-diagram" style="text-decoration: none;">4.6.2. Software Architecture Context Diagram</a>
-    * <a href="#463-software-architecture-container-diagrams" style="text-decoration: none;">4.6.3. Software Architecture Container Diagrams</a>
-    * <a href="#464-software-architecture-components-diagrams" style="text-decoration: none;">4.6.4. Software Architecture Components Diagrams</a>
-  * <a href="#47-software-object-oriented-design" style="text-decoration: none;">4.7. Software Object-Oriented Design</a>
-    * <a href="#471-class-diagrams" style="text-decoration: none;">4.7.1. Class Diagrams</a>
-  * <a href="#48-database-design" style="text-decoration: none;">4.8. Database Design</a>
-    * <a href="#481-database-diagrams" style="text-decoration: none;">4.8.1. Database Diagrams</a>
-* <a href="#capítulo-v-product-implementation-validation--deployment" style="text-decoration: none;">Capítulo V: Product Implementation, Validation & Deployment</a>
-  * <a href="#51-software-configuration-management" style="text-decoration: none;">5.1. Software Configuration Management</a>
-    * <a href="#511-software-development-environment-configuration" style="text-decoration: none;">5.1.1. Software Development Environment Configuration</a>
-    * <a href="#512-source-code-management" style="text-decoration: none;">5.1.2. Source Code Management</a>
-    * <a href="#513-source-code-style-guide--conventions" style="text-decoration: none;">5.1.3. Source Code Style Guide & Conventions</a>
-    * <a href="#514-software-deployment-configuration" style="text-decoration: none;">5.1.4. Software Deployment Configuration</a>
-  * <a href="#52-landing-page-services--applications-implementation" style="text-decoration: none;">5.2. Landing Page, Services & Applications Implementation</a>
-    * <a href="#521-sprint-1" style="text-decoration: none;">5.2.1. Sprint 1</a>
-      * <a href="#5211-sprint-planning-1" style="text-decoration: none;">5.2.1.1. Sprint Planning 1</a>
-      * <a href="#5212-aspect-leaders-and-collaborators" style="text-decoration: none;">5.2.1.2. Aspect Leaders and Collaborators</a>
-      * <a href="#5213-sprint-backlog-1" style="text-decoration: none;">5.2.1.3. Sprint Backlog 1</a>
-      * <a href="#5214-development-evidence-for-sprint-review" style="text-decoration: none;">5.2.1.4. Development Evidence for Sprint Review</a>
-      * <a href="#5215-execution-evidence-for-sprint-review" style="text-decoration: none;">5.2.1.5. Execution Evidence for Sprint Review</a>
-      * <a href="#5216-services-documentation-evidence-for-sprint-review" style="text-decoration: none;">5.2.1.6. Services Documentation Evidence for Sprint Review</a>
-      * <a href="#5217-software-deployment-evidence-for-sprint-review" style="text-decoration: none;">5.2.1.7. Software Deployment Evidence for Sprint Review</a>
-      * <a href="#5218-team-collaboration-insights-during-sprint" style="text-decoration: none;">5.2.1.8. Team Collaboration Insights during Sprint</a>
-    * <a href="#522-sprint-2" style="text-decoration: none;">5.2.2. Sprint 2</a>
-      * <a href="#5221-sprint-planning-2" style="text-decoration: none;">5.2.2.1. Sprint Planning 2</a>
-      * <a href="#5222-aspect-leaders-and-collaborators" style="text-decoration: none;">5.2.2.2. Aspect Leaders and Collaborators</a>
-      * <a href="#5223-sprint-backlog-2" style="text-decoration: none;">5.2.2.3. Sprint Backlog 2</a>
-      * <a href="#5224-development-evidence-for-sprint-review" style="text-decoration: none;">5.2.2.4. Development Evidence for Sprint Review</a>
-      * <a href="#5225-execution-evidence-for-sprint-review" style="text-decoration: none;">5.2.2.5. Execution Evidence for Sprint Review</a>
-      * <a href="#5226-services-documentation-evidence-for-sprint-review" style="text-decoration: none;">5.2.2.6. Services Documentation Evidence for Sprint Review</a>
-      * <a href="#5227-software-deployment-evidence-for-sprint-review" style="text-decoration: none;">5.2.2.7. Software Deployment Evidence for Sprint Review</a>
-      * <a href="#5228-team-collaboration-insights-during-sprint" style="text-decoration: none;">5.2.2.8. Team Collaboration Insights during Sprint</a>
-    * <a href="#523-sprint-3" style="text-decoration: none;">5.2.3. Sprint 3</a>
-      * <a href="#5231-sprint-planning-3" style="text-decoration: none;">5.2.3.1. Sprint Planning 3</a>
-      * <a href="#5232-aspect-leaders-and-collaborators" style="text-decoration: none;">5.2.3.2. Aspect Leaders and Collaborators</a>
-      * <a href="#5233-sprint-backlog-3" style="text-decoration: none;">5.2.3.3. Sprint Backlog 3</a>
-      * <a href="#5234-development-evidence-for-sprint-review" style="text-decoration: none;">5.2.3.4. Development Evidence for Sprint Review</a>
-      * <a href="#5235-execution-evidence-for-sprint-review" style="text-decoration: none;">5.2.3.5. Execution Evidence for Sprint Review</a>
-      * <a href="#5236-services-documentation-evidence-for-sprint-review" style="text-decoration: none;">5.2.3.6. Services Documentation Evidence for Sprint Review</a>
-      * <a href="#5237-software-deployment-evidence-for-sprint-review" style="text-decoration: none;">5.2.3.7. Software Deployment Evidence for Sprint Review</a>
-      * <a href="#5238-team-collaboration-insights-during-sprint" style="text-decoration: none;">5.2.3.8. Team Collaboration Insights during Sprint</a>
-    * <a href="#524-sprint-4" style="text-decoration: none;">5.2.4. Sprint 4</a>
-      * <a href="#5241-sprint-planning-4" style="text-decoration: none;">5.2.4.1. Sprint Planning 4</a>
-      * <a href="#5242-aspect-leaders-and-collaborators" style="text-decoration: none;">5.2.4.2. Aspect Leaders and Collaborators</a>
-      * <a href="#5243-sprint-backlog-4" style="text-decoration: none;">5.2.4.3. Sprint Backlog 4</a>
-      * <a href="#5244-development-evidence-for-sprint-review" style="text-decoration: none;">5.2.4.4. Development Evidence for Sprint Review</a>
-      * <a href="#5245-execution-evidence-for-sprint-review" style="text-decoration: none;">5.2.4.5. Execution Evidence for Sprint Review</a>
-      * <a href="#5246-services-documentation-evidence-for-sprint-review" style="text-decoration: none;">5.2.4.6. Services Documentation Evidence for Sprint Review</a>
-      * <a href="#5247-software-deployment-evidence-for-sprint-review" style="text-decoration: none;">5.2.4.7. Software Deployment Evidence for Sprint Review</a>
-      * <a href="#5248-team-collaboration-insights-during-sprint" style="text-decoration: none;">5.2.4.8. Team Collaboration Insights during Sprint</a>
-  * <a href="#53-validation-interviews" style="text-decoration: none;">5.3. Validation Interviews</a>
-    * <a href="#531-diseño-de-entrevistas" style="text-decoration: none;">5.3.1. Diseño de Entrevistas</a>
-    * <a href="#532-registro-de-entrevistas" style="text-decoration: none;">5.3.2. Registro de Entrevistas</a>
-    * <a href="#533-evaluaciones-según-heurísticas" style="text-decoration: none;">5.3.3. Evaluaciones según heurísticas</a>
-  * <a href="#54-video-about-the-product" style="text-decoration: none;">5.4. Video About-the-Product</a>
-* <a href="#conclusiones-y-recomendaciones" style="text-decoration: none;">Conclusiones y Recomendaciones</a>
-* <a href="#video-app-validation" style="text-decoration: none;">Video App Validation</a>
-* <a href="#video-about-the-product" style="text-decoration: none;">Video About the product</a>
-* <a href="#video-about-the-team" style="text-decoration: none;">Video About the team</a>
-* <a href="#glosario" style="text-decoration: none;">Glosario</a>
-* <a href="#bibliografía" style="text-decoration: none;">Bibliografía</a>
-* <a href="#anexos" style="text-decoration: none;">Anexos</a>
+* <a href="#capítulo-i-introducción">Capítulo I: Introducción</a>
+  * <a href="#11-startup-profile">1.1. Startup Profile</a>
+    * <a href="#111-descripción-de-la-startup">1.1.1. Descripción de la Startup</a>
+    * <a href="#112-perfiles-de-integrantes-del-equipo">1.1.2. Perfiles de integrantes del equipo</a>
+  * <a href="#12-solution-profile">1.2. Solution Profile</a>
+    * <a href="#121-antecedentes-y-problemática">1.2.1. Antecedentes y problemática</a>
+    * <a href="#122-lean-ux-process">1.2.2. Lean UX Process</a>
+      * <a href="#1221-lean-ux-problem-statements">1.2.2.1. Lean UX Problem Statements</a>
+      * <a href="#1222-lean-ux-assumptions">1.2.2.2. Lean UX Assumptions</a>
+      * <a href="#1223-lean-ux-hypothesis-statements">1.2.2.3. Lean UX Hypothesis Statements</a>
+      * <a href="#1224-lean-ux-canvas">1.2.2.4. Lean UX Canvas</a>
+  * <a href="#13-segmentos-objetivo">1.3. Segmentos objetivo</a>
+* <a href="#capítulo-ii-requirements-elicitation--analysis">Capítulo II: Requirements Elicitation & Analysis</a>
+  * <a href="#21-competidores">2.1. Competidores</a>
+    * <a href="#211-análisis-competitivo">2.1.1. Análisis competitivo</a>
+    * <a href="#212-estrategias-y-tácticas-frente-a-competidores">2.1.2. Estrategias y tácticas frente a competidores</a>
+  * <a href="#22-entrevistas">2.2. Entrevistas</a>
+    * <a href="#221-diseño-de-entrevistas">2.2.1. Diseño de entrevistas</a>
+    * <a href="#222-registro-de-entrevistas">2.2.2. Registro de entrevistas</a>
+    * <a href="#223-análisis-de-entrevistas">2.2.3. Análisis de entrevistas</a>
+  * <a href="#23-needfinding">2.3. Needfinding</a>
+    * <a href="#231-user-personas">2.3.1. User Personas</a>
+    * <a href="#232-user-task-matrix">2.3.2. User Task Matrix</a>
+    * <a href="#233-user-journey-mapping">2.3.3. User Journey Mapping</a>
+    * <a href="#234-empathy-mapping">2.3.4. Empathy Mapping</a>
+  * <a href="#24-big-picture-event-storming">2.4. Big Picture Event Storming</a>
+  * <a href="#25-ubiquitous-language">2.5. Ubiquitous Language</a>
+* <a href="#capítulo-iii-requirements-specification">Capítulo III: Requirements Specification</a>
+  * <a href="#31-user-stories">3.1. User Stories</a>
+  * <a href="#32-impact-mapping">3.2. Impact Mapping</a>
+  * <a href="#33-product-backlog">3.3. Product Backlog</a>
+* <a href="#capítulo-iv-product-design">Capítulo IV: Product Design</a>
+  * <a href="#41-style-guidelines">4.1. Style Guidelines</a>
+    * <a href="#411-general-style-guidelines">4.1.1. General Style Guidelines</a>
+    * <a href="#412-web-style-guidelines">4.1.2. Web Style Guidelines</a>
+  * <a href="#42-information-architecture">4.2. Information Architecture</a>
+    * <a href="#421-organization-systems">4.2.1. Organization Systems</a>
+    * <a href="#422-labeling-systems">4.2.2. Labeling Systems</a>
+    * <a href="#423-seo-tags-and-meta-tags">4.2.3. SEO Tags and Meta Tags</a>
+    * <a href="#424-searching-systems">4.2.4. Searching Systems</a>
+    * <a href="#425-navigation-systems">4.2.5. Navigation Systems</a>
+  * <a href="#43-landing-page-ui-design">4.3. Landing Page UI Design</a>
+    * <a href="#431-landing-page-wireframe">4.3.1. Landing Page Wireframe</a>
+    * <a href="#432-landing-page-mock-up">4.3.2. Landing Page Mock-up</a>
+  * <a href="#44-web-applications-uxui-design">4.4. Web Applications UX/UI Design</a>
+    * <a href="#441-web-applications-wireframes">4.4.1. Web Applications Wireframes</a>
+    * <a href="#442-web-applications-wireflow-diagrams">4.4.2. Web Applications Wireflow Diagrams</a>
+    * <a href="#443-web-applications-mock-ups">4.4.3. Web Applications Mock-ups</a>
+    * <a href="#444-web-applications-user-flow-diagrams">4.4.4. Web Applications User Flow Diagrams</a>
+  * <a href="#45-web-applications-prototyping">4.5. Web Applications Prototyping</a>
+  * <a href="#46-domain-driven-software-architecture">4.6. Domain-Driven Software Architecture</a>
+    * <a href="#461-design-level-event-storming">4.6.1. Design-Level Event Storming</a>
+    * <a href="#462-software-architecture-context-diagram">4.6.2. Software Architecture Context Diagram</a>
+    * <a href="#463-software-architecture-container-diagrams">4.6.3. Software Architecture Container Diagrams</a>
+    * <a href="#464-software-architecture-components-diagrams">4.6.4. Software Architecture Components Diagrams</a>
+  * <a href="#47-software-object-oriented-design">4.7. Software Object-Oriented Design</a>
+    * <a href="#471-class-diagrams">4.7.1. Class Diagrams</a>
+  * <a href="#48-database-design">4.8. Database Design</a>
+    * <a href="#481-database-diagrams">4.8.1. Database Diagrams</a>
+* <a href="#capítulo-v-product-implementation-validation--deployment">Capítulo V: Product Implementation, Validation & Deployment</a>
+  * <a href="#51-software-configuration-management">5.1. Software Configuration Management</a>
+    * <a href="#511-software-development-environment-configuration">5.1.1. Software Development Environment Configuration</a>
+    * <a href="#512-source-code-management">5.1.2. Source Code Management</a>
+    * <a href="#513-source-code-style-guide--conventions">5.1.3. Source Code Style Guide & Conventions</a>
+    * <a href="#514-software-deployment-configuration">5.1.4. Software Deployment Configuration</a>
+  * <a href="#52-landing-page-services--applications-implementation">5.2. Landing Page, Services & Applications Implementation</a>
+    * <a href="#521-sprint-1">5.2.1. Sprint 1</a>
+      * <a href="#5211-sprint-planning-1">5.2.1.1. Sprint Planning 1</a>
+      * <a href="#5212-aspect-leaders-and-collaborators">5.2.1.2. Aspect Leaders and Collaborators</a>
+      * <a href="#5213-sprint-backlog-1">5.2.1.3. Sprint Backlog 1</a>
+      * <a href="#5214-development-evidence-for-sprint-review">5.2.1.4. Development Evidence for Sprint Review</a>
+      * <a href="#5215-execution-evidence-for-sprint-review">5.2.1.5. Execution Evidence for Sprint Review</a>
+      * <a href="#5216-services-documentation-evidence-for-sprint-review">5.2.1.6. Services Documentation Evidence for Sprint Review</a>
+      * <a href="#5217-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review</a>
+      * <a href="#5218-team-collaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint</a>
+    * <a href="#522-sprint-2">5.2.2. Sprint 2</a>
+      * <a href="#5221-sprint-planning-2">5.2.2.1. Sprint Planning 2</a>
+      * <a href="#5222-aspect-leaders-and-collaborators">5.2.2.2. Aspect Leaders and Collaborators</a>
+      * <a href="#5223-sprint-backlog-2">5.2.2.3. Sprint Backlog 2</a>
+      * <a href="#5224-development-evidence-for-sprint-review">5.2.2.4. Development Evidence for Sprint Review</a>
+      * <a href="#5225-execution-evidence-for-sprint-review">5.2.2.5. Execution Evidence for Sprint Review</a>
+      * <a href="#5226-services-documentation-evidence-for-sprint-review">5.2.2.6. Services Documentation Evidence for Sprint Review</a>
+      * <a href="#5227-software-deployment-evidence-for-sprint-review">5.2.2.7. Software Deployment Evidence for Sprint Review</a>
+      * <a href="#5228-team-collaboration-insights-during-sprint">5.2.2.8. Team Collaboration Insights during Sprint</a>
+    * <a href="#523-sprint-3">5.2.3. Sprint 3</a>
+      * <a href="#5231-sprint-planning-3">5.2.3.1. Sprint Planning 3</a>
+      * <a href="#5232-aspect-leaders-and-collaborators">5.2.3.2. Aspect Leaders and Collaborators</a>
+      * <a href="#5233-sprint-backlog-3">5.2.3.3. Sprint Backlog 3</a>
+      * <a href="#5234-development-evidence-for-sprint-review">5.2.3.4. Development Evidence for Sprint Review</a>
+      * <a href="#5235-execution-evidence-for-sprint-review">5.2.3.5. Execution Evidence for Sprint Review</a>
+      * <a href="#5236-services-documentation-evidence-for-sprint-review">5.2.3.6. Services Documentation Evidence for Sprint Review</a>
+      * <a href="#5237-software-deployment-evidence-for-sprint-review">5.2.3.7. Software Deployment Evidence for Sprint Review</a>
+      * <a href="#5238-team-collaboration-insights-during-sprint">5.2.3.8. Team Collaboration Insights during Sprint</a>
+    * <a href="#524-sprint-4">5.2.4. Sprint 4</a>
+      * <a href="#5241-sprint-planning-4">5.2.4.1. Sprint Planning 4</a>
+      * <a href="#5242-aspect-leaders-and-collaborators">5.2.4.2. Aspect Leaders and Collaborators</a>
+      * <a href="#5243-sprint-backlog-4">5.2.4.3. Sprint Backlog 4</a>
+      * <a href="#5244-development-evidence-for-sprint-review">5.2.4.4. Development Evidence for Sprint Review</a>
+      * <a href="#5245-execution-evidence-for-sprint-review">5.2.4.5. Execution Evidence for Sprint Review</a>
+      * <a href="#5246-services-documentation-evidence-for-sprint-review">5.2.4.6. Services Documentation Evidence for Sprint Review</a>
+      * <a href="#5247-software-deployment-evidence-for-sprint-review">5.2.4.7. Software Deployment Evidence for Sprint Review</a>
+      * <a href="#5248-team-collaboration-insights-during-sprint">5.2.4.8. Team Collaboration Insights during Sprint</a>
+  * <a href="#53-validation-interviews">5.3. Validation Interviews</a>
+    * <a href="#531-diseño-de-entrevistas">5.3.1. Diseño de Entrevistas</a>
+    * <a href="#532-registro-de-entrevistas">5.3.2. Registro de Entrevistas</a>
+    * <a href="#533-evaluaciones-según-heurísticas">5.3.3. Evaluaciones según heurísticas</a>
+  * <a href="#54-video-about-the-product">5.4. Video About-the-Product</a>
+* <a href="#conclusiones-y-recomendaciones">Conclusiones y Recomendaciones</a>
+* <a href="#video-app-validation">Video App Validation</a>
+* <a href="#video-about-the-product">Video About the product</a>
+* <a href="#video-about-the-team">Video About the team</a>
+* <a href="#glosario">Glosario</a>
+* <a href="#bibliografía">Bibliografía</a>
+* <a href="#anexos">Anexos</a>
 
 
 
@@ -681,7 +681,7 @@ El Lean UX Canvas es una herramienta ágil que sintetiza los elementos clave del
 </p>
 
 
-<p align="center"> Enlace público del Lean UX Canvas: (<a href="https://miro.com/app/board/uXjVHInt5w4=/" style="text-decoration: none;">https://miro.com/app/board/uXjVHInt5w4=/</a>) </p>
+<p align="center"> Enlace público del Lean UX Canvas: (<a href="https://miro.com/app/board/uXjVHInt5w4=/">https://miro.com/app/board/uXjVHInt5w4=/</a>) </p>
 
 
 ## 1.3. Segmentos objetivo
@@ -959,7 +959,7 @@ Antes de la primera pregunta, el entrevistador sigue este orden:
 | Extensión aproximada de la parcela |  950 m² |
 | Inicio de la entrevista | 00:00 |
 | Duración | 06:09 |
-| URL del video | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBbQDY3p2SiRq-xBW2hRB-dARiTcCuKw4tJ7sUQ8oeVau8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iVsXEQ" style="text-decoration: none;">Video evidencia</a> |
+| URL del video | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBbQDY3p2SiRq-xBW2hRB-dARiTcCuKw4tJ7sUQ8oeVau8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iVsXEQ">Video evidencia</a> |
 | **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-agricultor-1.jpeg" alt="Captura de la entrevista a Rosa Flores" width="300"></div> |
 | **Resumen de la entrevista** | Entrevista realizada a Rosa Flores, agricultora a tiempo completo encargada de la gestión, supervisión y trabajo diario en una parcela familiar de palta con más de 6 años de experiencia en el cultivo. Utiliza un dispositivo Android (Xiaomi Redmi Note 11) para coordinar las labores agrícolas, tomar evidencias fotográficas del calibre de la fruta y comunicarse vía WhatsApp con el dueño de la parcela y los compradores. Señala serios problemas de conectividad a internet en las partes altas del huerto, lo que retrasa la entrega de reportes y negociaciones. Asimismo, destaca la necesidad de un sistema automatizado de guardado y envío de fotos con geolocalización/fecha y un servicio de alertas climáticas tempranas para proteger la floración del palto. |
 
@@ -980,7 +980,7 @@ Antes de la primera pregunta, el entrevistador sigue este orden:
 | Extensión aproximada de la parcela | 1000 m² |
 | Inicio de la entrevista | 00:00 |
 | Duración | 09:28 |
-| URL del video | <a href="https://upcedupe-my.sharepoint.com/:v:/r/personal/u20231h171_upc_edu_pe/Documents/Video%20Entrevista.mp4?d=w350e6ee8e89f44e3a0801080e03a5a37&csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vPTAoG" style="text-decoration: none;">Video Evidencia</a> |
+| URL del video | <a href="https://upcedupe-my.sharepoint.com/:v:/r/personal/u20231h171_upc_edu_pe/Documents/Video%20Entrevista.mp4?d=w350e6ee8e89f44e3a0801080e03a5a37&csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vPTAoG">Video Evidencia</a> |
 | **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-agricultor-2.png" alt="Captura de la entrevista a Gustavo Adolfo Suyo" width="300"></div> |
 | **Resumen de la entrevista** | Entrevista realizada a Gustavo Adolfo Suyo, agricultor de 48 años del distrito de Yauyos. Indicó que cultiva paltas en una parcela de aproximadamente 1000 m². El enlace del video se incorporará cuando esté disponible. |
 
@@ -1002,7 +1002,7 @@ Antes de la primera pregunta, el entrevistador sigue este orden:
 | Volumen de compra aproximado | 30-40kg por semana |
 | Inicio de la entrevista | 00:00 |
 | Duración | 7:27 |
-| URL del video | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQCadRcKNFI3QJCRvB7MCwswAakotnQDzxFR-FZchZomOuI?e=W8zn4F" style="text-decoration: none;">Video evidencia</a> |
+| URL del video | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQCadRcKNFI3QJCRvB7MCwswAakotnQDzxFR-FZchZomOuI?e=W8zn4F">Video evidencia</a> |
 | **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-comprador-1.png" width="300"></div> |
 | **Resumen de la entrevista** | Irma Barreto, dueña y administradora de un pequeño restaurante familiar, comentó que actualmente compra frutas y verduras principalmente a proveedores conocidos, mercados mayoristas y mediante pedidos por WhatsApp. Sus principales dificultades son la variación frecuente de precios, la incertidumbre sobre la calidad y frescura de los productos y la falta de información sobre su origen. Mostró interés en conocer directamente al agricultor, la ubicación de la parcela y el avance de los cultivos antes de realizar una compra. También consideró atractiva la posibilidad de pagar por adelantado una temporada a un precio fijo, siempre que exista un contrato claro y garantías de cumplimiento. Para Irma, las notificaciones sobre el progreso de los cultivos y la fecha estimada de cosecha serían útiles, prefiriendo WhatsApp como principal medio de comunicación. Además, señaló que confiaría más en la plataforma si los agricultores estuvieran verificados, existieran calificaciones de otros comerciantes y se ofrecieran mecanismos de respaldo ante incumplimientos. En general, la entrevista evidencia que el comerciante busca reducir la incertidumbre en precio, calidad, origen y cumplimiento, además de contar con un proceso de compra directo, rápido y transparente. |
 
@@ -1020,7 +1020,7 @@ Antes de la primera pregunta, el entrevistador sigue este orden:
 | Volumen de compra aproximado | 400 kg por semana |
 | Inicio de la entrevista | 00:00 |
 | Duración | 10:33 |
-| URL del video | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQA2ALZ3uFutSaQ8ve7Nk7hqAXADf3-eTjCN6dlRHIPgDVI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MX0bNw" style="text-decoration: none;">Video evidencia</a> |
+| URL del video | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQA2ALZ3uFutSaQ8ve7Nk7hqAXADf3-eTjCN6dlRHIPgDVI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MX0bNw">Video evidencia</a> |
 | **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-comprador-2.png" alt="Captura de la entrevista a César Hugo Egocheaga" width="300"></div> |
 | **Resumen de la entrevista** | Entrevista realizada a César Hugo Egocheaga, concesionario de un puesto en el Mercado Mayorista de Frutas. Explicó que no compra la mercadería, sino que los productores de ceja de selva (zona de Chanchamayo) llevan su fruta al mercado, él la vende al público y cobra una comisión acordada con el agricultor. Trabaja principalmente con papaya, mandarina, naranja y, en algunos casos, manzana. Señala como principales dificultades el clima en época de lluvias, que daña o retrasa el transporte por la carretera central, la estacionalidad de los productos y el costo del flete, que se duplicó por el aumento del combustible y encarece el producto final. Indicó que, cuando la fruta llega maltratada, debe bajar el precio para venderla. Su relación con los productores se basa en la confianza de años y en cobrar sin engañarse. Usa WhatsApp para comunicarse con ellos. Sobre comprar por adelantado a precio fijo, indicó que no es una práctica habitual, aunque algunos concesionarios con capital sí lo hacen, y que una aplicación le sería interesante solo si cuenta con capital y con bastante confianza, porque hoy los tratos se hacen presencialmente para ver la mercadería. Como mejora, propone ampliar los espacios de estacionamiento y las instalaciones del mercado para atender mejor a los clientes. |
 
@@ -1039,7 +1039,7 @@ Antes de la primera pregunta, el entrevistador sigue este orden:
 | Volumen de compra aproximado | 35-45 kg por semana |
 | Inicio de la entrevista | 00:00 |
 | Duración | 9:40 |
-| URL del video | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h171_upc_edu_pe/IQDobg41n-jjRKCAEIDgOlo3AfXMuQqEXkTp0vU3WnDO5Eg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Z15UJ" style="text-decoration: none;">Video evidencia</a> |
+| URL del video | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h171_upc_edu_pe/IQDobg41n-jjRKCAEIDgOlo3AfXMuQqEXkTp0vU3WnDO5Eg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Z15UJ">Video evidencia</a> |
 | **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-comprador-3.png" width="300"></div> |
 | **Resumen de la entrevista** | La entrevista realizada a Carolin, dueña de un restaurante familiar en Lima, revela que realiza sus compras de insumos agrícolas principalmente por WhatsApp con proveedores de confianza, valorando más la calidad y la seguridad que el costo más bajo. Sus principales dolores de cabeza son la inestabilidad semanal de los precios, la incertidumbre sobre la frescura y peso de la mercadería, y los retrasos en las entregas. Ante una posible aplicación de compra directa al agricultor o modelos de precios fijos por temporada, se mostraría interesada siempre y cuando la plataforma garantice transparencia, verificación de identidad de los productores, soporte ante problemas y un canal de comunicación ágil como WhatsApp. |
 
@@ -1173,7 +1173,7 @@ Los tres hotspots quedan como insumo para el Design-Level Event Storming del Cap
 </p>
 
 
- **Enlace Event Storming:** <a href="https://miro.com/app/board/uXjVEOzTlmg=/?share_link_id=401600368120" style="text-decoration: none;">Enlace</a>
+ **Enlace Event Storming:** <a href="https://miro.com/app/board/uXjVEOzTlmg=/?share_link_id=401600368120">Enlace</a>
 
 
 ## 2.5. Ubiquitous Language
@@ -1342,7 +1342,7 @@ El Product Backlog agrupa y prioriza el conjunto de User Stories identificadas. 
 ### Referencia y Enlace Público
 
 * **Herramienta de gestión:** Trello
-* **URL Pública del Product Backlog:** <a href="https://trello.com/b/A0csigUo/terranova" style="text-decoration: none;">https://trello.com/b/A0csigUo/terranova</a> 
+* **URL Pública del Product Backlog:** <a href="https://trello.com/b/A0csigUo/terranova">https://trello.com/b/A0csigUo/terranova</a>
 
 ### Captura de Pantalla 
 <p align="center">
@@ -1847,7 +1847,7 @@ En esta sección se presentan los diagramas de **Wireflow**, los cuales combinan
 
 Para garantizar consistencia en la arquitectura de información, se definieron previamente los *Task Flows* correspondientes a las rutas críticas de nuestros User Personas (**Agricultor** y **Comerciante**), modelando explícitamente cada cambio de estado visual (efecto de selección, apertura de modales o actualización de badges) como un paso independiente con su respectivo wireframe.
 
- **Enlace Wireflow:** <a href="https://www.figma.com/board/KAFi24QzlDrbm4DzuM1DgV/Untitled?node-id=0-1&t=xxM3mTqylB25csWf-1" style="text-decoration: none;">Enlace del diagrama Wireflow</a>
+ **Enlace Wireflow:** <a href="https://www.figma.com/board/KAFi24QzlDrbm4DzuM1DgV/Untitled?node-id=0-1&t=xxM3mTqylB25csWf-1">Enlace del diagrama Wireflow</a>
 
 
 #### Wireflow 1: Registro de Usuario, Selección de Rol y Consulta de Perfil
@@ -1985,7 +1985,7 @@ Las imágenes de Figma y los pasos siguientes describen la experiencia objetivo.
 En esta sección se presenta la propuesta formal de User Flows mapeados a partir de los diagramas de Wireflow previamente validados. Cada flujo integra los Mock-ups finales de alta fidelidad para representar la experiencia visual definitiva, definiendo con claridad tanto la ruta principal o esperada (Happy Path) como las decisiones y rutas de excepción (Unhappy Paths).
 
 * * **Link:** <a href="https://www.figma.com/board/qh5vL4xQoPmKWNJbFj7TGj/Untitled?node-id=0-1&t=gEVZUOH5xRFhc4Dp-1
-" style="text-decoration: none;">Link de los User Flow</a>
+">Link de los User Flow</a>
 
 #### **User Flow 1: Registro de Parcela Agrícola y Publicación en Plataforma**
 * **User Persona:** Alejandro Mendoza (Agricultor)
@@ -2071,11 +2071,11 @@ En el flujo de evidencias, la UI usa review → verified → accepted. El acceso
 
 ![Figura 4.4.4-A. Acuerdo, evidencia y liberación simulada](assets/chapter-04/architecture/18-flow-agreement-evidence.png)
 
-*Figura 4.4.4-A. Acuerdo, evidencia y liberación simulada.* <a href="assets/chapter-04/architecture/18-flow-agreement-evidence.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/18-flow-agreement-evidence.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.4.4-A. Acuerdo, evidencia y liberación simulada.* <a href="assets/chapter-04/architecture/18-flow-agreement-evidence.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/18-flow-agreement-evidence.svg">SVG</a>.
 
 ![Figura 4.4.4-B. Publicación de parcela y consulta del clima](assets/chapter-04/architecture/19-flow-parcels-climate.png)
 
-*Figura 4.4.4-B. Publicación de parcela y consulta del clima.* <a href="assets/chapter-04/architecture/19-flow-parcels-climate.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/19-flow-parcels-climate.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.4.4-B. Publicación de parcela y consulta del clima.* <a href="assets/chapter-04/architecture/19-flow-parcels-climate.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/19-flow-parcels-climate.svg">SVG</a>.
 
 ## 4.5. Web Applications Prototyping
 
@@ -2107,8 +2107,8 @@ A continuación, se presentan los enlaces y capturas de los videos explicativos 
   <img src="./assets/chapter-04/prototipo_desktop.png" alt="Descripción de la imagen" width="700">
 </p>
 
-* **Enlace del prototipo:** <a href="https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=85-504&t=DTHiWfYH71axACfB-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=123%3A494&show-proto-sidebar=1" style="text-decoration: none;">Enlace del prototipo web</a>
-* **Enlace al Video:** <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQDF54TKL6PlS58DK7p4wuJAAQiikz0rs6edE33i_ATjpPk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7pTDmu" style="text-decoration: none;">Ver Demostración</a>
+* **Enlace del prototipo:** <a href="https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=85-504&t=DTHiWfYH71axACfB-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=123%3A494&show-proto-sidebar=1">Enlace del prototipo web</a>
+* **Enlace al Video:** <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQDF54TKL6PlS58DK7p4wuJAAQiikz0rs6edE33i_ATjpPk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7pTDmu">Ver Demostración</a>
 
 ##### 2. Prototipo Mobile Web Browser – Adaptabilidad y Monitoreo en Campo
 * **Descripción del Video:** Demostración de la respuesta adaptativa en navegadores móviles, enfocada en la facilidad de uso para agricultores en campo: consulta de alertas climáticas en tiempo real, navegación táctil y carga directa de fotografías.
@@ -2118,8 +2118,8 @@ A continuación, se presentan los enlaces y capturas de los videos explicativos 
   <img src="./assets/chapter-04/prototipo_movil.png" alt="Descripción de la imagen" width="700">
 </p>
 
-* **Enlace del prototipo:** <a href="https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=257-10099&t=g4J1J50GPL689wBS-1&scaling=scale-down&content-scaling=fixed&page-id=236%3A5996" style="text-decoration: none;">Enlace del prototipo móvil</a>
-* **Enlace al Video:** <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQAF9cog3awORKq4HYfc7F9uAa-vd6s6V_oT3BiDwhjeADQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y3j1dP" style="text-decoration: none;">Ver Demostración</a>
+* **Enlace del prototipo:** <a href="https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=257-10099&t=g4J1J50GPL689wBS-1&scaling=scale-down&content-scaling=fixed&page-id=236%3A5996">Enlace del prototipo móvil</a>
+* **Enlace al Video:** <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQAF9cog3awORKq4HYfc7F9uAa-vd6s6V_oT3BiDwhjeADQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y3j1dP">Ver Demostración</a>
 
 
 ## 4.6. Domain-Driven Software Architecture
@@ -2153,7 +2153,7 @@ El diagrama usa los nombres del código Java: paquetes parcels, agreements, trac
 
 ![Figura 4.6.1. Design-Level EventStorming de allpatek-platform](assets/chapter-04/architecture/01-eventstorming.png)
 
-*Figura 4.6.1. Design-Level EventStorming de allpatek-platform.* <a href="assets/chapter-04/architecture/01-eventstorming.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/01-eventstorming.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.6.1. Design-Level EventStorming de allpatek-platform.* <a href="assets/chapter-04/architecture/01-eventstorming.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/01-eventstorming.svg">SVG</a>.
 
 **Reglas aún por implementar.** El diseño objetivo requiere evitar reservas o temporadas activas superpuestas, validar las condiciones aceptadas por ambas partes y confirmar el abono antes de activar un contrato real. Aprobar un hito y confirmar su desembolso son decisiones distintas. El servidor todavía debe imponer las transiciones, verificar al actor, evitar duplicados y conservar las evidencias durante las actualizaciones. La entrega de un PDF o un aviso no debe confirmar un pago ni determinar su estado.
 
@@ -2165,7 +2165,7 @@ Los actores principales son el agricultor y el comerciante. La landing explica l
 
 ![Figura 4.6.2. Contexto de Allpatek y sistemas externos](assets/chapter-04/architecture/02-context.png)
 
-*Figura 4.6.2. Contexto de Allpatek y sistemas externos.* <a href="assets/chapter-04/architecture/02-context.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/02-context.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.6.2. Contexto de Allpatek y sistemas externos.* <a href="assets/chapter-04/architecture/02-context.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/02-context.svg">SVG</a>.
 
 ### 4.6.3. Software Architecture Container Diagrams
 
@@ -2180,7 +2180,7 @@ Los actores principales son el agricultor y el comerciante. La landing explica l
 
 ![Figura 4.6.3. Contenedores de la demo y de los servicios Java](assets/chapter-04/architecture/03-containers.png)
 
-*Figura 4.6.3. Contenedores de la demo y de los servicios Java.* <a href="assets/chapter-04/architecture/03-containers.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/03-containers.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.6.3. Contenedores de la demo y de los servicios Java.* <a href="assets/chapter-04/architecture/03-containers.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/03-containers.svg">SVG</a>.
 
 La SPA se descarga y ejecuta en el navegador. Su enrutador cambia de vista y sus servicios de datos cargan o actualizan los registros. La configuración revisada todavía separa la API simulada de la API Java: cambiar una URL no resuelve por sí solo los contratos, el acceso ni los datos iniciales.
 
@@ -2190,25 +2190,25 @@ La SPA se descarga y ejecuta en el navegador. Su enrutador cambia de vista y sus
 
 ![Figura 4.6.4-A. Componentes de la API Spring](assets/chapter-04/architecture/04-api-components.png)
 
-*Figura 4.6.4-A. Componentes de la API Spring.* <a href="assets/chapter-04/architecture/04-api-components.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/04-api-components.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.6.4-A. Componentes de la API Spring.* <a href="assets/chapter-04/architecture/04-api-components.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/04-api-components.svg">SVG</a>.
 
 **Aplicación web.** Las rutas (/parcels, /agreements, /evidence, /escrow, /alerts, /profile) coinciden con los módulos parcel-management, agreements-management, tracking-evidence, escrow-payments, alerts-management y shared. /users existe solo en el mock de Angular. La selección de rol y los guardas operan en el cliente.
 
 ![Figura 4.6.4-B. Componentes de la SPA Angular del equipo](assets/chapter-04/architecture/05-web-components.png)
 
-*Figura 4.6.4-B. Componentes de la SPA Angular del equipo.* <a href="assets/chapter-04/architecture/05-web-components.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/05-web-components.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.6.4-B. Componentes de la SPA Angular del equipo.* <a href="assets/chapter-04/architecture/05-web-components.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/05-web-components.svg">SVG</a>.
 
 **Landing.** El header, las secciones informativas, los planes y el contacto son componentes de una página estática. JavaScript gestiona navegación móvil, idioma y formulario. La rama de desarrollo incorpora los videos del producto y del equipo.
 
 ![Figura 4.6.4-C. Componentes de la landing](assets/chapter-04/architecture/06-landing-components.png)
 
-*Figura 4.6.4-C. Componentes de la landing.* <a href="assets/chapter-04/architecture/06-landing-components.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/06-landing-components.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.6.4-C. Componentes de la landing.* <a href="assets/chapter-04/architecture/06-landing-components.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/06-landing-components.svg">SVG</a>.
 
 **Automatización.** El navegador solicita notificaciones para contacto, acuerdo, evidencia y liberación simulada. En la SPA, la llamada de acuerdo se intenta después de guardar la segunda aceptación; la de evidencia se inicia antes del guardado, y la de liberación depende del resultado que informa la UI. El código revisado no confirma la generación de PDF ni la entrega del correo. Spring no dispara estos webhooks en el ZIP.
 
 ![Figura 4.6.4-D. Invocaciones de webhooks desde el navegador](assets/chapter-04/architecture/07-n8n-components.png)
 
-*Figura 4.6.4-D. Invocaciones de webhooks desde el navegador.* <a href="assets/chapter-04/architecture/07-n8n-components.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/07-n8n-components.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.6.4-D. Invocaciones de webhooks desde el navegador.* <a href="assets/chapter-04/architecture/07-n8n-components.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/07-n8n-components.svg">SVG</a>.
 
 ## 4.7. Software Object-Oriented Design
 
@@ -2222,7 +2222,7 @@ Parcel reúne ubicación, área, costo, cronograma, cultivos e imágenes. En el 
 
 ![Figura 4.7.1-A. Clases de gestión de parcelas](assets/chapter-04/architecture/09-classes-plots.png)
 
-*Figura 4.7.1-A. Clases de gestión de parcelas.* <a href="assets/chapter-04/architecture/09-classes-plots.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/09-classes-plots.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.7.1-A. Clases de gestión de parcelas.* <a href="assets/chapter-04/architecture/09-classes-plots.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/09-classes-plots.svg">SVG</a>.
 
 #### Acuerdos de temporada
 
@@ -2230,7 +2230,7 @@ Agreement relaciona una Parcel con un comerciante mediante identificadores y enc
 
 ![Figura 4.7.1-B. Clases de acuerdos](assets/chapter-04/architecture/10-classes-contracts.png)
 
-*Figura 4.7.1-B. Clases de acuerdos.* <a href="assets/chapter-04/architecture/10-classes-contracts.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/10-classes-contracts.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.7.1-B. Clases de acuerdos.* <a href="assets/chapter-04/architecture/10-classes-contracts.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/10-classes-contracts.svg">SVG</a>.
 
 #### Bóveda de demostración
 
@@ -2238,7 +2238,7 @@ Wallet asocia un perfil con PaymentCard y MoneyCents. PaymentCard guarda holder,
 
 ![Figura 4.7.1-C. Clases de wallets de demostración](assets/chapter-04/architecture/11-classes-payments.png)
 
-*Figura 4.7.1-C. Clases de wallets de demostración.* <a href="assets/chapter-04/architecture/11-classes-payments.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/11-classes-payments.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.7.1-C. Clases de wallets de demostración.* <a href="assets/chapter-04/architecture/11-classes-payments.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/11-classes-payments.svg">SVG</a>.
 
 #### Evidencias y clima
 
@@ -2246,7 +2246,7 @@ MilestoneEvidence relaciona una parcela con un número de hito del 1 al 4, un es
 
 ![Figura 4.7.1-D. Clases de evidencias y consulta climática](assets/chapter-04/architecture/12-classes-monitoring.png)
 
-*Figura 4.7.1-D. Clases de evidencias y consulta climática.* <a href="assets/chapter-04/architecture/12-classes-monitoring.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/12-classes-monitoring.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.7.1-D. Clases de evidencias y consulta climática.* <a href="assets/chapter-04/architecture/12-classes-monitoring.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/12-classes-monitoring.svg">SVG</a>.
 
 #### Perfiles compartidos
 
@@ -2254,7 +2254,7 @@ Profile encapsula EmailAddress y CompanyDetails. La API permite consultar y actu
 
 ![Figura 4.7.1-E. Clases de perfiles compartidos](assets/chapter-04/architecture/08-classes-users.png)
 
-*Figura 4.7.1-E. Clases de perfiles compartidos.* <a href="assets/chapter-04/architecture/08-classes-users.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/08-classes-users.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.7.1-E. Clases de perfiles compartidos.* <a href="assets/chapter-04/architecture/08-classes-users.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/08-classes-users.svg">SVG</a>.
 
 ## 4.8. Database Design
 
@@ -2266,23 +2266,23 @@ La API Java usa **MySQL**, con entidades de persistencia para parcels, agreement
 
 ![Figura 4.8.1-A. Tabla parcels y referencia a su propietario](assets/chapter-04/architecture/14-database-plots.png)
 
-*Figura 4.8.1-A. Tabla parcels y referencia a su propietario.* <a href="assets/chapter-04/architecture/14-database-plots.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/14-database-plots.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.8.1-A. Tabla parcels y referencia a su propietario.* <a href="assets/chapter-04/architecture/14-database-plots.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/14-database-plots.svg">SVG</a>.
 
 ![Figura 4.8.1-B. Tabla agreements y referencias a parcela y comerciante](assets/chapter-04/architecture/15-database-contracts.png)
 
-*Figura 4.8.1-B. Tabla agreements y referencias a parcela y comerciante.* <a href="assets/chapter-04/architecture/15-database-contracts.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/15-database-contracts.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.8.1-B. Tabla agreements y referencias a parcela y comerciante.* <a href="assets/chapter-04/architecture/15-database-contracts.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/15-database-contracts.svg">SVG</a>.
 
 ![Figura 4.8.1-C. Tabla wallets y referencia al perfil](assets/chapter-04/architecture/16-database-payments.png)
 
-*Figura 4.8.1-C. Tabla wallets y referencia al perfil.* <a href="assets/chapter-04/architecture/16-database-payments.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/16-database-payments.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.8.1-C. Tabla wallets y referencia al perfil.* <a href="assets/chapter-04/architecture/16-database-payments.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/16-database-payments.svg">SVG</a>.
 
 ![Figura 4.8.1-D. Tabla evidence y referencia a parcela](assets/chapter-04/architecture/17-database-monitoring.png)
 
-*Figura 4.8.1-D. Tabla evidence y referencia a parcela.* <a href="assets/chapter-04/architecture/17-database-monitoring.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/17-database-monitoring.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.8.1-D. Tabla evidence y referencia a parcela.* <a href="assets/chapter-04/architecture/17-database-monitoring.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/17-database-monitoring.svg">SVG</a>.
 
 ![Figura 4.8.1-E. Tabla profiles y datos de contacto](assets/chapter-04/architecture/13-database-users.png)
 
-*Figura 4.8.1-E. Tabla profiles y datos de contacto.* <a href="assets/chapter-04/architecture/13-database-users.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/13-database-users.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.8.1-E. Tabla profiles y datos de contacto.* <a href="assets/chapter-04/architecture/13-database-users.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/13-database-users.svg">SVG</a>.
 
 evidence es el nombre físico en MySQL (@Table(name = "evidence")); /api/v1/evidence es la ruta HTTP. Las listas de cultivos e imágenes se serializan como texto JSON. Los archivos de evidencia se guardan como texto de imagen y nombre de archivo. wallets persiste card_number y cvv además de last4. No existen tablas de cuentas de acceso, reservas, hitos independientes, transacciones, reseñas ni alertas meteorológicas. Para el diseño objetivo quedan pendientes las restricciones entre registros, la protección de datos y la conservación de archivos al cambiar un estado.
 
@@ -2339,9 +2339,9 @@ Para llevar un control claro de los cambios y trabajar en equipo de forma ordena
 
 Organizamos el proyecto en repositorios independientes según cada producto digital:
 
-* **Landing Page (HTML, CSS y JS):** <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website" style="text-decoration: none;">Enlace del repositorio</a>
-* **Web Services (Java / Spring Boot):** <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform" style="text-decoration: none;">Enlace del repositorio</a>
-* **Frontend Web Application (Angular):** <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp" style="text-decoration: none;">Enlace del repositorio</a>
+* **Landing Page (HTML, CSS y JS):** <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website">Enlace del repositorio</a>
+* **Web Services (Java / Spring Boot):** <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform">Enlace del repositorio</a>
+* **Frontend Web Application (Angular):** <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp">Enlace del repositorio</a>
 
 
 #### Estrategia de Trabajo: GitFlow
@@ -2505,7 +2505,7 @@ La Landing Page es una solución web estática desarrollada con HTML, CSS y Java
 2. **Conectar el repositorio con GitHub**
     ```bash
     git branch -M main
-    git remote add origin <a href="https://github.com/TuOrganizacion/landing-page.git" style="text-decoration: none;">https://github.com/TuOrganizacion/landing-page.git</a>
+    git remote add origin <a href="https://github.com/TuOrganizacion/landing-page.git">https://github.com/TuOrganizacion/landing-page.git</a>
     git push -u origin main
     ```
 3. **Configurar GitHub Pages**
@@ -2515,7 +2515,7 @@ La Landing Page es una solución web estática desarrollada con HTML, CSS y Java
         * **Source:** Deploy from a branch
         * **Branch:** main
         * **Folder:** / (root)
-    * **Resultado público:** <a href="https://TuOrganizacion.github.io/landing-page/" style="text-decoration: none;">https://TuOrganizacion.github.io/landing-page/</a>
+    * **Resultado público:** <a href="https://TuOrganizacion.github.io/landing-page/">https://TuOrganizacion.github.io/landing-page/</a>
 
 
 
@@ -2532,7 +2532,7 @@ El frontend está desarrollado con Angular y se despliega en Netlify mediante in
     git push origin main
     ```
 2. **Configurar en Netlify**
-    * Acceder a: <a href="https://www.netlify.com/" style="text-decoration: none;">https://www.netlify.com/</a>
+    * Acceder a: <a href="https://www.netlify.com/">https://www.netlify.com/</a>
     * Seleccionar **Add new site** → **Import an existing project**.
     * Conectar con la cuenta de GitHub.
     * Seleccionar el repositorio correspondiente al frontend en Angular.
@@ -2564,7 +2564,7 @@ Configurar DATABASE_URL con el host de MySQL, DATABASE_PORT, DATABASE_NAME, DATA
 
 1. Preparar Java 27 y el Maven Wrapper. Compilar con ./mvnw clean package con las dependencias y una instancia MySQL de prueba configurada para el test de arranque; ejecutar el JAR con java -jar <archivo.jar>.
 2. Para un entorno publicado, configurar SPRING_PROFILES_ACTIVE=prod y PORT, aplicar el esquema en MySQL y cargar datos de prueba.
-3. Antes de conectar Angular, permitir su origen HTTPS en CORS y ajustar el servidor de Swagger, configurado en el ZIP como <a href="http://localhost:8090" style="text-decoration: none;">http://localhost:8090</a>.
+3. Antes de conectar Angular, permitir su origen HTTPS en CORS y ajustar el servidor de Swagger, configurado en el ZIP como <a href="http://localhost:8090">http://localhost:8090</a>.
 4. Comprobar /health, OpenAPI y una operación persistente. /health informa que la aplicación responde; la prueba de parcelas comprueba además la base.
 
 #### 6. Integración y evidencia
@@ -2657,84 +2657,84 @@ El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de 
 <table>
     <thead>
       <tr style="background-color: #f2f2f2;">
-        <th style="border: 1px solid #dddddd; padding: 10px;">Team Member</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Header / Navbar</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Hero</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Services</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">How It Works</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Testimonials</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Team</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Contact Form</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Footer</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Plans</th>
+        <th>Team Member</th>
+        <th>GitHub Username</th>
+        <th>Header / Navbar</th>
+        <th>Hero</th>
+        <th>Services</th>
+        <th>How It Works</th>
+        <th>Testimonials</th>
+        <th>Team</th>
+        <th>Contact Form</th>
+        <th>Footer</th>
+        <th>Plans</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Alexander1Alexander2</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td>Atauje Barreto, Alexander Sebastián</td>
+        <td>Alexander1Alexander2</td>
+        <td>C</td>
+        <td>C</td>
+        <td>L</td>
+        <td>L</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">MiguelAngel0107</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td>Egocheaga Suyo, Miguel Angel</td>
+        <td>MiguelAngel0107</td>
+        <td>L</td>
+        <td>L</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">melandree8</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td>Orellana Rodríguez, Mel Andree</td>
+        <td>melandree8</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>L</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">AbigailRV</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td>Raymundo Villarroel, Abigail Nadhim</td>
+        <td>AbigailRV</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>L</td>
+        <td>L</td>
+        <td>C</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Macaxprogram29</td>
-       <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td>Vera Solsol, Nayely Macarena</td>
+        <td>Macaxprogram29</td>
+       <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>L</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>L</td>
       </tr>
     </tbody>
   </table>
@@ -2759,7 +2759,7 @@ Para la gestión y control del flujo de trabajo, las tareas se organizaron y mon
 
 * **Figura 5.2.1.3.1.** Captura histórica del tablero del Sprint 1 en Trello. Se conservan las columnas y tarjetas originales; seleccionar la imagen permite ampliar su contenido.
 
-* **URL del Board del Sprint 1:** <a href="https://trello.com/b/A0csigUo/terranova" style="text-decoration: none;">Ver tablero Trello - TerraNova Sprint 1</a>
+* **URL del Board del Sprint 1:** <a href="https://trello.com/b/A0csigUo/terranova">Ver tablero Trello - TerraNova Sprint 1</a>
 
 
 ### Tabla de Control de Estado del Sprint Backlog 1
@@ -2874,7 +2874,7 @@ A continuación se presenta la evidencia gráfica con las capturas de las princi
 
 Para profundizar en la revisión de la ejecución de este Sprint, el equipo preparó una presentación en video donde se ilustra y explica en detalle el recorrido interactivo, las transacciones visuales (*smooth scroll*), las animaciones de componentes y la navegación fluida lograda en la Landing Page:
 
-* **Enlace al Video de Evidencia:** <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQApudu7-aW0R6zofbarn9-pAd96aUTXm_GwyTKAwac5l90?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7oUJHv" style="text-decoration: none;">Ver Demostración de Navegación del Sprint 1</a>
+* **Enlace al Video de Evidencia:** <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQApudu7-aW0R6zofbarn9-pAd96aUTXm_GwyTKAwac5l90?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7oUJHv">Ver Demostración de Navegación del Sprint 1</a>
 * **Duración:** ~03:30 min.
 * **Contenido:** Recorrido por la Landing Page, validación de diseño *responsive* en vista de escritorio y móvil, interacción con botones CTA y prueba de captura del formulario de contacto.
 
@@ -2912,7 +2912,7 @@ Captura del panel de GitHub Pages con el sitio ya publicado:
 
 | Producto Digital | Entorno / Hosting | Fuente de Despliegue | Estado de Publicación | Dirección URL de Acceso Público |
 | :--- | :--- | :---: | :---: | :--- |
-| **Landing Page** | GitHub Pages | Rama main (/root) | **Active / Live** | <a href="https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-report/" style="text-decoration: none;">https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-report/</a> |
+| **Landing Page** | GitHub Pages | Rama main (/root) | **Active / Live** | <a href="https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-report/">https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-report/</a> |
 
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
@@ -3027,66 +3027,66 @@ La matriz relaciona a cada integrante con el bounded context que lidera en este 
 <table>
   <thead>
     <tr style="background-color: #f2f2f2;">
-      <th style="border: 1px solid #dddddd; padding: 10px;">Team Member</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">agreements-management</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">alerts-management</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">escrow-payments</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">parcel-management</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">tracking-evidence</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">shared</th>
+      <th>Team Member</th>
+      <th>GitHub Username</th>
+      <th>agreements-management</th>
+      <th>alerts-management</th>
+      <th>escrow-payments</th>
+      <th>parcel-management</th>
+      <th>tracking-evidence</th>
+      <th>shared</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Alexander1Alexander2</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Atauje Barreto, Alexander Sebastián</td>
+      <td>Alexander1Alexander2</td>
+      <td></td>
+      <td>L</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">MiguelAngel0107</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Egocheaga Suyo, Miguel Angel</td>
+      <td>MiguelAngel0107</td>
+      <td></td>
+      <td></td>
+      <td>L</td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">melandree8</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+      <td>Orellana Rodríguez, Mel Andree</td>
+      <td>melandree8</td>
+      <td>L</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>L</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">AbigailRV</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Raymundo Villarroel, Abigail Nadhim</td>
+      <td>AbigailRV</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>L</td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Macaxprogram29</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Vera Solsol, Nayely Macarena</td>
+      <td>Macaxprogram29</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>L</td>
+      <td></td>
     </tr>
   </tbody>
 </table>
@@ -3125,7 +3125,7 @@ Los puntos se toman del Product Backlog (3.3). US05 aparece en las tareas de ale
 
 * **Figura 5.2.2.3.1.** Captura original del tablero Allpatek-Sprint-02, proporcionada para esta revisión. Seleccionar la imagen permite ampliarla.
 
-* **URL pública del Board del Sprint 2:** <a href="https://trello.com/b/wg5hoQwD/allpatek-sprint-02" style="text-decoration: none;">Ver tablero Trello - ALLPATEK Sprint 2</a>
+* **URL pública del Board del Sprint 2:** <a href="https://trello.com/b/wg5hoQwD/allpatek-sprint-02">Ver tablero Trello - ALLPATEK Sprint 2</a>
 
 **Estado observado y diferencia de conteo**
 
@@ -3356,15 +3356,15 @@ En este Sprint se completó la especificación, documentación y despliegue del 
 ###  Entornos de Servicio
 
 * **URL Base Desplegada (Producción/Staging):**  
-  <a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1" style="text-decoration: none;">https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1</a>
+  <a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1">https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1</a>
 
 * **URL Base Local (Entorno de Desarrollo):**  
-  <a href="http://localhost:3000/api/v1" style="text-decoration: none;">http://localhost:3000/api/v1</a>
+  <a href="http://localhost:3000/api/v1">http://localhost:3000/api/v1</a>
 
 
 ### 2. Repositorio y Commits de Documentación
 
-* **Repositorio de Web Services (GitHub):**  <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock" style="text-decoration: none;">Repositorio Web Mock API</a>
+* **Repositorio de Web Services (GitHub):**  <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock">Repositorio Web Mock API</a>
 
 ###  Commits Relacionados con el Contrato de Servicios
 | Commit Hash | Tipo / Mensaje de Commit | Descripción / Alcance |
@@ -3377,7 +3377,7 @@ En este Sprint se completó la especificación, documentación y despliegue del 
 
 ### 3. Matriz de Endpoints del Alcance del Sprint
 
-> **Ruta Base (BASE):** <a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1" style="text-decoration: none;">https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1</a>
+> **Ruta Base (BASE):** <a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1">https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1</a>
 
 | Endpoint | Verbo HTTP | Bounded Context | Descripción de Acción | URL Documentada / Desplegada |
 | :---: | :---: | :---: | :---: | :---: |
@@ -3426,14 +3426,14 @@ Este documento detalla el procedimiento técnico, las configuraciones y las evid
       <td style="text-align: center;">Node.js (json-server)</td>
       <td style="text-align: center;">Azure App Service</td>
       <td style="text-align: center;">allpatek-platform-mock</td>
-      <td style="text-align: center;"><a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/" target="_blank" style="text-decoration: none;">Ver API</a></td>
+      <td style="text-align: center;"><a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/" target="_blank">Ver API</a></td>
     </tr>
     <tr>
       <td style="text-align: center;"><strong>Frontend</strong></td>
       <td style="text-align: center;">Angular 22</td>
       <td style="text-align: center;">Netlify</td>
       <td style="text-align: center;">allpatek-webapp</td>
-      <td style="text-align: center;"><a href="https://terranova-allpatek.netlify.app/" target="_blank" style="text-decoration: none;">Ver Web App</a></td>
+      <td style="text-align: center;"><a href="https://terranova-allpatek.netlify.app/" target="_blank">Ver Web App</a></td>
     </tr>
   </tbody>
 </table>
@@ -3465,7 +3465,7 @@ Se configuró y creó una instancia de **Azure Web App** optimizada para ejecuta
 ### Paso 2: Confirmación de Infraestructura Activa
 Azure completó exitosamente el aprovisionamiento de los recursos cloud. El endpoint base quedó activo y listo para recibir publicaciones de código.
 
-* **Endpoint Base API:** <a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1" style="text-decoration: none;">https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1</a>
+* **Endpoint Base API:** <a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1">https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1</a>
 * **Estado de Infraestructura:** OK / Se completó la implementación
 
 
@@ -3560,7 +3560,7 @@ Netlify procesó el pipeline de construcción de Angular y publicó el cliente w
 ### Paso 4: Verificación del Frontend desplegado en Producción
 Se realizó la comprobación final de acceso en vivo a la aplicación web, verificando la carga correcta de la interfaz Angular comunicándose con el entorno de backend.
 
-* **URL de Producción:** <a href="https://terranova-allpatek.netlify.app" style="text-decoration: none;">Ver App Web</a>
+* **URL de Producción:** <a href="https://terranova-allpatek.netlify.app">Ver App Web</a>
 * **Resultado:** Carga interactiva correcta en navegador sin errores de renderizado.
 
 
@@ -3674,66 +3674,66 @@ La matriz relaciona a cada integrante con el bounded context que lidera en este 
 <table>
   <thead>
     <tr style="background-color: #f2f2f2;">
-      <th style="border: 1px solid #dddddd; padding: 10px;">Team Member</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">agreements-management</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">alerts-management</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">escrow-payments</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">parcel-management</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">tracking-evidence</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">shared</th>
+      <th>Team Member</th>
+      <th>GitHub Username</th>
+      <th>agreements-management</th>
+      <th>alerts-management</th>
+      <th>escrow-payments</th>
+      <th>parcel-management</th>
+      <th>tracking-evidence</th>
+      <th>shared</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Alexander1Alexander2</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Atauje Barreto, Alexander Sebastián</td>
+      <td>Alexander1Alexander2</td>
+      <td></td>
+      <td>L</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">MiguelAngel0107</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Egocheaga Suyo, Miguel Angel</td>
+      <td>MiguelAngel0107</td>
+      <td></td>
+      <td></td>
+      <td>L</td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">melandree8</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+      <td>Orellana Rodríguez, Mel Andree</td>
+      <td>melandree8</td>
+      <td>L</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>L</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">AbigailRV</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Raymundo Villarroel, Abigail Nadhim</td>
+      <td>AbigailRV</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>L</td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Macaxprogram29</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Vera Solsol, Nayely Macarena</td>
+      <td>Macaxprogram29</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>L</td>
+      <td></td>
     </tr>
   </tbody>
 </table>
@@ -3768,7 +3768,7 @@ Los puntos se toman del Product Backlog (3.3). US05 aparece en las tareas de ale
 </p>
 
 * **Figura 5.2.3.3.1.** Captura histórica del tablero Allpatek-Sprint-03 en Trello. Muestra las tareas y sus estados al momento de la captura; seleccionar la imagen permite ampliarla.
-* **URL del Board del Sprint 3:** <a href="https://trello.com/b/PffylQcc/allpatek-sprint-03" style="text-decoration: none;">Ver tablero Trello - ALLPATEK Sprint 3</a>
+* **URL del Board del Sprint 3:** <a href="https://trello.com/b/PffylQcc/allpatek-sprint-03">Ver tablero Trello - ALLPATEK Sprint 3</a>
 
 **Distribución de tareas y esfuerzo estimado**
 
@@ -4022,19 +4022,19 @@ Los Web Services de este sprint (allpatek-platform) se documentaron con springdo
 
 ### Entornos de servicio
 
-* **Swagger UI (publicado):** <a href="https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html" style="text-decoration: none;">https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html</a>
-* **URL base publicada:** <a href="https://allpatek-platform.onrender.com/api/v1" style="text-decoration: none;">https://allpatek-platform.onrender.com/api/v1</a>
-* **URL base local:** <a href="http://localhost:8090/api/v1" style="text-decoration: none;">http://localhost:8090/api/v1</a>
-* **Swagger UI local:** <a href="http://localhost:8090/swagger-ui/index.html" style="text-decoration: none;">http://localhost:8090/swagger-ui/index.html</a>
+* **Swagger UI (publicado):** <a href="https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html">https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html</a>
+* **URL base publicada:** <a href="https://allpatek-platform.onrender.com/api/v1">https://allpatek-platform.onrender.com/api/v1</a>
+* **URL base local:** <a href="http://localhost:8090/api/v1">http://localhost:8090/api/v1</a>
+* **Swagger UI local:** <a href="http://localhost:8090/swagger-ui/index.html">http://localhost:8090/swagger-ui/index.html</a>
 
 ### 2. Repositorio y commits de documentación
 
-* **Repositorio de Web Services:** <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform" style="text-decoration: none;">allpatek-platform</a>
+* **Repositorio de Web Services:** <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform">allpatek-platform</a>
 
 
 ### 3. Matriz de endpoints del alcance del Sprint
 
-> **Ruta base (BASE):** <a href="https://allpatek-platform.onrender.com/api/v1" style="text-decoration: none;">https://allpatek-platform.onrender.com/api/v1</a>
+> **Ruta base (BASE):** <a href="https://allpatek-platform.onrender.com/api/v1">https://allpatek-platform.onrender.com/api/v1</a>
 
 | US | Endpoint | Verbo | Parámetros | Acción | Ejemplo de respuesta |
 | :---: | :--- | :---: | :--- | :--- | :--- |
@@ -4073,9 +4073,9 @@ El backend del Sprint 3 ya corría en local, pero para la revisión hacía falta
     <tr>
       <td style="text-align: center;"><strong>Web Services</strong></td>
       <td style="text-align: center;">Java 27, Spring Boot 4, Spring Data JPA, MySQL 8.4</td>
-      <td style="text-align: center;"><a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform" target="_blank" style="text-decoration: none;">allpatek-platform</a></td>
+      <td style="text-align: center;"><a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform" target="_blank">allpatek-platform</a></td>
       <td style="text-align: center;">Primera versión de la API RESTful interna</td>
-      <td style="text-align: center;"><a href="https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html" target="_blank" style="text-decoration: none;">Swagger UI (Render)</a></td>
+      <td style="text-align: center;"><a href="https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html" target="_blank">Swagger UI (Render)</a></td>
     </tr>
   </tbody>
 </table>
@@ -4133,8 +4133,8 @@ La configuración se documenta por nombre de variable, sin publicar los valores 
 
 El último commit de develop compiló la imagen, conectó a MySQL en Aiven por SSL y dejó el servicio arriba. Se comprobó abriendo **Swagger UI**.
 
-* **Swagger UI:** <a href="https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html" style="text-decoration: none;">https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html</a>
-* **API:** <a href="https://allpatek-platform.onrender.com/api/v1" style="text-decoration: none;">https://allpatek-platform.onrender.com/api/v1</a>
+* **Swagger UI:** <a href="https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html">https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html</a>
+* **API:** <a href="https://allpatek-platform.onrender.com/api/v1">https://allpatek-platform.onrender.com/api/v1</a>
 
 <p align="center">
   <a href="assets/chapter-05/desplieguee05.png">
@@ -4232,66 +4232,66 @@ Los cinco salen en Insights del repositorio. El pico de commits cae entre finale
 <table>
   <thead>
     <tr style="background-color: #f2f2f2;">
-      <th style="border: 1px solid #dddddd; padding: 10px;">Team Member</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">agreements-management</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">alerts-management</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">escrow-payments</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">parcel-management</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">tracking-evidence</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">shared</th>
+      <th>Team Member</th>
+      <th>GitHub Username</th>
+      <th>agreements-management</th>
+      <th>alerts-management</th>
+      <th>escrow-payments</th>
+      <th>parcel-management</th>
+      <th>tracking-evidence</th>
+      <th>shared</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Alexander1Alexander2</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Atauje Barreto, Alexander Sebastián</td>
+      <td>Alexander1Alexander2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">MiguelAngel0107</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Egocheaga Suyo, Miguel Angel</td>
+      <td>MiguelAngel0107</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">melandree8</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Orellana Rodríguez, Mel Andree</td>
+      <td>melandree8</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">AbigailRV</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Raymundo Villarroel, Abigail Nadhim</td>
+      <td>AbigailRV</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Macaxprogram29</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Vera Solsol, Nayely Macarena</td>
+      <td>Macaxprogram29</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
@@ -4320,7 +4320,7 @@ El objetivo principal del **Sprint 4** es .
 </p>
 
 * **Figura 5.2.4.3.1.** Captura del tablero del Sprint 4 en la herramienta de control, con el estado de las tareas.
-* **URL pública del Board:** <a href="" style="text-decoration: none;">Tablero Trello TerraNova</a>
+* **URL pública del Board:** <a href="">Tablero Trello TerraNova</a>
 
 ### Tabla de Control de Estado del Sprint Backlog 4
 
@@ -4380,18 +4380,18 @@ Descripción de la documentación de los servicios de este sprint.
 
 ### Entornos de servicio
 
-* **Swagger UI (publicado):** <a href="" style="text-decoration: none;"></a>
-* **URL base publicada:** <a href="" style="text-decoration: none;"></a>
-* **URL base local:** <a href="" style="text-decoration: none;"></a>
-* **Swagger UI local:** <a href="" style="text-decoration: none;"></a>
+* **Swagger UI (publicado):** <a href=""></a>
+* **URL base publicada:** <a href=""></a>
+* **URL base local:** <a href=""></a>
+* **Swagger UI local:** <a href=""></a>
 
 ### 2. Repositorio y commits de documentación
 
-* **Repositorio de Web Services:** <a href="" style="text-decoration: none;"></a>
+* **Repositorio de Web Services:** <a href=""></a>
 
 ### 3. Matriz de endpoints del alcance del Sprint
 
-> **Ruta base (BASE):** <a href="" style="text-decoration: none;"></a>
+> **Ruta base (BASE):** <a href=""></a>
 
 | US | Endpoint | Verbo | Parámetros | Acción | Ejemplo de respuesta |
 | :---: | :--- | :---: | :--- | :--- | :--- |
@@ -4640,7 +4640,7 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
     </tr>
     <tr>
       <td align="center">URL del video</td>
-      <td align="center"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQCXWmxVVzRyTKLNnMjuRh8cAanVcxuNzSX2roCt7lOrZm0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QWoAks" target="_blank" style="text-decoration: none;">Ver entrevista de validación: Entrevista Agricultor 3</a></td>
+      <td align="center"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQCXWmxVVzRyTKLNnMjuRh8cAanVcxuNzSX2roCt7lOrZm0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QWoAks" target="_blank">Ver entrevista de validación: Entrevista Agricultor 3</a></td>
     </tr>
     <tr>
       <td align="center"><b>Fotografía</b></td>
@@ -4652,7 +4652,7 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
     </tr>
     <tr>
       <td align="center">Fuente del perfil</td>
-      <td align="center"><a href="#entrevista-[N]-rosa-flores" style="text-decoration: none;">Entrevista inicial de Rosa Flores</a></td>
+      <td align="center"><a href="#entrevista-[N]-rosa-flores">Entrevista inicial de Rosa Flores</a></td>
     </tr>
   </tbody>
 </table>
@@ -4711,7 +4711,7 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
     </tr>
     <tr>
       <td align="center">URL del video</td>
-      <td align="center"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQDhDCYqAhxbSKhg92qWZNqhAYT4gneD9GoPPK-jzUowbr8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;e=vkukAa" target="_blank" style="text-decoration: none;">Ver entrevista de validación: Entrevista Agricultor Dos</a></td>
+      <td align="center"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQDhDCYqAhxbSKhg92qWZNqhAYT4gneD9GoPPK-jzUowbr8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;e=vkukAa" target="_blank">Ver entrevista de validación: Entrevista Agricultor Dos</a></td>
     </tr>
     <tr>
       <td align="center"><b>Fotografía</b></td>
@@ -4723,7 +4723,7 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
     </tr>
     <tr>
       <td align="center">Fuente del perfil</td>
-      <td align="center"><a href="#entrevista-2-gustavo-adolfo-suyo" style="text-decoration: none;">Entrevista inicial de Gustavo Adolfo Suyo (sección 2.2.2)</a></td>
+      <td align="center"><a href="#entrevista-2-gustavo-adolfo-suyo">Entrevista inicial de Gustavo Adolfo Suyo (sección 2.2.2)</a></td>
     </tr>
   </tbody>
 </table>
@@ -4784,7 +4784,7 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
     <tr>
       <td align="center">URL del video</td>
       <td align="center">
-        <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQA3Ki7VhhDdQIWWQzMUBKdlAX8OWAtP6xUPKwXCyBXh3w0?e=9NLXS5" target="_blank" style="text-decoration: none;">Video evidencia</a>
+        <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQA3Ki7VhhDdQIWWQzMUBKdlAX8OWAtP6xUPKwXCyBXh3w0?e=9NLXS5" target="_blank">Video evidencia</a>
       </td>
     </tr>
     <tr>
@@ -4867,7 +4867,7 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
     </tr>
     <tr>
       <td align="center">Fuente del perfil</td>
-      <td align="center"><a href="#entrevista-2-césar-hugo-egocheaga" style="text-decoration: none;">Entrevista inicial de César Hugo Egocheaga (sección 2.2.2)</a></td>
+      <td align="center"><a href="#entrevista-2-césar-hugo-egocheaga">Entrevista inicial de César Hugo Egocheaga (sección 2.2.2)</a></td>
     </tr>
   </tbody>
 </table>
@@ -5066,8 +5066,8 @@ Video **About-the-Product**: demo de Allpatek (catálogo de parcelas, clima, ace
     
 | Tipo | Enlace del Video |
 | :--- | :--- |
-| **About the Product**  | <a href="https://youtu.be/se1KsUnUtmI" style="text-decoration: none;">Enlace About the Product</a> |
-| **About the Product (Youtube)**  | <a href="https://youtu.be/se1KsUnUtmI" style="text-decoration: none;">Enlace About the Product</a> |
+| **About the Product**  | <a href="https://youtu.be/se1KsUnUtmI">Enlace About the Product</a> |
+| **About the Product (Youtube)**  | <a href="https://youtu.be/se1KsUnUtmI">Enlace About the Product</a> |
 
     
 </div>
@@ -5113,7 +5113,7 @@ Video **About-the-Team**: el equipo TerraNova cuenta quién hizo qué en Allpate
     
 | Tipo | Enlace del Video |
 | :--- | :--- |
-| **About the Team**  | <a href="https://youtu.be/HGon8P2sQRE" style="text-decoration: none;">Enlace About the Team</a> |
+| **About the Team**  | <a href="https://youtu.be/HGon8P2sQRE">Enlace About the Team</a> |
 | **About the Team (Youtube)**  | <a href="https://youtu.be/HGon8P2sQRE">Enlace About the Team</a> |
 
 
@@ -5129,15 +5129,15 @@ Video **About-the-Team**: el equipo TerraNova cuenta quién hizo qué en Allpate
 
 
 # Bibliografía
-Fan, Q., & Salas Garcia, V. B. (2018). Information access and smallholder farmers' market participation in Peru. Journal of Agricultural Economics, 69(2), 476–494. <a href="https://doi.org/10.1111/1477-9552.12243" style="text-decoration: none;">https://doi.org/10.1111/1477-9552.12243</a>
+Fan, Q., & Salas Garcia, V. B. (2018). Information access and smallholder farmers' market participation in Peru. Journal of Agricultural Economics, 69(2), 476–494. <a href="https://doi.org/10.1111/1477-9552.12243">https://doi.org/10.1111/1477-9552.12243</a>
 
-Heikkinen, A. M. (2021). Climate change, power, and vulnerabilities in the Peruvian Highlands. Regional Environmental Change, 21(3), 82. <a href="https://doi.org/10.1007/s10113-021-01825-8" style="text-decoration: none;">https://doi.org/10.1007/s10113-021-01825-8</a>
+Heikkinen, A. M. (2021). Climate change, power, and vulnerabilities in the Peruvian Highlands. Regional Environmental Change, 21(3), 82. <a href="https://doi.org/10.1007/s10113-021-01825-8">https://doi.org/10.1007/s10113-021-01825-8</a>
 
-Heros, C., & De la Torre Ugarte, D. (2022). Política para el impulso de la Pequeña Agricultura Familiar. Consorcio de Investigación Económica y Social. <a href="https://cies.org.pe/investigacion/politica-para-el-impulso-de-la-pequena-agricultura-familiar/" style="text-decoration: none;">https://cies.org.pe/investigacion/politica-para-el-impulso-de-la-pequena-agricultura-familiar/</a>
+Heros, C., & De la Torre Ugarte, D. (2022). Política para el impulso de la Pequeña Agricultura Familiar. Consorcio de Investigación Económica y Social. <a href="https://cies.org.pe/investigacion/politica-para-el-impulso-de-la-pequena-agricultura-familiar/">https://cies.org.pe/investigacion/politica-para-el-impulso-de-la-pequena-agricultura-familiar/</a>
 
-Otsuka, K., Nakano, Y., & Takahashi, K. (2016). Contract farming in developed and developing countries. Annual Review of Resource Economics, 8(1), 353–376. <a href="https://doi.org/10.1146/annurev-resource-100815-095459" style="text-decoration: none;">https://doi.org/10.1146/annurev-resource-100815-095459</a>
+Otsuka, K., Nakano, Y., & Takahashi, K. (2016). Contract farming in developed and developing countries. Annual Review of Resource Economics, 8(1), 353–376. <a href="https://doi.org/10.1146/annurev-resource-100815-095459">https://doi.org/10.1146/annurev-resource-100815-095459</a>
 
-Tambet, H., & Stopnitzky, Y. (2021). Climate adaptation and conservation agriculture among Peruvian farmers. American Journal of Agricultural Economics, 103(3), 900–922. <a href="https://doi.org/10.1111/ajae.12177" style="text-decoration: none;">https://doi.org/10.1111/ajae.12177</a>
+Tambet, H., & Stopnitzky, Y. (2021). Climate adaptation and conservation agriculture among Peruvian farmers. American Journal of Agricultural Economics, 103(3), 900–922. <a href="https://doi.org/10.1111/ajae.12177">https://doi.org/10.1111/ajae.12177</a>
 
 
 
@@ -5165,11 +5165,11 @@ Repositorios oficiales en la organización pública de **GitHub** del equipo **T
 
 | Producto / Artefacto | Repositorio Oficial | Rama Principal | Estado | Enlace al Repositorio |
 | :--- | :--- | :---: | :---: | :---: |
-| **Project Report** | allpatek-report | main | Active | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-report" style="text-decoration: none;">Ver Repositorio del Informe</a> |
-| **Landing Page** | allpatek-website | main | Deployed | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website" style="text-decoration: none;">Ver Repositorio Landing Page</a> |
-| **Web App** | allpatek-webapp | main | Active | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp" style="text-decoration: none;">Ver Repositorio Web App</a> |
-| **Backend (Web Services)** | allpatek-platform | main | Active | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform" style="text-decoration: none;">Ver Repositorio Backend</a> |
-| **Fake API (Mock)** | allpatek-platform-mock | main | Active | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock" style="text-decoration: none;">Ver Repositorio Fake API</a> |
+| **Project Report** | allpatek-report | main | Active | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-report">Ver Repositorio del Informe</a> |
+| **Landing Page** | allpatek-website | main | Deployed | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website">Ver Repositorio Landing Page</a> |
+| **Web App** | allpatek-webapp | main | Active | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp">Ver Repositorio Web App</a> |
+| **Backend (Web Services)** | allpatek-platform | main | Active | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform">Ver Repositorio Backend</a> |
+| **Fake API (Mock)** | allpatek-platform-mock | main | Active | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock">Ver Repositorio Fake API</a> |
 
 </div>
 
@@ -5181,11 +5181,11 @@ Acceso a los productos digitales de **ALLPATEK** desplegados públicamente en en
 
 | Producto Digital | Entorno / Provider | Estado | Dirección URL de Acceso Público |
 | :--- | :---: | :---: | :---: |
-| **Landing Page (ALLPATEK)** | GitHub Pages | Live | <a href="https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/" style="text-decoration: none;">https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/</a> |
-| **Web App (ALLPATEK)** | Netlify | Live | <a href="https://terranova-allpatek.netlify.app/" style="text-decoration: none;">https://terranova-allpatek.netlify.app/</a> |
-| **Web Services (API REST base)** | Render | Live | <a href="https://allpatek-platform.onrender.com/api/v1" style="text-decoration: none;">https://allpatek-platform.onrender.com/api/v1</a> |
-| **Documentación OpenAPI (Swagger UI)** | Render | Live | <a href="https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html" style="text-decoration: none;">https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html</a> |
-| **Fake API (Mock API)** | Azure App Service | Live | <a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/" style="text-decoration: none;">https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/</a> |
+| **Landing Page (ALLPATEK)** | GitHub Pages | Live | <a href="https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/">https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/</a> |
+| **Web App (ALLPATEK)** | Netlify | Live | <a href="https://terranova-allpatek.netlify.app/">https://terranova-allpatek.netlify.app/</a> |
+| **Web Services (API REST base)** | Render | Live | <a href="https://allpatek-platform.onrender.com/api/v1">https://allpatek-platform.onrender.com/api/v1</a> |
+| **Documentación OpenAPI (Swagger UI)** | Render | Live | <a href="https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html">https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html</a> |
+| **Fake API (Mock API)** | Azure App Service | Live | <a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/">https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/</a> |
 
 ---
 
@@ -5197,10 +5197,10 @@ Seguimiento de tareas y planificación del Product Backlog y de los Sprints 1, 2
 
 | Artefacto de Gestión | Herramienta | Enlace Público al Tablero |
 | :--- | :---: | :---: |
-| **Product Backlog & Sprint 1 Board** | Trello | <a href="https://trello.com/b/A0csigUo/terranova" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a><br />[Captura](assets/chapter-05/trello-sprint-01.png) |
-| **Product Backlog & Sprint 2 Board** | Trello | <a href="https://trello.com/b/wg5hoQwD/allpatek-sprint-02" style="text-decoration: none;">Ver tablero Trello - ALLPATEK Sprint 2</a><br />[Captura](assets/chapter-05/trello-sprint-02.png) |
-| **Product Backlog & Sprint 3 Board** | Trello | <a href="https://trello.com/b/PffylQcc/allpatek-sprint-03" style="text-decoration: none;">Ver tablero Trello - ALLPATEK Sprint 3</a><br />[Captura](assets/chapter-05/trello-sprint-03.png) |
-| **Product Backlog & Sprint 4 Board** | Trello | <a href="https://trello.com/b/PffylQcc" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a> |
+| **Product Backlog & Sprint 1 Board** | Trello | <a href="https://trello.com/b/A0csigUo/terranova">Ver Tablero Trello - TerraNova ALLPATEK</a><br />[Captura](assets/chapter-05/trello-sprint-01.png) |
+| **Product Backlog & Sprint 2 Board** | Trello | <a href="https://trello.com/b/wg5hoQwD/allpatek-sprint-02">Ver tablero Trello - ALLPATEK Sprint 2</a><br />[Captura](assets/chapter-05/trello-sprint-02.png) |
+| **Product Backlog & Sprint 3 Board** | Trello | <a href="https://trello.com/b/PffylQcc/allpatek-sprint-03">Ver tablero Trello - ALLPATEK Sprint 3</a><br />[Captura](assets/chapter-05/trello-sprint-03.png) |
+| **Product Backlog & Sprint 4 Board** | Trello | <a href="https://trello.com/b/PffylQcc">Ver Tablero Trello - TerraNova ALLPATEK</a> |
 
 </div>
 
@@ -5214,12 +5214,12 @@ Enlaces a los tableros y prototipos utilizados en las etapas de descubrimiento, 
 
 | Artefacto | Herramienta | Enlace |
 | :--- | :---: | :---: |
-| **Lean UX Canvas** | Miro | <a href="https://miro.com/app/board/uXjVHInt5w4=/" style="text-decoration: none;">Ver Tablero</a> |
-| **Event Storming** | Miro | <a href="https://miro.com/app/board/uXjVEOzTlmg=/?share_link_id=401600368120" style="text-decoration: none;">Ver Tablero</a> |
-| **Wireflow** | Figma | <a href="https://www.figma.com/board/KAFi24QzlDrbm4DzuM1DgV/Untitled?node-id=0-1&t=xxM3mTqylB25csWf-1" style="text-decoration: none;">Ver Wireflow</a> |
-| **User Flow** | Figma | <a href="https://www.figma.com/board/qh5vL4xQoPmKWNJbFj7TGj/Untitled?node-id=0-1&t=gEVZUOH5xRFhc4Dp-1" style="text-decoration: none;">Ver User Flow</a> |
-| **Prototipo Desktop (Web App)** | Figma | <a href="https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=85-504&t=DTHiWfYH71axACfB-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=123%3A494&show-proto-sidebar=1" style="text-decoration: none;">Ver Prototipo Desktop</a> |
-| **Prototipo Mobile (Web App)** | Figma | <a href="https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=257-10099&t=g4J1J50GPL689wBS-1&scaling=scale-down&content-scaling=fixed&page-id=236%3A5996" style="text-decoration: none;">Ver Prototipo Mobile</a> |
+| **Lean UX Canvas** | Miro | <a href="https://miro.com/app/board/uXjVHInt5w4=/">Ver Tablero</a> |
+| **Event Storming** | Miro | <a href="https://miro.com/app/board/uXjVEOzTlmg=/?share_link_id=401600368120">Ver Tablero</a> |
+| **Wireflow** | Figma | <a href="https://www.figma.com/board/KAFi24QzlDrbm4DzuM1DgV/Untitled?node-id=0-1&t=xxM3mTqylB25csWf-1">Ver Wireflow</a> |
+| **User Flow** | Figma | <a href="https://www.figma.com/board/qh5vL4xQoPmKWNJbFj7TGj/Untitled?node-id=0-1&t=gEVZUOH5xRFhc4Dp-1">Ver User Flow</a> |
+| **Prototipo Desktop (Web App)** | Figma | <a href="https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=85-504&t=DTHiWfYH71axACfB-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=123%3A494&show-proto-sidebar=1">Ver Prototipo Desktop</a> |
+| **Prototipo Mobile (Web App)** | Figma | <a href="https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=257-10099&t=g4J1J50GPL689wBS-1&scaling=scale-down&content-scaling=fixed&page-id=236%3A5996">Ver Prototipo Mobile</a> |
 
 </div>
 
@@ -5233,11 +5233,11 @@ Registros en video de las entrevistas realizadas a los segmentos objetivo durant
 
 | Entrevistado | Tipo de Video | Enlace |
 | :--- | :---: | :---: |
-| **Rosa Flores** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBbQDY3p2SiRq-xBW2hRB-dARiTcCuKw4tJ7sUQ8oeVau8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iVsXEQ" style="text-decoration: none;">Ver Video</a> |
-| **Gustavo Adolfo Suyo** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/r/personal/u20231h171_upc_edu_pe/Documents/Video%20Entrevista.mp4?d=w350e6ee8e89f44e3a0801080e03a5a37&csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vPTAoG" style="text-decoration: none;">Ver Video</a> |
-| **Irma Barreto Castro** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQCadRcKNFI3QJCRvB7MCwswAakotnQDzxFR-FZchZomOuI?e=W8zn4F" style="text-decoration: none;">Ver Video</a> |
-| **César Hugo Egocheaga** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQA2ALZ3uFutSaQ8ve7Nk7hqAXADf3-eTjCN6dlRHIPgDVI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MX0bNw" style="text-decoration: none;">Ver Video</a> |
-| **Carolin Solsol** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h171_upc_edu_pe/IQDobg41n-jjRKCAEIDgOlo3AfXMuQqEXkTp0vU3WnDO5Eg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Z15UJ" style="text-decoration: none;">Ver Video</a> |
+| **Rosa Flores** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBbQDY3p2SiRq-xBW2hRB-dARiTcCuKw4tJ7sUQ8oeVau8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iVsXEQ">Ver Video</a> |
+| **Gustavo Adolfo Suyo** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/r/personal/u20231h171_upc_edu_pe/Documents/Video%20Entrevista.mp4?d=w350e6ee8e89f44e3a0801080e03a5a37&csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vPTAoG">Ver Video</a> |
+| **Irma Barreto Castro** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQCadRcKNFI3QJCRvB7MCwswAakotnQDzxFR-FZchZomOuI?e=W8zn4F">Ver Video</a> |
+| **César Hugo Egocheaga** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQA2ALZ3uFutSaQ8ve7Nk7hqAXADf3-eTjCN6dlRHIPgDVI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MX0bNw">Ver Video</a> |
+| **Carolin Solsol** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h171_upc_edu_pe/IQDobg41n-jjRKCAEIDgOlo3AfXMuQqEXkTp0vU3WnDO5Eg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Z15UJ">Ver Video</a> |
 
 </div>
 
@@ -5251,9 +5251,9 @@ Videos de navegación de los prototipos y evidencia de ejecución del Sprint 1:
 
 | Video | Tipo | Enlace |
 | :--- | :---: | :---: |
-| **Navegación del prototipo Desktop** | Prototypes | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQDF54TKL6PlS58DK7p4wuJAAQiikz0rs6edE33i_ATjpPk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7pTDmu" style="text-decoration: none;">Ver Video</a> |
-| **Navegación del prototipo Mobile** | Prototypes | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQAF9cog3awORKq4HYfc7F9uAa-vd6s6V_oT3BiDwhjeADQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y3j1dP" style="text-decoration: none;">Ver Video</a> |
-| **Evidencia de ejecución del Sprint 1** | Sprint | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQApudu7-aW0R6zofbarn9-pAd96aUTXm_GwyTKAwac5l90?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7oUJHv" style="text-decoration: none;">Ver Video</a> |
+| **Navegación del prototipo Desktop** | Prototypes | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQDF54TKL6PlS58DK7p4wuJAAQiikz0rs6edE33i_ATjpPk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7pTDmu">Ver Video</a> |
+| **Navegación del prototipo Mobile** | Prototypes | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQAF9cog3awORKq4HYfc7F9uAa-vd6s6V_oT3BiDwhjeADQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y3j1dP">Ver Video</a> |
+| **Evidencia de ejecución del Sprint 1** | Sprint | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQApudu7-aW0R6zofbarn9-pAd96aUTXm_GwyTKAwac5l90?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7oUJHv">Ver Video</a> |
 
 </div>
 
@@ -5267,11 +5267,11 @@ Videos de validación de la aplicación y videos institucionales sobre el produc
 
 | Video | Tipo | Enlace |
 | :--- | :---: | :---: |
-| **App Validation (1)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQCXWmxVVzRyTKLNnMjuRh8cAanVcxuNzSX2roCt7lOrZm0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QWoAks" style="text-decoration: none;">Ver Video</a> |
-| **App Validation (2)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQDhDCYqAhxbSKhg92qWZNqhAYT4gneD9GoPPK-jzUowbr8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vkukAa" style="text-decoration: none;">Ver Video</a> |
-| **App Validation (3)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQA3Ki7VhhDdQIWWQzMUBKdlAX8OWAtP6xUPKwXCyBXh3w0?e=9NLXS5" style="text-decoration: none;">Ver Video</a> |
-| **About the Product** | About the product | <a href="https://youtu.be/se1KsUnUtmI" style="text-decoration: none;">Ver en YouTube</a> |
-| **About the Team** | About the team | <a href="https://youtu.be/HGon8P2sQRE" style="text-decoration: none;">Ver en YouTube</a> |
+| **App Validation (1)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQCXWmxVVzRyTKLNnMjuRh8cAanVcxuNzSX2roCt7lOrZm0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QWoAks">Ver Video</a> |
+| **App Validation (2)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQDhDCYqAhxbSKhg92qWZNqhAYT4gneD9GoPPK-jzUowbr8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vkukAa">Ver Video</a> |
+| **App Validation (3)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQA3Ki7VhhDdQIWWQzMUBKdlAX8OWAtP6xUPKwXCyBXh3w0?e=9NLXS5">Ver Video</a> |
+| **About the Product** | About the product | <a href="https://youtu.be/se1KsUnUtmI">Ver en YouTube</a> |
+| **About the Team** | About the team | <a href="https://youtu.be/HGon8P2sQRE">Ver en YouTube</a> |
 
 </div>
 
