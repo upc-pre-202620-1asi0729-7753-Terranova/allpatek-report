@@ -4363,6 +4363,16 @@ Esta sección distingue las comprobaciones de disponibilidad de los recorridos f
 
 Los identificadores E4-01 a E4-04 son casos de comprobación documental, no nuevas historias del Product Backlog. Cada evidencia futura debe indicar fecha, entorno, acción, resultado observado y relación con el caso. Las capturas históricas de los Sprints 2 y 3 se conservan en sus secciones originales y no se presentan como ejecución nueva del Sprint 4.
 
+**Comprobación de entornos del 26/11/2026**
+
+| Consulta | Observación | Alcance de la evidencia |
+| :--- | :--- | :--- |
+| Landing Page | HTTP 200; el HTML conserva los videos anteriores. | Disponibilidad del documento y lectura de los identificadores de los reproductores. |
+| Web App | HTTP 200; se obtuvo la página inicial. | Disponibilidad del HTML, sin validar sesión, datos o llamadas del navegador. |
+| Backend y Swagger | Tiempo de espera agotado en dos consultas. | No se obtuvo una respuesta que permita acreditar el funcionamiento de esos endpoints. |
+
+El [registro de comprobaciones](assets/chapter-05/sprint-04-link-checks.json) conserva método, fecha, respuesta o tipo de fallo, redirecciones y títulos de los videos verificados. No contiene contraseñas, tokens ni respuestas de cuentas autenticadas. Estas observaciones complementan los casos E4-01 a E4-04; no cambian su estado a ejecutado.
+
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
 Descripción de la documentación de los servicios de este sprint.
