@@ -4334,6 +4334,14 @@ El objetivo y las historias del Sprint 4 requieren completar los registros de pl
 
 * **Figura 5.2.4.3.1.** Vista general del tablero Allpatek-Sprint-04 proporcionada para esta revisión. Los contadores de columna y las tarjetas conservan el estado visible en la captura. Seleccionar la imagen permite ampliarla.
 
+<p align="center">
+  <a href="assets/chapter-05/trello-sprint-04-done.png">
+    <img src="assets/chapter-05/trello-sprint-04-done.png" alt="Continuación de Done del Sprint 4 con las tarjetas T016, T004, T011 y T006" width="900" />
+  </a>
+</p>
+
+* **Figura 5.2.4.3.2.** Continuación de la columna Done. Complementa la vista general y permite leer T004, T011 y T006; T016 aparece en ambas capturas para relacionar las vistas. Las tarjetas compartidas se cuentan una sola vez.
+
 ### Tabla de Control de Estado del Sprint Backlog 4
 
 | Sprint | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
