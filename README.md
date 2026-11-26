@@ -3435,8 +3435,12 @@ Se configuró y creó una instancia de **Azure Web App** optimizada para ejecuta
 
 
 <p align="center">
-  <img src="assets/chapter-05/despliegueApi01.png" alt="Analíticos de Colaboración e Insights de GitHub - Sprint 1" width="850" />
+  <a href="assets/chapter-05/despliegueApi02.png">
+    <img src="assets/chapter-05/despliegueApi02.png" alt="Azure Portal con el aprovisionamiento de la Fake API en curso" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.7.1.** Aprovisionamiento de los recursos de Azure para la Fake API. Seleccionar la imagen permite ampliarla.
 
 
 ### Paso 2: Confirmación de Infraestructura Activa
@@ -3447,8 +3451,12 @@ Azure completó exitosamente el aprovisionamiento de los recursos cloud. El endp
 
 
 <p align="center">
-  <img src="assets/chapter-05/despliegueApi02.png" alt="Analíticos de Colaboración e Insights de GitHub - Sprint 1" width="850" />
+  <a href="assets/chapter-05/despliegueApi01.png">
+    <img src="assets/chapter-05/despliegueApi01.png" alt="Azure Portal con la implementación de recursos completada" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.7.2.** Confirmación de la implementación de recursos en Azure. Seleccionar la imagen permite ampliarla.
 
 ### Paso 3: Pipeline de CI/CD con GitHub Actions
 Se automatizó el flujo de integración y despliegue continuo (CI/CD) para la API desde GitHub.
@@ -3463,8 +3471,12 @@ Se automatizó el flujo de integración y despliegue continuo (CI/CD) para la AP
 
 
 <p align="center">
-  <img src="assets/chapter-05/despliegueApi03.png" alt="Analíticos de Colaboración e Insights de GitHub - Sprint 1" width="850" />
+  <a href="assets/chapter-05/despliegueApi03.png">
+    <img src="assets/chapter-05/despliegueApi03.png" alt="GitHub Actions con los trabajos build y deploy de la Fake API finalizados" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.7.3.** Pipeline de publicación de allpatek-platform-mock en GitHub Actions. Seleccionar la imagen permite ampliarla.
 
 
 ## 2. Despliegue del Frontend Angular en Netlify (terranova-allpatek)
