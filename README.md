@@ -4128,15 +4128,15 @@ Los cinco salen en Insights del repositorio. El pico de commits cae entre finale
   </tr>
   <tr>
     <td colspan="5">Sprint 4 Goal</td>
-    <td colspan="8"></td>
+    <td colspan="8">Incorporar la gestión de identidad y acceso (IAM con JWT y perfiles) en allpatek-platform y conectar la Web App al API publicado, de modo que cada bounded context opere con el usuario autenticado.</td>
   </tr>
   <tr>
     <td colspan="5">Sprint 4 Velocity</td>
-    <td colspan="8"></td>
+    <td colspan="8">16 Story Points</td>
   </tr>
   <tr>
     <td colspan="5">Sum of Story Points</td>
-    <td colspan="8"></td>
+    <td colspan="8">16 Story Points</td>
   </tr>
 </table>
 
@@ -4211,18 +4211,20 @@ Los cinco salen en Insights del repositorio. El pico de commits cae entre finale
 
 #### 5.2.4.3. Sprint Backlog 4
 
-El objetivo principal del **Sprint 4** es .
+El objetivo principal del **Sprint 4** es incorporar la **gestión de identidad y acceso (IAM con JWT y perfiles)** en allpatek-platform y conectar la **Web App** al API publicado, de modo que los contextos de parcelas, acuerdos, custodia, evidencias y alertas operen con el usuario autenticado.
 
 <div align="center">
 
 | Story Id | Story Title  | Story Points  |
 | :---: | :---: | :---: |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-| **Total** | | **** |
+| **US01** | Registro de perfil y verificación de identidad | 3 |
+| **US16** | Registro de perfil corporativo y validación fiscal | 2 |
+| **US06** | Publicación y geolocalización de lote agrícola | 2 |
+| **US08** | Aceptación de propuesta y firma de contrato digital Escrow | 3 |
+| **US03** | Aprobación de hito y orden de liberación de fondos | 3 |
+| **US04** | Registro y carga de evidencias fotográficas por hito | 2 |
+| **US05** | Recepción de alertas climáticas de riesgo | 1 |
+| **Total** | | **16** |
 
 </div>
 
@@ -4239,24 +4241,73 @@ El objetivo principal del **Sprint 4** es .
 
 | Sprint | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
-| **Sprint 4** |  | | **T001** | | | | | |
-| **Sprint 4** |  | | **T002** | | | | | |
-| **Sprint 4** |  | | **T003** | | | | | |
-| **Sprint 4** |  | | **T004** | | | | | |
-| **Sprint 4** |  | | **T005** | | | | | |
-| **Sprint 4** |  | | **T006** | | | | | |
-| **Sprint 4** |  | | **T007** | | | | | |
-| **Sprint 4** |  | | **T008** | | | | | |
+| **Sprint 4** | **US01** | Registro de perfil y verificación de identidad | **T001** | Modelar usuarios y roles de IAM | Definir el modelo de dominio de usuario y rol y persistirlo con JPA en el bounded context iam de allpatek-platform. | 6 | Atauje Barreto, Alexander Sebastián | Done |
+| **Sprint 4** | **US01** | Registro de perfil y verificación de identidad | **T002** | Configurar la autenticación JWT | Configurar Spring Security con autenticación por token JWT para proteger los endpoints de /api/v1. | 6 | Atauje Barreto, Alexander Sebastián | Done |
+| **Sprint 4** | **US01** | Registro de perfil y verificación de identidad | **T003** | Exponer registro e inicio de sesión | Exponer los endpoints REST de sign-up, sign-in y consulta de usuarios del bounded context iam. | 6 | Egocheaga Suyo, Miguel Angel | Done |
+| **Sprint 4** | **US01** | Registro de perfil y verificación de identidad | **T004** | Extraer el bounded context Profile | Separar Profile de shared y habilitar la creación de perfiles con eventos de dominio y una fachada de contexto. | 6 | Raymundo Villarroel, Abigail Nadhim | Done |
+| **Sprint 4** | **US01** | Registro de perfil y verificación de identidad | **T005** | Documentar la seguridad JWT en OpenAPI | Documentar en Swagger UI la seguridad JWT y los nuevos bounded contexts de allpatek-platform. | 4 | Raymundo Villarroel, Abigail Nadhim | Done |
+| **Sprint 4** | **US01** | Registro de perfil y verificación de identidad | **T006** | Iniciar sesión desde la Web App | Iniciar sesión mediante el endpoint de tokens de IAM, validar las credenciales y adjuntar el token Bearer a las solicitudes del workspace. | 5 | Egocheaga Suyo, Miguel Angel | Done |
+| **Sprint 4** | **US01** | Registro de perfil y verificación de identidad | **T007** | Validar identidad y persistir perfiles | Agregar validadores de campos de identidad en la Web App y persistir los perfiles de usuario mediante el API de la plataforma. | 5 | Atauje Barreto, Alexander Sebastián | Done |
+| **Sprint 4** | **US16** | Registro de perfil corporativo y validación fiscal | **T008** | Registrar y editar datos personales y comerciales | Recolectar los datos de identidad y de empresa durante el registro y permitir editar el perfil personal y comercial. | 5 | Vera Solsol, Nayely Macarena | Done |
+| **Sprint 4** | **US06** | Publicación y geolocalización de lote agrícola | **T009** | Filtrar el catálogo por agricultor autenticado | Mover la ACL de parcelas, extender el API de parcelas y limitar el catálogo de la Web App al agricultor con sesión iniciada. | 5 | Vera Solsol, Nayely Macarena | Done |
+| **Sprint 4** | **US08** | Aceptación de propuesta y firma de contrato digital Escrow | **T010** | Firmar el contrato como agricultor | Agregar la firma del agricultor y la ACL de acuerdos en el backend, y enviar el contrato desde la sesión iniciada en la Web App. | 6 | Egocheaga Suyo, Miguel Angel | Done |
+| **Sprint 4** | **US03** | Aprobación de hito y orden de liberación de fondos | **T011** | Acreditar fondos al liberar un hito | Crear wallets automáticamente y acreditar fondos al liberar la evidencia; mantener las consultas de custodia sobre la wallet del usuario. | 6 | Egocheaga Suyo, Miguel Angel | Done |
+| **Sprint 4** | **US04** | Registro y carga de evidencias fotográficas por hito | **T012** | Verificar y liberar evidencias de hito | Verificar y liberar evidencias en tracking-evidence, y enviar la evidencia del hito con el agricultor autenticado desde la Web App. | 6 | Vera Solsol, Nayely Macarena | Done |
+| **Sprint 4** | **US05** | Recepción de alertas climáticas de riesgo | **T013** | Emitir alertas con parcelas por ACL | Resolver las parcelas mediante ACL para las consultas climáticas y cargar las alertas desde el API de la plataforma en la Web App. | 5 | Atauje Barreto, Alexander Sebastián | Done |
+| **Sprint 4** | **US06** | Publicación y geolocalización de lote agrícola | **T014** | Conectar la Web App al API publicado | Apuntar la Web App al API publicado en Render, permitir el origen de Netlify en CORS y dejar Swagger solo con el servidor de producción. | 4 | Vera Solsol, Nayely Macarena | Done |
+| **Sprint 4** | **US06** | Publicación y geolocalización de lote agrícola | **T015** | Pulir la interfaz de parcelas y navegación | Agregar estados de hover y foco en el sidebar, las tarjetas, el buscador, el formulario y la galería de parcelas, sin cambiar el diseño del Figma. | 4 | Raymundo Villarroel, Abigail Nadhim | Done |
+| **Sprint 4** | **US06** | Publicación y geolocalización de lote agrícola | **T016** | Integrar las ramas del Sprint 4 en develop | Integrar en develop las ramas feature/iam-and-bounded-contexts, feature/implements-reponse y las de CORS, Swagger y conexión al API publicado. | 4 | Orellana Rodríguez, Mel Andree | Done |
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 
-En el Sprint 4 se implementó . Cada bounded context del Sprint Backlog 4 tiene su rama feature/*; abajo se listan los commits de implementación.
+En el Sprint 4 se implementó la gestión de identidad y acceso (IAM con JWT y perfiles) en allpatek-platform y su consumo desde la Web App (allpatek-webapp), junto con la integración de los bounded contexts de parcelas, acuerdos, custodia, evidencias y alertas con el usuario autenticado. Cada bounded context del Sprint Backlog 4 tiene su rama feature/*; abajo se listan los commits de implementación de ambos repositorios.
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 | --- | --- | --- | --- | --- | --- |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
+| allpatek-platform | feature/iam-and-bounded-contexts | 859429a | refactor(profiles): extract the Profile bounded context from shared | Extract the Profile bounded context from shared. | 2026-11-25 |
+| allpatek-platform | feature/iam-and-bounded-contexts | c38c933 | feat(profiles): add profile creation, domain events and context facade | Add profile creation, domain events and context facade. | 2026-11-25 |
+| allpatek-platform | feature/iam-and-bounded-contexts | 4c4d5dc | feat(iam): add the user and role domain model | Add the user and role domain model. | 2026-11-25 |
+| allpatek-platform | feature/iam-and-bounded-contexts | 0ff1486 | feat(iam): persist users and roles with JPA | Persist users and roles with JPA. | 2026-11-25 |
+| allpatek-platform | feature/iam-and-bounded-contexts | 4bafca5 | feat(iam): configure JWT authentication and Spring Security | Configure JWT authentication and Spring Security. | 2026-11-25 |
+| allpatek-platform | feature/iam-and-bounded-contexts | d31741a | feat(iam): expose sign-up, sign-in and user REST endpoints | Expose sign-up, sign-in and user REST endpoints. | 2026-11-25 |
+| allpatek-platform | feature/iam-and-bounded-contexts | 842e201 | feat(agreements): add farmer signature and the agreements ACL | Add farmer signature and the agreements ACL. | 2026-11-25 |
+| allpatek-platform | feature/iam-and-bounded-contexts | 06a29c6 | feat(escrow): auto-create wallets and credit funds on evidence release | Auto-create wallets and credit funds on evidence release. | 2026-11-25 |
+| allpatek-platform | feature/iam-and-bounded-contexts | f23c474 | feat(tracking): verify and release milestone evidence | Verify and release milestone evidence. | 2026-11-25 |
+| allpatek-platform | feature/iam-and-bounded-contexts | c5c7a11 | feat(parcels): move the parcels ACL and extend the parcel API | Move the parcels ACL and extend the parcel API. | 2026-11-25 |
+| allpatek-platform | feature/iam-and-bounded-contexts | 57158a4 | feat(alerts): resolve parcels through ACL for climate queries | Resolve parcels through ACL for climate queries. | 2026-11-25 |
+| allpatek-platform | feature/iam-and-bounded-contexts | 96fb88d | docs(openapi): document JWT security and the new bounded contexts | Document JWT security and the new bounded contexts. | 2026-11-25 |
+| allpatek-platform | develop | d84f28b | Merge branch 'feature/iam-and-bounded-contexts' into develop | Merge branch 'feature/iam-and-bounded-contexts' into develop. | 2026-11-25 |
+| allpatek-platform | feature/allow-netlify-cors | 055932d | feat: allow the Netlify webapp origin in CORS | Allow the Netlify webapp origin in CORS. | 2026-11-25 |
+| allpatek-platform | develop | 357be19 | Merge branch 'feature/allow-netlify-cors' into develop | Merge branch 'feature/allow-netlify-cors' into develop. | 2026-11-25 |
+| allpatek-platform | feature/allow-netlify-cors | b951d23 | fix(openapi): default Swagger server to the current host | Default Swagger server to the current host. | 2026-11-25 |
+| allpatek-platform | develop | df38e9e | Merge branch 'feature/allow-netlify-cors' into develop | Merge branch 'feature/allow-netlify-cors' into develop. | 2026-11-25 |
+| allpatek-platform | feature/swagger-production-server | b15985b | fix(openapi): expose only the production Swagger server | Expose only the production Swagger server. | 2026-11-25 |
+| allpatek-platform | develop | 153fa9c | Merge branch 'feature/swagger-production-server' into develop | Merge branch 'feature/swagger-production-server' into develop. | 2026-11-25 |
+| allpatek-webapp | feature/implements-reponse | 1bd6da4 | feat: add identity field validators for profiles | Add identity field validators for profiles. | 2026-11-25 |
+| allpatek-webapp | feature/implements-reponse | f8f828c | feat: sign in through the IAM tokens endpoint | Sign in through the IAM tokens endpoint. | 2026-11-25 |
+| allpatek-webapp | feature/implements-reponse | 87d09c2 | feat: attach a bearer token interceptor to workspace requests | Attach a bearer token interceptor to workspace requests. | 2026-11-25 |
+| allpatek-webapp | feature/implements-reponse | 5aa1b84 | feat: persist user profiles through the platform API | Persist user profiles through the platform API. | 2026-11-25 |
+| allpatek-webapp | feature/implements-reponse | dc22e0f | feat: validate credentials on the sign-in screen | Validate credentials on the sign-in screen. | 2026-11-25 |
+| allpatek-webapp | feature/implements-reponse | 321d43f | feat: collect identity and company data during sign-up | Collect identity and company data during sign-up. | 2026-11-25 |
+| allpatek-webapp | feature/implements-reponse | a362d95 | feat: edit personal and commercial profile details | Edit personal and commercial profile details. | 2026-11-25 |
+| allpatek-webapp | feature/implements-reponse | 31e17c6 | feat: send the contract through the signed-in session | Send the contract through the signed-in session. | 2026-11-25 |
+| allpatek-webapp | feature/implements-reponse | d34a62d | feat: submit milestone evidence with the authenticated farmer | Submit milestone evidence with the authenticated farmer. | 2026-11-25 |
+| allpatek-webapp | feature/implements-reponse | 111b04a | feat: load climate alerts from the platform API | Load climate alerts from the platform API. | 2026-11-25 |
+| allpatek-webapp | feature/implements-reponse | 9c753d7 | feat: keep escrow lookups on the signed-in wallet | Keep escrow lookups on the signed-in wallet. | 2026-11-25 |
+| allpatek-webapp | feature/implements-reponse | 77dede3 | feat: scope the parcel catalog to the signed-in farmer | Scope the parcel catalog to the signed-in farmer. | 2026-11-25 |
+| allpatek-webapp | develop | b5d794d | Merge branch 'feature/implements-reponse' into develop | Merge branch 'feature/implements-reponse' into develop. | 2026-11-25 |
+| allpatek-webapp | feature/connect-published-api | 844b1cc | feat: point the webapp at the published platform API | Point the webapp at the published platform API. | 2026-11-25 |
+| allpatek-webapp | develop | f8f5c2b | Merge branch 'feature/connect-published-api' into develop | Merge branch 'feature/connect-published-api' into develop. | 2026-11-25 |
+| allpatek-webapp | feature/connect-published-api | f34567a | fix: drop local API wording from sign-in errors | Drop local API wording from sign-in errors. | 2026-11-25 |
+| allpatek-webapp | develop | 76da75d | Merge branch 'feature/connect-published-api' into develop | Merge branch 'feature/connect-published-api' into develop. | 2026-11-25 |
+| allpatek-webapp | develop | 443d3d5 | feat: smooth page scrolling and font rendering | Smooth page scrolling and font rendering. | 2026-11-26 |
+| allpatek-webapp | develop | 2b298bd | feat: highlight sidebar links on hover | Highlight sidebar links on hover. | 2026-11-26 |
+| allpatek-webapp | develop | 6257bd8 | feat: show a focus ring on sidebar controls | Show a focus ring on sidebar controls. | 2026-11-26 |
+| allpatek-webapp | develop | 05c246c | feat: lift parcel cards slightly on hover | Lift parcel cards slightly on hover. | 2026-11-26 |
+| allpatek-webapp | develop | 864def6 | feat: brighten the parcel photo on card hover | Brighten the parcel photo on card hover. | 2026-11-26 |
+| allpatek-webapp | develop | 5b46969 | feat: highlight the parcel search field on focus | Highlight the parcel search field on focus. | 2026-11-26 |
+| allpatek-webapp | develop | 56144cc | feat: highlight parcel form fields on focus | Highlight parcel form fields on focus. | 2026-11-26 |
+| allpatek-webapp | develop | 6411f64 | feat: soften inactive gallery thumbnails on hover | Soften inactive gallery thumbnails on hover. | 2026-11-26 |
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
