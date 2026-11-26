@@ -4308,7 +4308,7 @@ Los cinco salen en Insights del repositorio. El pico de commits cae entre finale
 
 #### 5.2.4.3. Sprint Backlog 4
 
-El objetivo principal del **Sprint 4** es .
+El objetivo y las historias del Sprint 4 requieren completar los registros de planificación del equipo. Las verificaciones documentadas en 5.2.4.5 no se presentan como una planificación retrospectiva.
 
 <div align="center">
 
@@ -4325,12 +4325,7 @@ El objetivo principal del **Sprint 4** es .
 
 #### Tablero de Control del Sprint 4 (Sprint Board)
 
-<p align="center">
-  <img src="assets/chapter-05/trello-sprint-04.png" alt="Tablero del Sprint 4 en Trello - ALLPATEK" width="850" />
-</p>
-
-* **Figura 5.2.4.3.1.** Captura del tablero del Sprint 4 en la herramienta de control, con el estado de las tareas.
-* **URL pública del Board:** <a href="">Tablero Trello TerraNova</a>
+No se dispone del enlace confirmado ni de la captura original del tablero del Sprint 4. Las referencias de los Sprints 1, 2 y 3 se conservan en el Anexo D; el tablero del Sprint 3 no se identifica como evidencia del Sprint 4.
 
 ### Tabla de Control de Estado del Sprint Backlog 4
 
@@ -5166,9 +5161,11 @@ Seguimiento de tareas y planificación del Product Backlog y de los Sprints 1, 2
 | **Product Backlog & Sprint 1 Board** | Trello | <a href="https://trello.com/b/A0csigUo/terranova">Ver Tablero Trello - TerraNova ALLPATEK</a><br />[Captura](assets/chapter-05/trello-sprint-01.png) |
 | **Product Backlog & Sprint 2 Board** | Trello | <a href="https://trello.com/b/wg5hoQwD/allpatek-sprint-02">Ver tablero Trello - ALLPATEK Sprint 2</a><br />[Captura](assets/chapter-05/trello-sprint-02.png) |
 | **Product Backlog & Sprint 3 Board** | Trello | <a href="https://trello.com/b/PffylQcc/allpatek-sprint-03">Ver tablero Trello - ALLPATEK Sprint 3</a><br />[Captura](assets/chapter-05/trello-sprint-03.png) |
-| **Product Backlog & Sprint 4 Board** | Trello | <a href="https://trello.com/b/PffylQcc">Ver Tablero Trello - TerraNova ALLPATEK</a> |
+| **Product Backlog & Sprint 4 Board** | Trello | Pendiente de confirmar el enlace específico y aportar su captura. |
 
 </div>
+
+Los tres enlaces consultados respondieron con una página de Trello, pero no se verificó su contenido autenticado. Las capturas de los Sprints 1, 2 y 3 son evidencia histórica disponible en el repositorio; el Sprint 4 se mantiene identificado como referencia pendiente.
 
 ---
 
