@@ -4110,9 +4110,14 @@ En Render se creó el **Web Service** allpatek-platform, pegado al repositorio d
 
 En *Environment Variables* se cargaron DB_URL, DB_USERNAME, DB_PASSWORD y PORT=8080. Las claves no van en el código.
 
-<p align="center">
-  <img src="assets/chapter-05/desplieguee04.png" alt="desplieguee01" width="750" />
-</p>
+La configuración se documenta por nombre de variable, sin publicar los valores de acceso:
+
+| Variable | Propósito |
+| :--- | :--- |
+| `DB_URL` | URL JDBC de MySQL con la configuración SSL del entorno. |
+| `DB_USERNAME` | Usuario de la base de datos suministrado al servicio. |
+| `DB_PASSWORD` | Contraseña guardada en la configuración privada del entorno. |
+| `PORT` | Puerto de escucha de la aplicación, configurado como `8080`. |
 
 #### Paso 5: Despliegue y Verificación Pública de Swagger UI
 
