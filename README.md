@@ -4066,24 +4066,36 @@ El backend del Sprint 3 ya corría en local, pero para la revisión hacía falta
 En Aiven se levantó un **MySQL 8.4** (mysql-9db0808) en *North America*: 1 CPU, 1 GB RAM y 8 GB de disco. Cuando el servicio pasó a *Running*, del panel *Connection information* se copiaron host (mysql-9db0808-mel-d917.c.aivencloud.com), puerto 18036, base defaultdb, usuario avnadmin y SSL mode REQUIRED.
 
 <p align="center">
-  <img src="assets/chapter-05/desplieguee01.png" alt="desplieguee01" width="750" />
+  <a href="assets/chapter-05/desplieguee01.png">
+    <img src="assets/chapter-05/desplieguee01.png" alt="Panel de Aiven con métricas y configuración del servicio MySQL de ALLPATEK" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.3.7.1.** Servicio MySQL utilizado para el backend. Seleccionar la imagen permite ampliarla.
 
 #### Paso 2: Contenerización y Externalización de Configuración en GitHub
 
 En allpatek-platform se agregó un Dockerfile de dos etapas: Maven arma el .jar y el contenedor lo corre en el puerto 8080. Las credenciales de MySQL salen de DB_URL, DB_USERNAME y DB_PASSWORD; ddl-auto queda en update y Swagger queda abierto en prod. Eso se subió a develop.
 
 <p align="center">
-  <img src="assets/chapter-05/desplieguee02.png" alt="desplieguee01" width="750" />
+  <a href="assets/chapter-05/desplieguee02.png">
+    <img src="assets/chapter-05/desplieguee02.png" alt="Repositorio allpatek-platform en GitHub con el Dockerfile de producción" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.3.7.2.** Código y Dockerfile del backend en la rama de integración. Seleccionar la imagen permite ampliarla.
 
 #### Paso 3: Creación y Configuración del Web Service en Render
 
 En Render se creó el **Web Service** allpatek-platform, pegado al repositorio de GitHub, rama develop, región *Oregon (US West)* y plan gratuito (512 MB RAM). Runtime: **Docker**, archivo ./Dockerfile.
 
 <p align="center">
-  <img src="assets/chapter-05/desplieguee03.png" alt="desplieguee01" width="750" />
+  <a href="assets/chapter-05/desplieguee03.png">
+    <img src="assets/chapter-05/desplieguee03.png" alt="Configuración del Web Service en Render: rama develop, región y plan de ejecución" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.3.7.3.** Configuración de creación del servicio Docker en Render. Seleccionar la imagen permite ampliarla.
 
 #### Paso 4: Inyección de Variables de Entorno en Render
 
@@ -4101,8 +4113,12 @@ El último commit de develop compiló la imagen, conectó a MySQL en Aiven por S
 * **API:** <a href="https://allpatek-platform.onrender.com/api/v1" style="text-decoration: none;">https://allpatek-platform.onrender.com/api/v1</a>
 
 <p align="center">
-  <img src="assets/chapter-05/desplieguee05.png" alt="Swagger UI de allpatek-platform en Render" width="750" />
+  <a href="assets/chapter-05/desplieguee05.png">
+    <img src="assets/chapter-05/desplieguee05.png" alt="Swagger UI de ALLPATEK en Render con los recursos escrow y parcels" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.3.7.5.** Interfaz Swagger UI del backend publicado. Seleccionar la imagen permite ampliarla.
 
 > Importante: como está en el plan gratuito de Render, la primera carga puede tardar; es normal que salga una pantalla esperando.
 
