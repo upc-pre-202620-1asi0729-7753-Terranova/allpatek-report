@@ -328,14 +328,24 @@ Repositorios del proyecto:
   * <a href="#54-video-about-the-product">5.4. Video About-the-Product</a>
 * <a href="#conclusiones-y-recomendaciones">Conclusiones y Recomendaciones</a>
 * <a href="#video-app-validation">Video App Validation</a>
-* <a href="#video-about-the-product">Video About the product</a>
-* <a href="#video-about-the-team">Video About the team</a>
+* <a href="#video-about-the-team">Video About the Team</a>
 * <a href="#glosario">Glosario</a>
 * <a href="#bibliografía">Bibliografía</a>
 * <a href="#anexos">Anexos</a>
 
 
 
+
+* [Anexos](#anexos)
+  * [A. Registros de Participación del Equipo (Participant Performance Report)](#anexo-a-registros-de-participación-del-equipo-participant-performance-report)
+  * [B. Repositorios de Código Fuente y Control de Versiones](#anexo-b-repositorios-de-código-fuente-y-control-de-versiones)
+  * [C. Enlaces de Despliegue en Entornos de Operación (Cloud Deployments)](#anexo-c-enlaces-de-despliegue-en-entornos-de-operación-cloud-deployments)
+  * [D. Gestión del Proyecto y Product Backlog (Trello)](#anexo-d-gestión-del-proyecto-y-product-backlog-trello)
+  * [E. Artefactos de Descubrimiento y Diseño (Miro y Figma)](#anexo-e-artefactos-de-descubrimiento-y-diseño-miro-y-figma)
+  * [F. Videos de Entrevistas (Needfinding)](#anexo-f-videos-de-entrevistas-needfinding)
+  * [G. Videos de Prototipos y Evidencias de Sprint](#anexo-g-videos-de-prototipos-y-evidencias-de-sprint)
+  * [H. Videos de Validación, Producto y Equipo](#anexo-h-videos-de-validación-producto-y-equipo)
+  * [I. Usuarios de Prueba](#anexo-i-usuarios-de-prueba)
 
 # Student Outcome 3
 
