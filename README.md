@@ -4310,8 +4310,6 @@ Los cinco salen en Insights del repositorio. El pico de commits cae entre finale
 
 #### 5.2.4.3. Sprint Backlog 4
 
-El objetivo y las historias del Sprint 4 requieren completar los registros de planificación del equipo. Las verificaciones documentadas en 5.2.4.5 no se presentan como una planificación retrospectiva.
-
 #### Tablero de Control del Sprint 4 (Sprint Board)
 
 * **URL del tablero del Sprint 4:** <a href="https://trello.com/b/Rowl4alL">Ver tablero Trello - Allpatek-Sprint-04</a>
@@ -4322,7 +4320,7 @@ El objetivo y las historias del Sprint 4 requieren completar los registros de pl
   </a>
 </p>
 
-* **Figura 5.2.4.3.1.** Vista general del tablero Allpatek-Sprint-04 proporcionada para esta revisión. Los contadores de columna y las tarjetas conservan el estado visible en la captura. Seleccionar la imagen permite ampliarla.
+* **Figura 5.2.4.3.1.** Tablero Allpatek-Sprint-04.
 
 ### Tabla de Control de Estado del Sprint Backlog 4
 
