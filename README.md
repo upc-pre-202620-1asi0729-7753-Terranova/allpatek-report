@@ -5175,7 +5175,7 @@ Videos de validación de la aplicación y videos institucionales sobre el produc
 
 ## Anexo I. Usuarios de Prueba
 
-Identidades de prueba consignadas por el equipo para la Web App de **ALLPATEK** (https://terranova-allpatek.netlify.app/), una por segmento: Agricultor Familiar y Comerciante Urbano.
+Cuentas de prueba para los segmentos Agricultor Familiar y Comerciante Urbano de la [Web App de ALLPATEK](https://terranova-allpatek.netlify.app/).
 
 <div align="center">
 
@@ -5186,4 +5186,3 @@ Identidades de prueba consignadas por el equipo para la Web App de **ALLPATEK** 
 
 </div>
 
-El acceso con estas identidades no se confirmó durante la revisión del 26/11/2026. Para ejecutar los casos de [5.2.4.5](#5245-execution-evidence-for-sprint-review), debe comprobarse primero que la cuenta ingresa, conserva el rol esperado y permite consultar sus datos. La disponibilidad del HTML de la aplicación no acredita la validez de las credenciales.
