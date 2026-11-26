@@ -4412,69 +4412,15 @@ Descripción de la documentación de los servicios de este sprint.
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
-Descripción del despliegue de este sprint.
+Se consultaron los entornos existentes el 26/11/2026. Esta revisión del informe no realizó un nuevo despliegue.
 
-<table align="center" style="margin: 0 auto; text-align: center;">
-  <thead>
-    <tr>
-      <th style="text-align: center;">Producto</th>
-      <th style="text-align: center;">Tecnología</th>
-      <th style="text-align: center;">Repositorio</th>
-      <th style="text-align: center;">Versión en este Sprint</th>
-      <th style="text-align: center;">URL verificada</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center;"></td>
-      <td style="text-align: center;"></td>
-      <td style="text-align: center;"></td>
-      <td style="text-align: center;"></td>
-      <td style="text-align: center;"></td>
-    </tr>
-  </tbody>
-</table>
+| Producto | Consulta | Resultado observado |
+| :--- | :--- | :--- |
+| Landing Page | URL del Anexo C | HTTP 200; conserva los identificadores de video anteriores en su HTML. |
+| Web App | URL del Anexo C | HTTP 200; se obtuvo el HTML inicial, sin comprobar una sesión de usuario. |
+| Web Services y Swagger | URLs del Anexo C | Tiempo de espera agotado en dos intentos. |
 
-#### Paso 1: 
-
-Descripción del paso 1.
-
-<p align="center">
-  <img src="assets/chapter-05/sprint-04-deploy-01.png" alt="Paso 1 del despliegue del Sprint 4" width="750" />
-</p>
-
-#### Paso 2: 
-
-Descripción del paso 2.
-
-<p align="center">
-  <img src="assets/chapter-05/sprint-04-deploy-02.png" alt="Paso 2 del despliegue del Sprint 4" width="750" />
-</p>
-
-#### Paso 3: 
-
-Descripción del paso 3.
-
-<p align="center">
-  <img src="assets/chapter-05/sprint-04-deploy-03.png" alt="Paso 3 del despliegue del Sprint 4" width="750" />
-</p>
-
-#### Paso 4: 
-
-Descripción del paso 4.
-
-<p align="center">
-  <img src="assets/chapter-05/sprint-04-deploy-04.png" alt="Paso 4 del despliegue del Sprint 4" width="750" />
-</p>
-
-#### Paso 5: 
-
-Descripción del paso 5.
-
-<p align="center">
-  <img src="assets/chapter-05/sprint-04-deploy-05.png" alt="Paso 5 del despliegue del Sprint 4" width="750" />
-</p>
-
+Los procedimientos de despliegue históricos se documentan en [5.2.2.7](#5227-software-deployment-evidence-for-sprint-review) y [5.2.3.7](#5237-software-deployment-evidence-for-sprint-review). Para acreditar un nuevo despliegue del Sprint 4 se requieren su versión, entorno y evidencia real; no se incorporan imágenes inexistentes como si fueran capturas realizadas.
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
@@ -5197,11 +5143,15 @@ Acceso a los productos digitales de **ALLPATEK** desplegados públicamente en en
 
 | Producto Digital | Entorno / Provider | Estado | Dirección URL de Acceso Público |
 | :--- | :---: | :---: | :---: |
-| **Landing Page (ALLPATEK)** | GitHub Pages | Live | <a href="https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/">https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/</a> |
-| **Web App (ALLPATEK)** | Netlify | Live | <a href="https://terranova-allpatek.netlify.app/">https://terranova-allpatek.netlify.app/</a> |
-| **Web Services (API REST base)** | Render | Live | <a href="https://allpatek-platform.onrender.com/api/v1">https://allpatek-platform.onrender.com/api/v1</a> |
-| **Documentación OpenAPI (Swagger UI)** | Render | Live | <a href="https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html">https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html</a> |
-| **Fake API (Mock API)** | Azure App Service | Live | <a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/">https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/</a> |
+| **Landing Page (ALLPATEK)** | GitHub Pages | HTTP 200 | <a href="https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/">https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/</a> |
+| **Web App (ALLPATEK)** | Netlify | HTTP 200 | <a href="https://terranova-allpatek.netlify.app/">https://terranova-allpatek.netlify.app/</a> |
+| **Web Services (API REST base)** | Render | Sin respuesta en el plazo de comprobación | <a href="https://allpatek-platform.onrender.com/api/v1">https://allpatek-platform.onrender.com/api/v1</a> |
+| **Documentación OpenAPI (Swagger UI)** | Render | Sin respuesta en el plazo de comprobación | <a href="https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html">https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html</a> |
+| **Fake API (Mock API)** | Azure App Service | HTTP 200 | <a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/">https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/</a> |
+
+Comprobación del 26/11/2026: se verificaron respuestas HTTP, no recorridos autenticados. La Web App entregó su HTML inicial. Render agotó el plazo de espera en dos intentos; esto no permite concluir que sus servicios estén caídos. La ruta base de una API no sustituye una comprobación funcional de sus endpoints.
+
+El HTML público de la landing todavía referencia los videos anteriores (`HzLCMS18Pqg` y `Fv-fpNivSHE`). Los enlaces actualizados del informe y del Anexo H corresponden a la versión solicitada; su integración en la landing pública permanece por comprobar.
 
 ---
 
