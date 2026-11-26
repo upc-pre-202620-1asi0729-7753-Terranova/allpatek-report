@@ -1,0 +1,36 @@
+ALLPATEK - Sprint 4 - Resultados de pruebas del backend
+Repositorio: https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform
+Commit: 2390a372504f57ed4bd2ab90055d7b390b181bae
+Entorno: local; Java 27; Spring Boot 4.1.2; perfil test; H2
+Comando: mvn -B clean verify
+Finalización: 2026-11-26T16:49:20-05:00
+Resultado Maven: BUILD SUCCESS
+Pruebas: 45 | Fallos: 0 | Errores: 0 | Omitidas: 0
+
+Clase | Pruebas | Fallos | Errores | Omitidas
+com.allpatekplatform.alerts.application.internal.outboundservices.acl.ExternalParcelServiceTest | 2 | 0 | 0 | 0
+com.allpatekplatform.alerts.application.internal.outboundservices.acl.ExternalProfileServiceTest | 3 | 0 | 0 | 0
+com.allpatekplatform.alerts.application.internal.queryservices.ClimateQueryServiceImplTest | 4 | 0 | 0 | 0
+com.allpatekplatform.alerts.domain.model.queries.GetClimateAlertsQueryTest | 1 | 0 | 0 | 0
+com.allpatekplatform.alerts.domain.model.valueobjects.GeoPointTest | 2 | 0 | 0 | 0
+com.allpatekplatform.alerts.domain.model.valueobjects.ParcelCoordinatesTest | 2 | 0 | 0 | 0
+com.allpatekplatform.alerts.domain.model.valueobjects.WeatherConditionTest | 2 | 0 | 0 | 0
+com.allpatekplatform.alerts.domain.model.valueobjects.WeatherSnapshotTest | 2 | 0 | 0 | 0
+com.allpatekplatform.alerts.domain.services.FrostRiskTest | 1 | 0 | 0 | 0
+com.allpatekplatform.alerts.domain.services.NormalClimateTest | 1 | 0 | 0 | 0
+com.allpatekplatform.alerts.domain.services.RainRiskTest | 2 | 0 | 0 | 0
+com.allpatekplatform.alerts.domain.services.WindRiskTest | 2 | 0 | 0 | 0
+com.allpatekplatform.alerts.infrastructure.weather.CurrentWeatherValidationTest | 2 | 0 | 0 | 0
+com.allpatekplatform.alerts.infrastructure.weather.DailyWeatherValidationTest | 2 | 0 | 0 | 0
+com.allpatekplatform.alerts.infrastructure.weather.ForecastCardinalityTest | 1 | 0 | 0 | 0
+com.allpatekplatform.alerts.infrastructure.weather.ForecastStructureTest | 1 | 0 | 0 | 0
+com.allpatekplatform.alerts.infrastructure.weather.ZeroWeatherReadingTest | 1 | 0 | 0 | 0
+com.allpatekplatform.alerts.integration.AlertsSecurityAndPersistenceTest | 3 | 0 | 0 | 0
+com.allpatekplatform.alerts.interfaces.rest.AlertsControllerTest | 2 | 0 | 0 | 0
+com.allpatekplatform.alerts.interfaces.rest.AlertsHttpContractTest | 2 | 0 | 0 | 0
+com.allpatekplatform.alerts.interfaces.rest.transform.ClimateResourceContractTest | 1 | 0 | 0 | 0
+com.allpatekplatform.alerts.interfaces.rest.WeatherErrorLocalizationTest | 1 | 0 | 0 | 0
+com.allpatekplatform.alerts.interfaces.rest.WeatherErrorMappingTest | 1 | 0 | 0 | 0
+com.allpatekplatform.AllpatekPlatformApplicationTests | 1 | 0 | 0 | 0
+com.allpatekplatform.parcels.application.acl.ParcelsContextFacadeImplTest | 2 | 0 | 0 | 0
+com.allpatekplatform.parcels.infrastructure.persistence.jpa.adapters.ParcelOwnerQueryTest | 1 | 0 | 0 | 0

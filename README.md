@@ -4343,26 +4343,29 @@ Los cinco salen en Insights del repositorio. El pico de commits cae entre finale
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
-Esta sección distingue las comprobaciones de disponibilidad de los recorridos funcionales del Sprint 4. La revisión documental del 26/11/2026 no obtuvo nuevas capturas de la interfaz ni ejecutó sesiones autenticadas; por ello, los siguientes casos conservan el estado **Pendiente de ejecución y captura**.
+**Ejecución local de pruebas del backend — 26/11/2026**
 
-| Caso | Preparación y acción | Resultado que debe comprobarse | Evidencia requerida |
-| :--- | :--- | :--- | :--- |
-| E4-01: acceso | Ingresar con una identidad vigente del Anexo I. | Apertura del espacio de trabajo y rol correcto. | Captura de la sesión iniciada, sin mostrar contraseña ni token. |
-| E4-02: parcelas | Consultar el catálogo con el agricultor autenticado. | Parcelas correspondientes al usuario y detalle consultable. | Captura del catálogo y referencia al usuario de prueba. |
-| E4-03: clima | Abrir el panel climático de una parcela del agricultor. | Parcela identificada, métricas y avisos disponibles, o mensaje de ausencia/error observado. | Captura legible del panel con el resultado real y entorno. |
-| E4-04: perfil | Consultar el perfil de la sesión de prueba. | Datos personales y rol coherentes con esa sesión. | Captura del perfil y descripción del resultado observado. |
+| Versión y entorno | Resultado |
+| :--- | :--- |
+| Repositorio | [allpatek-platform](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform) |
+| Commit ejecutado | [2390a37](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/2390a372504f57ed4bd2ab90055d7b390b181bae) |
+| Rama | feature/alerts-management-correction |
+| Entorno | Java 27, Spring Boot 4.1.2, perfil test y base de datos H2 |
+| Comando ejecutado | `mvn -B clean verify` |
+| Resultado de Maven | BUILD SUCCESS |
+| Pruebas ejecutadas | 45 |
+| Fallos, errores y pruebas omitidas | 0 |
 
-Los identificadores E4-01 a E4-04 son casos de comprobación documental, no nuevas historias del Product Backlog. Cada evidencia futura debe indicar fecha, entorno, acción, resultado observado y relación con el caso. Las capturas históricas de los Sprints 2 y 3 se conservan en sus secciones originales y no se presentan como ejecución nueva del Sprint 4.
-
-**Comprobación de entornos del 26/11/2026**
-
-| Consulta | Observación | Alcance de la evidencia |
+| Caso probado | Resultado obtenido | Prueba |
 | :--- | :--- | :--- |
-| Landing Page | HTTP 200; el HTML conserva los videos anteriores. | Disponibilidad del documento y lectura de los identificadores de los reproductores. |
-| Web App | HTTP 200; se obtuvo la página inicial. | Disponibilidad del HTML, sin validar sesión, datos o llamadas del navegador. |
-| Backend y Swagger | Tiempo de espera agotado en dos consultas. | No se obtuvo una respuesta que permita acreditar el funcionamiento de esos endpoints. |
+| Acceso a alertas sin autenticación | HTTP 401 | [Seguridad](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/blob/2390a372504f57ed4bd2ab90055d7b390b181bae/src/test/java/com/allpatekplatform/alerts/integration/AlertsSecurityAndPersistenceTest.java) |
+| Cuenta autenticada de prueba sin perfil | HTTP 404, código PROFILE_NOT_FOUND | [Perfil y acceso](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/blob/2390a372504f57ed4bd2ab90055d7b390b181bae/src/test/java/com/allpatekplatform/alerts/integration/AlertsSecurityAndPersistenceTest.java) |
+| Consulta de parcelas por propietario | La consulta excluyó las parcelas de otros propietarios | [Consulta en H2](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/blob/2390a372504f57ed4bd2ab90055d7b390b181bae/src/test/java/com/allpatekplatform/alerts/integration/AlertsSecurityAndPersistenceTest.java) |
+| Temperatura mínima de 0 °C | Se conservó el valor y se generó la alerta de helada | [Lecturas de cero](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/blob/2390a372504f57ed4bd2ab90055d7b390b181bae/src/test/java/com/allpatekplatform/alerts/infrastructure/weather/ZeroWeatherReadingTest.java) |
+| Coordenadas inválidas | Se rechazaron valores no finitos y fuera de rango | [Coordenadas](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/blob/2390a372504f57ed4bd2ab90055d7b390b181bae/src/test/java/com/allpatekplatform/alerts/domain/model/valueobjects/GeoPointTest.java) |
+| Datos meteorológicos ausentes | Se rechazó la lectura incompleta | [Validación meteorológica](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/blob/2390a372504f57ed4bd2ab90055d7b390b181bae/src/test/java/com/allpatekplatform/alerts/infrastructure/weather/CurrentWeatherValidationTest.java) |
 
-El [registro de comprobaciones](assets/chapter-05/sprint-04-link-checks.json) conserva método, fecha, respuesta o tipo de fallo, redirecciones y títulos de los videos verificados. No contiene contraseñas, tokens ni respuestas de cuentas autenticadas. Estas observaciones complementan los casos E4-01 a E4-04; no cambian su estado a ejecutado.
+[Resultados por clase de prueba](assets/chapter-05/sprint-04-backend-tests.txt).
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
