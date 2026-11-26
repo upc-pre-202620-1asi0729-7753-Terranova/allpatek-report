@@ -4348,34 +4348,13 @@ Se conservan los nombres de las columnas. La etiqueta **Sprint 04** agrupa tres 
 
 ### Tabla de Control de Estado del Sprint Backlog 4
 
-La tabla transcribe los títulos y las columnas de las Figuras 5.2.4.3.1 y 5.2.4.3.2. **Assigned To** reproduce las iniciales visibles del avatar, sin atribuirles un nombre completo. El símbolo **-** indica un campo no visible en las capturas.
-
 | Sprint | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
-| Sprint 4 | - | - | T001 | Modelar usuarios y roles de IAM | - | - | AB | Sprint 04 |
-| Sprint 4 | - | - | T002 | Configurar la autenticación JWT | - | - | AB | Sprint 04 |
-| Sprint 4 | - | - | T003 | Exponer registro e inicio de sesión | - | - | ME | In-Progress |
-| Sprint 4 | - | - | T004 | Extraer el bounded context Profile | - | - | A | Done |
-| Sprint 4 | - | - | T005 | Documentar la seguridad JWT en OpenAPI | - | - | A | In-Progress |
-| Sprint 4 | - | - | T006 | Iniciar sesión desde la Web App | - | - | ME | Done |
-| Sprint 4 | - | - | T007 | Validar identidad y persistir perfiles | - | - | AB | In-Progress |
-| Sprint 4 | - | - | T008 | Registrar y editar datos personales y comerciales | - | - | NV | Sprint 04 |
-| Sprint 4 | - | - | T009 | Filtrar el catálogo por agricultor autenticado | - | - | NV | To-Do |
-| Sprint 4 | - | - | T010 | Firmar el contrato como agricultor | - | - | ME | To-Do |
-| Sprint 4 | - | - | T011 | Acreditar fondos al liberar un hito | - | - | ME | Done |
-| Sprint 4 | - | - | T012 | Verificar y liberar evidencias de hito | - | - | NV | In-Progress |
-| Sprint 4 | - | - | T013 | Emitir alertas con parcelas por ACL | - | - | AB | Done |
-| Sprint 4 | - | - | T014 | Conectar la Web App al API publicado | - | - | NV | Done |
-| Sprint 4 | - | - | T015 | Pulir la interfaz de parcelas y navegación | - | - | A | Done |
-| Sprint 4 | - | - | T016 | Integrar las ramas del Sprint 4 en develop | - | - | AR | Done |
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 
-Se registran referencias a aportes preexistentes de Alexander1Alexander2 en los historiales consultados. Esta revisión trabaja únicamente en el informe; no implementa cambios en los repositorios de producto. La ejecución se comprueba por separado en 5.2.4.5.
-
 | Repositorio | Rama de referencia | Commit | Mensaje original | Fecha de autor, Lima |
 | :--- | :--- | :--- | :--- | :---: |
-| allpatek-report | feature/report-corrections | [a8f9830](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-report/commit/a8f98303e5a790a4b513d53ee13554d52187413a) | docs: transcribe sprint 4 backlog cards | 2026-11-26 |
 | allpatek-report | feature/report-corrections | [f90ffd8](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-report/commit/f90ffd8785bb1d68b2b0f82c81eecd82d9b2353d) | docs: finalize updated video references | 2026-11-26 |
 | allpatek-website | feature/report-corrections | [a59d68a](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website/commit/a59d68a00f632fc70c601bc8f2d216631d6f7439) | fix: finalize landing video sources | 2026-11-26 |
 | allpatek-webapp | develop | [111b04a](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/111b04a5ed982a0e248407a6a1ca5eb22ae867ce) | feat: load climate alerts from the platform API | 2026-11-25 |
@@ -4385,8 +4364,6 @@ Se registran referencias a aportes preexistentes de Alexander1Alexander2 en los 
 | allpatek-platform | develop | [4bafca5](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/4bafca5532a8f92777b31a10bdd5c9439305c2b9) | feat(iam): configure JWT authentication and Spring Security | 2026-11-25 |
 | allpatek-platform | develop | [0ff1486](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/0ff1486651ae5ddfe0748ec33746973630706677) | feat(iam): persist users and roles with JPA | 2026-11-25 |
 | allpatek-platform | develop | [4c4d5dc](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/4c4d5dc4aea7553d635f126d69804e6872d6ddaf) | feat(iam): add the user and role domain model | 2026-11-25 |
-
-Las ramas identifican los historiales de referencia, no una afirmación de despliegue de cada commit. Los mensajes se conservan literalmente, incluidos sus prefijos originales. El historial de esta revisión documental puede consultarse en la rama `feature/report-corrections` de allpatek-report.
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
