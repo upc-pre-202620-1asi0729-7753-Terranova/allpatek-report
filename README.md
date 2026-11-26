@@ -129,6 +129,7 @@
 | TB2 | 25/11/2026 | Raymundo Villarroel, Abigail Nadhim | Creación de la estructura de la sección 5.2.4 (Sprint 4) con las tablas de planificación, backlog, evidencias y colaboración para completar |
 | TB2 | 25/11/2026 | Raymundo Villarroel, Abigail Nadhim | Registro de los usuarios de prueba de la aplicación web (agricultor y comerciante) en el Anexo I |
 | TB2 | 25/11/2026 | Atauje Barreto, Alexander Sebastián | Corrección de referencias Trello de los Sprints 1, 2 y 3; incorporación del resumen visual del Sprint 2; revisión de figuras, leyendas y capturas ampliables; conciliación de historias, tareas y estimaciones; y verificación de identificadores, mensajes y fechas de commits contra GitHub |
+| TB2 | 25/11/2026 | Atauje Barreto, Alexander Sebastián | Incorporación de la captura original de Trello del Sprint 2, actualización de T020 a In-Process, registro de la diferencia entre 32 tarjetas y 33 tareas, y enlaces a las capturas en el Anexo D |
 
 ## Project Report Collaboration Insights
 
@@ -5196,9 +5197,9 @@ Seguimiento de tareas y planificación del Product Backlog y de los Sprints 1, 2
 
 | Artefacto de Gestión | Herramienta | Enlace Público al Tablero |
 | :--- | :---: | :---: |
-| **Product Backlog & Sprint 1 Board** | Trello | <a href="https://trello.com/b/A0csigUo/terranova" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a> |
-| **Product Backlog & Sprint 2 Board** | Trello | <a href="https://trello.com/b/wg5hoQwD/allpatek-sprint-02" style="text-decoration: none;">Ver tablero Trello - ALLPATEK Sprint 2</a> |
-| **Product Backlog & Sprint 3 Board** | Trello | <a href="https://trello.com/b/PffylQcc/allpatek-sprint-03" style="text-decoration: none;">Ver tablero Trello - ALLPATEK Sprint 3</a> |
+| **Product Backlog & Sprint 1 Board** | Trello | <a href="https://trello.com/b/A0csigUo/terranova" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a><br />[Captura](assets/chapter-05/trello-sprint-01.png) |
+| **Product Backlog & Sprint 2 Board** | Trello | <a href="https://trello.com/b/wg5hoQwD/allpatek-sprint-02" style="text-decoration: none;">Ver tablero Trello - ALLPATEK Sprint 2</a><br />[Captura](assets/chapter-05/trello-sprint-02.png) |
+| **Product Backlog & Sprint 3 Board** | Trello | <a href="https://trello.com/b/PffylQcc/allpatek-sprint-03" style="text-decoration: none;">Ver tablero Trello - ALLPATEK Sprint 3</a><br />[Captura](assets/chapter-05/trello-sprint-03.png) |
 | **Product Backlog & Sprint 4 Board** | Trello | <a href="https://trello.com/b/PffylQcc" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a> |
 
 </div>
