@@ -131,6 +131,7 @@
 | TB2 | 25/11/2026 | Atauje Barreto, Alexander Sebastián | Corrección de referencias Trello de los Sprints 1, 2 y 3; incorporación del resumen visual del Sprint 2; revisión de figuras, leyendas y capturas ampliables; conciliación de historias, tareas y estimaciones; y verificación de identificadores, mensajes y fechas de commits contra GitHub |
 | TB2 | 25/11/2026 | Atauje Barreto, Alexander Sebastián | Incorporación de la captura original de Trello del Sprint 2, actualización de T020 a In-Process, registro de la diferencia entre 32 tarjetas y 33 tareas, y enlaces a las capturas en el Anexo D |
 | TB2 | 26/11/2026 | Atauje Barreto, Alexander Sebastián | Revisión documental del Sprint 4 y anexos; registro de comprobaciones HTTP, accesos restringidos y adjuntos faltantes; referencias a contribuciones existentes; actualización del Student Outcome. Cambios limitados a allpatek-report en feature/report-corrections; las capturas y pruebas autenticadas pendientes se identifican en 5.2.4.5 |
+| TB2 | 26/11/2026 | Atauje Barreto, Alexander Sebastián | Incorporación de las dos capturas originales del tablero del Sprint 4 y su enlace normal; transcripción de las 16 tareas con columnas e iniciales visibles, resumen de conteos y actualización del Anexo D. Los campos no visibles no se completan por inferencia |
 
 ## Project Report Collaboration Insights
 
@@ -4374,6 +4375,7 @@ Se registran referencias a aportes preexistentes de Alexander1Alexander2 en los 
 
 | Repositorio | Rama de referencia | Commit | Mensaje original | Fecha de autor, Lima |
 | :--- | :--- | :--- | :--- | :---: |
+| allpatek-report | feature/report-corrections | [a8f9830](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-report/commit/a8f98303e5a790a4b513d53ee13554d52187413a) | docs: transcribe sprint 4 backlog cards | 2026-11-26 |
 | allpatek-report | feature/report-corrections | [f90ffd8](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-report/commit/f90ffd8785bb1d68b2b0f82c81eecd82d9b2353d) | docs: finalize updated video references | 2026-11-26 |
 | allpatek-website | feature/report-corrections | [a59d68a](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website/commit/a59d68a00f632fc70c601bc8f2d216631d6f7439) | fix: finalize landing video sources | 2026-11-26 |
 | allpatek-webapp | develop | [111b04a](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/111b04a5ed982a0e248407a6a1ca5eb22ae867ce) | feat: load climate alerts from the platform API | 2026-11-25 |
@@ -4440,7 +4442,7 @@ La revisión documental de Alexander reúne verificación de enlaces, clasificac
 
 | Integrante | Usuario GitHub | Evidencia consolidada en esta revisión |
 | :--- | :--- | :--- |
-| Atauje Barreto, Alexander Sebastián | Alexander1Alexander2 | Correcciones del informe, comprobaciones HTTP y revisión de anexos. |
+| Atauje Barreto, Alexander Sebastián | Alexander1Alexander2 | Correcciones del informe, comprobaciones HTTP, revisión de anexos y documentación de las capturas y las 16 tareas del tablero del Sprint 4. |
 | Egocheaga Suyo, Miguel Angel | MiguelAngel0107 | Pendiente de consolidar por el equipo en esta sección. |
 | Orellana Rodríguez, Mel Andree | melandree8 | Pendiente de consolidar por el equipo en esta sección. |
 | Raymundo Villarroel, Abigail Nadhim | AbigailRV | Pendiente de consolidar por el equipo en esta sección. |
