@@ -1,0 +1,59 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 14
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam packageStyle rectangle
+hide empty members
+title Allpatek Angular SPA | Parcels
+package "Domain" #EAF4EA {
+class Parcel {
+  +id: string
+  +ownerId: number
+  +name: string
+  +status: 'available' | 'in-production' | 'maintenance'
+  +crops: readonly string[]
+}
+}
+package "Application" #EDF3F9 {
+class ParcelStore {
+  -parcelApi: ParcelApi
+  +parcels: Signal<Parcel[]>
+  +deleteParcel(id: string): void
+}
+}
+package "Infrastructure" #FFF6E2 {
+class ParcelApi {
+  -parcelsEndpoint: ParcelsApiEndpoint
+  +getParcels(): Observable<Parcel[]>
+  +deleteParcel(id: string): Observable<void>
+}
+class ParcelsApiEndpoint {
+  -assembler: ParcelAssembler
+  +getAll(): Observable<Parcel[]>
+}
+class ParcelAssembler {
+  +toEntityFromResource(resource: ParcelResource): Parcel | null
+}
+interface ParcelResource {
+  +id: string
+  +name: string
+  +status: Parcel['status']
+}
+}
+package "Presentation" #F4EEFB {
+class ParcelBoard {
+  -parcels: ParcelStore
+  #openParcel(parcel: Parcel): void
+  #deleteParcel(parcel: Parcel): void
+}
+}
+ParcelStore -up-> "0..*" Parcel : holds
+ParcelStore --> "1" ParcelApi : reads and writes
+ParcelApi --> "1" ParcelsApiEndpoint : delegates
+ParcelsApiEndpoint --> "1" ParcelAssembler : maps payload
+ParcelAssembler ..> ParcelResource : reads
+ParcelBoard -up-> "1" ParcelStore : observes
+@enduml

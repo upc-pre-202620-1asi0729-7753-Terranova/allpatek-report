@@ -1,0 +1,57 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 14
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam packageStyle rectangle
+hide empty members
+title Allpatek Angular SPA | Climate alerts
+package "Domain" #EAF4EA {
+interface WeatherReading {
+  +parcelId: string
+  +temperature: number
+  +humidity: number
+  +precipitation: number
+}
+interface WeatherChart {
+  +kind: 'area' | 'bars'
+  +line: string
+  +area: string
+}
+class ParcelRef {
+  +id: string
+  +ownerId: number
+  +location: string
+}
+}
+package "Application" #EDF3F9 {
+class ClimateStore {
+  -weather: WeatherApi
+  -parcelRefApi: ParcelRefApi
+  +readings: Signal<WeatherReading[]>
+  +select(parcelId: string): void
+}
+}
+package "Infrastructure" #FFF6E2 {
+class WeatherApi {
+  +getForecast(places: WeatherPlace[]): Observable<WeatherReading[]>
+}
+class ParcelRefApi {
+  +getParcels(): Observable<ParcelRef[]>
+}
+}
+package "Presentation" #F4EEFB {
+class ClimateBoard {
+  -climate: ClimateStore
+  #select(parcelId: string): void
+}
+}
+WeatherReading "1" *-- "4" WeatherChart : sparks
+ClimateStore -up-> "0..*" WeatherReading : holds readings
+ClimateStore -up-> "0..*" ParcelRef : holds parcels
+ClimateStore --> "1" WeatherApi : requests forecast
+ClimateStore --> "1" ParcelRefApi : loads parcels
+ClimateBoard -up-> "1" ClimateStore : selects parcel
+@enduml

@@ -6,60 +6,70 @@ skinparam defaultFontSize 14
 skinparam shadowing false
 skinparam classAttributeIconSize 0
 skinparam ArrowColor #476050
+skinparam packageStyle rectangle
 skinparam dpi 140
-title Allpatek | Implemented classes - Profiles
+hide empty members
 top to bottom direction
+title Allpatek | Profiles - update path
 
-package "Shared domain" {
+package "1. Domain" as Domain #ECF6EF {
   class Profile <<Aggregate Root>> {
     -id: ProfileId
     -fullName: PersonName
-    -phone: PhoneNumber
-    -document: IdentityDocument
-    -address: StreetAddress
     -emailAddress: EmailAddress
-    -company: CompanyDetails
-    +update(command: UpdateProfileCommand): void
+    +update(UpdateProfileCommand): void
+    +getEmail(): String
   }
-
-  class ProfileId <<Value Object>> {
-    +value: Long
-    +isAssigned(): boolean
-  }
-
-  class EmailAddress <<Value Object>> {
-    +address: String
-  }
-
   class CompanyDetails <<Value Object>> {
-    +company: String
-    +ruc: String
-    +activity: String
+    -company: String
+    -ruc: String
+    +ruc(): String
   }
-
   interface ProfileRepository <<Repository Port>> {
-    +save(profile: Profile): Profile
-    +findById(id: Long): Optional<Profile>
-    +findByEmailAddress(email: EmailAddress): Optional<Profile>
+    +save(Profile): Profile
     +findAll(): List<Profile>
   }
-
-  Profile *-- ProfileId
-  Profile *-- EmailAddress
-  Profile *-- CompanyDetails
-  ProfileRepository ..> Profile
+  Profile *-right-> "1" CompanyDetails : company
+  ProfileRepository ..> Profile : saves and returns
 }
-
-package "Persistence" {
-  class ProfileRepositoryImpl <<JPA Adapter>>
-  class ProfilePersistenceEntity <<JPA Entity>>
-
-  ProfileRepositoryImpl ..> ProfilePersistenceEntity : maps via assembler
+package "2. Application" as Application #F3F6FA {
+  interface ProfileCommandService {
+    +handle(UpdateProfileCommand): Result<Profile, ApplicationError>
+  }
+  class ProfileCommandServiceImpl {
+    +handle(UpdateProfileCommand): Result<Profile, ApplicationError>
+  }
+  ProfileCommandService <|.. ProfileCommandServiceImpl
 }
-ProfileRepositoryImpl ..|> ProfileRepository
+package "3. Interfaces (REST)" as Interfaces #FDF4E8 {
+  class ProfilesController <<REST Controller>> {
+    +updateProfile(Long, UpdateProfileResource, String): ResponseEntity<?>
+  }
+}
+package "4. Infrastructure (JPA)" as Infrastructure #F6F1F8 {
+  class ProfileRepositoryImpl <<Adapter>> {
+    -persistenceRepository: ProfilePersistenceRepository
+    +save(Profile): Profile
+  }
+  class ProfilePersistenceAssembler <<Mapper>> {
+    {static} +toDomainFromPersistence(ProfilePersistenceEntity): Profile
+  }
+  class ProfilePersistenceEntity <<JPA Entity>> {
+    -fullName: String
+    -emailAddress: EmailAddress
+    +getFullName(): String
+  }
+  ProfileRepositoryImpl ..> ProfilePersistenceAssembler : converts before and after save
+  ProfilePersistenceAssembler ..> ProfilePersistenceEntity : maps
+}
+ProfileRepository "1" <-- ProfileCommandServiceImpl : profileRepository
+ProfileRepository <|.. ProfileRepositoryImpl
+ProfileCommandService "1" <-- ProfilesController : profileCommandService
+Domain -[hidden]down-> Application
+Application -[hidden]down-> Interfaces
 
 legend bottom
-Profiles can be read and updated over REST.
-Profile creation is internal; there is no login, role enforcement or public registration in Spring.
++ public  |  - private
+Multiplicities label stored references. Dashed arrows show use or interface realization.
 endlegend
 @enduml

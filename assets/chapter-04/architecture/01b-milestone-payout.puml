@@ -1,0 +1,28 @@
+@startuml
+skinparam backgroundColor white
+skinparam shadowing false
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 15
+skinparam LegendBackgroundColor white
+skinparam LegendBorderColor #576965
+skinparam LegendFontSize 15
+skinparam dpi 126
+title Allpatek | Milestone evidence and disbursement\n<size:14>Design-Level EventStorming · target business flow · US04 / US03 / US26</size>
+legend center
+|= Step |<#FFE0E9> **Actor or trigger** |<#D9EBFF> **Command** |<#FFF0B6> **Aggregate** |<#FFD4AC> **Business event** |<#E8D8F5> **Policy** |<#E4F2E3> **Query / read model** |
+| **1** |<#FFE0E9> Farmer |<#D9EBFF> Submit milestone evidence |<#FFF0B6> Milestone evidence |<#FFD4AC> Evidence submitted |<#E8D8F5> Queue the item for review. |<#E4F2E3> Evidence review queue |
+| **2** |<#FFE0E9> Notification policy |<#D9EBFF> Notify the merchant |<#FFF0B6> Delivery |<#FFD4AC> Progress notice delivered |<#E8D8F5> Notify without blocking review. |<#E4F2E3> Notice status |
+| **3** |<#FFE0E9> Merchant |<#D9EBFF> Request a correction |<#FFF0B6> Milestone evidence |<#FFD4AC> Correction requested |<#E8D8F5> Return to the farmer if insufficient. |<#E4F2E3> Correction reason |
+| **4** |<#FFE0E9> Farmer |<#D9EBFF> Submit revised evidence |<#FFF0B6> Milestone evidence |<#FFD4AC> Evidence resubmitted |<#E8D8F5> Reopen the same milestone. |<#E4F2E3> Revised evidence |
+| **5** |<#FFE0E9> Merchant |<#D9EBFF> Approve the milestone |<#FFF0B6> Milestone |<#FFD4AC> Milestone approved |<#E8D8F5> Accept eligible evidence. |<#E4F2E3> Approved milestone and amount due |
+| **6** |<#FFE0E9> Release policy |<#D9EBFF> Request the approved payout |<#FFF0B6> Payout |<#FFD4AC> Payout requested |<#E8D8F5> Issue one payout per approval. |<#E4F2E3> Pending payouts |
+| **7** |<#FFE0E9> Payment provider |<#D9EBFF> Confirm the transfer |<#FFF0B6> Payout |<#FFD4AC> Disbursement confirmed |<#E8D8F5> Record provider confirmation once. |<#E4F2E3> Payment history |
+| **8** |<#FFE0E9> Payment provider |<#D9EBFF> Report a failed transfer |<#FFF0B6> Payout |<#FFD4AC> Disbursement failed |<#E8D8F5> Keep it unpaid and retry safely. |<#E4F2E3> Failure reason and retry status |
+
+The reviewer may approve directly or request a correction. A progress notice does not gate review.
+Success and failure are alternative provider outcomes. Repeated confirmations must not pay twice.
+
+The Angular demo records review, verified and accepted. Spring persists evidence status with SaveEvidenceCommand.
+The real provider transfer and correction cycle remain target behavior; an accepted item does not prove a bank payout.
+endlegend
+@enduml

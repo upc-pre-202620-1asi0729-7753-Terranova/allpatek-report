@@ -1,0 +1,24 @@
+@startuml
+!pragma layout smetana
+!include <C4/C4_Component>
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam shadowing false
+skinparam dpi 120
+LAYOUT_TOP_DOWN()
+
+title Allpatek | C4 components - Milestone evidence
+Container_Boundary(api, "Spring REST API / tracking") {
+  Component(rest, "EvidenceController", "Spring MVC", "/api/v1/evidence")
+  Component(cmd, "EvidenceCommandServiceImpl", "Application service", "Creates, updates or deletes evidence records.")
+  Component(query, "EvidenceQueryServiceImpl", "Application service", "Returns evidence status, notes and file metadata.")
+  Component(repo, "EvidenceRepositoryImpl", "JPA adapter", "Implements EvidenceRepository and maps persisted records.")
+}
+
+ContainerDb(db, "MySQL", "Relational database", "evidences table")
+Rel(rest, cmd, "POST, PUT, DELETE")
+Rel(rest, query, "GET")
+Rel(cmd, repo, "Writes via EvidenceRepository")
+Rel(query, repo, "Reads via EvidenceRepository")
+Rel(repo, db, "Uses EvidencePersistenceRepository", "JPA")
+@enduml

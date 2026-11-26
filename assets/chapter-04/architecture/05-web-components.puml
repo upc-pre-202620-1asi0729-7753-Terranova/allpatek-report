@@ -3,43 +3,38 @@
 !include <C4/C4_Component>
 skinparam backgroundColor white
 skinparam defaultFontName SansSerif
-skinparam defaultFontSize 14
 skinparam shadowing false
-skinparam ArrowColor #476050
-skinparam dpi 140
-title Allpatek | C4 - Angular web application components
-
+skinparam dpi 125
+title Allpatek | Angular Webapp components
 LAYOUT_TOP_DOWN()
-Person(user, "Farmer / Merchant", "Selects a role in the demo")
 
-Container_Boundary(web, "Angular web application") {
-  Component(shared, "shared", "shared", "Shell, routing, demo session, Profile, User and language")
-  Component(parcels, "parcel-management", "parcel-management", "Parcel catalog, detail, create and edit")
-  Component(agreements, "agreements-management", "agreements-management", "SaveAgreement with merchantSigned and farmerSigned")
-  Component(evidence, "tracking-evidence", "tracking-evidence", "MilestoneEvidence upload and review")
-  Component(escrow, "escrow-payments", "escrow-payments", "Wallet card, opening balance and simulated release")
-  Component(alerts, "alerts-management", "alerts-management", "ClimateReading board for the farmer")
+Person(user, "Farmer or merchant", "Selects a local demo role.")
+Container_Boundary(web, "Angular Webapp") {
+  Component(shared, "Shared shell and profiles", "Angular Router / Signals", "Navigation, local session, profile and language.")
+  Component(parcels, "parcel-management", "Angular / HttpClient", "Catalog, parcel form and details.")
+  Component(agreements, "agreements-management", "Angular / HttpClient", "Records merchant and farmer acceptances.")
+  Component(evidence, "tracking-evidence", "Angular / HttpClient", "Submits evidence and reviews milestones.")
+  Component(escrow, "escrow-payments", "Angular / HttpClient", "Displays wallets and simulated releases.")
+  Component(alerts, "alerts-management", "Angular / HttpClient", "Requests forecasts for the farmer's parcels.")
 }
+Container(api, "Platform REST API", "Spring Boot", "Configured Render base /api/v1")
+System_Ext(weather, "Open-Meteo", "Forecast service")
+System_Ext(maps, "OpenStreetMap", "Map embed")
 
-Container(mock, "Mock Data API", "JSON Server / Azure Mock API", "Local or deployed mock selected by environment")
-System_Ext(weather, "Open-Meteo", "Weather forecast service")
-System_Ext(maps, "OpenStreetMap", "Embedded parcel map")
-
-Rel(user, shared, "Enters /login or /register and navigates", "Browser")
-Rel(shared, parcels, "/parcels", "Angular Router")
-Rel(shared, agreements, "/agreements", "Angular Router")
-Rel(shared, evidence, "/evidence", "Angular Router")
-Rel(shared, escrow, "/escrow", "Angular Router")
-Rel(shared, alerts, "/alerts", "Angular Router")
-Rel(shared, mock, "/profiles, /users", "HTTP / JSON")
-Rel(parcels, mock, "/parcels", "HTTP / JSON")
-Rel(parcels, maps, "Displays location in the form", "HTTPS / iframe")
-Rel(agreements, mock, "/agreements, /parcels", "HTTP / JSON")
-Rel(evidence, mock, "/evidence, /agreements, /parcels", "HTTP / JSON")
-Rel(escrow, mock, "/wallets, /evidence, /agreements, /parcels", "HTTP / JSON")
-Rel(alerts, mock, "Reads Parcel location from /parcels", "HTTP / JSON")
-Rel(alerts, weather, "Reads forecast directly", "HTTPS / JSON")
-
-footer /users exists in the Angular mock, not in Spring. Spring Boot is reviewed in diagram 04. Browser webhooks are shown in diagram 07.
+Rel(user, shared, "Enters using /login or /register", "Browser")
+Rel(shared, parcels, "/parcels", "Router")
+Rel(shared, agreements, "/agreements", "Router")
+Rel(shared, evidence, "/evidence", "Router")
+Rel(shared, escrow, "/escrow", "Router")
+Rel(shared, alerts, "/alerts", "Router")
+Rel(shared, api, "Reads and updates /profiles", "HTTPS")
+Rel(parcels, api, "Reads and writes /parcels", "HTTPS")
+Rel(agreements, api, "Uses /agreements and /parcels", "HTTPS")
+Rel(evidence, api, "Uses /evidence, /agreements and /parcels", "HTTPS")
+Rel(escrow, api, "Uses /wallets and milestone records", "HTTPS")
+Rel(alerts, api, "Reads /parcels", "HTTPS")
+Rel(alerts, weather, "Loads forecast", "HTTPS / JSON")
+Rel(parcels, maps, "Displays location", "HTTPS / iframe")
+footer Optional profile-to-account sync targets /users, which Spring does not expose. Browser webhooks appear in diagram 07.
 SHOW_LEGEND()
 @enduml

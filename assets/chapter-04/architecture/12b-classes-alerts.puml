@@ -1,0 +1,80 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 14
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam ArrowColor #476050
+skinparam packageStyle rectangle
+skinparam dpi 140
+hide empty members
+top to bottom direction
+title Allpatek | Climate alerts - forecast query
+
+package "1. Domain" as Domain #ECF6EF {
+  class ClimateReading <<Record>> {
+    -place: ParcelCoordinates
+    -weather: WeatherSnapshot
+    +alerts(): List<ClimateAlert>
+  }
+  class ClimateAlert <<Value Object>> {
+    -tone: AlertTone
+    +tone(): AlertTone
+  }
+  enum WeatherCondition {
+    clear
+    cloudy
+    fog
+    rain
+    snow
+    storm
+    {static} +fromCode(int): WeatherCondition
+  }
+  ClimateReading --> "1" WeatherCondition : condition
+  ClimateReading ..> ClimateAlert : creates on demand
+}
+package "2. Application" as Application #F3F6FA {
+  interface ClimateQueryService {
+    +handle(GetClimateAlertsQuery): Result<List<ClimateReading>, ApplicationError>
+  }
+  class ClimateQueryServiceImpl {
+    +handle(GetClimateAlertsQuery): Result<List<ClimateReading>, ApplicationError>
+  }
+  interface WeatherForecastService <<Outbound Port>> {
+    +forecast(List<ParcelCoordinates>): Result<List<ClimateReading>, ApplicationError>
+  }
+  ClimateQueryService <|.. ClimateQueryServiceImpl
+  ClimateQueryServiceImpl --> "1" WeatherForecastService : weatherForecastService
+}
+package "3. Interfaces (REST)" as Interfaces #FDF4E8 {
+  class AlertsController {
+    +getAlerts(Long, String): ResponseEntity<?>
+  }
+  class ClimateReadingResourceAssembler <<Mapper>> {
+    {static} +toResourceFromEntity(ClimateReading): ClimateReadingResource
+  }
+  AlertsController ..> ClimateReadingResourceAssembler : builds response
+}
+package "4. Infrastructure (HTTP)" as Infrastructure #F6F1F8 {
+  class OpenMeteoWeatherForecastService <<HTTP Adapter>> {
+    -restClient: RestClient
+    -baseUrl: String
+    +forecast(List<ParcelCoordinates>): Result<List<ClimateReading>, ApplicationError>
+  }
+}
+interface ParcelsContextFacade <<Parcels ACL>> {
+  +findLocations(Long): List<ParcelLocation>
+}
+ClimateReading <.. WeatherForecastService : returns
+ClimateQueryServiceImpl --> "1" ParcelsContextFacade : parcelsContextFacade
+ClimateQueryService "1" <-- AlertsController : climateQueryService
+WeatherForecastService <|.. OpenMeteoWeatherForecastService
+Domain -[hidden]down-> Application
+Application -[hidden]down-> Interfaces
+
+legend bottom
++ public  |  - private
+Forecasts are queried for the parcel locations. There is no local climate table.
+endlegend
+@enduml

@@ -1,0 +1,32 @@
+@startuml
+!pragma layout smetana
+!include <C4/C4_Component>
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam shadowing false
+skinparam dpi 120
+LAYOUT_TOP_DOWN()
+
+title Allpatek | C4 components - Parcel management
+Container_Boundary(api, "Spring REST API / parcels") {
+  Component(rest, "ParcelsController", "Spring MVC", "/api/v1/parcels")
+  Component(cmd, "ParcelCommandServiceImpl", "Application service", "Creates, updates or deletes parcels and marks them in production.")
+  Component(query, "ParcelQueryServiceImpl", "Application service", "Lists parcels and their current status.")
+  Component(repo, "ParcelRepositoryImpl", "JPA adapter", "Implements ParcelRepository and maps persisted records.")
+  Component(handler, "AgreementFullySignedEventHandler", "Spring event listener", "Consumes the agreement integration event.")
+  Component(facade, "ParcelsContextFacadeImpl", "Context facade", "Supplies parcel locations to climate queries.")
+}
+
+Component(sender, "Agreement event handler", "Spring API / agreements", "Publishes the signed agreement integration event.")
+Component(climate, "ClimateQueryServiceImpl", "Spring API / alerts", "Requests parcel locations.")
+ContainerDb(db, "MySQL", "Relational database", "parcels table")
+Rel(rest, cmd, "POST, PUT, DELETE")
+Rel(rest, query, "GET")
+Rel(cmd, repo, "Writes via ParcelRepository")
+Rel(query, repo, "Reads via ParcelRepository")
+Rel(repo, db, "Uses ParcelPersistenceRepository", "JPA")
+Rel(sender, handler, "AgreementFullySignedIntegrationEvent", "Spring events")
+Rel(handler, cmd, "MarkParcelInProductionCommand")
+Rel(climate, facade, "findLocations(ownerId)")
+Rel(facade, repo, "Reads parcels using ParcelRepository")
+@enduml

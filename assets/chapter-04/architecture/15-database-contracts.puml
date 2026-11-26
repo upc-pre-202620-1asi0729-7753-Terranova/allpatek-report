@@ -13,6 +13,7 @@ title Allpatek | MySQL - Agreements
 left to right direction
 entity "agreements" as agreement {
   {field} * id: VARCHAR(160) <<PK>>
+  --
   {field} * parcel_id: VARCHAR(160)
   {field} merchant_profile_id: BIGINT
   {field} merchant_name: VARCHAR(160)
@@ -28,14 +29,14 @@ entity "parcels" as parcel #EAF2EB {
 entity "profiles" as profile #EAF2EB {
   {field} * id: BIGINT <<PK>>
 }
-agreement ..> parcel : parcel_id
-agreement ..> profile : merchant_profile_id
+parcel ||..o{ agreement : parcel_id
+profile |o..o{ agreement : merchant_profile_id
 note bottom of agreement
-  signed_on maps to API createdAt.
-  No reservation, PDF, payment status or milestones table.
+  parcel_id is required. merchant_profile_id is optional.
+  Each flag records one party's acceptance in the same row.
 end note
 legend bottom
-PK: primary key | UQ: unique | *: NOT NULL
-Dashed arrows are logical references; MySQL has no foreign keys here.
+PK = primary key     * = NOT NULL
+Crow's feet describe logical cardinalities. The schema declares no foreign keys for these IDs.
 endlegend
 @enduml

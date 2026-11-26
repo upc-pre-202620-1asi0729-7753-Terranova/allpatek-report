@@ -48,7 +48,8 @@ package "escrow" #F7FAF8 {
 
 package "alerts" #F7FAF8 {
   rectangle "GetClimateAlertsQuery" as alQ #81C784
-  rectangle "ClimateReading" as climate #FFEE58
+  rectangle "ClimateReading" as climate #81C784
+  rectangle "ClimateQueryServiceImpl" as climateSvc #DBE8EF
 }
 
 package "shared" #F7FAF8 {
@@ -61,44 +62,45 @@ rectangle "Open-Meteo" as meteo #F48FB1
 
 farmer --> parcelCmd
 parcelCmd --> parcelAgg
-parcelAgg --> parcelQ
+parcelQ ..> parcelAgg : reads
 
 farmer --> agrCmd
 merchant --> agrCmd
 agrCmd --> agrAgg
 agrDel --> agrAgg
-agrAgg --> agrEvt : onFullySigned()\nif signatures.isComplete()
+agrAgg --> agrEvt : onFullySigned()\nincomplete to complete (per saved agreement)
 agrEvt --> agrInt : AgreementFullySignedEventHandler
 agrInt --> policy
 policy --> markCmd
 markCmd --> parcelAgg : markInProduction()\nParcelStatus.in_production
-agrAgg --> agrQ
+agrQ ..> agrAgg : reads
 
 farmer --> evCmd
 merchant --> evCmd
 evCmd --> evAgg
 evDel --> evAgg
-evAgg --> evQ
+evQ ..> evAgg : reads
 
 merchant --> wCmd
 wCmd --> wAgg
 wDel --> wAgg
-wAgg --> wQ
+wQ ..> wAgg : reads
 
 farmer --> alQ
-alQ --> climate
-parcelAgg --> climate : ParcelsContextFacade
-climate --> meteo : WeatherForecastService
+alQ --> climateSvc : handled by
+climateSvc ..> parcelAgg : reads via ParcelsContextFacade
+climateSvc --> meteo : forecasts via WeatherForecastService
+climateSvc --> climate : builds read model
 
 farmer --> pCmd
 merchant --> pCmd
 pCmd --> pAgg
-pAgg --> pQ
+pQ ..> pAgg : reads
 
 legend bottom
   Pink actor = Farmer / Merchant (Angular demo role; Spring IAM is empty)
-  Blue = Command  |  Yellow = Aggregate / ClimateReading  |  Orange = event published in Spring
-  Lilac = Policy  |  Green = Query  |  Hot pink = external system
+  Blue = Command  |  Yellow = Aggregate  |  Orange = event published in Spring
+  Lilac = Policy  |  Green = Query or read model  |  Hot pink = external system
   Tracking and escrow persist status fields; they do not publish domain events.
   ClimateReading is computed on GET /api/v1/alerts and is not stored.
 endlegend

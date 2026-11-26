@@ -6,71 +6,77 @@ skinparam defaultFontSize 14
 skinparam shadowing false
 skinparam classAttributeIconSize 0
 skinparam ArrowColor #476050
+skinparam packageStyle rectangle
 skinparam dpi 140
-title Allpatek | Implemented classes - Parcel Management
+hide empty members
 top to bottom direction
+title Allpatek | Parcels - write path
 
-package "Parcel management domain" {
+package "1. Domain" as Domain #ECF6EF {
   class Parcel <<Aggregate Root>> {
     -id: ParcelId
     -ownerId: ProfileId
-    -name: ParcelName
-    -status: ParcelStatus
     -area: ParcelArea
-    -location: ParcelLocation
-    -soilType: SoilType
-    -campaignCost: CampaignCost
-    -schedule: CampaignSchedule
     -crops: Crops
-    -media: ParcelMedia
-    +update(command: UpdateParcelCommand): void
+    +update(UpdateParcelCommand): void
     +markInProduction(): void
   }
-
   class CampaignSchedule <<Value Object>> {
-    +durationMonths: int
-    +startMonth: String
+    -durationMonths: int
+    -startMonth: String
+    +durationMonths(): int
   }
-
-  class ParcelMedia <<Value Object>> {
-    +imageUrl: String
-    +images: List<String>
+  interface ParcelRepository <<Repository Port>> {
+    +save(Parcel): Parcel
+    +findAll(): List<Parcel>
   }
-
-  class Crops <<Value Object>> {
-    +items: List<CropName>
-  }
-
+  Parcel *-right-> "1" CampaignSchedule : schedule
+  ParcelRepository ..> Parcel : saves and returns
   enum ParcelStatus {
     available
     in_production
     maintenance
   }
-
-  interface ParcelRepository <<Repository Port>> {
-    +save(parcel: Parcel): Parcel
-    +findById(id: String): Optional<Parcel>
-    +findAll(): List<Parcel>
-    +deleteById(id: String): void
+  Parcel --> "1" ParcelStatus : status
+}
+package "2. Application" as Application #F3F6FA {
+  interface ParcelCommandService {
+    +handle(UpdateParcelCommand): Result<Parcel, ApplicationError>
   }
-
-  Parcel *-- CampaignSchedule
-  Parcel *-- ParcelMedia
-  Parcel *-- Crops
-  Parcel --> ParcelStatus
-  ParcelRepository ..> Parcel
+  class ParcelCommandServiceImpl {
+    +handle(UpdateParcelCommand): Result<Parcel, ApplicationError>
+  }
+  ParcelCommandService <|.. ParcelCommandServiceImpl
 }
-
-package "Persistence" {
-  class ParcelRepositoryImpl <<JPA Adapter>>
-  class ParcelPersistenceEntity <<JPA Entity>>
-
-  ParcelRepositoryImpl ..> ParcelPersistenceEntity : maps via assembler
+package "3. Interfaces (REST)" as Interfaces #FDF4E8 {
+  class ParcelsController <<REST Controller>> {
+    +updateParcel(String, ParcelResource, String): ResponseEntity<?>
+  }
 }
-ParcelRepositoryImpl ..|> ParcelRepository
+package "4. Infrastructure (JPA)" as Infrastructure #F6F1F8 {
+  class ParcelRepositoryImpl <<Adapter>> {
+    -persistenceRepository: ParcelPersistenceRepository
+    +save(Parcel): Parcel
+  }
+  class ParcelPersistenceAssembler <<Mapper>> {
+    {static} +toDomainFromPersistence(ParcelPersistenceEntity): Parcel
+  }
+  class ParcelPersistenceEntity <<JPA Entity>> {
+    -ownerId: Long
+    -status: ParcelStatus
+    +getOwnerId(): Long
+  }
+  ParcelRepositoryImpl ..> ParcelPersistenceAssembler : converts before and after save
+  ParcelPersistenceAssembler ..> ParcelPersistenceEntity : maps
+}
+ParcelRepository "1" <-- ParcelCommandServiceImpl : parcelRepository
+ParcelRepository <|.. ParcelRepositoryImpl
+ParcelCommandService "1" <-- ParcelsController : parcelCommandService
+Domain -[hidden]down-> Application
+Application -[hidden]down-> Interfaces
 
 legend bottom
-Owner is a ProfileId. Location, area and campaign cost are text values.
-markInProduction() sets ParcelStatus.in_production after AgreementFullySignedIntegrationEvent.
++ public  |  - private
+Multiplicities label stored references. Dashed arrows show use or interface realization.
 endlegend
 @enduml

@@ -1,0 +1,53 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 14
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam packageStyle rectangle
+hide empty members
+title Allpatek Angular SPA | Agreements
+package "Domain" #EAF4EA {
+class Agreement {
+  +id: string
+  +parcelId: string
+  +merchantProfileId: number | null
+  +merchantSigned: boolean
+  +farmerSigned: boolean
+}
+class ParcelRef {
+  +id: string
+  +ownerId: number
+  +campaignCost: string
+}
+}
+package "Application" #EDF3F9 {
+class AgreementStore {
+  -agreementApi: AgreementApi
+  -parcelRefApi: ParcelRefApi
+  +find(requestId: string): Agreement | undefined
+  +signFarmer(requestId: string, onDone: (saved: boolean) => void): void
+}
+}
+package "Infrastructure" #FFF6E2 {
+class AgreementApi {
+  -agreementsEndpoint: AgreementsApiEndpoint
+  +updateAgreement(agreement: Agreement): Observable<Agreement>
+}
+class ParcelRefApi {
+  +getParcels(): Observable<ParcelRef[]>
+}
+}
+package "Presentation" #F4EEFB {
+class ContractSign {
+  -agreements: AgreementStore
+  #onSign(event: Event): void
+}
+}
+AgreementStore -up-> "0..*" Agreement : holds agreements
+AgreementStore -up-> "0..*" ParcelRef : holds parcel references
+AgreementStore --> "1" AgreementApi : saves agreement
+AgreementStore --> "1" ParcelRefApi : looks up parcels
+ContractSign -up-> "1" AgreementStore : requests signature
+@enduml

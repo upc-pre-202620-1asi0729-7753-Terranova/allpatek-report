@@ -1,35 +1,44 @@
 @startuml
-title Allpatek | Agreement and Milestone Flow - Angular Demo
-skinparam backgroundColor white
+title Allpatek | Seasonal agreement, evidence and simulated payout
 skinparam shadowing false
 skinparam defaultFontName SansSerif
-skinparam defaultFontSize 15
-skinparam dpi 140
+skinparam defaultFontSize 14
+skinparam dpi 120
 hide footbox
 actor Merchant
 actor Farmer
-participant "Angular SPA" as Web
-database "JSON Server /\nAzure Mock API" as Mock
-participant "n8n webhook\n(external)" as N8n
+participant "Angular Webapp" as Web
+participant "Spring REST API" as Api
+participant "n8n webhook" as N8n
 
-Merchant -> Web : Open parcel and accept terms
-Web -> Mock : Save agreement with merchantSigned
-Farmer -> Web : Open request and confirm on /agreements
-Web -> Mock : Save farmerSigned
-Web -> N8n : Request agreement notice after save
-note over Web,Mock : Vault lists agreements with both flags.\nNo bank confirmation or Spring connection.
-Farmer -> Web : Attach photo to an open milestone
-Web -> N8n : Request evidence notice before save
-Web -> Mock : Save evidence as review
-Merchant -> Web : Verify evidence on /evidence/review
-Web -> Mock : Update review to verified
-Merchant -> Web : Release milestone on /escrow
-note right of Web : Demo card and sufficient\nremaining balance required.
-Web -> Mock : PUT reduced evidence as accepted
-Web -> N8n : Request payout notice if UI reports success
-note over Web,Mock
-  Release is a status change, not a funds transfer.
-  The reduced PUT omits notes and file data;
-  its HTTP error can be reported as success.
-end note
+== Agreement ==
+Merchant -> Web : Accept the terms for a parcel
+Web -> Api : Save merchantSigned on /api/v1/agreements
+Farmer -> Web : Accept the merchant-signed request
+Web -> Api : PUT /api/v1/agreements/{id} with both flags
+alt Save succeeds
+  Api -> Api : On newly complete signatures, publish domain event\nand integration event; request parcel in_production
+  Api --> Web : Agreement resource
+  Web ->> N8n : POST agreement notice
+else Save fails after retries
+  Web --> Farmer : Show signature error
+end
+
+== Milestone ==
+Farmer -> Web : Submit a milestone file and notes
+Web ->> N8n : POST evidence notice before persistence
+Web -> Api : POST /api/v1/evidence with status review
+note over Web,Api : A failed save shows an error. The outgoing notice was already attempted.
+Merchant -> Web : Verify a submitted milestone
+Web -> Api : PUT /api/v1/evidence/{id} with status verified
+Merchant -> Web : Approve the simulated release on /escrow
+note over Web : A demo card, available balance and verified evidence are required.
+Web -> Api : PUT reduced evidence data with status accepted
+alt PUT succeeds
+  Api --> Web : Updated evidence
+else PUT fails
+  Web -> Web : Adapter returns its local accepted record as a fallback
+end
+Web ->> N8n : POST payout notice when UI reports success
+note over Web,N8n : The reduced update omits notes and file content.\nThe simulated release does not execute a bank transfer.
 @enduml

@@ -13,6 +13,7 @@ title Allpatek | MySQL - Parcels
 left to right direction
 entity "parcels" as parcel {
   {field} * id: VARCHAR(160) <<PK>>
+  --
   {field} * owner_id: BIGINT
   {field} * name: VARCHAR(160)
   {field} * status: ENUM
@@ -31,14 +32,14 @@ entity "parcels" as parcel {
 entity "profiles" as profile #EAF2EB {
   {field} * id: BIGINT <<PK>>
 }
-parcel ..> profile : owner_id
+profile ||..o{ parcel : owner_id
 note bottom of parcel
-  {field} status: available, in_production, maintenance
+  status = available, in_production or maintenance
   crops and images: JSON lists stored as text
-  {field} location: text; climate expects lat,lon
+  Climate lookup reads coordinates from location.
 end note
 legend bottom
-PK: primary key | UQ: unique | *: NOT NULL
-Dashed arrows are logical references; MySQL has no foreign keys here.
+PK = primary key     * = NOT NULL
+Crow's feet describe logical cardinalities. The schema declares no foreign keys for these IDs.
 endlegend
 @enduml

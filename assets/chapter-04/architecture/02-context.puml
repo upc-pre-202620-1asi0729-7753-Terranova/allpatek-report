@@ -3,30 +3,25 @@
 !include <C4/C4_Context>
 skinparam backgroundColor white
 skinparam defaultFontName SansSerif
-skinparam defaultFontSize 15
 skinparam shadowing false
-skinparam dpi 140
-
-title Allpatek | C4 - System context
+skinparam dpi 125
+title Allpatek | System context
 LAYOUT_TOP_DOWN()
 
-Person(farmer, "Farmer", "Creates Parcel records, signs Agreement and submits MilestoneEvidence.")
-Person(merchant, "Merchant", "Chooses a Parcel, signs Agreement, reviews MilestoneEvidence and saves Wallet.")
+Person(farmer, "Family farmer", "Offers parcels, accepts agreements and submits milestone evidence.")
+Person(merchant, "Merchant", "Chooses a parcel, accepts terms and reviews progress.")
+System(allpatek, "Allpatek", "Coordinates seasonal agreements, parcel work and milestone tracking.")
+System_Ext(weather, "Open-Meteo", "Provides location-based forecasts.")
+System_Ext(maps, "OpenStreetMap", "Provides an embedded parcel map.")
+System_Ext(automation, "n8n", "Receives browser webhook requests.")
+System_Ext(video, "YouTube", "Hosts the product and team videos.")
 
-System(allpatek, "Allpatek", "Parcel, Agreement, MilestoneEvidence, Wallet, Profile and ClimateReading. Wallet release in the browser demo is simulated.")
-
-System_Ext(mock, "Azure Mock API", "Provides demo records and receives demo updates.")
-System_Ext(weather, "Open-Meteo", "Provides location-based weather forecasts.")
-System_Ext(maps, "OpenStreetMap", "Embedded parcel location map.")
-System_Ext(automation, "n8n", "Browser webhook targets; workflow execution was not verified.")
-
-Rel(farmer, allpatek, "CreateParcel and SaveEvidence")
-Rel(merchant, allpatek, "SaveAgreement, SaveEvidence and SaveWallet")
-Rel(allpatek, mock, "Reads and writes demo records")
+Rel(farmer, allpatek, "Manages parcels and records progress")
+Rel(merchant, allpatek, "Contracts seasonal work and reviews evidence")
 Rel(allpatek, weather, "Requests forecasts")
-Rel(allpatek, maps, "Loads map in parcel form")
-Rel(allpatek, automation, "Submits contact and demo event requests")
-
-footer Spring REST API and MySQL were verified separately in a local environment. No payment provider is connected.
+Rel(allpatek, maps, "Displays parcel locations")
+Rel(allpatek, automation, "Requests contact and workflow notifications")
+Rel(allpatek, video, "Embeds videos on the landing page")
+footer Wallet and milestone release screens simulate payouts.
 SHOW_LEGEND()
 @enduml
