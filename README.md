@@ -4326,7 +4326,13 @@ El objetivo y las historias del Sprint 4 requieren completar los registros de pl
 
 #### Tablero de Control del Sprint 4 (Sprint Board)
 
-No se dispone del enlace confirmado ni de la captura original del tablero del Sprint 4. Las referencias de los Sprints 1, 2 y 3 se conservan en el Anexo D; el tablero del Sprint 3 no se identifica como evidencia del Sprint 4.
+<p align="center">
+  <a href="assets/chapter-05/trello-sprint-04.png">
+    <img src="assets/chapter-05/trello-sprint-04.png" alt="Tablero Allpatek-Sprint-04 con las columnas Sprint 04, To-Do, In-Progress y Done" width="900" />
+  </a>
+</p>
+
+* **Figura 5.2.4.3.1.** Vista general del tablero Allpatek-Sprint-04 proporcionada para esta revisión. Los contadores de columna y las tarjetas conservan el estado visible en la captura. Seleccionar la imagen permite ampliarla.
 
 ### Tabla de Control de Estado del Sprint Backlog 4
 
