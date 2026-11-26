@@ -4312,8 +4312,6 @@ Los cinco salen en Insights del repositorio. El pico de commits cae entre finale
 
 El objetivo y las historias del Sprint 4 requieren completar los registros de planificación del equipo. Las verificaciones documentadas en 5.2.4.5 no se presentan como una planificación retrospectiva.
 
-Las capturas permiten transcribir las tareas T001 a T016, sus columnas y las iniciales de los avatares. No muestran Story IDs, títulos de historias, Story Points, estimaciones en horas ni descripciones ampliadas; esos datos no se deducen del identificador de la tarea.
-
 #### Tablero de Control del Sprint 4 (Sprint Board)
 
 * **URL del tablero del Sprint 4:** <a href="https://trello.com/b/Rowl4alL">Ver tablero Trello - Allpatek-Sprint-04</a>
@@ -4333,18 +4331,6 @@ Las capturas permiten transcribir las tareas T001 a T016, sus columnas y las ini
 </p>
 
 * **Figura 5.2.4.3.2.** Continuación de la columna Done. Complementa la vista general y permite leer T004, T011 y T006; T016 aparece en ambas capturas para relacionar las vistas. Las tarjetas compartidas se cuentan una sola vez.
-
-**Resumen de columnas del tablero**
-
-| Columna visible | Tarjetas |
-| :--- | :---: |
-| Sprint 04 | 3 |
-| To-Do | 2 |
-| In-Progress | 4 |
-| Done | 7 |
-| **Total** | **16** |
-
-Se conservan los nombres de las columnas. La etiqueta **Sprint 04** agrupa tres tarjetas y no se interpreta automáticamente como To-Do o In-Progress. Los conteos corresponden a las dos capturas aportadas; las siete tarjetas en Done no acreditan por sí solas un recorrido funcional de la aplicación.
 
 ### Tabla de Control de Estado del Sprint Backlog 4
 
