@@ -3283,28 +3283,40 @@ Es una vista resumida que consolida las especificaciones técnicas y la galería
 
 
 #### Vista 6: Emisión y Firma Digital de Contrato
-Muestra el documento de arrendamiento con sus cláusulas legales, los datos de las partes firmantes y el desglose de pagos estructurado en cuatro hitos equivalentes al 25% cada uno. Incluye un identificador único con formato CTR-YYYY-NNNN y un panel de firma digital para que el agricultor pueda aceptar y validar formalmente el acuerdo emitido por el comerciante.
+La captura muestra el contrato de arrendamiento, los datos de las partes y el desglose de cuatro hitos del 25 % cada uno. El panel lateral presenta el estado de las firmas, la carga de una imagen de firma y la aceptación de las condiciones del contrato dentro de la aplicación de demostración.
 
 <p align="center">
-  <img src="assets/chapter-05/vista06.png" alt="Pantalla de Login" width="850" />
+  <a href="assets/chapter-05/vista06.png">
+    <img src="assets/chapter-05/vista06.png" alt="Contrato agrícola con cláusulas, partes involucradas, distribución por hitos y panel de firma" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.5.6.** Vista de contrato y aceptación de las condiciones mostradas en la aplicación. Seleccionar la imagen permite ampliarla.
 
 
 #### Vista 7: Panel de Bóveda de Custodia (*Escrow Vault*)
-Esta vista financiera gestiona la retención y liberación progresiva de los fondos del contrato bajo el esquema de custodia (*Escrow*). Permite a ambas partes visualizar el balance total depositado, el monto retenido y el capital liberado a medida que se aprueban los hitos de trabajo programados.
+La bóveda presenta los montos de demostración asociados al contrato y una línea de tiempo con cuatro hitos. La captura permite identificar las partes, la parcela vinculada y el progreso de liberación simulado en el entorno del Sprint 2.
 
 <p align="center">
-  <img src="assets/chapter-05/vista07.png" alt="Pantalla de Login" width="850" />
+  <a href="assets/chapter-05/vista07.png">
+    <img src="assets/chapter-05/vista07.png" alt="Bóveda Escrow de demostración con contrato activo y línea de tiempo de los cuatro hitos" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.5.7.** Seguimiento de montos de demostración y avance de hitos en la bóveda. Seleccionar la imagen permite ampliarla.
 
 
 
 #### Vista 8: Panel de Control de Evidencias (*Agricultor*)
-Corresponde al tablero desde el cual el agricultor administra los entregables correspondientes a los cuatro hitos del contrato. La pantalla muestra el estado de cada etapa (Pendiente, En Revisión o Aprobado) y habilita los botones para adjuntar comprobantes fotográficos en el hito que se encuentre activo.
+La captura muestra el formulario de carga de evidencias para una parcela: selección del hito habilitado, zona para adjuntar archivos y campo de descripción u observaciones. Los hitos posteriores aparecen bloqueados en la vista conservada.
 
 <p align="center">
-  <img src="assets/chapter-05/vista08.png" alt="Pantalla de Login" width="850" />
+  <a href="assets/chapter-05/vista08.png">
+    <img src="assets/chapter-05/vista08.png" alt="Formulario de evidencias del agricultor con selector de hito, carga de archivos y observaciones" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.5.8.** Carga de evidencias para el hito habilitado de una parcela. Seleccionar la imagen permite ampliarla.
 
 
 
