@@ -336,6 +336,7 @@ Repositorios del proyecto:
 
 
 
+* [Guion de exposición de Alexander](#anexo-j-guion-de-exposición-de-alexander)
 * [Anexos](#anexos)
   * [A. Registros de Participación del Equipo (Participant Performance Report)](#anexo-a-registros-de-participación-del-equipo-participant-performance-report)
   * [B. Repositorios de Código Fuente y Control de Versiones](#anexo-b-repositorios-de-código-fuente-y-control-de-versiones)
@@ -5251,3 +5252,31 @@ Identidades de prueba consignadas por el equipo para la Web App de **ALLPATEK** 
 </div>
 
 El acceso con estas identidades no se confirmó durante la revisión del 26/11/2026. Para ejecutar los casos de [5.2.4.5](#5245-execution-evidence-for-sprint-review), debe comprobarse primero que la cuenta ingresa, conserva el rol esperado y permite consultar sus datos. La disponibilidad del HTML de la aplicación no acredita la validez de las credenciales.
+
+---
+
+## Anexo J. Guion de Exposición de Alexander
+
+Guion propuesto de 2 a 3 minutos para la introducción de la sustentación. Este texto es material de preparación, no evidencia de una exposición ya realizada.
+
+### J.1. Presentación del equipo
+
+«Buenos días. Soy Alexander Sebastián Atauje Barreto y represento a TerraNova. Nuestro equipo está integrado por Miguel Angel Egocheaga Suyo, Mel Andree Orellana Rodríguez, Nayely Macarena Vera Solsol, Abigail Nadhim Raymundo Villarroel y quien les habla. Presentamos ALLPATEK, una propuesta de Agro-as-a-Service para conectar a agricultores familiares con comerciantes y compradores urbanos».
+
+### J.2. Introducción al problema
+
+«El problema que abordamos es la incertidumbre en la relación comercial entre quien produce y quien compra. El agricultor necesita acordar condiciones para su campaña y dar visibilidad al trabajo realizado. El comerciante necesita conocer la parcela, las condiciones pactadas y el avance del cultivo. La falta de información compartida dificulta el seguimiento y la confianza entre ambas partes».
+
+Apoyo: [antecedentes y problemática](#121-antecedentes-y-problemática) y [segmentos objetivo](#13-segmentos-objetivo). Evitar atribuir resultados de validación o porcentajes que no estén sustentados en el informe.
+
+### J.3. Propuesta de solución
+
+«ALLPATEK organiza esa relación mediante parcelas publicadas, acuerdos entre las partes y seguimiento de hitos con evidencias. El comerciante puede consultar las condiciones de la parcela y el acuerdo; el agricultor puede presentar evidencias de avance. El monitoreo climático aporta lecturas y avisos que ayudan a contextualizar la situación de la parcela. La bóveda muestra la custodia y liberación por hitos con montos de demostración».
+
+Apoyo: presentar el recorrido a partir de los bounded contexts documentados: parcelas, acuerdos, evidencias, custodia y alertas climáticas.
+
+### J.4. Alcance de la entrega y transición
+
+«El alcance documentado incluye una landing informativa, una aplicación web y servicios del backend, junto con los artefactos de análisis y diseño. En la revisión final distinguimos el código disponible, los entornos publicados y la evidencia de ejecución que efectivamente pudo comprobarse. Los resultados de disponibilidad y las comprobaciones pendientes se encuentran en el Sprint 4. A continuación, mis compañeros explicarán los componentes y mostrarán las evidencias disponibles de cada flujo».
+
+Antes de exponer, revisar el [Anexo C](#anexo-c-enlaces-de-despliegue-en-entornos-de-operación-cloud-deployments), los [videos vigentes](#anexo-h-videos-de-validación-producto-y-equipo) y el estado de los casos [E4-01 a E4-04](#5245-execution-evidence-for-sprint-review), para que el relato coincida con lo que se mostrará.
