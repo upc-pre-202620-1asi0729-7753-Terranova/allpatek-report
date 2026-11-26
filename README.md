@@ -3248,8 +3248,12 @@ El formulario de registro muestra la selección del rol Agricultor o Comerciante
 Corresponde al panel principal del agricultor donde se centraliza la visualización de todos los terrenos agrícolas registrados a su nombre. La vista presenta tarjetas informativas con el estado operativo de cada predio, su extensión y accesos rápidos a las operaciones CRUD. Desde este tablero, el usuario puede iniciar el registro de nuevas parcelas, editarlas o consultar su detalle.
 
 <p align="center">
-  <img src="assets/chapter-05/vista03.png" alt="Pantalla de Login" width="850" />
+  <a href="assets/chapter-05/vista03.png">
+    <img src="assets/chapter-05/vista03.png" alt="Panel Mis Parcelas del agricultor con tarjeta de parcela, estado, datos del terreno y acciones de gestión" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.5.3.** Catálogo de parcelas del agricultor. Seleccionar la imagen permite ampliarla.
 
 
 
@@ -3257,16 +3261,24 @@ Corresponde al panel principal del agricultor donde se centraliza la visualizaci
 Esta pantalla captura y actualiza los parámetros técnicos y geográficos de un terreno agrícola. El usuario puede ingresar datos clave como el nombre del predio, la superficie total en hectáreas, la ubicación exacta, el tipo de suelo, el costo estimado de la campaña y adjuntar fotografías de respaldo. Al guardar, la Fake API actualiza la información y refresca el catálogo.
 
 <p align="center">
-  <img src="assets/chapter-05/vista04.png" alt="Pantalla de Login" width="850" />
+  <a href="assets/chapter-05/vista04.png">
+    <img src="assets/chapter-05/vista04.png" alt="Formulario Register New Parcel con datos de nombre, área, suelo, costo y calendario de campaña" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.5.4.** Formulario de registro de una parcela agrícola. Seleccionar la imagen permite ampliarla.
 
 
 #### Vista 5: Ficha de Detalle de Parcela
 Es una vista resumida que consolida las especificaciones técnicas y la galería multimedia de una parcela en particular. Funciona como un centro de control desde el cual el usuario puede navegar directamente hacia el contrato asociado, revisar el historial de evidencias técnicas enviadas o consultar el estado financiero en la bóveda de custodia.
 
 <p align="center">
-  <img src="assets/chapter-05/vista05.png" alt="Pantalla de Login" width="850" />
+  <a href="assets/chapter-05/vista05.png">
+    <img src="assets/chapter-05/vista05.png" alt="Detalle de parcela con fotografía, ficha técnica y resumen de contratación por hitos" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.5.5.** Ficha de detalle de la parcela y condiciones de campaña. Seleccionar la imagen permite ampliarla.
 
 
 
