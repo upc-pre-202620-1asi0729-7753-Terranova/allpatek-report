@@ -3669,6 +3669,19 @@ Los puntos se toman del Product Backlog (3.3). US05 aparece en las tareas de ale
 * **Figura 5.2.3.3.1.** Captura histórica del tablero Allpatek-Sprint-03 en Trello. Muestra las tareas y sus estados al momento de la captura; seleccionar la imagen permite ampliarla.
 * **URL del Board del Sprint 3:** <a href="https://trello.com/b/PffylQcc/allpatek-sprint-03" style="text-decoration: none;">Ver tablero Trello - ALLPATEK Sprint 3</a>
 
+**Distribución de tareas y esfuerzo estimado**
+
+| Integrante | Tareas | Estimación total (horas) |
+| :--- | :---: | :---: |
+| Alexander Sebastián | 4 | 18 |
+| Miguel Angel | 8 | 34 |
+| Mel Andree | 10 | 45 |
+| Abigail Nadhim | 6 | 27 |
+| Nayely Macarena | 6 | 27 |
+| **Total** | **34** | **151** |
+
+Estos valores se calculan a partir de las tareas detalladas a continuación. Las horas corresponden a estimaciones de trabajo; no representan horas efectivamente consumidas ni equivalen a Story Points.
+
 ### Tabla de Control de Estado del Sprint Backlog 3
 
 | Sprint | User Story ID | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
