@@ -200,7 +200,9 @@ Repositorios del proyecto:
 #### Contribuciones Sprint 2 ( Frontend )
 
 <p align="center">
-  <img src="./assets/chapter-05/sprint2-image-ins.jpeg" alt="Sprint02" width="65%" />
+  <a href="assets/chapter-05/sprint02.png">
+    <img src="assets/chapter-05/sprint02.png" alt="Captura histórica de GitHub Contributors de allpatek-webapp con los cinco integrantes del equipo" width="900" />
+  </a>
 </p>
 
 #### Contribuciones Sprint 3 ( Backend )
@@ -3511,9 +3513,13 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
 5. Pruebas de ejecución sobre Netlify + Azure; n8n se usó para avisos de contrato, evidencia y pago, sin sustituir el contrato REST del mock.
 
 
-<div align="center">
-  <img src="assets/chapter-05/sprint02.png" alt="Impact Mapping" width="850">
-</div>
+<p align="center">
+  <a href="assets/chapter-05/sprint02.png">
+    <img src="assets/chapter-05/sprint02.png" alt="Captura histórica de GitHub Contributors de allpatek-webapp con los cinco integrantes del equipo" width="900" />
+  </a>
+</p>
+
+* **Figura 5.2.2.8.1.** Contribuciones del repositorio allpatek-webapp en el intervalo visible de la captura original. Se utiliza el PNG de mayor resolución disponible. Los commits y sus fechas se detallan en [5.2.2.4](#5224-development-evidence-for-sprint-review); [GitHub Contributors](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/graphs/contributors) permite consultar el historial del repositorio.
 
 
 
