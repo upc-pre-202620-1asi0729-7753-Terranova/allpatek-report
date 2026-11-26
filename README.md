@@ -5075,19 +5075,15 @@ Repositorios del proyecto **ALLPATEK**:
 
 ## Anexo C. Enlaces de Despliegue en Entornos de Operación (Cloud Deployments)
 
-Acceso a los productos digitales de **ALLPATEK** desplegados públicamente en entornos de operación (Landing Page, Web App, Web Services y Fake API):
+Enlaces de los productos digitales de **ALLPATEK**:
 
-| Producto Digital | Entorno / Provider | Estado | Dirección URL de Acceso Público |
-| :--- | :---: | :---: | :---: |
-| **Landing Page (ALLPATEK)** | GitHub Pages | HTTP 200 | <a href="https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/">https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/</a> |
-| **Web App (ALLPATEK)** | Netlify | HTTP 200 | <a href="https://terranova-allpatek.netlify.app/">https://terranova-allpatek.netlify.app/</a> |
-| **Web Services (API REST base)** | Render | Sin respuesta en el plazo de comprobación | <a href="https://allpatek-platform.onrender.com/api/v1">https://allpatek-platform.onrender.com/api/v1</a> |
-| **Documentación OpenAPI (Swagger UI)** | Render | Sin respuesta en el plazo de comprobación | <a href="https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html">https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html</a> |
-| **Fake API (Mock API)** | Azure App Service | HTTP 200 | <a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/">https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/</a> |
-
-Comprobación del 26/11/2026: se verificaron respuestas HTTP, no recorridos autenticados. La Web App entregó su HTML inicial. Render agotó el plazo de espera en dos intentos; esto no permite concluir que sus servicios estén caídos. La ruta base de una API no sustituye una comprobación funcional de sus endpoints.
-
-El HTML público de la landing todavía referencia los videos anteriores (`HzLCMS18Pqg` y `Fv-fpNivSHE`). Los enlaces actualizados del informe y del Anexo H corresponden a la versión solicitada; su integración en la landing pública permanece por comprobar.
+| Producto | Plataforma | Enlace |
+| :--- | :--- | :--- |
+| **Landing Page** | GitHub Pages | [ALLPATEK](https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/) |
+| **Web App** | Netlify | [Aplicación web](https://terranova-allpatek.netlify.app/) |
+| **API REST** | Backend | [API v1](https://allpatek.proyectaconsultora.com/api/v1) |
+| **Swagger UI** | Backend | [Documentación de servicios](https://allpatek.proyectaconsultora.com/swagger-ui/index.html) |
+| **Mock API** | Azure App Service | [Mock API](https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/) |
 
 ---
 
