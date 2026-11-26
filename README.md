@@ -3564,7 +3564,7 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
   </tr>
   <tr>
     <td colspan="5">Sum of Story Points</td>
-    <td colspan="8">20 Story Points</td>
+    <td colspan="8">25 Story Points documentados + US05 pendiente de estimar</td>
   </tr>
 </table>
 
@@ -3642,19 +3642,21 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
 El objetivo principal del **Sprint 3** es publicar la **primera versión de los Web Services** internos en allpatek-platform (Java / Spring Boot / MySQL). El alcance de este Sprint Backlog es solo el backend: endpoints REST y  persistencia JPA.
 
 
-<div align="center">
+**Historias cubiertas por las tareas del Sprint**
 
-| Story Id | Story Title  | Story Points  |
-| :---: | :---: | :---: |
-| **US06** | Publicación y geolocalización de lote agrícola | 3 |
-| **US08** | Aceptación de propuesta y firma de contrato digital Escrow | 3 |
-| **US16** | Registro de perfil corporativo y validación fiscal | 3 |
-| **US03** | Aprobación de hito y orden de liberación de fondos | 5 |
-| **US04** | Registro y carga de evidencias fotográficas por hito | 3 |
-| **US14** | Revisión y observación técnica de evidencias de hito | 3 |
-| **Total** | | **20** |
+| Story ID | Story Title | Story Points | Tareas del informe |
+| :---: | :--- | :---: | :--- |
+| US06 | Publicación y geolocalización de lote agrícola | 3 | T001, T002, T003, T004, T005, T032, T033, T034 |
+| US16 | Registro de perfil corporativo y validación fiscal | 3 | T006, T007, T008, T009 |
+| US08 | Aceptación de propuesta y firma de contrato digital Escrow | 3 | T010, T011, T012, T013 |
+| US03 | Aprobación de hito y orden de liberación de fondos | 5 | T014, T015, T016, T017, T018 |
+| US09 | Depósito de fondos iniciales en custodia | 5 | T019, T020, T021 |
+| US04 | Registro y carga de evidencias fotográficas por hito | 3 | T022, T023, T024 |
+| US14 | Revisión y observación técnica de evidencias de hito | 3 | T025, T026, T027 |
+| US05 | Consulta de lecturas y alertas climáticas por parcela | Pendiente de registrar | T028, T029, T030, T031 |
+| **Total documentado** | **8 historias** | **25 SP + US05 pendiente** | **34 tareas** |
 
-</div>
+Los puntos se toman del Product Backlog (3.3). US05 aparece en las tareas de alertas climáticas, pero no tiene una estimación registrada en ese Product Backlog; se mantiene pendiente para evitar asignar puntos sin evidencia. Las horas de las tareas se presentan por separado.
 
 #### Tablero de Control del Sprint 3 (Sprint Board)
 
