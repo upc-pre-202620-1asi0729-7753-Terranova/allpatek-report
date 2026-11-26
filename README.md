@@ -2577,6 +2577,15 @@ La landing enlaza la SPA. Los entornos Angular revisados apuntan al mock: JSON S
 - Conservar las URLs públicas, la versión desplegada y la evidencia de ejecución en 5.2.3.7 cuando estén verificadas.
 
 ## 5.2. Landing Page, Services & Applications Implementation
+
+Para consultar las evidencias de las tres primeras iteraciones:
+
+| Sprint | Producto documentado | Backlog y tablero | Evidencia de ejecución | Colaboración |
+| :---: | :--- | :--- | :--- | :--- |
+| 1 | Landing Page | [Sprint Backlog 1](#5213-sprint-backlog-1) | [Sprint Review](#5215-execution-evidence-for-sprint-review) | [GitHub Insights](#5218-team-collaboration-insights-during-sprint) |
+| 2 | Aplicación web y Fake API | [Sprint Backlog 2](#5223-sprint-backlog-2) | [Sprint Review](#5225-execution-evidence-for-sprint-review) | [GitHub Insights](#5228-team-collaboration-insights-during-sprint) |
+| 3 | Web Services | [Sprint Backlog 3](#5233-sprint-backlog-3) | [Sprint Review](#5235-execution-evidence-for-sprint-review) | [GitHub Insights](#5238-team-collaboration-insights-during-sprint) |
+
 ### 5.2.1. Sprint 1
 
 El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de Allpatek, la cual constituye el primer punto de contacto con los usuarios potenciales. Su objetivo fue comunicar de manera clara la propuesta de valor del sistema centrada en el modelo Agro-as-a-Service y la agricultura por contrato. Durante este sprint, se integraron las secciones principales (presentación, funcionalidades, beneficios y llamadas a la acción) siguiendo los wireframes del Capítulo IV y priorizando estándares de usabilidad, diseño responsivo y consistencia visual.
@@ -5167,7 +5176,7 @@ Acceso a los productos digitales de **ALLPATEK** desplegados públicamente en en
 
 ## Anexo D. Gestión del Proyecto y Product Backlog (Trello)
 
-Seguimiento interactivo de tareas y planificación del Product Backlog y de los Sprints 1, 2 y 3:
+Seguimiento de tareas y planificación del Product Backlog y de los Sprints 1, 2 y 3. Las referencias de cada iteración se detallan en [Sprint Backlog 1](#5213-sprint-backlog-1), [Sprint Backlog 2](#5223-sprint-backlog-2) y [Sprint Backlog 3](#5233-sprint-backlog-3). Las capturas son archivos históricos del informe y los enlaces de Trello permiten consultar los tableros correspondientes:
 
 <div align="center">
 
