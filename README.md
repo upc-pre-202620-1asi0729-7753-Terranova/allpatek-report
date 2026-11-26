@@ -30,12 +30,12 @@
 <h3 align="center">Integrantes</h3>
 
 <p align="center">
-  <b>Código</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <b>Apellidos y Nombres</b><br>
-  u20241f246 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Atauje Barreto, Alexander Sebastián<br>
-  u202215188 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Egocheaga Suyo, Miguel Angel<br>
-  u202116018 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Orellana Rodríguez, Mel Andree<br>
-  U20231h171 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vera Solsol, Nayely Macarena<br>
-  u202318001 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Raymundo Villarroel, Abigail Nadhim
+  &nbsp;&nbsp;&nbsp;&nbsp;<b>Código</b> &emsp;&emsp;&emsp;&emsp; <b>Apellidos y Nombres</b> &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<br>
+  <code>u20241f246</code> &emsp;&emsp; Atauje Barreto, Alexander Sebastián<br>
+  <code>u202215188</code> &emsp;&emsp; Egocheaga Suyo, Miguel Angel &emsp;&emsp;&nbsp;<br>
+  <code>u202116018</code> &emsp;&emsp; Orellana Rodríguez, Mel Andree &emsp;&nbsp;&nbsp;<br>
+  <code>u20231h171</code> &emsp;&emsp; Vera Solsol, Nayely Macarena &emsp;&emsp;&nbsp;&nbsp;<br>
+  <code>u202318001</code> &emsp;&emsp; Raymundo Villarroel, Abigail Nadhim
 </p>
 
 <p align="center">&nbsp;</p>
@@ -128,7 +128,9 @@
 | TB2 | 25/11/2026 | Raymundo Villarroel, Abigail Nadhim | Registro de los reportes de participación de AV1, TB1, AV2 y TB2 en el Anexo A |
 | TB2 | 25/11/2026 | Raymundo Villarroel, Abigail Nadhim | Creación de la estructura de la sección 5.2.4 (Sprint 4) con las tablas de planificación, backlog, evidencias y colaboración para completar |
 | TB2 | 25/11/2026 | Raymundo Villarroel, Abigail Nadhim | Registro de los usuarios de prueba de la aplicación web (agricultor y comerciante) en el Anexo I |
-
+| TB2 | 25/11/2026 | Atauje Barreto, Alexander Sebastián | Corrección de referencias Trello de los Sprints 1, 2 y 3; incorporación del resumen visual del Sprint 2; revisión de figuras, leyendas y capturas ampliables; conciliación de historias, tareas y estimaciones; y verificación de identificadores, mensajes y fechas de commits contra GitHub |
+| TB2 | 25/11/2026 | Atauje Barreto, Alexander Sebastián | Incorporación de la captura original de Trello del Sprint 2, actualización de T020 a In-Process, registro de la diferencia entre 32 tarjetas y 33 tareas, y enlaces a las capturas en el Anexo D |
+| TB2 | 26/11/2026 | Atauje Barreto, Alexander Sebastián | Actualización de 5.2.4.5 con los resultados de 45 pruebas del backend; corrección de enlaces de anexos y videos; retiro de anotaciones fuera del alcance asignado y de la captura duplicada del Sprint 4. |
 
 ## Project Report Collaboration Insights
 
@@ -146,23 +148,23 @@ Repositorios del proyecto:
     </thead>
     <tbody>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Orellana Rodríguez, Mel Andree</strong></td>
+        <td><strong>Orellana Rodríguez, Mel Andree</strong></td>
         <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">melandree08</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Egocheaga Suyo, Miguel Angel</strong></td>
+        <td><strong>Egocheaga Suyo, Miguel Angel</strong></td>
         <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">MiguelAngel0107</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Atauje Barreto, Alexander Sebastián</strong></td>
+        <td><strong>Atauje Barreto, Alexander Sebastián</strong></td>
         <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Alexander1Alexander2</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Vera Solsol, Nayely Macarena</strong></td>
+        <td><strong>Vera Solsol, Nayely Macarena</strong></td>
         <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">Macaxprogram29</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Raymundo Villarroel, Abigail Nadhim</strong></td>
+        <td><strong>Raymundo Villarroel, Abigail Nadhim</strong></td>
         <td style="border: 1px solid #dddddd; padding: 8px; text-align: center;">AbigailRV</td>
       </tr>
     </tbody>
@@ -173,7 +175,7 @@ Repositorios del proyecto:
 
 | Integrante | Tareas Asignadas |
 |---|---|
-| Atauje Barreto, Alexander Sebastián | Capítulo I completo: Introduction, Startup Profile (Startup Description, Team Member Profiles), Solution Profile (Background & Problematic, Lean UX Process: Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas), Target Segments. Alineación del Alcance General del Proyecto (Contratación Digital, Seguimiento de Hitos/Trazabilidad y Conexión Directa entre Actores). Maquetación e implementación web de las secciones Services (HTML5 & CSS Grid Layout) y Milestones / How It Works (HTML5 & CSS Layout) de la Landing Page. Modularización de estilos, refactorización y gestión de ramas en GitHub (feature/services, feature/how-it-works). Responsable del área alerts-management en el desarrollo de la solución para la entrega TB1. Elaboración del material de exposición, grabación del video de presentación del equipo/producto y correcciones del informe. |
+| Atauje Barreto, Alexander Sebastián | Capítulo I completo: Introduction, Startup Profile (Startup Description, Team Member Profiles), Solution Profile (Background & Problematic, Lean UX Process: Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas), Target Segments. Alineación del Alcance General del Proyecto (Contratación Digital, Seguimiento de Hitos/Trazabilidad y Conexión Directa entre Actores). Maquetación e implementación web de las secciones Services (HTML5 & CSS Grid Layout) y Milestones / How It Works (HTML5 & CSS Layout) de la Landing Page. Modularización de estilos, refactorización y gestión de ramas en GitHub (feature/services, feature/how-it-works). Responsable del área alerts-management en el desarrollo de la solución para la entrega TB1. Elaboración del material de exposición, grabación del video de presentación del equipo/producto y correcciones del informe. TB2: corrección de los enlaces de Trello y de la evidencia visual de los Sprints 1, 2 y 3, revisión de la trazabilidad entre historias y tareas, y verificación de los commits documentados en frontend y backend. |
 | Egocheaga Suyo, Miguel Angel | Domain-Driven Software Architecture (Chapter 4.6), Design-Level EventStorming, Software Architecture Context, Container and Component Diagrams, Software Object-Oriented Design, Class Diagrams, Database Design and Database Diagrams; Landing Page Header/Navbar and Hero Section implementation, responsive styles and navigation behavior (HTML5, CSS3 and JavaScript). TB1: desarrollo del bounded context escrow-payments de la aplicación web (bóveda, depósito y seguimiento de desembolsos por hito). AV2: desarrollo de escrow-payments en el backend (allpatek-platform), con el agregado Wallet, persistencia JPA, endpoints GET/POST /api/v1/wallets y PUT /api/v1/wallets/{id}, y el tag escrow en Swagger. |
 | Orellana Rodríguez, Mel Andree | Style Guidelines, General Style Guidelines, Web Style Guidelines, Information Architecture, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Web Applications UX/UI Design, Web Applications Wireframes, Web Applications Wireflow Diagrams, Web Applications Mock-ups, Web Applications User Flow Diagrams, Web Applications Prototyping,  Desarrollo del bounded context Shared, Desarrollo del bounded context agreements-management, Desarrollo de la estructura de Aplicación Web, Despliegue del Mock API en Azure, Correcciones en el Product Backlog, About the Product, About the Team, Sprint 3  |
 | Vera Solsol, Nayely Macarena | Impact Mapping, User Stories and Product Backlog (Chapter 3). Desarrollo del bounded context tracking-evidence de la aplicación web (capas de dominio, infraestructura, aplicación y presentación). Desarrollo e implementación integral del bounded context tracking-evidence en el backend (allpatek-platform), incluyendo sus capas de dominio, aplicación, infraestructura y la exposición de endpoints REST (/api/v1/evidence) para la gestión y trazabilidad de evidencias por hito. Documentación de la implementación del bounded context tracking-evidence en el backend y registro detallado de sus commits correspondientes al Sprint 3, elaboración de entrevistas y correcciones del report. |
@@ -183,10 +185,10 @@ Repositorios del proyecto:
     
 | Tipo | Repositorio | Enlace URL |
 | :--- | :--- | :--- |
-| **Landing** | allpatek-website | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website" style="text-decoration: none;">Ver Repositorio</a> |
-| **Frontend** | allpatek-webapp | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp" style="text-decoration: none;">Ver Repositorio</a> |
-| **Mock API** | allpatek-platform-mock | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock" style="text-decoration: none;">Ver Repositorio</a> |
-| **Backend** | allpatek-platform | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform" style="text-decoration: none;">Ver Repositorio</a> |
+| **Landing** | allpatek-website | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website">Ver Repositorio</a> |
+| **Frontend** | allpatek-webapp | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp">Ver Repositorio</a> |
+| **Mock API** | allpatek-platform-mock | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock">Ver Repositorio</a> |
+| **Backend** | allpatek-platform | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform">Ver Repositorio</a> |
     
 </div>
 
@@ -194,141 +196,157 @@ Repositorios del proyecto:
 #### Contribuciones Sprint 1 ( Landing )
 
 <p align="center">
-  <img src="./assets/chapter-05/insight-spint-01.png" alt="Sprint01" width="65%" />
+  <a href="assets/chapter-05/insight-spint-01.png">
+    <img src="assets/chapter-05/insight-spint-01.png" alt="GitHub Contributors de la Landing Page ALLPATEK con las contribuciones de los cinco integrantes" width="900" />
+  </a>
 </p>
 
 #### Contribuciones Sprint 2 ( Frontend )
 
 <p align="center">
-  <img src="./assets/chapter-05/sprint2-image-ins.jpeg" alt="Sprint02" width="65%" />
+  <a href="assets/chapter-05/sprint02.png">
+    <img src="assets/chapter-05/sprint02.png" alt="Captura histórica de GitHub Contributors de allpatek-webapp con los cinco integrantes del equipo" width="900" />
+  </a>
 </p>
 
 #### Contribuciones Sprint 3 ( Backend )
 
 <p align="center">
-  <img src="./assets/chapter-05/insight03.png" alt="Sprint03" width="65%" />
+  <a href="assets/chapter-05/insight03.png">
+    <img src="assets/chapter-05/insight03.png" alt="GitHub Contributors de allpatek-platform: contribuciones de los cinco integrantes hasta noviembre" width="900" />
+  </a>
 </p>
 
 
 ## Tabla de Contenidos
 
-* <a href="#capítulo-i-introducción" style="text-decoration: none;">Capítulo I: Introducción</a>
-  * <a href="#11-startup-profile" style="text-decoration: none;">1.1. Startup Profile</a>
-    * <a href="#111-descripción-de-la-startup" style="text-decoration: none;">1.1.1. Descripción de la Startup</a>
-    * <a href="#112-perfiles-de-integrantes-del-equipo" style="text-decoration: none;">1.1.2. Perfiles de integrantes del equipo</a>
-  * <a href="#12-solution-profile" style="text-decoration: none;">1.2. Solution Profile</a>
-    * <a href="#121-antecedentes-y-problemática" style="text-decoration: none;">1.2.1. Antecedentes y problemática</a>
-    * <a href="#122-lean-ux-process" style="text-decoration: none;">1.2.2. Lean UX Process</a>
-      * <a href="#1221-lean-ux-problem-statements" style="text-decoration: none;">1.2.2.1. Lean UX Problem Statements</a>
-      * <a href="#1222-lean-ux-assumptions" style="text-decoration: none;">1.2.2.2. Lean UX Assumptions</a>
-      * <a href="#1223-lean-ux-hypothesis-statements" style="text-decoration: none;">1.2.2.3. Lean UX Hypothesis Statements</a>
-      * <a href="#1224-lean-ux-canvas" style="text-decoration: none;">1.2.2.4. Lean UX Canvas</a>
-  * <a href="#13-segmentos-objetivo" style="text-decoration: none;">1.3. Segmentos objetivo</a>
-* <a href="#capítulo-ii-requirements-elicitation--analysis" style="text-decoration: none;">Capítulo II: Requirements Elicitation & Analysis</a>
-  * <a href="#21-competidores" style="text-decoration: none;">2.1. Competidores</a>
-    * <a href="#211-análisis-competitivo" style="text-decoration: none;">2.1.1. Análisis competitivo</a>
-    * <a href="#212-estrategias-y-tácticas-frente-a-competidores" style="text-decoration: none;">2.1.2. Estrategias y tácticas frente a competidores</a>
-  * <a href="#22-entrevistas" style="text-decoration: none;">2.2. Entrevistas</a>
-    * <a href="#221-diseño-de-entrevistas" style="text-decoration: none;">2.2.1. Diseño de entrevistas</a>
-    * <a href="#222-registro-de-entrevistas" style="text-decoration: none;">2.2.2. Registro de entrevistas</a>
-    * <a href="#223-análisis-de-entrevistas" style="text-decoration: none;">2.2.3. Análisis de entrevistas</a>
-  * <a href="#23-needfinding" style="text-decoration: none;">2.3. Needfinding</a>
-    * <a href="#231-user-personas" style="text-decoration: none;">2.3.1. User Personas</a>
-    * <a href="#232-user-task-matrix" style="text-decoration: none;">2.3.2. User Task Matrix</a>
-    * <a href="#233-user-journey-mapping" style="text-decoration: none;">2.3.3. User Journey Mapping</a>
-    * <a href="#234-empathy-mapping" style="text-decoration: none;">2.3.4. Empathy Mapping</a>
-  * <a href="#24-big-picture-event-storming" style="text-decoration: none;">2.4. Big Picture Event Storming</a>
-  * <a href="#25-ubiquitous-language" style="text-decoration: none;">2.5. Ubiquitous Language</a>
-* <a href="#capítulo-iii-requirements-specification" style="text-decoration: none;">Capítulo III: Requirements Specification</a>
-  * <a href="#31-user-stories" style="text-decoration: none;">3.1. User Stories</a>
-  * <a href="#32-impact-mapping" style="text-decoration: none;">3.2. Impact Mapping</a>
-  * <a href="#33-product-backlog" style="text-decoration: none;">3.3. Product Backlog</a>
-* <a href="#capítulo-iv-product-design" style="text-decoration: none;">Capítulo IV: Product Design</a>
-  * <a href="#41-style-guidelines" style="text-decoration: none;">4.1. Style Guidelines</a>
-    * <a href="#411-general-style-guidelines" style="text-decoration: none;">4.1.1. General Style Guidelines</a>
-    * <a href="#412-web-style-guidelines" style="text-decoration: none;">4.1.2. Web Style Guidelines</a>
-  * <a href="#42-information-architecture" style="text-decoration: none;">4.2. Information Architecture</a>
-    * <a href="#421-organization-systems" style="text-decoration: none;">4.2.1. Organization Systems</a>
-    * <a href="#422-labeling-systems" style="text-decoration: none;">4.2.2. Labeling Systems</a>
-    * <a href="#423-seo-tags-and-meta-tags" style="text-decoration: none;">4.2.3. SEO Tags and Meta Tags</a>
-    * <a href="#424-searching-systems" style="text-decoration: none;">4.2.4. Searching Systems</a>
-    * <a href="#425-navigation-systems" style="text-decoration: none;">4.2.5. Navigation Systems</a>
-  * <a href="#43-landing-page-ui-design" style="text-decoration: none;">4.3. Landing Page UI Design</a>
-    * <a href="#431-landing-page-wireframe" style="text-decoration: none;">4.3.1. Landing Page Wireframe</a>
-    * <a href="#432-landing-page-mock-up" style="text-decoration: none;">4.3.2. Landing Page Mock-up</a>
-  * <a href="#44-web-applications-uxui-design" style="text-decoration: none;">4.4. Web Applications UX/UI Design</a>
-    * <a href="#441-web-applications-wireframes" style="text-decoration: none;">4.4.1. Web Applications Wireframes</a>
-    * <a href="#442-web-applications-wireflow-diagrams" style="text-decoration: none;">4.4.2. Web Applications Wireflow Diagrams</a>
-    * <a href="#443-web-applications-mock-ups" style="text-decoration: none;">4.4.3. Web Applications Mock-ups</a>
-    * <a href="#444-web-applications-user-flow-diagrams" style="text-decoration: none;">4.4.4. Web Applications User Flow Diagrams</a>
-  * <a href="#45-web-applications-prototyping" style="text-decoration: none;">4.5. Web Applications Prototyping</a>
-  * <a href="#46-domain-driven-software-architecture" style="text-decoration: none;">4.6. Domain-Driven Software Architecture</a>
-    * <a href="#461-design-level-event-storming" style="text-decoration: none;">4.6.1. Design-Level Event Storming</a>
-    * <a href="#462-software-architecture-context-diagram" style="text-decoration: none;">4.6.2. Software Architecture Context Diagram</a>
-    * <a href="#463-software-architecture-container-diagrams" style="text-decoration: none;">4.6.3. Software Architecture Container Diagrams</a>
-    * <a href="#464-software-architecture-components-diagrams" style="text-decoration: none;">4.6.4. Software Architecture Components Diagrams</a>
-  * <a href="#47-software-object-oriented-design" style="text-decoration: none;">4.7. Software Object-Oriented Design</a>
-    * <a href="#471-class-diagrams" style="text-decoration: none;">4.7.1. Class Diagrams</a>
-  * <a href="#48-database-design" style="text-decoration: none;">4.8. Database Design</a>
-    * <a href="#481-database-diagrams" style="text-decoration: none;">4.8.1. Database Diagrams</a>
-* <a href="#capítulo-v-product-implementation-validation--deployment" style="text-decoration: none;">Capítulo V: Product Implementation, Validation & Deployment</a>
-  * <a href="#51-software-configuration-management" style="text-decoration: none;">5.1. Software Configuration Management</a>
-    * <a href="#511-software-development-environment-configuration" style="text-decoration: none;">5.1.1. Software Development Environment Configuration</a>
-    * <a href="#512-source-code-management" style="text-decoration: none;">5.1.2. Source Code Management</a>
-    * <a href="#513-source-code-style-guide--conventions" style="text-decoration: none;">5.1.3. Source Code Style Guide & Conventions</a>
-    * <a href="#514-software-deployment-configuration" style="text-decoration: none;">5.1.4. Software Deployment Configuration</a>
-  * <a href="#52-landing-page-services--applications-implementation" style="text-decoration: none;">5.2. Landing Page, Services & Applications Implementation</a>
-    * <a href="#521-sprint-1" style="text-decoration: none;">5.2.1. Sprint 1</a>
-      * <a href="#5211-sprint-planning-1" style="text-decoration: none;">5.2.1.1. Sprint Planning 1</a>
-      * <a href="#5212-aspect-leaders-and-collaborators" style="text-decoration: none;">5.2.1.2. Aspect Leaders and Collaborators</a>
-      * <a href="#5213-sprint-backlog-1" style="text-decoration: none;">5.2.1.3. Sprint Backlog 1</a>
-      * <a href="#5214-development-evidence-for-sprint-review" style="text-decoration: none;">5.2.1.4. Development Evidence for Sprint Review</a>
-      * <a href="#5215-execution-evidence-for-sprint-review" style="text-decoration: none;">5.2.1.5. Execution Evidence for Sprint Review</a>
-      * <a href="#5216-services-documentation-evidence-for-sprint-review" style="text-decoration: none;">5.2.1.6. Services Documentation Evidence for Sprint Review</a>
-      * <a href="#5217-software-deployment-evidence-for-sprint-review" style="text-decoration: none;">5.2.1.7. Software Deployment Evidence for Sprint Review</a>
-      * <a href="#5218-team-collaboration-insights-during-sprint" style="text-decoration: none;">5.2.1.8. Team Collaboration Insights during Sprint</a>
-    * <a href="#522-sprint-2" style="text-decoration: none;">5.2.2. Sprint 2</a>
-      * <a href="#5221-sprint-planning-2" style="text-decoration: none;">5.2.2.1. Sprint Planning 2</a>
-      * <a href="#5222-aspect-leaders-and-collaborators" style="text-decoration: none;">5.2.2.2. Aspect Leaders and Collaborators</a>
-      * <a href="#5223-sprint-backlog-2" style="text-decoration: none;">5.2.2.3. Sprint Backlog 2</a>
-      * <a href="#5224-development-evidence-for-sprint-review" style="text-decoration: none;">5.2.2.4. Development Evidence for Sprint Review</a>
-      * <a href="#5225-execution-evidence-for-sprint-review" style="text-decoration: none;">5.2.2.5. Execution Evidence for Sprint Review</a>
-      * <a href="#5226-services-documentation-evidence-for-sprint-review" style="text-decoration: none;">5.2.2.6. Services Documentation Evidence for Sprint Review</a>
-      * <a href="#5227-software-deployment-evidence-for-sprint-review" style="text-decoration: none;">5.2.2.7. Software Deployment Evidence for Sprint Review</a>
-      * <a href="#5228-team-collaboration-insights-during-sprint" style="text-decoration: none;">5.2.2.8. Team Collaboration Insights during Sprint</a>
-    * <a href="#523-sprint-3" style="text-decoration: none;">5.2.3. Sprint 3</a>
-      * <a href="#5231-sprint-planning-3" style="text-decoration: none;">5.2.3.1. Sprint Planning 3</a>
-      * <a href="#5232-aspect-leaders-and-collaborators" style="text-decoration: none;">5.2.3.2. Aspect Leaders and Collaborators</a>
-      * <a href="#5233-sprint-backlog-3" style="text-decoration: none;">5.2.3.3. Sprint Backlog 3</a>
-      * <a href="#5234-development-evidence-for-sprint-review" style="text-decoration: none;">5.2.3.4. Development Evidence for Sprint Review</a>
-      * <a href="#5235-execution-evidence-for-sprint-review" style="text-decoration: none;">5.2.3.5. Execution Evidence for Sprint Review</a>
-      * <a href="#5236-services-documentation-evidence-for-sprint-review" style="text-decoration: none;">5.2.3.6. Services Documentation Evidence for Sprint Review</a>
-      * <a href="#5237-software-deployment-evidence-for-sprint-review" style="text-decoration: none;">5.2.3.7. Software Deployment Evidence for Sprint Review</a>
-      * <a href="#5238-team-collaboration-insights-during-sprint" style="text-decoration: none;">5.2.3.8. Team Collaboration Insights during Sprint</a>
-    * <a href="#524-sprint-4" style="text-decoration: none;">5.2.4. Sprint 4</a>
-      * <a href="#5241-sprint-planning-4" style="text-decoration: none;">5.2.4.1. Sprint Planning 4</a>
-      * <a href="#5242-aspect-leaders-and-collaborators" style="text-decoration: none;">5.2.4.2. Aspect Leaders and Collaborators</a>
-      * <a href="#5243-sprint-backlog-4" style="text-decoration: none;">5.2.4.3. Sprint Backlog 4</a>
-      * <a href="#5244-development-evidence-for-sprint-review" style="text-decoration: none;">5.2.4.4. Development Evidence for Sprint Review</a>
-      * <a href="#5245-execution-evidence-for-sprint-review" style="text-decoration: none;">5.2.4.5. Execution Evidence for Sprint Review</a>
-      * <a href="#5246-services-documentation-evidence-for-sprint-review" style="text-decoration: none;">5.2.4.6. Services Documentation Evidence for Sprint Review</a>
-      * <a href="#5247-software-deployment-evidence-for-sprint-review" style="text-decoration: none;">5.2.4.7. Software Deployment Evidence for Sprint Review</a>
-      * <a href="#5248-team-collaboration-insights-during-sprint" style="text-decoration: none;">5.2.4.8. Team Collaboration Insights during Sprint</a>
-  * <a href="#53-validation-interviews" style="text-decoration: none;">5.3. Validation Interviews</a>
-    * <a href="#531-diseño-de-entrevistas" style="text-decoration: none;">5.3.1. Diseño de Entrevistas</a>
-    * <a href="#532-registro-de-entrevistas" style="text-decoration: none;">5.3.2. Registro de Entrevistas</a>
-    * <a href="#533-evaluaciones-según-heurísticas" style="text-decoration: none;">5.3.3. Evaluaciones según heurísticas</a>
-  * <a href="#54-video-about-the-product" style="text-decoration: none;">5.4. Video About-the-Product</a>
-* <a href="#conclusiones-y-recomendaciones" style="text-decoration: none;">Conclusiones y Recomendaciones</a>
-* <a href="#video-app-validation" style="text-decoration: none;">Video App Validation</a>
-* <a href="#video-about-the-product" style="text-decoration: none;">Video About the product</a>
-* <a href="#video-about-the-team" style="text-decoration: none;">Video About the team</a>
-* <a href="#glosario" style="text-decoration: none;">Glosario</a>
-* <a href="#bibliografía" style="text-decoration: none;">Bibliografía</a>
-* <a href="#anexos" style="text-decoration: none;">Anexos</a>
+* <a href="#capítulo-i-introducción">Capítulo I: Introducción</a>
+  * <a href="#11-startup-profile">1.1. Startup Profile</a>
+    * <a href="#111-descripción-de-la-startup">1.1.1. Descripción de la Startup</a>
+    * <a href="#112-perfiles-de-integrantes-del-equipo">1.1.2. Perfiles de integrantes del equipo</a>
+  * <a href="#12-solution-profile">1.2. Solution Profile</a>
+    * <a href="#121-antecedentes-y-problemática">1.2.1. Antecedentes y problemática</a>
+    * <a href="#122-lean-ux-process">1.2.2. Lean UX Process</a>
+      * <a href="#1221-lean-ux-problem-statements">1.2.2.1. Lean UX Problem Statements</a>
+      * <a href="#1222-lean-ux-assumptions">1.2.2.2. Lean UX Assumptions</a>
+      * <a href="#1223-lean-ux-hypothesis-statements">1.2.2.3. Lean UX Hypothesis Statements</a>
+      * <a href="#1224-lean-ux-canvas">1.2.2.4. Lean UX Canvas</a>
+  * <a href="#13-segmentos-objetivo">1.3. Segmentos objetivo</a>
+* <a href="#capítulo-ii-requirements-elicitation--analysis">Capítulo II: Requirements Elicitation & Analysis</a>
+  * <a href="#21-competidores">2.1. Competidores</a>
+    * <a href="#211-análisis-competitivo">2.1.1. Análisis competitivo</a>
+    * <a href="#212-estrategias-y-tácticas-frente-a-competidores">2.1.2. Estrategias y tácticas frente a competidores</a>
+  * <a href="#22-entrevistas">2.2. Entrevistas</a>
+    * <a href="#221-diseño-de-entrevistas">2.2.1. Diseño de entrevistas</a>
+    * <a href="#222-registro-de-entrevistas">2.2.2. Registro de entrevistas</a>
+    * <a href="#223-análisis-de-entrevistas">2.2.3. Análisis de entrevistas</a>
+  * <a href="#23-needfinding">2.3. Needfinding</a>
+    * <a href="#231-user-personas">2.3.1. User Personas</a>
+    * <a href="#232-user-task-matrix">2.3.2. User Task Matrix</a>
+    * <a href="#233-user-journey-mapping">2.3.3. User Journey Mapping</a>
+    * <a href="#234-empathy-mapping">2.3.4. Empathy Mapping</a>
+  * <a href="#24-big-picture-event-storming">2.4. Big Picture Event Storming</a>
+  * <a href="#25-ubiquitous-language">2.5. Ubiquitous Language</a>
+* <a href="#capítulo-iii-requirements-specification">Capítulo III: Requirements Specification</a>
+  * <a href="#31-user-stories">3.1. User Stories</a>
+  * <a href="#32-impact-mapping">3.2. Impact Mapping</a>
+  * <a href="#33-product-backlog">3.3. Product Backlog</a>
+* <a href="#capítulo-iv-product-design">Capítulo IV: Product Design</a>
+  * <a href="#41-style-guidelines">4.1. Style Guidelines</a>
+    * <a href="#411-general-style-guidelines">4.1.1. General Style Guidelines</a>
+    * <a href="#412-web-style-guidelines">4.1.2. Web Style Guidelines</a>
+  * <a href="#42-information-architecture">4.2. Information Architecture</a>
+    * <a href="#421-organization-systems">4.2.1. Organization Systems</a>
+    * <a href="#422-labeling-systems">4.2.2. Labeling Systems</a>
+    * <a href="#423-seo-tags-and-meta-tags">4.2.3. SEO Tags and Meta Tags</a>
+    * <a href="#424-searching-systems">4.2.4. Searching Systems</a>
+    * <a href="#425-navigation-systems">4.2.5. Navigation Systems</a>
+  * <a href="#43-landing-page-ui-design">4.3. Landing Page UI Design</a>
+    * <a href="#431-landing-page-wireframe">4.3.1. Landing Page Wireframe</a>
+    * <a href="#432-landing-page-mock-up">4.3.2. Landing Page Mock-up</a>
+  * <a href="#44-web-applications-uxui-design">4.4. Web Applications UX/UI Design</a>
+    * <a href="#441-web-applications-wireframes">4.4.1. Web Applications Wireframes</a>
+    * <a href="#442-web-applications-wireflow-diagrams">4.4.2. Web Applications Wireflow Diagrams</a>
+    * <a href="#443-web-applications-mock-ups">4.4.3. Web Applications Mock-ups</a>
+    * <a href="#444-web-applications-user-flow-diagrams">4.4.4. Web Applications User Flow Diagrams</a>
+  * <a href="#45-web-applications-prototyping">4.5. Web Applications Prototyping</a>
+  * <a href="#46-domain-driven-software-architecture">4.6. Domain-Driven Software Architecture</a>
+    * <a href="#461-design-level-event-storming">4.6.1. Design-Level Event Storming</a>
+    * <a href="#462-software-architecture-context-diagram">4.6.2. Software Architecture Context Diagram</a>
+    * <a href="#463-software-architecture-container-diagrams">4.6.3. Software Architecture Container Diagrams</a>
+    * <a href="#464-software-architecture-components-diagrams">4.6.4. Software Architecture Components Diagrams</a>
+  * <a href="#47-software-object-oriented-design">4.7. Software Object-Oriented Design</a>
+    * <a href="#471-class-diagrams">4.7.1. Class Diagrams</a>
+  * <a href="#48-database-design">4.8. Database Design</a>
+    * <a href="#481-database-diagrams">4.8.1. Database Diagrams</a>
+* <a href="#capítulo-v-product-implementation-validation--deployment">Capítulo V: Product Implementation, Validation & Deployment</a>
+  * <a href="#51-software-configuration-management">5.1. Software Configuration Management</a>
+    * <a href="#511-software-development-environment-configuration">5.1.1. Software Development Environment Configuration</a>
+    * <a href="#512-source-code-management">5.1.2. Source Code Management</a>
+    * <a href="#513-source-code-style-guide--conventions">5.1.3. Source Code Style Guide & Conventions</a>
+    * <a href="#514-software-deployment-configuration">5.1.4. Software Deployment Configuration</a>
+  * <a href="#52-landing-page-services--applications-implementation">5.2. Landing Page, Services & Applications Implementation</a>
+    * <a href="#521-sprint-1">5.2.1. Sprint 1</a>
+      * <a href="#5211-sprint-planning-1">5.2.1.1. Sprint Planning 1</a>
+      * <a href="#5212-aspect-leaders-and-collaborators">5.2.1.2. Aspect Leaders and Collaborators</a>
+      * <a href="#5213-sprint-backlog-1">5.2.1.3. Sprint Backlog 1</a>
+      * <a href="#5214-development-evidence-for-sprint-review">5.2.1.4. Development Evidence for Sprint Review</a>
+      * <a href="#5215-execution-evidence-for-sprint-review">5.2.1.5. Execution Evidence for Sprint Review</a>
+      * <a href="#5216-services-documentation-evidence-for-sprint-review">5.2.1.6. Services Documentation Evidence for Sprint Review</a>
+      * <a href="#5217-software-deployment-evidence-for-sprint-review">5.2.1.7. Software Deployment Evidence for Sprint Review</a>
+      * <a href="#5218-team-collaboration-insights-during-sprint">5.2.1.8. Team Collaboration Insights during Sprint</a>
+    * <a href="#522-sprint-2">5.2.2. Sprint 2</a>
+      * <a href="#5221-sprint-planning-2">5.2.2.1. Sprint Planning 2</a>
+      * <a href="#5222-aspect-leaders-and-collaborators">5.2.2.2. Aspect Leaders and Collaborators</a>
+      * <a href="#5223-sprint-backlog-2">5.2.2.3. Sprint Backlog 2</a>
+      * <a href="#5224-development-evidence-for-sprint-review">5.2.2.4. Development Evidence for Sprint Review</a>
+      * <a href="#5225-execution-evidence-for-sprint-review">5.2.2.5. Execution Evidence for Sprint Review</a>
+      * <a href="#5226-services-documentation-evidence-for-sprint-review">5.2.2.6. Services Documentation Evidence for Sprint Review</a>
+      * <a href="#5227-software-deployment-evidence-for-sprint-review">5.2.2.7. Software Deployment Evidence for Sprint Review</a>
+      * <a href="#5228-team-collaboration-insights-during-sprint">5.2.2.8. Team Collaboration Insights during Sprint</a>
+    * <a href="#523-sprint-3">5.2.3. Sprint 3</a>
+      * <a href="#5231-sprint-planning-3">5.2.3.1. Sprint Planning 3</a>
+      * <a href="#5232-aspect-leaders-and-collaborators">5.2.3.2. Aspect Leaders and Collaborators</a>
+      * <a href="#5233-sprint-backlog-3">5.2.3.3. Sprint Backlog 3</a>
+      * <a href="#5234-development-evidence-for-sprint-review">5.2.3.4. Development Evidence for Sprint Review</a>
+      * <a href="#5235-execution-evidence-for-sprint-review">5.2.3.5. Execution Evidence for Sprint Review</a>
+      * <a href="#5236-services-documentation-evidence-for-sprint-review">5.2.3.6. Services Documentation Evidence for Sprint Review</a>
+      * <a href="#5237-software-deployment-evidence-for-sprint-review">5.2.3.7. Software Deployment Evidence for Sprint Review</a>
+      * <a href="#5238-team-collaboration-insights-during-sprint">5.2.3.8. Team Collaboration Insights during Sprint</a>
+    * <a href="#524-sprint-4">5.2.4. Sprint 4</a>
+      * <a href="#5241-sprint-planning-4">5.2.4.1. Sprint Planning 4</a>
+      * <a href="#5242-aspect-leaders-and-collaborators">5.2.4.2. Aspect Leaders and Collaborators</a>
+      * <a href="#5243-sprint-backlog-4">5.2.4.3. Sprint Backlog 4</a>
+      * <a href="#5244-development-evidence-for-sprint-review">5.2.4.4. Development Evidence for Sprint Review</a>
+      * <a href="#5245-execution-evidence-for-sprint-review">5.2.4.5. Execution Evidence for Sprint Review</a>
+      * <a href="#5246-services-documentation-evidence-for-sprint-review">5.2.4.6. Services Documentation Evidence for Sprint Review</a>
+      * <a href="#5247-software-deployment-evidence-for-sprint-review">5.2.4.7. Software Deployment Evidence for Sprint Review</a>
+      * <a href="#5248-team-collaboration-insights-during-sprint">5.2.4.8. Team Collaboration Insights during Sprint</a>
+  * <a href="#53-validation-interviews">5.3. Validation Interviews</a>
+    * <a href="#531-diseño-de-entrevistas">5.3.1. Diseño de Entrevistas</a>
+    * <a href="#532-registro-de-entrevistas">5.3.2. Registro de Entrevistas</a>
+    * <a href="#533-evaluaciones-según-heurísticas">5.3.3. Evaluaciones según heurísticas</a>
+  * <a href="#54-video-about-the-product">5.4. Video About-the-Product</a>
+* <a href="#conclusiones-y-recomendaciones">Conclusiones y Recomendaciones</a>
+* <a href="#video-app-validation">Video App Validation</a>
+* <a href="#video-about-the-team">Video About the Team</a>
+* <a href="#glosario">Glosario</a>
+* <a href="#bibliografía">Bibliografía</a>
+* <a href="#anexos">Anexos</a>
 
 
 
+
+* [Anexos](#anexos)
+  * [A. Registros de Participación del Equipo (Participant Performance Report)](#anexo-a-registros-de-participación-del-equipo-participant-performance-report)
+  * [B. Repositorios de Código Fuente y Control de Versiones](#anexo-b-repositorios-de-código-fuente-y-control-de-versiones)
+  * [C. Enlaces de Despliegue en Entornos de Operación (Cloud Deployments)](#anexo-c-enlaces-de-despliegue-en-entornos-de-operación-cloud-deployments)
+  * [D. Gestión del Proyecto y Product Backlog (Trello)](#anexo-d-gestión-del-proyecto-y-product-backlog-trello)
+  * [E. Artefactos de Descubrimiento y Diseño (Miro y Figma)](#anexo-e-artefactos-de-descubrimiento-y-diseño-miro-y-figma)
+  * [F. Videos de Entrevistas (Needfinding)](#anexo-f-videos-de-entrevistas-needfinding)
+  * [G. Videos de Prototipos y Evidencias de Sprint](#anexo-g-videos-de-prototipos-y-evidencias-de-sprint)
+  * [H. Videos de Validación, Producto y Equipo](#anexo-h-videos-de-validación-producto-y-equipo)
+  * [I. Usuarios de Prueba](#anexo-i-usuarios-de-prueba)
 
 # Student Outcome 3
 
@@ -397,7 +415,7 @@ Repositorios del proyecto:
             <li><b>AV2 - Raymundo Villarroel, Abigail Nadhim:</b> Documentación de la entrega AV2: actualización del informe con las tareas, el bounded context parcel-management y los commits de Sprint 3, redactados con descripciones claras para perfiles técnicos y de negocio.</li>
             <li><b>AV2 - Vera Solsol, Nayely Macarena:</b> Redacté los artefactos de gestión ágil (Capítulo 3: Impact Mapping, User Stories y Product Backlog) y la documentación técnica del bounded context tracking-evidence (frontend y backend en allpatek-platform, incluyendo los endpoints REST /api/v1/evidence), además de mantener el registro detallado de commits del Sprint 3 y las correcciones del reporte formal.</li>
             <li><b>AV2 - Egocheaga Suyo, Miguel Angel:</b> Documenté el bounded context escrow-payments en el backend. Dejé el agregado Wallet, la tabla wallets y los endpoints GET/POST /api/v1/wallets y PUT /wallets/{id} para consultar el monto de demostración y la tarjeta. También puse el tag escrow en Swagger y completé mis filas AV2 en el Registro de Versiones.</li>
-            <li><b>TB2 - Atauje Barreto, Alexander Sebastián:</b> Corrección y actualización del Capítulo I según la retroalimentación del docente, incluyendo la traducción al español de los enunciados del problema y las nueve hipótesis, la mejora de los supuestos Lean UX y la ampliación de información sobre la custodia Escrow, los pagos por hitos, las evidencias agrícolas, las alertas climáticas y la trazabilidad. Asimismo, se mejoró la redacción y coherencia del informe, registrando los cambios mediante commits descriptivos en GitHub.</li>
+            <li><b>TB2 - Atauje Barreto, Alexander Sebastián:</b> Corrección y actualización del Capítulo I según la retroalimentación del docente, incluyendo la traducción al español de los enunciados del problema y las nueve hipótesis, la mejora de los supuestos Lean UX y la ampliación de información sobre la custodia Escrow, los pagos por hitos, las evidencias agrícolas, las alertas climáticas y la trazabilidad. Asimismo, se mejoró la redacción y coherencia del informe, registrando los cambios mediante commits descriptivos en GitHub. En la revisión del 26/11/2026 se documentaron respuestas HTTP y límites de acceso de los anexos, se distinguieron evidencias históricas de comprobaciones nuevas y se registraron los casos del Sprint 4 que aún requieren ejecución y capturas.</li>
             <li><b>TB2 - Raymundo Villarroel, Abigail Nadhim:</b> Redacción de los Términos y Condiciones y la Política de Privacidad de la Landing Page en español e inglés, y de la sección de Anexos del informe (repositorios, enlaces de despliegue, Trello, artefactos, videos y usuarios de prueba), además de la estructura del Sprint 4, con commits descriptivos para perfiles técnicos y de negocio.</li>
           </ul>
         </td>
@@ -674,7 +692,7 @@ El Lean UX Canvas es una herramienta ágil que sintetiza los elementos clave del
 </p>
 
 
-<p align="center"> Enlace público del Lean UX Canvas: (<a href="https://miro.com/app/board/uXjVHInt5w4=/" style="text-decoration: none;">https://miro.com/app/board/uXjVHInt5w4=/</a>) </p>
+<p align="center"> Enlace público del Lean UX Canvas: (<a href="https://miro.com/app/board/uXjVHInt5w4=/">https://miro.com/app/board/uXjVHInt5w4=/</a>) </p>
 
 
 ## 1.3. Segmentos objetivo
@@ -952,7 +970,7 @@ Antes de la primera pregunta, el entrevistador sigue este orden:
 | Extensión aproximada de la parcela |  950 m² |
 | Inicio de la entrevista | 00:00 |
 | Duración | 06:09 |
-| URL del video | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBbQDY3p2SiRq-xBW2hRB-dARiTcCuKw4tJ7sUQ8oeVau8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iVsXEQ" style="text-decoration: none;">Video evidencia</a> |
+| URL del video | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBbQDY3p2SiRq-xBW2hRB-dARiTcCuKw4tJ7sUQ8oeVau8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iVsXEQ">Video evidencia</a> |
 | **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-agricultor-1.jpeg" alt="Captura de la entrevista a Rosa Flores" width="300"></div> |
 | **Resumen de la entrevista** | Entrevista realizada a Rosa Flores, agricultora a tiempo completo encargada de la gestión, supervisión y trabajo diario en una parcela familiar de palta con más de 6 años de experiencia en el cultivo. Utiliza un dispositivo Android (Xiaomi Redmi Note 11) para coordinar las labores agrícolas, tomar evidencias fotográficas del calibre de la fruta y comunicarse vía WhatsApp con el dueño de la parcela y los compradores. Señala serios problemas de conectividad a internet en las partes altas del huerto, lo que retrasa la entrega de reportes y negociaciones. Asimismo, destaca la necesidad de un sistema automatizado de guardado y envío de fotos con geolocalización/fecha y un servicio de alertas climáticas tempranas para proteger la floración del palto. |
 
@@ -973,7 +991,7 @@ Antes de la primera pregunta, el entrevistador sigue este orden:
 | Extensión aproximada de la parcela | 1000 m² |
 | Inicio de la entrevista | 00:00 |
 | Duración | 09:28 |
-| URL del video | <a href="https://upcedupe-my.sharepoint.com/:v:/r/personal/u20231h171_upc_edu_pe/Documents/Video%20Entrevista.mp4?d=w350e6ee8e89f44e3a0801080e03a5a37&csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vPTAoG" style="text-decoration: none;">Video Evidencia</a> |
+| URL del video | <a href="https://upcedupe-my.sharepoint.com/:v:/r/personal/u20231h171_upc_edu_pe/Documents/Video%20Entrevista.mp4?d=w350e6ee8e89f44e3a0801080e03a5a37&csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vPTAoG">Video Evidencia</a> |
 | **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-agricultor-2.png" alt="Captura de la entrevista a Gustavo Adolfo Suyo" width="300"></div> |
 | **Resumen de la entrevista** | Entrevista realizada a Gustavo Adolfo Suyo, agricultor de 48 años del distrito de Yauyos. Indicó que cultiva paltas en una parcela de aproximadamente 1000 m². El enlace del video se incorporará cuando esté disponible. |
 
@@ -995,7 +1013,7 @@ Antes de la primera pregunta, el entrevistador sigue este orden:
 | Volumen de compra aproximado | 30-40kg por semana |
 | Inicio de la entrevista | 00:00 |
 | Duración | 7:27 |
-| URL del video | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQCadRcKNFI3QJCRvB7MCwswAakotnQDzxFR-FZchZomOuI?e=W8zn4F" style="text-decoration: none;">Video evidencia</a> |
+| URL del video | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQCadRcKNFI3QJCRvB7MCwswAakotnQDzxFR-FZchZomOuI?e=W8zn4F">Video evidencia</a> |
 | **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-comprador-1.png" width="300"></div> |
 | **Resumen de la entrevista** | Irma Barreto, dueña y administradora de un pequeño restaurante familiar, comentó que actualmente compra frutas y verduras principalmente a proveedores conocidos, mercados mayoristas y mediante pedidos por WhatsApp. Sus principales dificultades son la variación frecuente de precios, la incertidumbre sobre la calidad y frescura de los productos y la falta de información sobre su origen. Mostró interés en conocer directamente al agricultor, la ubicación de la parcela y el avance de los cultivos antes de realizar una compra. También consideró atractiva la posibilidad de pagar por adelantado una temporada a un precio fijo, siempre que exista un contrato claro y garantías de cumplimiento. Para Irma, las notificaciones sobre el progreso de los cultivos y la fecha estimada de cosecha serían útiles, prefiriendo WhatsApp como principal medio de comunicación. Además, señaló que confiaría más en la plataforma si los agricultores estuvieran verificados, existieran calificaciones de otros comerciantes y se ofrecieran mecanismos de respaldo ante incumplimientos. En general, la entrevista evidencia que el comerciante busca reducir la incertidumbre en precio, calidad, origen y cumplimiento, además de contar con un proceso de compra directo, rápido y transparente. |
 
@@ -1013,7 +1031,7 @@ Antes de la primera pregunta, el entrevistador sigue este orden:
 | Volumen de compra aproximado | 400 kg por semana |
 | Inicio de la entrevista | 00:00 |
 | Duración | 10:33 |
-| URL del video | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQA2ALZ3uFutSaQ8ve7Nk7hqAXADf3-eTjCN6dlRHIPgDVI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MX0bNw" style="text-decoration: none;">Video evidencia</a> |
+| URL del video | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQA2ALZ3uFutSaQ8ve7Nk7hqAXADf3-eTjCN6dlRHIPgDVI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MX0bNw">Video evidencia</a> |
 | **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-comprador-2.png" alt="Captura de la entrevista a César Hugo Egocheaga" width="300"></div> |
 | **Resumen de la entrevista** | Entrevista realizada a César Hugo Egocheaga, concesionario de un puesto en el Mercado Mayorista de Frutas. Explicó que no compra la mercadería, sino que los productores de ceja de selva (zona de Chanchamayo) llevan su fruta al mercado, él la vende al público y cobra una comisión acordada con el agricultor. Trabaja principalmente con papaya, mandarina, naranja y, en algunos casos, manzana. Señala como principales dificultades el clima en época de lluvias, que daña o retrasa el transporte por la carretera central, la estacionalidad de los productos y el costo del flete, que se duplicó por el aumento del combustible y encarece el producto final. Indicó que, cuando la fruta llega maltratada, debe bajar el precio para venderla. Su relación con los productores se basa en la confianza de años y en cobrar sin engañarse. Usa WhatsApp para comunicarse con ellos. Sobre comprar por adelantado a precio fijo, indicó que no es una práctica habitual, aunque algunos concesionarios con capital sí lo hacen, y que una aplicación le sería interesante solo si cuenta con capital y con bastante confianza, porque hoy los tratos se hacen presencialmente para ver la mercadería. Como mejora, propone ampliar los espacios de estacionamiento y las instalaciones del mercado para atender mejor a los clientes. |
 
@@ -1032,7 +1050,7 @@ Antes de la primera pregunta, el entrevistador sigue este orden:
 | Volumen de compra aproximado | 35-45 kg por semana |
 | Inicio de la entrevista | 00:00 |
 | Duración | 9:40 |
-| URL del video | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h171_upc_edu_pe/IQDobg41n-jjRKCAEIDgOlo3AfXMuQqEXkTp0vU3WnDO5Eg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Z15UJ" style="text-decoration: none;">Video evidencia</a> |
+| URL del video | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h171_upc_edu_pe/IQDobg41n-jjRKCAEIDgOlo3AfXMuQqEXkTp0vU3WnDO5Eg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Z15UJ">Video evidencia</a> |
 | **Fotografía** | <div align="center"><img src="./assets/chapter-02/entrevista-comprador-3.png" width="300"></div> |
 | **Resumen de la entrevista** | La entrevista realizada a Carolin, dueña de un restaurante familiar en Lima, revela que realiza sus compras de insumos agrícolas principalmente por WhatsApp con proveedores de confianza, valorando más la calidad y la seguridad que el costo más bajo. Sus principales dolores de cabeza son la inestabilidad semanal de los precios, la incertidumbre sobre la frescura y peso de la mercadería, y los retrasos en las entregas. Ante una posible aplicación de compra directa al agricultor o modelos de precios fijos por temporada, se mostraría interesada siempre y cuando la plataforma garantice transparencia, verificación de identidad de los productores, soporte ante problemas y un canal de comunicación ágil como WhatsApp. |
 
@@ -1166,7 +1184,7 @@ Los tres hotspots quedan como insumo para el Design-Level Event Storming del Cap
 </p>
 
 
- **Enlace Event Storming:** <a href="https://miro.com/app/board/uXjVEOzTlmg=/?share_link_id=401600368120" style="text-decoration: none;">Enlace</a>
+ **Enlace Event Storming:** <a href="https://miro.com/app/board/uXjVEOzTlmg=/?share_link_id=401600368120">Enlace</a>
 
 
 ## 2.5. Ubiquitous Language
@@ -1335,12 +1353,16 @@ El Product Backlog agrupa y prioriza el conjunto de User Stories identificadas. 
 ### Referencia y Enlace Público
 
 * **Herramienta de gestión:** Trello
-* **URL Pública del Product Backlog:** <a href="https://trello.com/b/A0csigUo/terranova" style="text-decoration: none;">https://trello.com/b/A0csigUo/terranova</a> 
+* **URL Pública del Product Backlog:** <a href="https://trello.com/b/A0csigUo/terranova">https://trello.com/b/A0csigUo/terranova</a>
 
 ### Captura de Pantalla 
-<div align="center">
-  <img src="assets/chapter-03/product_backlog_pag.jpg" alt="Product Backlog" width="500">
-</div>
+<p align="center">
+  <a href="assets/chapter-03/product_backlog_pag.jpg">
+    <img src="assets/chapter-03/product_backlog_pag.jpg" alt="Product Backlog de TerraNova en Trello: historias pendientes y columnas de seguimiento" width="709" />
+  </a>
+</p>
+
+* **Figura 3.3.1.** Vista histórica del Product Backlog en Trello. Seleccionar la imagen permite consultar el archivo original; el enlace al tablero se encuentra en la referencia anterior.
 
 
 
@@ -1836,7 +1858,7 @@ En esta sección se presentan los diagramas de **Wireflow**, los cuales combinan
 
 Para garantizar consistencia en la arquitectura de información, se definieron previamente los *Task Flows* correspondientes a las rutas críticas de nuestros User Personas (**Agricultor** y **Comerciante**), modelando explícitamente cada cambio de estado visual (efecto de selección, apertura de modales o actualización de badges) como un paso independiente con su respectivo wireframe.
 
- **Enlace Wireflow:** <a href="https://www.figma.com/board/KAFi24QzlDrbm4DzuM1DgV/Untitled?node-id=0-1&t=xxM3mTqylB25csWf-1" style="text-decoration: none;">Enlace del diagrama Wireflow</a>
+ **Enlace Wireflow:** <a href="https://www.figma.com/board/KAFi24QzlDrbm4DzuM1DgV/Untitled?node-id=0-1&t=xxM3mTqylB25csWf-1">Enlace del diagrama Wireflow</a>
 
 
 #### Wireflow 1: Registro de Usuario, Selección de Rol y Consulta de Perfil
@@ -1974,7 +1996,7 @@ Las imágenes de Figma y los pasos siguientes describen la experiencia objetivo.
 En esta sección se presenta la propuesta formal de User Flows mapeados a partir de los diagramas de Wireflow previamente validados. Cada flujo integra los Mock-ups finales de alta fidelidad para representar la experiencia visual definitiva, definiendo con claridad tanto la ruta principal o esperada (Happy Path) como las decisiones y rutas de excepción (Unhappy Paths).
 
 * * **Link:** <a href="https://www.figma.com/board/qh5vL4xQoPmKWNJbFj7TGj/Untitled?node-id=0-1&t=gEVZUOH5xRFhc4Dp-1
-" style="text-decoration: none;">Link de los User Flow</a>
+">Link de los User Flow</a>
 
 #### **User Flow 1: Registro de Parcela Agrícola y Publicación en Plataforma**
 * **User Persona:** Alejandro Mendoza (Agricultor)
@@ -2060,11 +2082,11 @@ En el flujo de evidencias, la UI usa review → verified → accepted. El acceso
 
 ![Figura 4.4.4-A. Acuerdo, evidencia y liberación simulada](assets/chapter-04/architecture/18-flow-agreement-evidence.png)
 
-*Figura 4.4.4-A. Acuerdo, evidencia y liberación simulada.* <a href="assets/chapter-04/architecture/18-flow-agreement-evidence.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/18-flow-agreement-evidence.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.4.4-A. Acuerdo, evidencia y liberación simulada.* <a href="assets/chapter-04/architecture/18-flow-agreement-evidence.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/18-flow-agreement-evidence.svg">SVG</a>.
 
 ![Figura 4.4.4-B. Publicación de parcela y consulta del clima](assets/chapter-04/architecture/19-flow-parcels-climate.png)
 
-*Figura 4.4.4-B. Publicación de parcela y consulta del clima.* <a href="assets/chapter-04/architecture/19-flow-parcels-climate.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/19-flow-parcels-climate.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.4.4-B. Publicación de parcela y consulta del clima.* <a href="assets/chapter-04/architecture/19-flow-parcels-climate.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/19-flow-parcels-climate.svg">SVG</a>.
 
 ## 4.5. Web Applications Prototyping
 
@@ -2096,8 +2118,8 @@ A continuación, se presentan los enlaces y capturas de los videos explicativos 
   <img src="./assets/chapter-04/prototipo_desktop.png" alt="Descripción de la imagen" width="700">
 </p>
 
-* **Enlace del prototipo:** <a href="https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=85-504&t=DTHiWfYH71axACfB-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=123%3A494&show-proto-sidebar=1" style="text-decoration: none;">Enlace del prototipo web</a>
-* **Enlace al Video:** <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQDF54TKL6PlS58DK7p4wuJAAQiikz0rs6edE33i_ATjpPk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7pTDmu" style="text-decoration: none;">Ver Demostración</a>
+* **Enlace del prototipo:** <a href="https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=85-504&t=DTHiWfYH71axACfB-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=123%3A494&show-proto-sidebar=1">Enlace del prototipo web</a>
+* **Enlace al Video:** <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQDF54TKL6PlS58DK7p4wuJAAQiikz0rs6edE33i_ATjpPk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7pTDmu">Ver Demostración</a>
 
 ##### 2. Prototipo Mobile Web Browser – Adaptabilidad y Monitoreo en Campo
 * **Descripción del Video:** Demostración de la respuesta adaptativa en navegadores móviles, enfocada en la facilidad de uso para agricultores en campo: consulta de alertas climáticas en tiempo real, navegación táctil y carga directa de fotografías.
@@ -2107,8 +2129,8 @@ A continuación, se presentan los enlaces y capturas de los videos explicativos 
   <img src="./assets/chapter-04/prototipo_movil.png" alt="Descripción de la imagen" width="700">
 </p>
 
-* **Enlace del prototipo:** <a href="https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=257-10099&t=g4J1J50GPL689wBS-1&scaling=scale-down&content-scaling=fixed&page-id=236%3A5996" style="text-decoration: none;">Enlace del prototipo móvil</a>
-* **Enlace al Video:** <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQAF9cog3awORKq4HYfc7F9uAa-vd6s6V_oT3BiDwhjeADQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y3j1dP" style="text-decoration: none;">Ver Demostración</a>
+* **Enlace del prototipo:** <a href="https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=257-10099&t=g4J1J50GPL689wBS-1&scaling=scale-down&content-scaling=fixed&page-id=236%3A5996">Enlace del prototipo móvil</a>
+* **Enlace al Video:** <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQAF9cog3awORKq4HYfc7F9uAa-vd6s6V_oT3BiDwhjeADQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y3j1dP">Ver Demostración</a>
 
 
 ## 4.6. Domain-Driven Software Architecture
@@ -2199,7 +2221,7 @@ Cada recuadro dentro del límite de Allpatek representa una unidad que se puede 
 
 ![Figura 4.6.4-C. Componentes de la landing](assets/chapter-04/architecture/06-landing-components.png)
 
-*Figura 4.6.4-C. Componentes de la landing.* <a href="assets/chapter-04/architecture/06-landing-components.puml" style="text-decoration: none;">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/06-landing-components.svg" style="text-decoration: none;">SVG</a>.
+*Figura 4.6.4-C. Componentes de la landing.* <a href="assets/chapter-04/architecture/06-landing-components.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/06-landing-components.svg">SVG</a>.
 
 **Automatización.** La landing comprueba la respuesta HTTP al enviar el contacto. En la SPA, la notificación de acuerdo se solicita tras guardar la segunda aceptación. El aviso de evidencia se inicia antes de conocer el resultado del guardado. En la bóveda, un error al guardar la liberación se puede convertir en éxito local y disparar el aviso. La figura identifica los puntos de llamada. El resultado del workflow, la entrega del correo y el PDF requieren evidencia independiente.
 
@@ -2444,9 +2466,9 @@ Para llevar un control claro de los cambios y trabajar en equipo de forma ordena
 
 Organizamos el proyecto en repositorios independientes según cada producto digital:
 
-* **Landing Page (HTML, CSS y JS):** <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website" style="text-decoration: none;">Enlace del repositorio</a>
-* **Web Services (Java / Spring Boot):** <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform" style="text-decoration: none;">Enlace del repositorio</a>
-* **Frontend Web Application (Angular):** <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp" style="text-decoration: none;">Enlace del repositorio</a>
+* **Landing Page (HTML, CSS y JS):** <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website">Enlace del repositorio</a>
+* **Web Services (Java / Spring Boot):** <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform">Enlace del repositorio</a>
+* **Frontend Web Application (Angular):** <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp">Enlace del repositorio</a>
 
 
 #### Estrategia de Trabajo: GitFlow
@@ -2610,7 +2632,7 @@ La Landing Page es una solución web estática desarrollada con HTML, CSS y Java
 2. **Conectar el repositorio con GitHub**
     ```bash
     git branch -M main
-    git remote add origin <a href="https://github.com/TuOrganizacion/landing-page.git" style="text-decoration: none;">https://github.com/TuOrganizacion/landing-page.git</a>
+    git remote add origin <a href="https://github.com/TuOrganizacion/landing-page.git">https://github.com/TuOrganizacion/landing-page.git</a>
     git push -u origin main
     ```
 3. **Configurar GitHub Pages**
@@ -2620,7 +2642,7 @@ La Landing Page es una solución web estática desarrollada con HTML, CSS y Java
         * **Source:** Deploy from a branch
         * **Branch:** main
         * **Folder:** / (root)
-    * **Resultado público:** <a href="https://TuOrganizacion.github.io/landing-page/" style="text-decoration: none;">https://TuOrganizacion.github.io/landing-page/</a>
+    * **Resultado público:** <a href="https://TuOrganizacion.github.io/landing-page/">https://TuOrganizacion.github.io/landing-page/</a>
 
 
 
@@ -2637,7 +2659,7 @@ El frontend está desarrollado con Angular y se despliega en Netlify mediante in
     git push origin main
     ```
 2. **Configurar en Netlify**
-    * Acceder a: <a href="https://www.netlify.com/" style="text-decoration: none;">https://www.netlify.com/</a>
+    * Acceder a: <a href="https://www.netlify.com/">https://www.netlify.com/</a>
     * Seleccionar **Add new site** → **Import an existing project**.
     * Conectar con la cuenta de GitHub.
     * Seleccionar el repositorio correspondiente al frontend en Angular.
@@ -2669,7 +2691,7 @@ Configurar DATABASE_URL con el host de MySQL, DATABASE_PORT, DATABASE_NAME, DATA
 
 1. Preparar Java 27 y el Maven Wrapper. Compilar con ./mvnw clean package con las dependencias y una instancia MySQL de prueba configurada para el test de arranque; ejecutar el JAR con java -jar <archivo.jar>.
 2. Para un entorno publicado, configurar SPRING_PROFILES_ACTIVE=prod y PORT, aplicar el esquema en MySQL y cargar datos de prueba.
-3. Antes de conectar Angular, permitir su origen HTTPS en CORS y ajustar el servidor de Swagger, configurado en el ZIP como <a href="http://localhost:8090" style="text-decoration: none;">http://localhost:8090</a>.
+3. Antes de conectar Angular, permitir su origen HTTPS en CORS y ajustar el servidor de Swagger, configurado en el ZIP como <a href="http://localhost:8090">http://localhost:8090</a>.
 4. Comprobar /health, OpenAPI y una operación persistente. /health informa que la aplicación responde; la prueba de parcelas comprueba además la base.
 
 #### 6. Integración y evidencia
@@ -2683,6 +2705,15 @@ La landing enlaza la SPA. Los entornos Angular revisados apuntan al mock: JSON S
 - Conservar las URLs públicas, la versión desplegada y la evidencia de ejecución en 5.2.3.7 cuando estén verificadas.
 
 ## 5.2. Landing Page, Services & Applications Implementation
+
+Para consultar las evidencias de las tres primeras iteraciones:
+
+| Sprint | Producto documentado | Backlog y tablero | Evidencia de ejecución | Colaboración |
+| :---: | :--- | :--- | :--- | :--- |
+| 1 | Landing Page | [Sprint Backlog 1](#5213-sprint-backlog-1) | [Sprint Review](#5215-execution-evidence-for-sprint-review) | [GitHub Insights](#5218-team-collaboration-insights-during-sprint) |
+| 2 | Aplicación web y Fake API | [Sprint Backlog 2](#5223-sprint-backlog-2) | [Sprint Review](#5225-execution-evidence-for-sprint-review) | [GitHub Insights](#5228-team-collaboration-insights-during-sprint) |
+| 3 | Web Services | [Sprint Backlog 3](#5233-sprint-backlog-3) | [Sprint Review](#5235-execution-evidence-for-sprint-review) | [GitHub Insights](#5238-team-collaboration-insights-during-sprint) |
+
 ### 5.2.1. Sprint 1
 
 El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de Allpatek, la cual constituye el primer punto de contacto con los usuarios potenciales. Su objetivo fue comunicar de manera clara la propuesta de valor del sistema centrada en el modelo Agro-as-a-Service y la agricultura por contrato. Durante este sprint, se integraron las secciones principales (presentación, funcionalidades, beneficios y llamadas a la acción) siguiendo los wireframes del Capítulo IV y priorizando estándares de usabilidad, diseño responsivo y consistencia visual.
@@ -2731,7 +2762,7 @@ El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de 
   </tr>
   <tr>
     <td colspan="5">Sprint 1 Goal</td>
-    <td colspan="8"><strong>Our focus is on</strong> presenting ALLPATEK’s guaranteed agricultural production model, fee-by-milestone structure, and service offerings through a responsive static landing page with lead capture capabilities. <strong>We believe it delivers</strong> initial market reach, brand credibility, and clear commercial orientation <strong>to</strong> prospective agricultural producers and grain merchants. <strong>This will be confirmed when</strong> visitors can navigate through all service overview sections, compare commercial plans, and submit a technical proposal request in under 3 steps with zero UI validation errors.</td>
+    <td colspan="8"><strong>Nuestro enfoque está en dar a conocer la propuesta de producción agrícola garantizada de Allpatek y sus planes comerciales. Creemos que esto aporta credibilidad y claridad comercial a agricultores y comerciantes urbanos. Esto se confirmará cuando el 100 % de los visitantes puedan comparar los planes y solicitar una propuesta en menos de 3 pasos.</td>
   </tr>
   <tr>
     <td colspan="5">Sprint 1 Velocity</td>
@@ -2753,84 +2784,84 @@ El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de 
 <table>
     <thead>
       <tr style="background-color: #f2f2f2;">
-        <th style="border: 1px solid #dddddd; padding: 10px;">Team Member</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Header / Navbar</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Hero</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Services</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">How It Works</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Testimonials</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Team</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Contact Form</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Footer</th>
-        <th style="border: 1px solid #dddddd; padding: 10px;">Plans</th>
+        <th>Team Member</th>
+        <th>GitHub Username</th>
+        <th>Header / Navbar</th>
+        <th>Hero</th>
+        <th>Services</th>
+        <th>How It Works</th>
+        <th>Testimonials</th>
+        <th>Team</th>
+        <th>Contact Form</th>
+        <th>Footer</th>
+        <th>Plans</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Alexander1Alexander2</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td>Atauje Barreto, Alexander Sebastián</td>
+        <td>Alexander1Alexander2</td>
+        <td>C</td>
+        <td>C</td>
+        <td>L</td>
+        <td>L</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">MiguelAngel0107</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td>Egocheaga Suyo, Miguel Angel</td>
+        <td>MiguelAngel0107</td>
+        <td>L</td>
+        <td>L</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">melandree8</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td>Orellana Rodríguez, Mel Andree</td>
+        <td>melandree8</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>L</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">AbigailRV</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
+        <td>Raymundo Villarroel, Abigail Nadhim</td>
+        <td>AbigailRV</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>L</td>
+        <td>L</td>
+        <td>C</td>
       </tr>
       <tr>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">Macaxprogram29</td>
-       <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">C</td>
-        <td style="border: 1px solid #dddddd; padding: 8px;">L</td>
+        <td>Vera Solsol, Nayely Macarena</td>
+        <td>Macaxprogram29</td>
+       <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>L</td>
+        <td>C</td>
+        <td>C</td>
+        <td>C</td>
+        <td>L</td>
       </tr>
     </tbody>
   </table>
@@ -2843,17 +2874,19 @@ El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de 
 
 El **Sprint 1** tuvo como objetivo principal la maquetación, diseño responsivo, lógica de interacción y despliegue público de la **Landing Page estática e informativa de ALLPATEK**, la cual sirve como punto de contacto inicial para comunicar la propuesta de valor del modelo *Agro-as-a-Service* e incentivar la captación de productores agrícolas y compradores.
 
-Para la gestión y control del flujo de trabajo, las tareas se organizaron y monitorearon interactivamente mediante la herramienta de gestión de proyectos **GitHub Projects**.
+Para la gestión y control del flujo de trabajo, las tareas se organizaron y monitorearon mediante **Trello**, en el tablero TerraNova utilizado para el Product Backlog y el Sprint 1.
 
 #### Tablero de Control del Sprint 1 (Sprint Board)
 
 <p align="center">
-  <img src="assets/chapter-05/trello-sprint-01.png" alt="Sprint 1 Board - ALLPATEK" width="850" />
+  <a href="assets/chapter-05/trello-sprint-01.png">
+    <img src="assets/chapter-05/trello-sprint-01.png" alt="Tablero TerraNova del Sprint 1 en Trello, con las columnas To Do, In Progress, In Review y Done" width="900" />
+  </a>
 </p>
 
-* **Figura 5.2.1.3.1.** *Captura del tablero del Sprint 1 en la herramienta de control mostrando el estado de desarrollo.*
+* **Figura 5.2.1.3.1.** Captura histórica del tablero del Sprint 1 en Trello. Se conservan las columnas y tarjetas originales; seleccionar la imagen permite ampliar su contenido.
 
-* **URL Pública del Board del Sprint 1:** <a href="https://trello.com/invite/b/6aa216c035a4a46c6bd2f3f0/ATTI885bbe2f06b7915f27146102eb51b6dfDBBD1DE6/terranova" style="text-decoration: none;">Enlace de Trello Sprint 1</a>
+* **URL del Board del Sprint 1:** <a href="https://trello.com/b/A0csigUo/terranova">Ver tablero Trello - TerraNova Sprint 1</a>
 
 
 ### Tabla de Control de Estado del Sprint Backlog 1
@@ -2861,26 +2894,30 @@ Para la gestión y control del flujo de trabajo, las tareas se organizaron y mon
 A continuación se detalla la descomposición de las Historias de Usuario de la Landing Page asignadas al Sprint 1 en sus respectivas tareas técnicas (*Engineering Tasks / Work-items*), distribuidas según las componentes de la interfaz, lógica de validación e integración con n8n para la captura de solicitudes:
 
 | Sprint | User Story ID | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Sprint 1** | **US24** | **T001** | Inicialización del repositorio y estructura base | Configurar el repositorio oficial, convención de commits y estructura de carpetas HTML/CSS/JS inicial. | 3 | Mel Andree | Done |
-| **Sprint 1** | **US31** | **T002** | Maquetación HTML del Header y Navbar | Construir la estructura semántica en HTML5 del logo, menú de navegación principal y contenedor superior. | 4 | Miguel Angel | Done |
-| **Sprint 1** | **US38** | **T003** | Estilos CSS y responsive design para Header/Navbar | Aplicar paleta de colores, tipografía y adaptabilidad móvil para el menú desplegable y navegación. | 4 | Miguel Angel | Done |
-| **Sprint 1** | **US24** | **T004** | Maquetación HTML de la sección Hero | Construir la estructura semántica del Hero Section con propuesta de valor y botones CTA. | 4 | Miguel Angel | Done |
-| **Sprint 1** | **US24** | **T005** | Estilos CSS y métricas clave para la sección Hero | Diseñar el estilo visual de la sección principal, fondo responsivo e insignias de métricas clave. | 4 | Miguel Angel | Done |
-| **Sprint 1** | **US32** | **T006** | Maquetación HTML de la sección Servicios | Crear la estructura de cuadrícula para las tarjetas explicativas del modelo de custodia financiera Escrow. | 4 | Alexander Sebastián | Done |
-| **Sprint 1** | **US40** | **T007** | Estilos CSS para el grid de Servicios | Aplicar sombras, bordes y estilos de contraste visual para las tarjetas de servicios de la plataforma. | 4 | Alexander Sebastián | Done |
-| **Sprint 1** | **US33** | **T008** | Maquetación HTML de la sección Hitos / Cómo Funciona | Construir la secuencia del flujo de trabajo por hitos y desembolsos progresivos. | 4 | Alexander Sebastián | Done |
-| **Sprint 1** | **US41** | **T009** | Estilos CSS para la línea de tiempo de Hitos | Diseñar la línea de tiempo visual y los conectores gráficos entre los pasos del proceso Escrow. | 3 | Alexander Sebastián | Done |
-| **Sprint 1** | **US34** | **T010** | Maquetación HTML y estilos de Testimonios | Diseñar las tarjetas de reseñas y valoraciones de compradores y productores agrícolas. | 4 | Nayely Macarena | Done |
-| **Sprint 1** | **US35** | **T011** | Maquetación HTML de la sección Planes | Estructurar las tarjetas comparativas de planes de producción y suscripción agrícola. | 3 | Nayely Macarena | Done |
-| **Sprint 1** | **US35** | **T012** | Estilos CSS y destacado del plan recomendado | Resaltar el plan principal mediante etiquetas, bordes especiales e indicadores de precio. | 3 | Nayely Macarena | Done |
-| **Sprint 1** | **US36** | **T013** | Maquetación HTML y estilos de la sección Equipo | Estructurar la cuadrícula de perfiles del equipo técnico con sus tarjetas y enlaces. | 3 | Mel Andree | Done |
-| **Sprint 1** | **US25** | **T014** | Maquetación HTML del Formulario de Contacto | Construir los campos de captura para datos de contacto, empresa y requisito de propuesta técnica. | 3 | Abigail Nadhim | Done |
-| **Sprint 1** | **US39** | **T015** | Estilos CSS y lógica JS para validación de formulario | Diseñar estados hover/focus y programar la validación visual en cliente para campos obligatorios. | 4 | Abigail Nadhim | Done |
-| **Sprint 1** | **US42** | **T016** | Consumo del Webhook de n8n desde el Formulario | Implementar la petición asíncrona JS (fetch) para enviar los datos ingresados en el formulario al Webhook de n8n al hacer clic en "Quiero conocer más información". | 5 | Mel Andree | Done |
-| **Sprint 1** | **US42** | **T017** | Configuración del flujo en n8n para envío de correo y dossier | Configurar el workflow en n8n para recibir el webhook de la Landing Page y despachar automáticamente el correo electrónico con la propuesta técnica en PDF. | 6 | Mel Andree | Done |
-| **Sprint 1** | **US37** | **T018** | Maquetación HTML y estilos CSS del Footer | Construir el pie de página en columnas con datos institucionales, enlaces secundarios y copyright. | 3 | Abigail Nadhim | Done |
-| **Sprint 1** | **US38** | **T019** | Optimización responsive y media queries globales | Ajustar estilos globales CSS para adaptar todas las secciones de la Landing Page a pantallas móviles y tabletas. | 4 | Mel Andree | Done |
+| :--- | :--- | :--- | :--- | :---: | :--- | :--- | :--- |
+| Sprint 1 | US24 | T001 | Inicialización del repositorio y estructura base | Configurar el repositorio oficial, convención de commits y la estructura inicial HTML/CSS/JS con carpeta de assets. | 2 | Mel Andree | Done |
+| Sprint 1 | US24 | T002 | Maquetación HTML de la sección Hero | Construir la estructura semántica del Hero con propuesta de valor, CTA y bloque de métricas. | 2 | Miguel Angel | Done |
+| Sprint 1 | US24 | T003 | Estilos CSS y métricas clave del Hero | Aplicar fondo, tipografía, contraste y el grid de insignias (custodia, fraude, hectáreas, ahorro) en desktop y móvil. | 3 | Miguel Angel | Done |
+| Sprint 1 | US31 | T004 | Maquetación HTML del Header y Navbar | Construir logo, menú de anclas (servicios, hitos, testimonios, planes, equipo, contacto) y CTA de acceso. | 2 | Miguel Angel | Done |
+| Sprint 1 | US31 | T005 | Navegación por anclas y estado activo del menú | Implementar desplazamiento suave entre secciones y resaltar el enlace activo según el scroll. | 2 | Miguel Angel | Done |
+| Sprint 1 | US38 | T006 | Menú hamburguesa y estilos del Header | Estilizar paleta, tipografía y menú desplegable en pantallas pequeñas, con cierre al elegir una sección. | 3 | Miguel Angel | Done |
+| Sprint 1 | US38 | T007 | Media queries globales de la Landing Page | Ajustar tipografía, grillas y espaciado de todas las secciones para móvil y tablet, verificando que CTAs y formulario sigan usables. | 4 | Miguel Angel | Done |
+| Sprint 1 | US32 | T008 | Maquetación HTML e iconografía de Servicios | Estructurar las tarjetas de parcela, trazabilidad, custodia Escrow y clima, con iconos SVG y textos por segmento. | 3 | Alexander Sebastián | Done |
+| Sprint 1 | US40 | T009 | Estilos, hover y apilamiento responsive de Servicios | Aplicar contraste, sombras y microinteracciones; apilar las tarjetas en móvil para dejar clara la custodia de fondos. | 4 | Alexander Sebastián | Done |
+| Sprint 1 | US33 | T010 | Maquetación y contenido de Hitos / Cómo funciona | Construir la secuencia de cinco etapas (firma y bloqueo, siembra, desarrollo, cosecha, entrega) con su texto de desembolso. | 3 | Alexander Sebastián | Done |
+| Sprint 1 | US41 | T011 | Línea de tiempo CSS e indicadores móviles | Diseñar conectores, insignias numeradas y el cambio de orientación de la línea de tiempo en móvil. | 4 | Alexander Sebastián | Done |
+| Sprint 1 | US34 | T012 | Maquetación y estilos de Testimonios | Estructurar tarjetas de comerciante y productor con cita, rol y valoración, más el estilo visual de cada reseña. | 4 | Nayely Macarena | Done |
+| Sprint 1 | US35 | T013 | Maquetación HTML de la sección Planes | Estructurar las tarjetas comparativas Básico, Pro y Empresarial con alcance y tarifa. | 3 | Nayely Macarena | Done |
+| Sprint 1 | US35 | T014 | Estilos y destacado del plan recomendado | Resaltar el plan Pro (badge, borde e indicador de precio) y alinear las tres tarjetas en desktop y móvil. | 3 | Nayely Macarena | Done |
+| Sprint 1 | US39 | T015 | CTAs de cotización hacia el formulario | Enlazar los botones del Hero y de cada plan a la sección de contacto para iniciar la solicitud en un paso. | 2 | Nayely Macarena | Done |
+| Sprint 1 | US36 | T016 | Maquetación y estilos de la sección Equipo | Estructurar perfiles con foto, nombre, rol y enlaces, y aplicar el estilo de tarjetas. | 3 | Mel Andree | Done |
+| Sprint 1 | US25 | T017 | Maquetación HTML del formulario de contacto | Construir los campos obligatorios de nombres, apellidos, correo y teléfono, más el contenedor de confirmación. | 3 | Abigail Nadhim | Done |
+| Sprint 1 | US25 | T018 | Estilos y estados visuales del formulario | Diseñar inputs, hover/focus, errores y mensaje de éxito o datos inválidos. | 3 | Abigail Nadhim | Done |
+| Sprint 1 | US25 | T019 | Validación JS de campos obligatorios | Validar en cliente correo, teléfono y vacíos, e impedir el envío si los datos no cumplen el formato. | 3 | Abigail Nadhim | Done |
+| Sprint 1 | US42 | T020 | Consumo del webhook n8n desde el formulario | Enviar por fetch los datos válidos al webhook al pulsar el CTA de solicitud de información. | 4 | Mel Andree | Done |
+| Sprint 1 | US42 | T021 | Flujo n8n de correo y dossier PDF | Configurar el workflow que recibe el webhook y despacha el correo con la propuesta técnica en PDF. | 5 | Mel Andree | Done |
+| Sprint 1 | US37 | T022 | Maquetación y estilos del Footer | Construir columnas de contacto, enlaces rápidos y copyright, con fondo de contraste y apilamiento en móvil. | 4 | Abigail Nadhim | Done |
+| Sprint 1 | US38 | T023 | Despliegue de la Landing en GitHub Pages | Publicar el sitio estático desde la rama principal, verificar HTTPS y comprobar la navegación en desktop y móvil. | 1 | Mel Andree | Done |
 
 
 
@@ -2964,7 +3001,7 @@ A continuación se presenta la evidencia gráfica con las capturas de las princi
 
 Para profundizar en la revisión de la ejecución de este Sprint, el equipo preparó una presentación en video donde se ilustra y explica en detalle el recorrido interactivo, las transacciones visuales (*smooth scroll*), las animaciones de componentes y la navegación fluida lograda en la Landing Page:
 
-* **Enlace al Video de Evidencia:** <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQApudu7-aW0R6zofbarn9-pAd96aUTXm_GwyTKAwac5l90?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7oUJHv" style="text-decoration: none;">Ver Demostración de Navegación del Sprint 1</a>
+* **Enlace al Video de Evidencia:** <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQApudu7-aW0R6zofbarn9-pAd96aUTXm_GwyTKAwac5l90?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7oUJHv">Ver Demostración de Navegación del Sprint 1</a>
 * **Duración:** ~03:30 min.
 * **Contenido:** Recorrido por la Landing Page, validación de diseño *responsive* en vista de escritorio y móvil, interacción con botones CTA y prueba de captura del formulario de contacto.
 
@@ -3002,7 +3039,7 @@ Captura del panel de GitHub Pages con el sitio ya publicado:
 
 | Producto Digital | Entorno / Hosting | Fuente de Despliegue | Estado de Publicación | Dirección URL de Acceso Público |
 | :--- | :--- | :---: | :---: | :--- |
-| **Landing Page** | GitHub Pages | Rama main (/root) | **Active / Live** | <a href="https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-report/" style="text-decoration: none;">https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-report/</a> |
+| **Landing Page** | GitHub Pages | Rama main (/root) | **Active / Live** | <a href="https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-report/">https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-report/</a> |
 
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
@@ -3019,16 +3056,20 @@ Los commits siguen Conventional Commits, en inglés. Las ramas se iban integrand
 Capturas de Insights / Contributors y Commits del repositorio. Ahí se ve quién committeó, con qué frecuencia y cuánto código sumó cada uno:
 
 <p align="center">
-  <img src="assets/chapter-05/insight-spint-01.png" alt="Analíticos de Colaboración e Insights de GitHub - Sprint 1" width="850" />
+  <a href="assets/chapter-05/insight-spint-01.png">
+    <img src="assets/chapter-05/insight-spint-01.png" alt="GitHub Contributors de la Landing Page ALLPATEK con las contribuciones de los cinco integrantes" width="900" />
+  </a>
 </p>
 
-* **Figura 5.2.1.8.1.** *Contribuciones por usuario en GitHub Insights durante el Sprint 1.*
+* **Figura 5.2.1.8.1.** Contribuciones por usuario de la Landing Page en el intervalo visible de la captura. La imagen se puede ampliar y el historial se consulta en [GitHub Contributors](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website/graphs/contributors).
 
 <p align="center">
-  <img src="assets/chapter-05/historial_commit.png" alt="Historial y Grafo de Ramas en GitHub" width="850" />
+  <a href="assets/chapter-05/historial_commit.png">
+    <img src="assets/chapter-05/historial_commit.png" alt="Listado de commits e integraciones de las ramas de la Landing Page en GitHub" width="900" />
+  </a>
 </p>
 
-* **Figura 5.2.1.8.2.** *Grafo de ramas y commits en GitHub: una feature por componente, luego merge a la rama de integración.*
+* **Figura 5.2.1.8.2.** Historial de commits e integraciones de la Landing Page. La captura presenta una lista de commits; seleccionar la imagen permite leer los mensajes originales.
 
 
 #### 2. Resumen de Contribuciones por Integrante
@@ -3037,11 +3078,11 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
 
 | Integrante del Equipo | Usuario en GitHub | Rol / Producto Asignado | Tareas y Secciones Implementadas |
 | :--- | :--- | :--- | :--- |
-| **Atauje Barreto, Alexander Sebastián** | Alexander1Alexander2 | Developer / Aspect Leader | Maquetación y desarrollo del Header/Navbar, Hero Section y Testimonios. Configuración inicial de la estructura HTML/CSS. |
+| **Atauje Barreto, Alexander Sebastián** | Alexander1Alexander2 | Developer / Aspect Leader | Desarrollo de Services y How It Works: estructura HTML, tarjetas de servicios, estilos responsivos y línea de tiempo de hitos (T008-T011). |
 | **Egocheaga Suyo, Miguel Angel** | MiguelAngel0107 | Developer / Aspect Leader | Desarrollo de la arquitectura del Capítulo IV y de las secciones Header/Navbar y Hero de la Landing Page, incluyendo estilos responsivos y comportamiento de navegación móvil. |
-| **Orellana Rodríguez, Mel Andree** | melandree8 | Repository Admin / Aspect Leader | Configuración del repositorio, implementación de la sección de Equipo (Team), Planes de Producción y gestión de despliegue en GitHub Pages. |
+| **Orellana Rodríguez, Mel Andree** | melandree8 | Repository Admin / Aspect Leader | Configuración del repositorio, sección Team, integración del webhook y flujo n8n, y despliegue en GitHub Pages (T001, T016, T020-T021 y T023). |
 | **Raymundo Villarroel, Abigail Nadhim** | AbigailRV | Developer / Aspect Leader | Maquetación y desarrollo del Formulario de Contacto/Cotización técnica y la sección del Footer. |
-| **Vera Solsol, Nayely Macarena** | Macaxprogram29 | Developer / Aspect Leader | Desarrollo de la sección de Testimonios y soporte en la adaptabilidad responsive de la barra de navegación. |
+| **Vera Solsol, Nayely Macarena** | Macaxprogram29 | Developer / Aspect Leader | Desarrollo de Testimonios, Planes de Producción y enlaces de cotización hacia el formulario (T012-T015). |
 
 
 
@@ -3090,7 +3131,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
   </tr>
   <tr>
     <td colspan="5">Sprint 2 Goal</td>
-    <td colspan="8">Our focus is on automating contract delivery workflows via n8n and providing real-time crop progress notifications to agricultural investors.<br><br>We believe it delivers transparency, legal assurance, and continuous visibility of agricultural investments to investors and farmers.<br><br>This will be confirmed when 100% of signed agreements automatically generate and deliver PDF contracts to user inboxes within 1 minute, and investors receive real-time status updates in the SPA for every crop milestone updated by farmers.</td>
+    <td colspan="8">Implementar la primera versión de la aplicación web ALLPATEK para agricultores y comerciantes, cubriendo sesión y perfiles, parcelas, acuerdos, custodia de demostración, evidencias por hito y alertas climáticas. El criterio de revisión es recorrer las funcionalidades del Sprint Backlog 2 contra la Fake API y presentar las evidencias de ejecución y despliegue de las secciones 5.2.2.5 y 5.2.2.7.</td>
   </tr>
   <tr>
     <td colspan="5">Sprint 2 Velocity</td>
@@ -3098,12 +3139,14 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
   </tr>
   <tr>
     <td colspan="5">Sum of Story Points</td>
-    <td colspan="8">28 Story Points</td>
+    <td colspan="8">30 Story Points documentados + US05 pendiente de estimar</td>
   </tr>
 </table>
 
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
+
+La matriz relaciona a cada integrante con el bounded context que lidera en este Sprint. **L** identifica el liderazgo registrado; una celda vacía indica que no se consigna una asignación para ese aspecto. Las responsabilidades se detallan en el Sprint Backlog y en Team Collaboration Insights de esta misma iteración.
 
 
 
@@ -3111,66 +3154,66 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
 <table>
   <thead>
     <tr style="background-color: #f2f2f2;">
-      <th style="border: 1px solid #dddddd; padding: 10px;">Team Member</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">agreements-management</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">alerts-management</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">escrow-payments</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">parcel-management</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">tracking-evidence</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">shared</th>
+      <th>Team Member</th>
+      <th>GitHub Username</th>
+      <th>agreements-management</th>
+      <th>alerts-management</th>
+      <th>escrow-payments</th>
+      <th>parcel-management</th>
+      <th>tracking-evidence</th>
+      <th>shared</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Alexander1Alexander2</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Atauje Barreto, Alexander Sebastián</td>
+      <td>Alexander1Alexander2</td>
+      <td></td>
+      <td>L</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">MiguelAngel0107</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Egocheaga Suyo, Miguel Angel</td>
+      <td>MiguelAngel0107</td>
+      <td></td>
+      <td></td>
+      <td>L</td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">melandree8</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
+      <td>Orellana Rodríguez, Mel Andree</td>
+      <td>melandree8</td>
+      <td>L</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>L</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">AbigailRV</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Raymundo Villarroel, Abigail Nadhim</td>
+      <td>AbigailRV</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>L</td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Macaxprogram29</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Vera Solsol, Nayely Macarena</td>
+      <td>Macaxprogram29</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>L</td>
+      <td></td>
     </tr>
   </tbody>
 </table>
@@ -3180,215 +3223,142 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
 
 #### 5.2.2.3. Sprint Backlog 2
 
+El objetivo principal del **Sprint 2** es implementar la primera versión de la aplicación web de **ALLPATEK**, con autenticación y perfiles, gestión de parcelas y contratos, evidencias de hitos, pagos Escrow y alertas climáticas. Las tareas de esta iteración integran el frontend con la Fake API y, para los datos climáticos, con Open-Meteo.
 
-<table>
-  <thead>
-    <tr style="background-color: #f2f2f2;">
-      <th style="border: 1px solid #dddddd; padding: 10px;">Sprint</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">User Story ID</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">Task ID</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">Task Title</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">Description</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">Estimation (Hours)</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">Assigned To</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US08</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T001</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Interfaz de vista previa de cláusulas del contrato digital</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Maquetar la pantalla Contract Signature desplegando las cláusulas de arrendamiento, plan de pagos e hitos Escrow.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US08</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T002</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Componente de firma digital y aceptación de términos</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Implementar el panel lateral de carga de imagen de firma, checkbox de aceptación y botón de envío de contrato.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US16</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T003</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Vista de datos personales del perfil de usuario</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Construir la sección Personal Data en User Profile con campos para nombre completo, DNI, teléfono, dirección y correo.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US16</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T004</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Vista de información comercial de la empresa</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Desarrollar la sección Commercial Details mostrando razón social de la empresa, RUC y rubro comercial.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">4</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US04</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T005</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Línea de tiempo para selección de hitos de cultivo</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Diseñar el componente Milestone Timeline con estados habilitados y bloqueados para las 4 etapas del proyecto agrícola.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US04</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T006</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Formulario de carga de archivos de evidencia fotográfica</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Implementar la zona interactiva de arrastre de archivos (JPG, PNG, PDF) y campo de observaciones para el hito.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US04</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T007</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Tabla de registro e historial de evidencias enviadas</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Construir la tabla Traceability and Evidence con contadores de evidencias totales, tipo de evidencia y estado de auditoría.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US05</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T008</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Panel de métricas climáticas en tiempo real</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Diseñar las tarjetas métricas de Climate Alerts mostrando temperatura actual, humedad relativa, precipitación y velocidad del viento.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US05</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T009</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Componente de alertas de riesgo agronómico activo</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Implementar la tarjeta de estado Active Risk Alerts con indicador de nivel de severidad y descripción del evento.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US03</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T010</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Dashboard de saldos en la bóveda de custodia Escrow</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Maquetar la vista Payment Vault desplegando las tarjetas de monto total retenido y avance de porcentaje liberado.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US03</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T011</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Sección de contratos activos y seguimiento de desembolsos por hito</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Construir el panel Active Contract con datos de las partes, parcela vinculada y avance de desbloqueo de fondos de las 4 etapas.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US09</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T012</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Formulario interactivo para vinculación de tarjeta bancaria</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Construir la pantalla Add card con el diseño gráfico de tarjeta de débito/crédito y campos de número, titular, expiración y CVV.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US06</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T013</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Tarjeta interactiva de resumen de parcela agrícola</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Diseñar la tarjeta informativa del lote en My Parcels mostrando imagen, extensión en hectáreas, coordenadas GPS, tipo de suelo y costo.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US06</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T014</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Formulario de registro de especificaciones de nueva parcela</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Implementar la pantalla Register New Parcel con campos para nombre, hectáreas, tipo de suelo, costo por campaña y cultivos ideales.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">6</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;"><strong>Sprint 2</strong></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">US08</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">T015</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Estructura de navegación lateral y selector de idioma en SPA</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Maquetar el menú lateral principal con accesos a módulos, tarjeta de perfil de usuario logueado y selector de idioma EN/ES.</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">5</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Done</td>
-    </tr>
-  </tbody>
-</table>
+**Historias cubiertas por las tareas del Sprint**
+
+| Story ID | Story Title | Story Points | Tareas del informe |
+| :---: | :--- | :---: | :--- |
+| US01 | Registro de perfil y verificación de identidad | 5 | T001, T002, T003, T004 |
+| US16 | Registro de perfil corporativo y validación fiscal | 3 | T005, T006, T007 |
+| US08 | Aceptación de propuesta y firma de contrato digital Escrow | 3 | T008, T009, T010, T011 |
+| US06 | Publicación y geolocalización de lote agrícola | 3 | T012, T013, T014, T015 |
+| US04 | Registro y carga de evidencias fotográficas por hito | 3 | T016, T017, T018, T019 |
+| US14 | Revisión y observación técnica de evidencias de hito | 3 | T020, T021, T022 |
+| US03 | Aprobación de hito y orden de liberación de fondos | 5 | T023, T024, T025, T026 |
+| US09 | Depósito de fondos iniciales en custodia | 5 | T027, T028, T029 |
+| US05 | Consulta de lecturas y alertas climáticas por parcela | Pendiente de registrar | T030, T031, T032, T033 |
+| **Total documentado** | **9 historias** | **30 SP + US05 pendiente** | **33 tareas** |
+
+Los puntos se toman del Product Backlog (3.3). US05 aparece en las tareas de alertas climáticas, pero no tiene una estimación registrada en ese Product Backlog; se mantiene pendiente para evitar asignar puntos sin evidencia. Las horas de las tareas se presentan por separado.
+
+**Tablero de Control del Sprint 2 (Sprint Board)**
+
+<p align="center">
+  <a href="assets/chapter-05/trello-sprint-02.png">
+    <img src="assets/chapter-05/trello-sprint-02.png" alt="Tablero Allpatek-Sprint-02 en Trello con las columnas Task, To-Do, In-Progress y Done" width="900" />
+  </a>
+</p>
+
+* **Figura 5.2.2.3.1.** Captura original del tablero Allpatek-Sprint-02, proporcionada para esta revisión. Seleccionar la imagen permite ampliarla.
+
+* **URL pública del Board del Sprint 2:** <a href="https://trello.com/b/wg5hoQwD/allpatek-sprint-02">Ver tablero Trello - ALLPATEK Sprint 2</a>
+
+**Estado observado y diferencia de conteo**
+
+| Fuente | Total | Done | En proceso |
+| :--- | :---: | :---: | :---: |
+| Trello, Figura 5.2.2.3.1 | 32 tarjetas | 31 | 1 (T020) |
+| Tabla del informe | 33 tareas | 32 | 1 (T020) |
+
+Task y To-Do muestran cero tarjetas. La diferencia de una tarea entre ambas fuentes se conserva explícitamente: esta vista no permite identificar su correspondencia ni verificar individualmente las 31 tarjetas Done. Las 33 tareas y sus estimaciones permanecen documentadas en la tabla.
+
+**Distribución de tareas y esfuerzo estimado**
+
+| Integrante | Tareas | Estimación total (horas) |
+| :--- | :---: | :---: |
+| Alexander Sebastián | 4 | 18 |
+| Miguel Angel | 7 | 31 |
+| Mel Andree | 11 | 48 |
+| Abigail Nadhim | 4 | 19 |
+| Nayely Macarena | 7 | 29 |
+| **Total** | **33** | **145** |
+
+Estos valores se calculan a partir de las tareas detalladas a continuación. Las horas corresponden a estimaciones de trabajo; no representan horas efectivamente consumidas ni equivalen a Story Points.
+
+### Tabla de Control de Estado del Sprint Backlog 2
+
+Los identificadores de tareas son locales a este Sprint. Estados: **To-Do** (pendiente), **In-Process** (en ejecución), **To-Review** (en revisión) y **Done** (finalizada). La columna In-Progress de Trello se registra como In-Process en esta tabla. T020 se actualiza según la captura; los demás estados se conservan del informe previo.
+
+| Sprint | User Story ID | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
+| Sprint 2 | US01 | T001 | Modelo de sesión y perfiles en Shared | Definir entidades de usuario, rol (agricultor/comerciante) y perfil en el kernel shared. | 4 | Mel Andree | Done |
+| Sprint 2 | US01 | T002 | Cliente HTTP de autenticación hacia Fake API | Conectar login/registro con los recursos users y profiles de json-server (/api/v1). | 4 | Mel Andree | Done |
+| Sprint 2 | US01 | T003 | Pantallas de login y registro por rol | Construir las vistas Sign in / Register con selector de rol y validación de campos. | 5 | Mel Andree | Done |
+| Sprint 2 | US01 | T004 | Shell, rutas protegidas e i18n EN/ES | Maquetar sidebar, tarjeta de sesión, selector de idioma y redirección según rol. | 5 | Mel Andree | Done |
+| Sprint 2 | US16 | T005 | Sección de datos personales del perfil | Mostrar nombre, DNI, teléfono, dirección y correo en User Profile. | 4 | Mel Andree | Done |
+| Sprint 2 | US16 | T006 | Sección de datos comerciales de la empresa | Mostrar razón social, RUC y rubro para el perfil comerciante. | 4 | Mel Andree | Done |
+| Sprint 2 | US16 | T007 | Persistencia del perfil en Fake API | Guardar cambios de perfil con PUT al recurso profiles y refrescar la sesión. | 4 | Mel Andree | Done |
+| Sprint 2 | US08 | T008 | Modelo de dominio de agreements-management | Definir acuerdo, código de contrato, montos e hitos Escrow en la capa de dominio. | 4 | Mel Andree | Done |
+| Sprint 2 | US08 | T009 | Infraestructura y store de contratos | Consumir GET/POST/PUT /agreements en Fake API y coordinar listado, borrador y firma. | 5 | Mel Andree | Done |
+| Sprint 2 | US08 | T010 | Vista previa de cláusulas del contrato | Maquetar Contract Signature con partes, cláusulas y plan de desembolsos por hito. | 5 | Mel Andree | Done |
+| Sprint 2 | US08 | T011 | Panel de firma y aceptación de términos | Implementar carga de firma, confirmación de términos y envío de aceptación. | 4 | Mel Andree | Done |
+| Sprint 2 | US06 | T012 | Modelo de dominio de parcel-management | Definir parcela, área, suelo, costo de campaña y medios en la capa de dominio. | 4 | Abigail Nadhim | Done |
+| Sprint 2 | US06 | T013 | Cliente HTTP y store del catálogo de parcelas | Consumir GET/POST/PUT/DELETE /parcels de Fake API y coordinar el catálogo. | 5 | Abigail Nadhim | Done |
+| Sprint 2 | US06 | T014 | Tablero y tarjeta de resumen de parcela | Diseñar My Parcels con imagen, hectáreas, GPS, suelo y costo. | 5 | Abigail Nadhim | Done |
+| Sprint 2 | US06 | T015 | Formulario de alta/edición con GPS y fotos | Implementar Register New Parcel (datos, coordenadas/mapa y carga de fotografías). | 5 | Abigail Nadhim | Done |
+| Sprint 2 | US04 | T016 | Modelo de dominio de tracking-evidence | Definir evidencia de hito, archivo adjunto y estados review / verified / accepted. | 4 | Nayely Macarena | Done |
+| Sprint 2 | US04 | T017 | Cliente HTTP y store de evidencias | Consumir POST/GET /evidence de Fake API y orquestar la carga del agricultor. | 4 | Nayely Macarena | Done |
+| Sprint 2 | US04 | T018 | Línea de tiempo de hitos y dropzone de fotos | Construir Milestone Timeline y la zona de arrastre JPG/PNG con observaciones. | 5 | Nayely Macarena | Done |
+| Sprint 2 | US04 | T019 | Historial de evidencias enviadas | Mostrar tabla/tablero con contadores, tipo de evidencia y estado de auditoría. | 4 | Nayely Macarena | Done |
+| Sprint 2 | US14 | T020 | Vista de revisión técnica para el comerciante | Implementar Evidence Review con la foto, notas y hito asociado. | 4 | Nayely Macarena | In-Process |
+| Sprint 2 | US14 | T021 | Transición de estados de evidencia | Permitir verified / accepted (y devolución a corrección) vía PUT /evidence/{id}. | 4 | Nayely Macarena | Done |
+| Sprint 2 | US14 | T022 | Bloqueo de revisión en hito ya cerrado | Impedir cambiar una evidencia si el hito ya liberó fondos. | 4 | Nayely Macarena | Done |
+| Sprint 2 | US03 | T023 | Modelo de dominio de escrow-payments | Definir wallet, monto en custodia y tarjeta enmascarada en la capa de dominio. | 4 | Miguel Angel | Done |
+| Sprint 2 | US03 | T024 | Cliente HTTP y store de la bóveda | Consumir GET/POST/PUT /wallets de Fake API y calcular retenido vs liberado. | 5 | Miguel Angel | Done |
+| Sprint 2 | US03 | T025 | Dashboard de saldos Escrow | Maquetar Payment Vault con total retenido y porcentaje liberado. | 5 | Miguel Angel | Done |
+| Sprint 2 | US03 | T026 | Seguimiento de desembolsos por hito | Mostrar contrato activo, parcela y avance de las 4 etapas. | 4 | Miguel Angel | Done |
+| Sprint 2 | US09 | T027 | Recurso de depósito en Fake API | Modelar el alta de wallet con titular, last4, expiración y marca. | 4 | Miguel Angel | Done |
+| Sprint 2 | US09 | T028 | Formulario de vinculación de tarjeta | Construir Add card (número, titular, expiración y CVV de demostración). | 5 | Miguel Angel | Done |
+| Sprint 2 | US09 | T029 | Confirmación de fondos en custodia | Registrar el depósito simulado y dejar el contrato en estado En Custodia. | 4 | Miguel Angel | Done |
+| Sprint 2 | US05 | T030 | Modelo de lecturas y alertas climáticas | Definir métricas (temperatura, humedad, precipitación, viento) y nivel de severidad. | 4 | Alexander Sebastián | Done |
+| Sprint 2 | US05 | T031 | Cliente Open-Meteo y Fake API de alertas | Integrar el forecast por coordenadas de parcela y el recurso /alerts. | 5 | Alexander Sebastián | Done |
+| Sprint 2 | US05 | T032 | Panel de métricas climáticas | Diseñar las tarjetas de Climate Alerts con los KPIs en tiempo real. | 5 | Alexander Sebastián | Done |
+| Sprint 2 | US05 | T033 | Feed de alertas de riesgo agronómico | Mostrar Active Risk Alerts con severidad y descripción del evento. | 4 | Alexander Sebastián | Done |
 
 
 
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
+Los identificadores enlazan a los commits del repositorio correspondiente. Los mensajes y las fechas de autor se contrastaron con GitHub; las fechas se expresan en hora de Lima (UTC-05:00). La descripción de cada cambio se conserva como explicación del informe.
+
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 | --- | --- | --- | --- | --- | --- |
-| allpatek-webapp | develop | ae65b82 | chore: configure workspace environments and app shell | Set Angular workspace environments and the shared app shell used by every bounded context. | 2026-10-04 |
-| allpatek-webapp | develop | 714ab81 | feat: add shared kernel with session and profiles | Add session and profile support in the shared kernel so feature modules can resolve the signed-in user. | 2026-10-04 |
-| allpatek-webapp | develop | 1a81779 | chore: add bounded context folders | Create empty DDD folders for each bounded context so teammates can implement their feature on a dedicated branch. | 2026-10-04 |
-| allpatek-webapp | feature/agreements-management | c781e7e | feat: add agreements domain model | Introduce agreement entities, contract codes, and money helpers used to draft and activate contracts. | 2026-10-04 |
-| allpatek-webapp | feature/agreements-management | 5498a2b | feat: add agreements infrastructure | Add HTTP clients that persist agreements and look up parcels by id without importing other contexts. | 2026-10-04 |
-| allpatek-webapp | feature/agreements-management | 7aa4816 | feat: add agreements application store | Coordinate agreement list, draft, and activation state from the application layer. | 2026-10-04 |
-| allpatek-webapp | feature/agreements-management | 79b8efd | feat: add agreements presentation views | Build contract list, merchant detail, and sign screens for farmer and merchant roles. | 2026-10-04 |
-| allpatek-webapp | feature/agreements-management | 6776288 | feat: wire agreements routes | Register agreement child routes in the workspace so the contracts module can be lazy-loaded. | 2026-10-04 |
-| allpatek-webapp | develop | ded9397 | Merge branch 'feature/agreements-management' into develop | Integrate the agreements bounded context into the shared develop branch. | 2026-10-04 |
-| allpatek-webapp | feature/alerts-management | 3a866a9 | feat: add climate reading model used by parcel weather alerts | Define the climate reading model that maps forecast data to parcel weather alerts. | 2026-10-04 |
-| allpatek-webapp | feature/alerts-management | 2891a83 | feat: integrate Open-Meteo forecast client inside alerts infrastructure | Connect alerts infrastructure to the Open-Meteo forecast client for parcel weather readings. | 2026-10-04 |
-| allpatek-webapp | feature/alerts-management | ed5e79b | feat: load farmer climate readings through the alerts application store | Load farmer-owned climate readings in the alerts application store using parcel location. | 2026-10-04 |
-| allpatek-webapp | feature/alerts-management | bbe51b3 | feat: present climate board with weather metrics and field warnings | Render the climate board with weather metrics and field warnings for the farmer. | 2026-10-04 |
-| allpatek-webapp | feature/alerts-management | 92b872a | feat: register farmer-only alerts routes in the workspace shell | Mount alerts routes as a farmer-only workspace section. | 2026-10-04 |
-| allpatek-webapp | develop | 6f38288 | Merge branch 'feature/alerts-management' into develop | Integrate the alerts bounded context into the shared develop branch. | 2026-10-04 |
-| allpatek-webapp | feature/escrow-payments | 4aadfaa | feat: introduce escrow payment entities | Add wallet and escrow domain types used to hold funds until evidence is accepted. | 2026-10-04 |
-| allpatek-webapp | feature/escrow-payments | 9b6c36c | feat: connect wallets to the platform API | Persist wallet balances and transfers through the platform API. | 2026-10-04 |
-| allpatek-webapp | feature/escrow-payments | 096345e | feat: implement escrow vault store | Coordinate deposit, hold, and release of escrow funds in the application store. | 2026-10-04 |
-| allpatek-webapp | feature/escrow-payments | 661a8d2 | feat: build vault and deposit screens | Build the vault board and deposit form used by farmer and merchant roles. | 2026-10-04 |
-| allpatek-webapp | feature/escrow-payments | 1a0369d | feat: register escrow payment routes | Register vault and deposit routes in the workspace shell. | 2026-10-04 |
-| allpatek-webapp | develop | ab71598 | Merge branch 'feature/escrow-payments' into develop | Integrate the escrow payments bounded context into the shared develop branch. | 2026-10-04 |
-| allpatek-webapp | feature/parcel-management | 5540ed7 | feat: define parcel entity and campaign cost helpers | Model parcels and campaign cost helpers for the farmer catalog. | 2026-10-04 |
-| allpatek-webapp | feature/parcel-management | 9aca698 | feat: expose parcel persistence through the platform API | Persist parcels through the platform API from the infrastructure layer. | 2026-10-04 |
-| allpatek-webapp | feature/parcel-management | 92a0f4d | feat: coordinate parcel catalog state in the application store | Coordinate list, create, update, and delete of parcels in the application store. | 2026-10-04 |
-| allpatek-webapp | feature/parcel-management | 90c6737 | feat: render parcel board, form and detail workspace screens | Render parcel board, form, and detail screens in the workspace. | 2026-10-04 |
-| allpatek-webapp | feature/parcel-management | 1561a6d | feat: mount parcel routes as the workspace landing path | Make parcels the default workspace landing route after login. | 2026-10-04 |
-| allpatek-webapp | develop | 4818453 | Merge branch 'feature/parcel-management' into develop | Integrate the parcel management bounded context into the shared develop branch. | 2026-10-04 |
-| allpatek-webapp | feature/tracking-evidence | 50a5d32 | feat: model milestone evidence submitted for activated contracts | Define milestone evidence submitted against an activated contract. | 2026-10-04 |
-| allpatek-webapp | feature/tracking-evidence | 3a561a6 | feat: persist milestone evidence through the platform evidence API | Persist milestone evidence through the platform evidence API. | 2026-10-04 |
-| allpatek-webapp | feature/tracking-evidence | aaea17c | feat: orchestrate evidence status transitions in the application store | Orchestrate evidence status transitions from submitted to accepted or rejected. | 2026-10-04 |
-| allpatek-webapp | feature/tracking-evidence | 6adba0a | feat: ship farmer upload and merchant review evidence screens | Ship farmer upload and merchant review screens for milestone evidence. | 2026-10-04 |
-| allpatek-webapp | feature/tracking-evidence | 504f9ad | feat: attach evidence routes for farmer upload and merchant review | Register evidence routes for farmer upload and merchant review. | 2026-10-04 |
-| allpatek-webapp | develop | 26ff76e | Merge branch 'feature/tracking-evidence' into develop | Integrate the tracking evidence bounded context into the shared develop branch. | 2026-10-04 |
+| allpatek-webapp | develop | [b7e0f33](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/b7e0f33ee390) | chore: configure workspace environments and app shell | Set Angular workspace environments and the shared app shell used by every bounded context. | 2026-10-02 |
+| allpatek-webapp | develop | [9b10d1e](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/9b10d1e53a52) | feat: add shared kernel with session and profiles | Add session and profile support in the shared kernel so feature modules can resolve the signed-in user. | 2026-10-02 |
+| allpatek-webapp | develop | [8bf634b](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/8bf634b486f3) | chore: add bounded context folders | Create empty DDD folders for each bounded context so teammates can implement their feature on a dedicated branch. | 2026-10-02 |
+| allpatek-webapp | feature/agreements-management | [995c9fd](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/995c9fdc9cd1) | feat: add agreements domain model | Introduce agreement entities, contract codes, and money helpers used to draft and activate contracts. | 2026-10-03 |
+| allpatek-webapp | feature/agreements-management | [70d8aa9](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/70d8aa977318) | feat: add agreements infrastructure | Add HTTP clients that persist agreements and look up parcels by id without importing other contexts. | 2026-10-03 |
+| allpatek-webapp | feature/agreements-management | [f4eb370](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/f4eb370b09e1) | feat: add agreements application store | Coordinate agreement list, draft, and activation state from the application layer. | 2026-10-03 |
+| allpatek-webapp | feature/agreements-management | [47d3d7b](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/47d3d7b1dd0c) | feat: add agreements presentation views | Build contract list, merchant detail, and sign screens for farmer and merchant roles. | 2026-10-03 |
+| allpatek-webapp | feature/agreements-management | [2b7dc4c](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/2b7dc4c50524) | feat: wire agreements routes | Register agreement child routes in the workspace so the contracts module can be lazy-loaded. | 2026-10-03 |
+| allpatek-webapp | develop | [917ba1b](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/917ba1b31214) | Merge  branch 'feature/agreements-management' into develop | Integrate the agreements bounded context into the shared develop branch. | 2026-10-03 |
+| allpatek-webapp | feature/alerts-management | [f811083](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/f8110834ca59) | feat: add climate reading model used by parcel weather alerts | Define the climate reading model that maps forecast data to parcel weather alerts. | 2026-10-03 |
+| allpatek-webapp | feature/alerts-management | [dc100e4](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/dc100e45388b) | feat: integrate Open-Meteo forecast client inside alerts infrastructure | Connect alerts infrastructure to the Open-Meteo forecast client for parcel weather readings. | 2026-10-03 |
+| allpatek-webapp | feature/alerts-management | [6c9ff83](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/6c9ff83c48e5) | feat: load farmer climate readings through the alerts application store | Load farmer-owned climate readings in the alerts application store using parcel location. | 2026-10-03 |
+| allpatek-webapp | feature/alerts-management | [7e4cc8d](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/7e4cc8d3ff6c) | feat: present climate board with weather metrics and field warnings | Render the climate board with weather metrics and field warnings for the farmer. | 2026-10-03 |
+| allpatek-webapp | feature/alerts-management | [c7f7c00](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/c7f7c00704ee) | feat: register farmer-only alerts routes in the workspace shell | Mount alerts routes as a farmer-only workspace section. | 2026-10-03 |
+| allpatek-webapp | develop | [ffbf30c](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/ffbf30c173c5) | Merge branch 'feature/alerts-management' into develop | Integrate the alerts bounded context into the shared develop branch. | 2026-10-03 |
+| allpatek-webapp | feature/escrow-payments | [c75cea8](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/c75cea87b7d8) | feat: introduce escrow payment entities | Add wallet and escrow domain types used to hold funds until evidence is accepted. | 2026-10-03 |
+| allpatek-webapp | feature/escrow-payments | [d0470ed](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/d0470ed6e9d7) | feat: connect wallets to the platform API | Persist wallet balances and transfers through the platform API. | 2026-10-03 |
+| allpatek-webapp | feature/escrow-payments | [61501fd](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/61501fd5d272) | feat: implement escrow vault store | Coordinate deposit, hold, and release of escrow funds in the application store. | 2026-10-03 |
+| allpatek-webapp | feature/escrow-payments | [df15527](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/df1552765970) | feat: build vault and deposit screens | Build the vault board and deposit form used by farmer and merchant roles. | 2026-10-03 |
+| allpatek-webapp | feature/escrow-payments | [0abae2d](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/0abae2dfa7de) | feat: register escrow payment routes | Register vault and deposit routes in the workspace shell. | 2026-10-03 |
+| allpatek-webapp | develop | [577d3b9](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/577d3b9ff378) | Merge branch 'feature/escrow-payments' into develop | Integrate the escrow payments bounded context into the shared develop branch. | 2026-10-04 |
+| allpatek-webapp | feature/parcel-management | [089c544](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/089c544c9fe0) | feat: define parcel entity and campaign cost helpers | Model parcels and campaign cost helpers for the farmer catalog. | 2026-10-04 |
+| allpatek-webapp | feature/parcel-management | [4c9acfd](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/4c9acfd8972c) | feat: expose parcel persistence through the platform API | Persist parcels through the platform API from the infrastructure layer. | 2026-10-04 |
+| allpatek-webapp | feature/parcel-management | [63d4000](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/63d40007231a) | feat: coordinate parcel catalog state in the application store | Coordinate list, create, update, and delete of parcels in the application store. | 2026-10-04 |
+| allpatek-webapp | feature/parcel-management | [d64b835](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/d64b835f0e49) | feat: render parcel board, form and detail workspace screens | Render parcel board, form, and detail screens in the workspace. | 2026-10-04 |
+| allpatek-webapp | feature/parcel-management | [1da2d29](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/1da2d298165d) | feat: mount parcel routes as the workspace landing path | Make parcels the default workspace landing route after login. | 2026-10-04 |
+| allpatek-webapp | develop | [375a16f](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/375a16fcdee3) | Merge branch 'feature/parcel-management' into develop | Integrate the parcel management bounded context into the shared develop branch. | 2026-10-04 |
+| allpatek-webapp | feature/tracking-evidence | [a6c8547](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/a6c8547b79f5) | feat: model milestone evidence submitted for activated contracts | Define milestone evidence submitted against an activated contract. | 2026-10-04 |
+| allpatek-webapp | feature/tracking-evidence | [79878f1](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/79878f15d2fb) | feat: persist milestone evidence through the platform evidence API | Persist milestone evidence through the platform evidence API. | 2026-10-04 |
+| allpatek-webapp | feature/tracking-evidence | [282dcb9](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/282dcb9bea60) | feat: orchestrate evidence status transitions in the application store | Orchestrate evidence status transitions from submitted to accepted or rejected. | 2026-10-04 |
+| allpatek-webapp | feature/tracking-evidence | [4e2283e](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/4e2283e109a4) | feat: ship farmer upload and merchant review evidence screens | Ship farmer upload and merchant review screens for milestone evidence. | 2026-10-04 |
+| allpatek-webapp | feature/tracking-evidence | [224b062](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/224b062d5eeb) | feat: attach evidence routes for farmer upload and merchant review | Register evidence routes for farmer upload and merchant review. | 2026-10-04 |
+| allpatek-webapp | develop | [8917d4e](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/commit/8917d4e1b66a) | Merge branch 'feature/tracking-evidence' into develop | Integrate the tracking evidence bounded context into the shared develop branch. | 2026-10-04 |
 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
@@ -3396,19 +3366,27 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
 
 
 #### Vista 1: Pantalla de Inicio de Sesión (*Login*)
-Esta interfaz ofrece un acceso unificado a la plataforma mediante la autenticación de credenciales. La pantalla incluye un selector dinámico de rol (Agricultor o Comerciante) que permite redirigir al usuario hacia su espacio de trabajo personalizado. Al validar los campos de correo electrónico y contraseña, el sistema procesa el inicio de sesión y da paso a las funciones correspondientes.
+La captura presenta los campos de correo electrónico y contraseña, los enlaces de recuperación y registro, y el selector de idioma EN/ES. La selección del rol Agricultor o Comerciante se muestra en el formulario de registro de la Vista 2. Esta evidencia corresponde a la interfaz publicada para el Sprint 2 con la Fake API.
 
 <p align="center">
-  <img src="assets/chapter-05/vista01.png" alt="Pantalla de Login" width="850" />
+  <a href="assets/chapter-05/vista01.png">
+    <img src="assets/chapter-05/vista01.png" alt="Inicio de sesión de ALLPATEK: campos de correo y contraseña, enlace de registro y selector EN/ES" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.5.1.** Pantalla de acceso de la aplicación web publicada en Netlify. Seleccionar la imagen permite ampliarla.
 
 
 #### Vista 2: Registro de Cuenta de Usuario
-Se trata de un formulario de alta adaptativo diseñado para incorporar nuevos usuarios al sistema. La interfaz ajusta dinámicamente sus campos en función del perfil seleccionado, solicitando información personal en el caso del agricultor o datos fiscales y corporativos cuando se trata de un comerciante. Tras aceptar los términos y completar el registro, la cuenta queda activa en la base de datos para ingresar de inmediato.
+El formulario de registro muestra la selección del rol Agricultor o Comerciante, el nombre completo, el correo electrónico, la contraseña y su confirmación. La captura documenta la pantalla inicial de alta; las tareas de perfiles personales y comerciales se detallan en el Sprint Backlog 2.
 
 <p align="center">
-  <img src="assets/chapter-05/vista02.png" alt="Pantalla de Login" width="850" />
+  <a href="assets/chapter-05/vista02.png">
+    <img src="assets/chapter-05/vista02.png" alt="Registro de ALLPATEK: selección de agricultor o comerciante, nombre, correo y contraseña" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.5.2.** Formulario de creación de cuenta con selección de rol. Seleccionar la imagen permite ampliarla.
 
 
 
@@ -3416,8 +3394,12 @@ Se trata de un formulario de alta adaptativo diseñado para incorporar nuevos us
 Corresponde al panel principal del agricultor donde se centraliza la visualización de todos los terrenos agrícolas registrados a su nombre. La vista presenta tarjetas informativas con el estado operativo de cada predio, su extensión y accesos rápidos a las operaciones CRUD. Desde este tablero, el usuario puede iniciar el registro de nuevas parcelas, editarlas o consultar su detalle.
 
 <p align="center">
-  <img src="assets/chapter-05/vista03.png" alt="Pantalla de Login" width="850" />
+  <a href="assets/chapter-05/vista03.png">
+    <img src="assets/chapter-05/vista03.png" alt="Panel Mis Parcelas del agricultor con tarjeta de parcela, estado, datos del terreno y acciones de gestión" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.5.3.** Catálogo de parcelas del agricultor. Seleccionar la imagen permite ampliarla.
 
 
 
@@ -3425,42 +3407,62 @@ Corresponde al panel principal del agricultor donde se centraliza la visualizaci
 Esta pantalla captura y actualiza los parámetros técnicos y geográficos de un terreno agrícola. El usuario puede ingresar datos clave como el nombre del predio, la superficie total en hectáreas, la ubicación exacta, el tipo de suelo, el costo estimado de la campaña y adjuntar fotografías de respaldo. Al guardar, la Fake API actualiza la información y refresca el catálogo.
 
 <p align="center">
-  <img src="assets/chapter-05/vista04.png" alt="Pantalla de Login" width="850" />
+  <a href="assets/chapter-05/vista04.png">
+    <img src="assets/chapter-05/vista04.png" alt="Formulario Register New Parcel con datos de nombre, área, suelo, costo y calendario de campaña" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.5.4.** Formulario de registro de una parcela agrícola. Seleccionar la imagen permite ampliarla.
 
 
 #### Vista 5: Ficha de Detalle de Parcela
 Es una vista resumida que consolida las especificaciones técnicas y la galería multimedia de una parcela en particular. Funciona como un centro de control desde el cual el usuario puede navegar directamente hacia el contrato asociado, revisar el historial de evidencias técnicas enviadas o consultar el estado financiero en la bóveda de custodia.
 
 <p align="center">
-  <img src="assets/chapter-05/vista05.png" alt="Pantalla de Login" width="850" />
+  <a href="assets/chapter-05/vista05.png">
+    <img src="assets/chapter-05/vista05.png" alt="Detalle de parcela con fotografía, ficha técnica y resumen de contratación por hitos" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.5.5.** Ficha de detalle de la parcela y condiciones de campaña. Seleccionar la imagen permite ampliarla.
 
 
 
 #### Vista 6: Emisión y Firma Digital de Contrato
-Muestra el documento de arrendamiento con sus cláusulas legales, los datos de las partes firmantes y el desglose de pagos estructurado en cuatro hitos equivalentes al 25% cada uno. Incluye un identificador único con formato CTR-YYYY-NNNN y un panel de firma digital para que el agricultor pueda aceptar y validar formalmente el acuerdo emitido por el comerciante.
+La captura muestra el contrato de arrendamiento, los datos de las partes y el desglose de cuatro hitos del 25 % cada uno. El panel lateral presenta el estado de las firmas, la carga de una imagen de firma y la aceptación de las condiciones del contrato dentro de la aplicación de demostración.
 
 <p align="center">
-  <img src="assets/chapter-05/vista06.png" alt="Pantalla de Login" width="850" />
+  <a href="assets/chapter-05/vista06.png">
+    <img src="assets/chapter-05/vista06.png" alt="Contrato agrícola con cláusulas, partes involucradas, distribución por hitos y panel de firma" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.5.6.** Vista de contrato y aceptación de las condiciones mostradas en la aplicación. Seleccionar la imagen permite ampliarla.
 
 
 #### Vista 7: Panel de Bóveda de Custodia (*Escrow Vault*)
-Esta vista financiera gestiona la retención y liberación progresiva de los fondos del contrato bajo el esquema de custodia (*Escrow*). Permite a ambas partes visualizar el balance total depositado, el monto retenido y el capital liberado a medida que se aprueban los hitos de trabajo programados.
+La bóveda presenta los montos de demostración asociados al contrato y una línea de tiempo con cuatro hitos. La captura permite identificar las partes, la parcela vinculada y el progreso de liberación simulado en el entorno del Sprint 2.
 
 <p align="center">
-  <img src="assets/chapter-05/vista07.png" alt="Pantalla de Login" width="850" />
+  <a href="assets/chapter-05/vista07.png">
+    <img src="assets/chapter-05/vista07.png" alt="Bóveda Escrow de demostración con contrato activo y línea de tiempo de los cuatro hitos" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.5.7.** Seguimiento de montos de demostración y avance de hitos en la bóveda. Seleccionar la imagen permite ampliarla.
 
 
 
 #### Vista 8: Panel de Control de Evidencias (*Agricultor*)
-Corresponde al tablero desde el cual el agricultor administra los entregables correspondientes a los cuatro hitos del contrato. La pantalla muestra el estado de cada etapa (Pendiente, En Revisión o Aprobado) y habilita los botones para adjuntar comprobantes fotográficos en el hito que se encuentre activo.
+La captura muestra el formulario de carga de evidencias para una parcela: selección del hito habilitado, zona para adjuntar archivos y campo de descripción u observaciones. Los hitos posteriores aparecen bloqueados en la vista conservada.
 
 <p align="center">
-  <img src="assets/chapter-05/vista08.png" alt="Pantalla de Login" width="850" />
+  <a href="assets/chapter-05/vista08.png">
+    <img src="assets/chapter-05/vista08.png" alt="Formulario de evidencias del agricultor con selector de hito, carga de archivos y observaciones" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.5.8.** Carga de evidencias para el hito habilitado de una parcela. Seleccionar la imagen permite ampliarla.
 
 
 
@@ -3481,15 +3483,15 @@ En este Sprint se completó la especificación, documentación y despliegue del 
 ###  Entornos de Servicio
 
 * **URL Base Desplegada (Producción/Staging):**  
-  <a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1" style="text-decoration: none;">https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1</a>
+  <a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1">https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1</a>
 
 * **URL Base Local (Entorno de Desarrollo):**  
-  <a href="http://localhost:3000/api/v1" style="text-decoration: none;">http://localhost:3000/api/v1</a>
+  <a href="http://localhost:3000/api/v1">http://localhost:3000/api/v1</a>
 
 
 ### 2. Repositorio y Commits de Documentación
 
-* **Repositorio de Web Services (GitHub):**  <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock" style="text-decoration: none;">Repositorio Web Mock API</a>
+* **Repositorio de Web Services (GitHub):**  <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock">Repositorio Web Mock API</a>
 
 ###  Commits Relacionados con el Contrato de Servicios
 | Commit Hash | Tipo / Mensaje de Commit | Descripción / Alcance |
@@ -3502,7 +3504,7 @@ En este Sprint se completó la especificación, documentación y despliegue del 
 
 ### 3. Matriz de Endpoints del Alcance del Sprint
 
-> **Ruta Base (BASE):** <a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1" style="text-decoration: none;">https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1</a>
+> **Ruta Base (BASE):** <a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1">https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1</a>
 
 | Endpoint | Verbo HTTP | Bounded Context | Descripción de Acción | URL Documentada / Desplegada |
 | :---: | :---: | :---: | :---: | :---: |
@@ -3551,14 +3553,14 @@ Este documento detalla el procedimiento técnico, las configuraciones y las evid
       <td style="text-align: center;">Node.js (json-server)</td>
       <td style="text-align: center;">Azure App Service</td>
       <td style="text-align: center;">allpatek-platform-mock</td>
-      <td style="text-align: center;"><a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/" target="_blank" style="text-decoration: none;">Ver API</a></td>
+      <td style="text-align: center;"><a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/" target="_blank">Ver API</a></td>
     </tr>
     <tr>
       <td style="text-align: center;"><strong>Frontend</strong></td>
       <td style="text-align: center;">Angular 22</td>
       <td style="text-align: center;">Netlify</td>
       <td style="text-align: center;">allpatek-webapp</td>
-      <td style="text-align: center;"><a href="https://terranova-allpatek.netlify.app/" target="_blank" style="text-decoration: none;">Ver Web App</a></td>
+      <td style="text-align: center;"><a href="https://terranova-allpatek.netlify.app/" target="_blank">Ver Web App</a></td>
     </tr>
   </tbody>
 </table>
@@ -3579,20 +3581,28 @@ Se configuró y creó una instancia de **Azure Web App** optimizada para ejecuta
 
 
 <p align="center">
-  <img src="assets/chapter-05/despliegueApi01.png" alt="Analíticos de Colaboración e Insights de GitHub - Sprint 1" width="850" />
+  <a href="assets/chapter-05/despliegueApi02.png">
+    <img src="assets/chapter-05/despliegueApi02.png" alt="Azure Portal con el aprovisionamiento de la Fake API en curso" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.7.1.** Aprovisionamiento de los recursos de Azure para la Fake API. Seleccionar la imagen permite ampliarla.
 
 
 ### Paso 2: Confirmación de Infraestructura Activa
 Azure completó exitosamente el aprovisionamiento de los recursos cloud. El endpoint base quedó activo y listo para recibir publicaciones de código.
 
-* **Endpoint Base API:** <a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1" style="text-decoration: none;">https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1</a>
+* **Endpoint Base API:** <a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1">https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/api/v1</a>
 * **Estado de Infraestructura:** OK / Se completó la implementación
 
 
 <p align="center">
-  <img src="assets/chapter-05/despliegueApi02.png" alt="Analíticos de Colaboración e Insights de GitHub - Sprint 1" width="850" />
+  <a href="assets/chapter-05/despliegueApi01.png">
+    <img src="assets/chapter-05/despliegueApi01.png" alt="Azure Portal con la implementación de recursos completada" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.7.2.** Confirmación de la implementación de recursos en Azure. Seleccionar la imagen permite ampliarla.
 
 ### Paso 3: Pipeline de CI/CD con GitHub Actions
 Se automatizó el flujo de integración y despliegue continuo (CI/CD) para la API desde GitHub.
@@ -3607,8 +3617,12 @@ Se automatizó el flujo de integración y despliegue continuo (CI/CD) para la AP
 
 
 <p align="center">
-  <img src="assets/chapter-05/despliegueApi03.png" alt="Analíticos de Colaboración e Insights de GitHub - Sprint 1" width="850" />
+  <a href="assets/chapter-05/despliegueApi03.png">
+    <img src="assets/chapter-05/despliegueApi03.png" alt="GitHub Actions con los trabajos build y deploy de la Fake API finalizados" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.7.3.** Pipeline de publicación de allpatek-platform-mock en GitHub Actions. Seleccionar la imagen permite ampliarla.
 
 
 ## 2. Despliegue del Frontend Angular en Netlify (terranova-allpatek)
@@ -3622,8 +3636,12 @@ Se conectó la plataforma de hosting Netlify con la organización de GitHub del 
 
 
 <p align="center">
-  <img src="assets/chapter-05/desplieguefront01.png" alt="Vinculación de repositorio allpatek-webapp en Netlify" width="850" />
+  <a href="assets/chapter-05/desplieguefront01.png">
+    <img src="assets/chapter-05/desplieguefront01.png" alt="Selección del repositorio allpatek-webapp en Netlify" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.7.4.** Vinculación del repositorio del frontend con Netlify. Seleccionar la imagen permite ampliarla.
 
 
 
@@ -3640,8 +3658,12 @@ Se definieron los parámetros técnicos requeridos por Angular 22 para su compil
 
 
 <p align="center">
-  <img src="assets/chapter-05/desplieguefront02.png" alt="Configuración de parámetros de build en Netlify" width="850" />
+  <a href="assets/chapter-05/desplieguefront02.png">
+    <img src="assets/chapter-05/desplieguefront02.png" alt="Configuración de rama, comando de build y directorio de publicación del frontend en Netlify" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.7.5.** Parámetros de compilación y publicación del frontend. Seleccionar la imagen permite ampliarla.
 
 
 
@@ -3653,21 +3675,29 @@ Netlify procesó el pipeline de construcción de Angular y publicó el cliente w
 
 
 <p align="center">
-  <img src="assets/chapter-05/desplieguefront03.png" alt="Confirmación de sitio publicado en Netlify Dashboard" width="850" />
+  <a href="assets/chapter-05/desplieguefront03.png">
+    <img src="assets/chapter-05/desplieguefront03.png" alt="Panel de Netlify con el frontend ALLPATEK publicado" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.7.6.** Estado de publicación del sitio en Netlify. Seleccionar la imagen permite ampliarla.
 
 
 
 ### Paso 4: Verificación del Frontend desplegado en Producción
 Se realizó la comprobación final de acceso en vivo a la aplicación web, verificando la carga correcta de la interfaz Angular comunicándose con el entorno de backend.
 
-* **URL de Producción:** <a href="https://terranova-allpatek.netlify.app" style="text-decoration: none;">Ver App Web</a>
+* **URL de Producción:** <a href="https://terranova-allpatek.netlify.app">Ver App Web</a>
 * **Resultado:** Carga interactiva correcta en navegador sin errores de renderizado.
 
 
 <p align="center">
-  <img src="assets/chapter-05/desplieguefront04.png" alt="Vista del cliente Frontend Angular desplegado y en ejecución" width="850" />
+  <a href="assets/chapter-05/desplieguefront04.png">
+    <img src="assets/chapter-05/desplieguefront04.png" alt="Aplicación Angular ALLPATEK abierta desde su dirección de Netlify" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.2.7.7.** Acceso a la interfaz web desplegada. Seleccionar la imagen permite ampliarla.
 
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
@@ -3697,9 +3727,13 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
 5. Pruebas de ejecución sobre Netlify + Azure; n8n se usó para avisos de contrato, evidencia y pago, sin sustituir el contrato REST del mock.
 
 
-<div align="center">
-  <img src="assets/chapter-05/sprint02.png" alt="Impact Mapping" width="850">
-</div>
+<p align="center">
+  <a href="assets/chapter-05/sprint02.png">
+    <img src="assets/chapter-05/sprint02.png" alt="Captura histórica de GitHub Contributors de allpatek-webapp con los cinco integrantes del equipo" width="900" />
+  </a>
+</p>
+
+* **Figura 5.2.2.8.1.** Contribuciones del repositorio allpatek-webapp en el intervalo visible de la captura original. Se utiliza el PNG de mayor resolución disponible. Los commits y sus fechas se detallan en [5.2.2.4](#5224-development-evidence-for-sprint-review); [GitHub Contributors](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp/graphs/contributors) permite consultar el historial del repositorio.
 
 
 
@@ -3748,7 +3782,7 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
   </tr>
   <tr>
     <td colspan="5">Sprint 3 Goal</td>
-    <td colspan="8"><strong>Our focus is on</strong> closing the TB1 review observations, documenting the core bounded-context services with OpenAPI, and validating the web application with farmers and urban merchants.<br><br><strong>We believe it delivers</strong> a consistent domain model, balanced team contribution, and evidence that both target segments can complete the parcel, contract, escrow and climate flows with confidence.<br><br><strong>This will be confirmed when</strong> GitHub releases follow Semantic Versioning 2.0.0, Sprint 2 tasks are marked Done, class diagrams use related value objects with no primitive types or isolated classes, Student Outcome lists actions for every member in each delivery, the exposition videos are published, and validation interviews with both segments are recorded.</td>
+    <td colspan="8">Nuestro enfoque está en consolidar las operaciones de parcelas, contratos, evidencias y custodia de pagos, validando su uso con usuarios reales. Creemos que esto aporta confianza comercial y certeza de utilidad a agricultores familiares y comerciantes urbanos. Esto se confirmará cuando al menos el 80 % de los participantes en las pruebas de validación completen los flujos principales sin asistencia.</td>
   </tr>
   <tr>
     <td colspan="5">Sprint 3 Velocity</td>
@@ -3756,75 +3790,77 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
   </tr>
   <tr>
     <td colspan="5">Sum of Story Points</td>
-    <td colspan="8">20 Story Points</td>
+    <td colspan="8">25 Story Points documentados + US05 pendiente de estimar</td>
   </tr>
 </table>
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
+La matriz relaciona a cada integrante con el bounded context que lidera en este Sprint. **L** identifica el liderazgo registrado; una celda vacía indica que no se consigna una asignación para ese aspecto. Las responsabilidades se detallan en el Sprint Backlog y en Team Collaboration Insights de esta misma iteración.
+
 <table>
   <thead>
     <tr style="background-color: #f2f2f2;">
-      <th style="border: 1px solid #dddddd; padding: 10px;">Team Member</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">agreements-management</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">alerts-management</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">escrow-payments</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">parcel-management</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">tracking-evidence</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">shared</th>
+      <th>Team Member</th>
+      <th>GitHub Username</th>
+      <th>agreements-management</th>
+      <th>alerts-management</th>
+      <th>escrow-payments</th>
+      <th>parcel-management</th>
+      <th>tracking-evidence</th>
+      <th>shared</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Alexander1Alexander2</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Atauje Barreto, Alexander Sebastián</td>
+      <td>Alexander1Alexander2</td>
+      <td></td>
+      <td>L</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">MiguelAngel0107</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Egocheaga Suyo, Miguel Angel</td>
+      <td>MiguelAngel0107</td>
+      <td></td>
+      <td></td>
+      <td>L</td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">melandree8</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
+      <td>Orellana Rodríguez, Mel Andree</td>
+      <td>melandree8</td>
+      <td>L</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>L</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">AbigailRV</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Raymundo Villarroel, Abigail Nadhim</td>
+      <td>AbigailRV</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>L</td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Macaxprogram29</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">X</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Vera Solsol, Nayely Macarena</td>
+      <td>Macaxprogram29</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>L</td>
+      <td></td>
     </tr>
   </tbody>
 </table>
@@ -3834,199 +3870,238 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
 El objetivo principal del **Sprint 3** es publicar la **primera versión de los Web Services** internos en allpatek-platform (Java / Spring Boot / MySQL). El alcance de este Sprint Backlog es solo el backend: endpoints REST y  persistencia JPA.
 
 
-<div align="center">
+**Historias cubiertas por las tareas del Sprint**
 
-| Story Id | Story Title  | Story Points  |
-| :---: | :---: | :---: |
-| **US06** | Publicación y geolocalización de lote agrícola | 3 |
-| **US08** | Aceptación de propuesta y firma de contrato digital Escrow | 3 |
-| **US16** | Registro de perfil corporativo y validación fiscal | 3 |
-| **US03** | Aprobación de hito y orden de liberación de fondos | 5 |
-| **US04** | Registro y carga de evidencias fotográficas por hito | 3 |
-| **US14** | Revisión y observación técnica de evidencias de hito | 3 |
-| **Total** | | **20** |
+| Story ID | Story Title | Story Points | Tareas del informe |
+| :---: | :--- | :---: | :--- |
+| US06 | Publicación y geolocalización de lote agrícola | 3 | T001, T002, T003, T004, T005, T032, T033, T034 |
+| US16 | Registro de perfil corporativo y validación fiscal | 3 | T006, T007, T008, T009 |
+| US08 | Aceptación de propuesta y firma de contrato digital Escrow | 3 | T010, T011, T012, T013 |
+| US03 | Aprobación de hito y orden de liberación de fondos | 5 | T014, T015, T016, T017, T018 |
+| US09 | Depósito de fondos iniciales en custodia | 5 | T019, T020, T021 |
+| US04 | Registro y carga de evidencias fotográficas por hito | 3 | T022, T023, T024 |
+| US14 | Revisión y observación técnica de evidencias de hito | 3 | T025, T026, T027 |
+| US05 | Consulta de lecturas y alertas climáticas por parcela | Pendiente de registrar | T028, T029, T030, T031 |
+| **Total documentado** | **8 historias** | **25 SP + US05 pendiente** | **34 tareas** |
 
-</div>
+Los puntos se toman del Product Backlog (3.3). US05 aparece en las tareas de alertas climáticas, pero no tiene una estimación registrada en ese Product Backlog; se mantiene pendiente para evitar asignar puntos sin evidencia. Las horas de las tareas se presentan por separado.
 
 #### Tablero de Control del Sprint 3 (Sprint Board)
 
 <p align="center">
-  <img src="assets/chapter-05/trello-sprint-03.png" alt="Tablero del Sprint 3 en Trello - ALLPATEK" width="850" />
+  <a href="assets/chapter-05/trello-sprint-03.png">
+    <img src="assets/chapter-05/trello-sprint-03.png" alt="Tablero Allpatek-Sprint-03 en Trello, con tarjetas en Task, To-Do, In Progress y Done" width="900" />
+  </a>
 </p>
 
-* **Figura 5.2.3.3.1.** Captura del tablero del Sprint 3 en la herramienta de control, con el estado de las tareas.
-* **URL pública del Board:** <a href="https://trello.com/invite/b/6af3adfe4e9931bf475e1cc0/ATTIa72fe0d2bbda469b2e799bd8388d45fc57634FE6/allpatek-sprint-03" style="text-decoration: none;">Tablero Trello TerraNova</a>
+* **Figura 5.2.3.3.1.** Captura histórica del tablero Allpatek-Sprint-03 en Trello. Muestra las tareas y sus estados al momento de la captura; seleccionar la imagen permite ampliarla.
+* **URL del Board del Sprint 3:** <a href="https://trello.com/b/PffylQcc/allpatek-sprint-03">Ver tablero Trello - ALLPATEK Sprint 3</a>
+
+**Distribución de tareas y esfuerzo estimado**
+
+| Integrante | Tareas | Estimación total (horas) |
+| :--- | :---: | :---: |
+| Alexander Sebastián | 4 | 18 |
+| Miguel Angel | 8 | 34 |
+| Mel Andree | 10 | 45 |
+| Abigail Nadhim | 6 | 27 |
+| Nayely Macarena | 6 | 27 |
+| **Total** | **34** | **151** |
+
+Estos valores se calculan a partir de las tareas detalladas a continuación. Las horas corresponden a estimaciones de trabajo; no representan horas efectivamente consumidas ni equivalen a Story Points.
 
 ### Tabla de Control de Estado del Sprint Backlog 3
 
+Los identificadores T001, T002, etc. son locales a este Sprint. Los estados de seguimiento son **To-Do** (pendiente), **In-Process** (en ejecución), **To-Review** (en revisión) y **Done** (finalizada). La tabla conserva el estado documentado del informe y las capturas conservan el estado histórico visible en Trello; el enlace al tablero permite consultar su evolución.
 
-| Sprint | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status |
-| :--- | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
-| **Sprint 3** | **US06** | Publicación y geolocalización de lote agrícola | **T001** | Listar parcelas del catálogo | Implementar el listado de parcelas en Spring Boot y responder 200 OK con colección JSON, incluso vacía. | 6 | Raymundo Villarroel, Abigail Nadhim | Done |
-| **Sprint 3** | **US06** | Publicación y geolocalización de lote agrícola | **T002** | Registrar, editar y eliminar parcelas | Exponer alta, edición y borrado de parcela con características y ubicación (201, 409, 200, 204, 404). | 6 | Raymundo Villarroel, Abigail Nadhim | Done |
-| **Sprint 3** | **US06** | Publicación y geolocalización de lote agrícola | **T003** | Documentar el catálogo de parcelas | Publicar el tag parcels en Swagger UI con verbos, parámetros y ejemplos de respuesta 200. | 4 | Raymundo Villarroel, Abigail Nadhim | Done |
-| **Sprint 3** | **US08** | Aceptación de propuesta y firma de contrato digital Escrow | **T004** | Registrar la firma digital del contrato | Implementar GET/POST /api/v1/agreements y PUT /agreements/{id} para registrar la aceptación del productor y del comerciante. | 6 | Orellana Rodríguez, Mel Andree | Done |
-| **Sprint 3** | **US08** | Aceptación de propuesta y firma de contrato digital Escrow | **T005** | Documentar el API de acuerdos | Publicar el tag agreements en Swagger UI con el cuerpo del acuerdo y las respuestas 200/201. | 4 | Orellana Rodríguez, Mel Andree | Done |
-| **Sprint 3** | **US16** | Registro de perfil corporativo y validación fiscal | **T006** | Consultar y actualizar el perfil corporativo | Implementar consulta y actualización de perfil con datos de empresa (CompanyDetails) y correo (EmailAddress), más /health y /v3/api-docs. | 5 | Orellana Rodríguez, Mel Andree | Done |
-| **Sprint 3** | **US03** | Aprobación de hito y orden de liberación de fondos | **T007** | Consultar el estado de custodia Escrow | Implementar GET/POST /api/v1/wallets y PUT /wallets/{id} para consultar el monto de demostración retenido y la tarjeta enmascarada. | 6 | Egocheaga Suyo, Miguel Angel | Done |
-| **Sprint 3** | **US03** | Aprobación de hito y orden de liberación de fondos | **T008** | Liberar fondos al aprobar un hito | Actualizar el estado de custodia en /api/v1/wallets/{id} cuando se aprueba un hito, registrando el monto de demostración asociado a la liberación. | 5 | Egocheaga Suyo, Miguel Angel | Done |
-| **Sprint 3** | **US03** | Aprobación de hito y orden de liberación de fondos | **T009** | Documentar el API de custodia | Publicar el tag escrow en Swagger UI con consulta de saldo, alta de wallet y actualización por id. | 4 | Egocheaga Suyo, Miguel Angel | Done |
-| **Sprint 3** | **US04** | Registro y carga de evidencias fotográficas por hito | **T010** | Registrar evidencias fotográficas por hito | Implementar el alta de evidencia de hito (notas, archivo, estado inicial review). | 6 | Vera Solsol, Nayely Macarena | Done |
-| **Sprint 3** | **US14** | Revisión y observación técnica de evidencias de hito | **T011** | Revisar el estado de las evidencias | Permitir al comerciante actualizar el estado a verified o accepted y conservar el registro asociado a la parcela. | 5 | Vera Solsol, Nayely Macarena | Done |
-| **Sprint 3** | **US14** | Revisión y observación técnica de evidencias de hito | **T012** | Documentar el API de evidencias | Publicar el tag tracking en Swagger UI con GET/POST de evidencias y PUT por id, incluidos los estados de revisión. | 4 | Vera Solsol, Nayely Macarena | Done |
-| **Sprint 3** | **US05** | Recepción de alertas climáticas de riesgo | **T013** | Emitir alertas climáticas de las parcelas | Calcular lecturas climáticas a partir de las coordenadas de las parcelas contratadas y de Open-Meteo, con filtro opcional ownerId. | 6 | Atauje Barreto, Alexander Sebastián | Done |
-| **Sprint 3** | **US05** | Recepción de alertas climáticas de riesgo | **T014** | Documentar el API de alertas | Publicar el tag alerts en Swagger UI con el query ownerId y el ejemplo de respuesta de lecturas. | 4 | Atauje Barreto, Alexander Sebastián | Done |
-| **Sprint 3** | **US06** | Publicación y geolocalización de lote agrícola | **T015** | Publicar la primera versión de Web Services | Configurar perfil prod, variables de MySQL y comprobar /health, Swagger y una operación persistente de parcelas en el entorno de operación. | 6 | Raymundo Villarroel, Abigail Nadhim | Done |
+| Sprint | User Story ID | Task ID | Task Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :---: | :--- | :--- |
+| Sprint 3 | US06 | T001 | Value objects y agregado Parcel | Modelar nombre, área, ubicación, suelo, costo, cultivos y media sin tipos primitivos sueltos. | 5 | Abigail Nadhim | Done |
+| Sprint 3 | US06 | T002 | Persistencia JPA del catálogo de parcelas | Mapear entidad, embeddables y repositorio Spring Data sobre la tabla parcels. | 5 | Abigail Nadhim | Done |
+| Sprint 3 | US06 | T003 | Servicios de aplicación de parcelas | Implementar comandos de alta/edición/borrado y query de listado con Result. | 4 | Abigail Nadhim | Done |
+| Sprint 3 | US06 | T004 | API REST /api/v1/parcels | Exponer GET, POST, PUT y DELETE (200, 201, 204, 404, 409). | 5 | Abigail Nadhim | Done |
+| Sprint 3 | US06 | T005 | Documentar el tag parcels en Swagger | Publicar verbos, parámetros y ejemplos de respuesta en springdoc. | 4 | Abigail Nadhim | Done |
+| Sprint 3 | US16 | T006 | Value objects de perfil corporativo | Definir EmailAddress, CompanyDetails y el agregado Profile. | 4 | Mel Andree | Done |
+| Sprint 3 | US16 | T007 | Persistencia JPA de profiles | Implementar entidad, converters y adaptador del repositorio. | 5 | Mel Andree | Done |
+| Sprint 3 | US16 | T008 | API REST de perfiles y kernel HTTP | Exponer GET/PUT /profiles/{id}, /health, CORS e i18n Accept-Language. | 5 | Mel Andree | Done |
+| Sprint 3 | US16 | T009 | OpenAPI / Swagger del kernel | Cablear springdoc y comprobar /v3/api-docs en local. | 4 | Mel Andree | Done |
+| Sprint 3 | US08 | T010 | Agregado Agreement y firmas embebidas | Modelar contrato, ids y banderas farmerSigned / merchantSigned. | 4 | Mel Andree | Done |
+| Sprint 3 | US08 | T011 | Persistencia JPA de agreements | Mapear entidad, assembler y repositorio Spring Data. | 5 | Mel Andree | Done |
+| Sprint 3 | US08 | T012 | API REST /api/v1/agreements | Exponer GET/POST y PUT /{id} para registrar la aceptación de ambas partes. | 5 | Mel Andree | Done |
+| Sprint 3 | US08 | T013 | Documentar el tag agreements en Swagger | Publicar cuerpo del acuerdo y respuestas 200/201. | 4 | Mel Andree | Done |
+| Sprint 3 | US03 | T014 | Agregado Wallet y MoneyCents | Modelar identificador, saldo en céntimos y tarjeta de demostración. | 4 | Miguel Angel | Done |
+| Sprint 3 | US03 | T015 | Persistencia JPA de wallets | Mapear wallet, embeddable de tarjeta y adaptador JPA. | 5 | Miguel Angel | Done |
+| Sprint 3 | US03 | T016 | Consulta y actualización de custodia | Exponer GET/POST /wallets y PUT /{id} con monto retenido y tarjeta enmascarada. | 5 | Miguel Angel | Done |
+| Sprint 3 | US03 | T017 | Liberación de fondos al aprobar hito | Actualizar el estado de custodia al aprobar un hito y registrar el monto de demostración. | 4 | Miguel Angel | Done |
+| Sprint 3 | US03 | T018 | Documentar el tag escrow en Swagger | Publicar alta, consulta de saldo y actualización por id. | 4 | Miguel Angel | Done |
+| Sprint 3 | US09 | T019 | Value object PaymentCard | Modelar titular, last4, expiración y marca, sin guardar el PAN completo. | 4 | Miguel Angel | Done |
+| Sprint 3 | US09 | T020 | Alta de wallet con tarjeta de demostración | Implementar POST /wallets para el depósito inicial simulado. | 4 | Miguel Angel | Done |
+| Sprint 3 | US09 | T021 | Enmascaramiento y validación de tarjeta | Devolver last4/brand en el recurso y rechazar un body incompleto. | 4 | Miguel Angel | Done |
+| Sprint 3 | US04 | T022 | Agregado Evidence y archivo embebido | Modelar hito (1–4), notas, fileName, imagen y estado inicial review. | 4 | Nayely Macarena | Done |
+| Sprint 3 | US04 | T023 | Persistencia JPA de evidencias | Mapear entidad, embeddable de archivo y repositorio Spring Data. | 5 | Nayely Macarena | Done |
+| Sprint 3 | US04 | T024 | API REST POST /api/v1/evidence | Registrar la evidencia fotográfica del agricultor (201, estado review). | 5 | Nayely Macarena | Done |
+| Sprint 3 | US14 | T025 | Transiciones de revisión técnica | Permitir PUT a verified / accepted y conservar el vínculo con la parcela. | 5 | Nayely Macarena | Done |
+| Sprint 3 | US14 | T026 | Rechazo de cambio en hito cerrado | No actualizar una evidencia si el desembolso asociado ya se ejecutó. | 4 | Nayely Macarena | Done |
+| Sprint 3 | US14 | T027 | Documentar el tag tracking en Swagger | Publicar GET/POST de evidencias y PUT por id con los estados de revisión. | 4 | Nayely Macarena | Done |
+| Sprint 3 | US05 | T028 | Modelo de lecturas y avisos climáticos | Definir ClimateReading, ClimateWarning y tonos de severidad (helada, inundación, viento). | 4 | Alexander Sebastián | Done |
+| Sprint 3 | US05 | T029 | Cliente Open-Meteo y ACL de parcelas | Obtener coordenadas vía ParcelsContextFacade y consultar el forecast. | 5 | Alexander Sebastián | Done |
+| Sprint 3 | US05 | T030 | API REST GET /api/v1/alerts | Devolver lecturas y avisos con filtro opcional ownerId. | 5 | Alexander Sebastián | Done |
+| Sprint 3 | US05 | T031 | Documentar el tag alerts en Swagger | Publicar query ownerId y ejemplo de respuesta de lecturas. | 4 | Alexander Sebastián | Done |
+| Sprint 3 | US06 | T032 | Dockerfile y perfil de producción | Contenerizar Spring Boot, puerto 8080 y variables DB_URL / DB_USERNAME / DB_PASSWORD. | 4 | Abigail Nadhim | Done |
+| Sprint 3 | US06 | T033 | MySQL 8.4 en Aiven | Aprovisionar la base, SSL y comprobar tablas parcels, profiles, agreements, wallets, evidence. | 4 | Mel Andree | Done |
+| Sprint 3 | US06 | T034 | Despliegue en Render y verificación | Publicar el Web Service, inyectar env vars y comprobar /health, Swagger y POST de parcelas. | 5 | Mel Andree | Done |
 
 
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
+Los identificadores enlazan a los commits del repositorio correspondiente. Los mensajes y las fechas de autor se contrastaron con GitHub; las fechas se expresan en hora de Lima (UTC-05:00). La descripción de cada cambio se conserva como explicación del informe.
+
 En el Sprint 3 se implementó la primera versión de los Web Services en allpatek-platform (Java / Spring Boot). Cada bounded context del Sprint Backlog 3 tiene su rama feature/*; abajo se listan los commits de implementación de ese repositorio.
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 | --- | --- | --- | --- | --- | --- |
-| allpatek-platform | feature/shared | aa7aa48 | feat: UpdateProfileCommand | UpdateProfileCommand. | 2026-10-28 |
-| allpatek-platform | feature/shared | 74eb16a | feat: GetAllProfilesQuery | GetAllProfilesQuery. | 2026-10-29 |
-| allpatek-platform | feature/shared | b42ab18 | feat: GetProfileByIdQuery | GetProfileByIdQuery. | 2026-10-29 |
-| allpatek-platform | feature/shared | a2cbcbc | feat: ProfileRepository in shared | ProfileRepository in shared. | 2026-10-29 |
-| allpatek-platform | feature/shared | acc72d9 | feat: ProfileCommandService in shared | ProfileCommandService in shared. | 2026-10-29 |
-| allpatek-platform | feature/shared | 83fb558 | feat: ProfileQueryService in shared | ProfileQueryService in shared. | 2026-10-29 |
-| allpatek-platform | feature/shared | e324ebf | feat: auditable persistence superclass | Auditable persistence superclass. | 2026-10-29 |
-| allpatek-platform | feature/shared | 7147441 | feat: string-id persistence superclass | String-id persistence superclass. | 2026-10-29 |
-| allpatek-platform | feature/shared | 1e68e0a | feat: snake_case plural table names | Snake_case plural table names. | 2026-10-29 |
-| allpatek-platform | feature/shared | 72e3e24 | refactor: JPA converter for email | JPA converter for email. | 2026-10-29 |
-| allpatek-platform | feature/shared | 8612ca9 | refactor: JPA converter for string lists | JPA converter for string lists. | 2026-10-29 |
-| allpatek-platform | feature/shared | 9c88bb7 | feat: company details embeddable | Company details embeddable. | 2026-10-29 |
-| allpatek-platform | feature/shared | 586a4bd | feat: Profile persistence entity | Profile persistence entity. | 2026-10-29 |
-| allpatek-platform | feature/shared | 801d0fe | feat: Profile Spring Data repository | Profile Spring Data repository. | 2026-10-29 |
-| allpatek-platform | feature/shared | 6683b1f | feat: Profile persistence assembler | Profile persistence assembler. | 2026-10-29 |
-| allpatek-platform | feature/shared | 082ae3a | feat: ProfileRepository JPA adapter | ProfileRepository JPA adapter. | 2026-10-30 |
-| allpatek-platform | feature/shared | 4fd4c19 | feat: ProfileCommandService implementation | ProfileCommandService implementation. | 2026-10-30 |
-| allpatek-platform | feature/shared | dacf19e | feat: ProfileQueryService implementation | ProfileQueryService implementation. | 2026-10-30 |
-| allpatek-platform | feature/shared | c8e35f6 | feat: enable virtual threads | Enable virtual threads. | 2026-10-30 |
-| allpatek-platform | feature/shared | 01e6466 | feat: wire OpenAPI / Swagger | Wire OpenAPI / Swagger. | 2026-10-30 |
-| allpatek-platform | feature/shared | 6b8574c | feat: resolve locale from Accept-Language | Resolve locale from Accept-Language. | 2026-10-30 |
-| allpatek-platform | feature/shared | dfec650 | feat: CORS for the Angular app | CORS for the Angular app. | 2026-10-30 |
-| allpatek-platform | feature/shared | 198210b | feat: ProblemDetail from ApplicationError | ProblemDetail from ApplicationError. | 2026-10-30 |
-| allpatek-platform | feature/shared | 396c4cc | feat: Result to ResponseEntity helper | Result to ResponseEntity helper. | 2026-10-30 |
-| allpatek-platform | feature/shared | 2756a6a | feat: ProfileResource | ProfileResource. | 2026-10-30 |
-| allpatek-platform | feature/shared | 2cfb417 | feat: UpdateProfileResource | UpdateProfileResource. | 2026-10-30 |
-| allpatek-platform | feature/shared | 5f721cd | feat: Profile REST assembler | Profile REST assembler. | 2026-10-30 |
-| allpatek-platform | feature/shared | bd5a52b | feat: RFC 9457 exception handler | RFC 9457 exception handler. | 2026-10-30 |
-| allpatek-platform | feature/shared | be73176 | feat: health check endpoint | Health check endpoint. | 2026-10-30 |
-| allpatek-platform | feature/shared | e7c2d8d | feat: profiles REST API | Profiles REST API. | 2026-10-30 |
-| allpatek-platform | feature/agreements-management | 2b80f17 | feat: leave contracts out of the first platform drop | Leave contracts out of the first platform drop. | 2026-11-08 |
-| allpatek-platform | feature/agreements-management | e66bc2a | feat: keep agreement ids off primitives | Keep agreement ids off primitives. | 2026-11-01 |
-| allpatek-platform | feature/agreements-management | 1c03658 | feat: stamp contracts with a created-at date | Stamp contracts with a created-at date. | 2026-11-01 |
-| allpatek-platform | feature/agreements-management | cb8609a | feat: hold the merchant display name on the contract | Hold the merchant display name on the contract. | 2026-11-01 |
-| allpatek-platform | feature/agreements-management | cbd9c0d | feat: split agreement reads into a query service | Split agreement reads into a query service. | 2026-11-02 |
-| allpatek-platform | feature/agreements-management | 2370391 | feat: store agreements in a JPA entity | Store agreements in a JPA entity. | 2026-11-02 |
-| allpatek-platform | feature/agreements-management | ddf1ccd | feat: embed farmer and merchant signatures | Embed farmer and merchant signatures. | 2026-11-02 |
-| allpatek-platform | feature/agreements-management | a7edfa1 | feat: talk to agreements through Spring Data | Talk to agreements through Spring Data. | 2026-11-02 |
-| allpatek-platform | feature/agreements-management | f21451c | feat: assemble agreements in and out of persistence | Assemble agreements in and out of persistence. | 2026-11-02 |
-| allpatek-platform | feature/agreements-management | b9655b8 | feat: adapt the agreement repository to JPA | Adapt the agreement repository to JPA. | 2026-11-02 |
-| allpatek-platform | feature/agreements-management | 4bb6c63 | feat: handle save-agreement in the application layer | Handle save-agreement in the application layer. | 2026-11-02 |
-| allpatek-platform | feature/agreements-management | 6b5f18b | feat: handle agreement listing in the application layer | Handle agreement listing in the application layer. | 2026-11-02 |
-| allpatek-platform | feature/agreements-management | 3987741 | feat: shape the agreement REST payload | Shape the agreement REST payload. | 2026-11-02 |
-| allpatek-platform | feature/agreements-management | 4786db7 | feat: turn agreements into REST resources | Turn agreements into REST resources. | 2026-11-02 |
-| allpatek-platform | feature/agreements-management | 596eb15 | feat: publish contracts at /api/v1/agreements | Publish contracts at /api/v1/agreements. | 2026-11-02 |
-| allpatek-platform | feature/alerts-management | 53b577d | feat: add frost flood and wind warning copy | Add descriptive warning messages for frost, flooding, and strong winds. | 2026-11-06 |
-| allpatek-platform | feature/alerts-management | 699f564 | feat: add the parcel name shown on climate warnings | Include the parcel name in climate warning details. | 2026-11-06 |
-| allpatek-platform | feature/alerts-management | d448a85 | feat: add warning severity tones for field alerts | Define severity indicators for agricultural climate warnings. | 2026-11-06 |
-| allpatek-platform | feature/alerts-management | 59cd7c4 | feat: add a snapshot of current climate metrics | Capture current weather metrics for parcel climate monitoring. | 2026-11-06 |
-| allpatek-platform | feature/alerts-management | a019141 | feat: register farmer climate alerts under /api/v1/alerts | Register the farmer climate alerts REST endpoint at /api/v1/alerts. | 2026-11-07 |
-| allpatek-platform | feature/alerts-management | b9c0e9e | feat: present climate readings as REST resources | Expose climate readings as REST resources. | 2026-11-07 |
-| allpatek-platform | feature/alerts-management | 757c2d1 | feat: present climate readings in the REST payload | Include climate readings in REST response payloads. | 2026-11-07 |
-| allpatek-platform | feature/alerts-management | b52ef1a | feat: present climate warnings in the REST payload | Include climate warnings in REST response payloads. | 2026-11-07 |
-| allpatek-platform | feature/alerts-management | a9cdb16 | feat: integrate Open-Meteo forecast client inside alerts infrastructure | Integrate the Open-Meteo forecast client into the alerts infrastructure. | 2026-11-07 |
-| allpatek-platform | feature/alerts-management | 6948408 | feat: load parcel weather through the parcels ACL | Retrieve parcel weather data through the parcels Anti-Corruption Layer. | 2026-11-07 |
-| allpatek-platform | feature/alerts-management | 4d49405 | feat: integrate the climate alerts query service | Connect the application query service for retrieving climate alerts. | 2026-11-07 |
-| allpatek-platform | feature/alerts-management | d88a1bb | feat: integrate a weather forecast outbound port | Define the outbound port for accessing weather forecasts. | 2026-11-07 |
-| allpatek-platform | feature/alerts-management | 2aeef3a | feat: add a query that loads alerts by parcel owner | Add an application query to retrieve climate alerts by parcel owner. | 2026-11-07 |
-| allpatek-platform | feature/alerts-management | 708379a | feat: add climate readings that derive field alerts | Model climate readings used to derive field-specific alerts. | 2026-11-07 |
-| allpatek-platform | feature/alerts-management | 12c49fc | feat: add a climate warning composed for one parcel | Model a climate warning associated with an individual parcel. | 2026-11-07 |
-| allpatek-platform | feature/alerts-management | a6ef627 | feat: register farmer climate alerts under /api/v1/alerts | Register the farmer climate alerts REST endpoint at /api/v1/alerts. | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | 057667b | feat: present climate readings as REST resources | Expose climate readings as REST resources. | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | cab03bb | feat: present climate readings in the REST payload | Include climate readings in REST response payloads. | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | 6fb481b | feat: present climate warnings in the REST payload | Include climate warnings in REST response payloads. | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | 01c2c5f | feat: integrate Open-Meteo forecast client inside alerts infrastructure | Integrate the Open-Meteo forecast client into the alerts infrastructure. | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | d0ad251 | feat: load parcel weather through the parcels ACL | Retrieve parcel weather data through the parcels Anti-Corruption Layer. | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | 9215c17 | feat: integrate the climate alerts query service | Connect the application query service for retrieving climate alerts. | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | 3ce544f | feat: integrate a weather forecast outbound port | Define the outbound port for accessing weather forecasts. | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | c8e2fc5 | feat: add a query that loads alerts by parcel owner | Add an application query to retrieve climate alerts by parcel owner. | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | 26aa3cc | feat: add climate readings that derive field alerts | Model climate readings used to derive field-specific alerts. | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | 6800fef | feat: add a climate warning composed for one parcel | Model a climate warning associated with an individual parcel. | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | 713a5e4 | feat: add frost flood and wind warning copy | Add descriptive warning messages for frost, flooding, and strong winds. | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | 1026635 | feat: add the parcel name shown on climate warnings | Include the parcel name in climate warning details. | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | b3d3a93 | feat: add warning severity tones for field alerts | Define severity indicators for agricultural climate warnings. | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | 9c24b49 | feat: add a snapshot of current climate metrics | Capture current weather metrics for parcel climate monitoring. | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | b080e51 | feat: add weather condition mapping from Open-Meteo codes | Map Open-Meteo weather codes to application weather conditions. | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | f38a7a8 | feat: add parcel coordinates for forecast lookup | Provide parcel coordinates for weather forecast requests. | 2026-11-08 |
-| allpatek-platform | feature/alerts-management | 9464d99 | feat: add a geo point used by parcel weather | Introduce a geographic point for parcel weather coordinates. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | d461d46 | feat: define parcel name helper | Add the ParcelName value object, which rejects blank names and trims the stored value. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | c3093ab | feat: define listing status for a parcel | Add the ParcelStatus enum (available, in_production, maintenance) with parsing from API strings and conversion back to the API format. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | 5a1829a | feat: define parcel area in hectares | Add the ParcelArea value object that stores the parcel area as a trimmed string. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | de22c0a | feat: define parcel location coordinates | Add the ParcelLocation value object that stores the parcel location as a trimmed string. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | fe4124d | feat: define soil type on the parcel | Add the SoilType value object that stores the parcel soil type as a trimmed string. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | 483e6db | feat: define campaign cost helpers | Add the CampaignCost value object that stores the campaign cost as a trimmed string. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | 374ce0c | feat: define campaign duration and start month | Add the CampaignSchedule value object with the campaign duration in months (never negative) and its start month. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | 9f551bb | feat: define a crop grown on the parcel | Add the CropName value object that represents a single crop grown on the parcel. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | abf94ff | feat: coordinate crops planted together | Add the Crops value object, an immutable list of CropName built from plain strings and convertible back to them. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | 8d6f87c | feat: define parcel image urls | Add the ParcelMedia value object with the main image URL and the image list, defaulting the list to the main image when empty. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | 843768f | feat: define the parcel entity | Add the Parcel aggregate root that groups the parcel value objects and its owner profile id, applying defaults for optional fields. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | 9028eec | feat: expose parcel creation as a command | Add the CreateParcelCommand record with the fields required to register a new parcel. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | 2b8799c | feat: expose parcel updates as a command | Add the UpdateParcelCommand record with the fields used to modify an existing parcel. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | 757e17e | feat: expose parcel deletion as a command | Add the DeleteParcelCommand record that identifies the parcel to remove by its id. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | c0f557d | feat: coordinate parcel catalog reads | Add the GetAllParcelsQuery record used to request the full parcel catalog. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | d92108f | feat: expose parcel persistence through a repository port | Add the ParcelRepository domain port with save, find by id, exists by id, find all and delete by id operations. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | ab78f21 | feat: coordinate parcel writes in the application layer | Add the ParcelCommandService interface that handles the create, update and delete parcel commands and returns Result values. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | efd6c18 | feat: coordinate parcel reads in the application layer | Add the ParcelQueryService interface that handles the GetAllParcelsQuery. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | e1bfed5 | feat: expose parcels as a JPA entity | Add the ParcelPersistenceEntity mapped to the parcels table, with embedded schedule and media and crops stored through a string list converter. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | 66d730f | feat: expose campaign schedule as a JPA embeddable | Add the CampaignSchedulePersistenceEmbeddable that maps the duration_months and start_month columns. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | f1f335a | feat: expose parcel media as a JPA embeddable | Add the ParcelMediaPersistenceEmbeddable that maps the image_url column and the image list. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | a4ee837 | feat: expose parcel persistence through Spring Data | Add the ParcelPersistenceRepository Spring Data JPA interface for parcel persistence entities. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | 0beb21a | feat: coordinate parcel mapping to persistence | Add the ParcelPersistenceAssembler that converts parcels between the domain model and the JPA persistence entity. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | 7afa010 | feat: expose parcel persistence through the JPA adapter | Add the ParcelRepositoryImpl adapter that implements the ParcelRepository port on top of Spring Data JPA. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | 8dac756 | feat: coordinate create update and delete parcel commands | Implement ParcelCommandService, validating the id, rejecting duplicate parcels and returning not found errors on update or delete. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | caf7beb | feat: coordinate parcel catalog queries | Implement ParcelQueryService with a read-only transaction that returns all stored parcels. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | 259177b | feat: expose parcel location to other contexts | Add the ParcelLocation ACL record with the parcel id, name and location shared with other bounded contexts. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | bcd844f | feat: expose a parcels ACL for climate lookups | Add the ParcelsContextFacade interface that returns parcel locations by owner for climate lookups. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | a3d4a47 | feat: coordinate the parcels ACL implementation | Implement ParcelsContextFacade by filtering stored parcels by owner and mapping them to ParcelLocation records. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | 0c0cf31 | feat: define the parcel REST payload | Add the ParcelResource REST payload with validation on the id, owner id, name and location fields. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | 016ea54 | feat: render parcels as REST resources | Add the ParcelResourceAssembler that maps parcels to REST resources and REST resources to create and update commands. | 2026-11-08 |
-| allpatek-platform | feature/parcel-management | 864d4f7 | feat: mount parcel routes at /api/v1/parcels | Add the ParcelsController with GET, POST, PUT and DELETE endpoints under /api/v1/parcels. | 2026-11-08 |
-| allpatek-platform | feature/escrow-payments | 962ac4f | feat: introduce wallet identifiers | Add the WalletId value object used to identify a demonstration vault. | 2026-11-07 |
-| allpatek-platform | feature/escrow-payments | 4380249 | feat: introduce money stored as cents | Add MoneyCents to store the opening balance in cents. | 2026-11-07 |
-| allpatek-platform | feature/escrow-payments | 728a77b | feat: introduce payment card details | Add PaymentCard with holder, last 4 digits, expiry and brand. | 2026-11-07 |
-| allpatek-platform | feature/escrow-payments | cdb81be | feat: introduce the wallet aggregate | Add the Wallet aggregate that groups the profile, the card and the opening balance. | 2026-11-07 |
-| allpatek-platform | feature/escrow-payments | b3e5e4b | feat: connect save-wallet writes | Add SaveWalletCommand for creating or updating a wallet. | 2026-11-07 |
-| allpatek-platform | feature/escrow-payments | 70ad0e8 | feat: connect wallet listing reads | Add GetAllWalletsQuery to list the stored wallets. | 2026-11-07 |
-| allpatek-platform | feature/escrow-payments | 4ebc991 | feat: connect the wallet repository port | Add the WalletRepository domain port. | 2026-11-07 |
-| allpatek-platform | feature/escrow-payments | e9a7760 | feat: implement wallet commands | Add WalletCommandService for save-wallet writes. | 2026-11-07 |
-| allpatek-platform | feature/escrow-payments | f418bd2 | feat: implement wallet queries | Add WalletQueryService for wallet listing reads. | 2026-11-07 |
-| allpatek-platform | feature/escrow-payments | bba6733 | feat: persist wallets with JPA | Add WalletPersistenceEntity mapped to the wallets table. | 2026-11-07 |
-| allpatek-platform | feature/escrow-payments | 73e5c00 | feat: persist card fields on the wallet | Add PaymentCardPersistenceEmbeddable for the card columns. | 2026-11-07 |
-| allpatek-platform | feature/escrow-payments | 303f589 | feat: persist wallets through Spring Data | Add the Spring Data JPA repository for wallets. | 2026-11-07 |
-| allpatek-platform | feature/escrow-payments | d3785af | feat: build wallet persistence mapping | Add WalletPersistenceAssembler between the domain model and JPA. | 2026-11-07 |
-| allpatek-platform | feature/escrow-payments | 938a52c | feat: build the JPA wallet adapter | Add WalletRepositoryImpl on top of Spring Data. | 2026-11-07 |
-| allpatek-platform | feature/escrow-payments | 46ffee3 | feat: implement command handling for wallets | Implement WalletCommandService with a transactional save. | 2026-11-07 |
-| allpatek-platform | feature/escrow-payments | 4f9bf28 | feat: implement query handling for wallets | Implement WalletQueryService with a read-only listing. | 2026-11-07 |
-| allpatek-platform | feature/escrow-payments | a1fd848 | feat: build the wallet REST resource | Add WalletResource as the REST payload. | 2026-11-07 |
-| allpatek-platform | feature/escrow-payments | ba1d7c3 | feat: build wallet resource mapping | Add WalletResourceAssembler to map wallets to REST resources. | 2026-11-07 |
-| allpatek-platform | feature/escrow-payments | e401018 | feat: register wallet routes | Add WalletsController with GET/POST /api/v1/wallets and PUT /wallets/{id}. | 2026-11-07 |
-| allpatek-platform | feature/tracking-evidence | d1fa5c3 | feat: attach evidence routes under | Register REST controller endpoints and request mappings for evidence | 2026-11-08 |
-| allpatek-platform | feature/tracking-evidence | 7976d83 | feat: ship evidence resource mapping | Map domain entities to API resource DTOs and responses| 2026-11-08 |
-| allpatek-platform | feature/tracking-evidence | 006b15c | feat: ship the evidence REST payload |Define JSON request schemas and payload validation rules  | 2026-11-08 |
-| allpatek-platform | feature/tracking-evidence | d8b4142 | feat: orchestrate evidence listing queries | Implement query handlers for listing and filtering evidence records | 2026-11-08 |
-| allpatek-platform | feature/tracking-evidence | 776e192 | feat: orchestrate save-evidence command handling | Add command handlers and transaction flow for saving evidence | 2026-11-08 |
-| allpatek-platform | feature/tracking-evidence | 97f5a77 | feat: persist evidence through the JPA adapter | Connect domain repository to Spring Data JPA implementation | 2026-11-08 |
-| allpatek-platform | feature/tracking-evidence | 985b519 | feat: persist evidence mapping in the assembler |Add entity-to-domain mapping logic in the persistence layer  | 2026-11-08 |
-| allpatek-platform | feature/tracking-evidence | f03df4a | feat: persist evidence through the plataform evidence API store |Expose platform storage interface for evidence persistence  | 2026-11-08 |
-| allpatek-platform | feature/tracking-evidence | 4cd80d3 | feat: persist evidence files as an embeddable | Define JPA @Embeddable class for storing file metadata | 2026-11-08 |
-| allpatek-platform | feature/tracking-evidence | 4dbb13d | feat: persist evidence with a JPA entity | Create base JPA entity model and table mapping for evidence | 2026-11-08 |
-| allpatek-platform | feature/tracking-evidence | 48380dc | feat: orchestrate evidence reads in the application layer | Define JPA @Embeddable class for storing file metadata | 2026-11-08 |
-| allpatek-platform | feature/tracking-evidence | 4ae606e | feat: feat: orchestrate evidence writes in the application layer | Create base JPA entity model and table mapping for evidence | 2026-11-08 |
+| allpatek-platform | feature/shared | [aa7aa48](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/aa7aa489bdea) | feat: UpdateProfileCommand | UpdateProfileCommand. | 2026-10-28 |
+| allpatek-platform | feature/shared | [74eb16a](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/74eb16a419e7) | feat: GetAllProfilesQuery | GetAllProfilesQuery. | 2026-10-29 |
+| allpatek-platform | feature/shared | [b42ab18](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/b42ab18c2723) | feat: GetProfileByIdQuery | GetProfileByIdQuery. | 2026-10-29 |
+| allpatek-platform | feature/shared | [a2cbcbc](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/a2cbcbcfdf09) | feat: ProfileRepository in shared | ProfileRepository in shared. | 2026-10-29 |
+| allpatek-platform | feature/shared | [acc72d9](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/acc72d94d75c) | feat: ProfileCommandService in shared | ProfileCommandService in shared. | 2026-10-29 |
+| allpatek-platform | feature/shared | [83fb558](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/83fb558161d2) | feat: ProfileQueryService in shared | ProfileQueryService in shared. | 2026-10-29 |
+| allpatek-platform | feature/shared | [e324ebf](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/e324ebf84525) | feat: auditable persistence superclass | Auditable persistence superclass. | 2026-10-29 |
+| allpatek-platform | feature/shared | [7147441](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/7147441f1661) | feat: string-id persistence superclass | String-id persistence superclass. | 2026-10-29 |
+| allpatek-platform | feature/shared | [1e68e0a](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/1e68e0a0ffd1) | feat: snake_case plural table names | Snake_case plural table names. | 2026-10-29 |
+| allpatek-platform | feature/shared | [72e3e24](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/72e3e245f338) | refactor: JPA converter for email | JPA converter for email. | 2026-10-29 |
+| allpatek-platform | feature/shared | [8612ca9](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/8612ca91be08) | refactor: JPA converter for string lists | JPA converter for string lists. | 2026-10-29 |
+| allpatek-platform | feature/shared | [9c88bb7](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/9c88bb74264b) | feat: company details embeddable | Company details embeddable. | 2026-10-29 |
+| allpatek-platform | feature/shared | [586a4bd](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/586a4bdf1406) | feat: Profile persistence entity | Profile persistence entity. | 2026-10-29 |
+| allpatek-platform | feature/shared | [801d0fe](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/801d0fefec54) | feat: Profile Spring Data repository | Profile Spring Data repository. | 2026-10-29 |
+| allpatek-platform | feature/shared | [6683b1f](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/6683b1fcae49) | feat: Profile persistence assembler | Profile persistence assembler. | 2026-10-29 |
+| allpatek-platform | feature/shared | [082ae3a](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/082ae3a3326a) | feat: ProfileRepository JPA adapter | ProfileRepository JPA adapter. | 2026-10-30 |
+| allpatek-platform | feature/shared | [4fd4c19](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/4fd4c194c03f) | feat: ProfileCommandService implementation | ProfileCommandService implementation. | 2026-10-30 |
+| allpatek-platform | feature/shared | [dacf19e](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/dacf19e1c24c) | feat: ProfileQueryService implementation | ProfileQueryService implementation. | 2026-10-30 |
+| allpatek-platform | feature/shared | [c8e35f6](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/c8e35f669e53) | feat: enable virtual threads | Enable virtual threads. | 2026-10-30 |
+| allpatek-platform | feature/shared | [01e6466](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/01e6466b3e34) | feat: wire OpenAPI / Swagger | Wire OpenAPI / Swagger. | 2026-10-30 |
+| allpatek-platform | feature/shared | [6b8574c](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/6b8574c4f925) | feat: resolve locale from Accept-Language | Resolve locale from Accept-Language. | 2026-10-30 |
+| allpatek-platform | feature/shared | [dfec650](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/dfec6509fbaa) | feat: CORS for the Angular app | CORS for the Angular app. | 2026-10-30 |
+| allpatek-platform | feature/shared | [198210b](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/198210b5261e) | feat: ProblemDetail from ApplicationError | ProblemDetail from ApplicationError. | 2026-10-30 |
+| allpatek-platform | feature/shared | [396c4cc](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/396c4ccc857d) | feat: Result to ResponseEntity helper | Result to ResponseEntity helper. | 2026-10-30 |
+| allpatek-platform | feature/shared | [2756a6a](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/2756a6a8adec) | feat: ProfileResource | ProfileResource. | 2026-10-30 |
+| allpatek-platform | feature/shared | [2cfb417](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/2cfb417736a8) | feat: UpdateProfileResource | UpdateProfileResource. | 2026-10-30 |
+| allpatek-platform | feature/shared | [5f721cd](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/5f721cdaf157) | feat: Profile REST assembler | Profile REST assembler. | 2026-10-30 |
+| allpatek-platform | feature/shared | [bd5a52b](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/bd5a52b71fef) | feat: RFC 9457 exception handler | RFC 9457 exception handler. | 2026-10-30 |
+| allpatek-platform | feature/shared | [be73176](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/be73176682db) | feat: health check endpoint | Health check endpoint. | 2026-10-30 |
+| allpatek-platform | feature/shared | [e7c2d8d](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/e7c2d8d11266) | feat: profiles REST API | Profiles REST API. | 2026-10-30 |
+| allpatek-platform | feature/agreements-management | [2b80f17](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/2b80f17267e5) | feat: leave contracts out of the first platform drop | Leave contracts out of the first platform drop. | 2026-11-08 |
+| allpatek-platform | feature/agreements-management | [e66bc2a](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/e66bc2a7de8c) | feat: keep agreement ids off primitives | Keep agreement ids off primitives. | 2026-11-01 |
+| allpatek-platform | feature/agreements-management | [1c03658](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/1c036583e50a) | feat: stamp contracts with a created-at date | Stamp contracts with a created-at date. | 2026-11-01 |
+| allpatek-platform | feature/agreements-management | [cb8609a](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/cb8609a2e1a1) | feat: hold the merchant display name on the contract | Hold the merchant display name on the contract. | 2026-11-01 |
+| allpatek-platform | feature/agreements-management | [cbd9c0d](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/cbd9c0d17356) | feat: split agreement reads into a query service | Split agreement reads into a query service. | 2026-11-02 |
+| allpatek-platform | feature/agreements-management | [2370391](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/23703917ffaa) | feat: store agreements in a JPA entity | Store agreements in a JPA entity. | 2026-11-02 |
+| allpatek-platform | feature/agreements-management | [ddf1ccd](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/ddf1ccd8b6d0) | feat: embed farmer and merchant signatures | Embed farmer and merchant signatures. | 2026-11-02 |
+| allpatek-platform | feature/agreements-management | [a7edfa1](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/a7edfa183593) | feat: talk to agreements through Spring Data | Talk to agreements through Spring Data. | 2026-11-02 |
+| allpatek-platform | feature/agreements-management | [f21451c](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/f21451c23dd1) | feat: assemble agreements in and out of persistence | Assemble agreements in and out of persistence. | 2026-11-02 |
+| allpatek-platform | feature/agreements-management | [b9655b8](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/b9655b875bee) | feat: adapt the agreement repository to JPA | Adapt the agreement repository to JPA. | 2026-11-02 |
+| allpatek-platform | feature/agreements-management | [4bb6c63](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/4bb6c63d45db) | feat: handle save-agreement in the application layer | Handle save-agreement in the application layer. | 2026-11-02 |
+| allpatek-platform | feature/agreements-management | [6b5f18b](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/6b5f18bd2263) | feat: handle agreement listing in the application layer | Handle agreement listing in the application layer. | 2026-11-02 |
+| allpatek-platform | feature/agreements-management | [3987741](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/3987741d98e4) | feat: shape the agreement REST payload | Shape the agreement REST payload. | 2026-11-02 |
+| allpatek-platform | feature/agreements-management | [4786db7](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/4786db767a0a) | feat: turn agreements into REST resources | Turn agreements into REST resources. | 2026-11-02 |
+| allpatek-platform | feature/agreements-management | [596eb15](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/596eb150ed47) | feat: publish contracts at /api/v1/agreements | Publish contracts at /api/v1/agreements. | 2026-11-02 |
+| allpatek-platform | feature/alerts-management | [53b577d](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/53b577deb48b) | feat: add frost flood and wind warning copy | Add descriptive warning messages for frost, flooding, and strong winds. | 2026-11-06 |
+| allpatek-platform | feature/alerts-management | [699f564](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/699f564b021b) | feat: add the parcel name shown on climate warnings | Include the parcel name in climate warning details. | 2026-11-06 |
+| allpatek-platform | feature/alerts-management | [d448a85](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/d448a8539c6b) | feat: add warning severity tones for field alerts | Define severity indicators for agricultural climate warnings. | 2026-11-06 |
+| allpatek-platform | feature/alerts-management | [59cd7c4](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/59cd7c492b9f) | feat: add a snapshot of current climate metrics | Capture current weather metrics for parcel climate monitoring. | 2026-11-06 |
+| allpatek-platform | feature/alerts-management | [a019141](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/a019141a3a05) | feat: register farmer climate alerts under /api/v1/alerts | Register the farmer climate alerts REST endpoint at /api/v1/alerts. | 2026-11-07 |
+| allpatek-platform | feature/alerts-management | [b9c0e9e](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/b9c0e9e8a880) | feat: present climate readings as REST resources | Expose climate readings as REST resources. | 2026-11-07 |
+| allpatek-platform | feature/alerts-management | [757c2d1](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/757c2d173034) | feat: present climate readings in the REST payload | Include climate readings in REST response payloads. | 2026-11-07 |
+| allpatek-platform | feature/alerts-management | [b52ef1a](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/b52ef1ad3e44) | feat: present climate warnings in the REST payload | Include climate warnings in REST response payloads. | 2026-11-07 |
+| allpatek-platform | feature/alerts-management | [a9cdb16](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/a9cdb162c03b) | feat: integrate Open-Meteo forecast client inside alerts infrastructure | Integrate the Open-Meteo forecast client into the alerts infrastructure. | 2026-11-07 |
+| allpatek-platform | feature/alerts-management | [6948408](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/69484083fcd5) | feat: load parcel weather through the parcels ACL | Retrieve parcel weather data through the parcels Anti-Corruption Layer. | 2026-11-07 |
+| allpatek-platform | feature/alerts-management | [4d49405](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/4d494058a3e7) | feat: integrate the climate alerts query service | Connect the application query service for retrieving climate alerts. | 2026-11-07 |
+| allpatek-platform | feature/alerts-management | [d88a1bb](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/d88a1bbf79d6) | feat: integrate a weather forecast outbound port | Define the outbound port for accessing weather forecasts. | 2026-11-07 |
+| allpatek-platform | feature/alerts-management | [2aeef3a](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/2aeef3a14ddc) | feat: add a query that loads alerts by parcel owner | Add an application query to retrieve climate alerts by parcel owner. | 2026-11-07 |
+| allpatek-platform | feature/alerts-management | [708379a](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/708379ae04b0) | feat: add climate readings that derive field alerts | Model climate readings used to derive field-specific alerts. | 2026-11-07 |
+| allpatek-platform | feature/alerts-management | [12c49fc](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/12c49fcb2fce) | feat: add a climate warning composed for one parcel | Model a climate warning associated with an individual parcel. | 2026-11-07 |
+| allpatek-platform | feature/alerts-management | [a6ef627](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/a6ef627cfe8a) | feat: register farmer climate alerts under /api/v1/alerts | Register the farmer climate alerts REST endpoint at /api/v1/alerts. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | [057667b](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/057667bc5693) | feat: present climate readings as REST resources | Expose climate readings as REST resources. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | [cab03bb](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/cab03bb0cd34) | feat: present climate readings in the REST payload | Include climate readings in REST response payloads. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | [6fb481b](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/6fb481b6f4d4) | feat: present climate warnings in the REST payload | Include climate warnings in REST response payloads. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | [01c2c5f](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/01c2c5fb121e) | feat: integrate Open-Meteo forecast client inside alerts infrastructure | Integrate the Open-Meteo forecast client into the alerts infrastructure. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | [d0ad251](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/d0ad251411a0) | feat: load parcel weather through the parcels ACL | Retrieve parcel weather data through the parcels Anti-Corruption Layer. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | [9215c17](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/9215c17ad181) | feat: integrate the climate alerts query service | Connect the application query service for retrieving climate alerts. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | [3ce544f](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/3ce544f26ad5) | feat: integrate a weather forecast outbound port | Define the outbound port for accessing weather forecasts. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | [c8e2fc5](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/c8e2fc5054c1) | feat: add a query that loads alerts by parcel owner | Add an application query to retrieve climate alerts by parcel owner. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | [26aa9cc](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/26aa9ccac388) | feat: add climate readings that derive field alerts | Model climate readings used to derive field-specific alerts. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | [6800fef](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/6800fefdd4dc) | feat: add a climate warning composed for one parcel | Model a climate warning associated with an individual parcel. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | [713a5e4](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/713a5e42672a) | feat: add frost flood and wind warning copy | Add descriptive warning messages for frost, flooding, and strong winds. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | [1026635](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/1026635e665c) | feat: add the parcel name shown on climate warnings | Include the parcel name in climate warning details. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | [b3d3a93](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/b3d3a9382437) | feat: add warning severity tones for field alerts | Define severity indicators for agricultural climate warnings. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | [9c24b49](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/9c24b49a22ab) | feat: add a snapshot of current climate metrics | Capture current weather metrics for parcel climate monitoring. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | [b080e51](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/b080e51b46e0) | feat: add weather condition mapping from Open-Meteo codes | Map Open-Meteo weather codes to application weather conditions. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | [f38a7a8](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/f38a7a83a5f4) | feat: add parcel coordinates for forecast lookup | Provide parcel coordinates for weather forecast requests. | 2026-11-08 |
+| allpatek-platform | feature/alerts-management | [9464d99](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/9464d996a932) | feat: add a geo point used by parcel weather | Introduce a geographic point for parcel weather coordinates. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [d461d46](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/d461d4658290) | feat: define parcel name helper | Add the ParcelName value object, which rejects blank names and trims the stored value. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [c3093ab](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/c3093ab6b911) | feat: define listing status for a parcel | Add the ParcelStatus enum (available, in_production, maintenance) with parsing from API strings and conversion back to the API format. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [5a1829a](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/5a1829afb338) | feat: define parcel area in hectares | Add the ParcelArea value object that stores the parcel area as a trimmed string. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [de22c0a](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/de22c0a840c8) | feat: define parcel location coordinates | Add the ParcelLocation value object that stores the parcel location as a trimmed string. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [fe4124d](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/fe4124d143c8) | feat: define soil type on the parcel | Add the SoilType value object that stores the parcel soil type as a trimmed string. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [483e6db](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/483e6db4a3db) | feat: define campaign cost helpers | Add the CampaignCost value object that stores the campaign cost as a trimmed string. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [374ce0c](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/374ce0cc7dc6) | feat: define campaign duration and start month | Add the CampaignSchedule value object with the campaign duration in months (never negative) and its start month. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [9f551bb](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/9f551bbb849f) | feat: define a crop grown on the parcel | Add the CropName value object that represents a single crop grown on the parcel. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [abf94ff](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/abf94ff736b1) | feat: coordinate crops planted together | Add the Crops value object, an immutable list of CropName built from plain strings and convertible back to them. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [8d6f87c](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/8d6f87c2db5b) | feat: define parcel image urls | Add the ParcelMedia value object with the main image URL and the image list, defaulting the list to the main image when empty. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [843768f](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/843768f531cc) | feat: define the parcel entity | Add the Parcel aggregate root that groups the parcel value objects and its owner profile id, applying defaults for optional fields. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [9028eec](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/9028eec7497f) | feat: expose parcel creation as a command | Add the CreateParcelCommand record with the fields required to register a new parcel. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [2b8799c](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/2b8799cfefaf) | feat: expose parcel updates as a command | Add the UpdateParcelCommand record with the fields used to modify an existing parcel. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [757e17e](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/757e17ee5978) | feat: expose parcel deletion as a command | Add the DeleteParcelCommand record that identifies the parcel to remove by its id. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [c0f557d](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/c0f557d1b0de) | feat: coordinate parcel catalog reads | Add the GetAllParcelsQuery record used to request the full parcel catalog. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [d92108f](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/d92108f1bac9) | feat: expose parcel persistence through a repository port | Add the ParcelRepository domain port with save, find by id, exists by id, find all and delete by id operations. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [ab78f21](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/ab78f217778e) | feat: coordinate parcel writes in the application layer | Add the ParcelCommandService interface that handles the create, update and delete parcel commands and returns Result values. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [efd6c18](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/efd6c185f38a) | feat: coordinate parcel reads in the application layer | Add the ParcelQueryService interface that handles the GetAllParcelsQuery. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [e1bfed5](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/e1bfed5ec2e0) | feat: expose parcels as a JPA entity | Add the ParcelPersistenceEntity mapped to the parcels table, with embedded schedule and media and crops stored through a string list converter. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [66d730f](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/66d730fc0a68) | feat: expose campaign schedule as a JPA embeddable | Add the CampaignSchedulePersistenceEmbeddable that maps the duration_months and start_month columns. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [f1f335a](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/f1f335a84550) | feat: expose parcel media as a JPA embeddable | Add the ParcelMediaPersistenceEmbeddable that maps the image_url column and the image list. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [a4ee837](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/a4ee837d5aa7) | feat: expose parcel persistence through Spring Data | Add the ParcelPersistenceRepository Spring Data JPA interface for parcel persistence entities. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [0beb21a](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/0beb21a4abbc) | feat: coordinate parcel mapping to persistence | Add the ParcelPersistenceAssembler that converts parcels between the domain model and the JPA persistence entity. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [7afa010](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/7afa0102dd04) | feat: expose parcel persistence through the JPA adapter | Add the ParcelRepositoryImpl adapter that implements the ParcelRepository port on top of Spring Data JPA. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [8dac756](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/8dac7566f20a) | feat: coordinate create update and delete parcel commands | Implement ParcelCommandService, validating the id, rejecting duplicate parcels and returning not found errors on update or delete. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [caf7beb](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/caf7bebad9bf) | feat: coordinate parcel catalog queries | Implement ParcelQueryService with a read-only transaction that returns all stored parcels. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [259177b](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/259177bda01c) | feat: expose parcel location to other contexts | Add the ParcelLocation ACL record with the parcel id, name and location shared with other bounded contexts. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [bcd844f](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/bcd844f5da28) | feat: expose a parcels ACL for climate lookups | Add the ParcelsContextFacade interface that returns parcel locations by owner for climate lookups. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [a3d4a47](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/a3d4a4796954) | feat: coordinate the parcels ACL implementation | Implement ParcelsContextFacade by filtering stored parcels by owner and mapping them to ParcelLocation records. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [0c0cf31](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/0c0cf31701a1) | feat: define the parcel REST payload | Add the ParcelResource REST payload with validation on the id, owner id, name and location fields. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [016ea54](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/016ea54b0f75) | feat: render parcels as REST resources | Add the ParcelResourceAssembler that maps parcels to REST resources and REST resources to create and update commands. | 2026-11-08 |
+| allpatek-platform | feature/parcel-management | [864d4f7](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/864d4f714c62) | feat: mount parcel routes at /api/v1/parcels | Add the ParcelsController with GET, POST, PUT and DELETE endpoints under /api/v1/parcels. | 2026-11-08 |
+| allpatek-platform | feature/escrow-payments | [962ac4f](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/962ac4f20141) | feat: introduce wallet identifiers | Add the WalletId value object used to identify a demonstration vault. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | [4380249](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/438024926553) | feat: introduce money stored as cents | Add MoneyCents to store the opening balance in cents. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | [728a77b](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/728a77b1064d) | feat: introduce payment card details | Add PaymentCard with holder, last 4 digits, expiry and brand. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | [cdb81be](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/cdb81be40d41) | feat: introduce the wallet aggregate | Add the Wallet aggregate that groups the profile, the card and the opening balance. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | [b3e5e4b](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/b3e5e4b5377e) | feat: connect save-wallet writes | Add SaveWalletCommand for creating or updating a wallet. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | [70ad0e8](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/70ad0e80c052) | feat: connect wallet listing reads | Add GetAllWalletsQuery to list the stored wallets. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | [4ebc991](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/4ebc9916356e) | feat: connect the wallet repository port | Add the WalletRepository domain port. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | [e9a7760](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/e9a7760a207d) | feat: implement wallet commands | Add WalletCommandService for save-wallet writes. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | [f418bd2](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/f418bd2d436b) | feat: implement wallet queries | Add WalletQueryService for wallet listing reads. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | [bba6733](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/bba673379115) | feat: persist wallets with JPA | Add WalletPersistenceEntity mapped to the wallets table. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | [73e5c00](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/73e5c003ecc1) | feat: persist card fields on the wallet | Add PaymentCardPersistenceEmbeddable for the card columns. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | [303f589](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/303f589eed52) | feat: persist wallets through Spring Data | Add the Spring Data JPA repository for wallets. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | [d3785af](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/d3785af2d5e4) | feat: build wallet persistence mapping | Add WalletPersistenceAssembler between the domain model and JPA. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | [938a52c](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/938a52c3b870) | feat: build the JPA wallet adapter | Add WalletRepositoryImpl on top of Spring Data. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | [46ffee3](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/46ffee34be5c) | feat: implement command handling for wallets | Implement WalletCommandService with a transactional save. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | [4f9bf28](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/4f9bf281ab88) | feat: implement query handling for wallets | Implement WalletQueryService with a read-only listing. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | [a1fd848](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/a1fd8486501c) | feat: build the wallet REST resource | Add WalletResource as the REST payload. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | [ba1d7c3](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/ba1d7c3f063a) | feat: build wallet resource mapping | Add WalletResourceAssembler to map wallets to REST resources. | 2026-11-07 |
+| allpatek-platform | feature/escrow-payments | [e401018](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/e401018991fb) | feat: register wallet routes | Add WalletsController with GET/POST /api/v1/wallets and PUT /wallets/{id}. | 2026-11-07 |
+| allpatek-platform | feature/tracking-evidence | [d1fa5c3](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/d1fa5c30e1e9) | feat: attach evidence routes under /api/v1/evidence | Register REST controller endpoints and request mappings for evidence | 2026-11-08 |
+| allpatek-platform | feature/tracking-evidence | [7976d83](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/7976d83f94e1) | feat: ship evidence resource mapping | Map domain entities to API resource DTOs and responses | 2026-11-08 |
+| allpatek-platform | feature/tracking-evidence | [006b15c](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/006b15c3ab93) | feat: ship the evidence REST payload | Define JSON request schemas and payload validation rules | 2026-11-08 |
+| allpatek-platform | feature/tracking-evidence | [d8b4142](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/d8b4142ae494) | feat: orchestrate evidence listing queries | Implement query handlers for listing and filtering evidence records | 2026-11-08 |
+| allpatek-platform | feature/tracking-evidence | [776e192](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/776e192df1d4) | feat: orchestrate save-evidence command handling | Add command handlers and transaction flow for saving evidence | 2026-11-08 |
+| allpatek-platform | feature/tracking-evidence | [97f5a77](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/97f5a77ced37) | feat: persist evidence through the JPA adapter | Connect domain repository to Spring Data JPA implementation | 2026-11-08 |
+| allpatek-platform | feature/tracking-evidence | [985b519](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/985b51958db8) | feat: persist evidence mapping in the assembler | Add entity-to-domain mapping logic in the persistence layer | 2026-11-08 |
+| allpatek-platform | feature/tracking-evidence | [f03df4a](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/f03df4af23e6) | feat: persist evidence through the platform evidence API store | Expose platform storage interface for evidence persistence | 2026-11-08 |
+| allpatek-platform | feature/tracking-evidence | [4cd80d3](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/4cd80d3b8772) | feat: persist evidence files as an embeddable | Define JPA @Embeddable class for storing file metadata | 2026-11-08 |
+| allpatek-platform | feature/tracking-evidence | [4dbb13d](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/4dbb13d30602) | feat: persist evidence with a JPA entity | Create base JPA entity model and table mapping for evidence | 2026-11-08 |
+| allpatek-platform | feature/tracking-evidence | [48380dc](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/48380dc8ad51) | feat: orchestrate evidence reads in the application layer | Define JPA @Embeddable class for storing file metadata | 2026-11-08 |
+| allpatek-platform | feature/tracking-evidence | [4ae606e](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/4ae606ede2c2) | feat: orchestrate evidence writes in the application layer | Create base JPA entity model and table mapping for evidence | 2026-11-08 |
 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
@@ -4074,19 +4149,19 @@ Los Web Services de este sprint (allpatek-platform) se documentaron con springdo
 
 ### Entornos de servicio
 
-* **Swagger UI (publicado):** <a href="https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html" style="text-decoration: none;">https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html</a>
-* **URL base publicada:** <a href="https://allpatek-platform.onrender.com/api/v1" style="text-decoration: none;">https://allpatek-platform.onrender.com/api/v1</a>
-* **URL base local:** <a href="http://localhost:8090/api/v1" style="text-decoration: none;">http://localhost:8090/api/v1</a>
-* **Swagger UI local:** <a href="http://localhost:8090/swagger-ui/index.html" style="text-decoration: none;">http://localhost:8090/swagger-ui/index.html</a>
+* **Swagger UI (publicado):** <a href="https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html">https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html</a>
+* **URL base publicada:** <a href="https://allpatek-platform.onrender.com/api/v1">https://allpatek-platform.onrender.com/api/v1</a>
+* **URL base local:** <a href="http://localhost:8090/api/v1">http://localhost:8090/api/v1</a>
+* **Swagger UI local:** <a href="http://localhost:8090/swagger-ui/index.html">http://localhost:8090/swagger-ui/index.html</a>
 
 ### 2. Repositorio y commits de documentación
 
-* **Repositorio de Web Services:** <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform" style="text-decoration: none;">allpatek-platform</a>
+* **Repositorio de Web Services:** <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform">allpatek-platform</a>
 
 
 ### 3. Matriz de endpoints del alcance del Sprint
 
-> **Ruta base (BASE):** <a href="https://allpatek-platform.onrender.com/api/v1" style="text-decoration: none;">https://allpatek-platform.onrender.com/api/v1</a>
+> **Ruta base (BASE):** <a href="https://allpatek-platform.onrender.com/api/v1">https://allpatek-platform.onrender.com/api/v1</a>
 
 | US | Endpoint | Verbo | Parámetros | Acción | Ejemplo de respuesta |
 | :---: | :--- | :---: | :--- | :--- | :--- |
@@ -4125,9 +4200,9 @@ El backend del Sprint 3 ya corría en local, pero para la revisión hacía falta
     <tr>
       <td style="text-align: center;"><strong>Web Services</strong></td>
       <td style="text-align: center;">Java 27, Spring Boot 4, Spring Data JPA, MySQL 8.4</td>
-      <td style="text-align: center;"><a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform" target="_blank" style="text-decoration: none;">allpatek-platform</a></td>
+      <td style="text-align: center;"><a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform" target="_blank">allpatek-platform</a></td>
       <td style="text-align: center;">Primera versión de la API RESTful interna</td>
-      <td style="text-align: center;"><a href="https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html" target="_blank" style="text-decoration: none;">Swagger UI (Render)</a></td>
+      <td style="text-align: center;"><a href="https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html" target="_blank">Swagger UI (Render)</a></td>
     </tr>
   </tbody>
 </table>
@@ -4137,43 +4212,64 @@ El backend del Sprint 3 ya corría en local, pero para la revisión hacía falta
 En Aiven se levantó un **MySQL 8.4** (mysql-9db0808) en *North America*: 1 CPU, 1 GB RAM y 8 GB de disco. Cuando el servicio pasó a *Running*, del panel *Connection information* se copiaron host (mysql-9db0808-mel-d917.c.aivencloud.com), puerto 18036, base defaultdb, usuario avnadmin y SSL mode REQUIRED.
 
 <p align="center">
-  <img src="assets/chapter-05/desplieguee01.png" alt="desplieguee01" width="750" />
+  <a href="assets/chapter-05/desplieguee01.png">
+    <img src="assets/chapter-05/desplieguee01.png" alt="Panel de Aiven con métricas y configuración del servicio MySQL de ALLPATEK" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.3.7.1.** Servicio MySQL utilizado para el backend. Seleccionar la imagen permite ampliarla.
 
 #### Paso 2: Contenerización y Externalización de Configuración en GitHub
 
 En allpatek-platform se agregó un Dockerfile de dos etapas: Maven arma el .jar y el contenedor lo corre en el puerto 8080. Las credenciales de MySQL salen de DB_URL, DB_USERNAME y DB_PASSWORD; ddl-auto queda en update y Swagger queda abierto en prod. Eso se subió a develop.
 
 <p align="center">
-  <img src="assets/chapter-05/desplieguee02.png" alt="desplieguee01" width="750" />
+  <a href="assets/chapter-05/desplieguee02.png">
+    <img src="assets/chapter-05/desplieguee02.png" alt="Repositorio allpatek-platform en GitHub con el Dockerfile de producción" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.3.7.2.** Código y Dockerfile del backend en la rama de integración. Seleccionar la imagen permite ampliarla.
 
 #### Paso 3: Creación y Configuración del Web Service en Render
 
 En Render se creó el **Web Service** allpatek-platform, pegado al repositorio de GitHub, rama develop, región *Oregon (US West)* y plan gratuito (512 MB RAM). Runtime: **Docker**, archivo ./Dockerfile.
 
 <p align="center">
-  <img src="assets/chapter-05/desplieguee03.png" alt="desplieguee01" width="750" />
+  <a href="assets/chapter-05/desplieguee03.png">
+    <img src="assets/chapter-05/desplieguee03.png" alt="Configuración del Web Service en Render: rama develop, región y plan de ejecución" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.3.7.3.** Configuración de creación del servicio Docker en Render. Seleccionar la imagen permite ampliarla.
 
 #### Paso 4: Inyección de Variables de Entorno en Render
 
 En *Environment Variables* se cargaron DB_URL, DB_USERNAME, DB_PASSWORD y PORT=8080. Las claves no van en el código.
 
-<p align="center">
-  <img src="assets/chapter-05/desplieguee04.png" alt="desplieguee01" width="750" />
-</p>
+La configuración se documenta por nombre de variable, sin publicar los valores de acceso:
+
+| Variable | Propósito |
+| :--- | :--- |
+| `DB_URL` | URL JDBC de MySQL con la configuración SSL del entorno. |
+| `DB_USERNAME` | Usuario de la base de datos suministrado al servicio. |
+| `DB_PASSWORD` | Contraseña guardada en la configuración privada del entorno. |
+| `PORT` | Puerto de escucha de la aplicación, configurado como `8080`. |
 
 #### Paso 5: Despliegue y Verificación Pública de Swagger UI
 
 El último commit de develop compiló la imagen, conectó a MySQL en Aiven por SSL y dejó el servicio arriba. Se comprobó abriendo **Swagger UI**.
 
-* **Swagger UI:** <a href="https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html" style="text-decoration: none;">https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html</a>
-* **API:** <a href="https://allpatek-platform.onrender.com/api/v1" style="text-decoration: none;">https://allpatek-platform.onrender.com/api/v1</a>
+* **Swagger UI:** <a href="https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html">https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html</a>
+* **API:** <a href="https://allpatek-platform.onrender.com/api/v1">https://allpatek-platform.onrender.com/api/v1</a>
 
 <p align="center">
-  <img src="assets/chapter-05/desplieguee05.png" alt="Swagger UI de allpatek-platform en Render" width="750" />
+  <a href="assets/chapter-05/desplieguee05.png">
+    <img src="assets/chapter-05/desplieguee05.png" alt="Swagger UI de ALLPATEK en Render con los recursos escrow y parcels" width="900" />
+  </a>
 </p>
+
+* **Figura 5.2.3.7.5.** Interfaz Swagger UI del backend publicado. Seleccionar la imagen permite ampliarla.
 
 > Importante: como está en el plan gratuito de Render, la primera carga puede tardar; es normal que salga una pantalla esperando.
 
@@ -4193,10 +4289,12 @@ Los cinco salen en Insights del repositorio. El pico de commits cae entre finale
 
 
 <p align="center">
-  <img src="assets/chapter-05/insight03.png" alt="Contribuciones del Sprint 3 en GitHub Insights" width="65%" />
+  <a href="assets/chapter-05/insight03.png">
+    <img src="assets/chapter-05/insight03.png" alt="GitHub Contributors de allpatek-platform: contribuciones de los cinco integrantes hasta noviembre" width="900" />
+  </a>
 </p>
 
-* **Figura 5.2.3.8.1.** *Contribuciones por usuario en GitHub Insights (allpatek-platform) durante el Sprint 3.*
+* **Figura 5.2.3.8.1.** Contribuciones por usuario de allpatek-platform en el intervalo visible de la captura. La imagen se puede ampliar; el historial se consulta en [GitHub Contributors](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/graphs/contributors) y los commits documentados en [5.2.3.4](#5234-development-evidence-for-sprint-review).
 
 
 ### 5.2.4. Sprint 4
@@ -4261,66 +4359,66 @@ Los cinco salen en Insights del repositorio. El pico de commits cae entre finale
 <table>
   <thead>
     <tr style="background-color: #f2f2f2;">
-      <th style="border: 1px solid #dddddd; padding: 10px;">Team Member</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">GitHub Username</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">agreements-management</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">alerts-management</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">escrow-payments</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">parcel-management</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">tracking-evidence</th>
-      <th style="border: 1px solid #dddddd; padding: 10px;">shared</th>
+      <th>Team Member</th>
+      <th>GitHub Username</th>
+      <th>agreements-management</th>
+      <th>alerts-management</th>
+      <th>escrow-payments</th>
+      <th>parcel-management</th>
+      <th>tracking-evidence</th>
+      <th>shared</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Atauje Barreto, Alexander Sebastián</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Alexander1Alexander2</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Atauje Barreto, Alexander Sebastián</td>
+      <td>Alexander1Alexander2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Egocheaga Suyo, Miguel Angel</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">MiguelAngel0107</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Egocheaga Suyo, Miguel Angel</td>
+      <td>MiguelAngel0107</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Orellana Rodríguez, Mel Andree</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">melandree8</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Orellana Rodríguez, Mel Andree</td>
+      <td>melandree8</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Raymundo Villarroel, Abigail Nadhim</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">AbigailRV</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Raymundo Villarroel, Abigail Nadhim</td>
+      <td>AbigailRV</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Vera Solsol, Nayely Macarena</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;">Macaxprogram29</td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
-      <td style="border: 1px solid #dddddd; padding: 8px;"></td>
+      <td>Vera Solsol, Nayely Macarena</td>
+      <td>Macaxprogram29</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
   </tbody>
 </table>
@@ -4346,12 +4444,15 @@ El objetivo principal del **Sprint 4** es incorporar la **gestión de identidad 
 
 #### Tablero de Control del Sprint 4 (Sprint Board)
 
+* **URL del tablero del Sprint 4:** <a href="https://trello.com/b/Rowl4alL/allpatek-sprint-04">Ver tablero Trello - Allpatek-Sprint-04</a>
+
 <p align="center">
-  <img src="assets/chapter-05/trello-sprint-04.png" alt="Tablero del Sprint 4 en Trello - ALLPATEK" width="850" />
+  <a href="assets/chapter-05/trello-sprint-04.png">
+    <img src="assets/chapter-05/trello-sprint-04.png" alt="Tablero Allpatek-Sprint-04 con las columnas Sprint 04, To-Do, In-Progress y Done" width="900" />
+  </a>
 </p>
 
-* **Figura 5.2.4.3.1.** Captura del tablero del Sprint 4 en la herramienta de control, con el estado de las tareas.
-* **URL pública del Board:** <a href="" style="text-decoration: none;">Tablero Trello TerraNova</a>
+* **Figura 5.2.4.3.1.** Tablero Allpatek-Sprint-04.
 
 ### Tabla de Control de Estado del Sprint Backlog 4
 
@@ -4424,145 +4525,52 @@ En el Sprint 4 se implementó la gestión de identidad y acceso (IAM con JWT y p
 | allpatek-webapp | develop | 5b46969 | feat: highlight the parcel search field on focus | Highlight the parcel search field on focus. | 2026-11-26 |
 | allpatek-webapp | develop | 56144cc | feat: highlight parcel form fields on focus | Highlight parcel form fields on focus. | 2026-11-26 |
 | allpatek-webapp | develop | 6411f64 | feat: soften inactive gallery thumbnails on hover | Soften inactive gallery thumbnails on hover. | 2026-11-26 |
+| allpatek-report | feature/report-corrections | f90ffd8 | docs: finalize updated video references | Finalize updated video references. | 2026-11-26 |
+| allpatek-website | feature/report-corrections | a59d68a | fix: finalize landing video sources | Finalize landing video sources. | 2026-11-26 |
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
-Descripción de la evidencia de ejecución.
+**Ejecución local de pruebas del backend — 26/11/2026**
 
-Descripción de la captura 1.
+| Versión y entorno | Resultado |
+| :--- | :--- |
+| Repositorio | [allpatek-platform](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform) |
+| Commit ejecutado | [2390a37](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/2390a372504f57ed4bd2ab90055d7b390b181bae) |
+| Rama | feature/alerts-management-correction |
+| Entorno | Java 27, Spring Boot 4.1.2, perfil test y base de datos H2 |
+| Comando ejecutado | `mvn -B clean verify` |
+| Resultado de Maven | BUILD SUCCESS |
+| Pruebas ejecutadas | 45 |
+| Fallos, errores y pruebas omitidas | 0 |
 
-<p align="center">
-  <img src="assets/chapter-05/sprint-04-execution-01.png" alt="Evidencia de ejecución 1 del Sprint 4" width="850" />
-</p>
+| Caso probado | Resultado obtenido | Prueba |
+| :--- | :--- | :--- |
+| Acceso a alertas sin autenticación | HTTP 401 | [Seguridad](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/blob/2390a372504f57ed4bd2ab90055d7b390b181bae/src/test/java/com/allpatekplatform/alerts/integration/AlertsSecurityAndPersistenceTest.java) |
+| Cuenta autenticada de prueba sin perfil | HTTP 404, código PROFILE_NOT_FOUND | [Perfil y acceso](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/blob/2390a372504f57ed4bd2ab90055d7b390b181bae/src/test/java/com/allpatekplatform/alerts/integration/AlertsSecurityAndPersistenceTest.java) |
+| Consulta de parcelas por propietario | La consulta excluyó las parcelas de otros propietarios | [Consulta en H2](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/blob/2390a372504f57ed4bd2ab90055d7b390b181bae/src/test/java/com/allpatekplatform/alerts/integration/AlertsSecurityAndPersistenceTest.java) |
+| Temperatura mínima de 0 °C | Se conservó el valor y se generó la alerta de helada | [Lecturas de cero](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/blob/2390a372504f57ed4bd2ab90055d7b390b181bae/src/test/java/com/allpatekplatform/alerts/infrastructure/weather/ZeroWeatherReadingTest.java) |
+| Coordenadas inválidas | Se rechazaron valores no finitos y fuera de rango | [Coordenadas](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/blob/2390a372504f57ed4bd2ab90055d7b390b181bae/src/test/java/com/allpatekplatform/alerts/domain/model/valueobjects/GeoPointTest.java) |
+| Datos meteorológicos ausentes | Se rechazó la lectura incompleta | [Validación meteorológica](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/blob/2390a372504f57ed4bd2ab90055d7b390b181bae/src/test/java/com/allpatekplatform/alerts/infrastructure/weather/CurrentWeatherValidationTest.java) |
 
-Descripción de la captura 2.
-
-<p align="center">
-  <img src="assets/chapter-05/sprint-04-execution-02.png" alt="Evidencia de ejecución 2 del Sprint 4" width="850" />
-</p>
-
-Descripción de la captura 3.
-
-<p align="center">
-  <img src="assets/chapter-05/sprint-04-execution-03.png" alt="Evidencia de ejecución 3 del Sprint 4" width="850" />
-</p>
-
-Descripción de la captura 4.
-
-<p align="center">
-  <img src="assets/chapter-05/sprint-04-execution-04.png" alt="Evidencia de ejecución 4 del Sprint 4" width="850" />
-</p>
-
+[Resultados por clase de prueba](assets/chapter-05/sprint-04-backend-tests.txt).
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
-Descripción de la documentación de los servicios de este sprint.
 
-### Entornos de servicio
-
-* **Swagger UI (publicado):** <a href="" style="text-decoration: none;"></a>
-* **URL base publicada:** <a href="" style="text-decoration: none;"></a>
-* **URL base local:** <a href="" style="text-decoration: none;"></a>
-* **Swagger UI local:** <a href="" style="text-decoration: none;"></a>
-
-### 2. Repositorio y commits de documentación
-
-* **Repositorio de Web Services:** <a href="" style="text-decoration: none;"></a>
-
-### 3. Matriz de endpoints del alcance del Sprint
-
-> **Ruta base (BASE):** <a href="" style="text-decoration: none;"></a>
-
-| US | Endpoint | Verbo | Parámetros | Acción | Ejemplo de respuesta |
-| :---: | :--- | :---: | :--- | :--- | :--- |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
-Descripción del despliegue de este sprint.
-
-<table align="center" style="margin: 0 auto; text-align: center;">
-  <thead>
-    <tr>
-      <th style="text-align: center;">Producto</th>
-      <th style="text-align: center;">Tecnología</th>
-      <th style="text-align: center;">Repositorio</th>
-      <th style="text-align: center;">Versión en este Sprint</th>
-      <th style="text-align: center;">URL verificada</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center;"></td>
-      <td style="text-align: center;"></td>
-      <td style="text-align: center;"></td>
-      <td style="text-align: center;"></td>
-      <td style="text-align: center;"></td>
-    </tr>
-  </tbody>
-</table>
-
-#### Paso 1: 
-
-Descripción del paso 1.
-
-<p align="center">
-  <img src="assets/chapter-05/sprint-04-deploy-01.png" alt="Paso 1 del despliegue del Sprint 4" width="750" />
-</p>
-
-#### Paso 2: 
-
-Descripción del paso 2.
-
-<p align="center">
-  <img src="assets/chapter-05/sprint-04-deploy-02.png" alt="Paso 2 del despliegue del Sprint 4" width="750" />
-</p>
-
-#### Paso 3: 
-
-Descripción del paso 3.
-
-<p align="center">
-  <img src="assets/chapter-05/sprint-04-deploy-03.png" alt="Paso 3 del despliegue del Sprint 4" width="750" />
-</p>
-
-#### Paso 4: 
-
-Descripción del paso 4.
-
-<p align="center">
-  <img src="assets/chapter-05/sprint-04-deploy-04.png" alt="Paso 4 del despliegue del Sprint 4" width="750" />
-</p>
-
-#### Paso 5: 
-
-Descripción del paso 5.
-
-<p align="center">
-  <img src="assets/chapter-05/sprint-04-deploy-05.png" alt="Paso 5 del despliegue del Sprint 4" width="750" />
-</p>
 
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
-Descripción de la colaboración del equipo durante el Sprint 4.
-
 | Integrante | Usuario GitHub | Repositorio |
 | :--- | :--- | :--- |
-| Atauje Barreto, Alexander Sebastián | Alexander1Alexander2 |  |
-| Egocheaga Suyo, Miguel Angel | MiguelAngel0107 |  |
-| Orellana Rodríguez, Mel Andree | melandree8 |  |
-| Raymundo Villarroel, Abigail Nadhim | AbigailRV |  |
-| Vera Solsol, Nayely Macarena | Macaxprogram29 |  |
-
-<p align="center">
-  <img src="assets/chapter-05/insight04.png" alt="Contribuciones del Sprint 4 en GitHub Insights" width="65%" />
-</p>
-
-* **Figura 5.2.4.8.1.** *Contribuciones por usuario en GitHub Insights durante el Sprint 4.*
+| Atauje Barreto, Alexander Sebastián | Alexander1Alexander2 | |
+| Egocheaga Suyo, Miguel Angel | MiguelAngel0107 | |
+| Orellana Rodríguez, Mel Andree | melandree8 | |
+| Raymundo Villarroel, Abigail Nadhim | AbigailRV | |
+| Vera Solsol, Nayely Macarena | Macaxprogram29 | |
 
 ## 5.3. Validation Interviews
 
@@ -4720,7 +4728,7 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
     </tr>
     <tr>
       <td align="center">URL del video</td>
-      <td align="center"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQCXWmxVVzRyTKLNnMjuRh8cAanVcxuNzSX2roCt7lOrZm0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QWoAks" target="_blank" style="text-decoration: none;">Ver entrevista de validación: Entrevista Agricultor 3</a></td>
+      <td align="center"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQCXWmxVVzRyTKLNnMjuRh8cAanVcxuNzSX2roCt7lOrZm0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QWoAks" target="_blank">Ver entrevista de validación: Entrevista Agricultor 3</a></td>
     </tr>
     <tr>
       <td align="center"><b>Fotografía</b></td>
@@ -4732,7 +4740,7 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
     </tr>
     <tr>
       <td align="center">Fuente del perfil</td>
-      <td align="center"><a href="#entrevista-[N]-rosa-flores" style="text-decoration: none;">Entrevista inicial de Rosa Flores</a></td>
+      <td align="center"><a href="#entrevista-[N]-rosa-flores">Entrevista inicial de Rosa Flores</a></td>
     </tr>
   </tbody>
 </table>
@@ -4791,7 +4799,7 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
     </tr>
     <tr>
       <td align="center">URL del video</td>
-      <td align="center"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQDhDCYqAhxbSKhg92qWZNqhAYT4gneD9GoPPK-jzUowbr8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;e=vkukAa" target="_blank" style="text-decoration: none;">Ver entrevista de validación: Entrevista Agricultor Dos</a></td>
+      <td align="center"><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQDhDCYqAhxbSKhg92qWZNqhAYT4gneD9GoPPK-jzUowbr8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;e=vkukAa" target="_blank">Ver entrevista de validación: Entrevista Agricultor Dos</a></td>
     </tr>
     <tr>
       <td align="center"><b>Fotografía</b></td>
@@ -4803,7 +4811,7 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
     </tr>
     <tr>
       <td align="center">Fuente del perfil</td>
-      <td align="center"><a href="#entrevista-2-gustavo-adolfo-suyo" style="text-decoration: none;">Entrevista inicial de Gustavo Adolfo Suyo (sección 2.2.2)</a></td>
+      <td align="center"><a href="#entrevista-2-gustavo-adolfo-suyo">Entrevista inicial de Gustavo Adolfo Suyo (sección 2.2.2)</a></td>
     </tr>
   </tbody>
 </table>
@@ -4864,7 +4872,7 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
     <tr>
       <td align="center">URL del video</td>
       <td align="center">
-        <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQA3Ki7VhhDdQIWWQzMUBKdlAX8OWAtP6xUPKwXCyBXh3w0?e=9NLXS5" target="_blank" style="text-decoration: none;">Video evidencia</a>
+        <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQA3Ki7VhhDdQIWWQzMUBKdlAX8OWAtP6xUPKwXCyBXh3w0?e=9NLXS5" target="_blank">Video evidencia</a>
       </td>
     </tr>
     <tr>
@@ -4947,7 +4955,7 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
     </tr>
     <tr>
       <td align="center">Fuente del perfil</td>
-      <td align="center"><a href="#entrevista-2-césar-hugo-egocheaga" style="text-decoration: none;">Entrevista inicial de César Hugo Egocheaga (sección 2.2.2)</a></td>
+      <td align="center"><a href="#entrevista-2-césar-hugo-egocheaga">Entrevista inicial de César Hugo Egocheaga (sección 2.2.2)</a></td>
     </tr>
   </tbody>
 </table>
@@ -5146,8 +5154,7 @@ Video **About-the-Product**: demo de Allpatek (catálogo de parcelas, clima, ace
     
 | Tipo | Enlace del Video |
 | :--- | :--- |
-| **About the Product**  | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQC1ol8FG1iqRY-bGG2ue1M_AUxwB8p8jD8BnEUAGKaZdVA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=whZtiU" style="text-decoration: none;">Enlace About the Product</a> |
-| **About the Product (Youtube)**  | <a href="https://youtu.be/HzLCMS18Pqg" style="text-decoration: none;">Enlace About the Product</a> |
+| **About the Product (YouTube)** | <a href="https://www.youtube.com/watch?v=se1KsUnUtmI">Ver About the Product</a> |
 
     
 </div>
@@ -5193,8 +5200,7 @@ Video **About-the-Team**: el equipo TerraNova cuenta quién hizo qué en Allpate
     
 | Tipo | Enlace del Video |
 | :--- | :--- |
-| **About the Team**  | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBcbq4xfH8tQr_ZPnlJKrMLAXb2-topoxDPFkdP2Z097vs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PB8hMC" style="text-decoration: none;">Enlace About the Team</a> |
-| **About the Team (Youtube)**  | <a href="https://youtu.be/Fv-fpNivSHE">Enlace About the Team</a> |
+| **About the Team (YouTube)** | <a href="https://www.youtube.com/watch?v=HGon8P2sQRE">Ver About the Team</a> |
 
 
     
@@ -5209,15 +5215,15 @@ Video **About-the-Team**: el equipo TerraNova cuenta quién hizo qué en Allpate
 
 
 # Bibliografía
-Fan, Q., & Salas Garcia, V. B. (2018). Information access and smallholder farmers' market participation in Peru. Journal of Agricultural Economics, 69(2), 476–494. <a href="https://doi.org/10.1111/1477-9552.12243" style="text-decoration: none;">https://doi.org/10.1111/1477-9552.12243</a>
+Fan, Q., & Salas Garcia, V. B. (2018). Information access and smallholder farmers' market participation in Peru. Journal of Agricultural Economics, 69(2), 476–494. <a href="https://doi.org/10.1111/1477-9552.12243">https://doi.org/10.1111/1477-9552.12243</a>
 
-Heikkinen, A. M. (2021). Climate change, power, and vulnerabilities in the Peruvian Highlands. Regional Environmental Change, 21(3), 82. <a href="https://doi.org/10.1007/s10113-021-01825-8" style="text-decoration: none;">https://doi.org/10.1007/s10113-021-01825-8</a>
+Heikkinen, A. M. (2021). Climate change, power, and vulnerabilities in the Peruvian Highlands. Regional Environmental Change, 21(3), 82. <a href="https://doi.org/10.1007/s10113-021-01825-8">https://doi.org/10.1007/s10113-021-01825-8</a>
 
-Heros, C., & De la Torre Ugarte, D. (2022). Política para el impulso de la Pequeña Agricultura Familiar. Consorcio de Investigación Económica y Social. <a href="https://cies.org.pe/investigacion/politica-para-el-impulso-de-la-pequena-agricultura-familiar/" style="text-decoration: none;">https://cies.org.pe/investigacion/politica-para-el-impulso-de-la-pequena-agricultura-familiar/</a>
+Heros, C., & De la Torre Ugarte, D. (2022). Política para el impulso de la Pequeña Agricultura Familiar. Consorcio de Investigación Económica y Social. <a href="https://cies.org.pe/investigacion/politica-para-el-impulso-de-la-pequena-agricultura-familiar/">https://cies.org.pe/investigacion/politica-para-el-impulso-de-la-pequena-agricultura-familiar/</a>
 
-Otsuka, K., Nakano, Y., & Takahashi, K. (2016). Contract farming in developed and developing countries. Annual Review of Resource Economics, 8(1), 353–376. <a href="https://doi.org/10.1146/annurev-resource-100815-095459" style="text-decoration: none;">https://doi.org/10.1146/annurev-resource-100815-095459</a>
+Otsuka, K., Nakano, Y., & Takahashi, K. (2016). Contract farming in developed and developing countries. Annual Review of Resource Economics, 8(1), 353–376. <a href="https://doi.org/10.1146/annurev-resource-100815-095459">https://doi.org/10.1146/annurev-resource-100815-095459</a>
 
-Tambet, H., & Stopnitzky, Y. (2021). Climate adaptation and conservation agriculture among Peruvian farmers. American Journal of Agricultural Economics, 103(3), 900–922. <a href="https://doi.org/10.1111/ajae.12177" style="text-decoration: none;">https://doi.org/10.1111/ajae.12177</a>
+Tambet, H., & Stopnitzky, Y. (2021). Climate adaptation and conservation agriculture among Peruvian farmers. American Journal of Agricultural Economics, 103(3), 900–922. <a href="https://doi.org/10.1111/ajae.12177">https://doi.org/10.1111/ajae.12177</a>
 
 
 
@@ -5225,64 +5231,57 @@ Tambet, H., & Stopnitzky, Y. (2021). Climate adaptation and conservation agricul
 
 ## Anexo A. Registros de Participación del Equipo (Participant Performance Report)
 
-Evidencia del desempeño individual del equipo **TerraNova** evaluado en las entregas **AV1**, **TB1**, **AV2** y **TB2**:
+Registros de participación del equipo **TerraNova** por entrega:
 
-| Entrega | Documento de Rendimiento | Archivos Adjuntos |
-| :---: | :--- | :---: |
-| **AV1** | upc-pre-202620-1asi0729-7753-terranova-performance-av1 | upc-pre-202620-1asi0729-7753-terranova-performance-av1.docx<br>upc-pre-202620-1asi0729-7753-terranova-performance-av1.pdf |
-| **TB1** | upc-pre-202620-1asi0729-7753-terranova-performance-tb1 | upc-pre-202620-1asi0729-7753-terranova-performance-tb1.docx<br>upc-pre-202620-1asi0729-7753-terranova-performance-tb1.pdf |
-| **AV2** | upc-pre-202620-1asi0729-7753-terranova-performance-av2 | upc-pre-202620-1asi0729-7753-terranova-performance-av2.docx<br>upc-pre-202620-1asi0729-7753-terranova-performance-av2.pdf |
-| **TB2** | upc-pre-202620-1asi0729-7753-terranova-performance-tb2 | upc-pre-202620-1asi0729-7753-terranova-performance-tb2.docx<br>upc-pre-202620-1asi0729-7753-terranova-performance-tb2.pdf |
+| Entrega | Identificador del reporte |
+| :---: | :--- |
+| **AV1** | upc-pre-202620-1asi0729-7753-terranova-performance-av1 |
+| **TB1** | upc-pre-202620-1asi0729-7753-terranova-performance-tb1 |
+| **AV2** | upc-pre-202620-1asi0729-7753-terranova-performance-av2 |
+| **TB2** | upc-pre-202620-1asi0729-7753-terranova-performance-tb2 |
 
 ---
 
 ## Anexo B. Repositorios de Código Fuente y Control de Versiones
 
-Repositorios oficiales en la organización pública de **GitHub** del equipo **TerraNova** para las entregas del proyecto **ALLPATEK**:
+Repositorios del proyecto **ALLPATEK**:
 
-
-<div align="center">
-
-| Producto / Artefacto | Repositorio Oficial | Rama Principal | Estado | Enlace al Repositorio |
-| :--- | :--- | :---: | :---: | :---: |
-| **Project Report** | allpatek-report | main | Active | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-report" style="text-decoration: none;">Ver Repositorio del Informe</a> |
-| **Landing Page** | allpatek-website | main | Deployed | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website" style="text-decoration: none;">Ver Repositorio Landing Page</a> |
-| **Web App** | allpatek-webapp | main | Active | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp" style="text-decoration: none;">Ver Repositorio Web App</a> |
-| **Backend (Web Services)** | allpatek-platform | main | Active | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform" style="text-decoration: none;">Ver Repositorio Backend</a> |
-| **Fake API (Mock)** | allpatek-platform-mock | main | Active | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock" style="text-decoration: none;">Ver Repositorio Fake API</a> |
-
-</div>
+| Producto | Repositorio |
+| :--- | :--- |
+| **Informe** | [allpatek-report](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-report) |
+| **Landing Page** | [allpatek-website](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website) |
+| **Web App** | [allpatek-webapp](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp) |
+| **Backend** | [allpatek-platform](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform) |
+| **Mock API** | [allpatek-platform-mock](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock) |
 
 ---
 
 ## Anexo C. Enlaces de Despliegue en Entornos de Operación (Cloud Deployments)
 
-Acceso a los productos digitales de **ALLPATEK** desplegados públicamente en entornos de operación (Landing Page, Web App, Web Services y Fake API):
+Enlaces de los productos digitales de **ALLPATEK**:
 
-| Producto Digital | Entorno / Provider | Estado | Dirección URL de Acceso Público |
-| :--- | :---: | :---: | :---: |
-| **Landing Page (ALLPATEK)** | GitHub Pages | Live | <a href="https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/" style="text-decoration: none;">https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/</a> |
-| **Web App (ALLPATEK)** | Netlify | Live | <a href="https://terranova-allpatek.netlify.app/" style="text-decoration: none;">https://terranova-allpatek.netlify.app/</a> |
-| **Web Services (API REST base)** | Render | Live | <a href="https://allpatek-platform.onrender.com/api/v1" style="text-decoration: none;">https://allpatek-platform.onrender.com/api/v1</a> |
-| **Documentación OpenAPI (Swagger UI)** | Render | Live | <a href="https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html" style="text-decoration: none;">https://allpatek-platform.onrender.com/swagger-ui/swagger-ui/index.html</a> |
-| **Fake API (Mock API)** | Azure App Service | Live | <a href="https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/" style="text-decoration: none;">https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/</a> |
+| Producto | Plataforma | Enlace |
+| :--- | :--- | :--- |
+| **Landing Page** | GitHub Pages | [ALLPATEK](https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/) |
+| **Web App** | Netlify | [Aplicación web](https://terranova-allpatek.netlify.app/) |
+| **API REST** | Backend | [API v1](https://allpatek.proyectaconsultora.com/api/v1) |
+| **Swagger UI** | Backend | [Documentación de servicios](https://allpatek.proyectaconsultora.com/swagger-ui/index.html) |
+| **Mock API** | Azure App Service | [Mock API](https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/) |
 
 ---
 
 ## Anexo D. Gestión del Proyecto y Product Backlog (Trello)
 
-Seguimiento interactivo de tareas y planificación del Product Backlog y de los Sprints 1, 2 y 3:
+Tableros del Product Backlog y de los Sprints 1, 2, 3 y 4:
 
 <div align="center">
 
 | Artefacto de Gestión | Herramienta | Enlace Público al Tablero |
 | :--- | :---: | :---: |
-| **Product Backlog & Sprint 1 Board** | Trello | <a href="https://trello.com/b/A0csigUo/terranova" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a> |
-| **Product Backlog & Sprint 2 Board** | Trello | <a href="https://trello.com/b/A0csigUo/terranova" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a> |
-| **Product Backlog & Sprint 3 Board** | Trello | <a href="https://trello.com/b/PffylQcc" style="text-decoration: none;">Ver Tablero Trello - TerraNova ALLPATEK</a> |
-| **Invitación al tablero Sprint 1** | Trello | <a href="https://trello.com/invite/b/6aa216c035a4a46c6bd2f3f0/ATTI885bbe2f06b7915f27146102eb51b6dfDBBD1DE6/terranova" style="text-decoration: none;">Unirse al tablero</a> |
-| **Invitación al tablero Sprint 3** | Trello | <a href="https://trello.com/invite/b/6af3adfe4e9931bf475e1cc0/ATTIa72fe0d2bbda469b2e799bd8388d45fc57634FE6/allpatek-sprint-03" style="text-decoration: none;">Unirse al tablero</a> |
-
+| **Product Backlog & Sprint 1 Board** | Trello | <a href="https://trello.com/b/A0csigUo/terranova">Ver Tablero Trello - TerraNova ALLPATEK</a><br />[Captura](assets/chapter-05/trello-sprint-01.png) |
+| **Product Backlog & Sprint 2 Board** | Trello | <a href="https://trello.com/b/wg5hoQwD/allpatek-sprint-02">Ver tablero Trello - ALLPATEK Sprint 2</a><br />[Captura](assets/chapter-05/trello-sprint-02.png) |
+| **Product Backlog & Sprint 3 Board** | Trello | <a href="https://trello.com/b/PffylQcc/allpatek-sprint-03">Ver tablero Trello - ALLPATEK Sprint 3</a><br />[Captura](assets/chapter-05/trello-sprint-03.png) |
+| **Product Backlog & Sprint 4 Board** | Trello | <a href="https://trello.com/b/Rowl4alL/allpatek-sprint-04">Ver tablero Trello - ALLPATEK Sprint 4</a><br />[Captura](assets/chapter-05/trello-sprint-04.png) |
 
 </div>
 
@@ -5296,14 +5295,16 @@ Enlaces a los tableros y prototipos utilizados en las etapas de descubrimiento, 
 
 | Artefacto | Herramienta | Enlace |
 | :--- | :---: | :---: |
-| **Lean UX Canvas** | Miro | <a href="https://miro.com/app/board/uXjVHInt5w4=/" style="text-decoration: none;">Ver Tablero</a> |
-| **Event Storming** | Miro | <a href="https://miro.com/app/board/uXjVEOzTlmg=/?share_link_id=401600368120" style="text-decoration: none;">Ver Tablero</a> |
-| **Wireflow** | Figma | <a href="https://www.figma.com/board/KAFi24QzlDrbm4DzuM1DgV/Untitled?node-id=0-1&t=xxM3mTqylB25csWf-1" style="text-decoration: none;">Ver Wireflow</a> |
-| **User Flow** | Figma | <a href="https://www.figma.com/board/qh5vL4xQoPmKWNJbFj7TGj/Untitled?node-id=0-1&t=gEVZUOH5xRFhc4Dp-1" style="text-decoration: none;">Ver User Flow</a> |
-| **Prototipo Desktop (Web App)** | Figma | <a href="https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=85-504&t=DTHiWfYH71axACfB-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=123%3A494&show-proto-sidebar=1" style="text-decoration: none;">Ver Prototipo Desktop</a> |
-| **Prototipo Mobile (Web App)** | Figma | <a href="https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=257-10099&t=g4J1J50GPL689wBS-1&scaling=scale-down&content-scaling=fixed&page-id=236%3A5996" style="text-decoration: none;">Ver Prototipo Mobile</a> |
+| **Lean UX Canvas** | Miro | <a href="https://miro.com/app/board/uXjVHInt5w4=/">Ver Tablero</a> |
+| **Event Storming** | Miro | <a href="https://miro.com/app/board/uXjVEOzTlmg=/?share_link_id=401600368120">Ver Tablero</a> |
+| **Wireflow** | Figma | <a href="https://www.figma.com/board/KAFi24QzlDrbm4DzuM1DgV/Untitled?node-id=0-1&t=xxM3mTqylB25csWf-1">Ver Wireflow</a> |
+| **User Flow** | Figma | <a href="https://www.figma.com/board/qh5vL4xQoPmKWNJbFj7TGj/Untitled?node-id=0-1&t=gEVZUOH5xRFhc4Dp-1">Ver User Flow</a> |
+| **Prototipo Desktop (Web App)** | Figma | <a href="https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=85-504&t=DTHiWfYH71axACfB-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=123%3A494&show-proto-sidebar=1">Ver Prototipo Desktop</a> |
+| **Prototipo Mobile (Web App)** | Figma | <a href="https://www.figma.com/proto/qdN2BmM77AaLFlq5OyFSyD/Untitled?node-id=257-10099&t=g4J1J50GPL689wBS-1&scaling=scale-down&content-scaling=fixed&page-id=236%3A5996">Ver Prototipo Mobile</a> |
 
 </div>
+
+Referencias dentro del informe: [Lean UX Canvas](#1224-lean-ux-canvas), [Big Picture Event Storming](#24-big-picture-event-storming), [Wireflow](#442-web-applications-wireflow-diagrams), [User Flow](#444-web-applications-user-flow-diagrams) y [Prototyping](#45-web-applications-prototyping).
 
 ---
 
@@ -5315,11 +5316,11 @@ Registros en video de las entrevistas realizadas a los segmentos objetivo durant
 
 | Entrevistado | Tipo de Video | Enlace |
 | :--- | :---: | :---: |
-| **Rosa Flores** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBbQDY3p2SiRq-xBW2hRB-dARiTcCuKw4tJ7sUQ8oeVau8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iVsXEQ" style="text-decoration: none;">Ver Video</a> |
-| **Gustavo Adolfo Suyo** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/r/personal/u20231h171_upc_edu_pe/Documents/Video%20Entrevista.mp4?d=w350e6ee8e89f44e3a0801080e03a5a37&csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vPTAoG" style="text-decoration: none;">Ver Video</a> |
-| **Irma Barreto Castro** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQCadRcKNFI3QJCRvB7MCwswAakotnQDzxFR-FZchZomOuI?e=W8zn4F" style="text-decoration: none;">Ver Video</a> |
-| **César Hugo Egocheaga** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQA2ALZ3uFutSaQ8ve7Nk7hqAXADf3-eTjCN6dlRHIPgDVI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MX0bNw" style="text-decoration: none;">Ver Video</a> |
-| **Carolin Solsol** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h171_upc_edu_pe/IQDobg41n-jjRKCAEIDgOlo3AfXMuQqEXkTp0vU3WnDO5Eg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Z15UJ" style="text-decoration: none;">Ver Video</a> |
+| **Rosa Flores** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBbQDY3p2SiRq-xBW2hRB-dARiTcCuKw4tJ7sUQ8oeVau8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iVsXEQ">Ver entrevista de Rosa Flores</a> |
+| **Gustavo Adolfo Suyo** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/r/personal/u20231h171_upc_edu_pe/Documents/Video%20Entrevista.mp4?d=w350e6ee8e89f44e3a0801080e03a5a37&csf=1&web=1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vPTAoG">Ver entrevista de Gustavo Adolfo Suyo</a> |
+| **Irma Barreto Castro** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQCadRcKNFI3QJCRvB7MCwswAakotnQDzxFR-FZchZomOuI?e=W8zn4F">Ver entrevista de Irma Barreto Castro</a> |
+| **César Hugo Egocheaga** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQA2ALZ3uFutSaQ8ve7Nk7hqAXADf3-eTjCN6dlRHIPgDVI?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MX0bNw">Ver entrevista de César Hugo Egocheaga</a> |
+| **Carolin Solsol** | Entrevista | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h171_upc_edu_pe/IQDobg41n-jjRKCAEIDgOlo3AfXMuQqEXkTp0vU3WnDO5Eg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7Z15UJ">Ver entrevista de Carolin Solsol</a> |
 
 </div>
 
@@ -5333,9 +5334,9 @@ Videos de navegación de los prototipos y evidencia de ejecución del Sprint 1:
 
 | Video | Tipo | Enlace |
 | :--- | :---: | :---: |
-| **Navegación del prototipo Desktop** | Prototypes | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQDF54TKL6PlS58DK7p4wuJAAQiikz0rs6edE33i_ATjpPk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7pTDmu" style="text-decoration: none;">Ver Video</a> |
-| **Navegación del prototipo Mobile** | Prototypes | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQAF9cog3awORKq4HYfc7F9uAa-vd6s6V_oT3BiDwhjeADQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y3j1dP" style="text-decoration: none;">Ver Video</a> |
-| **Evidencia de ejecución del Sprint 1** | Sprint | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQApudu7-aW0R6zofbarn9-pAd96aUTXm_GwyTKAwac5l90?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7oUJHv" style="text-decoration: none;">Ver Video</a> |
+| **Navegación del prototipo Desktop** | Prototypes | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQDF54TKL6PlS58DK7p4wuJAAQiikz0rs6edE33i_ATjpPk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7pTDmu">Ver navegación del prototipo Desktop</a> |
+| **Navegación del prototipo Mobile** | Prototypes | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQAF9cog3awORKq4HYfc7F9uAa-vd6s6V_oT3BiDwhjeADQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y3j1dP">Ver navegación del prototipo Mobile</a> |
+| **Evidencia de ejecución del Sprint 1** | Sprint | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQApudu7-aW0R6zofbarn9-pAd96aUTXm_GwyTKAwac5l90?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7oUJHv">Ver ejecución histórica del Sprint 1</a> |
 
 </div>
 
@@ -5349,11 +5350,11 @@ Videos de validación de la aplicación y videos institucionales sobre el produc
 
 | Video | Tipo | Enlace |
 | :--- | :---: | :---: |
-| **App Validation (1)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQCXWmxVVzRyTKLNnMjuRh8cAanVcxuNzSX2roCt7lOrZm0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QWoAks" style="text-decoration: none;">Ver Video</a> |
-| **App Validation (2)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQDhDCYqAhxbSKhg92qWZNqhAYT4gneD9GoPPK-jzUowbr8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vkukAa" style="text-decoration: none;">Ver Video</a> |
-| **App Validation (3)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQA3Ki7VhhDdQIWWQzMUBKdlAX8OWAtP6xUPKwXCyBXh3w0?e=9NLXS5" style="text-decoration: none;">Ver Video</a> |
-| **About the Product** | About the product | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQC1ol8FG1iqRY-bGG2ue1M_AUxwB8p8jD8BnEUAGKaZdVA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=whZtiU" style="text-decoration: none;">Ver en SharePoint</a> · <a href="https://youtu.be/HzLCMS18Pqg" style="text-decoration: none;">Ver en YouTube</a> |
-| **About the Team** | About the team | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBcbq4xfH8tQr_ZPnlJKrMLAXb2-topoxDPFkdP2Z097vs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PB8hMC" style="text-decoration: none;">Ver en SharePoint</a> · <a href="https://youtu.be/Fv-fpNivSHE" style="text-decoration: none;">Ver en YouTube</a> |
+| **App Validation (1)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQCXWmxVVzRyTKLNnMjuRh8cAanVcxuNzSX2roCt7lOrZm0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QWoAks">Ver sesión de validación 1</a> |
+| **App Validation (2)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQDhDCYqAhxbSKhg92qWZNqhAYT4gneD9GoPPK-jzUowbr8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vkukAa">Ver sesión de validación 2</a> |
+| **App Validation (3)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQA3Ki7VhhDdQIWWQzMUBKdlAX8OWAtP6xUPKwXCyBXh3w0?e=9NLXS5">Ver sesión de validación 3</a> |
+| **About the Product** | About the product | <a href="https://www.youtube.com/watch?v=se1KsUnUtmI">Ver en YouTube</a> |
+| **About the Team** | About the team | <a href="https://www.youtube.com/watch?v=HGon8P2sQRE">Ver en YouTube</a> |
 
 </div>
 
@@ -5361,7 +5362,7 @@ Videos de validación de la aplicación y videos institucionales sobre el produc
 
 ## Anexo I. Usuarios de Prueba
 
-Cuentas de prueba para ingresar a la Web App de **ALLPATEK** (https://terranova-allpatek.netlify.app/), una por cada segmento validado: Agricultor Familiar y Comerciante Urbano.
+Cuentas de prueba para los segmentos Agricultor Familiar y Comerciante Urbano de la [Web App de ALLPATEK](https://terranova-allpatek.netlify.app/).
 
 <div align="center">
 
