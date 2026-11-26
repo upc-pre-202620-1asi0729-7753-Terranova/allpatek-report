@@ -5171,10 +5171,6 @@ Videos de validación de la aplicación y videos institucionales sobre el produc
 
 </div>
 
-Las sesiones de validación se relacionan con [5.3.2](#532-registro-de-entrevistas); sus tres enlaces de Microsoft redirigieron al inicio de sesión durante la revisión.
-
-Los videos [About The Product](https://www.youtube.com/watch?v=se1KsUnUtmI) y [About the Team](https://www.youtube.com/watch?v=HGon8P2sQRE) fueron identificados mediante metadatos públicos de YouTube el 26/11/2026. Coinciden con [5.4](#54-video-about-the-product) y [Video About-the-Team](#video-about-the-team), respectivamente. La comprobación de metadatos no implica haber revisado íntegramente cada video.
-
 ---
 
 ## Anexo I. Usuarios de Prueba
