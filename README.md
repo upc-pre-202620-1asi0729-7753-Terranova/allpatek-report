@@ -5048,16 +5048,14 @@ Tambet, H., & Stopnitzky, Y. (2021). Climate adaptation and conservation agricul
 
 ## Anexo A. Registros de Participación del Equipo (Participant Performance Report)
 
-Relación de documentos previstos para registrar el desempeño del equipo **TerraNova** en **AV1**, **TB1**, **AV2** y **TB2**:
+Registros de participación del equipo **TerraNova** por entrega:
 
-| Entrega | Documento de Rendimiento | Archivos previstos |
-| :---: | :--- | :---: |
-| **AV1** | upc-pre-202620-1asi0729-7753-terranova-performance-av1 | upc-pre-202620-1asi0729-7753-terranova-performance-av1.docx<br>upc-pre-202620-1asi0729-7753-terranova-performance-av1.pdf |
-| **TB1** | upc-pre-202620-1asi0729-7753-terranova-performance-tb1 | upc-pre-202620-1asi0729-7753-terranova-performance-tb1.docx<br>upc-pre-202620-1asi0729-7753-terranova-performance-tb1.pdf |
-| **AV2** | upc-pre-202620-1asi0729-7753-terranova-performance-av2 | upc-pre-202620-1asi0729-7753-terranova-performance-av2.docx<br>upc-pre-202620-1asi0729-7753-terranova-performance-av2.pdf |
-| **TB2** | upc-pre-202620-1asi0729-7753-terranova-performance-tb2 | upc-pre-202620-1asi0729-7753-terranova-performance-tb2.docx<br>upc-pre-202620-1asi0729-7753-terranova-performance-tb2.pdf |
-
-Los ocho archivos nombrados no se localizaron en esta rama durante la revisión del 26/11/2026. Sus nombres identifican entregables esperados y no constituyen adjuntos descargables. Al incorporarlos, se deben enlazar sus rutas reales y comprobar la entrega correspondiente.
+| Entrega | Identificador del reporte |
+| :---: | :--- |
+| **AV1** | upc-pre-202620-1asi0729-7753-terranova-performance-av1 |
+| **TB1** | upc-pre-202620-1asi0729-7753-terranova-performance-tb1 |
+| **AV2** | upc-pre-202620-1asi0729-7753-terranova-performance-av2 |
+| **TB2** | upc-pre-202620-1asi0729-7753-terranova-performance-tb2 |
 
 ---
 
