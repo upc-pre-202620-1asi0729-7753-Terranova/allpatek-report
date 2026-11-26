@@ -5061,22 +5061,15 @@ Registros de participación del equipo **TerraNova** por entrega:
 
 ## Anexo B. Repositorios de Código Fuente y Control de Versiones
 
-Repositorios oficiales en la organización pública de **GitHub** del equipo **TerraNova** para las entregas del proyecto **ALLPATEK**:
+Repositorios del proyecto **ALLPATEK**:
 
-
-<div align="center">
-
-| Producto / Artefacto | Repositorio Oficial | Referencia de rama | Estado | Enlace al Repositorio |
-| :--- | :--- | :---: | :---: | :---: |
-| **Project Report** | allpatek-report | feature/report-corrections | HTTP 200 al consultar el repositorio | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-report">Ver Repositorio del Informe</a> |
-| **Landing Page** | allpatek-website | main | HTTP 200 al consultar el repositorio | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website">Ver Repositorio Landing Page</a> |
-| **Web App** | allpatek-webapp | main | HTTP 200 al consultar el repositorio | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp">Ver Repositorio Web App</a> |
-| **Backend (Web Services)** | allpatek-platform | main | HTTP 200 al consultar el repositorio | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform">Ver Repositorio Backend</a> |
-| **Fake API (Mock)** | allpatek-platform-mock | main | HTTP 200 al consultar el repositorio | <a href="https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock">Ver Repositorio Fake API</a> |
-
-</div>
-
-Comprobación del 26/11/2026: los cinco repositorios respondieron HTTP 200. Las ramas citadas son referencias de código; la publicación de cambios en una rama de trabajo debe distinguirse de su integración y despliegue. Esta revisión modifica únicamente `allpatek-report`, en `feature/report-corrections`.
+| Producto | Repositorio |
+| :--- | :--- |
+| **Informe** | [allpatek-report](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-report) |
+| **Landing Page** | [allpatek-website](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website) |
+| **Web App** | [allpatek-webapp](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp) |
+| **Backend** | [allpatek-platform](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform) |
+| **Mock API** | [allpatek-platform-mock](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock) |
 
 ---
 
