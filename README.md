@@ -5220,11 +5220,13 @@ Videos de navegación de los prototipos y evidencia de ejecución del Sprint 1:
 
 | Video | Tipo | Enlace |
 | :--- | :---: | :---: |
-| **Navegación del prototipo Desktop** | Prototypes | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQDF54TKL6PlS58DK7p4wuJAAQiikz0rs6edE33i_ATjpPk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7pTDmu">Ver Video</a> |
-| **Navegación del prototipo Mobile** | Prototypes | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQAF9cog3awORKq4HYfc7F9uAa-vd6s6V_oT3BiDwhjeADQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y3j1dP">Ver Video</a> |
-| **Evidencia de ejecución del Sprint 1** | Sprint | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQApudu7-aW0R6zofbarn9-pAd96aUTXm_GwyTKAwac5l90?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7oUJHv">Ver Video</a> |
+| **Navegación del prototipo Desktop** | Prototypes | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQDF54TKL6PlS58DK7p4wuJAAQiikz0rs6edE33i_ATjpPk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7pTDmu">Ver navegación del prototipo Desktop</a> |
+| **Navegación del prototipo Mobile** | Prototypes | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQAF9cog3awORKq4HYfc7F9uAa-vd6s6V_oT3BiDwhjeADQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y3j1dP">Ver navegación del prototipo Mobile</a> |
+| **Evidencia de ejecución del Sprint 1** | Sprint | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQApudu7-aW0R6zofbarn9-pAd96aUTXm_GwyTKAwac5l90?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7oUJHv">Ver ejecución histórica del Sprint 1</a> |
 
 </div>
+
+Los recorridos de prototipos complementan [4.5. Web Applications Prototyping](#45-web-applications-prototyping); el video del Sprint 1 se relaciona con [5.2.1.5](#5215-execution-evidence-for-sprint-review). Estos materiales no se identifican como ejecución del Sprint 4. Los tres enlaces de Microsoft solicitaron iniciar sesión en la comprobación del 26/11/2026.
 
 ---
 
