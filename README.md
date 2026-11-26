@@ -5238,13 +5238,17 @@ Videos de validación de la aplicación y videos institucionales sobre el produc
 
 | Video | Tipo | Enlace |
 | :--- | :---: | :---: |
-| **App Validation (1)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQCXWmxVVzRyTKLNnMjuRh8cAanVcxuNzSX2roCt7lOrZm0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QWoAks">Ver Video</a> |
-| **App Validation (2)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQDhDCYqAhxbSKhg92qWZNqhAYT4gneD9GoPPK-jzUowbr8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vkukAa">Ver Video</a> |
-| **App Validation (3)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQA3Ki7VhhDdQIWWQzMUBKdlAX8OWAtP6xUPKwXCyBXh3w0?e=9NLXS5">Ver Video</a> |
+| **App Validation (1)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQCXWmxVVzRyTKLNnMjuRh8cAanVcxuNzSX2roCt7lOrZm0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QWoAks">Ver sesión de validación 1</a> |
+| **App Validation (2)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQDhDCYqAhxbSKhg92qWZNqhAYT4gneD9GoPPK-jzUowbr8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vkukAa">Ver sesión de validación 2</a> |
+| **App Validation (3)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQA3Ki7VhhDdQIWWQzMUBKdlAX8OWAtP6xUPKwXCyBXh3w0?e=9NLXS5">Ver sesión de validación 3</a> |
 | **About the Product** | About the product | <a href="https://youtu.be/se1KsUnUtmI">Ver en YouTube</a> |
 | **About the Team** | About the team | <a href="https://youtu.be/HGon8P2sQRE">Ver en YouTube</a> |
 
 </div>
+
+Las sesiones de validación se relacionan con [5.3.2](#532-registro-de-entrevistas); sus tres enlaces de Microsoft redirigieron al inicio de sesión durante la revisión.
+
+Los videos [About The Product](https://youtu.be/se1KsUnUtmI) y [About the Team](https://youtu.be/HGon8P2sQRE) fueron identificados mediante metadatos públicos de YouTube el 26/11/2026. Coinciden con [5.4](#54-video-about-the-product) y [Video About-the-Team](#video-about-the-team), respectivamente. La comprobación de metadatos no implica haber revisado íntegramente cada video.
 
 ---
 
