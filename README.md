@@ -2736,10 +2736,12 @@ Para la gestión y control del flujo de trabajo, las tareas se organizaron y mon
 #### Tablero de Control del Sprint 1 (Sprint Board)
 
 <p align="center">
-  <img src="assets/chapter-05/trello-sprint-01.png" alt="Sprint 1 Board - ALLPATEK" width="850" />
+  <a href="assets/chapter-05/trello-sprint-01.png">
+    <img src="assets/chapter-05/trello-sprint-01.png" alt="Tablero TerraNova del Sprint 1 en Trello, con las columnas To Do, In Progress, In Review y Done" width="900" />
+  </a>
 </p>
 
-* **Figura 5.2.1.3.1.** *Captura del tablero del Sprint 1 en la herramienta de control mostrando el estado de desarrollo.*
+* **Figura 5.2.1.3.1.** Captura histórica del tablero del Sprint 1 en Trello. Se conservan las columnas y tarjetas originales; seleccionar la imagen permite ampliar su contenido.
 
 * **URL del Board del Sprint 1:** <a href="https://trello.com/b/A0csigUo/terranova" style="text-decoration: none;">Ver tablero Trello - TerraNova Sprint 1</a>
 
