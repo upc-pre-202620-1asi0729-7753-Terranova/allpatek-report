@@ -4438,17 +4438,13 @@ Los procedimientos de despliegue históricos se documentan en [5.2.2.7](#5227-so
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
-La revisión documental de Alexander reúne verificación de enlaces, clasificación de evidencias y referencias a commits. Los aportes de código preexistentes se identifican en [5.2.4.4](#5244-development-evidence-for-sprint-review).
-
-| Integrante | Usuario GitHub | Evidencia consolidada en esta revisión |
+| Integrante | Usuario GitHub | Repositorio |
 | :--- | :--- | :--- |
-| Atauje Barreto, Alexander Sebastián | Alexander1Alexander2 | Correcciones del informe, comprobaciones HTTP, revisión de anexos y documentación de las capturas y las 16 tareas del tablero del Sprint 4. |
-| Egocheaga Suyo, Miguel Angel | MiguelAngel0107 | Pendiente de consolidar por el equipo en esta sección. |
-| Orellana Rodríguez, Mel Andree | melandree8 | Pendiente de consolidar por el equipo en esta sección. |
-| Raymundo Villarroel, Abigail Nadhim | AbigailRV | Pendiente de consolidar por el equipo en esta sección. |
-| Vera Solsol, Nayely Macarena | Macaxprogram29 | Pendiente de consolidar por el equipo en esta sección. |
-
-La ausencia de una relación consolidada no significa ausencia de trabajo. No se dispone de una captura actual de GitHub Contributors para el Sprint 4; las cifras de contribución deben obtenerse del historial o de una captura real antes de incorporarlas.
+| Atauje Barreto, Alexander Sebastián | Alexander1Alexander2 | |
+| Egocheaga Suyo, Miguel Angel | MiguelAngel0107 | |
+| Orellana Rodríguez, Mel Andree | melandree8 | |
+| Raymundo Villarroel, Abigail Nadhim | AbigailRV | |
+| Vera Solsol, Nayely Macarena | Macaxprogram29 | |
 
 ## 5.3. Validation Interviews
 
