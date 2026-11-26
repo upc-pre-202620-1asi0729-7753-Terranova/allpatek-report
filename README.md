@@ -2727,7 +2727,7 @@ El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de 
 
 El **Sprint 1** tuvo como objetivo principal la maquetación, diseño responsivo, lógica de interacción y despliegue público de la **Landing Page estática e informativa de ALLPATEK**, la cual sirve como punto de contacto inicial para comunicar la propuesta de valor del modelo *Agro-as-a-Service* e incentivar la captación de productores agrícolas y compradores.
 
-Para la gestión y control del flujo de trabajo, las tareas se organizaron y monitorearon interactivamente mediante la herramienta de gestión de proyectos **GitHub Projects**.
+Para la gestión y control del flujo de trabajo, las tareas se organizaron y monitorearon mediante **Trello**, en el tablero TerraNova utilizado para el Product Backlog y el Sprint 1.
 
 #### Tablero de Control del Sprint 1 (Sprint Board)
 
@@ -2737,7 +2737,7 @@ Para la gestión y control del flujo de trabajo, las tareas se organizaron y mon
 
 * **Figura 5.2.1.3.1.** *Captura del tablero del Sprint 1 en la herramienta de control mostrando el estado de desarrollo.*
 
-* **URL Pública del Board del Sprint 1:** <a href="https://trello.com/invite/b/6aa216c035a4a46c6bd2f3f0/ATTI885bbe2f06b7915f27146102eb51b6dfDBBD1DE6/terranova" style="text-decoration: none;">Enlace de Trello Sprint 1</a>
+* **URL del Board del Sprint 1:** <a href="https://trello.com/b/A0csigUo/terranova" style="text-decoration: none;">Ver tablero Trello - TerraNova Sprint 1</a>
 
 
 ### Tabla de Control de Estado del Sprint Backlog 1
