@@ -5254,7 +5254,7 @@ Los videos [About The Product](https://youtu.be/se1KsUnUtmI) y [About the Team](
 
 ## Anexo I. Usuarios de Prueba
 
-Cuentas de prueba para ingresar a la Web App de **ALLPATEK** (https://terranova-allpatek.netlify.app/), una por cada segmento validado: Agricultor Familiar y Comerciante Urbano.
+Identidades de prueba consignadas por el equipo para la Web App de **ALLPATEK** (https://terranova-allpatek.netlify.app/), una por segmento: Agricultor Familiar y Comerciante Urbano.
 
 <div align="center">
 
@@ -5264,3 +5264,5 @@ Cuentas de prueba para ingresar a la Web App de **ALLPATEK** (https://terranova-
 | **Comerciante Urbano** | Irma Barreto Castro | Comerciante | irma.barreto23@gmail.com | Irma2026 |
 
 </div>
+
+El acceso con estas identidades no se confirmó durante la revisión del 26/11/2026. Para ejecutar los casos de [5.2.4.5](#5245-execution-evidence-for-sprint-review), debe comprobarse primero que la cuenta ingresa, conserva el rol esperado y permite consultar sus datos. La disponibilidad del HTML de la aplicación no acredita la validez de las credenciales.
