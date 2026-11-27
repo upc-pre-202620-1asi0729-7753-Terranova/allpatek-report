@@ -699,7 +699,9 @@ El Lean UX Canvas es una herramienta ágil que sintetiza los elementos clave del
 *Lean UX Canvas*
 
 <p align="center">
-  <img src="assets/chapter-01/lean-ux-canvas1.png" alt="Lean UX Canvas de Allpatek" width="800"><br>
+  <a href="assets/chapter-01/lean-ux-canvas1.png">
+    <img src="assets/chapter-01/lean-ux-canvas1.png" alt="Lean UX Canvas de Allpatek" width="800">
+  </a><br>
   <i>Nota. Elaboración propia.</i>
 </p>
 
