@@ -5302,10 +5302,10 @@ Tableros del Product Backlog y de los Sprints 1, 2, 3 y 4:
 
 | Artefacto de Gestión | Herramienta | Enlace Público al Tablero |
 | :--- | :---: | :---: |
-| **Product Backlog & Sprint 1 Board** | Trello | <a href="https://trello.com/b/A0csigUo/terranova">Ver Tablero Trello - TerraNova ALLPATEK</a><br />[Captura](assets/chapter-05/trello-sprint-01.png) |
-| **Product Backlog & Sprint 2 Board** | Trello | <a href="https://trello.com/b/wg5hoQwD/allpatek-sprint-02">Ver tablero Trello - ALLPATEK Sprint 2</a><br />[Captura](assets/chapter-05/trello-sprint-02.png) |
-| **Product Backlog & Sprint 3 Board** | Trello | <a href="https://trello.com/b/PffylQcc/allpatek-sprint-03">Ver tablero Trello - ALLPATEK Sprint 3</a><br />[Captura](assets/chapter-05/trello-sprint-03.png) |
-| **Product Backlog & Sprint 4 Board** | Trello | <a href="https://trello.com/b/Rowl4alL/allpatek-sprint-04">Ver tablero Trello - ALLPATEK Sprint 4</a><br />[Captura](assets/chapter-05/trello-sprint-04.png) |
+| **Product Backlog & Sprint 1 Board** | Trello | <a href="https://trello.com/b/A0csigUo/terranova">Ver Tablero - ALLPATEK </a><br />[Captura](assets/chapter-05/trello-sprint-01.png) |
+| **Product Backlog & Sprint 2 Board** | Trello | <a href="https://trello.com/b/wg5hoQwD/allpatek-sprint-02">Ver Sprint 2</a><br />[Captura](assets/chapter-05/trello-sprint-02.png) |
+| **Product Backlog & Sprint 3 Board** | Trello | <a href="https://trello.com/b/PffylQcc/allpatek-sprint-03">Ver Sprint 3</a><br />[Captura](assets/chapter-05/trello-sprint-03.png) |
+| **Product Backlog & Sprint 4 Board** | Trello | <a href="https://trello.com/b/Rowl4alL/allpatek-sprint-04">Ver Sprint 4</a><br />[Captura](assets/chapter-05/trello-sprint-04.png) |
 
 </div>
 
