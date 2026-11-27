@@ -4573,7 +4573,76 @@ A continuación, se presentan las evidencias de ejecución de las principales vi
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
+La API de Allpatek cuenta con documentación OpenAPI 3.1 y Swagger UI. En el Sprint 4, el contrato de servicios incluye autenticación JWT, perfiles asociados a la cuenta, gestión de parcelas, firma de acuerdos, evidencias por hitos, billeteras de demostración y consultas climáticas.
 
+| Recurso | Enlace |
+| :--- | :--- |
+| URL base de los servicios | [https://allpatek.proyectaconsultora.com/api/v1](https://allpatek.proyectaconsultora.com/api/v1) |
+| Documentación interactiva | [Swagger UI](https://allpatek.proyectaconsultora.com/swagger-ui/index.html) |
+| Especificación de rutas, parámetros y esquemas | [OpenAPI JSON](https://allpatek.proyectaconsultora.com/v3/api-docs) |
+| Código del backend del Sprint 4 | [allpatek-platform, revisión 82e8832](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/tree/82e8832d1e70498ea183aa661af5b27a3f9924e4) |
+
+**Autenticación y formato de las solicitudes**
+
+El registro de cuentas (`POST /api/v1/users`) y el inicio de sesión (`POST /api/v1/tokens`) tienen acceso público. El inicio de sesión recibe `username` y `password` y devuelve `id`, `username`, `token`, `roles` y `profileId`, cuando existe un perfil asociado. Los demás servicios requieren el token JWT en la cabecera `Authorization`, con el esquema `Bearer`. Swagger UI dispone de la opción **Authorize** para configurar esta cabecera.
+
+Los cuerpos de las solicitudes utilizan `Content-Type: application/json`. La cabecera opcional `Accept-Language` permite indicar el idioma de las respuestas. Los parámetros `id` y `userId` se envían en la ruta; la consulta climática obtiene el propietario desde la sesión autenticada.
+
+**Matriz de servicios**
+
+Las rutas de la siguiente tabla son relativas a `/api/v1`.
+
+| Módulo | Método | Ruta | Entrada | Operación |
+| :--- | :---: | :--- | :--- | :--- |
+| IAM | POST | `/users` | `SignUpRequest`: username, password y roles | Registrar una cuenta de usuario. |
+| IAM | POST | `/tokens` | `SignInRequest`: username y password | Autenticar la cuenta y emitir el token JWT. |
+| IAM | GET | `/users` | Cabecera Authorization | Consultar usuarios y sus roles. |
+| IAM | GET | `/users/{userId}` | userId de tipo Long | Consultar un usuario por identificador. |
+| IAM | GET | `/roles` | Cabecera Authorization | Consultar los roles disponibles. |
+| Perfiles | GET | `/profiles` | Cabecera Authorization | Consultar los perfiles registrados. |
+| Perfiles | POST | `/profiles` | `CreateProfileResource` | Crear el perfil personal y comercial. |
+| Perfiles | GET | `/profiles/me` | Cabecera Authorization | Consultar el perfil de la cuenta autenticada. |
+| Perfiles | GET | `/profiles/{id}` | id de tipo Long | Consultar un perfil por identificador. |
+| Perfiles | PUT | `/profiles/{id}` | id y `UpdateProfileResource` | Actualizar los datos personales y comerciales. |
+| Parcelas | GET | `/parcels` | Cabecera Authorization | Consultar el catálogo de parcelas según la sesión. |
+| Parcelas | POST | `/parcels` | `ParcelResource` | Registrar una parcela agrícola. |
+| Parcelas | PUT | `/parcels/{id}` | id y `ParcelResource` | Actualizar los datos de una parcela. |
+| Parcelas | DELETE | `/parcels/{id}` | id de tipo String | Eliminar una parcela. |
+| Acuerdos | GET | `/agreements` | Cabecera Authorization | Consultar los acuerdos agrícolas. |
+| Acuerdos | POST | `/agreements` | `AgreementResource` | Crear una solicitud de acuerdo con la firma del comerciante. |
+| Acuerdos | GET | `/agreements/{id}` | id de tipo String | Consultar un acuerdo por identificador. |
+| Acuerdos | PUT | `/agreements/{id}` | id y `AgreementResource` | Actualizar los datos del acuerdo. |
+| Acuerdos | DELETE | `/agreements/{id}` | id de tipo String | Eliminar un acuerdo. |
+| Acuerdos | POST | `/agreements/{id}/farmer-signature` | id de tipo String | Registrar la firma del agricultor. |
+| Evidencias | GET | `/evidence` | Cabecera Authorization | Consultar las evidencias agrícolas. |
+| Evidencias | POST | `/evidence` | `EvidenceResource` | Registrar la evidencia de un hito. |
+| Evidencias | PUT | `/evidence/{id}` | id y `EvidenceResource` | Actualizar la evidencia. |
+| Evidencias | DELETE | `/evidence/{id}` | id de tipo String | Eliminar una evidencia. |
+| Evidencias | POST | `/evidence/{id}/verify` | id de tipo String | Registrar la verificación de la evidencia por el comerciante. |
+| Evidencias | POST | `/evidence/{id}/release` | id de tipo String | Solicitar la liberación de la cuota de custodia asociada a una evidencia verificada. |
+| Custodia | GET | `/wallets` | Cabecera Authorization | Consultar las billeteras de demostración. |
+| Custodia | POST | `/wallets` | `WalletResource` | Registrar una billetera de demostración. |
+| Custodia | PUT | `/wallets/{id}` | id y `WalletResource` | Actualizar los datos de la billetera. |
+| Custodia | DELETE | `/wallets/{id}` | id de tipo String | Eliminar una billetera. |
+| Clima | GET | `/alerts` | Cabecera Authorization | Consultar lecturas y alertas climáticas de las parcelas del usuario autenticado. |
+
+**Esquemas de datos**
+
+| Esquema | Campos del contrato |
+| :--- | :--- |
+| `SignUpRequest` / `SignInRequest` | username y password; el registro incorpora la colección roles. |
+| `CreateProfileResource` / `UpdateProfileResource` | fullName, phone, document, address, email, company, ruc y activity. fullName y email son obligatorios. |
+| `ParcelResource` | id, ownerId, name, status, area, location, soilType, campaignCost, durationMonths, startMonth, crops, imageUrl e images. id, name y location son obligatorios. |
+| `AgreementResource` | id, parcelId, merchantName, merchantProfileId, merchantSigned, farmerSigned y createdAt. parcelId es obligatorio. |
+| `EvidenceResource` | id, parcelId, agreementId, milestone, status, notes, fileName e image. parcelId y milestone son obligatorios. |
+| `WalletResource` | id, profileId, holder, last4, expiry, brand y openingCents. holder es obligatorio; number y cvv se definen como campos de entrada y no se persisten. |
+| `ClimateReadingResource` | Identificación y coordenadas de la parcela, temperatura, sensación térmica, humedad, precipitación, viento, nubosidad, condición meteorológica, resumen diario y colección alerts de tipo `ClimateAlertResource`. |
+
+**Respuestas documentadas**
+
+El contrato de registro de cuentas define `201` para la creación, `400` para datos o roles no válidos y `409` para un nombre de usuario duplicado. El inicio de sesión define `200` para la autenticación, `400` para credenciales no válidas y `404` para un usuario inexistente. Los servicios protegidos requieren autenticación y contemplan el rechazo de solicitudes sin un token válido.
+
+Para `GET /alerts`, OpenAPI especifica `200` con una colección de lecturas, `400` si una parcela tiene coordenadas no válidas, `401` por falta de autenticación, `404` si la cuenta no tiene perfil, `502` ante una respuesta meteorológica no válida y `503` si el proveedor meteorológico no está disponible. Los esquemas y las respuestas por operación se encuentran en la especificación enlazada. Las capturas de Swagger del Sprint 4 están reunidas en [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review).
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
