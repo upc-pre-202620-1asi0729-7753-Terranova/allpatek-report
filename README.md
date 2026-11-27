@@ -5262,6 +5262,8 @@ Registros de participación del equipo **TerraNova** por entrega:
 
 Repositorios del proyecto **ALLPATEK**:
 
+<div align="center">
+
 | Producto | Repositorio |
 | :--- | :--- |
 | **Informe** | [allpatek-report](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-report) |
@@ -5269,6 +5271,8 @@ Repositorios del proyecto **ALLPATEK**:
 | **Web App** | [allpatek-webapp](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-webapp) |
 | **Backend** | [allpatek-platform](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform) |
 | **Mock API** | [allpatek-platform-mock](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform-mock) |
+
+</div>
 
 ---
 
