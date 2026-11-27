@@ -30,12 +30,12 @@
 <h3 align="center">Integrantes</h3>
 
 <p align="center">
-  &nbsp;&nbsp;&nbsp;&nbsp;<b>Código</b> &emsp;&emsp;&emsp;&emsp; <b>Apellidos y Nombres</b> &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<br>
-  <code>u20241f246</code> &emsp;&emsp; Atauje Barreto, Alexander Sebastián<br>
-  <code>u202215188</code> &emsp;&emsp; Egocheaga Suyo, Miguel Angel &emsp;&emsp;&nbsp;<br>
-  <code>u202116018</code> &emsp;&emsp; Orellana Rodríguez, Mel Andree &emsp;&nbsp;&nbsp;<br>
-  <code>u20231h171</code> &emsp;&emsp; Vera Solsol, Nayely Macarena &emsp;&emsp;&nbsp;&nbsp;<br>
-  <code>u202318001</code> &emsp;&emsp; Raymundo Villarroel, Abigail Nadhim
+  <b>Código</b> &emsp;&emsp;&emsp;&emsp; <b>Apellidos y Nombres</b> &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<br>
+  <samp>u20241f246</samp> &emsp;&emsp; Atauje Barreto, Alexander Sebastián<br>
+  <samp>u202215188</samp> &emsp;&emsp; Egocheaga Suyo, Miguel Angel &emsp;&emsp;&nbsp;<br>
+  <samp>u202116018</samp> &emsp;&emsp; Orellana Rodríguez, Mel Andree &emsp;&nbsp;&nbsp;<br>
+  <samp>u20231h171</samp> &emsp;&emsp; Vera Solsol, Nayely Macarena &emsp;&emsp;&nbsp;&nbsp;<br>
+  <samp>u202318001</samp> &emsp;&emsp; Raymundo Villarroel, Abigail Nadhim
 </p>
 
 <p align="center">&nbsp;</p>
@@ -131,6 +131,16 @@
 | TB2 | 25/11/2026 | Atauje Barreto, Alexander Sebastián | Corrección de referencias Trello de los Sprints 1, 2 y 3; incorporación del resumen visual del Sprint 2; revisión de figuras, leyendas y capturas ampliables; conciliación de historias, tareas y estimaciones; y verificación de identificadores, mensajes y fechas de commits contra GitHub |
 | TB2 | 25/11/2026 | Atauje Barreto, Alexander Sebastián | Incorporación de la captura original de Trello del Sprint 2, actualización de T020 a In-Process, registro de la diferencia entre 32 tarjetas y 33 tareas, y enlaces a las capturas en el Anexo D |
 | TB2 | 26/11/2026 | Atauje Barreto, Alexander Sebastián | Actualización de 5.2.4.5 con los resultados de 45 pruebas del backend; corrección de enlaces de anexos y videos; retiro de anotaciones fuera del alcance asignado y de la captura duplicada del Sprint 4. |
+| TB2 | 26/11/2026 | Orellana Rodriguez, Mel Andree | Implementación de Sprint Planing 4 y Team Collaboration Insights  |
+| TB2 | 26/11/2026 | Orellana Rodriguez, Mel Andree | Implementación del Development Evidence for Sprint Review  |
+| TB2 | 26/11/2026 | Orellana Rodriguez, Mel Andree | Actualización de About the Team añadiendo las Fotos de las Reuniones  |
+| TB2 | 26/11/2026 | Orellana Rodriguez, Mel Andree | Actualización del About the Product implementando las reseñas positivas  |
+| TB2 | 26/11/2026 | Orellana Rodriguez, Mel Andree | Actualización del Trello Sprint 1, Sprint 2, Sprint 3 y Sprint 4  |
+
+
+
+
+
 
 ## Project Report Collaboration Insights
 
@@ -177,7 +187,7 @@ Repositorios del proyecto:
 |---|---|
 | Atauje Barreto, Alexander Sebastián | Capítulo I completo: Introduction, Startup Profile (Startup Description, Team Member Profiles), Solution Profile (Background & Problematic, Lean UX Process: Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas), Target Segments. Alineación del Alcance General del Proyecto (Contratación Digital, Seguimiento de Hitos/Trazabilidad y Conexión Directa entre Actores). Maquetación e implementación web de las secciones Services (HTML5 & CSS Grid Layout) y Milestones / How It Works (HTML5 & CSS Layout) de la Landing Page. Modularización de estilos, refactorización y gestión de ramas en GitHub (feature/services, feature/how-it-works). Responsable del área alerts-management en el desarrollo de la solución para la entrega TB1. Elaboración del material de exposición, grabación del video de presentación del equipo/producto y correcciones del informe. TB2: corrección de los enlaces de Trello y de la evidencia visual de los Sprints 1, 2 y 3, revisión de la trazabilidad entre historias y tareas, y verificación de los commits documentados en frontend y backend. |
 | Egocheaga Suyo, Miguel Angel | Domain-Driven Software Architecture (Chapter 4.6), Design-Level EventStorming, Software Architecture Context, Container and Component Diagrams, Software Object-Oriented Design, Class Diagrams, Database Design and Database Diagrams; Landing Page Header/Navbar and Hero Section implementation, responsive styles and navigation behavior (HTML5, CSS3 and JavaScript). TB1: desarrollo del bounded context escrow-payments de la aplicación web (bóveda, depósito y seguimiento de desembolsos por hito). AV2: desarrollo de escrow-payments en el backend (allpatek-platform), con el agregado Wallet, persistencia JPA, endpoints GET/POST /api/v1/wallets y PUT /api/v1/wallets/{id}, y el tag escrow en Swagger. |
-| Orellana Rodríguez, Mel Andree | Style Guidelines, General Style Guidelines, Web Style Guidelines, Information Architecture, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Web Applications UX/UI Design, Web Applications Wireframes, Web Applications Wireflow Diagrams, Web Applications Mock-ups, Web Applications User Flow Diagrams, Web Applications Prototyping,  Desarrollo del bounded context Shared, Desarrollo del bounded context agreements-management, Desarrollo de la estructura de Aplicación Web, Despliegue del Mock API en Azure, Correcciones en el Product Backlog, About the Product, About the Team, Sprint 3  |
+| Orellana Rodríguez, Mel Andree | Style Guidelines, General Style Guidelines, Web Style Guidelines, Information Architecture, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Web Applications UX/UI Design, Web Applications Wireframes, Web Applications Wireflow Diagrams, Web Applications Mock-ups, Web Applications User Flow Diagrams, Web Applications Prototyping, Desarrollo del bounded context Shared, Desarrollo del bounded context agreements-management, Desarrollo de la estructura de Aplicación Web, Despliegue del Mock API en Azure, Correcciones en el Product Backlog, About the Product (reseñas positivas), About the Team (fotos de reuniones), Sprint 3, Sprint Planning 4, Team Collaboration Insights, Development Evidence for Sprint Review, Actualización de tableros Trello (Sprints 1-4), Redacción de Sprint Goals y desglose de Sprint Backlogs |
 | Vera Solsol, Nayely Macarena | Impact Mapping, User Stories and Product Backlog (Chapter 3). Desarrollo del bounded context tracking-evidence de la aplicación web (capas de dominio, infraestructura, aplicación y presentación). Desarrollo e implementación integral del bounded context tracking-evidence en el backend (allpatek-platform), incluyendo sus capas de dominio, aplicación, infraestructura y la exposición de endpoints REST (/api/v1/evidence) para la gestión y trazabilidad de evidencias por hito. Documentación de la implementación del bounded context tracking-evidence en el backend y registro detallado de sus commits correspondientes al Sprint 3, elaboración de entrevistas y correcciones del report. |
 | Raymundo Villarroel, Abigail Nadhim | Requirements Elicitation & Analysis (Chapter 2): Competitors, Competitive Analysis Landscape & SWOT, Competitive Strategies and Tactics, Interviews (Design, Record and Analysis for both segments), User Personas, User Task Matrix, User Journey Mapping (As-Is), Empathy Mapping, Big Picture Event Storming (Mermaid), Ubiquitous Language; Landing Page Contact Section and Footer Section (HTML5 & CSS). TB1: desarrollo del bounded context parcel-management de la aplicación web (capas de dominio, infraestructura, aplicación y presentación) y correcciones del Capítulo II (Empathy Mapping, guías de entrevista, Event Storming y nomenclatura de assets). Desarrollo del bounded context parcel-management en el backend (allpatek-platform) y documentación de sus commits en Sprint 3. TB2: implementación de redes sociales y documentos legales (Términos y Condiciones y Política de Privacidad en PDF) en la Landing Page, sección de Anexos del informe (repositorios, despliegues, Trello, artefactos, videos, reportes de participación y usuarios de prueba) y estructura del Sprint 4 (5.2.4). |
 
@@ -383,6 +393,7 @@ Repositorios del proyecto:
              <li><b>AV2 - Vera Solsol, Nayely Macarena:</b> Exposición oral de la entrega AV2, explicando el desarrollo integral del bounded context <code>tracking-evidence</code> tanto en el backend (allpatek-platform, detallando sus capas de dominio, aplicación, infraestructura y los endpoints REST <code>/api/v1/evidence</code>) como en la aplicación web.</li>
            <li><b>TB2 - Atauje Barreto, Alexander Sebastián:</b> Preparación de la sustentación de las correcciones del Capítulo I, explicando las mejoras del proceso Lean UX y su alineación con la propuesta de valor de Allpatek, utilizando un lenguaje claro para diferentes audiencias.</li>
             <li><b>TB2 - Raymundo Villarroel, Abigail Nadhim:</b> Exposición oral de la entrega TB2, explicando mis avances y aportes: los iconos de redes sociales y los documentos legales de la Landing Page, los anexos del informe y la estructura del Sprint 4, con un lenguaje claro para evaluadores y audiencias no técnicas.</li>
+           <li><b>TB2 - Orellana Rodríguez, Mel Andree:</b> Sustentación oral de la arquitectura de software, los bounded contexts implementados (Shared y agreements-management) y los avances de los Sprints ante audiencia técnica y académica, así como conducción de entrevistas de validación con agricultores familiares y comerciantes urbanos adaptando el mensaje a un lenguaje claro y accesible.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
@@ -417,6 +428,7 @@ Repositorios del proyecto:
             <li><b>AV2 - Egocheaga Suyo, Miguel Angel:</b> Documenté el bounded context escrow-payments en el backend. Dejé el agregado Wallet, la tabla wallets y los endpoints GET/POST /api/v1/wallets y PUT /wallets/{id} para consultar el monto de demostración y la tarjeta. También puse el tag escrow en Swagger y completé mis filas AV2 en el Registro de Versiones.</li>
             <li><b>TB2 - Atauje Barreto, Alexander Sebastián:</b> Corrección y actualización del Capítulo I según la retroalimentación del docente, incluyendo la traducción al español de los enunciados del problema y las nueve hipótesis, la mejora de los supuestos Lean UX y la ampliación de información sobre la custodia Escrow, los pagos por hitos, las evidencias agrícolas, las alertas climáticas y la trazabilidad. Asimismo, se mejoró la redacción y coherencia del informe, registrando los cambios mediante commits descriptivos en GitHub. En la revisión del 26/11/2026 se documentaron respuestas HTTP y límites de acceso de los anexos, se distinguieron evidencias históricas de comprobaciones nuevas y se registraron los casos del Sprint 4 que aún requieren ejecución y capturas.</li>
             <li><b>TB2 - Raymundo Villarroel, Abigail Nadhim:</b> Redacción de los Términos y Condiciones y la Política de Privacidad de la Landing Page en español e inglés, y de la sección de Anexos del informe (repositorios, enlaces de despliegue, Trello, artefactos, videos y usuarios de prueba), además de la estructura del Sprint 4, con commits descriptivos para perfiles técnicos y de negocio.</li>
+           <li><b>TB2 - Orellana Rodríguez, Mel Andree:</b> Redacción de documentación técnica y de gestión del proyecto (especificaciones de arquitectura, contratos de servicio en OpenAPI, Sprint Plannings, Sprint Backlogs y evidencias de desarrollo) dirigida al equipo y audiencia académica, así como elaboración de Sprint Goals, guías de validación y contenidos informativos de la plataforma redactados en lenguaje claro y orientado al negocio para agricultores familiares y comerciantes urbanos.</li>
           </ul>
         </td>
         <td style="border: 1px solid #dddddd; padding: 10px; vertical-align: top;">
@@ -4311,39 +4323,36 @@ Los cinco salen en Insights del repositorio. El pico de commits cae entre finale
   </tr>
   <tr>
     <td colspan="5">Date</td>
-    <td colspan="8"></td>
+    <td colspan="8">2026-11-24</td>
   </tr>
   <tr>
     <td colspan="5">Time</td>
-    <td colspan="8"></td>
+    <td colspan="8">5:00 PM</td>
   </tr>
   <tr>
     <td colspan="5">Location</td>
-    <td colspan="8"></td>
+    <td colspan="8">Reuniones Presenciales (Biblioteca)</td>
   </tr>
   <tr>
     <td colspan="5">Prepared By</td>
-    <td colspan="8"></td>
+    <td colspan="8">Orellana Rodríguez, Mel Andree</td>
   </tr>
   <tr>
     <td colspan="5">Attendees (to planning meeting)</td>
-    <td colspan="8"></td>
+  <td colspan="8"> Alexander Sebastián, Miguel Angel, Mel Andree, Abigail Nadhim, Nayely  Macarena</td>
   </tr>
   <tr>
     <td colspan="5">Sprint 3 Review Summary</td>
-    <td colspan="8"></td>
-  </tr>
+<td colspan="8">Se publicaron los servicios internos en Spring Boot y MySQL junto con su documentación OpenAPI para parcelas, acuerdos, custodia Escrow, evidencias y alertas climáticas, y se realizaron entrevistas de validación con agricultores y comerciantes. No obstante, la revisión docente de TB2 señaló observaciones de modelado, arquitectura y evidencia que deben cerrarse en este último sprint: alinear los integrantes en la carátula; traducir los Hypothesis Statements al español y alinear el Lean UX Canvas con las etapas previas; ampliar los eventos del Design-Level Event Storming; incluir la aplicación web en el diagrama C4 de contenedores y añadir los diagramas de componentes por cada bounded context; estructurar los diagramas de clases por capas iniciando por la capa de dominio; corregir la notación del diagrama de base de datos; redactar los Sprint Goals en español con enfoque de negocio y métricas de cumplimiento; desglosar cada User Story en múltiples tareas en los Sprint Backlogs; incorporar enlaces de redes sociales en la Landing Page; equilibrar los commits de todos los integrantes en el repositorio de la Web App; incluir enlaces de despliegue y usuarios de prueba por segmento en los anexos; y actualizar los videos con testimonios positivos y evidencias de reunión presencial.</td>  </tr>
   <tr>
     <td colspan="5">Sprint 3 Retrospective Summary</td>
-    <td colspan="8"></td>
-  </tr>
+<td colspan="8">El equipo acordó subsanar al 100 % las observaciones de TB2 antes del cierre del Sprint 4: ajustar la alineación de la carátula; traducir los Hypothesis Statements al español y sincronizar el Lean UX Canvas; enriquecer el Design-Level Event Storming con eventos de dominio completos; actualizar los diagramas C4 (contenedores con Web App y componentes por bounded context), los diagramas de clases por capas partiendo del dominio y la notación del modelo de base de datos; reescribir los Sprint Goals con enfoque comercial y desglosar todas las User Stories en múltiples tareas técnicas; añadir enlaces sociales a la Landing Page; distribuir equitativamente los commits en el repositorio frontend; incluir los accesos y credenciales de prueba por segmento en los anexos; y grabar los nuevos segmentos para los videos About the Product y About the Team.</td>  </tr>
   <tr>
     <td colspan="13"><strong>Sprint Goal & User Stories</strong></td>
   </tr>
   <tr>
     <td colspan="5">Sprint 4 Goal</td>
-    <td colspan="8">Incorporar la gestión de identidad y acceso (IAM con JWT y perfiles) en allpatek-platform y conectar la Web App al API publicado, de modo que cada bounded context opere con el usuario autenticado.</td>
-  </tr>
+<td colspan="8">Nuestro enfoque está en habilitar el acceso personalizado y seguro de cada usuario según su perfil, integrando de extremo a extremo la reserva de parcelas, la contratación digital y la liberación de pagos por hitos aprobados. Creemos que esto aporta una experiencia comercial fluida, autónoma y confiable que facilita el abastecimiento directo entre el campo y la ciudad. Esto se confirmará cuando el 100 % de los agricultores familiares y comerciantes urbanos puedan ingresar con su propia cuenta y completar de principio a fin los flujos críticos de una campaña agrícola sin intermediarios.</td>  </tr>
   <tr>
     <td colspan="5">Sprint 4 Velocity</td>
     <td colspan="8">16 Story Points</td>
