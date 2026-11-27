@@ -5215,7 +5215,8 @@ Video **About-the-Team**: el equipo TerraNova cuenta quién hizo qué en Allpate
     
 | Tipo | Enlace del Video |
 | :--- | :--- |
-| **About the Team (YouTube)** | <a href="https://www.youtube.com/watch?v=HGon8P2sQRE">Ver About the Team</a> |
+| **About the Team (YouTube)** | <a href="https://www.youtube.com/watch?v=xTczyWsnCy0">Ver About the Team</a> |
+| **About the Team (Microsoft Stream)** | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQAZ556NOz08Q7a5o8uGTcrwAa3O22HYIFnz-YZD-E8xArg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;e=YpvRss">Ver About the Team</a> |
 
 
     
@@ -5381,7 +5382,7 @@ Videos de validación de la aplicación y videos institucionales sobre el produc
 | **App Validation (2)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQDhDCYqAhxbSKhg92qWZNqhAYT4gneD9GoPPK-jzUowbr8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vkukAa">Ver sesión de validación 2</a> |
 | **App Validation (3)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQA3Ki7VhhDdQIWWQzMUBKdlAX8OWAtP6xUPKwXCyBXh3w0?e=9NLXS5">Ver sesión de validación 3</a> |
 | **About the Product** | About the product | <a href="https://www.youtube.com/watch?v=se1KsUnUtmI">Ver en YouTube</a> |
-| **About the Team** | About the team | <a href="https://www.youtube.com/watch?v=HGon8P2sQRE">Ver en YouTube</a> |
+| **About the Team** | About the team | <a href="https://www.youtube.com/watch?v=xTczyWsnCy0">Ver en YouTube</a><br><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQAZ556NOz08Q7a5o8uGTcrwAa3O22HYIFnz-YZD-E8xArg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;e=YpvRss">Ver en Microsoft Stream</a> |
 
 </div>
 
