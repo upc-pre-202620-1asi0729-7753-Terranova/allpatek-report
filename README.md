@@ -2447,8 +2447,9 @@ Las herramientas se organizan según las principales actividades del ciclo de vi
 
 ### Product UX/UI Design
 
-* **Figma:** Es la herramienta principal para el diseño de la interfaz de usuario (UI) y la experiencia de usuario (UX). Se emplea para construir wireframes, prototipos interactivos y el sistema de diseño (*Design System*) alineado a los flujos y casos de uso definidos por el dominio en Angular.
-* **Miro:** Se utiliza como pizarra virtual colaborativa para facilitar dinámicas de *Event Storming*, mapeo de contextos delimitados (*Context Mapping*), modelado de flujos de navegación y diagramación conceptual del dominio previa a la implementación.
+- **Figma:** Es la herramienta principal para el diseño de la interfaz de usuario (UI) y la experiencia de usuario (UX). Se emplea para construir wireframes, prototipos interactivos y el sistema de diseño (*Design System*) alineado a los flujos y casos de uso definidos por el dominio en Angular.
+- **Miro:** Se utiliza como pizarra virtual colaborativa para facilitar dinámicas de *Event Storming*, mapeo de contextos delimitados (*Context Mapping*), modelado de flujos de navegación y diagramación conceptual del dominio previa a la implementación.
+- **Adobe (Creative Cloud):** Se emplea para el diseño de la identidad visual de marca, creación de logotipos, iconografía personalizada y edición de recursos gráficos y multimedia utilizados tanto en la plataforma como en el material audiovisual del proyecto.
 
 ### Software Development
 
@@ -2461,14 +2462,16 @@ Las herramientas se organizan según las principales actividades del ciclo de vi
 
 ### Software Deployment
 
-* **GitHub Pages / Vercel / Netlify:** Servicios utilizados para el despliegue y alojamiento de la Landing Page y la aplicación frontend construida en Angular, garantizando un acceso rápido y disponibilidad pública.
-* **Railway / Render:** Plataformas PaaS en la nube utilizadas para el despliegue del entorno backend en Java y la base de datos relacional, permitiendo la exposición de las APIs REST a través de endpoints seguros en producción.
 
+- **GitHub Pages:** Servicio utilizado para el despliegue y alojamiento estático de la Landing Page de Allpatek, garantizando disponibilidad pública y acceso rápido para los visitantes interesados.
+- **Netlify:** Plataforma utilizada para el despliegue continuo y alojamiento de la aplicación web frontend desarrollada en Angular (`allpatek-webapp`), optimizando la entrega de activos y el enrutamiento SPA.
+- **Microsoft Azure:** Servicio en la nube utilizado para el alojamiento y exposición pública del entorno Mock API (`allpatek-platform-mock`), permitiendo validar la integración frontend-backend en etapas tempranas.
+- **Servidor Propio :** Servidor propio administrado con Proxmox y una máquina virtual Linux donde corren el backend en Spring Boot y la base de datos MySQL. Se apoya en Nginx como proxy para publicar los servicios y en  GitHub Actions para automatizar las actualizaciones.
+  
 ### Software Documentation
 
 * **Markdown:** Es el lenguaje de marcado ligero utilizado como estándar para la redacción colaborativa y estructurada de toda la documentación técnica del proyecto, incluyendo la especificación del Lenguaje Ubicuo (*Ubiquitous Language*), informes técnicos, guías del sistema y entregables académicos en el repositorio.
 * **Swagger / Open API:** Herramienta integrada en el backend en Java para la documentación y prueba interactiva de las APIs RESTful expuestas por cada *Bounded Context*. Permite visualizar los endpoints, esquemas de DTOs y probar los servicios directamente desde una interfaz web.
-* **Postman:** Utilizado para la realización de pruebas de integración y validación manual de los servicios REST antes de ser consumidos por la aplicación en Angular.
 
 
 
