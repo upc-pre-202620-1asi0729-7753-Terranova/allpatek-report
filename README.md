@@ -1112,21 +1112,24 @@ A continuación, se presentan los User Personas diseñados para representar a lo
 
 ### 2.3.2. User Task Matrix
 
-A través de la User Task Matrix, es posible identificar y organizar las principales actividades que los usuarios realizan actualmente dentro de su contexto de trabajo, de forma independiente a la existencia de Allpatek. Al categorizar estas tareas según su frecuencia e importancia, se logra comprender cuáles representan mayores dificultades y necesidades para cada perfil de usuario, permitiendo detectar oportunidades de mejora en la relación comercial entre agricultores familiares y compradores urbanos.
+En esta sección se detallan las actividades cotidianas que realizan los usuarios de nuestros dos segmentos objetivo para sacar adelante su trabajo, sin depender de ninguna herramienta digital: los **agricultores familiares** (representados por *Gustavo Adolfo Suyo*) y los **compradores urbanos o comerciantes** (representados por *Irma Barreto Castro*). Clasificar estas tareas según qué tan seguido las hacen y qué tanto peso tienen en su día a día nos permite ver dónde pierden más tiempo o asumen mayores riesgos al negociar entre el campo y la ciudad.
 
-| **User Task** | **Gustavo Adolfo Suyo (Frecuencia)** | **Gustavo Adolfo Suyo (Importancia)** | **Irma Barreto Castro (Frecuencia)** | **Irma Barreto Castro (Importancia)** |
+| User Task | Gustavo Adolfo Suyo (Frecuencia) | Gustavo Adolfo Suyo (Importancia) | Irma Barreto Castro (Frecuencia) | Irma Barreto Castro (Importancia) |
 |---|---|---|---|---|
-| Buscar información sobre precios antes de vender/comprar | Often | High | Often | High |
-| Coordinar pedidos o ventas por WhatsApp | Often | High | Often | High |
-| Verificar la calidad, frescura u origen del producto antes de aceptarlo | Sometimes | High | Often | High |
-| Comprar/vender a proveedores o compradores conocidos por costumbre | Often | Medium | Often | High |
-| Registrar información del cultivo/pedido en cuadernos u hojas físicas | Often | High | Sometimes | Medium |
-| Informarse sobre el clima antes de tomar decisiones de siembra o cosecha | Sometimes | High | Rarely | Low |
-| Firmar acuerdos o compromisos de forma manual (papel o verbal) | Rarely | Medium | Rarely | Medium |
-| Buscar alternativas cuando el precio no es favorable | Sometimes | High | Often | Medium |
-| Controlar el presupuesto o gasto de la temporada/semana | Sometimes | Medium | Often | High |
+| Buscar información sobre precios antes de vender/comprar | Frecuente | Alta | Frecuente | Alta |
+| Coordinar pedidos o ventas por WhatsApp | Frecuente | Alta | Frecuente | Alta |
+| Verificar la calidad, frescura u origen del producto antes de aceptarlo | A veces | Alta | Frecuente | Alta |
+| Comprar/vender a proveedores o compradores conocidos por costumbre | Frecuente | Media | Frecuente | Alta |
+| Registrar información del cultivo/pedido en cuadernos u hojas físicas | Frecuente | Alta | A veces | Media |
+| Informarse sobre el clima antes de tomar decisiones de siembra o cosecha | A veces | Alta | Rara vez | Baja |
+| Firmar acuerdos o compromisos de forma manual (papel o verbal) | Rara vez | Media | Rara vez | Media |
+| Buscar alternativas cuando el precio no es favorable | A veces | Alta | Frecuente | Media |
+| Controlar el presupuesto o gasto de la temporada/semana | A veces | Media | Frecuente | Alta |
 
-La matriz se construyó a partir de las entrevistas a Gustavo Adolfo Suyo (Segmento 1: Agricultor Familiar) e Irma Barreto Castro (Segmento 2: Comprador Urbano). Muestra que la coordinación de pedidos por WhatsApp, la búsqueda de información de precios y la verificación de calidad u origen son tareas frecuentes y de alta importancia, especialmente para la compradora. Para el agricultor, destacan el registro manual de información del cultivo y la búsqueda de información del clima antes de decidir la siembra o la cosecha. En ambos casos, la firma de acuerdos de forma manual o verbal es una tarea poco frecuente, lo que evidencia que hoy los acuerdos se cierran sin un respaldo formal. La matriz se validará y ajustará con las entrevistas restantes de cada segmento.
+Al revisar los resultados obtenidos tras las entrevistas con ambos perfiles, encontramos puntos en común muy claros. Tanto Gustavo como Irma coinciden en que consultar precios antes de negociar y coordinar los pedidos por WhatsApp son tareas de todos los días y críticas para su negocio (Frecuente / Alta). Asimismo, ambos casi nunca firman un contrato o acuerdo formal (Rara vez), lo que confirma que hoy cierran sus tratos de palabra y sin respaldo si algo sale mal.
+
+Por otro lado, sus rutinas se diferencian según el rol que cumplen en la cadena. Para Gustavo (agricultor), lo más delicado es anotar los datos de su campaña en cuadernos físicos y revisar el pronóstico del clima antes de decidir cuándo sembrar o cosechar. En cambio, para Irma (compradora urbana), lo más urgente y constante es verificar la frescura y calidad de la mercadería al recibirla, trabajar con caseros de confianza y controlar su presupuesto semanal para no perder margen de ganancia.
+
 
 ### 2.3.3. User Journey Mapping
 
