@@ -4545,29 +4545,29 @@ En el Sprint 4 se implementó la gestión de identidad y acceso (IAM con JWT y p
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
-**Ejecución local de pruebas del backend — 26/11/2026**
+Durante el presente Sprint se consolidó la integración completa (*end-to-end*) entre el frontend desarrollado en Angular (desplegado en Netlify) y los servicios RESTful del backend en Spring Boot desplegados en producción (`https://allpatek.proyectaconsultora.com`). Se implementaron y validaron los módulos de autenticación mediante JWT, gestión de perfiles de agricultores y comerciantes, y el ciclo de vida completo (CRUD) de parcelas agrícolas. Asimismo, se verificó que los registros persistidos en la base de datos relacional desde la API se rendericen dinámicamente en la interfaz de usuario con soporte bilingüe (ES/EN).
 
-| Versión y entorno | Resultado |
-| :--- | :--- |
-| Repositorio | [allpatek-platform](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform) |
-| Commit ejecutado | [2390a37](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/2390a372504f57ed4bd2ab90055d7b390b181bae) |
-| Rama | feature/alerts-management-correction |
-| Entorno | Java 27, Spring Boot 4.1.2, perfil test y base de datos H2 |
-| Comando ejecutado | `mvn -B clean verify` |
-| Resultado de Maven | BUILD SUCCESS |
-| Pruebas ejecutadas | 45 |
-| Fallos, errores y pruebas omitidas | 0 |
+A continuación, se presentan las evidencias de ejecución de las principales vistas y endpoints implementados:
 
-| Caso probado | Resultado obtenido | Prueba |
-| :--- | :--- | :--- |
-| Acceso a alertas sin autenticación | HTTP 401 | [Seguridad](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/blob/2390a372504f57ed4bd2ab90055d7b390b181bae/src/test/java/com/allpatekplatform/alerts/integration/AlertsSecurityAndPersistenceTest.java) |
-| Cuenta autenticada de prueba sin perfil | HTTP 404, código PROFILE_NOT_FOUND | [Perfil y acceso](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/blob/2390a372504f57ed4bd2ab90055d7b390b181bae/src/test/java/com/allpatekplatform/alerts/integration/AlertsSecurityAndPersistenceTest.java) |
-| Consulta de parcelas por propietario | La consulta excluyó las parcelas de otros propietarios | [Consulta en H2](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/blob/2390a372504f57ed4bd2ab90055d7b390b181bae/src/test/java/com/allpatekplatform/alerts/integration/AlertsSecurityAndPersistenceTest.java) |
-| Temperatura mínima de 0 °C | Se conservó el valor y se generó la alerta de helada | [Lecturas de cero](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/blob/2390a372504f57ed4bd2ab90055d7b390b181bae/src/test/java/com/allpatekplatform/alerts/infrastructure/weather/ZeroWeatherReadingTest.java) |
-| Coordenadas inválidas | Se rechazaron valores no finitos y fuera de rango | [Coordenadas](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/blob/2390a372504f57ed4bd2ab90055d7b390b181bae/src/test/java/com/allpatekplatform/alerts/domain/model/valueobjects/GeoPointTest.java) |
-| Datos meteorológicos ausentes | Se rechazó la lectura incompleta | [Validación meteorológica](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/blob/2390a372504f57ed4bd2ab90055d7b390b181bae/src/test/java/com/allpatekplatform/alerts/infrastructure/weather/CurrentWeatherValidationTest.java) |
+- **Arquitectura de Endpoints RESTful en Producción (Swagger UI):** Vista general de la documentación interactiva OpenAPI con los controladores implementados para gestión de usuarios (`Users`), emisión de tokens JWT (`Tokens`), perfiles (`Profiles`), roles (`Roles`), billetera en custodia (`escrow`) y gestión de parcelas (`parcels`).
+ <img src="assets/chapter-05/swagger-mod-06.png" alt="swagger-mod-06" width="900" />
 
-[Resultados por clase de prueba](assets/chapter-05/sprint-04-backend-tests.txt).
+- **Validación de Autenticación (`POST /api/v1/tokens`):** Prueba de integración del servicio de inicio de sesión mediante credenciales de usuario (`username` y `password`) para la validación de formato y emisión del token de acceso Bearer.
+ <img src="assets/chapter-05/swagger-mod-01.png" alt="swagger-mod-06" width="900" />
+
+- **Consulta de Perfil Autenticado (`GET /api/v1/profiles/me`):** Verificación de respuesta exitosa (`200 OK`) retornando los datos del perfil activo del agricultor autenticado mediante cabecera `Authorization: Bearer`.
+ <img src="assets/chapter-05/swagger-mod-02.png" alt="swagger-mod-06" width="900" />
+
+- **Registro de Parcelas Agrícolas (`POST /api/v1/parcels`):** Envío de payload estructurado en formato JSON con información agronómica (área, coordenadas geográficas, tipo de suelo, costo de campaña y cultivos) para la creación de nuevas parcelas en la plataforma.
+ <img src="assets/chapter-05/swagger-mod-03.png" alt="swagger-mod-06" width="900" />
+
+- **Listado de Parcelas Persistidas (`GET /api/v1/parcels`):** Validación de respuesta exitosa (`200 OK`) devolviendo el arreglo de parcelas almacenadas en el servidor (`PA-01`, `PA-02`, entre otras) listas para ser consumidas por la aplicación cliente.
+ <img src="assets/chapter-05/swagger-mod-05.png" alt="swagger-mod-06" width="900" />
+
+- **Vista Principal de Gestión de Parcelas Agrícolas (Frontend):** Interfaz web implementada en Angular donde el usuario con rol *Agricultor* visualiza, administra, edita y publica sus parcelas registradas (*Quinua Organica Junin*, *Cafe Especial Villa Rica* y *Maiz Blanco Urubamba*) sincronizadas en tiempo real con el backend.
+ <img src="assets/chapter-05/swagger-mod-05.png" alt="swagger-mod-06" width="900" />
+
+
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
