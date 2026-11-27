@@ -5259,6 +5259,8 @@ Video **About-the-Product**: demo de Allpatek (catálogo de parcelas, clima, ace
 | Tipo | Enlace del Video |
 | :--- | :--- |
 | **About the Product (YouTube)** | <a href="https://www.youtube.com/watch?v=se1KsUnUtmI">Ver About the Product</a> |
+| **About the Product (Microsoft Stream)** | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQBjoFXsy1XOTZzY_L08Ps3OAQjs3OMtjF0pjF8OC38QGwk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tSZGKT">Ver About the Product</a> |
+
 
     
 </div>
@@ -5304,8 +5306,8 @@ Video **About-the-Team**: el equipo TerraNova cuenta quién hizo qué en Allpate
     
 | Tipo | Enlace del Video |
 | :--- | :--- |
-| **About the Team (YouTube)** | <a href="https://www.youtube.com/watch?v=xTczyWsnCy0">Ver About the Team</a> |
-| **About the Team (Microsoft Stream)** | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQAZ556NOz08Q7a5o8uGTcrwAa3O22HYIFnz-YZD-E8xArg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;e=YpvRss">Ver About the Team</a> |
+| **About the Team (YouTube)** | <a href="https://youtu.be/A21O5V0Lg9M">Ver About the Team</a> |
+| **About the Team (Microsoft Stream)** | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQA518jIj7mNSL1Y-mU3XkJNAbZQB-AB4fLiWgRK-5NOgVw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7M7tir">Ver About the Team</a> |
 
 
     
@@ -5451,8 +5453,8 @@ Videos de navegación de los prototipos y evidencia de ejecución del Sprint 1:
 
 | Video | Tipo | Enlace |
 | :--- | :---: | :---: |
-| **Navegación del prototipo Desktop** | Prototypes | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQDF54TKL6PlS58DK7p4wuJAAQiikz0rs6edE33i_ATjpPk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7pTDmu">Ver navegación del prototipo Desktop</a> |
-| **Navegación del prototipo Mobile** | Prototypes | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQAF9cog3awORKq4HYfc7F9uAa-vd6s6V_oT3BiDwhjeADQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y3j1dP">Ver navegación del prototipo Mobile</a> |
+| **Navegación del prototipo Desktop** | Prototypes | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQDF54TKL6PlS58DK7p4wuJAAQiikz0rs6edE33i_ATjpPk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7pTDmu">Ver navegación del Prototipo</a> |
+| **Navegación del prototipo Mobile** | Prototypes | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQAF9cog3awORKq4HYfc7F9uAa-vd6s6V_oT3BiDwhjeADQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Y3j1dP">Ver navegación del Prototipo</a> |
 | **Evidencia de ejecución del Sprint 1** | Sprint | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQApudu7-aW0R6zofbarn9-pAd96aUTXm_GwyTKAwac5l90?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7oUJHv">Ver ejecución histórica del Sprint 1</a> |
 
 </div>
