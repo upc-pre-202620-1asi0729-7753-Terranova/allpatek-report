@@ -5280,6 +5280,8 @@ Repositorios del proyecto **ALLPATEK**:
 
 Enlaces de los productos digitales de **ALLPATEK**:
 
+<div align="center">
+
 | Producto | Plataforma | Enlace |
 | :--- | :--- | :--- |
 | **Landing Page** | GitHub Pages | [ALLPATEK](https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/) |
@@ -5287,6 +5289,8 @@ Enlaces de los productos digitales de **ALLPATEK**:
 | **API REST** | Backend | [API v1](https://allpatek.proyectaconsultora.com/api/v1) |
 | **Swagger UI** | Backend | [Documentación de servicios](https://allpatek.proyectaconsultora.com/swagger-ui/index.html) |
 | **Mock API** | Azure App Service | [Mock API](https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/) |
+
+</div>
 
 ---
 
