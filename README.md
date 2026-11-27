@@ -5245,12 +5245,16 @@ Tambet, H., & Stopnitzky, Y. (2021). Climate adaptation and conservation agricul
 
 Registros de participación del equipo **TerraNova** por entrega:
 
+<div align="center">
+
 | Entrega | Identificador del reporte |
 | :---: | :--- |
 | **AV1** | upc-pre-202620-1asi0729-7753-terranova-performance-av1 |
 | **TB1** | upc-pre-202620-1asi0729-7753-terranova-performance-tb1 |
 | **AV2** | upc-pre-202620-1asi0729-7753-terranova-performance-av2 |
 | **TB2** | upc-pre-202620-1asi0729-7753-terranova-performance-tb2 |
+
+</div>
 
 ---
 
