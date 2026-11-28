@@ -2395,6 +2395,10 @@ Las figuras cubren los contextos del backend y los módulos correspondientes de 
 
 *Figura 4.7.1-G. Clases de cuentas, roles y autenticación.* [Ampliar en SVG](assets/chapter-04/architecture/classes-iam.svg) · [Fuente PlantUML](assets/chapter-04/architecture/classes-iam.puml).
 
+![Figura 4.7.1-H. Adaptadores de seguridad de IAM](assets/chapter-04/architecture/classes-iam-security.png)
+
+*Figura 4.7.1-H. Validación del token y recuperación de autoridades.* [Ampliar en SVG](assets/chapter-04/architecture/classes-iam-security.svg) · [Fuente PlantUML](assets/chapter-04/architecture/classes-iam-security.puml).
+
 ## 4.8. Database Design
 
 La plataforma conserva perfiles, parcelas, acuerdos, billeteras y evidencias en MySQL. Los modelos físicos se deducen de las entidades JPA de `a2b0269`, sus atributos embebidos y la estrategia que convierte los nombres a plural. Las lecturas de clima se calculan al consultar el pronóstico. La sesión de demostración se conserva en el navegador.
