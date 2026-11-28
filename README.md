@@ -2158,7 +2158,7 @@ El [Big Picture del capítulo II](#24-big-picture-event-storming) sigue la tempo
 
 *Figura 4.6.1. El ciclo de temporada del Big Picture y las decisiones que se detallan en este capítulo.* [Ampliar en SVG](assets/chapter-04/architecture/01c-season-lifecycle.svg) · [Fuente PlantUML](assets/chapter-04/architecture/01c-season-lifecycle.puml).
 
-**Comportamiento en Spring.** Al guardar el acuerdo, el adaptador compara las aceptaciones anteriores con las actuales. En la primera transición a dos aceptaciones, el agregado registra `AgreementFullySignedEvent`. La aplicación publica un evento de integración y Parcelas intenta marcar la parcela como `in_production`. Un identificador de parcela sin coincidencia se registra en el log. La confirmación bancaria y la emisión de un PDF quedan fuera de este recorrido. Seguimiento y Bóveda guardan datos sin publicar eventos de desembolso.
+**Comportamiento en Spring.** Profiles publica la creación de perfil y Escrow evalúa si corresponde abrir una billetera. La primera vez que un acuerdo queda con ambas firmas, Acuerdos comunica el hecho a Parcelas para que pase a producción. Seguimiento publica eventos al verificar y liberar evidencia. Escrow escucha la liberación, consulta a Acuerdos por el comerciante e intenta acreditar S/ 250 en su billetera de demostración. La verificación tiene evento de integración propio y no se encontró un consumidor en esta revisión.
 
 ![Figura 4.6.1-A. Comandos, eventos y consultas presentes en Spring](assets/chapter-04/architecture/01-eventstorming.png)
 

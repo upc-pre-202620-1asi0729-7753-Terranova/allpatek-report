@@ -2,106 +2,29 @@
 !pragma layout smetana
 skinparam backgroundColor white
 skinparam defaultFontName SansSerif
-skinparam defaultFontSize 13
+skinparam defaultFontSize 14
 skinparam shadowing false
-skinparam ArrowColor #476050
-skinparam RectangleBorderColor #5D6D67
-skinparam wrapWidth 200
-skinparam dpi 135
+skinparam dpi 120
+title Allpatek | Implemented commands, aggregates and event policies
+skinparam LegendBackgroundColor white
+skinparam LegendFontSize 14
+legend center
+|<#FFE0E9> Actor or trigger |<#D9EBFF> Command / context |<#FFF0B6> Aggregate |<#FFD4AC> Fact / domain event |<#E5D9EF> Policy / consumer |<#E4F2E3> Read model |
+| Visitor | SignUpCommand / IAM | User | Account saved (state) | Resolve roles and hash password | UserResource |
+| Account | CreateProfileCommand / Profiles | Profile | ProfileCreatedEvent | Publish ProfileCreatedIntegrationEvent | Current profile |
+| Profile created | CreateWalletByProfileIdCommand / Escrow | Wallet | Demo wallet available (state) | Company or RUC present; reuse existing wallet | Wallet amount |
+| Farmer | CreateParcelCommand / Parcels | Parcel | Parcel saved (state) | Prefer authenticated profile as owner | Parcel catalog |
+| Merchant | SaveAgreementCommand / Agreements | Agreement | Merchant acceptance saved (state) | Show agreement for review | Agreement detail |
+| Farmer | SignFarmerCommand / Agreements | Agreement | AgreementFullySignedEvent | First complete signatures → integration event | Signature flags |
+| Agreement fully signed | MarkParcelInProductionCommand / Parcels | Parcel | Parcel in production (state) | Missing parcel: log failure | Parcel status |
+| Farmer | SaveEvidenceCommand / Tracking | MilestoneEvidence | Evidence stored (state) | Present milestone for review | Evidence list |
+| Merchant | VerifyEvidenceCommand / Tracking | MilestoneEvidence | EvidenceVerifiedEvent | Publish EvidenceVerifiedIntegrationEvent | Verified milestone |
+| Merchant | ReleaseEvidenceCommand / Tracking | MilestoneEvidence | EvidenceReleasedEvent | Publish EvidenceReleasedIntegrationEvent | Accepted milestone |
+| Evidence released | CreditWalletCommand / Escrow | Wallet | Demo balance credited (state) | Resolve merchant via Agreements; log missing target | Wallet amount |
+| Account | GetClimateAlertsQuery / Alerts | ClimateReading (computed) | Query only | Resolve owner; request Open-Meteo for locations | Climate readings |
 
-title Allpatek | Design-Level EventStorming (allpatek-platform)
-left to right direction
-
-rectangle "Farmer" as farmer #F8BBD0
-rectangle "Merchant" as merchant #F8BBD0
-
-package "parcels" #F7FAF8 {
-  rectangle "CreateParcelCommand\nUpdateParcelCommand\nDeleteParcelCommand" as parcelCmd #64B5F6
-  rectangle "Parcel" as parcelAgg #FFEE58
-  rectangle "GetAllParcelsQuery" as parcelQ #81C784
-  rectangle "MarkParcelInProductionCommand" as markCmd #64B5F6
-}
-
-package "agreements" #F7FAF8 {
-  rectangle "SaveAgreementCommand\nmerchantSigned\nfarmerSigned" as agrCmd #64B5F6
-  rectangle "DeleteAgreementCommand" as agrDel #64B5F6
-  rectangle "Agreement" as agrAgg #FFEE58
-  rectangle "AgreementFullySignedEvent" as agrEvt #FF9800
-  rectangle "AgreementFullySigned\nIntegrationEvent" as agrInt #FF9800
-  rectangle "Whenever AgreementFullySignedIntegrationEvent\nthen MarkParcelInProductionCommand" as policy #CE93D8
-  rectangle "GetAllAgreementsQuery" as agrQ #81C784
-}
-
-package "tracking" #F7FAF8 {
-  rectangle "SaveEvidenceCommand\nstatus: review | verified | accepted" as evCmd #64B5F6
-  rectangle "DeleteEvidenceCommand" as evDel #64B5F6
-  rectangle "MilestoneEvidence" as evAgg #FFEE58
-  rectangle "GetAllEvidenceQuery" as evQ #81C784
-}
-
-package "escrow" #F7FAF8 {
-  rectangle "SaveWalletCommand" as wCmd #64B5F6
-  rectangle "DeleteWalletCommand" as wDel #64B5F6
-  rectangle "Wallet" as wAgg #FFEE58
-  rectangle "GetAllWalletsQuery" as wQ #81C784
-}
-
-package "alerts" #F7FAF8 {
-  rectangle "GetClimateAlertsQuery" as alQ #81C784
-  rectangle "ClimateReading" as climate #81C784
-  rectangle "ClimateQueryServiceImpl" as climateSvc #DBE8EF
-}
-
-package "shared" #F7FAF8 {
-  rectangle "UpdateProfileCommand" as pCmd #64B5F6
-  rectangle "Profile" as pAgg #FFEE58
-  rectangle "GetAllProfilesQuery\nGetProfileByIdQuery" as pQ #81C784
-}
-
-rectangle "Open-Meteo" as meteo #F48FB1
-
-farmer --> parcelCmd
-parcelCmd --> parcelAgg
-parcelQ ..> parcelAgg : reads
-
-farmer --> agrCmd
-merchant --> agrCmd
-agrCmd --> agrAgg
-agrDel --> agrAgg
-agrAgg --> agrEvt : onFullySigned()\nincomplete to complete (per saved agreement)
-agrEvt --> agrInt : AgreementFullySignedEventHandler
-agrInt --> policy
-policy --> markCmd
-markCmd --> parcelAgg : markInProduction()\nParcelStatus.in_production
-agrQ ..> agrAgg : reads
-
-farmer --> evCmd
-merchant --> evCmd
-evCmd --> evAgg
-evDel --> evAgg
-evQ ..> evAgg : reads
-
-merchant --> wCmd
-wCmd --> wAgg
-wDel --> wAgg
-wQ ..> wAgg : reads
-
-farmer --> alQ
-alQ --> climateSvc : handled by
-climateSvc ..> parcelAgg : reads via ParcelsContextFacade
-climateSvc --> meteo : forecasts via WeatherForecastService
-climateSvc --> climate : builds read model
-
-farmer --> pCmd
-merchant --> pCmd
-pCmd --> pAgg
-pQ ..> pAgg : reads
-
-legend bottom
-  Pink actor = Farmer / Merchant (Angular demo role; Spring IAM is empty)
-  Blue = Command  |  Yellow = Aggregate  |  Orange = event published in Spring
-  Lilac = Policy  |  Green = Query or read model  |  Hot pink = external system
-  Tracking and escrow persist status fields; they do not publish domain events.
-  ClimateReading is computed on GET /api/v1/alerts and is not stored.
+Named Event types are published in Spring. “State” describes a stored outcome.
+Simulation: the merchant credit changes an application balance. Target: bank-confirmed payment to the farmer.
+Hot spots: missing wallet or agreement reference; duplicate delivery; five planned releases versus four supported milestones.
 endlegend
 @enduml
