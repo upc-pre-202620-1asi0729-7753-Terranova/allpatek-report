@@ -149,6 +149,7 @@
 | TB2 | 28/11/2026 | Vera Solsol, Nayely Macarena | Retiro de US15, US18 y US27 del backlog; no están en la demo |
 | TB2 | 28/11/2026 | Vera Solsol, Nayely Macarena | Conclusiones y recomendaciones en lenguaje de producto |
 | TB2 | 28/11/2026 | Vera Solsol, Nayely Macarena | Retiro de TS05, US17 y SP01 del backlog; US09 como depósito de demostración |
+| TB2 | 28/11/2026 | Atauje Barreto, Alexander Sebastián | Corrección de enlaces internos e índice; ajuste de la referencia de contraste WCAG AA; corrección de rótulos, imagen del frontend y descripciones de evidencias de Swagger del Sprint 4. |
 
 
 ## Project Report Collaboration Insights
@@ -194,7 +195,7 @@ Repositorios del proyecto:
 
 | Integrante | Tareas Asignadas |
 |---|---|
-| Atauje Barreto, Alexander Sebastián | Capítulo I completo: Introduction, Startup Profile (Startup Description, Team Member Profiles), Solution Profile (Background & Problematic, Lean UX Process: Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas), Target Segments. Alineación del Alcance General del Proyecto (Contratación Digital, Seguimiento de Hitos/Trazabilidad y Conexión Directa entre Actores). Maquetación e implementación web de las secciones Services (HTML5 & CSS Grid Layout) y Milestones / How It Works (HTML5 & CSS Layout) de la Landing Page. Modularización de estilos, refactorización y gestión de ramas en GitHub (feature/services, feature/how-it-works). Responsable del área alerts-management en el desarrollo de la solución para la entrega TB1. Elaboración del material de exposición, grabación del video de presentación del equipo/producto y correcciones del informe. TB2: corrección de los enlaces de Trello y de la evidencia visual de los Sprints 1, 2 y 3, revisión de la trazabilidad entre historias y tareas, y verificación de los commits documentados en frontend y backend. Actualización del Lean UX Canvas de Miro y de su imagen en el informe, alineados con los problemas, supuestos e hipótesis del Capítulo I. Actualización de los enlaces de About the Team en su sección y en el Anexo H. Documentación de los servicios del Sprint 4 en 5.2.4.6, con autenticación JWT, matriz de operaciones, esquemas y respuestas de la API. |
+| Atauje Barreto, Alexander Sebastián | Capítulo I completo: Introduction, Startup Profile (Startup Description, Team Member Profiles), Solution Profile (Background & Problematic, Lean UX Process: Problem Statements, Assumptions, Hypothesis Statements, Lean UX Canvas), Target Segments. Alineación del Alcance General del Proyecto (Contratación Digital, Seguimiento de Hitos/Trazabilidad y Conexión Directa entre Actores). Maquetación e implementación web de las secciones Services (HTML5 & CSS Grid Layout) y Milestones / How It Works (HTML5 & CSS Layout) de la Landing Page. Modularización de estilos, refactorización y gestión de ramas en GitHub (feature/services, feature/how-it-works). Responsable del área alerts-management en el desarrollo de la solución para la entrega TB1. Elaboración del material de exposición, grabación del video de presentación del equipo/producto y correcciones del informe. TB2: corrección de los enlaces de Trello y de la evidencia visual de los Sprints 1, 2 y 3, revisión de la trazabilidad entre historias y tareas, y verificación de los commits documentados en frontend y backend. Actualización del Lean UX Canvas de Miro y de su imagen en el informe, alineados con los problemas, supuestos e hipótesis del Capítulo I. Actualización de los enlaces de About the Team en su sección y en el Anexo H. Documentación de los servicios del Sprint 4 en 5.2.4.6, con autenticación JWT, matriz de operaciones, esquemas y respuestas de la API. Corrección de referencias internas y descripciones de evidencias conforme al enunciado de TB2. |
 | Egocheaga Suyo, Miguel Angel | Domain-Driven Software Architecture (Chapter 4.6), Design-Level EventStorming, Software Architecture Context, Container and Component Diagrams, Software Object-Oriented Design, Class Diagrams, Database Design and Database Diagrams; Landing Page Header/Navbar and Hero Section implementation, responsive styles and navigation behavior (HTML5, CSS3 and JavaScript). TB1: desarrollo del bounded context escrow-payments de la aplicación web (bóveda, depósito y seguimiento de desembolsos por hito). AV2: desarrollo de escrow-payments en el backend (allpatek-platform), con el agregado Wallet, persistencia JPA, endpoints GET/POST /api/v1/wallets y PUT /api/v1/wallets/{id}, y el tag escrow en Swagger. |
 | Orellana Rodríguez, Mel Andree | Style Guidelines, General Style Guidelines, Web Style Guidelines, Information Architecture, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Landing Page UI Design, Landing Page Wireframe, Landing Page Mock-up, Web Applications UX/UI Design, Web Applications Wireframes, Web Applications Wireflow Diagrams, Web Applications Mock-ups, Web Applications User Flow Diagrams, Web Applications Prototyping, Desarrollo del bounded context Shared, Desarrollo del bounded context agreements-management, Desarrollo de la estructura de Aplicación Web, Despliegue del Mock API en Azure, Correcciones en el Product Backlog, About the Product (reseñas positivas), About the Team (fotos de reuniones), Sprint 3, Sprint Planning 4, Team Collaboration Insights, Development Evidence for Sprint Review, Actualización de tableros Trello (Sprints 1-4), Redacción de Sprint Goals y desglose de Sprint Backlogs |
 | Vera Solsol, Nayely Macarena | Impact Mapping, User Stories and Product Backlog (Chapter 3). Desarrollo del bounded context tracking-evidence de la aplicación web (capas de dominio, infraestructura, aplicación y presentación). Desarrollo e implementación integral del bounded context tracking-evidence en el backend (allpatek-platform), incluyendo sus capas de dominio, aplicación, infraestructura y la exposición de endpoints REST (/api/v1/evidence) para la gestión y trazabilidad de evidencias por hito. Documentación de la implementación del bounded context tracking-evidence en el backend y registro detallado de sus commits correspondientes al Sprint 3, elaboración de entrevistas y correcciones del report. |
@@ -239,6 +240,9 @@ Repositorios del proyecto:
 
 ## Tabla de Contenidos
 
+* <a href="#registro-de-versiones-del-informe">Registro de Versiones del Informe</a>
+* <a href="#project-report-collaboration-insights">Project Report Collaboration Insights</a>
+* <a href="#student-outcome-3">Student Outcome 3</a>
 * <a href="#capítulo-i-introducción">Capítulo I: Introducción</a>
   * <a href="#11-startup-profile">1.1. Startup Profile</a>
     * <a href="#111-descripción-de-la-startup">1.1.1. Descripción de la Startup</a>
@@ -347,11 +351,10 @@ Repositorios del proyecto:
     * <a href="#533-evaluaciones-según-heurísticas">5.3.3. Evaluaciones según heurísticas</a>
   * <a href="#54-video-about-the-product">5.4. Video About-the-Product</a>
 * <a href="#conclusiones-y-recomendaciones">Conclusiones y Recomendaciones</a>
-* <a href="#video-app-validation">Video App Validation</a>
+* <a href="#532-registro-de-entrevistas">Videos de validación</a>
 * <a href="#video-about-the-team">Video About the Team</a>
-* <a href="#glosario">Glosario</a>
+* <a href="#25-ubiquitous-language">Glosario (Ubiquitous Language)</a>
 * <a href="#bibliografía">Bibliografía</a>
-* <a href="#anexos">Anexos</a>
 
 
 
@@ -435,7 +438,7 @@ Repositorios del proyecto:
             <li><b>AV2 - Raymundo Villarroel, Abigail Nadhim:</b> Documentación de la entrega AV2: actualización del informe con las tareas, el bounded context parcel-management y los commits de Sprint 3, redactados con descripciones claras para perfiles técnicos y de negocio.</li>
             <li><b>AV2 - Vera Solsol, Nayely Macarena:</b> Redacté los artefactos de gestión ágil (Capítulo 3: Impact Mapping, User Stories y Product Backlog) y la documentación técnica del bounded context tracking-evidence (frontend y backend en allpatek-platform, incluyendo los endpoints REST /api/v1/evidence), además de mantener el registro detallado de commits del Sprint 3 y las correcciones del reporte formal.</li>
             <li><b>AV2 - Egocheaga Suyo, Miguel Angel:</b> Documenté el bounded context escrow-payments en el backend. Dejé el agregado Wallet, la tabla wallets y los endpoints GET/POST /api/v1/wallets y PUT /wallets/{id} para consultar el monto de demostración y la tarjeta. También puse el tag escrow en Swagger y completé mis filas AV2 en el Registro de Versiones.</li>
-            <li><b>TB2 - Atauje Barreto, Alexander Sebastián:</b> Corrección y actualización del Capítulo I según la retroalimentación del docente, incluyendo la traducción al español de los enunciados del problema y las nueve hipótesis, la mejora de los supuestos Lean UX y la ampliación de información sobre la custodia Escrow, los pagos por hitos, las evidencias agrícolas, las alertas climáticas y la trazabilidad. Asimismo, se mejoró la redacción y coherencia del informe, registrando los cambios mediante commits descriptivos en GitHub. En la revisión del 26/11/2026 se documentaron respuestas HTTP y límites de acceso de los anexos, se distinguieron evidencias históricas de comprobaciones nuevas y se registraron los casos del Sprint 4 que aún requieren ejecución y capturas.</li>
+            <li><b>TB2 - Atauje Barreto, Alexander Sebastián:</b> Corrección y actualización del Capítulo I según la retroalimentación del docente, incluyendo la traducción al español de los enunciados del problema y las nueve hipótesis, la mejora de los supuestos Lean UX y la ampliación de información sobre la custodia Escrow, los pagos por hitos, las evidencias agrícolas, las alertas climáticas y la trazabilidad. Asimismo, se mejoró la redacción y coherencia del informe, registrando los cambios mediante commits descriptivos en GitHub. Se corrigieron los enlaces internos, los rótulos de capturas y las descripciones de respuestas de Swagger para mantener la coherencia entre el texto y las evidencias del informe.</li>
             <li><b>TB2 - Raymundo Villarroel, Abigail Nadhim:</b> Redacción de los Términos y Condiciones y la Política de Privacidad de la Landing Page en español e inglés, y de la sección de Anexos del informe (repositorios, enlaces de despliegue, Trello, artefactos, videos y usuarios de prueba), además de la estructura del Sprint 4, con commits descriptivos para perfiles técnicos y de negocio.</li>
            <li><b>TB2 - Orellana Rodríguez, Mel Andree:</b> Redacción de documentación técnica y de gestión del proyecto (especificaciones de arquitectura, contratos de servicio en OpenAPI, Sprint Plannings, Sprint Backlogs y evidencias de desarrollo) dirigida al equipo y audiencia académica, así como elaboración de Sprint Goals, guías de validación y contenidos informativos de la plataforma redactados en lenguaje claro y orientado al negocio para agricultores familiares y comerciantes urbanos.</li>
           </ul>
@@ -596,7 +599,7 @@ Outcomes de usuario (segmentos de 1.3):
 
 #### 1.2.2.2. Lean UX Assumptions
 
-Los supuestos salen de los problemas y outcomes de 1.2.2.1, y de los dos segmentos. Mientras no los desmintamos en campo, los damos por ciertos.
+Los supuestos salen de los problemas y outcomes de 1.2.2.1, y de los dos segmentos. Estos supuestos están sujetos a validación con ambos segmentos.
 
 **Supuestos de negocio**
 
@@ -1738,7 +1741,7 @@ En esta sección se presentan y explican los diseños de alta fidelidad (*mock-u
 
 #### 2. Principios de Diseño, Accesibilidad y Diseño Inclusivo (WCAG)
 
-* **Relación de Contraste:** Todos los elementos de texto y componentes interactivos cumplen con el estándar WCAG AAA, asegurando un contraste mínimo de $4.5:1$ para texto regular y $3:1$ para títulos y elementos gráficos sobre fondos claros u oscuros.
+* **Relación de Contraste:** El diseño toma como referencia los umbrales de contraste de texto de [WCAG AA](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html): un mínimo de $4.5:1$ para texto regular y $3:1$ para texto grande.
 * **Adaptabilidad Responsive:**
   * **Desktop:** Layout de 12 columnas con márgenes laterales amplios que aprovechan la pantalla panorámica sin dispersar la lectura.
   * **Mobile:** Layout de 4 columnas con apilamiento vertical fluido. Los menús horizontales se contraen en un cajón desplegable (*Drawer*) de fácil alcance táctil.
@@ -1997,7 +2000,7 @@ Para garantizar consistencia en la arquitectura de información, se definieron p
 
 ##### 7. Sección de Bóveda de Pagos (Custodia Financiera Escrow)
 * **Descripción:** Panel de control para la gestión de custodia y liberación progresiva de fondos vinculados a contratos activos:
-  * **Métricas Financieras Generales:** Tarjetas superiores con KPIs de monto total custodias, fondos liberados y saldos pendientes de aprobación.
+  * **Métricas Financieras Generales:** Tarjetas superiores con KPIs del monto total en custodia, fondos liberados y saldos pendientes de aprobación.
   * **Línea de Tiempo de Hitos:** Flujo secuencial de 4 etapas (*Suelo*, *Siembra*, *Desarrollo*, *Cosecha*) con conectores y badges de estado (*Completado*, *En Revisión*, *Bloqueado*).
 
 <p align="center">
@@ -4626,27 +4629,27 @@ En el Sprint 4 se implementó la gestión de identidad y acceso (IAM con JWT y p
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
-Durante el presente Sprint se consolidó la integración completa (*end-to-end*) entre el frontend desarrollado en Angular (desplegado en Netlify) y los servicios RESTful del backend en Spring Boot desplegados en producción (`https://allpatek.proyectaconsultora.com`). Se implementaron y validaron los módulos de autenticación mediante JWT, gestión de perfiles de agricultores y comerciantes, y el ciclo de vida completo (CRUD) de parcelas agrícolas. Asimismo, se verificó que los registros persistidos en la base de datos relacional desde la API se rendericen dinámicamente en la interfaz de usuario con soporte bilingüe (ES/EN).
+Las evidencias de este sprint incluyen la documentación OpenAPI del backend de Spring Boot publicado en `https://allpatek.proyectaconsultora.com` y la vista del catálogo en el frontend Angular desplegado en Netlify. Las capturas muestran una solicitud de autenticación, una consulta autenticada de perfil, una solicitud de registro de parcela y una consulta del catálogo.
 
 A continuación, se presentan las evidencias de ejecución de las principales vistas y endpoints implementados:
 
 - **Arquitectura de Endpoints RESTful en Producción (Swagger UI):** Vista general de la documentación interactiva OpenAPI con los controladores implementados para gestión de usuarios (`Users`), emisión de tokens JWT (`Tokens`), perfiles (`Profiles`), roles (`Roles`), billetera en custodia (`escrow`) y gestión de parcelas (`parcels`).
- <img src="assets/chapter-05/swagger-mod-06.png" alt="swagger-mod-06" width="900" />
+  <img src="assets/chapter-05/swagger-mod-06.png" alt="Documentación Swagger de usuarios, tokens, perfiles, roles y billeteras" width="900" />
 
-- **Validación de Autenticación (`POST /api/v1/tokens`):** Prueba de integración del servicio de inicio de sesión mediante credenciales de usuario (`username` y `password`) para la validación de formato y emisión del token de acceso Bearer.
- <img src="assets/chapter-05/swagger-mod-01.png" alt="swagger-mod-06" width="900" />
+- **Solicitud de Autenticación (`POST /api/v1/tokens`):** La captura registra una respuesta `500 Internal Server Error`. El detalle de la respuesta indica un error de análisis del JSON por un carácter de control sin escapar en la solicitud.
+  <img src="assets/chapter-05/swagger-mod-01.png" alt="Solicitud POST de tokens con respuesta HTTP 500 y detalle del error de análisis JSON" width="900" />
 
 - **Consulta de Perfil Autenticado (`GET /api/v1/profiles/me`):** Verificación de respuesta exitosa (`200 OK`) retornando los datos del perfil activo del agricultor autenticado mediante cabecera `Authorization: Bearer`.
- <img src="assets/chapter-05/swagger-mod-02.png" alt="swagger-mod-06" width="900" />
+  <img src="assets/chapter-05/swagger-mod-02.png" alt="Consulta GET del perfil autenticado con respuesta HTTP 200" width="900" />
 
 - **Registro de Parcelas Agrícolas (`POST /api/v1/parcels`):** Envío de payload estructurado en formato JSON con información agronómica (área, coordenadas geográficas, tipo de suelo, costo de campaña y cultivos) para la creación de nuevas parcelas en la plataforma.
- <img src="assets/chapter-05/swagger-mod-03.png" alt="swagger-mod-06" width="900" />
+  <img src="assets/chapter-05/swagger-mod-03.png" alt="Cuerpo JSON de la solicitud de registro de una parcela en Swagger" width="900" />
 
 - **Listado de Parcelas Persistidas (`GET /api/v1/parcels`):** Validación de respuesta exitosa (`200 OK`) devolviendo el arreglo de parcelas almacenadas en el servidor (`PA-01`, `PA-02`, entre otras) listas para ser consumidas por la aplicación cliente.
- <img src="assets/chapter-05/swagger-mod-05.png" alt="swagger-mod-06" width="900" />
+  <img src="assets/chapter-05/swagger-mod-05.png" alt="Consulta GET de parcelas con respuesta HTTP 200 y colección JSON" width="900" />
 
-- **Vista Principal de Gestión de Parcelas Agrícolas (Frontend):** Interfaz web implementada en Angular donde el usuario con rol *Agricultor* visualiza, administra, edita y publica sus parcelas registradas (*Quinua Organica Junin*, *Cafe Especial Villa Rica* y *Maiz Blanco Urubamba*) sincronizadas en tiempo real con el backend.
- <img src="assets/chapter-05/swagger-mod-05.png" alt="swagger-mod-06" width="900" />
+- **Vista Principal de Gestión de Parcelas Agrícolas (Frontend):** Interfaz web implementada en Angular donde el usuario con rol *Agricultor* visualiza sus parcelas registradas (*Quinua Organica Junin*, *Cafe Especial Villa Rica* y *Maiz Blanco Urubamba*), con controles para publicar, editar y eliminar parcelas.
+  <img src="assets/chapter-05/swagger-mod-04.png" alt="Panel Angular del agricultor con tres parcelas y controles de gestión" width="900" />
 
 
 
@@ -4671,7 +4674,7 @@ El registro de cuentas (`POST /api/v1/users`) y el inicio de sesión (`POST /api
 
 Los cuerpos de las solicitudes utilizan `Content-Type: application/json` y aceptan la cabecera opcional `Accept-Language` para definir el idioma de las respuestas (`es` o `en`). Los parámetros `id` y `userId` se envían como variables de ruta (*path parameters*), mientras que la consulta climática identifica al propietario automáticamente desde la sesión autenticada.
 
-**REST y HATEOAS**
+**Recursos y acciones REST**
 
 Las URLs son recursos bajo `/api/v1` (`/users`, `/tokens`, `/parcels`, `/agreements`, `/evidence`, `/wallets`). GET lista, POST crea, PUT actualiza, DELETE borra. Las acciones cuelgan del recurso (`POST /tokens`, `GET /profiles/me`, `POST /agreements/{id}/farmer-signature`, `POST /evidence/{id}/verify`), no de rutas tipo `/auth/login`.
 
@@ -4739,7 +4742,7 @@ El contrato de registro de cuentas define `201 Created` para la creación, `400 
 
 Para `GET /alerts`, OpenAPI especifica `200 OK` con una colección de lecturas meteorológicas, `400 Bad Request` si una parcela tiene coordenadas no válidas, `401 Unauthorized` por falta de autenticación, `404 Not Found` si la cuenta no tiene perfil, `502 Bad Gateway` ante una respuesta meteorológica externa no válida y `503 Service Unavailable` si el proveedor meteorológico no está disponible.
 
-Ejemplo de respuesta exitosa (`200 OK`) al consultar el catálogo de parcelas mediante `GET /api/v1/parcels`:
+La respuesta exitosa (`200 OK`) de `GET /api/v1/parcels` se muestra en la [captura de Swagger de la sección 5.2.4.5](assets/chapter-05/swagger-mod-05.png). El cuerpo contiene una colección JSON de parcelas con sus identificadores, propietarios, nombres, ubicación, cultivos y costos de campaña.
 
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
@@ -4956,7 +4959,7 @@ Los dos enlaces proporcionados apuntan al mismo video del agricultor; el enlace 
     </tr>
     <tr>
       <td align="center">Fuente del perfil</td>
-      <td align="center"><a href="#entrevista-[N]-rosa-flores">Entrevista inicial de Rosa Flores</a></td>
+      <td align="center"><a href="#entrevista-1-rosa-flores">Entrevista inicial de Rosa Flores</a></td>
     </tr>
   </tbody>
 </table>
