@@ -140,9 +140,9 @@
 | TB2 | 27/11/2026 | Atauje Barreto, Alexander Sebastián | Actualización de los enlaces de YouTube y Microsoft Stream de About the Team en su sección y en el Anexo H. |
 | TB2 | 27/11/2026 | Atauje Barreto, Alexander Sebastián | Documentación de 5.2.4.6 con los enlaces de Swagger UI y OpenAPI, las 31 operaciones de la API publicada, la autenticación JWT, los esquemas de datos y las respuestas documentadas de los servicios del Sprint 4. |
 | TB2 | 27/11/2026 | Vera Solsol, Nayely Macarena | Actualización de las tablas del anexo A,B,C,D |
-
-
-
+| TB2 | 27/11/2026 | Vera Solsol, Nayely Macarena | Desarrollo del Sprint 1,2,3 |
+| TB2 | 27/11/2026 | Vera Solsol, Nayely Macarena | Actualizacion del Sprint 1,2,3|
+| TB2 | 27/11/2026 | Vera Solsol, Nayely Macarena | Desarrollo del PPT del proyecto |
 
 
 ## Project Report Collaboration Insights
