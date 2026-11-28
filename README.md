@@ -2071,7 +2071,7 @@ En esta sección se presenta la propuesta formal de User Flows mapeados a partir
 
 | Actor | Ruta | Qué ocurre |
 |---|---|---|
-| Ambos | /login, /register, /profile | El inicio de sesión carga el perfil de agricultor de demostración. En el registro se selecciona el rol. La sesión se conserva en el navegador. |
+| Ambos | /login, /register, /profile | El registro crea la cuenta, inicia sesión y solicita crear el perfil. El login recibe un JWT y un identificador de perfil opcional. |
 | Agricultor | /parcels/new, /parcels/:id/edit | Ingresa datos, cultivos y coordenadas, que puede completar por departamento o GPS. Puede adjuntar fotos; hay una imagen por defecto. La pantalla vuelve al catálogo si la API confirma el guardado. |
 | Comerciante y agricultor | /parcels/:id, /agreements, /agreements/merchant | El comerciante abre el acuerdo desde el detalle de parcela. El agricultor revisa la solicitud en /agreements/merchant y confirma en /agreements. Se almacenan dos indicadores de aceptación. |
 | Agricultor y comerciante | /evidence/new, /evidence/review, /escrow | El agricultor adjunta una imagen. El comerciante verifica la evidencia y luego marca la liberación simulada en la bóveda. |
@@ -2087,6 +2087,10 @@ En el flujo de evidencias, la UI usa review → verified → accepted. El acceso
 ![Figura 4.4.4-B. Publicación de parcela y consulta del clima](assets/chapter-04/architecture/19-flow-parcels-climate.png)
 
 *Figura 4.4.4-B. Publicación de parcela y consulta del clima.* <a href="assets/chapter-04/architecture/19-flow-parcels-climate.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/19-flow-parcels-climate.svg">SVG</a>.
+
+![Figura 4.4.4-D. Registro, autenticación y perfil](assets/chapter-04/architecture/flow-authentication.png)
+
+*Figura 4.4.4-D. Registro, autenticación y perfil.* [Ampliar en SVG](assets/chapter-04/architecture/flow-authentication.svg) · [Fuente PlantUML](assets/chapter-04/architecture/flow-authentication.puml).
 
 ## 4.5. Web Applications Prototyping
 
