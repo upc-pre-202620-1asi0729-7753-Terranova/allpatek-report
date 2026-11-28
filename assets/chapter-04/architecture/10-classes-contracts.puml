@@ -13,14 +13,18 @@ top to bottom direction
 title Allpatek | Agreements - write path
 
 package "1. Domain" as Domain #ECF6EF {
+  class SignFarmerCommand <<record, Command>> {
+    -agreementId: String
+  }
   class Agreement <<Aggregate Root>> {
     -id: AgreementId
     -parcelId: ParcelId
     -merchantProfileId: ProfileId
+    +withFarmerSignature(): Agreement
     +isFullySigned(): boolean
     +onFullySigned(): void
   }
-  class ContractSignatures <<Value Object>> {
+  class ContractSignatures <<record, Value Object>> {
     -merchantSigned: boolean
     -farmerSigned: boolean
     +isComplete(): boolean
@@ -35,19 +39,20 @@ package "1. Domain" as Domain #ECF6EF {
     #registerDomainEvent(Object): void
     +domainEvents(): Collection<Object>
   }
-  class AgreementFullySignedEvent <<Domain Event>> {
+  class AgreementFullySignedEvent <<record, Domain Event>> {
     -agreementId: String
     -parcelId: String
-    +parcelId(): String
   }
   AbstractDomainAggregateRoot <|-- Agreement
   Agreement ..> AgreementFullySignedEvent : registers
 }
 package "2. Application" as Application #F3F6FA {
   interface AgreementCommandService {
+    +handle(SignFarmerCommand): Result<Agreement, ApplicationError>
     +handle(SaveAgreementCommand): Result<Agreement, ApplicationError>
   }
   class AgreementCommandServiceImpl {
+    +handle(SignFarmerCommand): Result<Agreement, ApplicationError>
     +handle(SaveAgreementCommand): Result<Agreement, ApplicationError>
   }
   AgreementCommandService <|.. AgreementCommandServiceImpl
@@ -55,6 +60,8 @@ package "2. Application" as Application #F3F6FA {
 package "3. Interfaces (REST)" as Interfaces #FDF4E8 {
   class AgreementsController <<REST Controller>> {
     +createAgreement(AgreementResource, String): ResponseEntity<?>
+    +signFarmer(String, String): ResponseEntity<?>
+    +updateAgreement(String, AgreementResource, String): ResponseEntity<?>
   }
 }
 package "4. Infrastructure (JPA)" as Infrastructure #F6F1F8 {
@@ -64,6 +71,7 @@ package "4. Infrastructure (JPA)" as Infrastructure #F6F1F8 {
   }
   class AgreementPersistenceAssembler <<Mapper>> {
     {static} +toDomainFromPersistence(AgreementPersistenceEntity): Agreement
+    {static} -toDomainFromPersistence(ContractSignaturesPersistenceEmbeddable): ContractSignatures
   }
   class AgreementPersistenceEntity <<JPA Entity>> {
     -parcelId: String
@@ -79,6 +87,7 @@ AgreementCommandService "1" <-- AgreementsController : agreementCommandService
 Domain -[hidden]down-> Application
 Application -[hidden]down-> Interfaces
 
+AgreementsController ..> SignFarmerCommand : requests farmer acceptance
 legend bottom
 + public  |  - private  |  # protected
 Multiplicities label stored references. Dashed arrows show use or interface realization.
