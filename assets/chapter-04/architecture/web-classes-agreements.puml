@@ -33,7 +33,7 @@ class AgreementStore {
 package "Infrastructure" #FFF6E2 {
 class AgreementApi {
   -agreementsEndpoint: AgreementsApiEndpoint
-  +updateAgreement(agreement: Agreement): Observable<Agreement>
+  +signFarmer(id: string): Observable<Agreement>
 }
 class ParcelRefApi {
   +getParcels(): Observable<ParcelRef[]>
@@ -47,7 +47,7 @@ class ContractSign {
 }
 AgreementStore -up-> "0..*" Agreement : holds agreements
 AgreementStore -up-> "0..*" ParcelRef : holds parcel references
-AgreementStore --> "1" AgreementApi : saves agreement
+AgreementStore --> "1" AgreementApi : saves agreement / signs as farmer
 AgreementStore --> "1" ParcelRefApi : looks up parcels
 ContractSign -up-> "1" AgreementStore : requests signature
 @enduml
