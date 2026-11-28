@@ -10,19 +10,26 @@ LAYOUT_TOP_DOWN()
 title Allpatek | C4 components - Seasonal agreements
 Container_Boundary(api, "Spring REST API / agreements") {
   Component(rest, "AgreementsController", "Spring MVC", "/api/v1/agreements")
-  Component(cmd, "AgreementCommandServiceImpl", "Application service", "Saves an agreement with both acceptance flags or deletes it.")
-  Component(query, "AgreementQueryServiceImpl", "Application service", "Lists saved agreements and signatures.")
+  Component(cmd, "AgreementCommandServiceImpl", "Application service", "Saves, signs as farmer or deletes an agreement.")
+  Component(query, "AgreementQueryServiceImpl", "Application service", "Lists agreements or finds one by ID.")
   Component(repo, "AgreementRepositoryImpl", "JPA adapter", "Implements AgreementRepository and maps persisted records.")
   Component(bridge, "AgreementFullySignedEventHandler", "Spring event listener", "Translates the domain event into the integration event.")
+  Component(fac, "AgreementsContextFacadeImpl", "agreements / facade", "Resolves the merchant profile for an agreement.")
 }
 
 Component(consumer, "Parcel event handler", "Spring API / parcels", "Marks the linked parcel in production.")
 ContainerDb(db, "MySQL", "Relational database", "agreements table")
-Rel(rest, cmd, "POST, PUT, DELETE")
+Rel(rest, cmd, "Create (merchant), farmer signature (farmer), update or delete")
 Rel(rest, query, "GET")
 Rel(cmd, repo, "Writes via AgreementRepository")
 Rel(query, repo, "Reads via AgreementRepository")
 Rel(repo, db, "Uses AgreementPersistenceRepository", "JPA")
 Rel(repo, bridge, "Newly fully signed: publishes AgreementFullySignedEvent", "DomainEventPublisher")
 Rel(bridge, consumer, "AgreementFullySignedIntegrationEvent", "Spring events")
+Component(account, "CurrentAccountService", "profiles", "Resolves the merchant identity if available.")
+
+Component(esc, "ExternalAgreementService", "escrow / ACL", "Resolves the credit recipient.")
+Rel(rest, account, "Resolve merchant for creation")
+Rel(esc, fac, "Look up merchant by agreement ID")
+Rel(fac, repo, "Look up by ID through AgreementRepository")
 @enduml

@@ -2241,7 +2241,7 @@ La landing abre la SPA. El navegador solicita los recursos de negocio a la API y
 
 #### Acuerdos en la API
 
-El controlador guarda las aceptaciones. El adaptador compara las firmas con el estado anterior y el manejador del evento comunica a Parcelas que ambas partes aceptaron.
+La creación de un acuerdo requiere `ROLE_MERCHANT`. Para registrar la firma del agricultor se ofrece `POST /api/v1/agreements/{id}/farmer-signature` con `ROLE_FARMER`. Escrow consulta `AgreementsContextFacade` por el destinatario de su crédito. Las operaciones genéricas de guardado también reciben banderas de aceptación.
 
 ![Figura 4.6.4-E2. Componentes de acuerdos](assets/chapter-04/architecture/c4-agreements.png)
 
