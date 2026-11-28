@@ -2795,11 +2795,11 @@ El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de 
   </tr>
   <tr>
     <td colspan="5">Sprint 1 Velocity</td>
-    <td colspan="8">30 story points</td>
+    <td colspan="8">34 story points</td>
   </tr>
   <tr>
     <td colspan="5">Sum of Story Points</td>
-    <td colspan="8">30 story points</td>
+    <td colspan="8">34 story points</td>
   </tr>
 </table>
 
@@ -2904,6 +2904,26 @@ El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de 
 El **Sprint 1** tuvo como objetivo principal la maquetación, diseño responsivo, lógica de interacción y despliegue público de la **Landing Page estática e informativa de ALLPATEK**, la cual sirve como punto de contacto inicial para comunicar la propuesta de valor del modelo *Agro-as-a-Service* e incentivar la captación de productores agrícolas y compradores.
 
 Para la gestión y control del flujo de trabajo, las tareas se organizaron y monitorearon mediante **Trello**, en el tablero TerraNova utilizado para el Product Backlog y el Sprint 1.
+
+Historias del Sprint 1 con sus puntos, tomados del Product Backlog (suman 34):
+
+| Story Id | Story Title | Story Points |
+| :---: | :--- | :---: |
+| **US24** | Consultar la propuesta de valor de ALLPATEK | 2 |
+| **US31** | Recorrer las áreas informativas del sitio | 2 |
+| **US38** | Consultar el sitio desde un dispositivo móvil | 3 |
+| **US32** | Conocer los servicios de producción garantizada | 3 |
+| **US40** | Evaluar la protección de fondos antes de comprometer capital | 3 |
+| **US33** | Entender el esquema de pagos por hitos | 2 |
+| **US41** | Entender cómo se garantiza el cobro al productor | 3 |
+| **US34** | Revisar experiencias de comerciantes y productores | 2 |
+| **US35** | Comparar planes de producción según escala | 3 |
+| **US39** | Iniciar una cotización de parcela | 2 |
+| **US36** | Conocer al equipo detrás de la plataforma | 1 |
+| **US25** | Solicitar una propuesta técnica desde el sitio | 3 |
+| **US42** | Envío automático de dossier informativo al solicitar más información | 3 |
+| **US37** | Consultar canales, horarios y datos de atención | 2 |
+| **Total** | | **34** |
 
 #### Tablero de Control del Sprint 1 (Sprint Board)
 
@@ -3164,11 +3184,11 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
   </tr>
   <tr>
     <td colspan="5">Sprint 2 Velocity</td>
-    <td colspan="8">32 Story Points</td>
+    <td colspan="8">31 Story Points</td>
   </tr>
   <tr>
     <td colspan="5">Sum of Story Points</td>
-    <td colspan="8">30 Story Points documentados + US05 pendiente de estimar</td>
+    <td colspan="8">31 Story Points (30 de las historias más 1 de US05)</td>
   </tr>
 </table>
 
@@ -3266,8 +3286,8 @@ El objetivo principal del **Sprint 2** es implementar la primera versión de la 
 | US14 | Revisión y observación técnica de evidencias de hito | 3 | T020, T021, T022 |
 | US03 | Aprobación de hito y orden de liberación de fondos | 5 | T023, T024, T025, T026 |
 | US09 | Depósito de fondos iniciales en custodia | 5 | T027, T028, T029 |
-| US05 | Consulta de lecturas y alertas climáticas por parcela | Pendiente de registrar | T030, T031, T032, T033 |
-| **Total documentado** | **9 historias** | **30 SP + US05 pendiente** | **33 tareas** |
+| US05 | Consulta de lecturas y alertas climáticas por parcela | 1 | T030, T031, T032, T033 |
+| **Total** | **9 historias** | **31 SP** | **33 tareas** |
 
 Los puntos se toman del Product Backlog (3.3). US05 aparece en las tareas de alertas climáticas, pero no tiene una estimación registrada en ese Product Backlog; se mantiene pendiente para evitar asignar puntos sin evidencia. Las horas de las tareas se presentan por separado.
 
@@ -3815,11 +3835,11 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
   </tr>
   <tr>
     <td colspan="5">Sprint 3 Velocity</td>
-    <td colspan="8">32 Story Points</td>
+    <td colspan="8">26 Story Points</td>
   </tr>
   <tr>
     <td colspan="5">Sum of Story Points</td>
-    <td colspan="8">25 Story Points documentados + US05 pendiente de estimar</td>
+    <td colspan="8">26 Story Points (25 de las historias más 1 de US05)</td>
   </tr>
 </table>
 
@@ -3910,8 +3930,8 @@ El objetivo principal del **Sprint 3** es publicar la **primera versión de los 
 | US09 | Depósito de fondos iniciales en custodia | 5 | T019, T020, T021 |
 | US04 | Registro y carga de evidencias fotográficas por hito | 3 | T022, T023, T024 |
 | US14 | Revisión y observación técnica de evidencias de hito | 3 | T025, T026, T027 |
-| US05 | Consulta de lecturas y alertas climáticas por parcela | Pendiente de registrar | T028, T029, T030, T031 |
-| **Total documentado** | **8 historias** | **25 SP + US05 pendiente** | **34 tareas** |
+| US05 | Consulta de lecturas y alertas climáticas por parcela | 1 | T028, T029, T030, T031 |
+| **Total** | **8 historias** | **26 SP** | **34 tareas** |
 
 Los puntos se toman del Product Backlog (3.3). US05 aparece en las tareas de alertas climáticas, pero no tiene una estimación registrada en ese Product Backlog; se mantiene pendiente para evitar asignar puntos sin evidencia. Las horas de las tareas se presentan por separado.
 
@@ -4372,11 +4392,11 @@ Los cinco salen en Insights del repositorio. El pico de commits cae entre finale
 <td colspan="8">Nuestro enfoque está en habilitar el acceso personalizado y seguro de cada usuario según su perfil, integrando de extremo a extremo la reserva de parcelas, la contratación digital y la liberación de pagos por hitos aprobados. Creemos que esto aporta una experiencia comercial fluida, autónoma y confiable que facilita el abastecimiento directo entre el campo y la ciudad. Esto se confirmará cuando el 100 % de los agricultores familiares y comerciantes urbanos puedan ingresar con su propia cuenta y completar de principio a fin los flujos críticos de una campaña agrícola sin intermediarios.</td>  </tr>
   <tr>
     <td colspan="5">Sprint 4 Velocity</td>
-    <td colspan="8">16 Story Points</td>
+    <td colspan="8">23 Story Points</td>
   </tr>
   <tr>
     <td colspan="5">Sum of Story Points</td>
-    <td colspan="8">16 Story Points</td>
+    <td colspan="8">23 Story Points</td>
   </tr>
 </table>
 
@@ -4457,14 +4477,14 @@ El objetivo principal del **Sprint 4** es incorporar la **gestión de identidad 
 
 | Story Id | Story Title  | Story Points  |
 | :---: | :---: | :---: |
-| **US01** | Registro de perfil y verificación de identidad | 3 |
-| **US16** | Registro de perfil corporativo y validación fiscal | 2 |
-| **US06** | Publicación y geolocalización de lote agrícola | 2 |
+| **US01** | Registro de perfil y verificación de identidad | 5 |
+| **US16** | Registro de perfil corporativo y validación fiscal | 3 |
+| **US06** | Publicación y geolocalización de lote agrícola | 3 |
 | **US08** | Aceptación de propuesta y firma de contrato digital Escrow | 3 |
-| **US03** | Aprobación de hito y orden de liberación de fondos | 3 |
-| **US04** | Registro y carga de evidencias fotográficas por hito | 2 |
+| **US03** | Aprobación de hito y orden de liberación de fondos | 5 |
+| **US04** | Registro y carga de evidencias fotográficas por hito | 3 |
 | **US05** | Recepción de alertas climáticas de riesgo | 1 |
-| **Total** | | **16** |
+| **Total** | | **23** |
 
 </div>
 
