@@ -2361,7 +2361,7 @@ Cada contexto incluye una figura del backend y otra de la webapp. Se muestran lo
 
 #### Perfiles compartidos
 
-**Backend.** En `shared`, `Profile` reúne los datos personales y los de la empresa. Al editar un perfil, `ProfilesController` entrega el comando a `ProfileCommandService`; su implementación busca el perfil, llama a `Profile.update` y guarda el cambio mediante `ProfileRepository`. El adaptador JPA transforma el agregado para persistirlo. El correo pertenece al perfil; la autenticación queda fuera de este flujo.
+**Backend.** `profiles` contiene `Profile`, los objetos de valor y las reglas de identidad. `ProfileRepositoryImpl` detecta el alta, guarda la entidad y publica el evento del agregado. La cuenta de acceso pertenece a IAM y el correo permite buscar su perfil.
 
 ![Figura 4.7.1-E1. Perfiles en Spring](assets/chapter-04/architecture/08-classes-users.png)
 

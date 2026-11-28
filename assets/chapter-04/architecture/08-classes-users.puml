@@ -13,36 +13,44 @@ top to bottom direction
 title Allpatek | Profiles - update path
 
 package "1. Domain" as Domain #ECF6EF {
-  class Profile <<Aggregate Root>> {
-    -id: ProfileId
-    -fullName: PersonName
-    -emailAddress: EmailAddress
-    +update(UpdateProfileCommand): void
-    +getEmail(): String
-  }
-  class CompanyDetails <<Value Object>> {
+  class ProfileCreatedEvent <<record, Domain Event>> {
+    -profileId: Long
     -company: String
     -ruc: String
-    +ruc(): String
+  }
+  class Profile <<Aggregate Root>> {
+    -id: ProfileId
+    -emailAddress: EmailAddress
+    -company: CompanyDetails
+    +update(UpdateProfileCommand): void
+    +onCreated(): void
+  }
+  class CompanyDetails <<record, Value Object>> {
+    -company: String
+    -ruc: String
   }
   interface ProfileRepository <<Repository Port>> {
     +save(Profile): Profile
-    +findAll(): List<Profile>
+    +findByEmailAddress(EmailAddress): Optional<Profile>
   }
   Profile *-right-> "1" CompanyDetails : company
   ProfileRepository ..> Profile : saves and returns
 }
 package "2. Application" as Application #F3F6FA {
   interface ProfileCommandService {
+    +handle(CreateProfileCommand): Result<Profile, ApplicationError>
     +handle(UpdateProfileCommand): Result<Profile, ApplicationError>
   }
   class ProfileCommandServiceImpl {
+    +handle(CreateProfileCommand): Result<Profile, ApplicationError>
     +handle(UpdateProfileCommand): Result<Profile, ApplicationError>
   }
   ProfileCommandService <|.. ProfileCommandServiceImpl
 }
 package "3. Interfaces (REST)" as Interfaces #FDF4E8 {
   class ProfilesController <<REST Controller>> {
+    +createProfile(CreateProfileResource, String): ResponseEntity<?>
+    +getCurrentProfile(String): ResponseEntity<?>
     +updateProfile(Long, UpdateProfileResource, String): ResponseEntity<?>
   }
 }
@@ -53,6 +61,7 @@ package "4. Infrastructure (JPA)" as Infrastructure #F6F1F8 {
   }
   class ProfilePersistenceAssembler <<Mapper>> {
     {static} +toDomainFromPersistence(ProfilePersistenceEntity): Profile
+    {static} -toDomainFromPersistence(CompanyDetailsPersistenceEmbeddable): CompanyDetails
   }
   class ProfilePersistenceEntity <<JPA Entity>> {
     -fullName: String
@@ -68,6 +77,7 @@ ProfileCommandService "1" <-- ProfilesController : profileCommandService
 Domain -[hidden]down-> Application
 Application -[hidden]down-> Interfaces
 
+Profile ..> ProfileCreatedEvent : registers for a new profile
 legend bottom
 + public  |  - private
 Multiplicities label stored references. Dashed arrows show use or interface realization.
