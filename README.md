@@ -148,7 +148,6 @@
 | TB2 | 28/11/2026 | Vera Solsol, Nayely Macarena | Acortar las introducciones de Lean UX, User Stories y diseño |
 | TB2 | 28/11/2026 | Vera Solsol, Nayely Macarena | Retiro de US15, US18 y US27 del backlog; no están en la demo |
 | TB2 | 28/11/2026 | Vera Solsol, Nayely Macarena | Conclusiones y recomendaciones en lenguaje de producto |
-| TB2 | 28/11/2026 | Vera Solsol, Nayely Macarena | Introducciones más cortas, sin números de sección |
 
 
 ## Project Report Collaboration Insights
@@ -552,11 +551,11 @@ El desarrollo de Allpatek está sujeto a las siguientes restricciones tecnológi
 
 ### 1.2.2. Lean UX Process
 
-Aplicamos Lean UX al problema del campo y la ciudad: qué duele, qué queremos lograr, qué creemos y cómo lo comprobaríamos. El Canvas junta eso. Las entrevistas del capítulo siguiente miran si se sostiene.
+En esta sección se aplica Lean UX al problema de 1.2.1. El orden es: problem statements, outcomes, assumptions e hipótesis. El Canvas de 1.2.2.4 lo junta. Los segmentos de 1.3 son el público de esos outcomes. En el Capítulo II se contrastan con las entrevistas.
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-Quién, qué, dónde, cuándo y por qué describen el mercado. El cómo sale de lo que hoy no resuelven otras soluciones. Los **outcomes** son los resultados que esperamos.
+El enunciado del problema sale del 5W2H. Quién, qué, dónde, cuándo y por qué describen el mercado; el cómo sale de lo que hoy no resuelven otras soluciones. Los **outcomes** son los resultados que esperamos.
 
 **El estado actual de** la comercialización agrícola en el Perú se caracteriza por canales fragmentados y con asimetría de información. Los pequeños agricultores familiares con acceso limitado a internet y telefonía tienen menores posibilidades de acceder a mercados rentables y comercializar mayores volúmenes de producción (Fan & Salas Garcia, 2018).
 
@@ -590,13 +589,13 @@ Outcomes de negocio:
 - Reducir el tiempo de formalización administrativa a menos de cinco minutos por transacción.
 - Alcanzar una tasa de renovación de contratos superior al 60 % entre temporadas consecutivas.
 
-Outcomes de usuario:
+Outcomes de usuario (segmentos de 1.3):
 - Agricultor familiar: tasa de previsibilidad de ingresos del 100 % para quien cumpla las labores acordadas, con pago asociado a hitos y sin depender del precio del día de cosecha.
 - Comerciante urbano: ahorro de al menos el 25 % respecto al precio minorista equivalente, con costo de temporada conocido de antemano y origen del producto verificable.
 
 #### 1.2.2.2. Lean UX Assumptions
 
-Los supuestos salen del problema, de los outcomes y de los dos públicos. Mientras no los desmintamos en campo, los damos por ciertos.
+Los supuestos salen de los problemas y outcomes de 1.2.2.1, y de los dos segmentos. Mientras no los desmintamos en campo, los damos por ciertos.
 
 **Supuestos de negocio**
 
@@ -1114,11 +1113,11 @@ En cuarto lugar, respecto a la viabilidad comercial y seguridad de las transacci
 
 ## 2.3. Needfinding
 
-Con las entrevistas armamos las personas, la matriz de tareas y los recorridos. El mapa de empatía resume lo mismo.
+Con Lean UX (1.2.2), los segmentos (1.3) y las entrevistas (2.2) armamos las **User Personas**, la **Task Matrix** y los **Journey Maps**. El Empathy Mapping resume lo mismo.
 
 ### 2.3.1. User Personas
 
-Las fichas son Gustavo Adolfo Suyo e Irma Barreto Castro. Salieron de las entrevistas y se armaron en UXPressia.
+Las fichas son Gustavo Adolfo Suyo e Irma Barreto Castro, de los segmentos de 1.3. Salieron de las entrevistas y se armaron en UXPressia.
 
 ### User Persona: Agricultor
 
@@ -1251,7 +1250,7 @@ Siguiendo la definición de Eric Evans en *Domain-Driven Design: Tackling Comple
 
 ## 3.1. User Stories
 
-Las historias salen de las personas y de lo que hacen Gustavo e Irma. Cada una dice quién, qué quiere y para qué. Unas cubren el sitio público; otras, la aplicación.
+Las historias salen de las personas, la task matrix y los journeys de 2.3. Van en formato Como / quiero / para, con Given–When–Then. EP06 es la landing; EP01–EP05, la app. TS01–TS04 son las URLs y verbos HTTP del API (**REST/HATEOAS**).
 
 ## Epics
 
@@ -1331,7 +1330,7 @@ Las historias salen de las personas y de lo que hacen Gustavo e Irma. Cada una d
 
 ## 3.3. Product Backlog
 
-El backlog ordena las historias. Lo primero es el sitio público, para presentar el modelo y captar gente.
+El Product Backlog agrupa y prioriza las User Stories. El primer Sprint cubre la Landing Page, para presentar el modelo y captar usuarios. TS01–TS04 definen las URLs y los verbos HTTP del API.
 
 | Orden | User Story Id | Título | Descripción | Story Points |
 | :---: | :--- | :--- | :--- | :---: |
@@ -1398,7 +1397,7 @@ El backlog ordena las historias. Lo primero es el sitio público, para presentar
 
 ## 4.1. Style Guidelines
 
-Marca, tipografía y colores para que el sitio y la aplicación se vean como el mismo producto. Eso se usa después en los wireframes, mock-ups y prototipos.
+Esta sección fija marca, tipografía y paletas para que landing y app se vean como el mismo producto. 4.1.1 es la identidad; 4.1.2, los **style guidelines** del dashboard. Eso se usa en los wireframes, mock-ups y prototipos de 4.3 a 4.5.
 
 ### 4.1.1. General Style Guidelines
 
@@ -1622,7 +1621,7 @@ Dentro del entorno autenticado, la navegación se estructura para facilitar el f
 ## 4.3. Landing Page UI Design
 
 
-La landing es lo primero que ve quien llega a Allpatek. El objetivo es que entienda la propuesta y cómo se protege el pago, sin leer un manual.
+En esta sección se presenta la UI de la Landing Page de ALLPATEK. Sigue la arquitectura de información (navegación, organización y etiquetado) y los style guidelines de 4.1. El objetivo es que el visitante entienda de inmediato la propuesta de valor y cómo funciona la custodia Escrow.
 
 Para lograr una experiencia visual limpia y profesional, se aplicaron principios de jerarquía visual clara, tipografía legible y una paleta de colores inspirada en el sector agrícola con acentos dinámicos para los llamados a la acción (CTA). Cada sección de la página sigue una secuencia lógica orientada a la conversión y al descubrimiento progresivo, transformando conceptos técnicos complejos como la verificación de hitos en campo y la liberación gradual de fondos en componentes visuales comprensibles y estructurados.
 
@@ -2118,7 +2117,7 @@ En el flujo de evidencias, la UI usa review → verified → accepted. El acceso
 
 ## 4.5. Web Applications Prototyping
 
-Prototipos en Figma, en computador y celular: se puede hacer clic y recorrer el flujo como si fuera la app. 
+Prototipos de Figma para **Desktop** y **Mobile Web**: se puede hacer clic, hay hover/focus y se recorre el flujo. Siguen los user flows de 4.4.4. 
 
 #### Criterios para las Decisiones de Interacción y Arquitectura de Información
 
@@ -2163,7 +2162,7 @@ A continuación, se presentan los enlaces y capturas de los videos explicativos 
 
 ## 4.6. Domain-Driven Software Architecture
 
-El comerciante alquila una parcela por temporada y contrata al agricultor. Cada decisión (publicar, firmar, revisar una evidencia) tiene su lugar. Los diagramas de abajo muestran cómo se organiza eso.
+En Allpatek, el comerciante alquila una parcela por temporada y contrata el trabajo del agricultor. El modelo queda en los diagramas de esta sección: EventStorming, C4, clases y base de datos. El diseño sigue las decisiones de cada parte. Una parcela puede pasar a producción, un acuerdo junta las dos firmas y una evidencia se revisa. Cada regla tiene su contexto.
 
 | Contexto | Módulo Angular | Paquete Spring | Responsabilidad |
 |---|---|---|---|
@@ -4690,7 +4689,7 @@ Ejemplo de respuesta exitosa (`200 OK`) al consultar el catálogo de parcelas me
 
 ## 5.3. Validation Interviews
 
-Probamos el sitio y la aplicación con agricultores y comerciantes. Lo que vieron, lo que no les cerró y el video quedan aquí.
+Entrevistas de validación con los dos segmentos (agricultor familiar y comerciante urbano), sobre la Landing Page y la aplicación web.
 
 ### 5.3.1. Diseño de Entrevistas
 
