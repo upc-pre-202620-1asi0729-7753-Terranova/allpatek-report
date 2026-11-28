@@ -143,8 +143,9 @@
 | TB2 | 27/11/2026 | Vera Solsol, Nayely Macarena | Desarrollo del Sprint 1,2,3 |
 | TB2 | 27/11/2026 | Vera Solsol, Nayely Macarena | Actualizacion del Sprint 1,2,3|
 | TB2 | 27/11/2026 | Vera Solsol, Nayely Macarena | Desarrollo del PPT del proyecto |
-| TB2 | 28/11/2026 | Vera Solsol, Nayely Macarena | Ajuste de redacción del Lean UX Process y del Needfinding para explicitar outcomes, assumptions y su relación con User Personas, Task Matrix y Journey Maps |
-| TB2 | 28/11/2026 | Vera Solsol, Nayely Macarena | Ajuste de User Stories y de las Endpoint URLs (TS01, TS02, TS04) para alinearlas con el UX Research y con los verbos HTTP REST/HATEOAS de la API publicada |
+| TB2 | 28/11/2026 | Vera Solsol, Nayely Macarena | Redacción de outcomes en Lean UX y enlace con personas, task matrix y journeys |
+| TB2 | 28/11/2026 | Vera Solsol, Nayely Macarena | User Stories y URLs de TS01, TS02 y TS04 alineadas con el API |
+| TB2 | 28/11/2026 | Vera Solsol, Nayely Macarena | Acortar las introducciones de Lean UX, User Stories y diseño |
 
 
 ## Project Report Collaboration Insights
@@ -548,11 +549,11 @@ El desarrollo de Allpatek está sujeto a las siguientes restricciones tecnológi
 
 ### 1.2.2. Lean UX Process
 
-En esta sección se aplica el proceso Lean UX sobre la problemática identificada en 1.2.1. Primero se redactan los **problem statements** y los **outcomes** (resultados de negocio y de usuario). Sobre ellos se formulan las **assumptions**. Esas creencias se convierten en **hypothesis statements**. El **Lean UX Canvas** de 1.2.2.4 sintetiza el conjunto. Los **segmentos objetivo** de la sección 1.3 reciben esos outcomes. El Capítulo II (entrevistas, User Personas, User Task Matrix y Journey Maps) investiga si esos supuestos se sostienen con evidencia de campo.
+En esta sección se aplica Lean UX al problema de 1.2.1. El orden es: problem statements, outcomes, assumptions e hipótesis. El Canvas de 1.2.2.4 lo junta. Los segmentos de 1.3 son el público de esos outcomes. En el Capítulo II se contrastan con las entrevistas.
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-El enunciado del problema se deriva directamente del análisis 5W2H. El estado actual del mercado responde a las preguntas quién, qué, dónde, cuándo y por qué; las limitaciones de las soluciones existentes permiten identificar cómo abordar la problemática; y los **outcomes** establecen los resultados cuantitativos y de usuario que se esperan alcanzar con Allpatek.
+El enunciado del problema sale del 5W2H. Quién, qué, dónde, cuándo y por qué describen el mercado; el cómo sale de lo que hoy no resuelven otras soluciones. Los **outcomes** son los resultados que esperamos.
 
 **El estado actual de** la comercialización agrícola en el Perú se caracteriza por canales fragmentados y con asimetría de información. Los pequeños agricultores familiares con acceso limitado a internet y telefonía tienen menores posibilidades de acceder a mercados rentables y comercializar mayores volúmenes de producción (Fan & Salas Garcia, 2018).
 
@@ -579,7 +580,7 @@ La solución contempla las siguientes restricciones:
 4. El alcance geográfico inicial estará limitado al valle del Mantaro y a los comerciantes urbanos objetivo.
 5. La liberación de fondos estará asociada al cumplimiento de los hitos agrícolas establecidos en el contrato.
 
-**Outcomes.** Sabremos que hemos alcanzado el éxito cuando se observen estos resultados. No son funcionalidades: son el cambio de negocio y de usuario contra el cual se escriben las assumptions y las hypothesis statements.
+**Outcomes.** Sabremos que hemos alcanzado el éxito cuando se observen estos resultados:
 
 Outcomes de negocio:
 - Formalizar al menos 150 contratos agrícolas durante los primeros ocho meses de operación.
@@ -590,11 +591,9 @@ Outcomes de usuario (segmentos de 1.3):
 - Agricultor familiar: tasa de previsibilidad de ingresos del 100 % para quien cumpla las labores acordadas, con pago asociado a hitos y sin depender del precio del día de cosecha.
 - Comerciante urbano: ahorro de al menos el 25 % respecto al precio minorista equivalente, con costo de temporada conocido de antemano y origen del producto verificable.
 
-Estos outcomes se validan en la operación de la plataforma y se contrastan con la investigación de UX Research del Capítulo II.
-
 #### 1.2.2.2. Lean UX Assumptions
 
-Los supuestos parten de los problem statements y de los outcomes de 1.2.2.1, y de los dos segmentos de 1.3. Cada supuesto es una creencia que el equipo mantiene mientras la investigación o el experimento del Canvas no la falsee.
+Los supuestos salen de los problemas y outcomes de 1.2.2.1, y de los dos segmentos. Mientras no los desmintamos en campo, los damos por ciertos.
 
 **Supuestos de negocio**
 
@@ -668,7 +667,7 @@ Los supuestos parten de los problem statements y de los outcomes de 1.2.2.1, y d
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-Cada hipótesis toma un outcome de 1.2.2.1 y lo formula como experimento: *creemos que lograremos [outcome] si [segmento] puede [capacidad] mediante [solución]*. Las nueve hipótesis cubren catálogo, contratación, automatización, notificaciones, panel móvil, reputación, pagos por hito, ahorro y trazabilidad.
+Cada hipótesis une un outcome con una solución: *creemos que lograremos [resultado] si [quién] puede [hacer X] mediante [la plataforma]*. Hay nueve, de catálogo a trazabilidad.
 
 **Hipótesis 1: Catálogo de parcelas y temporadas**
 
@@ -708,7 +707,7 @@ Creemos que lograremos disponer de registros completos de trazabilidad en al men
 
 #### 1.2.2.4. Lean UX Canvas
 
-El Lean UX Canvas sintetiza, en un solo artefacto, los problem statements y outcomes de 1.2.2.1, las assumptions de 1.2.2.2, las hypothesis statements de 1.2.2.3 y los segmentos objetivo de 1.3 (valle del Mantaro y comerciantes urbanos). A continuación se presenta el canvas elaborado por el equipo en Miro:
+El Canvas junta problemas, outcomes, supuestos, hipótesis y los dos segmentos. Lo armamos en Miro:
 
 *Lean UX Canvas*
 
@@ -1112,11 +1111,11 @@ En cuarto lugar, respecto a la viabilidad comercial y seguridad de las transacci
 
 ## 2.3. Needfinding
 
-A partir del Lean UX Process (1.2.2) y de los segmentos objetivo (1.3), las entrevistas de 2.2 se analizan para establecer de forma correcta los artefactos de UX Research que pide el curso: **User Personas**, **User Task Matrix** y **Journey Maps**. El Empathy Mapping organiza la misma evidencia de campo.
+Con Lean UX (1.2.2), los segmentos (1.3) y las entrevistas (2.2) armamos las **User Personas**, la **Task Matrix** y los **Journey Maps**. El Empathy Mapping resume lo mismo.
 
 ### 2.3.1. User Personas
 
-Las fichas representan a los dos segmentos de 1.3 y a las personas entrevistadas en 2.2 (Gustavo Adolfo Suyo e Irma Barreto Castro). Detallan variables demográficas, rasgos psicográficos, motivaciones, pains y gains, nivel digital y uso de herramientas del agro. La información se sintetizó desde las entrevistas y se estructuró en UXPressia.
+Las fichas son Gustavo Adolfo Suyo e Irma Barreto Castro, de los segmentos de 1.3. Salieron de las entrevistas y se armaron en UXPressia.
 
 ### User Persona: Agricultor
 
@@ -1149,7 +1148,7 @@ Por otro lado, sus rutinas se diferencian según el rol que cumplen en la cadena
 
 ### 2.3.3. User Journey Mapping
 
-Esta sección presenta el User Journey Map de cada User Persona. El recorrido va desde que identifica la necesidad de vender o comprar hasta que evalúa el resultado de esa temporada o compra. Ambos journeys son **As-Is**: representan la situación actual sin Allpatek y materializan los problem statements de 1.2.2.1 (trato verbal, intermediario, precio incierto, origen no verificable). No se anticipa la plataforma. Cada mapa se construyó en UXPressia y queda vinculado a la ficha de User Persona.
+Journey de cada persona, desde que necesita vender o comprar hasta que cierra la temporada. Son **As-Is**: el trato de hoy, sin Allpatek (palabra, intermediario, precio e origen inciertos). Hechos en UXPressia.
 
 ### User Agricultor:
 
@@ -1249,7 +1248,7 @@ Siguiendo la definición de Eric Evans en *Domain-Driven Design: Tackling Comple
 
 ## 3.1. User Stories
 
-Las User Stories se establecen bajo el marco de las consideraciones previas (1.2) y de los resultados del UX Research (2.3): **User Personas**, **User Task Matrix** y **Journey Maps**. El formato es Como / quiero / para, con criterios de aceptación Given–When–Then. EP06 cubre la Landing Page; EP01–EP05 cubren las Web Apps. Las historias técnicas (TS01–TS04) diseñan los Server-side services con recursos en plural, **verbos HTTP** (GET, POST, PUT, DELETE) y acciones relacionadas como sub-recursos del mismo URI (**REST/HATEOAS**).
+Las historias salen de las personas, la task matrix y los journeys de 2.3. Van en formato Como / quiero / para, con Given–When–Then. EP06 es la landing; EP01–EP05, la app. TS01–TS04 son las URLs y verbos HTTP del API (**REST/HATEOAS**).
 
 ## Epics
 
@@ -1332,7 +1331,7 @@ Las User Stories se establecen bajo el marco de las consideraciones previas (1.2
 
 ## 3.3. Product Backlog
 
-El Product Backlog agrupa y prioriza el conjunto de User Stories identificadas a partir del UX Research. En cumplimiento con los requisitos de la guía, la priorización está determinada por el valor entregado al negocio, ubicando en el primer Sprint las funcionalidades correspondientes al sitio web estático (Landing Page) para habilitar la captación pública de usuarios y la presentación del modelo de negocio de ALLPATEK. Las historias técnicas TS01–TS04 del mismo backlog diseñan las Endpoint URLs y los verbos HTTP de los Server-side services.
+El Product Backlog agrupa y prioriza las User Stories. El primer Sprint cubre la Landing Page, para presentar el modelo y captar usuarios. TS01–TS04 definen las URLs y los verbos HTTP del API.
 
 | Orden | User Story Id | Título | Descripción | Story Points |
 | :---: | :--- | :--- | :--- | :---: |
@@ -1400,7 +1399,7 @@ El Product Backlog agrupa y prioriza el conjunto de User Stories identificadas a
 
 ## 4.1. Style Guidelines
 
-Esta sección establece los lineamientos visuales y de comunicación que garantizan la coherencia de ALLPATEK en todos sus puntos de contacto. Con el fin de construir una plataforma intuitiva y confiable para el sector agrícola, se define un sistema de diseño centralizado que abarca desde la identidad de marca, tipografía y paleta de colores dual, hasta las pautas específicas para las interfaces web. **4.1.1** fija los elementos y principios de diseño de la Landing Page y de las Web Apps. **4.1.2** concreta los **style guidelines** de las Web Apps (grid, shell del dashboard y constraints en Figma). Esos lineamientos se traducen en 4.3–4.5 en wireframes, mock-ups y prototipos con simulación de interacción.
+Esta sección fija marca, tipografía y paletas para que landing y app se vean como el mismo producto. 4.1.1 es la identidad; 4.1.2, los **style guidelines** del dashboard. Eso se usa en los wireframes, mock-ups y prototipos de 4.3 a 4.5.
 
 ### 4.1.1. General Style Guidelines
 
@@ -1624,7 +1623,7 @@ Dentro del entorno autenticado, la navegación se estructura para facilitar el f
 ## 4.3. Landing Page UI Design
 
 
-En esta sección se presenta la propuesta de diseño de interfaz de usuario (UI) para la *Landing Page* de **ALLPATEK**. La interfaz traduce las consideraciones previas, el UX Research (personas, tareas y journeys) y los style guidelines de 4.1, junto con las decisiones de Arquitectura de Información (organización, etiquetado y navegación). El objetivo principal del diseño es proyectar confianza, transparencia y eficiencia operativa, facilitando que los potenciales clientes y agricultores comprendan de forma inmediata la propuesta de valor del modelo *Agro-as-a-Service* y la seguridad del sistema de custodia financiera *Escrow*.
+En esta sección se presenta la UI de la Landing Page de ALLPATEK. Sigue la arquitectura de información (navegación, organización y etiquetado) y los style guidelines de 4.1. El objetivo es que el visitante entienda de inmediato la propuesta de valor y cómo funciona la custodia Escrow.
 
 Para lograr una experiencia visual limpia y profesional, se aplicaron principios de jerarquía visual clara, tipografía legible y una paleta de colores inspirada en el sector agrícola con acentos dinámicos para los llamados a la acción (CTA). Cada sección de la página sigue una secuencia lógica orientada a la conversión y al descubrimiento progresivo, transformando conceptos técnicos complejos como la verificación de hitos en campo y la liberación gradual de fondos en componentes visuales comprensibles y estructurados.
 
@@ -2120,7 +2119,7 @@ En el flujo de evidencias, la UI usa review → verified → accepted. El acceso
 
 ## 4.5. Web Applications Prototyping
 
-En esta sección se presentan los prototipos interactivos de alta fidelidad desarrollados para navegadores **Desktop** y **Mobile Web**. Traducen wireframes y mock-ups a **prototipos con simulación de interacción** (enlaces clickeables, estados hover/focus y recorridos en Figma) acorde a los trayectos definidos en los *User Flow Diagrams*. 
+Prototipos de Figma para **Desktop** y **Mobile Web**: se puede hacer clic, hay hover/focus y se recorre el flujo. Siguen los user flows de 4.4.4. 
 
 #### Criterios para las Decisiones de Interacción y Arquitectura de Información
 
@@ -2165,7 +2164,7 @@ A continuación, se presentan los enlaces y capturas de los videos explicativos 
 
 ## 4.6. Domain-Driven Software Architecture
 
-En Allpatek, el comerciante alquila una parcela por temporada y contrata el trabajo del agricultor. El **modelo de solución** se representa en los diagramas especificados de esta sección: EventStorming de diseño, C4 (contexto, contenedores y componentes), clases y base de datos. El diseño organiza el software según las decisiones que toma cada parte. Una parcela puede ponerse en producción, un acuerdo puede reunir las dos aceptaciones y una evidencia puede revisarse. Cada regla tiene un contexto responsable.
+En Allpatek, el comerciante alquila una parcela por temporada y contrata el trabajo del agricultor. El modelo queda en los diagramas de esta sección: EventStorming, C4, clases y base de datos. El diseño sigue las decisiones de cada parte. Una parcela puede pasar a producción, un acuerdo junta las dos firmas y una evidencia se revisa. Cada regla tiene su contexto.
 
 | Contexto | Módulo Angular | Paquete Spring | Responsabilidad |
 |---|---|---|---|
@@ -4605,9 +4604,9 @@ El registro de cuentas (`POST /api/v1/users`) y el inicio de sesión (`POST /api
 
 Los cuerpos de las solicitudes utilizan `Content-Type: application/json` y aceptan la cabecera opcional `Accept-Language` para definir el idioma de las respuestas (`es` o `en`). Los parámetros `id` y `userId` se envían como variables de ruta (*path parameters*), mientras que la consulta climática identifica al propietario automáticamente desde la sesión autenticada.
 
-**Principios REST y HATEOAS en las Endpoint URLs**
+**REST y HATEOAS**
 
-Las rutas siguen recursos en plural bajo `/api/v1` (`/users`, `/tokens`, `/profiles`, `/parcels`, `/agreements`, `/evidence`, `/wallets`, `/alerts`). Los **verbos HTTP** expresan la operación: GET consulta, POST crea, PUT actualiza, DELETE elimina. **HATEOAS** se aplica de forma restringida: las transiciones no son rutas RPC (`/auth/login`) sino sub-recursos del mismo identificador (`POST /tokens`, `GET /profiles/me`, `POST /agreements/{id}/farmer-signature`, `POST /evidence/{id}/verify`, `POST /evidence/{id}/release`). El cliente sigue esas URLs documentadas en OpenAPI en lugar de inventar rutas de acción.
+Las URLs son recursos bajo `/api/v1` (`/users`, `/tokens`, `/parcels`, `/agreements`, `/evidence`, `/wallets`). GET lista, POST crea, PUT actualiza, DELETE borra. Las acciones cuelgan del recurso (`POST /tokens`, `GET /profiles/me`, `POST /agreements/{id}/farmer-signature`, `POST /evidence/{id}/verify`), no de rutas tipo `/auth/login`.
 
 **Matriz de servicios**
 
