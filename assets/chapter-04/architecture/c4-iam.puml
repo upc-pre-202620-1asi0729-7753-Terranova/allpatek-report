@@ -1,0 +1,29 @@
+@startuml
+!pragma layout smetana
+!include <C4/C4_Component>
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 14
+skinparam shadowing false
+skinparam dpi 120
+LAYOUT_TOP_DOWN()
+title Allpatek | Identity and access
+Container_Boundary(bound, "Spring API / iam") {
+  Component(rest, "Users / Tokens / Roles controllers", "Spring MVC", "Sign up, sign in and query accounts or roles.")
+  Component(svc, "User and role services", "Application", "Resolve roles, hash credentials and issue tokens.")
+  Component(jwt, "TokenServiceImpl / HashingServiceImpl", "JJWT / BCrypt", "Issue and validate tokens; encode and compare passwords.")
+  Component(filter, "BearerAuthorizationRequestFilter", "Spring Security", "Validates bearer token and loads account authorities.")
+  Component(rep, "User and role repositories", "JPA adapters", "Persist accounts and their role memberships.")
+  Component(acl, "ExternalProfileService", "ACL", "Resolves an optional profile for the token response.")
+}
+ContainerDb(db, "MySQL", "JPA / SQL", "Mapped persistence entities.")
+Component(pf, "ProfilesContextFacade", "profiles", "Profile lookup by email.")
+Rel(rest, svc, "Commands and queries")
+Rel(svc, jwt, "Hash or verify; issue token")
+Rel(svc, rep, "Resolve and persist accounts / roles")
+Rel(filter, jwt, "Validate and read subject")
+Rel(filter, rep, "Load persisted authorities via UserDetailsServiceImpl")
+Rel(rest, acl, "Resolve profile after sign-in")
+Rel(acl, pf, "Look up username as email")
+Rel(rep, db, "JPA")
+@enduml

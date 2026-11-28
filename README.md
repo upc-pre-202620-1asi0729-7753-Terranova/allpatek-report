@@ -2279,6 +2279,14 @@ Profiles reúne el agregado y sus reglas de identidad. Expone creación, consult
 
 *Figura 4.6.4-E6. Componentes de perfiles.* [Ampliar en SVG](assets/chapter-04/architecture/c4-shared-profiles.svg) · [Fuente PlantUML](assets/chapter-04/architecture/c4-shared-profiles.puml).
 
+#### Identidad y acceso en la API
+
+IAM administra los usuarios y roles. BCrypt verifica credenciales y JWT identifica las peticiones posteriores. Crear una cuenta y crear un perfil son dos operaciones REST independientes.
+
+![Figura 4.6.4-E7. Componentes de IAM](assets/chapter-04/architecture/c4-iam.png)
+
+*Figura 4.6.4-E7. Componentes de IAM.* [Ampliar en SVG](assets/chapter-04/architecture/c4-iam.svg) · [Fuente PlantUML](assets/chapter-04/architecture/c4-iam.puml).
+
 ## 4.7. Software Object-Oriented Design
 
 Los diagramas se leen desde el **dominio**. Allí aparecen la parcela, el acuerdo o la evidencia y las reglas que les pertenecen. La capa de **aplicación** coordina cada operación, **interfaces** recibe la solicitud e **infraestructura** conecta el modelo con HTTP o la base de datos. En Angular, la pantalla delega el trabajo al store y el servicio HTTP adapta los datos de la API.
