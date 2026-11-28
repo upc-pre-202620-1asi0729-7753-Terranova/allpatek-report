@@ -2299,7 +2299,7 @@ Shared aporta los tipos de resultado, el publicador de eventos, el manejo de err
 
 Los diagramas se leen desde el **dominio**. Allí aparecen la parcela, el acuerdo o la evidencia y las reglas que les pertenecen. La capa de **aplicación** coordina cada operación, **interfaces** recibe la solicitud e **infraestructura** conecta el modelo con HTTP o la base de datos. En Angular, la pantalla delega el trabajo al store y el servicio HTTP adapta los datos de la API.
 
-Cada contexto incluye una figura del backend y otra de la webapp. Se muestran los miembros que intervienen en el recorrido y su visibilidad (`+` público, `-` privado, `#` protegido). Las relaciones indican qué objeto conoce o utiliza al otro y cuántas instancias admite cuando existe una asociación. Las interfaces y uniones de tipos de TypeScript aparecen según su representación en el código. La landing utiliza HTML, CSS y funciones JavaScript; su estructura se presenta en 4.6.4-C.
+Las figuras cubren los contextos del backend y los módulos correspondientes de Angular. IAM y Profiles comparten servicios del módulo `shared` únicamente en la webapp. La visibilidad se indica con `+` público, `-` privado y `#` protegido. Las dependencias y multiplicidades describen los miembros relevantes del recorrido. La landing es una página con funciones JavaScript y se detalla en 4.6.4-C.
 
 ### 4.7.1. Class Diagrams
 
@@ -2386,6 +2386,14 @@ Cada contexto incluye una figura del backend y otra de la webapp. Se muestran lo
 ![Figura 4.7.1-F2. Clima en Angular](assets/chapter-04/architecture/web-classes-alerts.png)
 
 *Figura 4.7.1-F2. Clima en Angular.* [Ampliar en SVG](assets/chapter-04/architecture/web-classes-alerts.svg) · [Fuente PlantUML](assets/chapter-04/architecture/web-classes-alerts.puml).
+
+#### Identidad y autenticación
+
+`User` agrupa los roles. El servicio de registro resuelve los roles, aplica BCrypt y persiste la cuenta. `TokensController` pide el token y busca el perfil opcional por username. El filtro de las peticiones siguientes carga las autoridades desde la cuenta.
+
+![Figura 4.7.1-G. Clases de cuentas, roles y autenticación](assets/chapter-04/architecture/classes-iam.png)
+
+*Figura 4.7.1-G. Clases de cuentas, roles y autenticación.* [Ampliar en SVG](assets/chapter-04/architecture/classes-iam.svg) · [Fuente PlantUML](assets/chapter-04/architecture/classes-iam.puml).
 
 ## 4.8. Database Design
 
