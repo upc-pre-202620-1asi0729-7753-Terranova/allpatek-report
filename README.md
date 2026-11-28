@@ -2405,15 +2405,15 @@ Las figuras cubren los contextos del backend y los módulos correspondientes de 
 
 ## 4.8. Database Design
 
-La plataforma conserva perfiles, parcelas, acuerdos, billeteras y evidencias en MySQL. Los modelos físicos se deducen de las entidades JPA de `a2b0269`, sus atributos embebidos y la estrategia que convierte los nombres a plural. Las lecturas de clima se calculan al consultar el pronóstico. La sesión de demostración se conserva en el navegador.
+El mapeo JPA de `82e8832` describe ocho tablas. Identidad añade `users`, `roles` y `user_roles`. Profiles se relaciona con la cuenta por coincidencia de correo. Seguimiento incorporó la referencia opcional `evidences.agreement_id`. Las lecturas de clima se calculan bajo demanda.
 
 ### 4.8.1. Database Diagrams
 
-**Cómo leer el modelo.** La pata de cuervo significa «muchos», el círculo permite cero y la barra indica uno. `PK` identifica la clave primaria, `UQ` un valor único y el asterisco una columna obligatoria. Las líneas discontinuas representan asociaciones por identificador. El mapeo guarda estos valores como columnas simples, por lo que MySQL no comprueba la existencia del registro asociado mediante una FK. La cardinalidad muestra la relación esperada entre registros válidos.
+**Cómo leer el modelo.** La pata de cuervo significa «muchos», el círculo permite cero y la barra indica uno. `PK` indica clave primaria y `UQ`, unicidad. Las líneas continuas de IAM representan la asociación JPA de muchos a muchos mediante `user_roles`. Las discontinuas indican búsquedas por correo o identificadores escalares sin FK declarada entre contextos. El modelo se dedujo del código y de su estrategia de nombres.
 
-![Figura 4.8.1. Relaciones entre las cinco tablas del modelo MySQL](assets/chapter-04/architecture/20-database-overview.png)
+![Figura 4.8.1. Relaciones entre las ocho tablas del modelo MySQL](assets/chapter-04/architecture/20-database-overview.png)
 
-*Figura 4.8.1. Relaciones entre las cinco tablas del modelo MySQL.* [Ampliar en SVG](assets/chapter-04/architecture/20-database-overview.svg) · [Fuente PlantUML](assets/chapter-04/architecture/20-database-overview.puml).
+*Figura 4.8.1. Relaciones entre las ocho tablas del modelo MySQL.* [Ampliar en SVG](assets/chapter-04/architecture/20-database-overview.svg) · [Fuente PlantUML](assets/chapter-04/architecture/20-database-overview.puml).
 
 Una parcela guarda el identificador del propietario. Un perfil puede estar asociado a varias parcelas. Las listas de cultivos e imágenes se serializan como texto JSON.
 
