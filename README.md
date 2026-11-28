@@ -2225,7 +2225,7 @@ La landing abre la SPA. El navegador solicita los recursos de negocio a la API y
 
 *Figura 4.6.4-C. Componentes de la landing.* <a href="assets/chapter-04/architecture/06-landing-components.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/06-landing-components.svg">SVG</a>.
 
-**Automatización.** La landing comprueba la respuesta HTTP al enviar el contacto. En la SPA, la notificación de acuerdo se solicita tras guardar la segunda aceptación. El aviso de evidencia se inicia antes de conocer el resultado del guardado. En la bóveda, un error al guardar la liberación se puede convertir en éxito local y disparar el aviso. La figura identifica los puntos de llamada. El resultado del workflow, la entrega del correo y el PDF requieren evidencia independiente.
+**Automatización.** La landing comprueba la respuesta al enviar el contacto. La SPA intenta el aviso de acuerdo tras guardar la firma y el de evidencia antes de completar su guardado. La bóveda intenta avisar después de que la solicitud de liberación responde correctamente. Estos puntos demuestran la salida de la petición. El procesamiento del webhook, la generación del PDF y la entrega al destinatario requieren evidencia del workflow.
 
 ![Figura 4.6.4-D. Puntos de llamada a n8n desde las aplicaciones](assets/chapter-04/architecture/07-n8n-components.png)
 

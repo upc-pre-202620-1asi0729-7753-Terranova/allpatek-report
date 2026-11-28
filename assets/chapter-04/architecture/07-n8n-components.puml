@@ -12,13 +12,13 @@ Container(landing, "Landing page", "HTML / JavaScript", "Contact form validates 
 Container_Boundary(web, "Angular Webapp") {
   Component(contract, "ContractSign", "Angular / HttpClient", "Requests a notice on successful farmer signature save.")
   Component(evidence, "EvidenceForm", "Angular / fetch", "Starts a notice before sending the evidence save request.")
-  Component(payout, "EscrowBoard", "Angular / fetch", "Requests a notice when the UI reports a release.")
+  Component(payout, "EscrowBoard", "Angular / fetch", "Requests a notice after POST release succeeds.")
 }
 System_Ext(automation, "n8n", "Configured webhook targets")
 Rel(landing, automation, "POST contact; shows HTTP success or failure", "JSON")
 Rel(contract, automation, "POST agreement notice; request errors ignored", "JSON")
 Rel(evidence, automation, "POST evidence notice; save proceeds independently", "Form URL-encoded")
-Rel(payout, automation, "POST payout notice; evidence PUT failure can still trigger it", "Form URL-encoded")
+Rel(payout, automation, "POST payout notice after a successful release response", "Form URL-encoded")
 footer Implementation records browser requests. Actual workflow execution, contract PDF and email delivery require separate evidence.
 SHOW_LEGEND()
 @enduml
