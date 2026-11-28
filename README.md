@@ -2192,14 +2192,14 @@ El agricultor ofrece la parcela y registra el trabajo. El comerciante contrata l
 
 ### 4.6.3. Software Architecture Container Diagrams
 
-Cada recuadro dentro del límite de Allpatek representa una unidad que se puede desplegar por separado. El enlace de la landing abre la webapp y el navegador carga la SPA. Desde allí salen las solicitudes a la API, a los pronósticos y a los webhooks.
+La landing abre la SPA. El navegador solicita los recursos de negocio a la API y puede enviar avisos a n8n. Spring Security valida las peticiones protegidas antes de que lleguen a los módulos. Desde Spring salen la consulta de pronóstico a Open-Meteo y las operaciones JPA contra MySQL.
 
 | Contenedor | Tecnología | Responsabilidad y conexión |
 |---|---|---|
 | Landing page | HTML, CSS y JavaScript | Presenta el servicio, abre la SPA, incorpora dos videos de YouTube y envía el contacto a n8n. |
-| Allpatek Webapp | Angular, TypeScript y HttpClient | Ejecuta las pantallas en el navegador, consume la API por HTTPS e incorpora el mapa de OpenStreetMap. La vista de clima pide pronósticos directamente a Open-Meteo. |
-| Platform REST API | Java y Spring Boot | Expone recursos bajo `/api/v1`, utiliza JPA para acceder a MySQL y ofrece su propia consulta de clima. |
-| Base de datos | MySQL | Persiste perfiles, parcelas, acuerdos, billeteras y evidencias. |
+| Allpatek Webapp | Angular 22, TypeScript y HttpClient | Adjunta el token a las llamadas protegidas, consulta alertas en el backend e incorpora el mapa de OpenStreetMap. |
+| Platform REST API | Java 27 y Spring Boot 4.1.2 | Una unidad de despliegue para los siete contextos y Shared. Ofrece REST, seguridad JWT, persistencia JPA y un adaptador a Open-Meteo. |
+| Base de datos | MySQL | Guarda cuentas, roles, asignaciones de rol, perfiles, parcelas, acuerdos, billeteras y evidencias. |
 
 ![Figura 4.6.3. Contenedores desplegables y comunicación de la webapp](assets/chapter-04/architecture/03-containers.png)
 
