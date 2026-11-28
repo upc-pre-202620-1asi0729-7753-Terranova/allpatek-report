@@ -2213,7 +2213,7 @@ La landing abre la SPA. El navegador solicita los recursos de negocio a la API y
 
 *Figura 4.6.4-A. Componentes y colaboraciones de la API Spring.* [Ampliar en SVG](assets/chapter-04/architecture/04-api-components.svg) · [Fuente PlantUML](assets/chapter-04/architecture/04-api-components.puml).
 
-**Aplicación web.** El enrutador de Angular organiza las pantallas por dominio. Los servicios consultan perfiles, parcelas, acuerdos, billeteras y evidencias en Spring. Los guardas y la selección de rol dependen del navegador. La sincronización adicional del perfil intenta usar `/users`, recurso sin controlador en esta versión de Spring.
+**Aplicación web.** Angular registra la cuenta en `/users`, inicia sesión en `/tokens` y consulta `/profiles/me`. El interceptor agrega el token Bearer a las solicitudes protegidas. Ante una respuesta 401 protegida, limpia la sesión y retorna al login. La pantalla de clima usa `AlertsApi` para consultar `/alerts`. `ClimateBoard` calcula los avisos visibles a partir de las mediciones recibidas.
 
 ![Figura 4.6.4-B. Módulos y dependencias de la SPA Angular](assets/chapter-04/architecture/05-web-components.png)
 
