@@ -139,7 +139,7 @@
 | TB2 | 27/11/2026 | Atauje Barreto, Alexander Sebastián | Actualización del Lean UX Canvas en Miro y de su imagen en 1.2.2.4, con los segmentos del valle del Mantaro, las metas de negocio, la hipótesis principal y el experimento mínimo alineados con los problemas, supuestos e hipótesis del informe. |
 | TB2 | 27/11/2026 | Atauje Barreto, Alexander Sebastián | Actualización de los enlaces de YouTube y Microsoft Stream de About the Team en su sección y en el Anexo H. |
 | TB2 | 27/11/2026 | Atauje Barreto, Alexander Sebastián | Documentación de 5.2.4.6 con los enlaces de Swagger UI y OpenAPI, las 31 operaciones de la API publicada, la autenticación JWT, los esquemas de datos y las respuestas documentadas de los servicios del Sprint 4. |
-
+| TB2 | 27/11/2026 | Vera Solsol, Nayely Macarena | Actualización de las tablas del anexo A,B,C,D |
 
 
 
