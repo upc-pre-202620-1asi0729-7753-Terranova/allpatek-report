@@ -2347,7 +2347,7 @@ Las figuras cubren los contextos del backend y los módulos correspondientes de 
 
 #### Evidencias por hito
 
-**Backend.** `MilestoneEvidence` identifica la parcela, el hito, el archivo y el estado de revisión. `EvidenceController` convierte la petición en un comando y `EvidenceCommandServiceImpl` guarda el agregado mediante `EvidenceRepository`. `MilestoneNumber` admite los valores de 1 a 4. El backend almacena el estado enviado sin exigir una secuencia entre `review`, `verified` y `accepted`.
+**Backend.** `MilestoneEvidence` vincula parcela, acuerdo e hito del 1 al 4. `withStatus` conserva los datos y registra el evento de verificación o liberación. `EvidenceRepositoryImpl` guarda el nuevo estado y publica los eventos del agregado. Un guardado genérico sigue un camino distinto.
 
 ![Figura 4.7.1-D1. Seguimiento en Spring](assets/chapter-04/architecture/12-classes-monitoring.png)
 
