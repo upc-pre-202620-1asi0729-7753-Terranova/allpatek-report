@@ -2381,7 +2381,7 @@ Las figuras cubren los contextos del backend y los módulos correspondientes de 
 
 *Figura 4.7.1-F1. Clima en Spring.* [Ampliar en SVG](assets/chapter-04/architecture/12b-classes-alerts.svg) · [Fuente PlantUML](assets/chapter-04/architecture/12b-classes-alerts.puml).
 
-**Webapp.** `WeatherReading` describe la lectura de una parcela. Cada lectura incorpora cuatro gráficos de temperatura, humedad, lluvia y viento definidos por `WeatherChart`. `ClimateBoard` cambia la parcela seleccionada en `ClimateStore`. El store carga las parcelas y envía sus coordenadas a `WeatherApi`, que consulta Open-Meteo directamente desde el navegador.
+**Webapp.** `ClimateStore` carga las lecturas mediante `AlertsApi.getReadings` cuando hay token. `ClimateBoard` permite seleccionar la parcela. La clase `WeatherApi` sigue en el repositorio, pero el store de esta pantalla consume la API Spring.
 
 ![Figura 4.7.1-F2. Clima en Angular](assets/chapter-04/architecture/web-classes-alerts.png)
 
