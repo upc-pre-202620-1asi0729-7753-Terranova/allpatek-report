@@ -2433,11 +2433,11 @@ El identificador del perfil es obligatorio y carece de restricción de unicidad.
 
 *Figura 4.8.1-C. Tabla wallets y perfil.* [Ampliar en SVG](assets/chapter-04/architecture/16-database-payments.svg) · [Fuente PlantUML](assets/chapter-04/architecture/16-database-payments.puml).
 
-Cada evidencia contiene el identificador de parcela, número de hito, estado y, cuando se adjuntan, notas y archivo. El pronóstico se calcula al consultar y carece de tabla propia.
+Cada evidencia conserva la parcela, la referencia opcional al acuerdo, el número de hito, el estado y los datos del adjunto. Los eventos de verificación y liberación se originan en las transiciones del agregado.
 
-![Figura 4.8.1-D. Tabla evidences y parcela](assets/chapter-04/architecture/17-database-monitoring.png)
+![Figura 4.8.1-D. Tabla evidences y referencias a parcela y acuerdo](assets/chapter-04/architecture/17-database-monitoring.png)
 
-*Figura 4.8.1-D. Tabla evidences y parcela.* [Ampliar en SVG](assets/chapter-04/architecture/17-database-monitoring.svg) · [Fuente PlantUML](assets/chapter-04/architecture/17-database-monitoring.puml).
+*Figura 4.8.1-D. Tabla evidences y referencias a parcela y acuerdo.* [Ampliar en SVG](assets/chapter-04/architecture/17-database-monitoring.svg) · [Fuente PlantUML](assets/chapter-04/architecture/17-database-monitoring.puml).
 
 El sistema asigna el identificador del perfil. El correo es obligatorio y único. Las tablas que guardan ese identificador como referencia se muestran en la vista general.
 
