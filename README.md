@@ -2076,7 +2076,7 @@ En esta sección se presenta la propuesta formal de User Flows mapeados a partir
 | Comerciante y agricultor | /parcels/:id, /agreements, /agreements/merchant | El comerciante abre el acuerdo desde el detalle de parcela. El agricultor revisa la solicitud en /agreements/merchant y confirma en /agreements. Se almacenan dos indicadores de aceptación. |
 | Agricultor y comerciante | /evidence/new, /evidence/review, /escrow | El agricultor adjunta una imagen. El comerciante verifica la evidencia y luego marca la liberación simulada en la bóveda. |
 | Comerciante | /escrow/deposit | Trabaja con una billetera de demostración. La API intercambia la tarjeta enmascarada y expresa el saldo en céntimos. |
-| Agricultor | /alerts | La SPA lee las parcelas en Spring y consulta Open-Meteo directamente para las del agricultor con coordenadas utilizables. La API también ofrece una consulta de clima independiente. |
+| Agricultor | /alerts | Angular solicita `GET /api/v1/alerts` con el token. Spring resuelve el perfil por correo, busca sus parcelas y consulta el pronóstico. |
 
 La SPA utiliza las operaciones de firma, verificación y liberación del servidor. El agricultor registra evidencia y el comerciante pasa de `review` a `verified` y luego a `accepted`. La respuesta de liberación confirma el cambio en la evidencia. El crédito depende de que Escrow encuentre el acuerdo, el perfil comerciante y su billetera. El resultado monetario es simulado.
 
