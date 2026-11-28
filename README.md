@@ -2141,10 +2141,12 @@ En Allpatek, el comerciante alquila una parcela por temporada y contrata el trab
 |---|---|---|---|
 | Parcelas | `parcel-management` | `parcels` | Publicar la parcela, editarla y actualizar su estado. |
 | Acuerdos | `agreements-management` | `agreements` | Guardar las dos aceptaciones y comunicar la primera transición a acuerdo firmado por ambas partes. |
-| Bóveda | `escrow-payments` | `escrow` | Conservar la billetera de demostración y su saldo inicial. La interfaz simula la liberación por hito. |
-| Seguimiento | `tracking-evidence` | `tracking` | Asociar archivos y observaciones a un hito de la parcela y guardar su estado de revisión. |
-| Clima | `alerts-management` | `alerts` | Calcular lecturas de pronóstico para parcelas con coordenadas. |
-| Perfiles | `shared` | `shared` | Consultar y actualizar perfiles. El navegador conserva la sesión de demostración. |
+| Bóveda | `escrow-payments` | `escrow` | Crear la billetera elegible y acreditar un saldo demostrativo al recibir la liberación de evidencia. |
+| Seguimiento | `tracking-evidence` | `tracking` | Asociar el archivo al hito y al acuerdo. Verificar o liberar la evidencia con comandos específicos. |
+| Clima | `alerts-management` | `alerts` | Resolver el propietario autenticado y consultar el pronóstico de sus parcelas. |
+| Perfiles | `shared` | `profiles` | Crear y consultar la identidad de negocio y los datos de empresa. |
+| Identidad y acceso | `shared` | `iam` | Registrar cuentas, resolver roles y autenticar con BCrypt y JWT. |
+| Soporte transversal | Varios módulos | `shared` | Compartir resultados, errores, eventos, tipos base JPA y adaptadores HTTP. |
 
 **Base de la revisión.** Se cotejaron el frontend Angular (`1c92b1a`), la plataforma Spring (`a2b0269`) y la landing (`ccc9d71`) en las referencias locales. Los dos archivos de entorno de Angular configuran la API Spring en Render bajo `/api/v1`. JSON Server pertenece a una configuración anterior. Las figuras describen el código de esas revisiones.
 
