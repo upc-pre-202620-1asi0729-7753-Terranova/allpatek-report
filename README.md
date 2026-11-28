@@ -2160,7 +2160,7 @@ En Allpatek, el comerciante alquila una parcela por temporada y contrata el trab
 | Identidad y acceso | `shared` | `iam` | Registrar cuentas, resolver roles y autenticar con BCrypt y JWT. |
 | Soporte transversal | Varios módulos | `shared` | Compartir resultados, errores, eventos, tipos base JPA y adaptadores HTTP. |
 
-**Base de la revisión.** Se cotejaron el frontend Angular (`1c92b1a`), la plataforma Spring (`a2b0269`) y la landing (`ccc9d71`) en las referencias locales. Los dos archivos de entorno de Angular configuran la API Spring en Render bajo `/api/v1`. JSON Server pertenece a una configuración anterior. Las figuras describen el código de esas revisiones.
+**Base de la revisión.** Backend `develop` (`82e8832`), frontend `origin/develop` (`996d647`) y landing `origin/develop` (`359cf77`), según las referencias locales. Ambas configuraciones de Angular usan la API de la plataforma bajo `/api/v1`. El backend es una sola aplicación Spring Boot 4.1.2, con Java 27 y MySQL. La [matriz de auditoría](assets/chapter-04/architecture/diagram-coherence-audit.md) vincula las figuras con las clases, operaciones y brechas del Sprint 4.
 
 ### 4.6.1. Design-Level Event Storming
 
