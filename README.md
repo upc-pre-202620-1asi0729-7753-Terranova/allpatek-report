@@ -2273,7 +2273,7 @@ La consulta reúne las coordenadas de Parcelas y el pronóstico de Open-Meteo. C
 
 #### Perfiles en la API
 
-El controlador y los servicios consultan o editan el perfil. El repositorio JPA conserva los datos personales y de empresa. El paquete de identidad carece de un flujo de autenticación implementado.
+Profiles reúne el agregado y sus reglas de identidad. Expone creación, consulta, edición y `/profiles/me`. `CurrentAccountService` lee el contexto de seguridad. La creación de un perfil nuevo publica `ProfileCreatedEvent`, que se traduce a `ProfileCreatedIntegrationEvent`.
 
 ![Figura 4.6.4-E6. Componentes de perfiles](assets/chapter-04/architecture/c4-shared-profiles.png)
 
