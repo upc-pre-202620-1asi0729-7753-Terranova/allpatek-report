@@ -4610,7 +4610,21 @@ En el Sprint 4 se implementó la gestión de identidad y acceso (IAM con JWT y p
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
+**Comprobación pública del backend · 28/11/2026**
 
+Durante la revisión se consultaron por HTTPS tres recursos de Allpatek. La especificación publicada documentó 19 rutas e incluyó la firma del agricultor, la verificación y liberación de evidencias y la consulta de alertas.
+
+| Recurso | Resultado observado entre las 14:19:09 y las 14:19:11 (Lima) |
+| --- | --- |
+| [Swagger UI](https://allpatek.proyectaconsultora.com/swagger-ui/index.html) | HTTP 200 después de la redirección. El navegador mostró la documentación de Allpatek Platform. |
+| [Especificación OpenAPI](https://allpatek.proyectaconsultora.com/v3/api-docs) | HTTP 200. El documento indicó OpenAPI 3.1.0 y versión de la API `0.0.1-SNAPSHOT`. |
+| [Ruta de salud](https://allpatek.proyectaconsultora.com/health) | HTTP 401 al consultar sin credenciales. La respuesta confirma que el servidor atendió la solicitud. El estado de salud de la aplicación quedó sin verificar por esta vía. |
+
+[Registro de las tres consultas con fecha, hora y respuesta](assets/chapter-05/sprint-04-deployment-http.json)
+
+[![Swagger UI de Allpatek en producción, con los recursos de usuarios, tokens y perfiles.](assets/chapter-05/sprint-04-swagger-publico.png)](assets/chapter-05/sprint-04-swagger-publico.png)
+
+*Figura 5.2.4.7.1. Documentación pública del backend observada durante la revisión del Sprint 4.*
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
