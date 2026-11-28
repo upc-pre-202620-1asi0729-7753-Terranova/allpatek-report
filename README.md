@@ -2339,7 +2339,7 @@ Las figuras cubren los contextos del backend y los módulos correspondientes de 
 
 *Figura 4.7.1-C1. Bóveda en Spring.* [Ampliar en SVG](assets/chapter-04/architecture/11-classes-payments.svg) · [Fuente PlantUML](assets/chapter-04/architecture/11-classes-payments.puml).
 
-**Webapp.** `PaymentCard` representa la tarjeta del perfil en la demo y `EscrowEvidenceRef` vincula el hito a la parcela. `EscrowBoard` usa `WalletStore` para la bóveda y `EscrowStore` para la aprobación. En este frontend, `release` selecciona una evidencia verificada y solicita a `EscrowLookupApi` que la guarde como aceptada. Ese cambio de estado representa un desembolso simulado.
+**Webapp.** `EscrowStore.release` localiza la evidencia verificada. `EscrowLookupApi.updateEvidence` hace un POST a `/evidence/{id}/release` y comunica el resultado a `EscrowBoard`. Las lecturas de billetera provienen de `/wallets`.
 
 ![Figura 4.7.1-C2. Bóveda en Angular](assets/chapter-04/architecture/web-classes-escrow.png)
 
