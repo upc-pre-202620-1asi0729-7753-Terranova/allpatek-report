@@ -4610,6 +4610,24 @@ En el Sprint 4 se implementó la gestión de identidad y acceso (IAM con JWT y p
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
+**Versión desplegada y entorno**
+
+El backend del Sprint 4 se desplegó en el servidor de Proyecta el **26/11/2026 a las 17:03:11 (Lima)**. En la revisión del 28/11, el registro de despliegue y la versión en ejecución coincidieron en el commit [`82e8832` de `develop`](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/82e8832d1e70498ea183aa661af5b27a3f9924e4). [Ficha de verificación del servidor y publicaciones](assets/chapter-05/sprint-04-deployment-devops.txt)
+
+| Producto | Entorno y evidencia del Sprint 4 |
+| --- | --- |
+| API y base de datos | Java 27 y Spring Boot 4.1.2 sobre Ubuntu 24.04. PM2 reportó el proceso en línea y Nginx sirvió la API por HTTPS. Una consulta de solo lectura confirmó ocho tablas en MySQL 8.0.46. |
+| Aplicación web | Netlify respondió HTTP 200. El JavaScript publicado apunta a la API de Proyecta y el servidor aceptó la consulta previa del navegador desde el origen de Netlify (CORS). Queda pendiente identificar el commit del frontend en el panel de Netlify y comprobar un inicio de sesión de extremo a extremo. [Abrir la aplicación](https://terranova-allpatek.netlify.app/) |
+| Landing page | GitHub Pages registró el despliegue exitoso del commit `359cf77` el 27/11/2026 a las 15:52:59 (Lima). La página respondió HTTP 200 y enlaza a la aplicación web. [Abrir la landing](https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/) · [Ejecución de GitHub Actions](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website/actions/runs/46066535458) |
+
+**Cómo llegó la versión al servidor**
+
+1. El servidor revisa `develop` cada minuto. Cuando detectó el cambio, preparó una carpeta independiente para esa versión.
+2. Maven ejecutó **45 pruebas** con el perfil de pruebas y H2. El registro del despliegue indicó cero fallos, errores u omisiones. Después, Maven empaquetó el JAR.
+3. El proceso activó el nuevo JAR, reinició la aplicación con PM2 y comprobó la respuesta de OpenAPI. El registro marcó el despliegue como completado. La reversión a la versión anterior está configurada y queda pendiente comprobarla mediante una prueba controlada.
+
+Las capturas de Render y Aiven de la sección 5.2.3.7 corresponden al Sprint 3. Para este sprint, la comprobación del backend corresponde al servidor de Proyecta.
+
 **Comprobación pública del backend · 28/11/2026**
 
 Durante la revisión se consultaron por HTTPS tres recursos de Allpatek. La especificación publicada documentó 19 rutas e incluyó la firma del agricultor, la verificación y liberación de evidencias y la consulta de alertas.
