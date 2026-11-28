@@ -2176,7 +2176,7 @@ En el diseño del negocio, el comerciante solicita una temporada y ambas partes 
 
 #### Seguimiento de hitos y desembolso
 
-El agricultor presenta la evidencia y el comerciante la aprueba o pide una corrección. Aprobar autoriza solicitar un desembolso. El historial de pagos solo debe mostrarlo como realizado cuando el proveedor confirma la transferencia. Un rechazo permite revisar la solicitud y reintentar sin duplicar el pago. El capítulo II deja abiertas las decisiones sobre el plazo de revisión, cómo resolver una discrepancia de calidad y quién asume una pérdida por clima. También queda por conciliar el calendario de cinco liberaciones del Big Picture con los hitos del 1 al 4 que acepta el backend. Esas decisiones necesitan validación de los participantes.
+En el diseño objetivo el comerciante puede devolver la evidencia para corrección y el proveedor confirma el pago al agricultor. En el código actual, `verify` y `release` verifican el estado anterior. La liberación da lugar al crédito simulado del comerciante. Quedan por acordar el plazo de revisión, el criterio de calidad, las pérdidas por clima y la correspondencia entre las cinco liberaciones previstas en el Big Picture y los cuatro hitos admitidos por el código.
 
 ![Figura 4.6.1-C. Modelo propuesto para evidencia, revisión y desembolso](assets/chapter-04/architecture/01b-milestone-payout.png)
 
