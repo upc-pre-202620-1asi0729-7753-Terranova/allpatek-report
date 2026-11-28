@@ -2249,7 +2249,7 @@ La creación de un acuerdo requiere `ROLE_MERCHANT`. Para registrar la firma del
 
 #### Seguimiento en la API
 
-El servicio registra o actualiza una evidencia por parcela e hito. El repositorio conserva el estado y los datos de archivo que recibe.
+Seguimiento guarda la evidencia con `agreementId`. Los comandos de verificación y liberación comprueban el estado anterior, guardan el siguiente y publican eventos. El guardado genérico acepta el estado del recurso, por lo que esas reglas no cubren todas las escrituras.
 
 ![Figura 4.6.4-E3. Componentes de seguimiento](assets/chapter-04/architecture/c4-tracking.png)
 
