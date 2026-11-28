@@ -13,30 +13,37 @@ top to bottom direction
 title Allpatek | Escrow wallets - write path
 
 package "1. Domain" as Domain #ECF6EF {
+  class MoneyCents <<record, Value Object>> {
+    -value: int
+  }
   class Wallet <<Aggregate Root>> {
     -id: WalletId
     -profileId: ProfileId
     -openingBalance: MoneyCents
-    +getOpeningBalance(): MoneyCents
+    {static} +provision(Long, String): Wallet
+    +credit(int): Wallet
   }
-  class PaymentCard <<Value Object>> {
+  class PaymentCard <<record, Value Object>> {
     -holder: String
     -last4: String
-    +last4(): String
+    -expiry: String
+    -brand: String
   }
   interface WalletRepository <<Repository Port>> {
+    +findByProfileId(Long): Optional<Wallet>
     +save(Wallet): Wallet
-    +findAll(): List<Wallet>
   }
   Wallet *-right-> "1" PaymentCard : card
   WalletRepository ..> Wallet : saves and returns
 }
 package "2. Application" as Application #F3F6FA {
   interface WalletCommandService {
-    +handle(SaveWalletCommand): Result<Wallet, ApplicationError>
+    +handle(CreateWalletByProfileIdCommand): Result<Wallet, ApplicationError>
+    +handle(CreditWalletCommand): Result<Wallet, ApplicationError>
   }
   class WalletCommandServiceImpl {
-    +handle(SaveWalletCommand): Result<Wallet, ApplicationError>
+    +handle(CreateWalletByProfileIdCommand): Result<Wallet, ApplicationError>
+    +handle(CreditWalletCommand): Result<Wallet, ApplicationError>
   }
   WalletCommandService <|.. WalletCommandServiceImpl
 }
@@ -52,6 +59,7 @@ package "4. Infrastructure (JPA)" as Infrastructure #F6F1F8 {
   }
   class WalletPersistenceAssembler <<Mapper>> {
     {static} +toDomainFromPersistence(WalletPersistenceEntity): Wallet
+    {static} -toDomainFromPersistence(PaymentCardPersistenceEmbeddable): PaymentCard
   }
   class WalletPersistenceEntity <<JPA Entity>> {
     -profileId: Long
@@ -67,6 +75,7 @@ WalletCommandService "1" <-- WalletsController : walletCommandService
 Domain -[hidden]down-> Application
 Application -[hidden]down-> Interfaces
 
+Wallet *--> "1" MoneyCents : openingBalance
 legend bottom
 + public  |  - private
 Multiplicities label stored references. Dashed arrows show use or interface realization.

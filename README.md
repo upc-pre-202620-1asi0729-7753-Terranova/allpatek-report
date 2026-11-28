@@ -2333,7 +2333,7 @@ Las figuras cubren los contextos del backend y los módulos correspondientes de 
 
 #### Bóveda de demostración
 
-**Backend.** `Wallet` asocia un perfil con una tarjeta y un saldo inicial expresado en centavos mediante `MoneyCents`. `WalletsController` delega el registro en `WalletCommandService`. El adaptador JPA conserva la billetera y los atributos de `PaymentCard`; esta operación guarda datos de la demo y el backend carece de un servicio de desembolso. El recurso expone el número de tarjeta y el CVV, y el modelo de persistencia los conserva. Para la demo corresponden datos ficticios.
+**Backend.** `Wallet.provision` crea la billetera con tarjeta enmascarada y saldo inicial. `Wallet.credit` devuelve una billetera con el monto incrementado. `WalletCommandServiceImpl` persiste el resultado. El ensamblador de persistencia escribe valores nulos en las columnas `card_number` y `cvv`.
 
 ![Figura 4.7.1-C1. Bóveda en Spring](assets/chapter-04/architecture/11-classes-payments.png)
 
