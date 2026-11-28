@@ -2257,7 +2257,7 @@ Seguimiento guarda la evidencia con `agreementId`. Los comandos de verificación
 
 #### Bóveda en la API
 
-El servicio guarda la billetera con un monto inicial y una tarjeta de demostración. La API expone operaciones sobre billeteras; la liberación visible en Angular modifica una evidencia.
+Escrow aprovisiona S/ 500 de demostración cuando el perfil nuevo contiene empresa o RUC y todavía carece de billetera. Al recibir `EvidenceReleasedIntegrationEvent` intenta acreditar S/ 250 al comerciante del acuerdo. Un destinatario o una billetera ausente queda registrado. La liberación y la acreditación se deben comprobar por separado.
 
 ![Figura 4.6.4-E4. Componentes de bóveda](assets/chapter-04/architecture/c4-escrow.png)
 

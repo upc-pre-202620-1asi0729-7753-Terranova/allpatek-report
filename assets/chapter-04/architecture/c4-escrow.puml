@@ -10,9 +10,12 @@ LAYOUT_TOP_DOWN()
 title Allpatek | C4 components - Demo wallets
 Container_Boundary(api, "Spring REST API / escrow") {
   Component(rest, "WalletsController", "Spring MVC", "/api/v1/wallets")
-  Component(cmd, "WalletCommandServiceImpl", "Application service", "Saves or deletes a demo wallet.")
-  Component(query, "WalletQueryServiceImpl", "Application service", "Returns the opening amount and stored card details.")
+  Component(cmd, "WalletCommandServiceImpl", "Application service", "Provisions, credits, saves or deletes a demo wallet.")
+  Component(query, "WalletQueryServiceImpl", "Application service", "Returns wallet amounts and masked card data.")
   Component(repo, "WalletRepositoryImpl", "JPA adapter", "Implements WalletRepository and maps persisted records.")
+  Component(prov, "ProfileCreatedEventHandler", "escrow / Spring listener", "Company or RUC present: request demo wallet.")
+  Component(credit, "EvidenceReleasedEventHandler", "escrow / Spring listener", "Resolves the merchant and requests a demo credit.")
+  Component(acl, "ExternalAgreementService", "escrow / ACL", "Looks up the agreement recipient.")
 }
 
 ContainerDb(db, "MySQL", "Relational database", "wallets table")
@@ -21,4 +24,12 @@ Rel(rest, query, "GET")
 Rel(cmd, repo, "Writes via WalletRepository")
 Rel(query, repo, "Reads via WalletRepository")
 Rel(repo, db, "Uses WalletPersistenceRepository", "JPA")
+
+
+
+Component(ag, "AgreementsContextFacade", "agreements", "Returns the merchant profile ID when present.")
+Rel(prov, cmd, "CreateWalletByProfileIdCommand")
+Rel(credit, acl, "Look up merchantProfileId")
+Rel(acl, ag, "Synchronous facade call")
+Rel(credit, cmd, "CreditWalletCommand: 25000 cents")
 @enduml
