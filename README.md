@@ -2080,9 +2080,9 @@ En esta sección se presenta la propuesta formal de User Flows mapeados a partir
 
 En el flujo de evidencias, la UI usa review → verified → accepted. El acceso a evidencias se apoya en la aceptación del comerciante; la bóveda lista acuerdos con ambas aceptaciones y exige una tarjeta de demo y saldo disponible para marcar la liberación. El PUT reducido de liberación no incluye notas ni archivo, y el frontend transforma un error HTTP en un resultado exitoso. Con la API Spring configurada, el aviso puede indicar éxito aunque falle la escritura. Si el servidor acepta el reemplazo, se pueden perder las observaciones o el archivo omitidos. La transición debería guardar solo el nuevo estado, preservar la evidencia y mostrar éxito únicamente tras una respuesta válida.
 
-![Figura 4.4.4-A. Acuerdo, evidencia y liberación simulada](assets/chapter-04/architecture/18-flow-agreement-evidence.png)
+![Figura 4.4.4-A. Creación del acuerdo y firma del agricultor](assets/chapter-04/architecture/18-flow-agreement-evidence.png)
 
-*Figura 4.4.4-A. Acuerdo, evidencia y liberación simulada.* <a href="assets/chapter-04/architecture/18-flow-agreement-evidence.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/18-flow-agreement-evidence.svg">SVG</a>.
+*Figura 4.4.4-A. Creación del acuerdo y firma del agricultor.* <a href="assets/chapter-04/architecture/18-flow-agreement-evidence.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/18-flow-agreement-evidence.svg">SVG</a>.
 
 ![Figura 4.4.4-B. Publicación de parcela y consulta del clima](assets/chapter-04/architecture/19-flow-parcels-climate.png)
 
