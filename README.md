@@ -2447,6 +2447,10 @@ El sistema asigna el identificador del perfil. El correo es obligatorio y único
 
 La estrategia de nombres físicos transforma la anotación `@Table(name = "evidence")` en `evidences`. La ruta HTTP conserva el singular `/api/v1/evidence`. Las listas de cultivos e imágenes se serializan como texto JSON. Los archivos de evidencia se guardan como texto de imagen y nombre de archivo. wallets persiste card_number y cvv además de last4. No existen tablas de cuentas de acceso, reservas, hitos independientes, transacciones, reseñas ni alertas meteorológicas. Para el diseño objetivo quedan pendientes las restricciones entre registros, la protección de datos y la conservación de archivos al cambiar un estado.
 
+![Figura 4.8.1-F. Cuentas, roles, tabla de unión y vínculo lógico con Profiles](assets/chapter-04/architecture/database-iam.png)
+
+*Figura 4.8.1-F. Cuentas, roles, tabla de unión y vínculo lógico con Profiles.* [Ampliar en SVG](assets/chapter-04/architecture/database-iam.svg) · [Fuente PlantUML](assets/chapter-04/architecture/database-iam.puml).
+
 # Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management
