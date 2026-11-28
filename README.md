@@ -2233,7 +2233,7 @@ La landing abre la SPA. El navegador solicita los recursos de negocio a la API y
 
 #### Parcelas en la API
 
-ParcelsController delega la escritura y la consulta. El adaptador JPA guarda la parcela, el manejador de eventos actualiza su estado y la fachada comparte las ubicaciones con Clima.
+`ParcelsController` exige `ROLE_FARMER` al crear. Usa el perfil actual como propietario cuando existe y, en su defecto, el ID recibido. La fachada permite consultar ubicaciones por propietario. Un acuerdo completamente firmado solicita `MarkParcelInProductionCommand`. Un fallo de esa operación queda en el registro del servicio.
 
 ![Figura 4.6.4-E1. Componentes de parcelas](assets/chapter-04/architecture/c4-parcels.png)
 

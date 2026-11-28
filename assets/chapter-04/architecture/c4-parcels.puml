@@ -18,9 +18,9 @@ Container_Boundary(api, "Spring REST API / parcels") {
 }
 
 Component(sender, "Agreement event handler", "Spring API / agreements", "Publishes the signed agreement integration event.")
-Component(climate, "ClimateQueryServiceImpl", "Spring API / alerts", "Requests parcel locations.")
+Component(climate, "ExternalParcelService", "Spring API / alerts", "Requests parcel locations.")
 ContainerDb(db, "MySQL", "Relational database", "parcels table")
-Rel(rest, cmd, "POST, PUT, DELETE")
+Rel(rest, cmd, "Create (farmer), update and delete")
 Rel(rest, query, "GET")
 Rel(cmd, repo, "Writes via ParcelRepository")
 Rel(query, repo, "Reads via ParcelRepository")
@@ -29,4 +29,6 @@ Rel(sender, handler, "AgreementFullySignedIntegrationEvent", "Spring events")
 Rel(handler, cmd, "MarkParcelInProductionCommand")
 Rel(climate, facade, "findLocations(ownerId)")
 Rel(facade, repo, "Reads parcels using ParcelRepository")
+Component(account, "CurrentAccountService", "profiles", "Resolves the owner ID when available.")
+Rel(rest, account, "Create: prefer current profile; fall back to resource.ownerId")
 @enduml
