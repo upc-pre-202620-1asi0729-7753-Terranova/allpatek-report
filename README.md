@@ -2445,7 +2445,7 @@ El sistema asigna el identificador del perfil. El correo es obligatorio y único
 
 *Figura 4.8.1-E. Tabla profiles y datos de contacto.* [Ampliar en SVG](assets/chapter-04/architecture/13-database-users.svg) · [Fuente PlantUML](assets/chapter-04/architecture/13-database-users.puml).
 
-La estrategia de nombres físicos transforma la anotación `@Table(name = "evidence")` en `evidences`. La ruta HTTP conserva el singular `/api/v1/evidence`. Las listas de cultivos e imágenes se serializan como texto JSON. Los archivos de evidencia se guardan como texto de imagen y nombre de archivo. wallets persiste card_number y cvv además de last4. No existen tablas de cuentas de acceso, reservas, hitos independientes, transacciones, reseñas ni alertas meteorológicas. Para el diseño objetivo quedan pendientes las restricciones entre registros, la protección de datos y la conservación de archivos al cambiar un estado.
+La estrategia de Hibernate convierte `evidence` en `evidences`. La ruta REST conserva el singular `/api/v1/evidence`. En `wallets`, los campos heredados de tarjeta completa siguen en el mapeo y el ensamblador guarda nulos en ambos. Esta revisión describe el esquema derivado de JPA. El DDL desplegado requiere inspección independiente.
 
 ![Figura 4.8.1-F. Cuentas, roles, tabla de unión y vínculo lógico con Profiles](assets/chapter-04/architecture/database-iam.png)
 

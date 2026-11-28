@@ -32,6 +32,8 @@ profile ||..o{ wallet : profile_id
 note bottom of wallet
   profile_id has no unique constraint.
   The mapping allows multiple wallets per profile.
+  The current assembler writes NULL for card_number and cvv.
+  Demo credit updates opening_cents.
 end note
 legend bottom
 PK = primary key     * = NOT NULL
