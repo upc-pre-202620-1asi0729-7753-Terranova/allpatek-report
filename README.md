@@ -2207,7 +2207,7 @@ La landing abre la SPA. El navegador solicita los recursos de negocio a la API y
 
 ### 4.6.4. Software Architecture Components Diagrams
 
-**API Java.** Los controladores REST reciben solicitudes y las delegan a los servicios de cada contexto. Los adaptadores JPA guardan sus resultados. Dos interacciones cruzan límites de negocio: Acuerdos notifica a Parcelas al completarse ambas aceptaciones y Clima consulta las ubicaciones de las parcelas. La ruta `/health` permite consultar el estado del servicio.
+**API Java.** Los controladores delegan en servicios de aplicación. IAM consulta Profiles para identificar el perfil al autenticar. Alerts utiliza las fachadas de Profiles y Parcels. Escrow pregunta a Agreements por el comerciante. Esas llamadas son síncronas. La creación de perfil, la firma completa y la liberación de evidencia llegan a sus consumidores mediante eventos Spring dentro del mismo proceso.
 
 ![Figura 4.6.4-A. Componentes y colaboraciones de la API Spring](assets/chapter-04/architecture/04-api-components.png)
 
