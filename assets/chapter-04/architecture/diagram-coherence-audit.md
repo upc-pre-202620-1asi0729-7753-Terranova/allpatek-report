@@ -54,6 +54,35 @@ Se revisaron 36 diagramas existentes. Se corrigieron 30, se conservaron 6 y se a
 | [web-classes-profiles.puml](web-classes-profiles.puml) · §4.7.1 | Login y sesión | El diagrama mostraba un usuario de demo y sincronización por rol. | `web/src/app/shared/presentation/components/login/login.ts:70` (`.signIn(`); `web/src/app/shared/application/profile.store.ts:108` (`this.#profileApi.getMe()`); `web/src/app/shared/application/session.store.ts:82` (`enter(role:`) | Se corrigen las dependencias, el token y la lectura del perfil autenticado. | CORREGIDO |
 | [web-classes-tracking.puml](web-classes-tracking.puml) · §4.7.1 | Verificar evidencia del acuerdo | Faltaban el vínculo con el acuerdo y los comandos específicos. | `web/src/app/tracking-evidence/application/evidence.store.ts:70` (`agreementId: agreement?.id`); `web/src/app/tracking-evidence/infrastructure/evidence-api.ts:23` (`verifyEvidence(`) | Se amplía el modelo y se muestran verify/release. | CORREGIDO |
 
+## Contrato REST y acceso
+
+Todas las rutas de negocio de la tabla tienen el prefijo `/api/v1`. Spring Security usa sesiones stateless. Permite preflight OPTIONS, las dos operaciones públicas de cuenta y los recursos de documentación `/v3/api-docs/**`, `/swagger-ui.html`, `/swagger-ui/**`, `/swagger-resources/**` y `/webjars/**`. El resto requiere autenticación, incluidas las rutas de salud según esta cadena. Las autoridades declaradas son `ROLE_FARMER`, `ROLE_MERCHANT` y `ROLE_ADMIN`. La anotación de rol se indica solo donde existe.
+
+| Recurso | Lectura | Escritura y acceso específico | Fuente |
+|---|---|---|
+| `/users` | GET colección y /{userId}, autenticados | POST público; comprueba username y resuelve roles antes de guardar el hash | `api/src/main/java/com/allpatekplatform/iam/interfaces/rest/UsersController.java:55` (`@PostMapping`) |
+| `/tokens` | — | POST público; devuelve id, username, JWT, roles y profileId opcional | `api/src/main/java/com/allpatekplatform/iam/interfaces/rest/TokensController.java:41` (`@PostMapping`) |
+| `/roles` | GET colección, autenticado | Los roles se inicializan al arrancar | `api/src/main/java/com/allpatekplatform/iam/interfaces/rest/RolesController.java:41` (`@GetMapping`) |
+| `/profiles` | GET colección, /me y /{id} | POST y PUT /{id}, autenticados. La edición prefiere el perfil actual y recurre al ID de la ruta si no lo obtiene | `api/src/main/java/com/allpatekplatform/profiles/interfaces/rest/ProfilesController.java:106` (`profileId().orElse(id)`) |
+| `/parcels` | GET colección | POST agricultor. PUT y DELETE /{id} requieren autenticación | `api/src/main/java/com/allpatekplatform/parcels/interfaces/rest/ParcelsController.java:61` (`@PreAuthorize`) |
+| `/agreements` | GET colección y /{id} | POST comerciante; POST /{id}/farmer-signature agricultor. PUT y DELETE /{id} autenticados | `api/src/main/java/com/allpatekplatform/agreements/interfaces/rest/AgreementsController.java:77` (`@PreAuthorize`) |
+| `/evidence` | GET colección | POST agricultor; POST /{id}/verify y /{id}/release comerciante; PUT y DELETE /{id} autenticados | `api/src/main/java/com/allpatekplatform/tracking/interfaces/rest/EvidenceController.java:60` (`@PreAuthorize`) |
+| `/wallets` | GET colección | POST y PUT /{id} comerciante; DELETE /{id} autenticado | `api/src/main/java/com/allpatekplatform/escrow/interfaces/rest/WalletsController.java:61` (`@PreAuthorize`) |
+| `/alerts` | GET colección propia por identidad autenticada | Consulta sin ownerId público. Sin perfil: error; con cero ubicaciones: lista vacía | `api/src/main/java/com/allpatekplatform/alerts/interfaces/rest/AlertsController.java:55` (`Authentication authentication`) |
+
+La cadena de seguridad está en `api/src/main/java/com/allpatekplatform/iam/infrastructure/authorization/sfs/configuration/WebSecurityConfiguration.java:119` (`anyRequest().authenticated()`). El esquema Bearer publicado por OpenAPI está en `api/src/main/java/com/allpatekplatform/shared/infrastructure/documentation/openapi/configuration/OpenApiConfiguration.java:46` (`.bearerFormat(`). Una descripción de Swagger permite descubrir el contrato y la aplicación del permiso depende de la cadena y de sus anotaciones.
+
+## Piezas del código que completan las vistas de IAM
+
+| Capa | Tipos revisados | Papel en la implementación |
+|---|---|---|
+| Dominio | `User`, `Role`, `Roles`, `SignUpCommand`, `SignInCommand`, `SeedRolesCommand` | La cuenta agrupa roles y conserva el hash. El alta resuelve los roles solicitados y el rol predeterminado es agricultor. |
+| Consultas y puertos | `GetAllUsersQuery`, `GetUserByIdQuery`, `GetUserByUsernameQuery`, `GetAllRolesQuery`, `GetRoleByNameQuery`, `UserRepository`, `RoleRepository` | Las consultas y repositorios separan la vista de cuentas y roles de su almacenamiento. |
+| Aplicación | `UserCommandService`, `UserQueryService`, `RoleCommandService`, `RoleQueryService` y sus implementaciones `Impl` | El alta y login se atienden en el servicio de usuarios. `ApplicationReadyEventHandler` solicita inicializar los roles al arrancar. |
+| Persistencia | `UserRepositoryImpl`, `RoleRepositoryImpl`, `UserPersistenceRepository`, `RolePersistenceRepository`, `UserPersistenceAssembler`, `RolePersistenceAssembler` | Los adaptadores convierten los agregados y entidades del dominio a entidades de persistencia y delegan el acceso a Spring Data. |
+| Seguridad | `HashingService`, `BCryptHashingService`, `HashingServiceImpl`, `TokenService`, `BearerTokenService`, `TokenServiceImpl` | Los puertos permiten comparar la contraseña y generar, leer y validar el token. |
+| Cadena HTTP | `WebSecurityConfiguration`, `BearerAuthorizationRequestFilter`, `UserDetailsServiceImpl`, `UserDetailsImpl`, `UnauthorizedRequestHandlerEntryPoint` | La petición protegida recupera usuario y autoridades. La política de registro y la autorización por objeto necesitan revisión independiente. |
+
 ## Alcance de la comprobación
 
 Se inspeccionaron el POM, propiedades de configuración, mapeos, tipos de dominio, servicios, recursos REST, tests, consumidores Angular y código estático de la landing. Java 27, Spring Boot 4.1.2, springdoc 3.2.0 y JJWT 0.13.0 provienen del POM. El modelo físico se deriva de Hibernate. La función de pluralización 1.0.0 confirmó los ocho nombres de tabla, incluido `evidence → evidences`. El test de persistencia usa H2 en memoria. No se consultó MySQL de producción.
