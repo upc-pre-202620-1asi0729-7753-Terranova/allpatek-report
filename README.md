@@ -143,6 +143,7 @@
 | TB2 | 27/11/2026 | Vera Solsol, Nayely Macarena | Desarrollo del Sprint 1,2,3 |
 | TB2 | 27/11/2026 | Vera Solsol, Nayely Macarena | Actualizacion del Sprint 1,2,3|
 | TB2 | 27/11/2026 | Vera Solsol, Nayely Macarena | Desarrollo del PPT del proyecto |
+| TB2 | 28/11/2026 | Vera Solsol, Nayely Macarena | Ajuste de redacción del Lean UX Process y del Needfinding para explicitar outcomes, assumptions y su relación con User Personas, Task Matrix y Journey Maps |
 
 
 ## Project Report Collaboration Insights
@@ -546,9 +547,11 @@ El desarrollo de Allpatek está sujeto a las siguientes restricciones tecnológi
 
 ### 1.2.2. Lean UX Process
 
+En esta sección se aplica el proceso Lean UX sobre la problemática identificada en 1.2.1. Primero se redactan los **problem statements** y los **outcomes** (resultados de negocio y de usuario). Sobre ellos se formulan las **assumptions**. Esas creencias se convierten en **hypothesis statements**. El **Lean UX Canvas** de 1.2.2.4 sintetiza el conjunto. Los **segmentos objetivo** de la sección 1.3 reciben esos outcomes. El Capítulo II (entrevistas, User Personas, User Task Matrix y Journey Maps) investiga si esos supuestos se sostienen con evidencia de campo.
+
 #### 1.2.2.1. Lean UX Problem Statements
 
-El enunciado del problema se deriva directamente del análisis 5W2H. El estado actual del mercado responde a las preguntas quién, qué, dónde, cuándo y por qué; las limitaciones de las soluciones existentes permiten identificar cómo abordar la problemática; y los indicadores de éxito establecen los resultados cuantitativos que se esperan alcanzar con Allpatek.
+El enunciado del problema se deriva directamente del análisis 5W2H. El estado actual del mercado responde a las preguntas quién, qué, dónde, cuándo y por qué; las limitaciones de las soluciones existentes permiten identificar cómo abordar la problemática; y los **outcomes** establecen los resultados cuantitativos y de usuario que se esperan alcanzar con Allpatek.
 
 **El estado actual de** la comercialización agrícola en el Perú se caracteriza por canales fragmentados y con asimetría de información. Los pequeños agricultores familiares con acceso limitado a internet y telefonía tienen menores posibilidades de acceder a mercados rentables y comercializar mayores volúmenes de producción (Fan & Salas Garcia, 2018).
 
@@ -575,17 +578,22 @@ La solución contempla las siguientes restricciones:
 4. El alcance geográfico inicial estará limitado al valle del Mantaro y a los comerciantes urbanos objetivo.
 5. La liberación de fondos estará asociada al cumplimiento de los hitos agrícolas establecidos en el contrato.
 
-**Sabremos que hemos alcanzado el éxito cuando logremos** los siguientes resultados:
+**Outcomes.** Sabremos que hemos alcanzado el éxito cuando se observen estos resultados. No son funcionalidades: son el cambio de negocio y de usuario contra el cual se escriben las assumptions y las hypothesis statements.
 
+Outcomes de negocio:
 - Formalizar al menos 150 contratos agrícolas durante los primeros ocho meses de operación.
-- Alcanzar una tasa de previsibilidad de ingresos del 100 % para los agricultores que cumplan las labores acordadas.
-- Conseguir un ahorro de al menos el 25 % para los comerciantes respecto al precio minorista equivalente.
 - Reducir el tiempo de formalización administrativa a menos de cinco minutos por transacción.
 - Alcanzar una tasa de renovación de contratos superior al 60 % entre temporadas consecutivas.
 
-Estos indicadores constituyen metas de negocio sujetas a validación durante la operación de la plataforma.
+Outcomes de usuario (segmentos de 1.3):
+- Agricultor familiar: tasa de previsibilidad de ingresos del 100 % para quien cumpla las labores acordadas, con pago asociado a hitos y sin depender del precio del día de cosecha.
+- Comerciante urbano: ahorro de al menos el 25 % respecto al precio minorista equivalente, con costo de temporada conocido de antemano y origen del producto verificable.
+
+Estos outcomes se validan en la operación de la plataforma y se contrastan con la investigación de UX Research del Capítulo II.
 
 #### 1.2.2.2. Lean UX Assumptions
+
+Los supuestos parten de los problem statements y de los outcomes de 1.2.2.1, y de los dos segmentos de 1.3. Cada supuesto es una creencia que el equipo mantiene mientras la investigación o el experimento del Canvas no la falsee.
 
 **Supuestos de negocio**
 
@@ -659,6 +667,8 @@ Estos indicadores constituyen metas de negocio sujetas a validación durante la 
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
+Cada hipótesis toma un outcome de 1.2.2.1 y lo formula como experimento: *creemos que lograremos [outcome] si [segmento] puede [capacidad] mediante [solución]*. Las nueve hipótesis cubren catálogo, contratación, automatización, notificaciones, panel móvil, reputación, pagos por hito, ahorro y trazabilidad.
+
 **Hipótesis 1: Catálogo de parcelas y temporadas**
 
 Creemos que lograremos un incremento del 25 % en la tasa de conversión de visitantes a reservas de parcelas si los comerciantes urbanos pueden acceder a información transparente y comparable sobre la ubicación de las parcelas, los tipos de cultivo, la duración de las temporadas y los costos de producción, mediante un catálogo digital que facilite la búsqueda y evaluación de las alternativas disponibles.
@@ -697,7 +707,7 @@ Creemos que lograremos disponer de registros completos de trazabilidad en al men
 
 #### 1.2.2.4. Lean UX Canvas
 
-El Lean UX Canvas es una herramienta ágil que sintetiza los elementos clave del proceso Lean UX en un único artefacto visual colaborativo. A continuación, se presenta el canvas desarrollado por el equipo para el diseño y concepción de Allpatek:
+El Lean UX Canvas sintetiza, en un solo artefacto, los problem statements y outcomes de 1.2.2.1, las assumptions de 1.2.2.2, las hypothesis statements de 1.2.2.3 y los segmentos objetivo de 1.3 (valle del Mantaro y comerciantes urbanos). A continuación se presenta el canvas elaborado por el equipo en Miro:
 
 *Lean UX Canvas*
 
@@ -1101,11 +1111,11 @@ En cuarto lugar, respecto a la viabilidad comercial y seguridad de las transacci
 
 ## 2.3. Needfinding
 
-En esta sección se presentarán los artefactos resultantes del proceso de análisis de la información recolectada de los segmentos objetivos. Aquí se incluyen secciones para User Personas, User Task Matrix, User Journey Maps y Empathy Mapping.
+A partir del Lean UX Process (1.2.2) y de los segmentos objetivo (1.3), las entrevistas de 2.2 se analizan para establecer de forma correcta los artefactos de UX Research que pide el curso: **User Personas**, **User Task Matrix** y **Journey Maps**. El Empathy Mapping organiza la misma evidencia de campo.
 
 ### 2.3.1. User Personas
 
-A continuación, se presentan los User Personas diseñados para representar a los segmentos objetivo identificados durante la fase de investigación. Estos arquetipos detallan variables demográficas, rasgos psicográficos, motivaciones y comportamientos, así como los pains (frustraciones) y gains (objetivos) que enfrentan en su gestión diaria. Asimismo, se analiza su nivel digital y su interacción con soluciones tecnológicas del sector agropecuario. Toda la información ha sido sintetizada a partir de los insights recolectados en las entrevistas y estructurada mediante la plataforma UXPressia para garantizar una representación fiel de las necesidades del usuario.
+Las fichas representan a los dos segmentos de 1.3 y a las personas entrevistadas en 2.2 (Gustavo Adolfo Suyo e Irma Barreto Castro). Detallan variables demográficas, rasgos psicográficos, motivaciones, pains y gains, nivel digital y uso de herramientas del agro. La información se sintetizó desde las entrevistas y se estructuró en UXPressia.
 
 ### User Persona: Agricultor
 
@@ -1138,7 +1148,7 @@ Por otro lado, sus rutinas se diferencian según el rol que cumplen en la cadena
 
 ### 2.3.3. User Journey Mapping
 
-Esta sección presenta el User Journey Map de cada User Persona, ilustrando el recorrido end-to-end que atraviesa cada segmento desde que identifica la necesidad de vender o comprar, hasta que evalúa el resultado de esa temporada o compra. Ambos journeys se elaboran en su versión As-Is: representan la situación actual de cada segmento sin que exista todavía Allpatek como solución, por lo que no se presenta ni se anticipa ninguna funcionalidad de la plataforma en esta etapa — el objetivo es exclusivamente identificar los puntos de dolor reales del proceso vigente. Cada Journey Map se construye en UXPressia y queda vinculado a la ficha de User Persona correspondiente, elaborada en la misma herramienta.
+Esta sección presenta el User Journey Map de cada User Persona. El recorrido va desde que identifica la necesidad de vender o comprar hasta que evalúa el resultado de esa temporada o compra. Ambos journeys son **As-Is**: representan la situación actual sin Allpatek y materializan los problem statements de 1.2.2.1 (trato verbal, intermediario, precio incierto, origen no verificable). No se anticipa la plataforma. Cada mapa se construyó en UXPressia y queda vinculado a la ficha de User Persona.
 
 ### User Agricultor:
 
