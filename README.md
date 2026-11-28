@@ -5320,9 +5320,9 @@ Las sesiones de validación con agricultores y comerciantes dejaron observacione
 ## Recomendaciones
 
 
-* Conectar la bóveda con una pasarela de pago real.
+* Integrar una pasarela de pago para que la bóveda mueva dinero real entre comerciantes y agricultores.
 
-* Seguir validando con agricultores y comerciantes en campo y en la ciudad.
+* Ampliar las sesiones de validación con agricultores y comerciantes, en campo y en la ciudad, para seguir afinando el flujo.
 
 
 
