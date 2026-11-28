@@ -409,7 +409,7 @@ Repositorios del proyecto:
             <li><b>AV1:</b> Se demostró capacidad para exponer de manera clara el avance de cada capítulo del informe, adaptando el lenguaje técnico al perfil de los interlocutores (evaluadores, agricultores y comerciantes).</li>
             <li><b>TB1:</b> Se sustentaron con claridad las soluciones implementadas y las correcciones realizadas tras la retroalimentación, defendiendo las decisiones del sistema ante audiencias académicas y de negocio.</li>
             <li><b>AV2:</b> Se explicó el avance del backend del Sprint 3, incluyendo las alertas climáticas y la bóveda de demostración (<code>escrow-payments</code>), adaptando el lenguaje técnico de Spring Boot a las diferentes audiencias durante la sustentación.</li>
-            <li><b>TB2:</b> En el Release Review se presentó la versión final del proyecto: el informe con todos sus capítulos y la sección 5.2.4 (Sprint 4), los artefactos corregidos y mejorados, los videos About the Product y About the Team, y los productos digitales desplegados. También se explicó las correcciones del Capítulo I y del proceso Lean UX, con un lenguaje breve y comprensible para evaluadores y audiencias no técnicas.</li>
+            <li><b>TB2:</b> En el Release Review se presentó la versión final del proyecto: el informe con todos sus capítulos y la sección 5.2.4 (Sprint 4), los artefactos corregidos y mejorados, los videos About the Product y About the Team, y los productos digitales desplegados. También se explicaron las correcciones del Capítulo I y del proceso Lean UX, con un lenguaje breve y comprensible para evaluadores y audiencias no técnicas.</li>
           </ul>
         </td>
       </tr>
@@ -1605,7 +1605,7 @@ La navegación pública está orientada a la conversión y al descubrimiento pro
 * **Navegación Global (Barra Superior / Header):** Menú horizontal fijo (*Sticky Header*) presente en todo el recorrido. Incluye enlaces directos a las secciones clave (*Servicios*, *¿Cómo funciona?*, *Testimonios*, *Planes*, *Contacto*) y un botón de llamado a la acción destacado (*Empieza Ahora* / *Iniciar Sesión*).
 * **Navegación Jerárquica y Desplazamiento Suave (*Smooth Scroll*):** Al hacer clic en las opciones del menú superior, la pantalla realiza un desplazamiento fluido directamente hacia la sección correspondiente de la misma página sin recargas innecesarias.
 * **Llamados a la Acción Contextuales (CTA Internos):** Botones estratégicos ubicados en las secciones *Hero* y de *Servicios* (*Cotizar Parcela*, *Solicitar Demo*) que redirigen al usuario directamente al formulario de propuesta técnica o al flujo de registro.
-* **Navegación de Pie de Página (*Footer*):** Ubicada al final de la página con enlaces secundarios, políticas de privacidad, datos de contacto, horarios de atención y redes sociales.
+* **Navegación de Pie de Página (*Footer*):** Ubicada al final de la página con enlaces secundarios, Términos y Condiciones, Política de Privacidad, datos de contacto, horarios de atención y redes sociales.
 
 #### 2. Sistemas de Navegación en la Aplicación Web (Web Application)
 
@@ -1710,7 +1710,11 @@ Para lograr una experiencia visual limpia y profesional, se aplicaron principios
 
 
 ##### 9. Pie de Página (Footer)
-* **Descripción:** Ubicado en el cierre de la página. Estructurado en cuatro columnas de navegación secundaria (*Navegación general*, *Servicios*, *Contacto & Horarios* de atención) junto con el logotipo de la marca y los derechos reservados de autor.
+* **Descripción:** Ubicado en el cierre de la página. Cuatro columnas de navegación secundaria (*Navegación general*, *Servicios*, *Contacto y horarios*), el logotipo y los derechos de autor. Desde ahí se descargan los Términos y Condiciones y la Política de Privacidad, en español o inglés según el idioma de la página.
+
+Los Términos explican el modelo de temporada: quién es agricultor y quién comerciante, cómo se firma el acuerdo, que el dinero se suelta por hitos y que Allpatek no es un banco. También marcan que las evidencias deben ser reales y que las alertas del clima son solo referenciales.
+
+La Política de Privacidad dice qué datos se piden (cuenta, parcela, fotos con fecha y lugar, formulario de contacto), que no se venden, que se usan para el contrato y el soporte, y que la persona puede pedir acceso, corrección o baja escribiendo a contacto@allpatek.com, según la Ley 29733.
 
 <p align="center">
   <img src="./assets/chapter-04/wireframe_footer.png" alt="Descripción de la imagen" width="800">
@@ -5290,7 +5294,7 @@ Video **About-the-Product**: demo de Allpatek (catálogo de parcelas, clima, ace
 
 
 
-Allpatek quedó como un puente entre el campo y la ciudad: el comerciante reserva una parcela por temporada y el agricultor cobra por el trabajo, no por lo que rinda la cosecha. En el sitio público se entiende el modelo. En la aplicación, cada uno entra con su cuenta, publica o contrata, firma el acuerdo, sube evidencias y ve el clima.
+Allpatek quedó como un puente entre el campo y la ciudad: el comerciante reserva una parcela por temporada y el agricultor cobra por el trabajo, no por lo que rinda la cosecha. En el sitio público se entiende el modelo, y al pie están los Términos y Condiciones y la Política de Privacidad. En la aplicación, cada uno entra con su cuenta, publica o contrata, firma el acuerdo, sube evidencias y ve el clima.
 
 Las entrevistas con agricultores y comerciantes confirmaron que el flujo se entiende. Lo que más pidieron —letra más grande al sol, fotos que pesen menos y seguir coordinando por WhatsApp— no alcanzó a entrar en esta entrega. El pago todavía es de demostración: se ve la bóveda, pero el dinero no sale de un banco.
 
@@ -5395,6 +5399,8 @@ Enlaces de los productos digitales de **ALLPATEK**:
 | **API REST** | Backend | [API v1](https://allpatek.proyectaconsultora.com/api/v1) |
 | **Swagger UI** | Backend | [Documentación de servicios](https://allpatek.proyectaconsultora.com/swagger-ui/index.html) |
 | **Mock API** | Azure App Service | [Mock API](https://allpatek-mockapi-byctbpd8czefe5e6.chilecentral-01.azurewebsites.net/) |
+| **Términos y Condiciones** | GitHub Pages | [Español](https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/assets/legal/allpatek-terminos-y-condiciones-es.pdf) · [English](https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/assets/legal/allpatek-terms-and-conditions-en.pdf) |
+| **Política de Privacidad** | GitHub Pages | [Español](https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/assets/legal/allpatek-politica-de-privacidad-es.pdf) · [English](https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/assets/legal/allpatek-privacy-policy-en.pdf) |
 
 </div>
 
@@ -5484,7 +5490,7 @@ Videos de validación de la aplicación y videos institucionales sobre el produc
 | **App Validation (2)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215188_upc_edu_pe/IQDhDCYqAhxbSKhg92qWZNqhAYT4gneD9GoPPK-jzUowbr8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vkukAa">Ver sesión de validación 2</a> |
 | **App Validation (3)** | Validation | <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQA3Ki7VhhDdQIWWQzMUBKdlAX8OWAtP6xUPKwXCyBXh3w0?e=9NLXS5">Ver sesión de validación 3</a> |
 | **About the Product** | About the product | <a href="https://www.youtube.com/watch?v=se1KsUnUtmI">Ver en YouTube</a> |
-| **About the Team** | About the team | <a href="https://www.youtube.com/watch?v=xTczyWsnCy0">Ver en YouTube</a><br><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241f246_upc_edu_pe/IQAZ556NOz08Q7a5o8uGTcrwAa3O22HYIFnz-YZD-E8xArg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&amp;e=YpvRss">Ver en Microsoft Stream</a> |
+| **About the Team** | About the team | <a href="https://youtu.be/A21O5V0Lg9M">Ver en YouTube</a><br><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQA518jIj7mNSL1Y-mU3XkJNAbZQB-AB4fLiWgRK-5NOgVw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7M7tir">Ver en Microsoft Stream</a> |
 
 </div>
 
