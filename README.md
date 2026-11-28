@@ -2265,7 +2265,7 @@ Escrow aprovisiona S/ 500 de demostración cuando el perfil nuevo contiene empre
 
 #### Clima en la API
 
-La consulta reúne las coordenadas de Parcelas y el pronóstico de Open-Meteo. Calcula el resultado bajo demanda y lo devuelve al cliente.
+`AlertsController` toma el username autenticado. `ExternalProfileService` resuelve el perfil por correo y `ExternalParcelService` busca sus parcelas. Sin perfil se devuelve un error, y con un perfil sin ubicaciones elegibles se devuelve una lista vacía. Open-Meteo interviene cuando hay coordenadas.
 
 ![Figura 4.6.4-E5. Componentes de clima](assets/chapter-04/architecture/c4-alerts.png)
 
