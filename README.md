@@ -2287,6 +2287,14 @@ IAM administra los usuarios y roles. BCrypt verifica credenciales y JWT identifi
 
 *Figura 4.6.4-E7. Componentes de IAM.* [Ampliar en SVG](assets/chapter-04/architecture/c4-iam.svg) · [Fuente PlantUML](assets/chapter-04/architecture/c4-iam.puml).
 
+#### Soporte transversal
+
+Shared aporta los tipos de resultado, el publicador de eventos, el manejo de errores HTTP y las bases de persistencia. Profiles conserva su propio modelo y repositorio.
+
+![Figura 4.6.4-F. Dependencias transversales de Shared](assets/chapter-04/architecture/c4-shared.png)
+
+*Figura 4.6.4-F. Dependencias transversales de Shared.* [Ampliar en SVG](assets/chapter-04/architecture/c4-shared.svg) · [Fuente PlantUML](assets/chapter-04/architecture/c4-shared.puml).
+
 ## 4.7. Software Object-Oriented Design
 
 Los diagramas se leen desde el **dominio**. Allí aparecen la parcela, el acuerdo o la evidencia y las reglas que les pertenecen. La capa de **aplicación** coordina cada operación, **interfaces** recibe la solicitud e **infraestructura** conecta el modelo con HTTP o la base de datos. En Angular, la pantalla delega el trabajo al store y el servicio HTTP adapta los datos de la API.
