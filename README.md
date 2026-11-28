@@ -2795,11 +2795,11 @@ El Sprint 1 se enfocó en el desarrollo e implementación de la Landing Page de 
   </tr>
   <tr>
     <td colspan="5">Sprint 1 Velocity</td>
-    <td colspan="8">34 story points</td>
+    <td colspan="8">34 Story Points</td>
   </tr>
   <tr>
     <td colspan="5">Sum of Story Points</td>
-    <td colspan="8">34 story points</td>
+    <td colspan="8">34 Story Points</td>
   </tr>
 </table>
 
@@ -3188,7 +3188,7 @@ En la siguiente tabla se resumen las actividades y entregables específicos asum
   </tr>
   <tr>
     <td colspan="5">Sum of Story Points</td>
-    <td colspan="8">31 Story Points (30 de las historias más 1 de US05)</td>
+    <td colspan="8">31 Story Points</td>
   </tr>
 </table>
 
@@ -3289,7 +3289,7 @@ El objetivo principal del **Sprint 2** es implementar la primera versión de la 
 | US05 | Consulta de lecturas y alertas climáticas por parcela | 1 | T030, T031, T032, T033 |
 | **Total** | **9 historias** | **31 SP** | **33 tareas** |
 
-Los puntos se toman del Product Backlog (3.3). US05 aparece en las tareas de alertas climáticas, pero no tiene una estimación registrada en ese Product Backlog; se mantiene pendiente para evitar asignar puntos sin evidencia. Las horas de las tareas se presentan por separado.
+Los puntos de las historias se toman del Product Backlog (3.3). US05 no aparece con puntos en ese listado; se le asigna 1 punto, la misma estimación que tiene en el Sprint 4, porque sus tareas de alertas climáticas se completaron en este sprint. Las horas de las tareas se presentan por separado.
 
 **Tablero de Control del Sprint 2 (Sprint Board)**
 
@@ -3839,7 +3839,7 @@ Todos los miembros del equipo tienen commits de implementación en la **Web Appl
   </tr>
   <tr>
     <td colspan="5">Sum of Story Points</td>
-    <td colspan="8">26 Story Points (25 de las historias más 1 de US05)</td>
+    <td colspan="8">26 Story Points</td>
   </tr>
 </table>
 
@@ -3933,7 +3933,7 @@ El objetivo principal del **Sprint 3** es publicar la **primera versión de los 
 | US05 | Consulta de lecturas y alertas climáticas por parcela | 1 | T028, T029, T030, T031 |
 | **Total** | **8 historias** | **26 SP** | **34 tareas** |
 
-Los puntos se toman del Product Backlog (3.3). US05 aparece en las tareas de alertas climáticas, pero no tiene una estimación registrada en ese Product Backlog; se mantiene pendiente para evitar asignar puntos sin evidencia. Las horas de las tareas se presentan por separado.
+Los puntos de las historias se toman del Product Backlog (3.3). US05 no aparece con puntos en ese listado; se le asigna 1 punto, la misma estimación que tiene en el Sprint 4, porque sus tareas de alertas climáticas se completaron en este sprint. Las horas de las tareas se presentan por separado.
 
 #### Tablero de Control del Sprint 3 (Sprint Board)
 
@@ -5135,7 +5135,7 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 5. Lectura y firma digital de un acuerdo de temporada.
 6. Revisión de evidencias de un hito y aprobación de la liberación simulada en la Bóveda de Pagos.
 
-No están incluidas en esta versión de la evaluación las siguientes tareas:
+Fuera del alcance de esta evaluación quedaron las siguientes tareas:
 
 1. Verificación de identidad con documento.
 2. Depósito real de fondos en una pasarela de pagos.
@@ -5309,18 +5309,20 @@ Video **About-the-Product**: demo de Allpatek (catálogo de parcelas, clima, ace
 
 
 
-Allpatek quedó como un puente entre el campo y la ciudad: el comerciante reserva una parcela por temporada y el agricultor cobra por el trabajo, no por lo que rinda la cosecha. En el sitio se entiende el modelo; al pie están los Términos y la Privacidad. En la aplicación cada uno entra con su cuenta, publica o contrata, firma el acuerdo, sube evidencias y ve el clima. La bóveda muestra el dinero del hito; el pago es de prueba.
+Allpatek conecta a agricultores familiares con comerciantes urbanos durante la temporada de cultivo. El comerciante reserva la parcela y el agricultor recibe su pago por etapas, a medida que se cumplen los hitos: firma del contrato, siembra, desarrollo, cosecha y entrega. Así, el pago se asocia al trabajo validado.
 
-Las entrevistas confirmaron que el flujo se entiende. Cada integrante cubrió una parte. El equipo está en los cuatro sprints.
+La landing page explica el modelo por hitos y deja al pie los Términos y Condiciones y la Política de Privacidad. En la aplicación, cada usuario entra con su propia cuenta, publica o contrata, firma el acuerdo, sube evidencias y revisa las alertas climáticas de su parcela. La bóveda muestra el dinero reservado para cada hito. En esta versión, los movimientos de dinero son de prueba.
+
+Las sesiones de validación con agricultores y comerciantes dejaron observaciones concretas que el equipo ya incorporó, como que cada persona use su propia cuenta. El trabajo se repartió entre los integrantes a lo largo de los cuatro sprints.
 
 
 
 ## Recomendaciones
 
 
-* Pasar de la bóveda de prueba a un pago real.
+* Conectar la bóveda con una pasarela de pago real.
 
-* Seguir validando con gente de campo, no solo en aula.
+* Seguir validando con agricultores y comerciantes en campo y en la ciudad.
 
 
 
