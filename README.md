@@ -147,6 +147,7 @@
 | TB2 | 28/11/2026 | Vera Solsol, Nayely Macarena | User Stories y URLs de TS01, TS02 y TS04 alineadas con el API |
 | TB2 | 28/11/2026 | Vera Solsol, Nayely Macarena | Acortar las introducciones de Lean UX, User Stories y diseño |
 | TB2 | 28/11/2026 | Vera Solsol, Nayely Macarena | Retiro de US15, US18 y US27 del backlog; no están en la demo |
+| TB2 | 28/11/2026 | Vera Solsol, Nayely Macarena | Conclusiones y recomendaciones en lenguaje de producto |
 
 
 ## Project Report Collaboration Insights
@@ -5289,22 +5290,22 @@ Video **About-the-Product**: demo de Allpatek (catálogo de parcelas, clima, ace
 
 
 
-La landing en GitHub Pages quedó como puerta de entrada: modelo Agro-as-a-Service, catálogo, bóveda Escrow y avisos de clima. En el Sprint 2 se publicó la web Angular (Netlify) y el mock. En el Sprint 3 el API Java (allpatek-platform) quedó en Render, con MySQL 8.4 en Aiven y Swagger público.
+Allpatek quedó como un puente entre el campo y la ciudad: el comerciante reserva una parcela por temporada y el agricultor cobra por el trabajo, no por lo que rinda la cosecha. En el sitio público se entiende el modelo. En la aplicación, cada uno entra con su cuenta, publica o contrata, firma el acuerdo, sube evidencias y ve el clima.
 
-Las entrevistas con agricultores y comerciantes sirvieron para ver si se entiende el flujo de parcela, contrato, evidencias y clima. Lo que pidieron (letra más grande, menos datos móviles, WhatsApp) queda para el siguiente sprint. Cada bounded context lo llevó un integrante; los cinco aparecen en Insights de GitHub.
+Las entrevistas con agricultores y comerciantes confirmaron que el flujo se entiende. Lo que más pidieron —letra más grande al sol, fotos que pesen menos y seguir coordinando por WhatsApp— no alcanzó a entrar en esta entrega. El pago todavía es de demostración: se ve la bóveda, pero el dinero no sale de un banco.
+
+Cada integrante llevó una parte del producto. El equipo aparece completo en el trabajo de los cuatro sprints.
 
 
 
 ## Recomendaciones
 
 
-* Autenticación: el API todavía no valida identidad. Hay que cerrar eso antes de datos reales.
+* Pasar de la bóveda de prueba a un pago real, y soltar el dinero del hito cuando el comerciante acepte la evidencia.
 
-* Bóveda: hoy el wallet es de demostración. Falta pasarela de pago y liberar el 25% por hito cuando el comerciante acepta la evidencia.
+* Agrandar la letra y aligerar las fotos, como pidieron en campo.
 
-* Render free se duerme a los 15 minutos. Para una demo hay que avisar del cold start o pasar a un plan que no se apague.
-
-* Campo: seguir con cooperativas y talleres; el clima y las fotos de hito son el gancho que pidieron los agricultores.
+* Seguir validando con cooperativas y comerciantes de barrio, no solo con la demo de aula.
 
 
 
