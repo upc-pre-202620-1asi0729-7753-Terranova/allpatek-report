@@ -149,6 +149,7 @@
 | TB2 | 28/11/2026 | Vera Solsol, Nayely Macarena | Retiro de US15, US18 y US27 del backlog; no están en la demo |
 | TB2 | 28/11/2026 | Vera Solsol, Nayely Macarena | Conclusiones y recomendaciones en lenguaje de producto |
 | TB2 | 28/11/2026 | Vera Solsol, Nayely Macarena | Introducciones más cortas, sin números de sección |
+| TB2 | 28/11/2026 | Vera Solsol, Nayely Macarena | Heurística 6 y textos de identidad alineados con el login del último sprint |
 
 
 ## Project Report Collaboration Insights
@@ -484,7 +485,7 @@ En esta sección se fundamenta el diseño estratégico de Allpatek a partir del 
 
 **Descripción del producto**
 
-Allpatek propone una plataforma web para que comerciantes contraten por temporada parcelas y la labor de agricultores familiares bajo el modelo *Agro-as-a-Service*. El alcance objetivo incluye reserva, pago, contrato en PDF, seguimiento, trazabilidad y reputación. La demo actual muestra el catálogo, aceptaciones, evidencias, clima y una bóveda simulada. El registro con verificación de identidad, la custodia real, la reputación y el funcionamiento sin conexión siguen pendientes.
+Allpatek propone una plataforma web para que comerciantes contraten por temporada parcelas y la labor de agricultores familiares bajo el modelo *Agro-as-a-Service*. La demo muestra catálogo, aceptaciones, evidencias, clima, bóveda de prueba y entrada con cuenta propia. Siguen pendientes el pago real y el trabajo sin conexión.
 
 ### 1.2.1. Antecedentes y problemática
 
@@ -2299,7 +2300,7 @@ La consulta reúne las coordenadas de Parcelas y el pronóstico de Open-Meteo. C
 
 #### Perfiles en la API
 
-El controlador y los servicios consultan o editan el perfil. El repositorio JPA conserva los datos personales y de empresa. El paquete de identidad carece de un flujo de autenticación implementado.
+El controlador y los servicios consultan o editan el perfil. El repositorio conserva los datos personales y de empresa. Cada usuario entra con su propia cuenta.
 
 ![Figura 4.6.4-E6. Componentes de perfiles](assets/chapter-04/architecture/c4-shared-profiles.png)
 
@@ -2732,7 +2733,7 @@ La landing enlaza la SPA. Los entornos Angular revisados apuntan al mock: JSON S
 #### 7. Consideraciones de Despliegue
 
 - Separar configuración con application-dev.properties y application-prod.properties.
-- Verificar identidad y acceso por recurso antes de publicar datos reales. En la versión revisada iam no implementa autenticación.
+- Verificar identidad y acceso por recurso antes de publicar datos reales. En el último sprint cada usuario entra con su cuenta.
 - Conservar las URLs públicas, la versión desplegada y la evidencia de ejecución en 5.2.3.7 cuando estén verificadas.
 
 ## 5.2. Landing Page, Services & Applications Implementation
@@ -4697,7 +4698,7 @@ Probamos el sitio y la aplicación con agricultores y comerciantes. Lo que viero
 El proceso de validación se estructuró mediante entrevistas semiestructuradas divididas en cuatro bloques metodológicos:
 1. **Apertura y Consentimiento:** Presentación del equipo, explicación del propósito académico y solicitud de autorización para la grabación en video.
 2. **Preguntas Básicas de Perfilamiento:** Registro de datos demográficos y rol/ocupación de los participantes.
-3. **Tareas Guiadas / User Flows:** Interacción directa con la Landing Page y los prototipos interactivos.
+3. **Tareas Guiadas / User Flows:** Recorrido de la landing y de las pantallas de la aplicación (parcela, firma, evidencias).
 4. **Cuestionario de Validación:** Evaluación de 12 preguntas por segmento orientadas a medir usabilidad, propuesta de valor y confianza.
 
 
@@ -4714,9 +4715,9 @@ El proceso de validación se estructuró mediante entrevistas semiestructuradas 
 4. ¿Qué modelo de celular utiliza normalmente y cuenta con acceso a internet en el campo?
 
 #### 3. Tareas Guiadas / User Flows Evaluados
-* **Tarea 1 (Landing Page):** Exploración libre de la página pública para comprender el modelo de negocio.
-* **Tarea 2 (User Flow 1 - Registro de Parcela):** Publicar el terreno "El Vergel" de 12.5 Ha, marcar ubicación GPS y adjuntar fotos del suelo.
-* **Tarea 3 (User Flow 3 - Alertas Climáticas):** Consultar el panel climático y revisar las recomendaciones frente a riesgo de heladas.
+* **Tarea 1 (Landing):** Recorrer el sitio público y decir qué entiende del modelo.
+* **Tarea 2 (Parcela):** Publicar el terreno "El Vergel", marcar ubicación y adjuntar fotos.
+* **Tarea 3 (Clima):** Abrir el panel de alertas y ver qué hacer ante una helada.
 
 #### 4. Cuestionario de Validación (12 Preguntas)
 
@@ -4754,9 +4755,9 @@ El proceso de validación se estructuró mediante entrevistas semiestructuradas 
 4. ¿Qué tipo de insumos agrícolas suele comprar semanalmente y mediante qué canal los adquiere hoy?
 
 #### 3. Tareas Guiadas / User Flows Evaluados
-* **Tarea 1 (Landing Page):** Ubicar la sección "Garantía de Pagos por Hitos" y explicar el modelo.
-* **Tarea 2 (User Flow 2 - Firma de Contrato):** Revisar la propuesta de la parcela "El Tambo" y realizar la firma digital.
-* **Tarea 3 (User Flow 4 - Bóveda y Evidencias):** Revisar las evidencias del Hito 2 (Siembra) y aprobar la liberación de fondos.
+* **Tarea 1 (Landing):** Ubicar cómo se protege el pago y explicarlo con sus palabras.
+* **Tarea 2 (Contrato):** Revisar la parcela "El Tambo" y firmar.
+* **Tarea 3 (Bóveda y evidencias):** Ver las fotos del hito de siembra y decidir si se libera el pago.
 
 #### 4. Cuestionario de Validación 
 
@@ -5146,7 +5147,7 @@ Los errores se puntúan con la siguiente escala de severidad.
 | 3 | La ficha de parcela omite rendimiento estimado y referencias del agricultor, datos que el comerciante usa para decidir. | 2 | Information Architecture: Is it findable? |
 | 4 | El acuerdo digital no deja explícitas fechas, lugar ni acciones ante retraso o incumplimiento. | 3 | Usability: Visibilidad del estado del sistema |
 | 5 | Las evidencias fotográficas no muestran fecha de captura, coordenadas GPS ni estado del cultivo. | 3 | Usability: Reconocimiento antes que recuerdo |
-| 6 | No hay verificación de identidad ni señal visible de productores ya conocidos por el comerciante. | 3 | Usability: Prevención de errores |
+| 6 | En la validación no había cuenta propia. En el último sprint cada usuario entra con la suya. Sigue pendiente marcar agricultores conocidos. | 2 | Usability: Prevención de errores |
 
 </div>
 
@@ -5243,21 +5244,24 @@ Exigir y mostrar en la tarjeta de evidencia la marca de tiempo, las coordenadas 
 ---
 
 
-**PROBLEMA #6:** No hay verificación de identidad ni productores ya conocidos
+**PROBLEMA #6:** En la validación no había cuenta propia
 
-**Severidad:** 3  
+**Severidad:** 2 (era 3; bajó tras el último sprint)  
 **Heurística violada:** Usability — Prevención de errores  
 **Origen:** Cierre de sesión con Irma Barreto Castro y César Hugo Egocheaga.
 
 **Problema:**  
-Irma usaría Allpatek si existieran agricultores verificados, contratos claros y respaldo ante incumplimientos. César destacó que la confianza en los productores es decisiva y que encontrar en la plataforma a proveedores con los que ya trabaja le daría seguridad. El acceso actual selecciona un perfil de demostración; no hay verificación de identidad ni una marca de “productor conocido”. El comerciante puede firmar y liberar fondos de demo sin un control que prevenga el error de confiar en un actor no acreditado.
+Irma y César pidieron saber con quién estaban tratando. En esa prueba el acceso era un perfil de demostración, sin cuenta propia.
+
+**Qué se hizo:**  
+En el último sprint cada uno entra con su cuenta. Eso cierra el hallazgo de “no hay identidad”. Sigue pendiente una marca de “agricultor conocido” en el catálogo.
 
 <p align="center">
   <img src="assets/chapter-05/heuristica06.png" alt="heuristica06" width="850" />
 </p>
 
-**Recomendación:**  
-Marcar en el catálogo el estado de verificación del agricultor y, cuando exista, la relación previa con el comerciante. No habilitar la firma del acuerdo hasta que el perfil tenga esa marca, aunque la custodia siga siendo simulada en este Sprint.
+**Qué queda:**  
+Marcar en el catálogo si el agricultor ya trabajó con ese comerciante.
 
 
 
