@@ -2075,7 +2075,7 @@ En esta sección se presenta la propuesta formal de User Flows mapeados a partir
 | Agricultor | /parcels/new, /parcels/:id/edit | Ingresa datos, cultivos y coordenadas, que puede completar por departamento o GPS. Puede adjuntar fotos; hay una imagen por defecto. La pantalla vuelve al catálogo si la API confirma el guardado. |
 | Comerciante y agricultor | /parcels/:id, /agreements, /agreements/merchant | El comerciante abre el acuerdo desde el detalle de parcela. El agricultor revisa la solicitud en /agreements/merchant y confirma en /agreements. Se almacenan dos indicadores de aceptación. |
 | Agricultor y comerciante | /evidence/new, /evidence/review, /escrow | El agricultor adjunta una imagen. El comerciante verifica la evidencia y luego marca la liberación simulada en la bóveda. |
-| Comerciante | /escrow/deposit | Registra una tarjeta ficticia y un monto de demostración. La interfaz abrevia el número al mostrarlo. La API conserva los datos de prueba. |
+| Comerciante | /escrow/deposit | Trabaja con una billetera de demostración. La API intercambia la tarjeta enmascarada y expresa el saldo en céntimos. |
 | Agricultor | /alerts | La SPA lee las parcelas en Spring y consulta Open-Meteo directamente para las del agricultor con coordenadas utilizables. La API también ofrece una consulta de clima independiente. |
 
 La SPA utiliza las operaciones de firma, verificación y liberación del servidor. El agricultor registra evidencia y el comerciante pasa de `review` a `verified` y luego a `accepted`. La respuesta de liberación confirma el cambio en la evidencia. El crédito depende de que Escrow encuentre el acuerdo, el perfil comerciante y su billetera. El resultado monetario es simulado.
@@ -2095,6 +2095,10 @@ La SPA utiliza las operaciones de firma, verificación y liberación del servido
 ![Figura 4.4.4-D. Registro, autenticación y perfil](assets/chapter-04/architecture/flow-authentication.png)
 
 *Figura 4.4.4-D. Registro, autenticación y perfil.* [Ampliar en SVG](assets/chapter-04/architecture/flow-authentication.svg) · [Fuente PlantUML](assets/chapter-04/architecture/flow-authentication.puml).
+
+![Figura 4.4.4-E. Aprovisionamiento de billetera al crear el perfil](assets/chapter-04/architecture/flow-wallet-provision.png)
+
+*Figura 4.4.4-E. Aprovisionamiento de billetera al crear el perfil.* [Ampliar en SVG](assets/chapter-04/architecture/flow-wallet-provision.svg) · [Fuente PlantUML](assets/chapter-04/architecture/flow-wallet-provision.puml).
 
 ## 4.5. Web Applications Prototyping
 

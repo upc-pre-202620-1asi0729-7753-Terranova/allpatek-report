@@ -1,0 +1,31 @@
+@startuml
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 14
+skinparam shadowing false
+skinparam dpi 120
+hide footbox
+title Allpatek | Profile creation and conditional wallet provisioning
+participant "ProfilesController" as Rest
+participant "ProfileRepositoryImpl" as P
+participant "Profiles event handler" as H
+participant "Escrow event handler" as E
+participant "WalletCommandServiceImpl" as W
+participant "WalletRepository" as Repo
+Rest -> P : Create new profile through command service
+P -> P : Persist new profile; register ProfileCreatedEvent
+P -> H : Publish recorded domain event
+H -> E : ProfileCreatedIntegrationEvent
+alt Company or RUC contains text
+  E -> W : CreateWalletByProfileIdCommand
+  W -> Repo : findByProfileId(profileId)
+  alt Wallet found
+    Repo --> W : Reuse existing wallet
+  else No wallet
+    W -> Repo : Save Wallet.provision(profileId, holder)\n50000 cents (S/ 500 demo balance)
+  end
+else Both fields empty
+  E -> E : End without provisioning
+end
+note over E,Repo : Eligibility follows profile data. The handler does not inspect a JWT role.
+@enduml
