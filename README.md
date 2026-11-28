@@ -2367,7 +2367,7 @@ Las figuras cubren los contextos del backend y los módulos correspondientes de 
 
 *Figura 4.7.1-E1. Perfiles en Spring.* [Ampliar en SVG](assets/chapter-04/architecture/08-classes-users.svg) · [Fuente PlantUML](assets/chapter-04/architecture/08-classes-users.puml).
 
-**Webapp.** En el módulo compartido, `UserProfile` y `AccountUser` implementan `BaseEntity`. `AccountRole` es un alias de TypeScript con los dos roles de la aplicación. `Login` abre la sesión de agricultor de demostración y pide actualizar el perfil en pantalla. `SessionStore` conserva rol e identificador en el navegador. `ProfileStore` usa `ProfileApi` para los datos del perfil y `UserApi` para sincronizar nombre y correo. La sincronización con `/users` carece de un endpoint equivalente en Spring.
+**Webapp.** `Login` usa `UserApi.signIn` y guarda la sesión autenticada. `ProfileStore` usa `ProfileApi` para cargar el perfil propio y el directorio. El registro encadena alta, login y creación de perfil. Una operación ya completada puede subsistir si falla la siguiente.
 
 ![Figura 4.7.1-E2. Perfiles en Angular](assets/chapter-04/architecture/web-classes-profiles.png)
 

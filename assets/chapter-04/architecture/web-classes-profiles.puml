@@ -18,11 +18,6 @@ class UserProfile {
   +email: string
   +company: string
 }
-class AccountUser {
-  +id: number
-  +profileId: number
-  +role: AccountRole
-}
 class AccountRole <<type alias>> {
   {field} agricultor | comerciante
 }
@@ -34,17 +29,19 @@ class ProfileStore {
   +updateProfile(updated: UserProfile): void
 }
 class SessionStore {
-  +enter(role: AccountRole, name: string, profileId: number): void
+  +enter(role: AccountRole, name: string, profileId: number | null, token: string): void
   +clear(): void
 }
 }
 package "Infrastructure" #FFF6E2 {
 class ProfileApi {
+  +getMe(): Observable<UserProfile>
   +getProfiles(): Observable<UserProfile[]>
   +updateProfile(profile: UserProfile): Observable<UserProfile>
 }
 class UserApi {
-  +findByRole(role: AccountRole): Observable<AccountUser | null>
+  +signIn(email: string, password: string): Observable<AuthenticatedUserResource>
+  +signUp(email: string, password: string, role: AccountRole): Observable<UserResource>
 }
 }
 package "Presentation" #F4EEFB {
@@ -54,13 +51,12 @@ class Login {
   #onSubmit(event: Event): void
 }
 }
-BaseEntity <|.. AccountUser
 BaseEntity <|.. UserProfile
-AccountUser ..> AccountRole : uses
+SessionStore ..> AccountRole : stores role
 ProfileStore -up-> "0..*" UserProfile : holds profiles
 ProfileStore --> "1" ProfileApi : updates profile
-ProfileStore --> "1" UserApi : syncs changes
+Login --> "1" UserApi : sign in
 ProfileStore --> "1" SessionStore : selects profile
-Login -up-> "1" SessionStore : opens demo session
-Login -up-> "1" ProfileStore : reloads
+Login -up-> "1" SessionStore : stores authenticated session
+Login -up-> "1" ProfileStore : remembers profile
 @enduml
