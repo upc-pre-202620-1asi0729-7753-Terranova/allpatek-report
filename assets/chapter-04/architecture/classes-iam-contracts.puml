@@ -1,0 +1,60 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 14
+skinparam shadowing false
+skinparam dpi 120
+title Allpatek | IAM | REST resources and context facade
+skinparam packageStyle rectangle
+skinparam classAttributeIconSize 0
+hide empty members
+package "Account registration and directory" #ECF6EF {
+  class UsersController {
+    +createUser(SignUpResource, String): ResponseEntity<?>
+    +getUserById(Long, String): ResponseEntity<UserResource>
+  }
+  class SignUpResource <<record>>
+  class UserResource <<record>>
+  class SignUpCommandFromResourceAssembler <<mapper>>
+  class UserResourceFromEntityAssembler <<mapper>>
+  UsersController ..> SignUpCommandFromResourceAssembler : builds SignUpCommand
+  SignUpCommandFromResourceAssembler ..> SignUpResource : reads
+  UsersController ..> UserResourceFromEntityAssembler : maps account
+  UserResourceFromEntityAssembler ..> UserResource : returns
+}
+package "Token response" #F3F6FA {
+  class TokensController {
+    +generateToken(SignInResource, String): ResponseEntity<?>
+  }
+  class SignInResource <<record>>
+  class AuthenticatedUserResource <<record>> {
+    -profileId: Long
+  }
+  class SignInCommandFromResourceAssembler <<mapper>>
+  class AuthenticatedUserResourceFromEntityAssembler <<mapper>>
+  TokensController ..> SignInCommandFromResourceAssembler : builds SignInCommand
+  SignInCommandFromResourceAssembler ..> SignInResource : reads
+  TokensController ..> AuthenticatedUserResourceFromEntityAssembler : maps result
+  AuthenticatedUserResourceFromEntityAssembler ..> AuthenticatedUserResource : returns
+}
+package "Role directory" #FDF4E8 {
+  class RolesController {
+    +getAllRoles(String): ResponseEntity<List<RoleResource>>
+  }
+  class RoleResourceFromEntityAssembler <<mapper>>
+  class RoleResource <<record>>
+  RolesController ..> RoleResourceFromEntityAssembler : maps roles
+  RoleResourceFromEntityAssembler ..> RoleResource : returns
+}
+package "Internal facade" #F6F1F8 {
+  class IamContextFacade {
+    +fetchUserIdByUsername(String): Long
+    +fetchUsernameByUserId(Long): String
+  }
+  interface UserCommandService
+  interface UserQueryService
+  IamContextFacade --> "1" UserCommandService : creates accounts
+  IamContextFacade --> "1" UserQueryService : looks up accounts
+}
+@enduml

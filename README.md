@@ -2399,6 +2399,10 @@ Las figuras cubren los contextos del backend y los módulos correspondientes de 
 
 *Figura 4.7.1-H. Validación del token y recuperación de autoridades.* [Ampliar en SVG](assets/chapter-04/architecture/classes-iam-security.svg) · [Fuente PlantUML](assets/chapter-04/architecture/classes-iam-security.puml).
 
+![Figura 4.7.1-I. Recursos REST y fachada de IAM](assets/chapter-04/architecture/classes-iam-contracts.png)
+
+*Figura 4.7.1-I. Los recursos que entran y salen de cada controlador IAM.* [Ampliar en SVG](assets/chapter-04/architecture/classes-iam-contracts.svg) · [Fuente PlantUML](assets/chapter-04/architecture/classes-iam-contracts.puml).
+
 ## 4.8. Database Design
 
 La plataforma conserva perfiles, parcelas, acuerdos, billeteras y evidencias en MySQL. Los modelos físicos se deducen de las entidades JPA de `a2b0269`, sus atributos embebidos y la estrategia que convierte los nombres a plural. Las lecturas de clima se calculan al consultar el pronóstico. La sesión de demostración se conserva en el navegador.
