@@ -1,0 +1,43 @@
+@startuml
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 14
+skinparam shadowing false
+skinparam dpi 120
+hide footbox
+title Allpatek | Evidence review, release and demo credit
+actor Farmer
+actor Merchant
+participant "Webapp / bearer session" as SPA
+participant "Tracking service + JPA" as Tr
+participant "Escrow event handler" as Esc
+participant "Agreements facade" as Ag
+participant "Wallet service + JPA" as Wa
+Farmer -> SPA : Submit file and milestone
+SPA -> Tr : POST /api/v1/evidence (ROLE_FARMER)\nparcelId, agreementId and evidence data
+Tr --> SPA : Stored evidence
+Merchant -> SPA : Verify milestone
+SPA -> Tr : POST /api/v1/evidence/{id}/verify (ROLE_MERCHANT)
+Tr -> Tr : Require review; save verified and publish\nEvidenceVerifiedEvent → EvidenceVerifiedIntegrationEvent
+Merchant -> SPA : Release verified milestone
+SPA -> Tr : POST /api/v1/evidence/{id}/release (ROLE_MERCHANT)
+alt Evidence missing or status differs from verified
+  Tr --> SPA : Not-found or business-rule error
+else Eligible
+  Tr -> Tr : Save accepted; publish EvidenceReleasedEvent
+  Tr -> Esc : EvidenceReleasedIntegrationEvent
+  Esc -> Ag : fetchMerchantProfileId(agreementId) via ACL
+  alt Merchant profile resolved
+    Esc -> Wa : CreditWalletCommand(profileId, 25000)
+    alt Wallet exists
+      Wa -> Wa : Save wallet.credit(25000) in cents
+    else Wallet absent
+      Wa --> Esc : Failure; handler logs warning
+    end
+  else No agreement or merchant
+    Esc -> Esc : Log and stop processing the credit
+  end
+  Tr --> SPA : Accepted evidence for completed release
+end
+note over Tr,Wa : A handled credit failure does not cancel acceptance.\nThis updates a demo balance; the producer bank transfer is a requirement.
+@enduml

@@ -2078,7 +2078,7 @@ En esta sección se presenta la propuesta formal de User Flows mapeados a partir
 | Comerciante | /escrow/deposit | Registra una tarjeta ficticia y un monto de demostración. La interfaz abrevia el número al mostrarlo. La API conserva los datos de prueba. |
 | Agricultor | /alerts | La SPA lee las parcelas en Spring y consulta Open-Meteo directamente para las del agricultor con coordenadas utilizables. La API también ofrece una consulta de clima independiente. |
 
-En el flujo de evidencias, la UI usa review → verified → accepted. El acceso a evidencias se apoya en la aceptación del comerciante; la bóveda lista acuerdos con ambas aceptaciones y exige una tarjeta de demo y saldo disponible para marcar la liberación. El PUT reducido de liberación no incluye notas ni archivo, y el frontend transforma un error HTTP en un resultado exitoso. Con la API Spring configurada, el aviso puede indicar éxito aunque falle la escritura. Si el servidor acepta el reemplazo, se pueden perder las observaciones o el archivo omitidos. La transición debería guardar solo el nuevo estado, preservar la evidencia y mostrar éxito únicamente tras una respuesta válida.
+La SPA utiliza las operaciones de firma, verificación y liberación del servidor. El agricultor registra evidencia y el comerciante pasa de `review` a `verified` y luego a `accepted`. La respuesta de liberación confirma el cambio en la evidencia. El crédito depende de que Escrow encuentre el acuerdo, el perfil comerciante y su billetera. El resultado monetario es simulado.
 
 ![Figura 4.4.4-A. Creación del acuerdo y firma del agricultor](assets/chapter-04/architecture/18-flow-agreement-evidence.png)
 
@@ -2087,6 +2087,10 @@ En el flujo de evidencias, la UI usa review → verified → accepted. El acceso
 ![Figura 4.4.4-B. Publicación de parcela y consulta del clima](assets/chapter-04/architecture/19-flow-parcels-climate.png)
 
 *Figura 4.4.4-B. Publicación de parcela y consulta del clima.* <a href="assets/chapter-04/architecture/19-flow-parcels-climate.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/19-flow-parcels-climate.svg">SVG</a>.
+
+![Figura 4.4.4-C. Revisión del hito y crédito demostrativo](assets/chapter-04/architecture/flow-evidence-release.png)
+
+*Figura 4.4.4-C. Revisión del hito y crédito demostrativo.* [Ampliar en SVG](assets/chapter-04/architecture/flow-evidence-release.svg) · [Fuente PlantUML](assets/chapter-04/architecture/flow-evidence-release.puml).
 
 ![Figura 4.4.4-D. Registro, autenticación y perfil](assets/chapter-04/architecture/flow-authentication.png)
 
