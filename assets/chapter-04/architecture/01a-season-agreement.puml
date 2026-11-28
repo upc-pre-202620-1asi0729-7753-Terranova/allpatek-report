@@ -24,7 +24,7 @@ legend center
 Activation requires both signatures and a confirmed deposit for the same agreement.
 An occupied parcel cannot be held. A failed delivery leaves the contract active and can be retried.
 
-In Spring, the first transition to two signatures publishes AgreementFullySignedEvent and marks the parcel in production.
-The Angular demo attempts a webhook after a successful farmer signature. A confirmed deposit, PDF or delivery needs separate evidence.
+Implemented: POST farmer-signature records acceptance. On first completion Spring asks Parcels to mark the parcel in production.
+Partial: Angular requests a notice after saving. A confirmed deposit, generated PDF and delivered copy remain target outcomes.
 endlegend
 @enduml

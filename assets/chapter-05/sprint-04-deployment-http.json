@@ -1,0 +1,38 @@
+[
+  {
+    "method": "GET",
+    "url": "https://allpatek.proyectaconsultora.com/health",
+    "observed_at": "2026-11-28T14:19:09-05:00",
+    "status": 401,
+    "final_url": "https://allpatek.proyectaconsultora.com/health",
+    "content_type": "text/plain",
+    "outcome": "Acceso público sin credenciales: HTTP 401"
+  },
+  {
+    "method": "GET",
+    "url": "https://allpatek.proyectaconsultora.com/swagger-ui/index.html",
+    "observed_at": "2026-11-28T14:19:10-05:00",
+    "status": 200,
+    "final_url": "https://allpatek.proyectaconsultora.com/swagger-ui/swagger-ui/index.html",
+    "content_type": "text/html",
+    "page_title": "Swagger UI"
+  },
+  {
+    "method": "GET",
+    "url": "https://allpatek.proyectaconsultora.com/v3/api-docs",
+    "observed_at": "2026-11-28T14:19:11-05:00",
+    "status": 200,
+    "final_url": "https://allpatek.proyectaconsultora.com/v3/api-docs",
+    "content_type": "application/json",
+    "openapi": "3.1.0",
+    "api_title": "Allpatek Platform",
+    "api_version": "0.0.1-SNAPSHOT",
+    "documented_path_count": 19,
+    "selected_documented_operations": [
+      "POST /api/v1/evidence/{id}/verify",
+      "POST /api/v1/evidence/{id}/release",
+      "POST /api/v1/agreements/{id}/farmer-signature",
+      "GET /api/v1/alerts"
+    ]
+  }
+]

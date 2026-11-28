@@ -9,15 +9,23 @@ LAYOUT_TOP_DOWN()
 
 title Allpatek | C4 components - Climate alerts
 Container_Boundary(api, "Spring REST API / alerts") {
-  Component(rest, "AlertsController", "Spring MVC", "GET /api/v1/alerts with an optional ownerId.")
+  Component(rest, "AlertsController", "Spring MVC", "GET /api/v1/alerts for the authenticated account.")
   Component(query, "ClimateQueryServiceImpl", "Application service", "Builds coordinates for eligible parcels and requests current readings.")
   Component(adapter, "OpenMeteoWeatherForecastService", "HTTP adapter", "Implements WeatherForecastService and returns ClimateReading records.")
+  Component(profileAcl, "ExternalProfileService", "alerts / ACL", "Looks up a profile by username.")
+  Component(parcelAcl, "ExternalParcelService", "alerts / ACL", "Requests locations for the resolved owner.")
 }
+
+Component(pf, "ProfilesContextFacade", "profiles", "Exposes email lookup.")
+
 Component(facade, "ParcelsContextFacadeImpl", "Spring API / parcels", "Exposes parcel names and locations by owner.")
 System_Ext(weather, "Open-Meteo", "External weather forecast API")
 
 Rel(rest, query, "GetClimateAlertsQuery")
-Rel(query, facade, "findLocations(ownerId)", "ParcelsContextFacade")
+Rel(query, parcelAcl, "findLocations(ownerId)")
+Rel(parcelAcl, facade, "Look up locations", "ParcelsContextFacade")
 Rel(query, adapter, "forecast(places)", "WeatherForecastService")
 Rel(adapter, weather, "Requests weather data", "HTTPS / JSON")
+Rel(rest, profileAcl, "Resolve the authenticated username")
+Rel(profileAcl, pf, "Look up profile ID")
 @enduml

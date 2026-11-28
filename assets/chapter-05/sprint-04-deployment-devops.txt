@@ -1,0 +1,74 @@
+ALLPATEK | Evidencia de despliegue del Sprint 4 (5.2.4.7)
+Revision de solo lectura: 2026-11-28, zona America/Lima (UTC-05:00).
+Extracto sanitizado de comprobaciones. No corresponde a una captura de terminal.
+
+[S4-DEP-01] Backend publico y release activa
+Destino: https://allpatek.proyectaconsultora.com/
+Repositorio: https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform
+Rama de despliegue: develop.
+HEAD de current y deployed-commit: 82e8832d1e70498ea183aa661af5b27a3f9924e4.
+deployed-at: 2026-11-26 17:03:11 Lima (2026-11-26 22:03:11 UTC).
+Evidencia: coincidencia de los metadatos con la release activa y el registro deploy.log.
+Linea de cierre: [2026-11-26T22:03:11Z] Despliegue 82e8832d1e70 completado y verificado.
+Artefacto: 0.0.1-SNAPSHOT; no equivale a una etiqueta de release academica.
+Entorno: Ubuntu 24.04.3 LTS, perfil prod, Java Temurin 27.0.1.0.2,
+Spring Boot 4.1.2, PM2, Nginx 1.24.0 y HTTPS.
+Estado: Allpatek online en PM2. MySQL, Nginx, PM2 de arranque y cron activos.
+Arranque de PM2 habilitado. No se reinicio el VPS para probarlo.
+MySQL 8.0.46: consulta autenticada de solo lectura y 8 tablas de base verificadas.
+
+[S4-DEP-02] Procedimiento ejecutado y resultados
+2026-11-12: se preparo Java; se compilo el commit 2d5e75b; se creo una base
+MySQL dedicada; se inicio la API con PM2; se configuro Nginx y el certificado
+de Let's Encrypt. El 12/11 es evidencia del entorno inicial, no del Sprint 4.
+2026-11-24 08:52:46 Lima: primer despliegue automatico verificado (a2b0269).
+El cron consulta develop cada minuto. El script usa un bloqueo, clona en una
+release nueva, ejecuta Maven test y package, comprueba el JAR, cambia current,
+reinicia solo Allpatek y valida OpenAPI. Hay rollback configurado de la
+aplicacion; no se provoco un fallo de produccion para comprobarlo.
+2026-11-26: para 82e8832, Surefire y deploy.log registran 45 pruebas, 0 fallos,
+0 errores y 0 omitidas, y BUILD SUCCESS para test y package. Las pruebas con
+contexto usan el perfil test y H2; la base del servicio publicado es MySQL.
+El registro del informe assets/chapter-05/sprint-04-backend-tests.txt
+corresponde a otra ejecucion, commit 2390a37, no al registro de despliegue.
+
+[S4-DEP-03] Verificacion publica del 2026-11-28
+GET https://allpatek.proyectaconsultora.com/v3/api-docs -> 200;
+OpenAPI 3.1.0, 19 rutas, bearerAuth; contratos IAM de usuarios, roles y tokens.
+GET https://allpatek.proyectaconsultora.com/v3/api-docs/swagger-config -> 200.
+GET https://allpatek.proyectaconsultora.com/swagger-ui/index.html -> 200
+al seguir la redireccion.
+GET /health, / y /api/v1/parcels sin token -> 401.
+La politica actual de Spring Security exige autenticacion fuera de las rutas
+publicas declaradas; /health no es un chequeo anonimo en esta release.
+OPTIONS /api/v1/parcels con origen de Netlify y cabecera authorization -> 200;
+Access-Control-Allow-Origin coincide con Netlify y se permite authorization.
+No se ejecuto un login ni un flujo funcional autenticado en produccion.
+
+[S4-DEP-04] Web App
+https://terranova-allpatek.netlify.app/ -> 200.
+Huella del cliente servido: main-DPNWCMUG.js; chunk-D9L5r5qG.js publica
+platformProviderApiBaseUrl=https://allpatek.proyectaconsultora.com/api/v1.
+No hay vinculo verificable entre esos archivos y un SHA de Netlify con el
+acceso disponible. El HEAD remoto de develop (996d647) no es prueba de ello.
+
+[S4-DEP-05] Landing Page
+https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/ -> 200.
+GitHub Pages: deploy 8119122917, estado success 23338021877,
+commit 359cf77531ed8b3ac9341952d05f98c24a3fc8dd de develop,
+2026-11-27 15:52:59 Lima. La landing enlaza a la Web App de Netlify.
+https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website/actions/runs/46066535458
+
+[S4-DEP-06] Alcance y pendientes
+Render + Aiven: evidencia historica del Sprint 3; OpenAPI en Render no
+respondio en el tiempo de comprobacion (12 y 25 s). No se afirma que este
+caido ni que ejecute la version del Sprint 4. No se verifico Aiven hoy.
+Mock de Azure: la raiz responde 200, pero no identifica version ni es
+prueba del backend real.
+El main remoto del backend esta en 972fc96 y no contiene 82e8832. Si se
+exige publicar desde main o Render, confirmar destino y SHA como paso
+previo a una nueva publicacion. El VPS actual ya tiene 82e8832 de develop.
+Para cerrar la evidencia faltante: obtener el SHA y la fecha en el panel de
+Netlify y ejecutar un smoke test con una cuenta de prueba (login y lectura)
+en el destino confirmado. Ninguna publicacion, push, reinicio ni edicion
+del informe se realizo durante esta revision.

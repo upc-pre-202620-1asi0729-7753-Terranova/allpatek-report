@@ -1,0 +1,88 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 14
+skinparam shadowing false
+skinparam dpi 120
+title Allpatek | IAM | Accounts and role membership
+skinparam classAttributeIconSize 0
+skinparam packageStyle rectangle
+hide empty members
+package "1. Domain" as Layer0 #ECF6EF {
+  class User <<Aggregate Root>> {
+    -id: Long
+    -username: String
+    -password: String
+    -roles: Set<Role>
+    +addRole(Role): User
+  }
+  class Role <<Entity>> {
+    -id: Long
+    -name: Roles
+    {static} +getDefaultRole(): Role
+  }
+  enum Roles {
+    ROLE_FARMER
+    ROLE_MERCHANT
+    ROLE_ADMIN
+  }
+  interface UserRepository <<Repository Port>> {
+    +findByUsername(String): Optional<User>
+    +save(User): User
+  }
+  class SignUpCommand <<record, Command>> {
+    -username: String
+    -roles: List<Role>
+  }
+}
+package "2. Application" as Layer1 #F3F6FA {
+  interface UserCommandService {
+    +handle(SignUpCommand): Result<User, ApplicationError>
+    +handle(SignInCommand): Result<ImmutablePair<User, String>, ApplicationError>
+  }
+  class UserCommandServiceImpl {
+    -hashingService: HashingService
+    -tokenService: TokenService
+    -roleRepository: RoleRepository
+  }
+}
+package "3. Interfaces" as Layer2 #FDF4E8 {
+  class UsersController <<REST Controller>> {
+    -userCommandService: UserCommandService
+  }
+  class TokensController <<REST Controller>> {
+    +generateToken(SignInResource, String): ResponseEntity<?>
+  }
+  class RolesController <<REST Controller>> {
+    -roleQueryService: RoleQueryService
+  }
+}
+package "4. Infrastructure" as Layer3 #F6F1F8 {
+  class UserRepositoryImpl <<JPA Adapter>> {
+    +findByUsername(String): Optional<User>
+  }
+  class UserPersistenceEntity <<JPA Entity>> {
+    -username: String
+    -roles: Set<RolePersistenceEntity>
+  }
+  class RolePersistenceEntity <<JPA Entity>> {
+    -name: Roles
+  }
+}
+User "0..*" --> "0..*" Role : assigned roles
+Role --> "1" Roles : name
+UserCommandService <|.. UserCommandServiceImpl
+UserRepository "1" <-- UserCommandServiceImpl : userRepository
+SignUpCommand <.. UserCommandServiceImpl : handles registration
+UserCommandService "1" <-- UsersController : registers
+UserCommandService "1" <-- TokensController : authenticates
+UserRepository <|.. UserRepositoryImpl
+UserRepositoryImpl ..> UserPersistenceEntity : maps through assembler
+UserPersistenceEntity "0..*" --> "0..*" RolePersistenceEntity : user_roles
+Layer0 -[hidden]down-> Layer1
+Layer1 -[hidden]down-> Layer2
+Layer2 -[hidden]down-> Layer3
+User -[hidden]down-> UserCommandService
+UserCommandService -[hidden]down-> UsersController
+@enduml

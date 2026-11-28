@@ -10,15 +10,20 @@ LAYOUT_TOP_DOWN()
 title Allpatek | C4 components - Milestone evidence
 Container_Boundary(api, "Spring REST API / tracking") {
   Component(rest, "EvidenceController", "Spring MVC", "/api/v1/evidence")
-  Component(cmd, "EvidenceCommandServiceImpl", "Application service", "Creates, updates or deletes evidence records.")
+  Component(cmd, "EvidenceCommandServiceImpl", "Application service", "Saves evidence; verifies review and releases verified milestones.")
   Component(query, "EvidenceQueryServiceImpl", "Application service", "Returns evidence status, notes and file metadata.")
   Component(repo, "EvidenceRepositoryImpl", "JPA adapter", "Implements EvidenceRepository and maps persisted records.")
+  Component(events, "EvidenceVerified / Released event handlers", "tracking / Spring listeners", "Translate domain events into integration events.")
 }
 
 ContainerDb(db, "MySQL", "Relational database", "evidences table")
-Rel(rest, cmd, "POST, PUT, DELETE")
+Rel(rest, cmd, "Create (farmer), verify / release (merchant), generic update / delete")
 Rel(rest, query, "GET")
 Rel(cmd, repo, "Writes via EvidenceRepository")
 Rel(query, repo, "Reads via EvidenceRepository")
 Rel(repo, db, "Uses EvidencePersistenceRepository", "JPA")
+
+Component(esc, "EvidenceReleasedEventHandler", "escrow / Spring listener", "Resolves the demo wallet to credit.")
+Rel(repo, events, "Publish recorded events after saving", "DomainEventPublisher")
+Rel(events, esc, "EvidenceReleasedIntegrationEvent", "Spring events")
 @enduml

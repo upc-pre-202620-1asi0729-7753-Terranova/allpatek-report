@@ -15,6 +15,7 @@ entity "evidences" as evidence {
   {field} * id: VARCHAR(160) <<PK>>
   --
   {field} * parcel_id: VARCHAR(160)
+  {field} agreement_id: VARCHAR(160)
   {field} * milestone: INT
   {field} * status: ENUM
   {field} notes: TEXT
@@ -26,7 +27,11 @@ entity "evidences" as evidence {
 entity "parcels" as parcel #EAF2EB {
   {field} * id: VARCHAR(160) <<PK>>
 }
+entity "agreements" as agreement #EAF2EB {
+  {field} * id: VARCHAR(160) <<PK>>
+}
 parcel ||..o{ evidence : parcel_id
+agreement |o..o{ evidence : agreement_id
 note bottom of evidence
   The physical naming strategy pluralizes evidence to evidences.
   The REST resource is /api/v1/evidence.

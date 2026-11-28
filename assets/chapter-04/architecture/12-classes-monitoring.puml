@@ -13,16 +13,21 @@ top to bottom direction
 title Allpatek | Tracking evidence - write path
 
 package "1. Domain" as Domain #ECF6EF {
+  class AgreementReference <<record, Value Object>> {
+    -value: String
+  }
   class MilestoneEvidence <<Aggregate Root>> {
     -id: EvidenceId
-    -parcelId: ParcelId
+    -agreementId: AgreementReference
     -milestone: MilestoneNumber
-    +getMilestone(): MilestoneNumber
+    -status: EvidenceStatus
+    +withStatus(EvidenceStatus): MilestoneEvidence
+    +onVerified(): void
+    +onReleased(): void
   }
-  class EvidenceFile <<Value Object>> {
+  class EvidenceFile <<record, Value Object>> {
     -fileName: String
     -image: String
-    +fileName(): String
   }
   interface EvidenceRepository <<Repository Port>> {
     +save(MilestoneEvidence): MilestoneEvidence
@@ -39,16 +44,19 @@ package "1. Domain" as Domain #ECF6EF {
 }
 package "2. Application" as Application #F3F6FA {
   interface EvidenceCommandService {
-    +handle(SaveEvidenceCommand): Result<MilestoneEvidence, ApplicationError>
+    +handle(VerifyEvidenceCommand): Result<MilestoneEvidence, ApplicationError>
+    +handle(ReleaseEvidenceCommand): Result<MilestoneEvidence, ApplicationError>
   }
   class EvidenceCommandServiceImpl {
-    +handle(SaveEvidenceCommand): Result<MilestoneEvidence, ApplicationError>
+    -transition(String, EvidenceStatus, EvidenceStatus): Result<MilestoneEvidence, ApplicationError>
   }
   EvidenceCommandService <|.. EvidenceCommandServiceImpl
 }
 package "3. Interfaces (REST)" as Interfaces #FDF4E8 {
   class EvidenceController <<REST Controller>> {
     +createEvidence(EvidenceResource, String): ResponseEntity<?>
+    +verifyEvidence(String, String): ResponseEntity<?>
+    +releaseEvidence(String, String): ResponseEntity<?>
   }
 }
 package "4. Infrastructure (JPA)" as Infrastructure #F6F1F8 {
@@ -58,11 +66,12 @@ package "4. Infrastructure (JPA)" as Infrastructure #F6F1F8 {
   }
   class EvidencePersistenceAssembler <<Mapper>> {
     {static} +toDomainFromPersistence(EvidencePersistenceEntity): MilestoneEvidence
+    {static} -toDomainFromPersistence(EvidenceFilePersistenceEmbeddable): EvidenceFile
   }
   class EvidencePersistenceEntity <<JPA Entity>> {
     -parcelId: String
-    -milestone: Integer
-    +getMilestone(): Integer
+    -agreementId: String
+    -status: EvidenceStatus
   }
   EvidenceRepositoryImpl ..> EvidencePersistenceAssembler : converts before and after save
   EvidencePersistenceAssembler ..> EvidencePersistenceEntity : maps
@@ -73,6 +82,7 @@ EvidenceCommandService "1" <-- EvidenceController : evidenceCommandService
 Domain -[hidden]down-> Application
 Application -[hidden]down-> Interfaces
 
+MilestoneEvidence *--> "1" AgreementReference : agreementId
 legend bottom
 + public  |  - private
 Multiplicities label stored references. Dashed arrows show use or interface realization.

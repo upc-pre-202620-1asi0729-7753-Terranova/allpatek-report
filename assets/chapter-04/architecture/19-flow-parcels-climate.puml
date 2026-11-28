@@ -1,41 +1,41 @@
 @startuml
-title Allpatek | Parcel registration and weather forecasts
-skinparam shadowing false
+skinparam backgroundColor white
 skinparam defaultFontName SansSerif
 skinparam defaultFontSize 14
+skinparam shadowing false
 skinparam dpi 120
 hide footbox
+title Allpatek | Authenticated parcel registration and weather lookup
 actor Farmer
-participant "Angular Webapp" as Web
-participant "Spring REST API" as Api
-participant "OpenStreetMap" as Maps
-participant "Open-Meteo" as Weather
-
-Farmer -> Web : Open /parcels/new with a local farmer profile
-Web -> Maps : Embed selected coordinates in the map
-Farmer -> Web : Save parcel details
-Web -> Api : POST /api/v1/parcels
-alt Parcel saved
-  Api --> Web : Parcel resource
-  Web --> Farmer : Return to /parcels
-else Save fails
-  Web --> Farmer : Keep the form visible and report failure
-end
-
-Farmer -> Web : Open /alerts
-Web -> Api : GET /api/v1/parcels
-Api --> Web : Parcel records
-Web -> Web : Select owner's parcels with usable coordinates
-alt Coordinates available
-  Web -> Weather : GET forecast directly from the browser
-  alt Forecast returned
-    Weather --> Web : Current, hourly and daily data
-    Web --> Farmer : Display readings and estimated risk
-  else Forecast request fails
-    Web --> Farmer : Display the weather error state
+participant "Angular SPA" as Web
+participant "Parcels / REST + JPA" as P
+participant "Profiles / current account or facade" as Pf
+participant "Alerts / REST + application" as A
+participant "Parcels facade" as Pa
+participant "Open-Meteo" as Met
+Farmer -> Web : Publish parcel
+Web -> P : POST /api/v1/parcels (bearer, ROLE_FARMER)
+P -> Pf : Resolve current profileId
+P -> P : CreateParcelCommand; fall back to resource.ownerId
+P --> Web : Saved parcel
+Farmer -> Web : Open climate view
+Web -> A : GET /api/v1/alerts (bearer)
+A -> Pf : ExternalProfileService: resolve username as email
+alt Profile missing
+  A --> Web : Profile not found
+else Profile resolved
+  A -> Pa : ExternalParcelService: findLocations(ownerId)
+  alt No eligible locations
+    A --> Web : 200 with empty list
+  else Locations returned
+    A -> Met : Forecast for selected coordinates
+    alt Usable response
+      A -> A : Parse forecast; compute risk; assemble REST readings
+      A --> Web : Climate readings
+    else Provider or structure error
+      A --> Web : Mapped service error
+    end
   end
-else No eligible parcel, or parcel lookup failed
-  Web --> Farmer : No forecast readings for this query
 end
-note over Web,Weather : Spring also exposes GET /api/v1/alerts and its own weather adapter.\nThe Angular alerts screen uses the direct Open-Meteo path shown above.
+note over Web,A : ownerId is derived on the server.\nThe current AlertsApi calls the platform; the screen does not query contracts.
 @enduml

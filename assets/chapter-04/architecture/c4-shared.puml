@@ -1,0 +1,25 @@
+@startuml
+!pragma layout smetana
+!include <C4/C4_Component>
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 14
+skinparam shadowing false
+skinparam dpi 120
+LAYOUT_TOP_DOWN()
+title Allpatek | Transversal support
+Container_Boundary(bound, "Spring API / shared") {
+  Component(agg, "AbstractDomainAggregateRoot", "Domain", "Collects domain events.")
+  Component(pub, "DomainEventPublisher", "Spring adapter", "Publishes and clears recorded events.")
+  Component(result, "Result and ApplicationError", "Application contracts", "Represent success or a typed failure.")
+  Component(resp, "ResponseEntityAssembler", "REST adapter", "Converts service results to HTTP responses.")
+  Component(prob, "ProblemDetailFromApplicationErrorAssembler", "REST adapter", "Maps application errors to problem details.")
+  Component(bases, "Base persistence entities", "JPA mapped superclasses", "Provide identifiers and audit timestamps.")
+  Component(naming, "SnakeCaseWithPluralizedTablePhysicalNamingStrategy", "Hibernate", "Uses snake case and plural table names.")
+  Component(health, "HealthController", "Spring MVC", "Serves the service status at / and /health.")
+}
+Rel(pub, agg, "Reads then clears domain events")
+Rel(resp, result, "Interprets result")
+Rel(resp, prob, "Maps failure")
+Rel(prob, result, "Reads error category")
+@enduml

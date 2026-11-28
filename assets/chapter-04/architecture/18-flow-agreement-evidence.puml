@@ -1,44 +1,37 @@
 @startuml
-title Allpatek | Seasonal agreement, evidence and simulated payout
-skinparam shadowing false
+skinparam backgroundColor white
 skinparam defaultFontName SansSerif
 skinparam defaultFontSize 14
+skinparam shadowing false
 skinparam dpi 120
 hide footbox
+title Allpatek | Agreement signature and parcel production
 actor Merchant
 actor Farmer
-participant "Angular Webapp" as Web
-participant "Spring REST API" as Api
-participant "n8n webhook" as N8n
-
-== Agreement ==
-Merchant -> Web : Accept the terms for a parcel
-Web -> Api : Save merchantSigned on /api/v1/agreements
-Farmer -> Web : Accept the merchant-signed request
-Web -> Api : PUT /api/v1/agreements/{id} with both flags
-alt Save succeeds
-  Api -> Api : On newly complete signatures, publish domain event\nand integration event; request parcel in_production
-  Api --> Web : Agreement resource
-  Web ->> N8n : POST agreement notice
-else Save fails after retries
-  Web --> Farmer : Show signature error
+participant "Angular SPA" as Web
+participant "Agreements / REST" as Rest
+participant "Profiles / current account" as Acct
+participant "Agreement service and JPA adapter" as Repo
+participant "Parcels / event handler" as Parcels
+Merchant -> Web : Accept terms for a parcel
+Web -> Rest : POST /api/v1/agreements (bearer, ROLE_MERCHANT)
+Rest -> Acct : Resolve profile ID and full name
+Rest -> Repo : SaveAgreementCommand (resource fallback for missing identity)
+Repo --> Web : AgreementResource via controller
+Farmer -> Web : Accept the request
+Web -> Rest : POST /api/v1/agreements/{id}/farmer-signature\nBearer, ROLE_FARMER
+Rest -> Repo : SignFarmerCommand; look up agreement
+alt Agreement absent
+  Repo --> Web : Not found via controller
+else Agreement found
+  Repo -> Repo : Save withFarmerSignature(); compare previous signatures
+  opt First transition to fully signed
+    Repo -> Repo : AgreementFullySignedEvent → integration event
+    Repo -> Parcels : AgreementFullySignedIntegrationEvent
+    Parcels -> Parcels : MarkParcelInProductionCommand
+    note right of Parcels : A failed command is logged.
+  end
+  Rest --> Web : Updated agreement
 end
-
-== Milestone ==
-Farmer -> Web : Submit a milestone file and notes
-Web ->> N8n : POST evidence notice before persistence
-Web -> Api : POST /api/v1/evidence with status review
-note over Web,Api : A failed save shows an error. The outgoing notice was already attempted.
-Merchant -> Web : Verify a submitted milestone
-Web -> Api : PUT /api/v1/evidence/{id} with status verified
-Merchant -> Web : Approve the simulated release on /escrow
-note over Web : A demo card, available balance and verified evidence are required.
-Web -> Api : PUT reduced evidence data with status accepted
-alt PUT succeeds
-  Api --> Web : Updated evidence
-else PUT fails
-  Web -> Web : Adapter returns its local accepted record as a fallback
-end
-Web ->> N8n : POST payout notice when UI reports success
-note over Web,N8n : The reduced update omits notes and file content.\nThe simulated release does not execute a bank transfer.
+note over Web,Rest : Both flags are also accepted on generic writes.\nThe intended acceptance is an application action; a certified signature is planned.
 @enduml

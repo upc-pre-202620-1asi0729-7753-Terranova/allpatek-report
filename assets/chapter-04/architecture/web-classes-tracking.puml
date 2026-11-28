@@ -12,6 +12,7 @@ package "Domain" #EAF4EA {
 class MilestoneEvidence {
   +id: string
   +parcelId: string
+  +agreementId: string
   +milestone: number
   +status: 'review' | 'verified' | 'accepted'
   +notes: string
@@ -30,7 +31,8 @@ package "Infrastructure" #FFF6E2 {
 class EvidenceApi {
   -evidenceEndpoint: EvidenceApiEndpoint
   +getEvidence(): Observable<MilestoneEvidence[]>
-  +updateEvidence(evidence: MilestoneEvidence): Observable<MilestoneEvidence>
+  +verifyEvidence(id: string): Observable<MilestoneEvidence>
+  +releaseEvidence(id: string): Observable<MilestoneEvidence>
 }
 class EvidenceLookupApi {
   +getParcels(): Observable<EvidenceParcelRef[]>

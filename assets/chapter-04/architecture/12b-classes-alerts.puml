@@ -13,14 +13,13 @@ top to bottom direction
 title Allpatek | Climate alerts - forecast query
 
 package "1. Domain" as Domain #ECF6EF {
-  class ClimateReading <<Record>> {
+  class ClimateReading <<record>> {
     -place: ParcelCoordinates
     -weather: WeatherSnapshot
     +alerts(): List<ClimateAlert>
   }
-  class ClimateAlert <<Value Object>> {
+  class ClimateAlert <<record, Value Object>> {
     -tone: AlertTone
-    +tone(): AlertTone
   }
   enum WeatherCondition {
     clear
@@ -35,10 +34,18 @@ package "1. Domain" as Domain #ECF6EF {
   ClimateReading ..> ClimateAlert : creates on demand
 }
 package "2. Application" as Application #F3F6FA {
+  class ExternalProfileService <<ACL>> {
+    -profilesContextFacade: ProfilesContextFacade
+  }
+  class ExternalParcelService <<ACL>> {
+    -parcelsContextFacade: ParcelsContextFacade
+    +findLocations(Long): Result<List<ParcelCoordinates>, ApplicationError>
+  }
   interface ClimateQueryService {
     +handle(GetClimateAlertsQuery): Result<List<ClimateReading>, ApplicationError>
   }
   class ClimateQueryServiceImpl {
+    -externalParcelService: ExternalParcelService
     +handle(GetClimateAlertsQuery): Result<List<ClimateReading>, ApplicationError>
   }
   interface WeatherForecastService <<Outbound Port>> {
@@ -49,7 +56,8 @@ package "2. Application" as Application #F3F6FA {
 }
 package "3. Interfaces (REST)" as Interfaces #FDF4E8 {
   class AlertsController {
-    +getAlerts(Long, String): ResponseEntity<?>
+    -externalProfileService: ExternalProfileService
+    +getAlerts(String, Authentication): ResponseEntity<?>
   }
   class ClimateReadingResourceAssembler <<Mapper>> {
     {static} +toResourceFromEntity(ClimateReading): ClimateReadingResource
@@ -67,12 +75,14 @@ interface ParcelsContextFacade <<Parcels ACL>> {
   +findLocations(Long): List<ParcelLocation>
 }
 ClimateReading <.. WeatherForecastService : returns
-ClimateQueryServiceImpl --> "1" ParcelsContextFacade : parcelsContextFacade
+ClimateQueryServiceImpl --> "1" ExternalParcelService : finds owner locations
 ClimateQueryService "1" <-- AlertsController : climateQueryService
 WeatherForecastService <|.. OpenMeteoWeatherForecastService
 Domain -[hidden]down-> Application
 Application -[hidden]down-> Interfaces
 
+ExternalParcelService --> "1" ParcelsContextFacade : queries
+AlertsController --> "1" ExternalProfileService : resolves caller
 legend bottom
 + public  |  - private
 Forecasts are queried for the parcel locations. There is no local climate table.

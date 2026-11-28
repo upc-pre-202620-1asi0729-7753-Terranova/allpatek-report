@@ -3,41 +3,39 @@
 !include <C4/C4_Component>
 skinparam backgroundColor white
 skinparam defaultFontName SansSerif
+skinparam defaultFontSize 14
 skinparam shadowing false
-skinparam dpi 125
-title Allpatek | Spring REST API components
+skinparam dpi 120
 LAYOUT_TOP_DOWN()
-
-Container(web, "Allpatek Webapp", "Angular / HttpClient", "Calls the configured Render API.")
-Container_Boundary(api, "Spring Boot REST API") {
-  Component(rest, "REST adapters", "Spring MVC", "Controllers and assemblers for the business resources.")
-  Component(profiles, "Profiles / shared", "Spring application services", "Lists and updates profile data.")
-  Component(land, "Parcels", "Spring application services", "Manages listings and parcel status.")
-  Component(agreements, "Agreements", "Spring application services", "Stores acceptances and signals a newly fully signed agreement.")
-  Component(wallets, "Escrow", "Spring application services", "Stores wallets and their opening amounts.")
-  Component(evidence, "Tracking", "Spring application services", "Stores milestone evidence and its review status.")
-  Component(alerts, "Alerts", "Spring query service", "Computes readings for eligible parcels.")
-  Component(persistence, "Persistence adapters", "Spring Data JPA", "Implement domain repository ports and map persistence entities.")
+title Allpatek | Platform REST API components
+Container_Boundary(bound, "One Spring Boot application") {
+  Component(iam, "IAM", "SecurityFilterChain / REST", "Accounts, roles, BCrypt and bearer tokens.")
+  Component(pf, "Profiles", "Spring module", "Profile creation, current account and facade.")
+  Component(pa, "Parcels", "Spring module", "Catalog and production status.")
+  Component(ag, "Agreements", "Spring module", "Records acceptance and resolves the merchant.")
+  Component(tr, "Tracking", "Spring module", "Registers, verifies and releases evidence.")
+  Component(es, "Escrow", "Spring module", "Provisions and credits demo wallets.")
+  Component(al, "Alerts", "Spring module", "Returns forecasts for the signed-in owner.")
+  Component(sh, "Shared", "Shared infrastructure", "Domain events, results, REST errors and JPA bases.")
+  Component(jpa, "Persistence adapters", "Spring Data JPA", "Context-specific adapters map domain objects to rows.")
 }
-ContainerDb(db, "Application database", "MySQL", "Business records")
-System_Ext(weather, "Open-Meteo", "Forecast service")
-
-Rel(web, rest, "Calls business routes", "HTTPS /api/v1")
-Rel(rest, profiles, "/profiles")
-Rel(rest, land, "/parcels")
-Rel(rest, agreements, "/agreements")
-Rel(rest, wallets, "/wallets")
-Rel(rest, evidence, "/evidence")
-Rel(rest, alerts, "/alerts (available to API clients)")
-Rel(profiles, persistence, "Reads and updates")
-Rel(land, persistence, "Reads and writes")
-Rel(agreements, persistence, "Reads and writes")
-Rel(wallets, persistence, "Reads and writes")
-Rel(evidence, persistence, "Reads and writes")
-Rel(agreements, land, "When fully signed, mark the parcel in production", "Spring events")
-Rel(alerts, land, "Reads parcel locations", "ParcelsContextFacade")
-Rel(alerts, weather, "Requests forecasts", "WeatherForecastService")
-Rel(persistence, db, "Reads and writes", "SQL")
-footer HealthController serves / and /health. The API exposes /profiles; an account /users controller is absent.
-SHOW_LEGEND()
+ContainerDb(db, "MySQL", "JPA / SQL", "Mapped persistence entities.")
+System_Ext(meteo, "Open-Meteo", "Forecasts by coordinates.")
+Rel(iam, pf, "Looks up profile by email", "ACL / facade")
+Rel(ag, pa, "Fully signed agreement", "Spring event")
+Rel(pf, es, "Profile created", "Spring event")
+Rel(tr, es, "Evidence released", "Spring event")
+Rel(es, ag, "Looks up merchant", "ACL / facade")
+Rel(al, pa, "Gets parcel locations", "ACL / facade")
+Rel(al, pf, "Resolves current profile", "ACL / facade")
+Rel(al, meteo, "Requests weather", "HTTPS")
+Rel(jpa, db, "Persists entities", "SQL")
+Rel(jpa, sh, "Uses persistence bases")
+Rel(tr, sh, "Publishes aggregate events")
+Rel(iam, jpa, "Stores accounts and roles")
+Rel(pa, jpa, "Stores parcels")
+Rel(pf, jpa, "Stores profiles")
+Rel(ag, jpa, "Stores agreements")
+Rel(tr, jpa, "Stores evidence")
+Rel(es, jpa, "Stores wallets")
 @enduml

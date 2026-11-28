@@ -8,17 +8,17 @@ skinparam dpi 125
 title Allpatek | Angular Webapp components
 LAYOUT_TOP_DOWN()
 
-Person(user, "Farmer or merchant", "Selects a local demo role.")
+Person(user, "Farmer or merchant", "Signs up or signs in.")
 Container_Boundary(web, "Angular Webapp") {
-  Component(shared, "Shared shell and profiles", "Angular Router / Signals", "Navigation, local session, profile and language.")
+  Component(shared, "Shared shell and profiles", "Angular Router / Signals", "Credentials, bearer session, profiles, navigation and language.")
   Component(parcels, "parcel-management", "Angular / HttpClient", "Catalog, parcel form and details.")
   Component(agreements, "agreements-management", "Angular / HttpClient", "Records merchant and farmer acceptances.")
   Component(evidence, "tracking-evidence", "Angular / HttpClient", "Submits evidence and reviews milestones.")
   Component(escrow, "escrow-payments", "Angular / HttpClient", "Displays wallets and simulated releases.")
-  Component(alerts, "alerts-management", "Angular / HttpClient", "Requests forecasts for the farmer's parcels.")
+  Component(alerts, "alerts-management", "Angular / HttpClient", "Loads the signed-in owner's climate readings.")
 }
-Container(api, "Platform REST API", "Spring Boot", "Configured Render base /api/v1")
-System_Ext(weather, "Open-Meteo", "Forecast service")
+Container(api, "Platform REST API", "Spring Boot", "Configured platform base /api/v1")
+
 System_Ext(maps, "OpenStreetMap", "Map embed")
 
 Rel(user, shared, "Enters using /login or /register", "Browser")
@@ -27,14 +27,14 @@ Rel(shared, agreements, "/agreements", "Router")
 Rel(shared, evidence, "/evidence", "Router")
 Rel(shared, escrow, "/escrow", "Router")
 Rel(shared, alerts, "/alerts", "Router")
-Rel(shared, api, "Reads and updates /profiles", "HTTPS")
+Rel(shared, api, "Uses /users, /tokens, /profiles and /profiles/me", "HTTPS")
 Rel(parcels, api, "Reads and writes /parcels", "HTTPS")
 Rel(agreements, api, "Uses /agreements and /parcels", "HTTPS")
 Rel(evidence, api, "Uses /evidence, /agreements and /parcels", "HTTPS")
 Rel(escrow, api, "Uses /wallets and milestone records", "HTTPS")
-Rel(alerts, api, "Reads /parcels", "HTTPS")
-Rel(alerts, weather, "Loads forecast", "HTTPS / JSON")
+Rel(alerts, api, "GET /alerts for the signed-in account", "HTTPS / Bearer")
+
 Rel(parcels, maps, "Displays location", "HTTPS / iframe")
-footer Optional profile-to-account sync targets /users, which Spring does not expose. Browser webhooks appear in diagram 07.
+footer The auth interceptor supplies the token. Browser webhook callers appear in diagram 07.
 SHOW_LEGEND()
 @enduml

@@ -1,0 +1,50 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 14
+skinparam shadowing false
+skinparam dpi 120
+title Allpatek | IAM | Verifying a protected request
+skinparam packageStyle rectangle
+skinparam classAttributeIconSize 0
+hide empty members
+package "Application ports" #ECF6EF {
+  interface TokenService {
+    +generateToken(username: String): String
+  }
+  interface HashingService {
+    +matches(rawPassword: CharSequence, encodedPassword: String): boolean
+  }
+}
+package "Security adapters" #F6F1F8 {
+  interface BearerTokenService
+  interface BCryptHashingService
+  class TokenServiceImpl {
+    +validateToken(token: String): boolean
+    +getUsernameFromToken(token: String): String
+  }
+  class HashingServiceImpl {
+    +encode(rawPassword: CharSequence): String
+  }
+  class BearerAuthorizationRequestFilter
+  class UserDetailsServiceImpl {
+    +loadUserByUsername(username: String): UserDetails
+  }
+  class UserDetailsImpl
+  class WebSecurityConfiguration {
+    +authorizationRequestFilter(): BearerAuthorizationRequestFilter
+    +filterChain(http: HttpSecurity): SecurityFilterChain
+  }
+  class UnauthorizedRequestHandlerEntryPoint
+}
+TokenService <|-- BearerTokenService
+HashingService <|-- BCryptHashingService
+BearerTokenService <|.. TokenServiceImpl
+BCryptHashingService <|.. HashingServiceImpl
+BearerAuthorizationRequestFilter --> "1" BearerTokenService : validates token and reads subject
+BearerAuthorizationRequestFilter --> "1" UserDetailsServiceImpl : resolves authorities via UserDetailsService
+UserDetailsServiceImpl ..> UserDetailsImpl : builds from domain user
+WebSecurityConfiguration ..> BearerAuthorizationRequestFilter : installs in the filter chain
+WebSecurityConfiguration --> "1" UnauthorizedRequestHandlerEntryPoint : handles unauthenticated access via entry point
+@enduml

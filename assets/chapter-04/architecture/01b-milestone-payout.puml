@@ -22,7 +22,7 @@ legend center
 The reviewer may approve directly or request a correction. A progress notice does not gate review.
 Success and failure are alternative provider outcomes. Repeated confirmations must not pay twice.
 
-The Angular demo records review, verified and accepted. Spring persists evidence status with SaveEvidenceCommand.
-The real provider transfer and correction cycle remain target behavior; an accepted item does not prove a bank payout.
+Implemented: verify and release advance review to verified to accepted and publish events.
+Simulated: on release, Escrow attempts to credit the merchant wallet with 25000 cents. The target producer transfer and correction cycle remain open.
 endlegend
 @enduml

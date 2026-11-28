@@ -1,0 +1,41 @@
+@startuml
+!pragma layout smetana
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 14
+skinparam shadowing false
+skinparam dpi 120
+title Allpatek | MySQL mapping | Accounts, roles and memberships
+hide methods
+hide circle
+skinparam classAttributeIconSize 0
+entity "users" as usr {
+  {field} * id: BIGINT <<PK, AUTO>>
+  --
+  {field} * username: VARCHAR(160) <<UQ>>
+  {field} * password: VARCHAR(120) <<BCrypt hash>>
+  {field} * created_at: DATETIME(6)
+  {field} * updated_at: DATETIME(6)
+}
+entity "roles" as role {
+  {field} * id: BIGINT <<PK, AUTO>>
+  --
+  {field} * name: enum string <<UQ>>
+}
+entity "user_roles" as ur {
+  {field} user_id: BIGINT <<join>>
+  {field} role_id: BIGINT <<join>>
+}
+usr ||--o{ ur : user_id
+role ||--o{ ur : role_id
+entity "profiles" as prof {
+  {field} * email_address: VARCHAR(160) <<UQ>>
+}
+usr |o..o| prof : username matches email_address
+legend bottom
+PK: primary key. UQ: unique. AUTO: IDENTITY. *: NOT NULL.
+Solid: JPA many-to-many join mapping. Dotted: lookup by value, without a mapped FK.
+roles.name uses EnumType.STRING, declared length 20.
+Actual constraint names and deployed DDL require database inspection.
+endlegend
+@enduml

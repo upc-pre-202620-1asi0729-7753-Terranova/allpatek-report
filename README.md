@@ -2097,22 +2097,34 @@ En esta sección se presenta la propuesta formal de User Flows mapeados a partir
 
 | Actor | Ruta | Qué ocurre |
 |---|---|---|
-| Ambos | /login, /register, /profile | El inicio de sesión carga el perfil de agricultor de demostración. En el registro se selecciona el rol. La sesión se conserva en el navegador. |
+| Ambos | /login, /register, /profile | El registro crea la cuenta, inicia sesión y solicita crear el perfil. El login recibe un JWT y un identificador de perfil opcional. |
 | Agricultor | /parcels/new, /parcels/:id/edit | Ingresa datos, cultivos y coordenadas, que puede completar por departamento o GPS. Puede adjuntar fotos; hay una imagen por defecto. La pantalla vuelve al catálogo si la API confirma el guardado. |
 | Comerciante y agricultor | /parcels/:id, /agreements, /agreements/merchant | El comerciante abre el acuerdo desde el detalle de parcela. El agricultor revisa la solicitud en /agreements/merchant y confirma en /agreements. Se almacenan dos indicadores de aceptación. |
 | Agricultor y comerciante | /evidence/new, /evidence/review, /escrow | El agricultor adjunta una imagen. El comerciante verifica la evidencia y luego marca la liberación simulada en la bóveda. |
-| Comerciante | /escrow/deposit | Registra una tarjeta ficticia y un monto de demostración. La interfaz abrevia el número al mostrarlo. La API conserva los datos de prueba. |
-| Agricultor | /alerts | La SPA lee las parcelas en Spring y consulta Open-Meteo directamente para las del agricultor con coordenadas utilizables. La API también ofrece una consulta de clima independiente. |
+| Comerciante | /escrow/deposit | Trabaja con una billetera de demostración. La API intercambia la tarjeta enmascarada y expresa el saldo en céntimos. |
+| Agricultor | /alerts | Angular solicita `GET /api/v1/alerts` con el token. Spring resuelve el perfil por correo, busca sus parcelas y consulta el pronóstico. |
 
-En el flujo de evidencias, la UI usa review → verified → accepted. El acceso a evidencias se apoya en la aceptación del comerciante; la bóveda lista acuerdos con ambas aceptaciones y exige una tarjeta de demo y saldo disponible para marcar la liberación. El PUT reducido de liberación no incluye notas ni archivo, y el frontend transforma un error HTTP en un resultado exitoso. Con la API Spring configurada, el aviso puede indicar éxito aunque falle la escritura. Si el servidor acepta el reemplazo, se pueden perder las observaciones o el archivo omitidos. La transición debería guardar solo el nuevo estado, preservar la evidencia y mostrar éxito únicamente tras una respuesta válida.
+La SPA utiliza las operaciones de firma, verificación y liberación del servidor. El agricultor registra evidencia y el comerciante pasa de `review` a `verified` y luego a `accepted`. La respuesta de liberación confirma el cambio en la evidencia. El crédito depende de que Escrow encuentre el acuerdo, el perfil comerciante y su billetera. El resultado monetario es simulado.
 
-![Figura 4.4.4-A. Acuerdo, evidencia y liberación simulada](assets/chapter-04/architecture/18-flow-agreement-evidence.png)
+![Figura 4.4.4-A. Creación del acuerdo y firma del agricultor](assets/chapter-04/architecture/18-flow-agreement-evidence.png)
 
-*Figura 4.4.4-A. Acuerdo, evidencia y liberación simulada.* <a href="assets/chapter-04/architecture/18-flow-agreement-evidence.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/18-flow-agreement-evidence.svg">SVG</a>.
+*Figura 4.4.4-A. Creación del acuerdo y firma del agricultor.* <a href="assets/chapter-04/architecture/18-flow-agreement-evidence.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/18-flow-agreement-evidence.svg">SVG</a>.
 
 ![Figura 4.4.4-B. Publicación de parcela y consulta del clima](assets/chapter-04/architecture/19-flow-parcels-climate.png)
 
 *Figura 4.4.4-B. Publicación de parcela y consulta del clima.* <a href="assets/chapter-04/architecture/19-flow-parcels-climate.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/19-flow-parcels-climate.svg">SVG</a>.
+
+![Figura 4.4.4-C. Revisión del hito y crédito demostrativo](assets/chapter-04/architecture/flow-evidence-release.png)
+
+*Figura 4.4.4-C. Revisión del hito y crédito demostrativo.* [Ampliar en SVG](assets/chapter-04/architecture/flow-evidence-release.svg) · [Fuente PlantUML](assets/chapter-04/architecture/flow-evidence-release.puml).
+
+![Figura 4.4.4-D. Registro, autenticación y perfil](assets/chapter-04/architecture/flow-authentication.png)
+
+*Figura 4.4.4-D. Registro, autenticación y perfil.* [Ampliar en SVG](assets/chapter-04/architecture/flow-authentication.svg) · [Fuente PlantUML](assets/chapter-04/architecture/flow-authentication.puml).
+
+![Figura 4.4.4-E. Aprovisionamiento de billetera al crear el perfil](assets/chapter-04/architecture/flow-wallet-provision.png)
+
+*Figura 4.4.4-E. Aprovisionamiento de billetera al crear el perfil.* [Ampliar en SVG](assets/chapter-04/architecture/flow-wallet-provision.svg) · [Fuente PlantUML](assets/chapter-04/architecture/flow-wallet-provision.puml).
 
 ## 4.5. Web Applications Prototyping
 
@@ -2167,12 +2179,14 @@ En Allpatek, el comerciante alquila una parcela por temporada y contrata el trab
 |---|---|---|---|
 | Parcelas | `parcel-management` | `parcels` | Publicar la parcela, editarla y actualizar su estado. |
 | Acuerdos | `agreements-management` | `agreements` | Guardar las dos aceptaciones y comunicar la primera transición a acuerdo firmado por ambas partes. |
-| Bóveda | `escrow-payments` | `escrow` | Conservar la billetera de demostración y su saldo inicial. La interfaz simula la liberación por hito. |
-| Seguimiento | `tracking-evidence` | `tracking` | Asociar archivos y observaciones a un hito de la parcela y guardar su estado de revisión. |
-| Clima | `alerts-management` | `alerts` | Calcular lecturas de pronóstico para parcelas con coordenadas. |
-| Perfiles | `shared` | `shared` | Consultar y actualizar perfiles. El navegador conserva la sesión de demostración. |
+| Bóveda | `escrow-payments` | `escrow` | Crear la billetera elegible y acreditar un saldo demostrativo al recibir la liberación de evidencia. |
+| Seguimiento | `tracking-evidence` | `tracking` | Asociar el archivo al hito y al acuerdo. Verificar o liberar la evidencia con comandos específicos. |
+| Clima | `alerts-management` | `alerts` | Resolver el propietario autenticado y consultar el pronóstico de sus parcelas. |
+| Perfiles | `shared` | `profiles` | Crear y consultar la identidad de negocio y los datos de empresa. |
+| Identidad y acceso | `shared` | `iam` | Registrar cuentas, resolver roles y autenticar con BCrypt y JWT. |
+| Soporte transversal | Varios módulos | `shared` | Compartir resultados, errores, eventos, tipos base JPA y adaptadores HTTP. |
 
-**Base de la revisión.** Se cotejaron el frontend Angular (`1c92b1a`), la plataforma Spring (`a2b0269`) y la landing (`ccc9d71`) en las referencias locales. Los dos archivos de entorno de Angular configuran la API Spring en Render bajo `/api/v1`. JSON Server pertenece a una configuración anterior. Las figuras describen el código de esas revisiones.
+**Base de la revisión.** Backend `develop` (`82e8832`), frontend `origin/develop` (`996d647`) y landing `origin/develop` (`359cf77`), según las referencias locales. Ambas configuraciones de Angular usan la API de la plataforma bajo `/api/v1`. El backend es una sola aplicación Spring Boot 4.1.2, con Java 27 y MySQL. La [matriz de auditoría](assets/chapter-04/architecture/diagram-coherence-audit.md) vincula las figuras con las clases, operaciones y brechas del Sprint 4.
 
 ### 4.6.1. Design-Level Event Storming
 
@@ -2182,7 +2196,7 @@ El [Big Picture del capítulo II](#24-big-picture-event-storming) sigue la tempo
 
 *Figura 4.6.1. El ciclo de temporada del Big Picture y las decisiones que se detallan en este capítulo.* [Ampliar en SVG](assets/chapter-04/architecture/01c-season-lifecycle.svg) · [Fuente PlantUML](assets/chapter-04/architecture/01c-season-lifecycle.puml).
 
-**Comportamiento en Spring.** Al guardar el acuerdo, el adaptador compara las aceptaciones anteriores con las actuales. En la primera transición a dos aceptaciones, el agregado registra `AgreementFullySignedEvent`. La aplicación publica un evento de integración y Parcelas intenta marcar la parcela como `in_production`. Un identificador de parcela sin coincidencia se registra en el log. La confirmación bancaria y la emisión de un PDF quedan fuera de este recorrido. Seguimiento y Bóveda guardan datos sin publicar eventos de desembolso.
+**Comportamiento en Spring.** Profiles publica la creación de perfil y Escrow evalúa si corresponde abrir una billetera. La primera vez que un acuerdo queda con ambas firmas, Acuerdos comunica el hecho a Parcelas para que pase a producción. Seguimiento publica eventos al verificar y liberar evidencia. Escrow escucha la liberación, consulta a Acuerdos por el comerciante e intenta acreditar S/ 250 en su billetera de demostración. La verificación tiene evento de integración propio y no se encontró un consumidor en esta revisión.
 
 ![Figura 4.6.1-A. Comandos, eventos y consultas presentes en Spring](assets/chapter-04/architecture/01-eventstorming.png)
 
@@ -2200,7 +2214,7 @@ En el diseño del negocio, el comerciante solicita una temporada y ambas partes 
 
 #### Seguimiento de hitos y desembolso
 
-El agricultor presenta la evidencia y el comerciante la aprueba o pide una corrección. Aprobar autoriza solicitar un desembolso. El historial de pagos solo debe mostrarlo como realizado cuando el proveedor confirma la transferencia. Un rechazo permite revisar la solicitud y reintentar sin duplicar el pago. El capítulo II deja abiertas las decisiones sobre el plazo de revisión, cómo resolver una discrepancia de calidad y quién asume una pérdida por clima. También queda por conciliar el calendario de cinco liberaciones del Big Picture con los hitos del 1 al 4 que acepta el backend. Esas decisiones necesitan validación de los participantes.
+En el diseño objetivo el comerciante puede devolver la evidencia para corrección y el proveedor confirma el pago al agricultor. En el código actual, `verify` y `release` verifican el estado anterior. La liberación da lugar al crédito simulado del comerciante. Quedan por acordar el plazo de revisión, el criterio de calidad, las pérdidas por clima y la correspondencia entre las cinco liberaciones previstas en el Big Picture y los cuatro hitos admitidos por el código.
 
 ![Figura 4.6.1-C. Modelo propuesto para evidencia, revisión y desembolso](assets/chapter-04/architecture/01b-milestone-payout.png)
 
@@ -2216,14 +2230,14 @@ El agricultor ofrece la parcela y registra el trabajo. El comerciante contrata l
 
 ### 4.6.3. Software Architecture Container Diagrams
 
-Cada recuadro dentro del límite de Allpatek representa una unidad que se puede desplegar por separado. El enlace de la landing abre la webapp y el navegador carga la SPA. Desde allí salen las solicitudes a la API, a los pronósticos y a los webhooks.
+La landing abre la SPA. El navegador solicita los recursos de negocio a la API y puede enviar avisos a n8n. Spring Security valida las peticiones protegidas antes de que lleguen a los módulos. Desde Spring salen la consulta de pronóstico a Open-Meteo y las operaciones JPA contra MySQL.
 
 | Contenedor | Tecnología | Responsabilidad y conexión |
 |---|---|---|
 | Landing page | HTML, CSS y JavaScript | Presenta el servicio, abre la SPA, incorpora dos videos de YouTube y envía el contacto a n8n. |
-| Allpatek Webapp | Angular, TypeScript y HttpClient | Ejecuta las pantallas en el navegador, consume la API por HTTPS e incorpora el mapa de OpenStreetMap. La vista de clima pide pronósticos directamente a Open-Meteo. |
-| Platform REST API | Java y Spring Boot | Expone recursos bajo `/api/v1`, utiliza JPA para acceder a MySQL y ofrece su propia consulta de clima. |
-| Base de datos | MySQL | Persiste perfiles, parcelas, acuerdos, billeteras y evidencias. |
+| Allpatek Webapp | Angular 22, TypeScript y HttpClient | Adjunta el token a las llamadas protegidas, consulta alertas en el backend e incorpora el mapa de OpenStreetMap. |
+| Platform REST API | Java 27 y Spring Boot 4.1.2 | Una unidad de despliegue para los siete contextos y Shared. Ofrece REST, seguridad JWT, persistencia JPA y un adaptador a Open-Meteo. |
+| Base de datos | MySQL | Guarda cuentas, roles, asignaciones de rol, perfiles, parcelas, acuerdos, billeteras y evidencias. |
 
 ![Figura 4.6.3. Contenedores desplegables y comunicación de la webapp](assets/chapter-04/architecture/03-containers.png)
 
@@ -2231,13 +2245,13 @@ Cada recuadro dentro del límite de Allpatek representa una unidad que se puede 
 
 ### 4.6.4. Software Architecture Components Diagrams
 
-**API Java.** Los controladores REST reciben solicitudes y las delegan a los servicios de cada contexto. Los adaptadores JPA guardan sus resultados. Dos interacciones cruzan límites de negocio: Acuerdos notifica a Parcelas al completarse ambas aceptaciones y Clima consulta las ubicaciones de las parcelas. La ruta `/health` permite consultar el estado del servicio.
+**API Java.** Los controladores delegan en servicios de aplicación. IAM consulta Profiles para identificar el perfil al autenticar. Alerts utiliza las fachadas de Profiles y Parcels. Escrow pregunta a Agreements por el comerciante. Esas llamadas son síncronas. La creación de perfil, la firma completa y la liberación de evidencia llegan a sus consumidores mediante eventos Spring dentro del mismo proceso.
 
 ![Figura 4.6.4-A. Componentes y colaboraciones de la API Spring](assets/chapter-04/architecture/04-api-components.png)
 
 *Figura 4.6.4-A. Componentes y colaboraciones de la API Spring.* [Ampliar en SVG](assets/chapter-04/architecture/04-api-components.svg) · [Fuente PlantUML](assets/chapter-04/architecture/04-api-components.puml).
 
-**Aplicación web.** El enrutador de Angular organiza las pantallas por dominio. Los servicios consultan perfiles, parcelas, acuerdos, billeteras y evidencias en Spring. Los guardas y la selección de rol dependen del navegador. La sincronización adicional del perfil intenta usar `/users`, recurso sin controlador en esta versión de Spring.
+**Aplicación web.** Angular registra la cuenta en `/users`, inicia sesión en `/tokens` y consulta `/profiles/me`. El interceptor agrega el token Bearer a las solicitudes protegidas. Ante una respuesta 401 protegida, limpia la sesión y retorna al login. La pantalla de clima usa `AlertsApi` para consultar `/alerts`. `ClimateBoard` calcula los avisos visibles a partir de las mediciones recibidas.
 
 ![Figura 4.6.4-B. Módulos y dependencias de la SPA Angular](assets/chapter-04/architecture/05-web-components.png)
 
@@ -2249,7 +2263,7 @@ Cada recuadro dentro del límite de Allpatek representa una unidad que se puede 
 
 *Figura 4.6.4-C. Componentes de la landing.* <a href="assets/chapter-04/architecture/06-landing-components.puml">Fuente PlantUML</a> · <a href="assets/chapter-04/architecture/06-landing-components.svg">SVG</a>.
 
-**Automatización.** La landing comprueba la respuesta HTTP al enviar el contacto. En la SPA, la notificación de acuerdo se solicita tras guardar la segunda aceptación. El aviso de evidencia se inicia antes de conocer el resultado del guardado. En la bóveda, un error al guardar la liberación se puede convertir en éxito local y disparar el aviso. La figura identifica los puntos de llamada. El resultado del workflow, la entrega del correo y el PDF requieren evidencia independiente.
+**Automatización.** La landing comprueba la respuesta al enviar el contacto. La SPA intenta el aviso de acuerdo tras guardar la firma y el de evidencia antes de completar su guardado. La bóveda intenta avisar después de que la solicitud de liberación responde correctamente. Estos puntos demuestran la salida de la petición. El procesamiento del webhook, la generación del PDF y la entrega al destinatario requieren evidencia del workflow.
 
 ![Figura 4.6.4-D. Puntos de llamada a n8n desde las aplicaciones](assets/chapter-04/architecture/07-n8n-components.png)
 
@@ -2257,7 +2271,7 @@ Cada recuadro dentro del límite de Allpatek representa una unidad que se puede 
 
 #### Parcelas en la API
 
-ParcelsController delega la escritura y la consulta. El adaptador JPA guarda la parcela, el manejador de eventos actualiza su estado y la fachada comparte las ubicaciones con Clima.
+`ParcelsController` exige `ROLE_FARMER` al crear. Usa el perfil actual como propietario cuando existe y, en su defecto, el ID recibido. La fachada permite consultar ubicaciones por propietario. Un acuerdo completamente firmado solicita `MarkParcelInProductionCommand`. Un fallo de esa operación queda en el registro del servicio.
 
 ![Figura 4.6.4-E1. Componentes de parcelas](assets/chapter-04/architecture/c4-parcels.png)
 
@@ -2265,7 +2279,7 @@ ParcelsController delega la escritura y la consulta. El adaptador JPA guarda la 
 
 #### Acuerdos en la API
 
-El controlador guarda las aceptaciones. El adaptador compara las firmas con el estado anterior y el manejador del evento comunica a Parcelas que ambas partes aceptaron.
+La creación de un acuerdo requiere `ROLE_MERCHANT`. Para registrar la firma del agricultor se ofrece `POST /api/v1/agreements/{id}/farmer-signature` con `ROLE_FARMER`. Escrow consulta `AgreementsContextFacade` por el destinatario de su crédito. Las operaciones genéricas de guardado también reciben banderas de aceptación.
 
 ![Figura 4.6.4-E2. Componentes de acuerdos](assets/chapter-04/architecture/c4-agreements.png)
 
@@ -2273,7 +2287,7 @@ El controlador guarda las aceptaciones. El adaptador compara las firmas con el e
 
 #### Seguimiento en la API
 
-El servicio registra o actualiza una evidencia por parcela e hito. El repositorio conserva el estado y los datos de archivo que recibe.
+Seguimiento guarda la evidencia con `agreementId`. Los comandos de verificación y liberación comprueban el estado anterior, guardan el siguiente y publican eventos. El guardado genérico acepta el estado del recurso, por lo que esas reglas no cubren todas las escrituras.
 
 ![Figura 4.6.4-E3. Componentes de seguimiento](assets/chapter-04/architecture/c4-tracking.png)
 
@@ -2281,7 +2295,7 @@ El servicio registra o actualiza una evidencia por parcela e hito. El repositori
 
 #### Bóveda en la API
 
-El servicio guarda la billetera con un monto inicial y una tarjeta de demostración. La API expone operaciones sobre billeteras; la liberación visible en Angular modifica una evidencia.
+Escrow aprovisiona S/ 500 de demostración cuando el perfil nuevo contiene empresa o RUC y todavía carece de billetera. Al recibir `EvidenceReleasedIntegrationEvent` intenta acreditar S/ 250 al comerciante del acuerdo. Un destinatario o una billetera ausente queda registrado. La liberación y la acreditación se deben comprobar por separado.
 
 ![Figura 4.6.4-E4. Componentes de bóveda](assets/chapter-04/architecture/c4-escrow.png)
 
@@ -2289,7 +2303,7 @@ El servicio guarda la billetera con un monto inicial y una tarjeta de demostraci
 
 #### Clima en la API
 
-La consulta reúne las coordenadas de Parcelas y el pronóstico de Open-Meteo. Calcula el resultado bajo demanda y lo devuelve al cliente.
+`AlertsController` toma el username autenticado. `ExternalProfileService` resuelve el perfil por correo y `ExternalParcelService` busca sus parcelas. Sin perfil se devuelve un error, y con un perfil sin ubicaciones elegibles se devuelve una lista vacía. Open-Meteo interviene cuando hay coordenadas.
 
 ![Figura 4.6.4-E5. Componentes de clima](assets/chapter-04/architecture/c4-alerts.png)
 
@@ -2297,17 +2311,33 @@ La consulta reúne las coordenadas de Parcelas y el pronóstico de Open-Meteo. C
 
 #### Perfiles en la API
 
-El controlador y los servicios consultan o editan el perfil. El repositorio JPA conserva los datos personales y de empresa. El paquete de identidad carece de un flujo de autenticación implementado.
+Profiles reúne el agregado y sus reglas de identidad. Expone creación, consulta, edición y `/profiles/me`. `CurrentAccountService` lee el contexto de seguridad. La creación de un perfil nuevo publica `ProfileCreatedEvent`, que se traduce a `ProfileCreatedIntegrationEvent`.
 
 ![Figura 4.6.4-E6. Componentes de perfiles](assets/chapter-04/architecture/c4-shared-profiles.png)
 
 *Figura 4.6.4-E6. Componentes de perfiles.* [Ampliar en SVG](assets/chapter-04/architecture/c4-shared-profiles.svg) · [Fuente PlantUML](assets/chapter-04/architecture/c4-shared-profiles.puml).
 
+#### Identidad y acceso en la API
+
+IAM administra los usuarios y roles. BCrypt verifica credenciales y JWT identifica las peticiones posteriores. Crear una cuenta y crear un perfil son dos operaciones REST independientes.
+
+![Figura 4.6.4-E7. Componentes de IAM](assets/chapter-04/architecture/c4-iam.png)
+
+*Figura 4.6.4-E7. Componentes de IAM.* [Ampliar en SVG](assets/chapter-04/architecture/c4-iam.svg) · [Fuente PlantUML](assets/chapter-04/architecture/c4-iam.puml).
+
+#### Soporte transversal
+
+Shared aporta los tipos de resultado, el publicador de eventos, el manejo de errores HTTP y las bases de persistencia. Profiles conserva su propio modelo y repositorio.
+
+![Figura 4.6.4-F. Dependencias transversales de Shared](assets/chapter-04/architecture/c4-shared.png)
+
+*Figura 4.6.4-F. Dependencias transversales de Shared.* [Ampliar en SVG](assets/chapter-04/architecture/c4-shared.svg) · [Fuente PlantUML](assets/chapter-04/architecture/c4-shared.puml).
+
 ## 4.7. Software Object-Oriented Design
 
 Los diagramas se leen desde el **dominio**. Allí aparecen la parcela, el acuerdo o la evidencia y las reglas que les pertenecen. La capa de **aplicación** coordina cada operación, **interfaces** recibe la solicitud e **infraestructura** conecta el modelo con HTTP o la base de datos. En Angular, la pantalla delega el trabajo al store y el servicio HTTP adapta los datos de la API.
 
-Cada contexto incluye una figura del backend y otra de la webapp. Se muestran los miembros que intervienen en el recorrido y su visibilidad (`+` público, `-` privado, `#` protegido). Las relaciones indican qué objeto conoce o utiliza al otro y cuántas instancias admite cuando existe una asociación. Las interfaces y uniones de tipos de TypeScript aparecen según su representación en el código. La landing utiliza HTML, CSS y funciones JavaScript; su estructura se presenta en 4.6.4-C.
+Las figuras cubren los contextos del backend y los módulos correspondientes de Angular. IAM y Profiles comparten servicios del módulo `shared` únicamente en la webapp. La visibilidad se indica con `+` público, `-` privado y `#` protegido. Las dependencias y multiplicidades describen los miembros relevantes del recorrido. La landing es una página con funciones JavaScript y se detalla en 4.6.4-C.
 
 ### 4.7.1. Class Diagrams
 
@@ -2341,13 +2371,13 @@ Cada contexto incluye una figura del backend y otra de la webapp. Se muestran lo
 
 #### Bóveda de demostración
 
-**Backend.** `Wallet` asocia un perfil con una tarjeta y un saldo inicial expresado en centavos mediante `MoneyCents`. `WalletsController` delega el registro en `WalletCommandService`. El adaptador JPA conserva la billetera y los atributos de `PaymentCard`; esta operación guarda datos de la demo y el backend carece de un servicio de desembolso. El recurso expone el número de tarjeta y el CVV, y el modelo de persistencia los conserva. Para la demo corresponden datos ficticios.
+**Backend.** `Wallet.provision` crea la billetera con tarjeta enmascarada y saldo inicial. `Wallet.credit` devuelve una billetera con el monto incrementado. `WalletCommandServiceImpl` persiste el resultado. El ensamblador de persistencia escribe valores nulos en las columnas `card_number` y `cvv`.
 
 ![Figura 4.7.1-C1. Bóveda en Spring](assets/chapter-04/architecture/11-classes-payments.png)
 
 *Figura 4.7.1-C1. Bóveda en Spring.* [Ampliar en SVG](assets/chapter-04/architecture/11-classes-payments.svg) · [Fuente PlantUML](assets/chapter-04/architecture/11-classes-payments.puml).
 
-**Webapp.** `PaymentCard` representa la tarjeta del perfil en la demo y `EscrowEvidenceRef` vincula el hito a la parcela. `EscrowBoard` usa `WalletStore` para la bóveda y `EscrowStore` para la aprobación. En este frontend, `release` selecciona una evidencia verificada y solicita a `EscrowLookupApi` que la guarde como aceptada. Ese cambio de estado representa un desembolso simulado.
+**Webapp.** `EscrowStore.release` localiza la evidencia verificada. `EscrowLookupApi.updateEvidence` hace un POST a `/evidence/{id}/release` y comunica el resultado a `EscrowBoard`. Las lecturas de billetera provienen de `/wallets`.
 
 ![Figura 4.7.1-C2. Bóveda en Angular](assets/chapter-04/architecture/web-classes-escrow.png)
 
@@ -2355,7 +2385,7 @@ Cada contexto incluye una figura del backend y otra de la webapp. Se muestran lo
 
 #### Evidencias por hito
 
-**Backend.** `MilestoneEvidence` identifica la parcela, el hito, el archivo y el estado de revisión. `EvidenceController` convierte la petición en un comando y `EvidenceCommandServiceImpl` guarda el agregado mediante `EvidenceRepository`. `MilestoneNumber` admite los valores de 1 a 4. El backend almacena el estado enviado sin exigir una secuencia entre `review`, `verified` y `accepted`.
+**Backend.** `MilestoneEvidence` vincula parcela, acuerdo e hito del 1 al 4. `withStatus` conserva los datos y registra el evento de verificación o liberación. `EvidenceRepositoryImpl` guarda el nuevo estado y publica los eventos del agregado. Un guardado genérico sigue un camino distinto.
 
 ![Figura 4.7.1-D1. Seguimiento en Spring](assets/chapter-04/architecture/12-classes-monitoring.png)
 
@@ -2369,13 +2399,13 @@ Cada contexto incluye una figura del backend y otra de la webapp. Se muestran lo
 
 #### Perfiles compartidos
 
-**Backend.** En `shared`, `Profile` reúne los datos personales y los de la empresa. Al editar un perfil, `ProfilesController` entrega el comando a `ProfileCommandService`; su implementación busca el perfil, llama a `Profile.update` y guarda el cambio mediante `ProfileRepository`. El adaptador JPA transforma el agregado para persistirlo. El correo pertenece al perfil; la autenticación queda fuera de este flujo.
+**Backend.** `profiles` contiene `Profile`, los objetos de valor y las reglas de identidad. `ProfileRepositoryImpl` detecta el alta, guarda la entidad y publica el evento del agregado. La cuenta de acceso pertenece a IAM y el correo permite buscar su perfil.
 
 ![Figura 4.7.1-E1. Perfiles en Spring](assets/chapter-04/architecture/08-classes-users.png)
 
 *Figura 4.7.1-E1. Perfiles en Spring.* [Ampliar en SVG](assets/chapter-04/architecture/08-classes-users.svg) · [Fuente PlantUML](assets/chapter-04/architecture/08-classes-users.puml).
 
-**Webapp.** En el módulo compartido, `UserProfile` y `AccountUser` implementan `BaseEntity`. `AccountRole` es un alias de TypeScript con los dos roles de la aplicación. `Login` abre la sesión de agricultor de demostración y pide actualizar el perfil en pantalla. `SessionStore` conserva rol e identificador en el navegador. `ProfileStore` usa `ProfileApi` para los datos del perfil y `UserApi` para sincronizar nombre y correo. La sincronización con `/users` carece de un endpoint equivalente en Spring.
+**Webapp.** `Login` usa `UserApi.signIn` y guarda la sesión autenticada. `ProfileStore` usa `ProfileApi` para cargar el perfil propio y el directorio. El registro encadena alta, login y creación de perfil. Una operación ya completada puede subsistir si falla la siguiente.
 
 ![Figura 4.7.1-E2. Perfiles en Angular](assets/chapter-04/architecture/web-classes-profiles.png)
 
@@ -2389,23 +2419,39 @@ Cada contexto incluye una figura del backend y otra de la webapp. Se muestran lo
 
 *Figura 4.7.1-F1. Clima en Spring.* [Ampliar en SVG](assets/chapter-04/architecture/12b-classes-alerts.svg) · [Fuente PlantUML](assets/chapter-04/architecture/12b-classes-alerts.puml).
 
-**Webapp.** `WeatherReading` describe la lectura de una parcela. Cada lectura incorpora cuatro gráficos de temperatura, humedad, lluvia y viento definidos por `WeatherChart`. `ClimateBoard` cambia la parcela seleccionada en `ClimateStore`. El store carga las parcelas y envía sus coordenadas a `WeatherApi`, que consulta Open-Meteo directamente desde el navegador.
+**Webapp.** `ClimateStore` carga las lecturas mediante `AlertsApi.getReadings` cuando hay token. `ClimateBoard` permite seleccionar la parcela. La clase `WeatherApi` sigue en el repositorio, pero el store de esta pantalla consume la API Spring.
 
 ![Figura 4.7.1-F2. Clima en Angular](assets/chapter-04/architecture/web-classes-alerts.png)
 
 *Figura 4.7.1-F2. Clima en Angular.* [Ampliar en SVG](assets/chapter-04/architecture/web-classes-alerts.svg) · [Fuente PlantUML](assets/chapter-04/architecture/web-classes-alerts.puml).
 
+#### Identidad y autenticación
+
+`User` agrupa los roles. El servicio de registro resuelve los roles, aplica BCrypt y persiste la cuenta. `TokensController` pide el token y busca el perfil opcional por username. El filtro de las peticiones siguientes carga las autoridades desde la cuenta.
+
+![Figura 4.7.1-G. Clases de cuentas, roles y autenticación](assets/chapter-04/architecture/classes-iam.png)
+
+*Figura 4.7.1-G. Clases de cuentas, roles y autenticación.* [Ampliar en SVG](assets/chapter-04/architecture/classes-iam.svg) · [Fuente PlantUML](assets/chapter-04/architecture/classes-iam.puml).
+
+![Figura 4.7.1-H. Adaptadores de seguridad de IAM](assets/chapter-04/architecture/classes-iam-security.png)
+
+*Figura 4.7.1-H. Validación del token y recuperación de autoridades.* [Ampliar en SVG](assets/chapter-04/architecture/classes-iam-security.svg) · [Fuente PlantUML](assets/chapter-04/architecture/classes-iam-security.puml).
+
+![Figura 4.7.1-I. Recursos REST y fachada de IAM](assets/chapter-04/architecture/classes-iam-contracts.png)
+
+*Figura 4.7.1-I. Los recursos que entran y salen de cada controlador IAM.* [Ampliar en SVG](assets/chapter-04/architecture/classes-iam-contracts.svg) · [Fuente PlantUML](assets/chapter-04/architecture/classes-iam-contracts.puml).
+
 ## 4.8. Database Design
 
-La plataforma conserva perfiles, parcelas, acuerdos, billeteras y evidencias en MySQL. Los modelos físicos se deducen de las entidades JPA de `a2b0269`, sus atributos embebidos y la estrategia que convierte los nombres a plural. Las lecturas de clima se calculan al consultar el pronóstico. La sesión de demostración se conserva en el navegador.
+El mapeo JPA de `82e8832` describe ocho tablas. Identidad añade `users`, `roles` y `user_roles`. Profiles se relaciona con la cuenta por coincidencia de correo. Seguimiento incorporó la referencia opcional `evidences.agreement_id`. Las lecturas de clima se calculan bajo demanda.
 
 ### 4.8.1. Database Diagrams
 
-**Cómo leer el modelo.** La pata de cuervo significa «muchos», el círculo permite cero y la barra indica uno. `PK` identifica la clave primaria, `UQ` un valor único y el asterisco una columna obligatoria. Las líneas discontinuas representan asociaciones por identificador. El mapeo guarda estos valores como columnas simples, por lo que MySQL no comprueba la existencia del registro asociado mediante una FK. La cardinalidad muestra la relación esperada entre registros válidos.
+**Cómo leer el modelo.** La pata de cuervo significa «muchos», el círculo permite cero y la barra indica uno. `PK` indica clave primaria y `UQ`, unicidad. Las líneas continuas de IAM representan la asociación JPA de muchos a muchos mediante `user_roles`. Las discontinuas indican búsquedas por correo o identificadores escalares sin FK declarada entre contextos. El modelo se dedujo del código y de su estrategia de nombres.
 
-![Figura 4.8.1. Relaciones entre las cinco tablas del modelo MySQL](assets/chapter-04/architecture/20-database-overview.png)
+![Figura 4.8.1. Relaciones entre las ocho tablas del modelo MySQL](assets/chapter-04/architecture/20-database-overview.png)
 
-*Figura 4.8.1. Relaciones entre las cinco tablas del modelo MySQL.* [Ampliar en SVG](assets/chapter-04/architecture/20-database-overview.svg) · [Fuente PlantUML](assets/chapter-04/architecture/20-database-overview.puml).
+*Figura 4.8.1. Relaciones entre las ocho tablas del modelo MySQL.* [Ampliar en SVG](assets/chapter-04/architecture/20-database-overview.svg) · [Fuente PlantUML](assets/chapter-04/architecture/20-database-overview.puml).
 
 Una parcela guarda el identificador del propietario. Un perfil puede estar asociado a varias parcelas. Las listas de cultivos e imágenes se serializan como texto JSON.
 
@@ -2425,11 +2471,11 @@ El identificador del perfil es obligatorio y carece de restricción de unicidad.
 
 *Figura 4.8.1-C. Tabla wallets y perfil.* [Ampliar en SVG](assets/chapter-04/architecture/16-database-payments.svg) · [Fuente PlantUML](assets/chapter-04/architecture/16-database-payments.puml).
 
-Cada evidencia contiene el identificador de parcela, número de hito, estado y, cuando se adjuntan, notas y archivo. El pronóstico se calcula al consultar y carece de tabla propia.
+Cada evidencia conserva la parcela, la referencia opcional al acuerdo, el número de hito, el estado y los datos del adjunto. Los eventos de verificación y liberación se originan en las transiciones del agregado.
 
-![Figura 4.8.1-D. Tabla evidences y parcela](assets/chapter-04/architecture/17-database-monitoring.png)
+![Figura 4.8.1-D. Tabla evidences y referencias a parcela y acuerdo](assets/chapter-04/architecture/17-database-monitoring.png)
 
-*Figura 4.8.1-D. Tabla evidences y parcela.* [Ampliar en SVG](assets/chapter-04/architecture/17-database-monitoring.svg) · [Fuente PlantUML](assets/chapter-04/architecture/17-database-monitoring.puml).
+*Figura 4.8.1-D. Tabla evidences y referencias a parcela y acuerdo.* [Ampliar en SVG](assets/chapter-04/architecture/17-database-monitoring.svg) · [Fuente PlantUML](assets/chapter-04/architecture/17-database-monitoring.puml).
 
 El sistema asigna el identificador del perfil. El correo es obligatorio y único. Las tablas que guardan ese identificador como referencia se muestran en la vista general.
 
@@ -2437,7 +2483,11 @@ El sistema asigna el identificador del perfil. El correo es obligatorio y único
 
 *Figura 4.8.1-E. Tabla profiles y datos de contacto.* [Ampliar en SVG](assets/chapter-04/architecture/13-database-users.svg) · [Fuente PlantUML](assets/chapter-04/architecture/13-database-users.puml).
 
-La estrategia de nombres físicos transforma la anotación `@Table(name = "evidence")` en `evidences`. La ruta HTTP conserva el singular `/api/v1/evidence`. Las listas de cultivos e imágenes se serializan como texto JSON. Los archivos de evidencia se guardan como texto de imagen y nombre de archivo. wallets persiste card_number y cvv además de last4. No existen tablas de cuentas de acceso, reservas, hitos independientes, transacciones, reseñas ni alertas meteorológicas. Para el diseño objetivo quedan pendientes las restricciones entre registros, la protección de datos y la conservación de archivos al cambiar un estado.
+La estrategia de Hibernate convierte `evidence` en `evidences`. La ruta REST conserva el singular `/api/v1/evidence`. En `wallets`, los campos heredados de tarjeta completa siguen en el mapeo y el ensamblador guarda nulos en ambos. Esta revisión describe el esquema derivado de JPA. El DDL desplegado requiere inspección independiente.
+
+![Figura 4.8.1-F. Cuentas, roles, tabla de unión y vínculo lógico con Profiles](assets/chapter-04/architecture/database-iam.png)
+
+*Figura 4.8.1-F. Cuentas, roles, tabla de unión y vínculo lógico con Profiles.* [Ampliar en SVG](assets/chapter-04/architecture/database-iam.svg) · [Fuente PlantUML](assets/chapter-04/architecture/database-iam.puml).
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -4694,7 +4744,39 @@ Ejemplo de respuesta exitosa (`200 OK`) al consultar el catálogo de parcelas me
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
+**Versión desplegada y entorno**
 
+El backend del Sprint 4 se desplegó en el servidor de Proyecta el **26/11/2026 a las 17:03:11 (Lima)**. En la revisión del 28/11, el registro de despliegue y la versión en ejecución coincidieron en el commit [`82e8832` de `develop`](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-platform/commit/82e8832d1e70498ea183aa661af5b27a3f9924e4). [Ficha de verificación del servidor y publicaciones](assets/chapter-05/sprint-04-deployment-devops.txt)
+
+| Producto | Entorno y evidencia del Sprint 4 |
+| --- | --- |
+| API y base de datos | Java 27 y Spring Boot 4.1.2 sobre Ubuntu 24.04. PM2 reportó el proceso en línea y Nginx sirvió la API por HTTPS. Una consulta de solo lectura confirmó ocho tablas en MySQL 8.0.46. |
+| Aplicación web | Netlify respondió HTTP 200. El JavaScript publicado apunta a la API de Proyecta y el servidor aceptó la consulta previa del navegador desde el origen de Netlify (CORS). Queda pendiente identificar el commit del frontend en el panel de Netlify y comprobar un inicio de sesión de extremo a extremo. [Abrir la aplicación](https://terranova-allpatek.netlify.app/) |
+| Landing page | GitHub Pages registró el despliegue exitoso del commit `359cf77` el 27/11/2026 a las 15:52:59 (Lima). La página respondió HTTP 200 y enlaza a la aplicación web. [Abrir la landing](https://upc-pre-202620-1asi0729-7753-terranova.github.io/allpatek-website/) · [Ejecución de GitHub Actions](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/allpatek-website/actions/runs/46066535458) |
+
+**Cómo llegó la versión al servidor**
+
+1. El servidor revisa `develop` cada minuto. Cuando detectó el cambio, preparó una carpeta independiente para esa versión.
+2. Maven ejecutó **45 pruebas** con el perfil de pruebas y H2. El registro del despliegue indicó cero fallos, errores u omisiones. Después, Maven empaquetó el JAR.
+3. El proceso activó el nuevo JAR, reinició la aplicación con PM2 y comprobó la respuesta de OpenAPI. El registro marcó el despliegue como completado. La reversión a la versión anterior está configurada y queda pendiente comprobarla mediante una prueba controlada.
+
+Las capturas de Render y Aiven de la sección 5.2.3.7 corresponden al Sprint 3. Para este sprint, la comprobación del backend corresponde al servidor de Proyecta.
+
+**Comprobación pública del backend · 28/11/2026**
+
+Durante la revisión se consultaron por HTTPS tres recursos de Allpatek. La especificación publicada documentó 19 rutas e incluyó la firma del agricultor, la verificación y liberación de evidencias y la consulta de alertas.
+
+| Recurso | Resultado observado entre las 14:19:09 y las 14:19:11 (Lima) |
+| --- | --- |
+| [Swagger UI](https://allpatek.proyectaconsultora.com/swagger-ui/index.html) | HTTP 200 después de la redirección. El navegador mostró la documentación de Allpatek Platform. |
+| [Especificación OpenAPI](https://allpatek.proyectaconsultora.com/v3/api-docs) | HTTP 200. El documento indicó OpenAPI 3.1.0 y versión de la API `0.0.1-SNAPSHOT`. |
+| [Ruta de salud](https://allpatek.proyectaconsultora.com/health) | HTTP 401 al consultar sin credenciales. La respuesta confirma que el servidor atendió la solicitud. El estado de salud de la aplicación quedó sin verificar por esta vía. |
+
+[Registro de las tres consultas con fecha, hora y respuesta](assets/chapter-05/sprint-04-deployment-http.json)
+
+[![Swagger UI de Allpatek en producción, con los recursos de usuarios, tokens y perfiles.](assets/chapter-05/sprint-04-swagger-publico.png)](assets/chapter-05/sprint-04-swagger-publico.png)
+
+*Figura 5.2.4.7.1. Documentación pública del backend observada durante la revisión del Sprint 4.*
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 

@@ -12,9 +12,9 @@ AddElementTag("webapp", $bgColor="#116749", $fontColor="#FFFFFF", $legendText="A
 Person(user, "Farmer or merchant", "Uses Allpatek in a browser.")
 System_Boundary(allpatek, "Allpatek") {
   Container(landing, "Landing page", "HTML, CSS and JavaScript", "Introduces the service and collects contact inquiries.")
-  Container(web, "Allpatek Webapp (SPA)", "Angular 22 / TypeScript", "Runs in the browser. The demo session stores the chosen role and profile locally.", $tags="webapp")
-  Container(api, "Platform REST API", "Spring Boot 4.1 / Java 27", "Render API base configured in both Angular environments.")
-  ContainerDb(db, "Application database", "MySQL / JPA", "Profiles, parcels, agreements, wallets and milestone evidence.")
+  Container(web, "Allpatek Webapp (SPA)", "Angular 22 / TypeScript", "Signs in, stores the session and calls the platform with a bearer token.", $tags="webapp")
+  Container(api, "Platform REST API", "Spring Boot 4.1 / Java 27", "One modular application: IAM, Profiles, Parcels, Agreements, Tracking, Escrow and Alerts.")
+  ContainerDb(db, "Application database", "MySQL / JPA", "Accounts, roles, profiles, parcels, agreements, wallets and milestone evidence.")
 }
 System_Ext(auto, "n8n", "Browser webhook targets")
 System_Ext(weather, "Open-Meteo", "Weather forecasts")
@@ -26,12 +26,12 @@ Rel(user, web, "Uses", "Browser")
 Rel(landing, web, "Opens the Netlify app", "HTTPS link")
 Rel(landing, youtube, "Embeds product and team videos", "HTTPS / iframe")
 Rel(landing, auto, "Posts the contact form", "HTTPS / JSON")
-Rel(web, api, "Queries and updates business records", "HTTPS /api/v1")
-Rel(web, weather, "Loads forecasts directly", "HTTPS / JSON")
+Rel(web, api, "Queries and updates business records with JWT", "HTTPS /api/v1")
+
 Rel(web, maps, "Embeds the parcel map", "HTTPS / iframe")
 Rel(web, auto, "Requests agreement, evidence and payout notices", "HTTPS POST")
 Rel(api, db, "Reads and writes business records", "JPA / SQL")
-Rel(api, weather, "Serves its own /api/v1/alerts query", "HTTPS")
+Rel(api, weather, "Fetches forecasts for authenticated /alerts queries", "HTTPS")
 footer Arrows describe configured calls. Payment settlement and notification delivery require separate evidence.
 SHOW_LEGEND()
 @enduml

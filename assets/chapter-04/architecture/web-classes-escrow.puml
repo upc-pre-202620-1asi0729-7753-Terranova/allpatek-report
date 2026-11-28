@@ -53,7 +53,7 @@ class EscrowBoard {
 WalletStore -up-> "0..*" PaymentCard : holds cards
 EscrowStore -up-> "0..*" EscrowEvidenceRef : holds evidence
 WalletStore --> "1" WalletApi : reads and saves
-EscrowStore --> "1" EscrowLookupApi : updates milestone
+EscrowStore --> "1" EscrowLookupApi : POST evidence release
 EscrowBoard -up-> "1" WalletStore : reads card
 EscrowBoard -up-> "1" EscrowStore : approves milestone
 @enduml

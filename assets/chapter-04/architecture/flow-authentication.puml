@@ -1,0 +1,38 @@
+@startuml
+skinparam backgroundColor white
+skinparam defaultFontName SansSerif
+skinparam defaultFontSize 14
+skinparam shadowing false
+skinparam dpi 120
+hide footbox
+title Allpatek | Account registration, token and current profile
+actor Visitor
+participant "Angular SPA" as Web
+participant "IAM / REST" as IAM
+participant "User service + JPA" as U
+participant "Token / BCrypt services" as Sec
+participant "Profiles" as P
+Visitor -> Web : Register an account
+Web -> IAM : POST /api/v1/users (public)
+IAM -> U : SignUpCommand; resolve roles, check username
+U -> Sec : Encode password with BCrypt
+U -> U : Persist account and roles
+IAM --> Web : Created user
+Web -> IAM : POST /api/v1/tokens (public)
+IAM -> U : SignInCommand; load user and compare credentials
+alt Credentials accepted
+  U -> Sec : Generate signed JWT for the username
+  IAM -> P : Resolve optional profile ID via facade
+  IAM --> Web : Authenticated user, token and nullable profile ID
+  opt Registration flow creates a separate profile
+    Web -> P : POST /api/v1/profiles with bearer token
+  end
+  Web -> IAM : Protected request with Authorization: Bearer …
+  IAM -> Sec : Filter validates token and reads username
+  IAM -> U : Load user and authorities; set security context
+  IAM --> Web : Continue to the requested resource
+else Sign-in fails
+  IAM --> Web : Error response; no token
+end
+note over IAM,P : Account and profile are separate operations.\nA valid token does not by itself establish ownership of a business record.
+@enduml

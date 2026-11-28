@@ -20,26 +20,17 @@ interface WeatherChart {
   +line: string
   +area: string
 }
-class ParcelRef {
-  +id: string
-  +ownerId: number
-  +location: string
-}
 }
 package "Application" #EDF3F9 {
 class ClimateStore {
-  -weather: WeatherApi
-  -parcelRefApi: ParcelRefApi
+  -alertsApi: AlertsApi
   +readings: Signal<WeatherReading[]>
   +select(parcelId: string): void
 }
 }
 package "Infrastructure" #FFF6E2 {
-class WeatherApi {
-  +getForecast(places: WeatherPlace[]): Observable<WeatherReading[]>
-}
-class ParcelRefApi {
-  +getParcels(): Observable<ParcelRef[]>
+class AlertsApi {
+  +getReadings(): Observable<WeatherReading[]>
 }
 }
 package "Presentation" #F4EEFB {
@@ -50,8 +41,6 @@ class ClimateBoard {
 }
 WeatherReading "1" *-- "4" WeatherChart : sparks
 ClimateStore -up-> "0..*" WeatherReading : holds readings
-ClimateStore -up-> "0..*" ParcelRef : holds parcels
-ClimateStore --> "1" WeatherApi : requests forecast
-ClimateStore --> "1" ParcelRefApi : loads parcels
+ClimateStore --> "1" AlertsApi : GET /api/v1/alerts
 ClimateBoard -up-> "1" ClimateStore : selects parcel
 @enduml

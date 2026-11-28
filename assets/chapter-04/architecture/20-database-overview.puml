@@ -37,19 +37,41 @@ entity "evidences" as evidence {
   {field} * id: VARCHAR(160) <<PK>>
   --
   {field} * parcel_id: VARCHAR(160)
+  {field} agreement_id: VARCHAR(160)
 }
 
+entity "users" as usr {
+  {field} * id: BIGINT <<PK, AUTO>>
+  --
+  {field} * username: VARCHAR(160) <<UQ>>
+  {field} * password: VARCHAR(120) <<BCrypt hash>>
+  {field} * created_at: DATETIME(6)
+  {field} * updated_at: DATETIME(6)
+}
+entity "roles" as role {
+  {field} * id: BIGINT <<PK, AUTO>>
+  --
+  {field} * name: enum string <<UQ>>
+}
+entity "user_roles" as ur {
+  {field} user_id: BIGINT <<join>>
+  {field} role_id: BIGINT <<join>>
+}
+usr ||--o{ ur : user_id
+role ||--o{ ur : role_id
+usr |o..o| profile : username / email_address
 profile ||..o{ parcel : parcels.owner_id
 profile |o..o{ agreement : agreements.merchant_profile_id
 profile ||..o{ wallet : wallets.profile_id
 parcel ||..o{ agreement : agreements.parcel_id
 parcel ||..o{ evidence : evidences.parcel_id
+agreement |o..o{ evidence : evidences.agreement_id
 
 legend bottom
   PK = primary key     UQ = unique     * = NOT NULL
   Two bars = exactly one. A circle allows zero. A crow's foot means many.
   Dashed links are logical references stored as scalar IDs, without a declared FK.
   Cardinalities describe intended matches. The database can store unmatched IDs.
-  Only keys and reference columns are shown.
+  Solid: user-role JPA join. Dotted: scalar or email lookup. Deployed DDL unverified.
 endlegend
 @enduml

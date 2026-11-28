@@ -3,22 +3,27 @@
 !include <C4/C4_Component>
 skinparam backgroundColor white
 skinparam defaultFontName SansSerif
+skinparam defaultFontSize 14
 skinparam shadowing false
 skinparam dpi 120
 LAYOUT_TOP_DOWN()
-
-title Allpatek | C4 components - Profiles (shared)
-Container_Boundary(api, "Spring REST API / shared / profiles") {
-  Component(rest, "ProfilesController", "Spring MVC", "/api/v1/profiles")
-  Component(cmd, "ProfileCommandServiceImpl", "Application service", "Updates an existing profile by ID.")
-  Component(query, "ProfileQueryServiceImpl", "Application service", "Lists profiles or looks up one profile by ID.")
-  Component(repo, "ProfileRepositoryImpl", "JPA adapter", "Implements ProfileRepository and maps persisted records.")
+title Allpatek | Profiles and current account
+Container_Boundary(bound, "Spring API / profiles") {
+  Component(rest, "ProfilesController", "Spring MVC", "Create, list, read self/by ID and update.")
+  Component(acct, "CurrentAccountService", "Security context", "Reads username, authorities and current profile.")
+  Component(fac, "ProfilesContextFacadeImpl", "Facade", "Exposes a profile ID lookup by email.")
+  Component(srv, "Profile command and query services", "Application", "Create/update profiles, apply identity rules and perform lookups.")
+  Component(rep, "ProfileRepositoryImpl", "JPA adapter", "Persists profiles; a new aggregate raises ProfileCreatedEvent.")
+  Component(evt, "ProfileCreatedEventHandler", "Spring listener", "Publishes ProfileCreatedIntegrationEvent.")
 }
-
-ContainerDb(db, "MySQL", "Relational database", "profiles table")
-Rel(rest, cmd, "PUT")
-Rel(rest, query, "GET")
-Rel(cmd, repo, "Writes via ProfileRepository")
-Rel(query, repo, "Reads via ProfileRepository")
-Rel(repo, db, "Uses ProfilePersistenceRepository", "JPA")
+ContainerDb(db, "MySQL", "JPA / SQL", "Mapped persistence entities.")
+Component(esc, "ProfileCreatedEventHandler", "escrow", "Evaluates the wallet provisioning condition.")
+Rel(rest, acct, "Resolve current identity")
+Rel(rest, srv, "Commands and queries")
+Rel(fac, srv, "GetProfileByEmailQuery")
+Rel(srv, rep, "ProfileRepository")
+Rel(acct, rep, "Find by email")
+Rel(rep, db, "JPA")
+Rel(rep, evt, "Publish domain event", "Spring events")
+Rel(evt, esc, "Profile created", "Spring events")
 @enduml
